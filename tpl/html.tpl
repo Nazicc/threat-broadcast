@@ -18,8 +18,8 @@
   </div>
 <center>
 <font color='gray' size='2'>
-云贵安服 | 来自阿天 
+云贵安服 | 来自阿天 | 特别感谢 404NotFound | ~ 友情支持
 </font>
-</center> 特别感谢 404NotFound | ~
+</center> 
  </body>
 </html>
