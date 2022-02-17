@@ -26,7 +26,7 @@ class CNVD(BaseCrawler):
         self.name_ch = '国家信息安全漏洞共享平台（CNVD）'
         self.name_en = 'CNVD'
         self.home_page = 'https://www.cnvd.org.cn/'
-        self.url_list = 'https://www.cnvd.org.cn/flaw/list.htm'
+        self.url_list = 'https://www.cnvd.org.cn/flaw/list'
         self.url_cve = 'https://www.cnvd.org.cn/flaw/show/'
         self.header = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
