@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-17 22:27:40 -->
+<!-- RELEASE TIME : 2022-02-18 01:37:08 -->
 <html lang="zh-cn">
 
  <head>
@@ -87,6 +87,62 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">771e77029066a1b78e6297f5154893b3</td>
+       <td>CVE-2022-22916</td>
+       <td>2022-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>O2OA v6.4.7 was discovered to contain a remote code execution (RCE) vulnerability via /x_program_center/jaxrs/invoke.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22916">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">48f732846cf922e8402865b14e252b25</td>
+       <td>CVE-2021-46319</td>
+       <td>2022-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Remote Code Execution (RCE) vulnerability exists in D-Link Router DIR-846 DIR846A1_FW100A43.bin and DIR846enFW100A53DLA-Retail.bin. Malicious users can use this vulnerability to use "\ " or backticks to bypass the shell metacharacters in the ssid0 or ssid1 parameters to execute arbitrary commands.This vulnerability is due to the fact that CVE-2019-17509 is not fully patched and can be bypassed by using line breaks or backticks on its basis.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46319">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e5978dae7eb932fefbd0488d99dacfa8</td>
+       <td>CVE-2021-46315</td>
+       <td>2022-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Remote Command Execution (RCE) vulnerability exists in HNAP1/control/SetWizardConfig.php in D-Link Router DIR-846 DIR846A1_FW100A43.bin and DIR846enFW100A53DLA-Retail.bin. Malicoius users can use this vulnerability to use "\ " or backticks in the shell metacharacters in the ssid0 or ssid1 parameters to cause arbitrary command execution. Since CVE-2019-17510 vulnerability has not been patched and improved www/hnap1/control/setwizardconfig.php, can also use line breaks and backquotes to bypass.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46315">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2291735fadf2f1da44f6445d46bcc431</td>
+       <td>CVE-2022-23646</td>
+       <td>2022-02-17 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Next.js is a React framework. Starting with version 10.0.0 and prior to version 12.1.0, Next.js is vulnerable to User Interface (UI) Misrepresentation of Critical Information. In order to be affected, the `next.config.js` file must have an `images.domains` array assigned and the image host assigned in `images.domains` must allow user-provided SVG. If the `next.config.js` file has `images.loader` assigned to something other than default, the instance is not affected. Version 12.1.0 contains a patch for this issue. As a workaround, change `next.config.js` to use a different `loader configuration` other than the default.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23646">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">53d4bce429a343a9b6948b580d4b13c5</td>
+       <td>CVE-2022-22914</td>
+       <td>2022-02-17 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An incorrect access control issue in the component FileManager of Ovidentia CMS 6.0 allows authenticated attackers to to view and download content in the upload directory via path traversal.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22914">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e67f74f7da2271205cc1cbd9ecd5b38</td>
+       <td>CVE-2021-46314</td>
+       <td>2022-02-17 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Remote Command Execution (RCE) vulnerability exists in HNAP1/control/SetNetworkTomographySettings.php of D-Link Router DIR-846 DIR846A1_FW100A43.bin and DIR846enFW100A53DLA-Retail.bin because backticks can be used for command injection when judging whether it is a reasonable domain name.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46314">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb99a2ecb4595cdb0cb1f4bd8b64618c</td>
+       <td>CVE-2021-45382</td>
+       <td>2022-02-17 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Remote Command Execution (RCE) vulnerability exists in all series H/W revisions D-link DIR-810L, DIR-820L/LW, DIR-826L, DIR-830L, and DIR-836L routers via the DDNS function in ncc2 binary file. Note: DIR-810L, DIR-820L, DIR-830L, DIR-826L, DIR-836L, all hardware revisions, have reached their End of Life ("EOL") /End of Service Life ("EOS") Life-Cycle and as such this issue will not be patched.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45382">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">ca5659f485590da7d86eb71bc51b98ec</td>
        <td>CVE-2014-8597</td>
@@ -269,62 +325,6 @@
        <td>2022-02-17 00:15:00 <img src="imgs/new.gif" /></td>
        <td>The Quick Edit module does not properly check entity access in some circumstances. This could result in users with the "access in-place editing" permission viewing some content they are are not authorized to access. Sites are only affected if the QuickEdit module (which comes with the Standard profile) is installed.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25270">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f6eb03235246a8b57618b7e5e4eaf441</td>
-       <td>CVE-2022-25271</td>
-       <td>2022-02-16 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Drupal core's form API has a vulnerability where certain contributed or custom modules' forms may be vulnerable to improper input validation. This could allow an attacker to inject disallowed values or overwrite data. Affected forms are uncommon, but in certain cases an attacker could alter critical or sensitive data.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25271">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e491f929942deaad9348128efaa53b19</td>
-       <td>CVE-2022-24985</td>
-       <td>2022-02-16 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Forms generated by JQueryForm.com before 2022-02-05 allows a remote authenticated attacker to bypass authentication and access the administrative section of other forms hosted on the same web server. This is relevant only when an organization hosts more than one of these forms on their server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24985">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">57c79507f4f918fa697e387d8e4d9843</td>
-       <td>CVE-2022-24984</td>
-       <td>2022-02-16 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Forms generated by JQueryForm.com before 2022-02-05 (if file-upload capability is enabled) allow remote unauthenticated attackers to upload executable files and achieve remote code execution. This occurs because file-extension checks occur on the client side, and because not all executable content (e.g., .phtml or .php.bak) is blocked.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24984">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">383d4ceb09e702c5946550e9385f5df8</td>
-       <td>CVE-2021-43948</td>
-       <td>2022-02-15 04:15:00</td>
-       <td>Affected versions of Atlassian Jira Service Management Server and Data Center allow authenticated remote attackers to view the names of private objects via an Improper Authorization vulnerability in the "Move objects" feature. The affected versions are before version 4.21.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43948">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5adc35040649b3263b3bbce77506ffbb</td>
-       <td>CVE-2021-43941</td>
-       <td>2022-02-15 04:15:00</td>
-       <td>Affected versions of Atlassian Jira Server and Data Center allow remote attackers to modify several resources (including CsvFieldMappingsPage.jspa and ImporterValueMappingsPage.jspa) via a Cross-Site Request Forgery (CSRF) vulnerability in the jira-importers-plugin. The affected versions are before version 8.13.15, and from version 8.14.0 before 8.20.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43941">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">76f6cb5f3611dff6e308da7cdc7d6a91</td>
-       <td>CVE-2021-43940</td>
-       <td>2022-02-15 04:15:00</td>
-       <td>Affected versions of Atlassian Confluence Server and Data Center allow authenticated local attackers to achieve elevated privileges on the local system via a DLL Hijacking vulnerability in the Confluence installer. The affected versions are before version 7.4.10, and from version 7.5.0 before 7.12.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43940">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fefc399d88ff16373b4b0ac619e20fb2</td>
-       <td>CVE-2021-43953</td>
-       <td>2022-02-15 03:15:00</td>
-       <td>Affected versions of Atlassian Jira Server and Data Center allow unauthenticated remote attackers to toggle the Thread Contention and CPU monitoring settings via a Cross-Site Request Forgery (CSRF) vulnerability in the /secure/admin/ViewInstrumentation.jspa endpoint. The affected versions are before version 8.21.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43953">详情</a></td>
       </tr>
 
      </tbody>
@@ -590,7 +590,7 @@
       <tr>
        <td scope="row">73fe6fdcfe22463d4a2ce55f9daaa372</td>
        <td>CNNVD-202202-1370 (CVE-2022-22881)</td>
-       <td>2022-02-16 16:19:16 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:16</td>
        <td>Jeecg-boot SQL注入漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1370">详情</a></td>
       </tr>
@@ -598,7 +598,7 @@
       <tr>
        <td scope="row">b0cee9603e8bc407f388dff27de6d36a</td>
        <td>CNNVD-202202-1371 (CVE-2022-22885)</td>
-       <td>2022-02-16 16:19:14 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:14</td>
        <td>Hutool 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1371">详情</a></td>
       </tr>
@@ -606,7 +606,7 @@
       <tr>
        <td scope="row">bc003a9aa1a5c68f7480fe173e9f1e88</td>
        <td>CNNVD-202202-1372 (CVE-2022-23636)</td>
-       <td>2022-02-16 16:19:12 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:12</td>
        <td>Wasmtime 缓冲区错误漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1372">详情</a></td>
       </tr>
@@ -614,7 +614,7 @@
       <tr>
        <td scope="row">bdbd2cc2083153ae08f3d6498b9ad1cb</td>
        <td>CNNVD-202202-1373 (CVE-2022-24981)</td>
-       <td>2022-02-16 16:19:10 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:10</td>
        <td>JQueryForm.com Jquery Form Builder 代码注入漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1373">详情</a></td>
       </tr>
@@ -622,7 +622,7 @@
       <tr>
        <td scope="row">ae20b3b07b187166a994c55802432adc</td>
        <td>CNNVD-202202-1374 (CVE-2022-24982)</td>
-       <td>2022-02-16 16:19:08 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:08</td>
        <td>JQueryForm.com Jquery Form Builder 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1374">详情</a></td>
       </tr>
@@ -630,7 +630,7 @@
       <tr>
        <td scope="row">f30a4f88a1e2426be2a20afdb7edca06</td>
        <td>CNNVD-202202-1375 (CVE-2022-24984)</td>
-       <td>2022-02-16 16:19:06 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:06</td>
        <td>JQueryForm.com Jquery Form Builder 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1375">详情</a></td>
       </tr>
@@ -638,7 +638,7 @@
       <tr>
        <td scope="row">a5243ec6d56412c42cb19ae1ac5030a0</td>
        <td>CNNVD-202202-1376 (CVE-2022-24985)</td>
-       <td>2022-02-16 16:19:04 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:04</td>
        <td>JqueryForm.com Jquery Form Builder 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1376">详情</a></td>
       </tr>
@@ -646,7 +646,7 @@
       <tr>
        <td scope="row">778e6e053e0aaf633780ca6b5c1399ec</td>
        <td>CNNVD-202202-1377 (CVE-2022-25271)</td>
-       <td>2022-02-16 16:19:02 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:02</td>
        <td>Drupal 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1377">详情</a></td>
       </tr>
@@ -654,7 +654,7 @@
       <tr>
        <td scope="row">c8838731ce73fa11bc22e81e33dd7fbd</td>
        <td>CNNVD-202202-1378 (CVE-2022-0646)</td>
-       <td>2022-02-16 16:19:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:19:00</td>
        <td>Linux kernel 缓冲区错误漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1378">详情</a></td>
       </tr>
@@ -1610,7 +1610,7 @@
       <tr>
        <td scope="row">84bb45954c1e3ce971c7fb71430ff4f3</td>
        <td>AVD-2022-1037286</td>
-       <td>2022-02-16 16:18:25 <img src="imgs/new.gif" /></td>
+       <td>2022-02-16 16:18:25</td>
        <td>向日葵远程控制软件远程命令执行漏洞（CNVD-2022-10270）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-1037286">详情</a></td>
