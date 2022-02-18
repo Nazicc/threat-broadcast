@@ -1,0 +1,1713 @@
+2022-02-15 13:44:17 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:44:17 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:44:17 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 403]
+2022-02-15 13:44:17 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:44:17 [INFO] : --------------------------------------------
+2022-02-15 13:44:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:44:37 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:44:38 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 403]
+2022-02-15 13:44:38 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:44:38 [INFO] : --------------------------------------------
+2022-02-15 13:44:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:44:46 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:44:47 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 403]
+2022-02-15 13:44:47 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:44:47 [INFO] : --------------------------------------------
+2022-02-15 13:47:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:47:40 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:47:41 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 403]
+2022-02-15 13:47:41 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:47:41 [INFO] : --------------------------------------------
+2022-02-15 13:48:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:48:27 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:48:28 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 403]
+2022-02-15 13:48:28 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:48:28 [INFO] : --------------------------------------------
+2022-02-15 13:51:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:51:12 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:51:14 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 403]
+2022-02-15 13:51:14 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:51:14 [INFO] : --------------------------------------------
+2022-02-15 13:54:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:54:49 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:54:51 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 521]
+2022-02-15 13:54:51 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:54:51 [INFO] : --------------------------------------------
+2022-02-15 13:55:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:55:16 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:55:18 [ERROR] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报异常
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/cnvd.py", line 100, in get_cves
+    response = self.session.get(
+  File "/Users/skill/Desktop/threat-broadcast/venv/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'header'
+2022-02-15 13:55:18 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/cnvd.py", line 100, in get_cves
+    response = self.session.get(
+  File "/Users/skill/Desktop/threat-broadcast/venv/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'header'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/cnvd.py", line 100, in get_cves
+    response = self.session.get(
+  File "/Users/skill/Desktop/threat-broadcast/venv/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'header'
+2022-02-15 13:55:18 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:55:18 [INFO] : --------------------------------------------
+2022-02-15 13:55:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:55:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:55:40 [ERROR] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报异常
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/cnvd.py", line 100, in get_cves
+    response = self.session.get(
+  File "/Users/skill/Desktop/threat-broadcast/venv/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'header'
+2022-02-15 13:55:40 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/cnvd.py", line 100, in get_cves
+    response = self.session.get(
+  File "/Users/skill/Desktop/threat-broadcast/venv/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'header'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/Users/skill/Desktop/threat-broadcast/src/crawler/cnvd.py", line 100, in get_cves
+    response = self.session.get(
+  File "/Users/skill/Desktop/threat-broadcast/venv/lib/python3.8/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'header'
+2022-02-15 13:55:40 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:55:40 [INFO] : --------------------------------------------
+2022-02-15 13:55:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:55:52 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:56:06 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:56:06 [INFO] : --------------------------------------------
+2022-02-15 13:56:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:56:08 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:56:22 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:56:22 [INFO] : --------------------------------------------
+2022-02-15 13:57:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:57:20 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:57:20 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 521]
+2022-02-15 13:57:20 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:57:20 [INFO] : --------------------------------------------
+2022-02-15 13:57:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:57:43 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:57:55 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 13:57:55 [INFO] : --------------------------------------------
+2022-02-15 13:58:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 13:58:07 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 13:58:29 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
+2022-02-15 13:58:29 [INFO] : --------------------------------------------
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress WOOF插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:07
+[ CVE   ] CNVD-2022-09986 (CVE-2021-25085)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09986
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress Wicked Folders插件SQL注入漏洞
+[ TIME  ] 2022-02-14 13:58:08
+[ CVE   ] CNVD-2022-09987 (CVE-2021-24919)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09987
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress Visual CSS Style Editor插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:10
+[ CVE   ] CNVD-2022-09988 (CVE-2021-24934)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09988
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress UpdraftPlus WordPress Backup插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:11
+[ CVE   ] CNVD-2022-09990 (CVE-2021-25089)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09990
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress SVG Support插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:22
+[ CVE   ] CNVD-2022-09989 (CVE-2021-24686)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09989
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress RegistrationMagic插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:23
+[ CVE   ] CNVD-2022-09991 (CVE-2021-24648)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09991
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress Perfect Survey插件跨站请求伪造漏洞
+[ TIME  ] 2022-02-14 13:58:24
+[ CVE   ] CNVD-2022-09992 (CVE-2021-24763)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09992
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress Perfect Survey插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:26
+[ CVE   ] CNVD-2022-09993 (CVE-2021-24765)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09993
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress Perfect Survey插件SQL注入漏洞
+[ TIME  ] 2022-02-14 13:58:27
+[ CVE   ] CNVD-2022-09994 (CVE-2021-24762)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09994
+2022-02-15 13:58:29 [INFO] : 
+==============================================
+[ TITLE ] WordPress Ninja Tables插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:58:28
+[ CVE   ] CNVD-2022-09996 (CVE-2021-24900)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09996
+2022-02-15 13:58:29 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 13:58:29 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 13:58:30 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 13:58:30 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:01:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:01:46 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 14:01:47 [INFO] : 得到 [阿里云] 最新威胁情报 [1] 条
+2022-02-15 14:01:47 [INFO] : --------------------------------------------
+2022-02-15 14:01:47 [INFO] : 
+==============================================
+[ TITLE ] Apache APISIX batch-requests SSRF 漏洞
+                        
+[ TIME  ] 2022-01-24 14:01:47
+[ CVE   ] CVE-2022-24112
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987436
+2022-02-15 14:01:47 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 14:01:47 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 14:01:48 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:01:48 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:05:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:05:20 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 14:05:21 [INFO] : 得到 [阿里云] 最新威胁情报 [30] 条
+2022-02-15 14:05:21 [INFO] : --------------------------------------------
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] WebLogic Server 目录遍历漏洞（CVE-2022-21371）
+                        
+[ TIME  ] 2022-02-10 14:05:21
+[ CVE   ] CVE-2022-21371
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-21371
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] PostgreSQL JDBC 驱动远程代码执行漏洞（CVE-2022-21724）
+                        
+[ TIME  ] 2022-02-02 14:05:21
+[ CVE   ] CVE-2022-21724
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-21724
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Elite Graphix Elite Cms SQL注入漏洞
+                        
+[ TIME  ] 2022-02-02 14:05:21
+[ CVE   ] CVE-2022-24223
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-24223
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] polkit pkexec 本地提权漏洞（CVE-2021-4034）
+                        
+[ TIME  ] 2022-01-26 14:05:21
+[ CVE   ] CVE-2021-4034
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-4034
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache ShenYu Admin plugin 未授权访问漏洞（CVE-2022-23944）
+                        
+[ TIME  ] 2022-01-26 14:05:21
+[ CVE   ] CVE-2022-23944
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-23944
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Solr log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2022-01-24 14:05:21
+[ CVE   ] AVD-2022-987442
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987442
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache APISIX batch-requests SSRF 漏洞
+                        
+[ TIME  ] 2022-01-24 14:05:21
+[ CVE   ] CVE-2022-24112
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987436
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache ShardingSphere ElasticJob UI 敏感信息泄漏漏洞
+                        
+[ TIME  ] 2022-01-20 14:05:21
+[ CVE   ] CVE-2022-22733
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-22733
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Redash 默认secret key漏洞（CVE-2021-41192）
+                        
+[ TIME  ] 2022-01-13 14:05:21
+[ CVE   ] CVE-2021-41192
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-41192
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] HTTP 协议堆栈远程执行代码漏洞
+                        
+[ TIME  ] 2022-01-11 14:05:21
+[ CVE   ] CVE-2022-21907
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-21907
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Dubbo Hessian-Lite 远程代码执行漏洞（CVE-2021-43297）
+                        
+[ TIME  ] 2022-01-10 14:05:21
+[ CVE   ] CVE-2021-43297
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-43297
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] MeterSphere plugin 远程代码执行漏洞
+                        
+[ TIME  ] 2022-01-06 14:05:21
+[ CVE   ] AVD-2022-953356
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-953356
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] WebSphere Portal Proxy SSRF
+                        
+[ TIME  ] 2021-12-30 14:05:21
+[ CVE   ] AVD-2021-945157
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-945157
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache APISIX Dashboard 认证绕过漏洞
+                        
+[ TIME  ] 2021-12-28 14:05:21
+[ CVE   ] CVE-2021-45232
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-45232
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache OFBiz log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:05:21
+[ CVE   ] AVD-2022-987437
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987437
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] VMware vCenter log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:05:21
+[ CVE   ] AVD-2022-987438
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987438
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] MobileIron log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:05:21
+[ CVE   ] AVD-2022-987439
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987439
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache JSPWiki log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:05:21
+[ CVE   ] AVD-2022-987440
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987440
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Druid log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:05:21
+[ CVE   ] AVD-2022-987441
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987441
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j 1.x JMSAppender配置代码执行漏洞（CVE-2021-4104）
+                        
+[ TIME  ] 2021-12-16 14:05:21
+[ CVE   ] CVE-2021-4104
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-4104
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j2 Lookup 代码执行与拒绝服务漏洞（CVE-2021-45046）
+                        
+[ TIME  ] 2021-12-15 14:05:21
+[ CVE   ] CVE-2021-45046
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-45046
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] 致远OA log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-10 14:05:21
+[ CVE   ] AVD-2022-980667
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-980667
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j2 远程代码执行漏洞（CVE-2021-44228）
+                        
+[ TIME  ] 2021-12-09 14:05:21
+[ CVE   ] CVE-2021-44228
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-920285
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Grafana plugin 任意文件读取漏洞
+                        
+[ TIME  ] 2021-12-07 14:05:21
+[ CVE   ] CVE-2021-43798
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-916648
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] VMware vCenter <= 7.0.2.00100 provider-logo 任意文件读取漏洞
+                        
+[ TIME  ] 2021-12-02 14:05:21
+[ CVE   ] AVD-2021-887383
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-887383
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] 泛微e-office UploadFile.php 文件上传漏洞
+                        
+[ TIME  ] 2021-11-29 14:05:21
+[ CVE   ] AVD-2021-883601
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-883601
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Zoho ManageEngine ServiceDesk Plus 远程代码执行漏洞（CVE-2021-44077）	
+                        
+[ TIME  ] 2021-11-29 14:05:21
+[ CVE   ] CVE-2021-44077
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-44077
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] 蓝凌OA dataxml.jsp script 远程代码执行漏洞
+                        
+[ TIME  ] 2021-11-25 14:05:21
+[ CVE   ] AVD-2021-883469
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-883469
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Apache ShenYu Admin JWT认证绕过漏洞
+                        
+[ TIME  ] 2021-11-16 14:05:21
+[ CVE   ] CVE-2021-37580
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-37580
+2022-02-15 14:05:21 [INFO] : 
+==============================================
+[ TITLE ] Laravel Framework 代码问题漏洞
+                        
+[ TIME  ] 2021-11-15 14:05:21
+[ CVE   ] CVE-2021-43617
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-43617
+2022-02-15 14:05:22 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 14:05:22 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 14:05:23 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:05:23 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:06:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:06:44 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 14:06:45 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-15 14:06:45 [INFO] : --------------------------------------------
+2022-02-15 14:11:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:11:43 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 14:11:44 [INFO] : 得到 [阿里云] 最新威胁情报 [30] 条
+2022-02-15 14:11:44 [INFO] : --------------------------------------------
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] WebLogic Server 目录遍历漏洞（CVE-2022-21371）
+                        
+[ TIME  ] 2022-02-10 14:11:44
+[ CVE   ] CVE-2022-21371
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-21371
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] PostgreSQL JDBC 驱动远程代码执行漏洞（CVE-2022-21724）
+                        
+[ TIME  ] 2022-02-02 14:11:44
+[ CVE   ] CVE-2022-21724
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-21724
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Elite Graphix Elite Cms SQL注入漏洞
+                        
+[ TIME  ] 2022-02-02 14:11:44
+[ CVE   ] CVE-2022-24223
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-24223
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] polkit pkexec 本地提权漏洞（CVE-2021-4034）
+                        
+[ TIME  ] 2022-01-26 14:11:44
+[ CVE   ] CVE-2021-4034
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-4034
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache ShenYu Admin plugin 未授权访问漏洞（CVE-2022-23944）
+                        
+[ TIME  ] 2022-01-26 14:11:44
+[ CVE   ] CVE-2022-23944
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-23944
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache Solr log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2022-01-24 14:11:44
+[ CVE   ] AVD-2022-987442
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987442
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache APISIX batch-requests SSRF 漏洞
+                        
+[ TIME  ] 2022-01-24 14:11:44
+[ CVE   ] CVE-2022-24112
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987436
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache ShardingSphere ElasticJob UI 敏感信息泄漏漏洞
+                        
+[ TIME  ] 2022-01-20 14:11:44
+[ CVE   ] CVE-2022-22733
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-22733
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Redash 默认secret key漏洞（CVE-2021-41192）
+                        
+[ TIME  ] 2022-01-13 14:11:44
+[ CVE   ] CVE-2021-41192
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-41192
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] HTTP 协议堆栈远程执行代码漏洞
+                        
+[ TIME  ] 2022-01-11 14:11:44
+[ CVE   ] CVE-2022-21907
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-21907
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache Dubbo Hessian-Lite 远程代码执行漏洞（CVE-2021-43297）
+                        
+[ TIME  ] 2022-01-10 14:11:44
+[ CVE   ] CVE-2021-43297
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-43297
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] MeterSphere plugin 远程代码执行漏洞
+                        
+[ TIME  ] 2022-01-06 14:11:44
+[ CVE   ] AVD-2022-953356
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-953356
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] WebSphere Portal Proxy SSRF
+                        
+[ TIME  ] 2021-12-30 14:11:44
+[ CVE   ] AVD-2021-945157
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-945157
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache APISIX Dashboard 认证绕过漏洞
+                        
+[ TIME  ] 2021-12-28 14:11:44
+[ CVE   ] CVE-2021-45232
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-45232
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache OFBiz log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:11:44
+[ CVE   ] AVD-2022-987437
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987437
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] VMware vCenter log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:11:44
+[ CVE   ] AVD-2022-987438
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987438
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] MobileIron log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:11:44
+[ CVE   ] AVD-2022-987439
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987439
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache JSPWiki log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:11:44
+[ CVE   ] AVD-2022-987440
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987440
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache Druid log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-24 14:11:44
+[ CVE   ] AVD-2022-987441
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-987441
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j 1.x JMSAppender配置代码执行漏洞（CVE-2021-4104）
+                        
+[ TIME  ] 2021-12-16 14:11:44
+[ CVE   ] CVE-2021-4104
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-4104
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j2 Lookup 代码执行与拒绝服务漏洞（CVE-2021-45046）
+                        
+[ TIME  ] 2021-12-15 14:11:44
+[ CVE   ] CVE-2021-45046
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-45046
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] 致远OA log4j 远程代码执行漏洞
+                        
+[ TIME  ] 2021-12-10 14:11:44
+[ CVE   ] AVD-2022-980667
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-980667
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j2 远程代码执行漏洞（CVE-2021-44228）
+                        
+[ TIME  ] 2021-12-09 14:11:44
+[ CVE   ] CVE-2021-44228
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-920285
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Grafana plugin 任意文件读取漏洞
+                        
+[ TIME  ] 2021-12-07 14:11:44
+[ CVE   ] CVE-2021-43798
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-916648
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] VMware vCenter <= 7.0.2.00100 provider-logo 任意文件读取漏洞
+                        
+[ TIME  ] 2021-12-02 14:11:44
+[ CVE   ] AVD-2021-887383
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-887383
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] 泛微e-office UploadFile.php 文件上传漏洞
+                        
+[ TIME  ] 2021-11-29 14:11:44
+[ CVE   ] AVD-2021-883601
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-883601
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Zoho ManageEngine ServiceDesk Plus 远程代码执行漏洞（CVE-2021-44077）	
+                        
+[ TIME  ] 2021-11-29 14:11:44
+[ CVE   ] CVE-2021-44077
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-44077
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] 蓝凌OA dataxml.jsp script 远程代码执行漏洞
+                        
+[ TIME  ] 2021-11-25 14:11:44
+[ CVE   ] AVD-2021-883469
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-883469
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Apache ShenYu Admin JWT认证绕过漏洞
+                        
+[ TIME  ] 2021-11-16 14:11:44
+[ CVE   ] CVE-2021-37580
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-37580
+2022-02-15 14:11:44 [INFO] : 
+==============================================
+[ TITLE ] Laravel Framework 代码问题漏洞
+                        
+[ TIME  ] 2021-11-15 14:11:44
+[ CVE   ] CVE-2021-43617
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2021-43617
+2022-02-15 14:11:44 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 14:11:44 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 14:11:45 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:11:45 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:13:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:06 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 14:13:06 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-15 14:13:06 [INFO] : --------------------------------------------
+2022-02-15 14:13:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:06 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-15 14:13:06 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [6] 条
+2022-02-15 14:13:06 [INFO] : --------------------------------------------
+2022-02-15 14:13:06 [INFO] : 
+==============================================
+[ TITLE ] 安全事件周报 (02.07-02.13)
+[ TIME  ] 2022-02-14 15:19:41
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=611b23d40205282583472b55e274e8fe
+2022-02-15 14:13:06 [INFO] : 
+==============================================
+[ TITLE ] Linux Polkit 权限提升漏洞通告
+[ TIME  ] 2022-01-26 14:29:49
+[ CVE   ] CVE-2021-4034
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
+2022-02-15 14:13:06 [INFO] : 
+==============================================
+[ TITLE ] 安全事件周报 (01.17-01.23)
+[ TIME  ] 2022-01-24 11:38:37
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=e596c558eb2ec16626923db71e885fd2
+2022-02-15 14:13:06 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j多个安全漏洞通告
+[ TIME  ] 2022-01-20 17:02:00
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=b2dfa012dc5e51873238fd99d764aa3a
+2022-02-15 14:13:06 [INFO] : 
+==============================================
+[ TITLE ] 2022-01 补丁日: Oracle多个产品漏洞安全风险通告
+[ TIME  ] 2022-01-19 10:02:24
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=d07f54011175f51e46633bbfcfd7399a
+2022-02-15 14:13:06 [INFO] : 
+==============================================
+[ TITLE ] CVE-2021-44757：Zoho ManageEngine Desktop Central 身份验证绕过漏洞通告
+[ TIME  ] 2022-01-18 16:05:29
+[ CVE   ] CVE-2021-44757
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=ebd96266764e2c80293d3ccd41909f90
+2022-02-15 14:13:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:06 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-15 14:13:08 [INFO] : 得到 [绿盟] 最新威胁情报 [15] 条
+2022-02-15 14:13:08 [INFO] : --------------------------------------------
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Pointer Lock实现不当漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0467
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63074
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Extensions Platform实现不当漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0466
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63073
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Extensions内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0465
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63072
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Accessibility内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0464
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63071
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Accessibility内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0463
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63070
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Scroll实现不当漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0462
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63069
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome COOP策略绕过漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0461
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63068
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Window Dialog内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0460
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63067
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Screen Capture内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0459
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63066
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Thumbnail Tab Strip内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0458
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63065
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome V8类型混淆漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0457
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63064
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Web Search内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0456
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63063
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Full Screen Mode实现不当漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0455
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63062
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome ANGLE堆缓冲区溢出漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0454
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63061
+2022-02-15 14:13:08 [INFO] : 
+==============================================
+[ TITLE ] Google Chrome Reader Mode内存错误引用漏洞
+[ TIME  ] 2022-02-09 14:13:08
+[ CVE   ] CVE-2022-0453
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/63060
+2022-02-15 14:13:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:08 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-15 14:13:09 [INFO] : 得到 [奇安信] 最新威胁情报 [10] 条
+2022-02-15 14:13:09 [INFO] : --------------------------------------------
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2020-0013 Microsoft DNS Server远程代码执行漏洞（CVE-2020-1350）通告
+[ TIME  ] 2020-07-15 15:57:00
+[ CVE   ] CVE-2020-1350
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/microsoft-dns-server-remote-code-execution-vulnerability-notice
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QianxinTI-SV-2020-0012 Firefox在野远程代码执行漏洞（CVE-2020-6819、CVE-2020-6820）通告
+[ TIME  ] 2020-04-08 10:34:35
+[ CVE   ] CVE-2020-6819, CVE-2020-6820
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/firefox-wild-remote-code-execution-vulnerability-notice
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2020-0009 Microsoft Windows Type 1字体处理远程代码执行漏洞（ADV200006）通告
+[ TIME  ] 2020-03-25 13:58:51
+[ CVE   ] 
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/type-1-font-handling-remote-code-execution-vulnerability
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2020-0008 Microsoft Windows SMBv3.0服务远程代码执行漏洞（CVE-2020-0796）通告
+[ TIME  ] 2020-03-12 10:32:09
+[ CVE   ] CVE-2020-0796
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/microsoft-windows-smbv3.0-service-remote-code-execution-vulnerability
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2020-0002 Microsoft IE jscript远程命令执行0day漏洞（CVE-2020-0674）通告
+[ TIME  ] 2020-03-02 14:52:46
+[ CVE   ] CVE-2020-0674
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/update-microsoft-ie-jscript-remote-command-execution-0day-vulnerability-cve-2020-0674-notice
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QianxinTI-SV-2020-0001 微软核心加密库漏洞（CVE-2020-0601）通告
+[ TIME  ] 2020-01-15 14:11:41
+[ CVE   ] CVE-2020-0601
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/microsoft-core-cryptographic-library-vulnerability-cve-2020-0601-notice
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2019-0022 微软IE浏览器JScript脚本引擎远程代码执行漏洞通告
+[ TIME  ] 2019-09-25 17:23:00
+[ CVE   ] CVE-2019-1367
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/qianxinti-sv-2019-0022-cve-2019-1367
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2019-0006 微软远程桌面服务远程代码执行漏洞（CVE-2019-0708）预警通告
+[ TIME  ] 2019-09-09 10:20:47
+[ CVE   ] CVE-2019-0708
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/microsoft-remote-desktop-services-remote-code-execution-vulnerability-(cve-2019-0708)-alert-notice
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QianxinTI-SV-2019-0015 Microsoft Windows RDP远程桌面服务多个远程代码执行漏洞通告
+[ TIME  ] 2019-08-14 11:09:05
+[ CVE   ] CVE-2019-1181, CVE-2019-1182, CVE-2019-1222, CVE-2019-1226
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/microsoft-windows-rdp-remote-desktop-services-multiple-remote-code-rxecution-vulnerability-notice
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] QiAnXinTI-SV-2019-0013 Firefox远程代码执行漏洞（CVE-2019-11707）预警通告
+[ TIME  ] 2019-06-19 16:53:47
+[ CVE   ] CVE-2019-11707
+[ SRC   ] 奇安信
+[ URL   ] https://ti.qianxin.com/advisory/articles/Firefox-Remote-Code-Execution-Vulnerability-CVE-2019-11707-Alert-Notice
+2022-02-15 14:13:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:09 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-15 14:13:09 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-02-15 14:13:09 [INFO] : --------------------------------------------
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-02-14 13:46:02
+[ CVE   ] CVE-2020-6149
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=55e37e10834d44c8a101041c1f7620e5
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-02-14 13:45:58
+[ CVE   ] CVE-2020-6148
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3decaf2f33d04531a5a13ead53b091e3
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] IBM InfoSphere Information Server 安全漏洞
+[ TIME  ] 2022-02-14 13:45:54
+[ CVE   ] CVE-2020-4886
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=8c6618f35d0e428dbae34167d9fb0c12
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-02-14 13:45:52
+[ CVE   ] CVE-2020-6155
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ba420a116f0c43a99c02e9c3f49cc85a
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Ericsson Erlang 操作系统命令注入漏洞
+[ TIME  ] 2022-02-14 13:45:50
+[ CVE   ] CVE-2020-24719
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=e3c156b7b4694b06a1fd7c6f4ebd1a6f
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-02-14 13:45:44
+[ CVE   ] CVE-2020-6147
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=1eefa4b3e2af4767831e9534b0a09d98
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Intel Quartus Prime Pro Edition 和Intel Quartus Prime Standard Edition 代码问题漏洞
+[ TIME  ] 2022-02-14 13:45:43
+[ CVE   ] CVE-2020-24454
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=9082b107ef9d42d59cfccb53c7403f7b
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] CKEditor 跨站脚本漏洞
+[ TIME  ] 2022-02-14 13:45:36
+[ CVE   ] CVE-2020-27193
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=5c09109d04e84deeba4a1b100611fc55
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Spree 安全漏洞
+[ TIME  ] 2022-02-14 13:45:32
+[ CVE   ] CVE-2020-26223
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=8bba866584824695b6c9eec0bc472535
+2022-02-15 14:13:09 [INFO] : 
+==============================================
+[ TITLE ] Intel Driver Support Assistant 默认配置问题漏洞
+[ TIME  ] 2022-02-14 13:45:29
+[ CVE   ] CVE-2020-24460
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=0f237e368c2844f1a1af6392d0023745
+2022-02-15 14:13:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:09 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-15 14:13:13 [INFO] : 得到 [斗象] 最新威胁情报 [5] 条
+2022-02-15 14:13:13 [INFO] : --------------------------------------------
+2022-02-15 14:13:13 [INFO] : 
+==============================================
+[ TITLE ] Linux Polkit 权限提升漏洞(CVE-2021-4034)
+[ TIME  ] 2022-01-26 14:19:16
+[ CVE   ] CVE-2021-4034
+[ SRC   ] 斗象
+[ URL   ] https://vas.riskivy.com/vuln-detail?id=109
+2022-02-15 14:13:13 [INFO] : 
+==============================================
+[ TITLE ] 微软2022年1月补丁日漏洞通告
+[ TIME  ] 2022-01-12 11:44:50
+[ CVE   ] CVE-2022-21907, CVE-2022-21969, CVE-2022-21846, CVE-2022-21855, CVE-2022-21874, CVE-2022-21893, CVE-2022-21850, CVE-2022-21851, CVE-2022-21836, CVE-2022-21919
+[ SRC   ] 斗象
+[ URL   ] https://vas.riskivy.com/vuln-detail?id=108
+2022-02-15 14:13:13 [INFO] : 
+==============================================
+[ TITLE ] MeterSphere 远程代码执行漏洞
+[ TIME  ] 2022-01-06 16:19:17
+[ CVE   ] 
+[ SRC   ] 斗象
+[ URL   ] https://vas.riskivy.com/vuln-detail?id=107
+2022-02-15 14:13:13 [INFO] : 
+==============================================
+[ TITLE ] Apache APISIX Dashboard 接口未授权访问漏洞(CVE-2021-45232)
+[ TIME  ] 2021-12-28 18:31:16
+[ CVE   ] CVE-2021-45232
+[ SRC   ] 斗象
+[ URL   ] https://vas.riskivy.com/vuln-detail?id=106
+2022-02-15 14:13:13 [INFO] : 
+==============================================
+[ TITLE ] Apache Log4j 远程代码执行漏洞
+[ TIME  ] 2021-12-14 09:56:52
+[ CVE   ] CVE-2021-44228, CVE-2021-45046
+[ SRC   ] 斗象
+[ URL   ] https://vas.riskivy.com/vuln-detail?id=105
+2022-02-15 14:13:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:13 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-15 14:13:15 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-02-15 14:13:15 [INFO] : --------------------------------------------
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] In Mahara 20.10 before 20.10.4, 21.04 before 21.04.3, and 21.10 before 21.10.1, the names of folders in the Files area can be seen by a person not owning the folders. (Only folder names are affected. Neither file names nor file contents are affected.)
+[ TIME  ] 2022-02-09 05:15:09 
+[ CVE   ] CVE-2022-24694
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24694
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in the Calendar feature in Zimbra Collaboration Suite 8.8.x before 8.8.15 patch 30 (update 1), as exploited in the wild starting in December 2021. An attacker could place HTML containing executable JavaScript inside element attributes. This markup becomes unescaped, causing arbitrary markup to be injected into the document.
+[ TIME  ] 2022-02-09 04:15:07 
+[ CVE   ] CVE-2022-24682
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24682
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] Admin.php in HYBBS2 through 2.3.2 allows remote code execution because it writes plugin-related configuration information to conf.php.
+[ TIME  ] 2022-02-09 00:15:07 
+[ CVE   ] CVE-2022-24677
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24677
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] update_code in Admin.php in HYBBS2 through 2.3.2 allows arbitrary file upload via a crafted ZIP archive.
+[ TIME  ] 2022-02-09 00:15:07 
+[ CVE   ] CVE-2022-24676
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24676
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] StarWind SAN and NAS before 0.2 build 1685 allows remote code execution via a virtual disk management command.
+[ TIME  ] 2022-02-06 21:15:08 
+[ CVE   ] CVE-2022-24552
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24552
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] StarWind SAN and NAS before 0.2 build 1685 allows users to reset other users' passwords.
+[ TIME  ] 2022-02-06 21:15:08 
+[ CVE   ] CVE-2022-24551
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24551
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] NATS nats-server before 2.7.2 has Incorrect Access Control. Any authenticated user can obtain the privileges of the System account by misusing the &quot;dynamically provisioned sandbox accounts&quot; feature.
+[ TIME  ] 2022-02-08 02:15:06 
+[ CVE   ] CVE-2022-24450
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24450
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] Hospital Management System v4.0 was discovered to contain a SQL injection vulnerability in /Hospital-Management-System-master/func.php via the email parameter.
+[ TIME  ] 2022-01-31 22:15:07 
+[ CVE   ] CVE-2022-24263
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24263
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] Local privilege escalation due to unrestricted loading of unsigned libraries. The following products are affected: Acronis Cyber Protect Home Office (macOS) before build 39605, Acronis True Image 2021 (macOS) before build 39287
+[ TIME  ] 2022-02-04 23:15:16 
+[ CVE   ] CVE-2022-24115
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24115
+2022-02-15 14:13:15 [INFO] : 
+==============================================
+[ TITLE ] Local privilege escalation due to race condition on application startup. The following products are affected: Acronis Cyber Protect Home Office (macOS) before build 39605, Acronis True Image 2021 (macOS) before build 39287
+[ TIME  ] 2022-02-04 23:15:16 
+[ CVE   ] CVE-2022-24114
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24114
+2022-02-15 14:13:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:15 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 14:13:26 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
+2022-02-15 14:13:26 [INFO] : --------------------------------------------
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress WOOF插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:16
+[ CVE   ] CNVD-2022-09986 (CVE-2021-25085)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09986
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress Wicked Folders插件SQL注入漏洞
+[ TIME  ] 2022-02-14 14:13:17
+[ CVE   ] CNVD-2022-09987 (CVE-2021-24919)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09987
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress Visual CSS Style Editor插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:18
+[ CVE   ] CNVD-2022-09988 (CVE-2021-24934)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09988
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress UpdraftPlus WordPress Backup插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:19
+[ CVE   ] CNVD-2022-09990 (CVE-2021-25089)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09990
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress SVG Support插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:20
+[ CVE   ] CNVD-2022-09989 (CVE-2021-24686)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09989
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress RegistrationMagic插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:21
+[ CVE   ] CNVD-2022-09991 (CVE-2021-24648)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09991
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress Perfect Survey插件跨站请求伪造漏洞
+[ TIME  ] 2022-02-14 14:13:22
+[ CVE   ] CNVD-2022-09992 (CVE-2021-24763)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09992
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress Perfect Survey插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:23
+[ CVE   ] CNVD-2022-09993 (CVE-2021-24765)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09993
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress Perfect Survey插件SQL注入漏洞
+[ TIME  ] 2022-02-14 14:13:24
+[ CVE   ] CNVD-2022-09994 (CVE-2021-24762)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09994
+2022-02-15 14:13:26 [INFO] : 
+==============================================
+[ TITLE ] WordPress Ninja Tables插件跨站脚本漏洞
+[ TIME  ] 2022-02-14 14:13:25
+[ CVE   ] CNVD-2022-09996 (CVE-2021-24900)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-09996
+2022-02-15 14:13:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:26 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-15 14:13:44 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
+2022-02-15 14:13:44 [INFO] : --------------------------------------------
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Magento 输入验证错误漏洞
+[ TIME  ] 2022-02-13 14:13:28
+[ CVE   ] CNNVD-202202-1106 (CVE-2022-24086)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1106
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] BD Viper LT 信任管理问题漏洞
+[ TIME  ] 2022-02-11 14:13:29
+[ CVE   ] CNNVD-202202-1105 (CVE-2022-22765)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1105
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] MOXA Moxa MXView 信任管理问题漏洞
+[ TIME  ] 2022-02-11 14:13:31
+[ CVE   ] CNNVD-202202-1104 (CVE-2021-40390)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1104
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] MOXA Moxa MXView 安全漏洞
+[ TIME  ] 2022-02-11 14:13:32
+[ CVE   ] CNNVD-202202-1103 (CVE-2021-40392)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1103
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Mellium 安全漏洞
+[ TIME  ] 2022-02-11 14:13:34
+[ CVE   ] CNNVD-202202-1102 (CVE-2022-24968)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1102
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Puma  信息泄露漏洞
+[ TIME  ] 2022-02-11 14:13:36
+[ CVE   ] CNNVD-202202-1101 (CVE-2022-23634)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1101
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Rails Action Pack 信息泄露漏洞
+[ TIME  ] 2022-02-11 14:13:37
+[ CVE   ] CNNVD-202202-1100 (CVE-2022-23633)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1100
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Magnolia CMS 安全漏洞
+[ TIME  ] 2022-02-11 14:13:39
+[ CVE   ] CNNVD-202202-1099 (CVE-2021-46366)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1099
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Magnolia 安全漏洞
+[ TIME  ] 2022-02-11 14:13:41
+[ CVE   ] CNNVD-202202-1098 (CVE-2021-46365)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1098
+2022-02-15 14:13:44 [INFO] : 
+==============================================
+[ TITLE ] Magnolia 安全漏洞
+[ TIME  ] 2022-02-11 14:13:43
+[ CVE   ] CNNVD-202202-1097 (CVE-2021-46363)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1097
+2022-02-15 14:13:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 14:13:44 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-15 14:13:45 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-02-15 14:13:45 [INFO] : --------------------------------------------
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] NVIDIA License System contains a vulnerability in the installation scripts for the DLS virtual appliance, where a user on a network after signing in to the portal can access other users’ credentials, allowing them to gain escalated privileges, resulting in limited impact to both confidentiality and integrity.
+[ TIME  ] 2022-02-15 00:15:00
+[ CVE   ] CVE-2022-21818
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-21818
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] Improper Access Control in Packagist librenms/librenms prior to 22.2.0.
+[ TIME  ] 2022-02-14 23:15:00
+[ CVE   ] CVE-2022-0580
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0580
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] njs through 0.7.0, used in NGINX, was discovered to contain a heap use-after-free in njs_await_fulfilled.
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-25139
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25139
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] The rad_packet_recv function in radius/packet.c suffers from a memcpy buffer overflow, resulting in an overly-large recvfrom into a fixed buffer that causes a buffer overflow and overwrites arbitrary memory. If the server connects with a malicious client, crafted client requests can remotely trigger this vulnerability.
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-24705
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24705
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] The rad_packet_recv function in opt/src/accel-pppd/radius/packet.c suffers from a buffer overflow vulnerability, whereby user input len is copied into a fixed buffer &attr->val.integer without any bound checks. If the client connects to the server and sends a large radius packet, a buffer overflow vulnerability will be triggered.
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-24704
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24704
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] XCOM Data Transport for Windows, Linux, and UNIX 11.6 releases contain a vulnerability due to insufficient input validation that could potentially allow remote attackers to execute arbitrary commands with elevated privileges.
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-23992
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23992
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] AXIS IP Utility prior to 4.17.0 allows for remote code execution and local privilege escalation by the means of DLL hijacking. IPUtility.exe would attempt to load DLLs from its current working directory which could allow for remote code execution if a compromised DLL would be placed in the same folder.
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-23410
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23410
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] Infinite loop in RTMPT protocol dissector in Wireshark 3.6.0 to 3.6.1 and 3.4.0 to 3.4.11 allows denial of service via packet injection or crafted capture file
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-0586
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0586
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] Crash in the PVFS protocol dissector in Wireshark 3.6.0 to 3.6.1 and 3.4.0 to 3.4.11 allows denial of service via packet injection or crafted capture file
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-0583
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0583
+2022-02-15 14:13:45 [INFO] : 
+==============================================
+[ TITLE ] Unaligned access in the CSN.1 protocol dissector in Wireshark 3.6.0 to 3.6.1 and 3.4.0 to 3.4.11 allows denial of service via packet injection or crafted capture file
+[ TIME  ] 2022-02-14 22:15:00
+[ CVE   ] CVE-2022-0582
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0582
+2022-02-15 14:13:45 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 14:13:45 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 14:13:46 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 14:13:46 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 15:01:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:21 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 15:01:22 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-15 15:01:22 [INFO] : --------------------------------------------
+2022-02-15 15:01:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:22 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-15 15:01:22 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-15 15:01:22 [INFO] : --------------------------------------------
+2022-02-15 15:01:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:22 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-15 15:01:23 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-15 15:01:23 [INFO] : --------------------------------------------
+2022-02-15 15:01:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:23 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-15 15:01:24 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-15 15:01:24 [INFO] : --------------------------------------------
+2022-02-15 15:01:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:24 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-15 15:01:24 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-02-15 15:01:24 [INFO] : --------------------------------------------
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] XooNIps 跨站脚本漏洞
+[ TIME  ] 2022-02-15 13:45:35
+[ CVE   ] CVE-2020-5662
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=fb0956b97a8c4fbaba1117d519daf121
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] IBM Sterling B2B Integrator 跨站脚本漏洞
+[ TIME  ] 2022-02-15 13:45:31
+[ CVE   ] CVE-2020-4705
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4a86eb2c72274eb28155e08405adf056
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] XooNIps 跨站脚本漏洞
+[ TIME  ] 2022-02-15 13:45:28
+[ CVE   ] CVE-2020-5663
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=745bc12d3c7546fcb28d45d5b1c55a52
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] IBM Business Automation Workflow 跨站脚本漏洞
+[ TIME  ] 2022-02-15 13:45:24
+[ CVE   ] CVE-2020-4672
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=69db218a2d8c40a7803bf2ff7dd56f67
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] IBM Sterling File Gateway 安全漏洞
+[ TIME  ] 2022-02-15 13:45:20
+[ CVE   ] CVE-2020-4763
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=6f5d3613095f4fb895f3fa2662fd115a
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] XooNIps 代码问题漏洞
+[ TIME  ] 2022-02-15 13:45:17
+[ CVE   ] CVE-2020-5664
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ef53b74137a14f52b7b13b6e50e7342a
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] IBM Sterling B2B Integrator SQL注入漏洞
+[ TIME  ] 2022-02-15 13:45:14
+[ CVE   ] CVE-2020-4655
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c570e4655a974b4587ee578c12614cd5
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] IBM Sterling B2B Integrator 路径遍历漏洞
+[ TIME  ] 2022-02-15 13:45:10
+[ CVE   ] CVE-2020-4692
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=7964d56ddc8c4a80896b461a286d11b2
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] XooNIps SQL注入漏洞
+[ TIME  ] 2022-02-15 13:45:07
+[ CVE   ] CVE-2020-5659
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c5c7019d83f34dfcbe1f6a5b2dfd1413
+2022-02-15 15:01:24 [INFO] : 
+==============================================
+[ TITLE ] IBM Sterling File Gateway 安全漏洞
+[ TIME  ] 2022-02-15 13:45:04
+[ CVE   ] CVE-2020-4476
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=cadbba64bc734d22a567577e354088fc
+2022-02-15 15:01:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:24 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-15 15:01:28 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-15 15:01:28 [INFO] : --------------------------------------------
+2022-02-15 15:01:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:28 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-15 15:01:30 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-02-15 15:01:30 [INFO] : --------------------------------------------
+2022-02-15 15:01:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:30 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 15:01:30 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 404]
+2022-02-15 15:01:30 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 15:01:30 [INFO] : --------------------------------------------
+2022-02-15 15:01:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:30 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-15 15:01:46 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-15 15:01:46 [INFO] : --------------------------------------------
+2022-02-15 15:01:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 15:01:46 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-15 15:01:49 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-02-15 15:01:49 [INFO] : --------------------------------------------
+2022-02-15 15:01:49 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 15:01:49 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 15:01:50 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 15:01:50 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 16:38:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:33 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-15 16:38:34 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-15 16:38:34 [INFO] : --------------------------------------------
+2022-02-15 16:38:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:34 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-15 16:38:34 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-15 16:38:34 [INFO] : --------------------------------------------
+2022-02-15 16:38:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:34 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-15 16:38:35 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-15 16:38:35 [INFO] : --------------------------------------------
+2022-02-15 16:38:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:35 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-15 16:38:35 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-15 16:38:35 [INFO] : --------------------------------------------
+2022-02-15 16:38:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:35 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-15 16:38:36 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-15 16:38:36 [INFO] : --------------------------------------------
+2022-02-15 16:38:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:36 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-15 16:38:39 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-15 16:38:39 [INFO] : --------------------------------------------
+2022-02-15 16:38:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:39 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-15 16:38:40 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-02-15 16:38:40 [INFO] : --------------------------------------------
+2022-02-15 16:38:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:40 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-15 16:38:41 [WARNING] : 获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报失败： [HTTP Error 404]
+2022-02-15 16:38:41 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-15 16:38:41 [INFO] : --------------------------------------------
+2022-02-15 16:38:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:41 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-15 16:38:55 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-15 16:38:55 [INFO] : --------------------------------------------
+2022-02-15 16:38:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-15 16:38:55 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-15 16:38:57 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [6] 条
+2022-02-15 16:38:57 [INFO] : --------------------------------------------
+2022-02-15 16:38:57 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Jira Service Management Server and Data Center allow authenticated remote attackers to view the names of private objects via an Improper Authorization vulnerability in the "Move objects" feature. The affected versions are before version 4.21.0.
+[ TIME  ] 2022-02-15 04:15:00
+[ CVE   ] CVE-2021-43948
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43948
+2022-02-15 16:38:57 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Jira Server and Data Center allow remote attackers to modify several resources (including CsvFieldMappingsPage.jspa and ImporterValueMappingsPage.jspa) via a Cross-Site Request Forgery (CSRF) vulnerability in the jira-importers-plugin. The affected versions are before version 8.13.15, and from version 8.14.0 before 8.20.3.
+[ TIME  ] 2022-02-15 04:15:00
+[ CVE   ] CVE-2021-43941
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43941
+2022-02-15 16:38:57 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Confluence Server and Data Center allow authenticated local attackers to achieve elevated privileges on the local system via a DLL Hijacking vulnerability in the Confluence installer. The affected versions are before version 7.4.10, and from version 7.5.0 before 7.12.3.
+[ TIME  ] 2022-02-15 04:15:00
+[ CVE   ] CVE-2021-43940
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43940
+2022-02-15 16:38:57 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Jira Server and Data Center allow unauthenticated remote attackers to toggle the Thread Contention and CPU monitoring settings via a Cross-Site Request Forgery (CSRF) vulnerability in the /secure/admin/ViewInstrumentation.jspa endpoint. The affected versions are before version 8.21.0.
+[ TIME  ] 2022-02-15 03:15:00
+[ CVE   ] CVE-2021-43953
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43953
+2022-02-15 16:38:57 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Jira Service Management Server and Data Center allow authenticated remote attackers to view import source configuration information via a Broken Access Control vulnerability in the Insight Import Source feature. The affected versions are before version 4.21.0.
+[ TIME  ] 2022-02-15 03:15:00
+[ CVE   ] CVE-2021-43950
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43950
+2022-02-15 16:38:57 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Jira Server and Data Center allow unauthenticated remote attackers to restore the default configuration of fields via a Cross-Site Request Forgery (CSRF) vulnerability in the /secure/admin/RestoreDefaults.jspa endpoint. The affected versions are before version 8.21.0.
+[ TIME  ] 2022-02-15 01:15:00
+[ CVE   ] CVE-2021-43952
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43952
+2022-02-15 16:38:57 [INFO] : [邮件] 正在推送威胁情报...
+2022-02-15 16:38:57 [INFO] : [邮件] 收件人清单： ['threatbroadcast@foxmail.com']
+2022-02-15 16:38:57 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-15 16:38:57 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'

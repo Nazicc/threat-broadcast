@@ -6,6 +6,7 @@
 
 import sys
 from src.config import settings
+from src.crawler.datastarpocplus import PocPlus
 from src.crawler.vulhub import Vulhub
 from src.utils import log
 from pypdm.dbc._sqlite import SqliteDBC
@@ -56,8 +57,7 @@ def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass, qq_user, 
 
     else:
         all_cves = {}
-        #
-        srcs = [AliCloud(),Cert360(), Nsfocus(), QiAnXin(), RedQueen(), Vas(), NVD(), CNVD(), CNNVD(), Tenable()]
+        srcs = [PocPlus(),AliCloud(),Cert360(), Nsfocus(), QiAnXin(), RedQueen(), Vas(), NVD(), CNVD(), CNNVD(), Tenable()]
         for src in srcs:
             cves = src.cves()
             if cves:

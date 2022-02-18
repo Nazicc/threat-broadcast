@@ -1,0 +1,25 @@
+2022-02-17 23:11:01 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-02-17 23:11:01 [ERROR] : Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/Users/skill/Desktop/threat-broadcast/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 732, in login
+    (code, resp) = self.auth(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/smtplib.py", line 645, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
