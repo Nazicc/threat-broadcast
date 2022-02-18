@@ -57,8 +57,7 @@ def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass, qq_user, 
 
     else:
         all_cves = {}
-        
-        srcs = [PocPlus(),AliCloud(),Cert360(), Nsfocus(), QiAnXin(), RedQueen(), Vas(), NVD(), CNVD(), CNNVD(), Tenable()]
+        srcs = [PocPlus(),AliCloud(),CNVD(),CNNVD(),Cert360(),NVD(),Vulhub(),Nsfocus(),QiAnXin(),RedQueen(),Vas(),Tenable()]
         for src in srcs:
             cves = src.cves()
             if cves:

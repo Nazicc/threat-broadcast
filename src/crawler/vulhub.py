@@ -73,12 +73,16 @@ class Vulhub(BaseCrawler):
         if rst:
             cve.id = rst[0]
         else:
-            cve.id = cve.url.split("=")[1]
+            lists = cve.url.split("=")
+            if len(lists)>=2:
+                cve.id = lists[1]
+            else:
+                vulids = cve.url.split("/")
+                cve.id = vulids[len(vulids)-1]
 
         rst = re.findall(r'(\d\d\d\d-\d\d-\d\d)', xml)
         if rst:
             cve.time = rst[0] + time.strftime(" %H:%M:%S", time.localtime())
-
         return cve
 
 

@@ -26,7 +26,7 @@ class CNVD(BaseCrawler):
         self.name_ch = '国家信息安全漏洞共享平台（CNVD）'
         self.name_en = 'CNVD'
         self.home_page = 'https://www.cnvd.org.cn/'
-        self.url_list = 'https://www.cnvd.org.cn/flaw/list'
+        self.url_list = 'https://www.cnvd.org.cn/flaw/list?flag=true'
         self.url_cve = 'https://www.cnvd.org.cn/flaw/show/'
         self.header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -82,13 +82,40 @@ class CNVD(BaseCrawler):
 
 
     def get_cves(self, limit = 6):
-        params = {
-            'length': limit,
-            'start' : 0
-        }
+        # data = {
+        #     "number":"请输入精确编号",
+        #     "startDate":"2022-02-18",
+        #     "endDate":"2022-02-18",
+        #     "flag":"true",
+        #     "field":"",
+        #     "order":"",
+        #     "serverity":18,
+        #     "numPerPage":30,
+        #     "offset":10,
+        #     "max":30
+        # }
+        # data = {
+        #     "keyword": "",
+        #     "condition": 1,
+        #     "keywordFlag": 0,
+        #     "cnvdId": "",
+        #     "cnvdIdFlag": 0,
+        #     "baseinfoBeanbeginTime": "2022 - 02 - 18",
+        #     "baseinfoBeanendTime": "2022 - 02 - 18",
+        #     "baseinfoBeanFlag": 0,
+        #     "refenceInfo": "",
+        #     "referenceScope": -1,
+        #     "manufacturerId": -1,
+        #     "categoryId": -1,
+        #     "editionId": -1,
+        #     "serverity": 18,
+        #     "causeIdStr": "",
+        #     "threadIdStr": "",
+        #     "serverityIdStr": 18,
+        #     "positionIdStr": ""
+        # }
         response = self.session.get(
             self.url_list,
-            params = params,
             timeout = self.timeout,
             headers = self.header
         )
@@ -122,6 +149,7 @@ class CNVD(BaseCrawler):
                 timeout = self.timeout,
                 headers=self.header
             )
+            time.sleep(1)
             response.encoding = 'utf-8'
 
             if response.status_code == 200:

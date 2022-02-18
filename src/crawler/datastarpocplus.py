@@ -73,7 +73,8 @@ class PocPlus(BaseCrawler):
             cve.id = json_obj.get("cveId")
         else:
             res = re.findall("(CNVD-\d{4}-\d{4})",cve.title)
-            print(res)
+            if len(res)>0:
+                cve.id = res[0]
         return cve
 
 
