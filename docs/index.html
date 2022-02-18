@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-18 01:37:08 -->
+<!-- RELEASE TIME : 2022-02-18 02:42:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -87,6 +87,46 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">d2d6fc6d3445eb67f07e276ecb636c5b</td>
+       <td>CVE-2021-41599</td>
+       <td>2022-02-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A remote code execution vulnerability was identified in GitHub Enterprise Server that could be exploited when building a GitHub Pages site. To exploit this vulnerability, an attacker would need permission to create and build a GitHub Pages site on the GitHub Enterprise Server instance. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.3 and was fixed in versions 3.0.21, 3.1.13, 3.2.5. This vulnerability was reported via the GitHub Bug Bounty program.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41599">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">82e5fe71286d59bdf649aa90e479b69e</td>
+       <td>CVE-2021-44731</td>
+       <td>2022-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>A race condition existed in the snapd 2.54.2 snap-confine binary when preparing a private mount namespace for a snap. This could allow a local attacker to gain root privileges by bind-mounting their own contents inside the snap's private mount namespace and causing snap-confine to execute arbitrary code and hence gain privilege escalation. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44731">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">66157ce5333796d34733f27f97763af9</td>
+       <td>CVE-2021-44730</td>
+       <td>2022-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>snapd 2.54.2 did not properly validate the location of the snap-confine binary. A local attacker who can hardlink this binary to another location to cause snap-confine to execute other arbitrary binaries and hence gain privilege escalation. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44730">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f956da934cc9b2791b3587a4c5e4deb0</td>
+       <td>CVE-2021-4120</td>
+       <td>2022-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>snapd 2.54.2 fails to perform sufficient validation of snap content interface and layout paths, resulting in the ability for snaps to inject arbitrary AppArmor policy rules via malformed content interface and layout declarations and hence escape strict snap confinement. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4120">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3c57c9624f479f606035b66440ca22e0</td>
+       <td>CVE-2021-3155</td>
+       <td>2022-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>snapd 2.54.2 and earlier created ~/snap directories in user home directories without specifying owner-only permissions. This could allow a local attacker to read information that should have been private. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3155">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">771e77029066a1b78e6297f5154893b3</td>
        <td>CVE-2022-22916</td>
@@ -287,46 +327,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46368">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">8f6ef6bb246bdcd2e6fc6de0305928f9</td>
-       <td>CVE-2022-0623</td>
-       <td>2022-02-17 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds Read in Homebrew mruby prior to 3.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0623">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9057d8684f73f7254b40c9c2ce180b5c</td>
-       <td>CVE-2022-24953</td>
-       <td>2022-02-17 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Crypt_GPG extension before 1.6.7 for PHP does not prevent additional options in GPG calls, which presents a risk for certain environments and GPG versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24953">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b1457aef9e0d4d81eec866a41c353f96</td>
-       <td>CVE-2022-22901</td>
-       <td>2022-02-17 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is an Assertion in 'context_p->next_scanner_info_p->type == SCANNER_TYPE_FUNCTION' failed at parser_parse_function_arguments in /js/js-parser.c of JerryScript commit a6ab5e9.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22901">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">be74cb65b2a98281d5ce0ad6dc97cf46</td>
-       <td>CVE-2022-0622</td>
-       <td>2022-02-17 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Generation of Error Message Containing Sensitive Information in Packagist snipe/snipe-it prior to 5.3.11.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0622">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">462297ce5efdd582c98eda425f8c6628</td>
-       <td>CVE-2022-25270</td>
-       <td>2022-02-17 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Quick Edit module does not properly check entity access in some circumstances. This could result in users with the "access in-place editing" permission viewing some content they are are not authorized to access. Sites are only affected if the QuickEdit module (which comes with the Standard profile) is installed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25270">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -347,6 +347,78 @@
        <td>2022-02-18 16:18:44 <img src="imgs/new.gif" /></td>
        <td>组态王存在文件删除漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-07017">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8bbf71d2236f4e1678c337bf8b1307da</td>
+       <td>CNVD-2022-11492 (CVE-2022-22545)</td>
+       <td>2022-02-18 02:41:37 <img src="imgs/new.gif" /></td>
+       <td>SAP NetWeaver Application Server ABAP and ABAP Platform信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11492">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">68cc76fce4e412ae4da2eb7b5060057c</td>
+       <td>CNVD-2022-11493 (CVE-2022-22546)</td>
+       <td>2022-02-18 02:41:36 <img src="imgs/new.gif" /></td>
+       <td>SAP Business Objects Web Intelligence跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11493">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d294549956421e69a651604af28de14</td>
+       <td>CNVD-2022-11494 (CVE-2022-22779)</td>
+       <td>2022-02-18 02:41:35 <img src="imgs/new.gif" /></td>
+       <td>Keybase信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11494">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ca674b4011c64bc337f531b103816ab7</td>
+       <td>CNVD-2022-11496 (CVE-2021-45942)</td>
+       <td>2022-02-18 02:41:33 <img src="imgs/new.gif" /></td>
+       <td>ILM OpenEXR缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11496">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9830792954a2bf5c71af8e7904546e81</td>
+       <td>CNVD-2022-11497 (CVE-2021-43333)</td>
+       <td>2022-02-18 02:41:32 <img src="imgs/new.gif" /></td>
+       <td>Datalogic Dxu Service授权问题漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11497">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a3f320b6211b62c48591d71bfdf84ee</td>
+       <td>CNVD-2022-11498 (CVE-2021-44852)</td>
+       <td>2022-02-18 02:41:30 <img src="imgs/new.gif" /></td>
+       <td>Biostar RACING GT Evo存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11498">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fd36407f97afdc493b4c2116dc58dbc0</td>
+       <td>CNVD-2022-11495 (CVE-2022-0365)</td>
+       <td>2022-02-18 02:41:29 <img src="imgs/new.gif" /></td>
+       <td>Ricon Mobile Ricon Industrial Cellular Router S9922L和S9922XL操作系统命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11495">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a3813b323cae8b62087f749c3ecbb7e7</td>
+       <td>CNVD-2022-11490 (CVE-2022-24348)</td>
+       <td>2022-02-18 02:41:27 <img src="imgs/new.gif" /></td>
+       <td>Argo CD路径遍历漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11490">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f0bf6d96bd95a5b04d977882df7e3ed</td>
+       <td>CNVD-2022-11499 (CVE-2021-25981)</td>
+       <td>2022-02-18 02:41:26 <img src="imgs/new.gif" /></td>
+       <td>Talkyard代码问题漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-11499">详情</a></td>
       </tr>
 
       <tr>
@@ -507,62 +579,6 @@
        <td>2022-02-14 14:13:23</td>
        <td>WordPress Perfect Survey插件跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09993">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">56ccfc576f580e16e93f1df29c61a0ec</td>
-       <td>CNVD-2022-09992 (CVE-2021-24763)</td>
-       <td>2022-02-14 14:13:22</td>
-       <td>WordPress Perfect Survey插件跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09992">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05136d5bbccc8649fc95cbef5aef965c</td>
-       <td>CNVD-2022-09991 (CVE-2021-24648)</td>
-       <td>2022-02-14 14:13:21</td>
-       <td>WordPress RegistrationMagic插件跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09991">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ac80d4d886e5c4a39185e5a3221ff8ef</td>
-       <td>CNVD-2022-09989 (CVE-2021-24686)</td>
-       <td>2022-02-14 14:13:20</td>
-       <td>WordPress SVG Support插件跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09989">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44ed12b5514405ff52c8e35cadfedd4d</td>
-       <td>CNVD-2022-09990 (CVE-2021-25089)</td>
-       <td>2022-02-14 14:13:19</td>
-       <td>WordPress UpdraftPlus WordPress Backup插件跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09990">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a8b7b9db1228e898f83a520be960e0d4</td>
-       <td>CNVD-2022-09988 (CVE-2021-24934)</td>
-       <td>2022-02-14 14:13:18</td>
-       <td>WordPress Visual CSS Style Editor插件跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09988">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0ed7578ede699f1e83d4328da999e7c</td>
-       <td>CNVD-2022-09987 (CVE-2021-24919)</td>
-       <td>2022-02-14 14:13:17</td>
-       <td>WordPress Wicked Folders插件SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09987">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7ca56337d2b76c4240f23be5185deaca</td>
-       <td>CNVD-2022-09986 (CVE-2021-25085)</td>
-       <td>2022-02-14 14:13:16</td>
-       <td>WordPress WOOF插件跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-09986">详情</a></td>
       </tr>
 
      </tbody>
