@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-18 16:30:38 -->
+<!-- RELEASE TIME : 2022-02-18 18:32:40 -->
 <html lang="zh-cn">
 
  <head>
@@ -25,6 +25,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">68ba723df72b75490e59fca2f8480139</td>
+       <td>CVE-2022-23647</td>
+       <td>2022-02-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Prism is a syntax highlighting library. Starting with version 1.14.0 and prior to version 1.27.0, Prism's command line plugin can be used by attackers to achieve a cross-site scripting attack. The command line plugin did not properly escape its output, leading to the input text being inserted into the DOM as HTML code. Server-side usage of Prism is not impacted. Websites that do not use the Command Line plugin are also not impacted. This bug has been fixed in v1.27.0. As a workaround, do not use the command line plugin on untrusted inputs, or sanitize all code blocks (remove all HTML code text) from all code blocks that use the command line plugin.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23647">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9b178c285e81b61dac335048eb5269d</td>
+       <td>CVE-2022-0666</td>
+       <td>2022-02-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>CRLF Injection leads to Stack Trace Exposure due to lack of filtering at https://demo.microweber.org/ in Packagist microweber/microweber prior to 1.2.11.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0666">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">08269c175bc3387b0d327c8a2af1882d</td>
        <td>CVE-2022-0664</td>
