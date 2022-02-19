@@ -1,13 +1,12 @@
 
-<h3>发现最新威胁情报<font color="red">3</font>条：</h3>
+<h3>发现最新威胁情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23376</font><br/>[<b>披露时间</b>] 2022-02-19 16:15:00<br/>[<b>漏洞描述</b>] WikiDocs version 0.1.18 has multiple reflected XSS vulnerabilities on different pages.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23376'>https://www.tenable.com/cve/CVE-2022-23376</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23375</font><br/>[<b>披露时间</b>] 2022-02-19 16:15:00<br/>[<b>漏洞描述</b>] WikiDocs version 0.1.18 has an authenticated remote code execution vulnerability. An attacker can upload a malicious file using the image upload form through index.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23375'>https://www.tenable.com/cve/CVE-2022-23375</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0689</font><br/>[<b>披露时间</b>] 2022-02-19 16:15:00<br/>[<b>漏洞描述</b>] Use multiple time the one-time coupon in Packagist microweber/microweber prior to 1.2.11.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0689'>https://www.tenable.com/cve/CVE-2022-0689</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22931</font><br/>[<b>披露时间</b>] 2022-02-07 19:15:08 <br/>[<b>漏洞描述</b>] Fix of CVE-2021-40525 do not prepend delimiters upon valid directory validations. Affected implementations include: - maildir mailbox store - Sieve file repository This enables a user to access other users data stores (limited to user names being prefixed by the value of the username being used).<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22931'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22931</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22816</font><br/>[<b>披露时间</b>] 2022-01-10 14:12:54 <br/>[<b>漏洞描述</b>] path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22816'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22816</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
