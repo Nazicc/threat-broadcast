@@ -3967,3 +3967,122 @@ AttributeError: 'NoneType' object has no attribute 'encode'
 2022-02-18 23:27:09 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2022-02-18 23:27:09 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-02-18 23:27:09 [INFO] : --------------------------------------------
+2022-02-19 01:31:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:31:37 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-19 01:31:38 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-19 01:31:38 [INFO] : --------------------------------------------
+2022-02-19 01:31:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:31:38 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-19 01:31:39 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-19 01:31:39 [INFO] : --------------------------------------------
+2022-02-19 01:31:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:31:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-19 01:32:09 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-19 01:32:09 [INFO] : --------------------------------------------
+2022-02-19 01:32:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:09 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-19 01:32:30 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-19 01:32:30 [INFO] : --------------------------------------------
+2022-02-19 01:32:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:30 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-19 01:32:31 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-19 01:32:31 [INFO] : --------------------------------------------
+2022-02-19 01:32:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:31 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-19 01:32:32 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-02-19 01:32:32 [INFO] : --------------------------------------------
+2022-02-19 01:32:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:32 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-19 01:32:33 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-02-19 01:32:33 [INFO] : --------------------------------------------
+2022-02-19 01:32:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:33 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-19 01:32:34 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-19 01:32:34 [INFO] : --------------------------------------------
+2022-02-19 01:32:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:34 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-19 01:32:39 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-19 01:32:39 [INFO] : --------------------------------------------
+2022-02-19 01:32:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:39 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-19 01:32:40 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-19 01:32:40 [INFO] : --------------------------------------------
+2022-02-19 01:32:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:40 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-19 01:32:46 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-19 01:32:46 [INFO] : --------------------------------------------
+2022-02-19 01:32:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-19 01:32:46 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-19 01:32:46 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-02-19 01:32:46 [INFO] : --------------------------------------------
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] A ..%2F path traversal vulnerability exists in the path handler of awful-salmonella-tar before 0.0.4. Attackers can only list directories (not read files). This occurs because the safe-path? Scheme predicate is not used for directories.
+[ TIME  ] 2022-02-18 22:15:00
+[ CVE   ] CVE-2022-25358
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25358
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] Netmaker is a platform for creating and managing virtual overlay networks using WireGuard. Prior to versions 0.8.5, 0.9.4, and 010.0, there is a hard-coded cryptographic key in the code base which can be exploited to run admin commands on a remote server if the exploiter know the address and username of the admin. This effects the server (netmaker) component, and not clients. This has been patched in Netmaker v0.8.5, v0.9.4, and v0.10.0. There are currently no known workarounds.
+[ TIME  ] 2022-02-18 22:15:00
+[ CVE   ] CVE-2022-23650
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23650
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] Cosign provides container signing, verification, and storage in an OCI registry for the sigstore project. Prior to version 1.5.2, Cosign can be manipulated to claim that an entry for a signature exists in the Rekor transparency log even if it doesn't. This requires the attacker to have pull and push permissions for the signature in OCI. This can happen with both standard signing with a keypair and "keyless signing" with Fulcio. If an attacker has access to the signature in OCI, they can manipulate cosign into believing the entry was stored in Rekor even though it wasn't. The vulnerability has been patched in v1.5.2 of Cosign. The `signature` in the `signedEntryTimestamp` provided by Rekor is now compared to the `signature` that is being verified. If these don't match, then an error is returned. If a valid bundle is copied to a different signature, verification should fail. Cosign output now only informs the user that certificates were verified if a certificate was in fact verified. There is currently no known workaround.
+[ TIME  ] 2022-02-18 22:15:00
+[ CVE   ] CVE-2022-23649
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23649
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] Pexip Infinity before 27.0 has improper WebRTC input validation. An unauthenticated remote attacker can use excessive resources, temporarily causing denial of service.
+[ TIME  ] 2022-02-18 22:15:00
+[ CVE   ] CVE-2022-23228
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23228
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] Pexip Infinity Connect before 1.8.0 mishandles TLS certificate validation. The allow list is not properly checked.
+[ TIME  ] 2022-02-18 22:15:00
+[ CVE   ] CVE-2021-29656
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-29656
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] Pexip Infinity Connect before 1.8.0 omits certain provisioning authenticity checks. Thus, untrusted code may execute.
+[ TIME  ] 2022-02-18 22:15:00
+[ CVE   ] CVE-2021-29655
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-29655
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] swtpm is a libtpms-based TPM emulator with socket, character device, and Linux CUSE interface. Versions prior to 0.5.3, 0.6.2, and 0.7.1 are vulnerable to out-of-bounds read. A specially crafted header of swtpm's state, where the blobheader's hdrsize indicator has an invalid value, may cause an out-of-bounds access when the byte array representing the state of the TPM is accessed. This will likely crash swtpm or prevent it from starting since the state cannot be understood. Users should upgrade to swtpm v0.5.3, v0.6.2, or v0.7.1 to receive a patch. There are currently no known workarounds.
+[ TIME  ] 2022-02-18 21:15:00
+[ CVE   ] CVE-2022-23645
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23645
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] Online Shopping Portal v3.1 was discovered to contain multiple time-based SQL injection vulnerabilities via the email and contactno parameters.
+[ TIME  ] 2022-02-18 21:15:00
+[ CVE   ] CVE-2021-46110
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-46110
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] A Path Traversal vulnerability for a log file in LiveConfig 2.12.2 allows authenticated attackers to read files on the underlying server.
+[ TIME  ] 2022-02-18 21:15:00
+[ CVE   ] CVE-2021-40841
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-40841
+2022-02-19 01:32:46 [INFO] : 
+==============================================
+[ TITLE ] A Stored XSS issue exists in the admin/users user administration form in LiveConfig 2.12.2.
+[ TIME  ] 2022-02-18 21:15:00
+[ CVE   ] CVE-2021-40840
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-40840
+2022-02-19 01:32:46 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...

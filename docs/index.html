@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-18 22:28:32 -->
+<!-- RELEASE TIME : 2022-02-19 01:32:46 -->
 <html lang="zh-cn">
 
  <head>
@@ -25,6 +25,86 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">41a9ec643f0c4fb72f6f802f83017ba2</td>
+       <td>CVE-2022-25358</td>
+       <td>2022-02-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A ..%2F path traversal vulnerability exists in the path handler of awful-salmonella-tar before 0.0.4. Attackers can only list directories (not read files). This occurs because the safe-path? Scheme predicate is not used for directories.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25358">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5a83c2a64994f133588e4fdecd704f4b</td>
+       <td>CVE-2022-23650</td>
+       <td>2022-02-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Netmaker is a platform for creating and managing virtual overlay networks using WireGuard. Prior to versions 0.8.5, 0.9.4, and 010.0, there is a hard-coded cryptographic key in the code base which can be exploited to run admin commands on a remote server if the exploiter know the address and username of the admin. This effects the server (netmaker) component, and not clients. This has been patched in Netmaker v0.8.5, v0.9.4, and v0.10.0. There are currently no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23650">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a61ef49ec02a9deb40cc6d699eca4017</td>
+       <td>CVE-2022-23649</td>
+       <td>2022-02-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cosign provides container signing, verification, and storage in an OCI registry for the sigstore project. Prior to version 1.5.2, Cosign can be manipulated to claim that an entry for a signature exists in the Rekor transparency log even if it doesn't. This requires the attacker to have pull and push permissions for the signature in OCI. This can happen with both standard signing with a keypair and "keyless signing" with Fulcio. If an attacker has access to the signature in OCI, they can manipulate cosign into believing the entry was stored in Rekor even though it wasn't. The vulnerability has been patched in v1.5.2 of Cosign. The `signature` in the `signedEntryTimestamp` provided by Rekor is now compared to the `signature` that is being verified. If these don't match, then an error is returned. If a valid bundle is copied to a different signature, verification should fail. Cosign output now only informs the user that certificates were verified if a certificate was in fact verified. There is currently no known workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23649">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cce5f394b602beac5716350c07185e96</td>
+       <td>CVE-2022-23228</td>
+       <td>2022-02-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pexip Infinity before 27.0 has improper WebRTC input validation. An unauthenticated remote attacker can use excessive resources, temporarily causing denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23228">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f1d75a4bd70dfa5699a29f5dfe1fab7a</td>
+       <td>CVE-2021-29656</td>
+       <td>2022-02-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pexip Infinity Connect before 1.8.0 mishandles TLS certificate validation. The allow list is not properly checked.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-29656">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9b5044f24d2a0dd2e101b6fb4e1a7601</td>
+       <td>CVE-2021-29655</td>
+       <td>2022-02-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pexip Infinity Connect before 1.8.0 omits certain provisioning authenticity checks. Thus, untrusted code may execute.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-29655">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">78ba743ae0bb766e924e2eb3a7b4d0b0</td>
+       <td>CVE-2022-23645</td>
+       <td>2022-02-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>swtpm is a libtpms-based TPM emulator with socket, character device, and Linux CUSE interface. Versions prior to 0.5.3, 0.6.2, and 0.7.1 are vulnerable to out-of-bounds read. A specially crafted header of swtpm's state, where the blobheader's hdrsize indicator has an invalid value, may cause an out-of-bounds access when the byte array representing the state of the TPM is accessed. This will likely crash swtpm or prevent it from starting since the state cannot be understood. Users should upgrade to swtpm v0.5.3, v0.6.2, or v0.7.1 to receive a patch. There are currently no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23645">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d2f8e1b319a4ce39483d5bf749dd6d3</td>
+       <td>CVE-2021-46110</td>
+       <td>2022-02-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Online Shopping Portal v3.1 was discovered to contain multiple time-based SQL injection vulnerabilities via the email and contactno parameters.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46110">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">844a126bde6210e8ebf8a0bf93dfc42b</td>
+       <td>CVE-2021-40841</td>
+       <td>2022-02-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Path Traversal vulnerability for a log file in LiveConfig 2.12.2 allows authenticated attackers to read files on the underlying server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40841">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ecf53612f902163721b737d30a3dbc52</td>
+       <td>CVE-2021-40840</td>
+       <td>2022-02-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Stored XSS issue exists in the admin/users user administration form in LiveConfig 2.12.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40840">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">b03aef0321b36826369eed6e801d3f9f</td>
        <td>CVE-2022-24971</td>
