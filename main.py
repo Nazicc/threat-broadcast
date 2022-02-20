@@ -24,8 +24,8 @@ from src.crawler.tenable import Tenable
 
 import src.notice.page as page
 import src.notice.mail as mail
-import src.notice.qq as qq
-import src.notice.wechat as wechat
+# import src.notice.qq as qq
+# import src.notice.wechat as wechat
 import src.utils._git as git
 
 
@@ -51,7 +51,7 @@ def init():
 
 
 
-def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass, qq_user, qq_pass):
+def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass):
     if help:
         log.info(help_info())
 
@@ -67,8 +67,8 @@ def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass, qq_user, 
         if all_cves:
             page.to_page(top)
             mail.to_mail(gtk, all_cves, mail_smtp, mail_user, mail_pass)
-            qq.to_group(all_cves, qq_user, qq_pass)
-            wechat.to_wechat(all_cves)
+#            qq.to_group(all_cves, qq_user, qq_pass)
+#            wechat.to_wechat(all_cves)
 
             if auto_commit:
                 git.auto_commit()
