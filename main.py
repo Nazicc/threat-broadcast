@@ -24,8 +24,6 @@ from src.crawler.tenable import Tenable
 
 import src.notice.page as page
 import src.notice.mail as mail
-# import src.notice.qq as qq
-# import src.notice.wechat as wechat
 import src.utils._git as git
 
 
@@ -39,8 +37,6 @@ def help_info():
     -ms  <mail-smtp>  用于发送播报信息的邮箱 SMTP 服务器（默认 smtp.126.com）
     -mu  <mail-user>  用于发送播报信息的邮箱账号（默认 ThreatBroadcast@126.com）
     -mp  <mail-pass>  用于发送播报信息的邮箱密码（部分邮箱为授权码）
-    -qu  <qq-user>    用于向 QQ 群发送播报信息的 QQ 账号
-    -qp  <qq-pass>    用于发送播报信息的 QQ 密码
 '''
 
 
@@ -67,8 +63,7 @@ def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass):
         if all_cves:
             page.to_page(top)
             mail.to_mail(gtk, all_cves, mail_smtp, mail_user, mail_pass)
-#            qq.to_group(all_cves, qq_user, qq_pass)
-#            wechat.to_wechat(all_cves)
+
 
             if auto_commit:
                 git.auto_commit()
@@ -89,8 +84,6 @@ def get_sys_args(sys_args) :
     mail_smtp = settings.notify['mail_smtp']
     mail_user = settings.notify['mail_user']
     mail_pass = settings.notify['mail_pass']
-#    qq_user = settings.notify['qq_user']
-#    qq_pass = settings.notify['qq_pass']
 
     idx = 1
     size = len(sys_args)
@@ -122,18 +115,11 @@ def get_sys_args(sys_args) :
                 idx += 1
                 mail_pass = sys_args[idx]
 
-            elif sys_args[idx] == '-qu' :
-                idx += 1
-                qq_user = sys_args[idx]
-
-            elif sys_args[idx] == '-qp' :
-                idx += 1
-                qq_pass = sys_args[idx]
 
         except :
             pass
         idx += 1
-    return [ help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass, qq_user, qq_pass ]
+    return [ help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass ]
 
 
 if __name__ == '__main__':
