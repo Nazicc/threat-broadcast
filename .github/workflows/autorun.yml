@@ -38,7 +38,7 @@ jobs:
     # 若该时间段没有 CVE， 则 file://cache/mail.dat 文件不会生成，此时不会发送邮件
     - name: Send mail
       if: ${{ github.event_name != 'pull_request' }}
-      uses: Nazicc/action-send-mail@master
+      uses: lyy289065406/action-send-mail@master
       with:
         server_address: ${{ secrets.MAIL_SMTP }}
         server_port: 465
