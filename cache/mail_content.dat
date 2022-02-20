@@ -5,8 +5,8 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0688</font><br/>[<b>披露时间</b>] 2022-02-20 15:15:00<br/>[<b>漏洞描述</b>] Business Logic Errors in Packagist microweber/microweber prior to 1.2.11.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0688'>https://www.tenable.com/cve/CVE-2022-0688</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0685</font><br/>[<b>披露时间</b>] 2022-02-20 11:15:00<br/>[<b>漏洞描述</b>] Use of Out-of-range Pointer Offset in GitHub repository vim/vim prior to 8.2.4418.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0685'>https://www.tenable.com/cve/CVE-2022-0685</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45083</font><br/>[<b>披露时间</b>] 2022-02-20 18:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in Cobbler before 3.3.1. Files in /etc/cobbler are world readable. Two of those files contain some sensitive information that can be exposed to a local user who has non-privileged access to the server. The users.digest file contains the sha2-512 digest of users in a Cobbler local installation. In the case of an easy-to-guess password, it's trivial to obtain the plaintext string. The settings.yaml file contains secrets such as the hashed default password.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-45083'>https://www.tenable.com/cve/CVE-2021-45083</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45081</font><br/>[<b>披露时间</b>] 2022-02-20 18:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in Cobbler through 3.3.1. Routines in several files use the HTTP protocol instead of the more secure HTTPS.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-45081'>https://www.tenable.com/cve/CVE-2021-45081</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
