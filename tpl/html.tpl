@@ -18,5 +18,31 @@
 %(table)s
 
   </div>
+   .bottom
+        {
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            background:#000000;
+            color:#fff;
+            display:block;
+            width:100%;
+            text-align:center;
+            z-index: 10;
+        }
+        .bottom span
+        {
+            position:relative;
+            display:block;
+            left:0;
+
+        }
+ <div class="bottom">
+            <span class="style4">  </span>
+            <span an class="style4">  </span>
+            <span class="style4">云贵安服 | 来自阿天</span><br />
+            <span class="style4">特别感谢 404NotFound , ~  友情支持 </span> <br />
+        </div>
+
  </body>
 </html>
