@@ -89,8 +89,8 @@ def get_sys_args(sys_args) :
     mail_smtp = settings.notify['mail_smtp']
     mail_user = settings.notify['mail_user']
     mail_pass = settings.notify['mail_pass']
-    qq_user = settings.notify['qq_user']
-    qq_pass = settings.notify['qq_pass']
+#    qq_user = settings.notify['qq_user']
+#    qq_pass = settings.notify['qq_pass']
 
     idx = 1
     size = len(sys_args)
