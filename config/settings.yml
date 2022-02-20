@@ -17,6 +17,4 @@ notify:
   mail_smtp: 'smtp.189.cn'
   mail_user: '18985111984@189.cn'     # 用于发送播报信息的邮箱账号
   mail_pass: "<%= ENV['MAIL_PASS'] %>"
-# qq_user: '123742030'                    # 用于向 QQ 群发送播报信息的 QQ 账号
-#  qq_pass: "<%= ENV['QQ_PASS'] %>"
 
