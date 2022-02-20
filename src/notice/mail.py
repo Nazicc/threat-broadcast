@@ -38,7 +38,7 @@ def to_mail(gtk, cves, smtp, sender, password):
         email['From'] = sender
         email['To'] = ', '.join(receivers)                  # 此处收件人列表必须为逗号分隔的 str
         log.info('[邮件] 收件人清单： %s' % receivers)
-        subject = '威胁情报播报'
+        subject = '云贵安服 | 漏洞情报播报'
         email['Subject'] = Header(subject, 'utf-8')
 
         try:
@@ -53,7 +53,7 @@ def to_mail(gtk, cves, smtp, sender, password):
 def format_content(cves):
     src_tpl = '    <li><font color="red">%(cnt)d</font>条由 [<a href="%(url)s">%(src)s</a>] 提供</li>'
     mail_tpl =  '''
-<h3>发现最新威胁情报<font color="red">%(total)d</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">%(total)d</font>条：</h3>
 <ul>
 %(src_infos)s
 </ul>
