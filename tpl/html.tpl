@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="./css/main.css" />
-  <title>云贵安服 | 漏洞情报播报 - Top 30</title>
+  <title>云贵安服 | 漏洞情报播报</title>
  </head>
 
  <body class="html">
