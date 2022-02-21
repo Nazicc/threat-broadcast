@@ -1,32 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-12799 (CVE-2022-24112)</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:17<br/>[<b>漏洞描述</b>] Apache Apisix远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-12799'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-12799</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-37107</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] HUAWEI EMUI缓冲区溢出漏洞（CNVD-2022-12766）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-398942'>http://cve.scap.org.cn/vuln/VHN-398942</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-37109</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Huawei EMUI安全绕过漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-398944'>http://cve.scap.org.cn/vuln/VHN-398944</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39986</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Huawei Emui访问控制错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401387'>http://cve.scap.org.cn/vuln/VHN-401387</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39997</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Huawei Emui越界访问漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401398'>http://cve.scap.org.cn/vuln/VHN-401398</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40020</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Huawei Smartphone缓冲区溢出漏洞（CNVD-2022-12805）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401421'>http://cve.scap.org.cn/vuln/VHN-401421</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40027</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Huawei HarmonyOS缓冲区溢出漏洞（CNVD-2022-12806）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401428'>http://cve.scap.org.cn/vuln/VHN-401428</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40044</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Huawei EMUI授权问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401445'>http://cve.scap.org.cn/vuln/VHN-401445</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44111</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] S-Cart路径遍历漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406723'>http://cve.scap.org.cn/vuln/VHN-406723</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45268</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Backdrop CMS跨站请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408899'>http://cve.scap.org.cn/vuln/VHN-408899</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45331</font><br/>[<b>披露时间</b>] 2022-02-20 03:41:58<br/>[<b>漏洞描述</b>] Gitea授权问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408962'>http://cve.scap.org.cn/vuln/VHN-408962</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-12808 (CVE-2021-46162)</font><br/>[<b>披露时间</b>] 2022-02-21 05:37:15<br/>[<b>漏洞描述</b>] Siemens Simcenter Femap越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-12808'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-12808</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-12807 (CVE-2021-46699)</font><br/>[<b>披露时间</b>] 2022-02-21 05:37:17<br/>[<b>漏洞描述</b>] Siemens Simcenter Femap缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-12807'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-12807</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-02-21 05:32:27<br/>[<b>漏洞描述</b>] 安全事件周报 (02.14-02.20)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=dcdf20879ba73afa5834786dc01098f8'>https://cert.360.cn/warning/detail?id=dcdf20879ba73afa5834786dc01098f8</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
