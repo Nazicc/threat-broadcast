@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-21 22:40:00 -->
+<!-- RELEASE TIME : 2022-02-22 01:43:26 -->
 <html lang="zh-cn">
 
  <head>
@@ -96,6 +96,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">e2a9f40c5f910c47c3d618499a328420</td>
+       <td>CVE-2021-4115</td>
+       <td>2022-02-21 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is a flaw in polkit which can allow an unprivileged user to cause polkit to crash, due to process file descriptor exhaustion. The highest threat from this vulnerability is to availability. NOTE: Polkit process outage duration is tied to the failing process being reaped and a new one being spawned</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4115">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3fc146d0536e9cb7fd5f5e0268c01f07</td>
        <td>CVE-2022-0696</td>
        <td>2022-02-21 20:15:00 <img src="imgs/new.gif" /></td>
@@ -173,6 +181,14 @@
        <td>2022-02-21 19:15:00 <img src="imgs/new.gif" /></td>
        <td>A heap-buffer openSUSE libsolv through 13 Dec 2020 exists in the solver_solve function at src/solver.c: line 3445.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44569">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">323ac7fdb3203ad6450c59382a4bb7d5</td>
+       <td>CVE-2022-0563</td>
+       <td>2022-02-21 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw was found in the util-linux chfn and chsh utilities when compiled with Readline support. The Readline library uses an "INPUTRC" environment variable to get a path to the library config file. When the library cannot parse the specified file, it prints an error message containing data from the file. This flaw allows an unprivileged user to read root-owned files, potentially leading to privilege escalation. This flaw affects util-linux versions prior to 2.37.4.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0563">详情</a></td>
       </tr>
 
       <tr>
@@ -319,22 +335,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0255">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">c38dc32772abd58b1ab19050e5e26cff</td>
-       <td>CVE-2022-0252</td>
-       <td>2022-02-21 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The GiveWP WordPress plugin before 2.17.3 does not escape the json parameter before outputting it back in an attribute in the Import admin dashboard, leading to a Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0252">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7a39716a6d713a2bb6990abc963e2c6a</td>
-       <td>CVE-2022-0234</td>
-       <td>2022-02-21 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The WOOCS WordPress plugin before 1.3.7.5 does not sanitise and escape the woocs_in_order_currency parameter of the woocs_get_products_price_html AJAX action (available to both unauthenticated and authenticated users) before outputting it back in the response, leading to a Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0234">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -397,7 +397,7 @@
       <tr>
        <td scope="row">0c29c1b97110c89c61d83c7104053878</td>
        <td>CVE-2021-37107</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>HUAWEI EMUI缓冲区溢出漏洞（CNVD-2022-12766）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398942">详情</a></td>
@@ -406,7 +406,7 @@
       <tr>
        <td scope="row">0b6d390c8ece964f1dee569d8b363376</td>
        <td>CVE-2021-37109</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Huawei EMUI安全绕过漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398944">详情</a></td>
@@ -415,7 +415,7 @@
       <tr>
        <td scope="row">c1ddebedcc470f533ca967b36a053dbb</td>
        <td>CVE-2021-39986</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Huawei Emui访问控制错误漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401387">详情</a></td>
@@ -424,7 +424,7 @@
       <tr>
        <td scope="row">ecef49aead6d4c8a99f4ce42111fb315</td>
        <td>CVE-2021-39997</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Huawei Emui越界访问漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401398">详情</a></td>
@@ -433,7 +433,7 @@
       <tr>
        <td scope="row">52f9411e91c2c2f0ce7cc5dddb400f9f</td>
        <td>CVE-2021-40020</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Huawei Smartphone缓冲区溢出漏洞（CNVD-2022-12805）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401421">详情</a></td>
@@ -442,7 +442,7 @@
       <tr>
        <td scope="row">bc9bf737037babbc307a6d089218e52b</td>
        <td>CVE-2021-40027</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Huawei HarmonyOS缓冲区溢出漏洞（CNVD-2022-12806）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401428">详情</a></td>
@@ -451,7 +451,7 @@
       <tr>
        <td scope="row">0eacd340052df2b6ae88e07da70a81ee</td>
        <td>CVE-2021-40044</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Huawei EMUI授权问题漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401445">详情</a></td>
@@ -460,7 +460,7 @@
       <tr>
        <td scope="row">acc07707300a07afdbd71a695fa52ad2</td>
        <td>CVE-2021-44111</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>S-Cart路径遍历漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406723">详情</a></td>
@@ -469,7 +469,7 @@
       <tr>
        <td scope="row">9d0cd896547a52dc1d6558863acbd398</td>
        <td>CVE-2021-45268</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Backdrop CMS跨站请求伪造漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408899">详情</a></td>
@@ -478,7 +478,7 @@
       <tr>
        <td scope="row">7749c18fad1021255877b76df1f269c1</td>
        <td>CVE-2021-45331</td>
-       <td>2022-02-20 03:41:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:58</td>
        <td>Gitea授权问题漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408962">详情</a></td>
@@ -687,7 +687,7 @@
       <tr>
        <td scope="row">b1134e73596ffc70476a4f239b745d4e</td>
        <td>CNVD-2022-12755 (CVE-2021-45268)</td>
-       <td>2022-02-20 08:30:11 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:30:11</td>
        <td>Backdrop CMS跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12755">详情</a></td>
       </tr>
@@ -695,7 +695,7 @@
       <tr>
        <td scope="row">638ab6ee069d34c7bd482b91b85cf5c3</td>
        <td>CNVD-2022-12749 (CVE-2022-0611)</td>
-       <td>2022-02-20 08:30:09 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:30:09</td>
        <td>snipe-it权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12749">详情</a></td>
       </tr>
@@ -703,7 +703,7 @@
       <tr>
        <td scope="row">836813396586219a29fbcd941c3687d4</td>
        <td>CNVD-2022-12757 (CVE-2021-44111)</td>
-       <td>2022-02-20 08:30:07 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:30:07</td>
        <td>S-Cart路径遍历漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12757">详情</a></td>
       </tr>
@@ -711,7 +711,7 @@
       <tr>
        <td scope="row">481cdef533495ee277538f5a13ad1765</td>
        <td>CNVD-2022-12750 (CVE-2022-0589)</td>
-       <td>2022-02-20 08:30:05 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:30:05</td>
        <td>librenms跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12750">详情</a></td>
       </tr>
@@ -719,7 +719,7 @@
       <tr>
        <td scope="row">b35786af9d3f4ddf88feb38b5694f6cb</td>
        <td>CNVD-2022-12747 (CVE-2022-0614)</td>
-       <td>2022-02-20 08:30:03 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:30:03</td>
        <td>mruby存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12747">详情</a></td>
       </tr>
@@ -727,7 +727,7 @@
       <tr>
        <td scope="row">4c9d62a836d45c5709014b243d3cd6ed</td>
        <td>CNVD-2022-12751 (CVE-2022-0588)</td>
-       <td>2022-02-20 08:30:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:30:00</td>
        <td>librenms信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12751">详情</a></td>
       </tr>
@@ -735,7 +735,7 @@
       <tr>
        <td scope="row">87510070eec57d7f527ade693b3045e9</td>
        <td>CNVD-2022-12756 (CVE-2022-23357)</td>
-       <td>2022-02-20 08:29:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:29:58</td>
        <td>moziloCMS路径遍历漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12756">详情</a></td>
       </tr>
@@ -743,7 +743,7 @@
       <tr>
        <td scope="row">13bf3660f16ee0ca669d900d43ed7364</td>
        <td>CNVD-2022-12748 (CVE-2022-0559)</td>
-       <td>2022-02-20 08:29:56 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 08:29:56</td>
        <td>radare2资源管理错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12748">详情</a></td>
       </tr>
@@ -751,7 +751,7 @@
       <tr>
        <td scope="row">231c677de59adae007037c182df4fa32</td>
        <td>CNVD-2022-12745 (CVE-2019-4291)</td>
-       <td>2022-02-20 04:34:48 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 04:34:48</td>
        <td>IBM Maximo Anywhere加密问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12745">详情</a></td>
       </tr>
@@ -759,7 +759,7 @@
       <tr>
        <td scope="row">e8ff034544a445dab03b1da190e1eafc</td>
        <td>CNVD-2022-12746 (CVE-2019-4352)</td>
-       <td>2022-02-20 04:34:46 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 04:34:46</td>
        <td>IBM Maximo Anywhere加密问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12746">详情</a></td>
       </tr>
@@ -767,7 +767,7 @@
       <tr>
        <td scope="row">722ab0a7bee70672a6a147f748bb0832</td>
        <td>CNVD-2022-12799 (CVE-2022-24112)</td>
-       <td>2022-02-20 03:41:17 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 03:41:17</td>
        <td>Apache Apisix远程代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-12799">详情</a></td>
       </tr>
@@ -845,7 +845,7 @@
       <tr>
        <td scope="row">b3f6cb94568e4f978555d58bca6ee446</td>
        <td>CNNVD-202202-1664 (CVE-2022-0686)</td>
-       <td>2022-02-20 12:57:25 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:25</td>
        <td>NPM url-parse 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1664">详情</a></td>
       </tr>
@@ -853,7 +853,7 @@
       <tr>
        <td scope="row">5fbd61f2e389b87eaaad677af845d57e</td>
        <td>CNNVD-202202-1665 (CVE-2022-0688)</td>
-       <td>2022-02-20 12:57:23 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:23</td>
        <td>microweber 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1665">详情</a></td>
       </tr>
@@ -861,7 +861,7 @@
       <tr>
        <td scope="row">c23d4ed8891fd84e8fdb5fdec47dfb3d</td>
        <td>CNNVD-202202-1666 (CVE-2021-45081)</td>
-       <td>2022-02-20 12:57:21 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:21</td>
        <td>Cobbler 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1666">详情</a></td>
       </tr>
@@ -869,7 +869,7 @@
       <tr>
        <td scope="row">78a94a02c73e5b0f9b144531f949f484</td>
        <td>CNNVD-202202-1667 (CVE-2022-22126)</td>
-       <td>2022-02-20 12:57:19 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:19</td>
        <td>Open Mct  跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1667">详情</a></td>
       </tr>
@@ -877,7 +877,7 @@
       <tr>
        <td scope="row">b817893e15f19e282eb9fbea6e4f9834</td>
        <td>CNNVD-202202-1668 (CVE-2022-23053)</td>
-       <td>2022-02-20 12:57:17 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:17</td>
        <td>Open Mct 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1668">详情</a></td>
       </tr>
@@ -885,7 +885,7 @@
       <tr>
        <td scope="row">1b92059a4284034dab8ff8f09b806c99</td>
        <td>CNNVD-202202-1669 (CVE-2022-23054)</td>
-       <td>2022-02-20 12:57:14 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:14</td>
        <td>Open MCT 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1669">详情</a></td>
       </tr>
@@ -893,7 +893,7 @@
       <tr>
        <td scope="row">ef1fe47ad953a164288af60da2df9b93</td>
        <td>CNNVD-202202-1670 (CVE-2022-23848)</td>
-       <td>2022-02-20 12:57:12 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:12</td>
        <td>Alluxio 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1670">详情</a></td>
       </tr>
@@ -901,7 +901,7 @@
       <tr>
        <td scope="row">cb85e8be9410a554d75bb9e4ec1eeb4f</td>
        <td>CNNVD-202202-1671 (CVE-2022-25372)</td>
-       <td>2022-02-20 12:57:10 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:10</td>
        <td>Pritunl-client安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1671">详情</a></td>
       </tr>
@@ -909,7 +909,7 @@
       <tr>
        <td scope="row">72c518403727c8f0189983e54f9765bb</td>
        <td>CNNVD-202202-1672 (CVE-2022-25375)</td>
-       <td>2022-02-20 12:57:08 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:08</td>
        <td>Linux kernel  安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1672">详情</a></td>
       </tr>
@@ -917,7 +917,7 @@
       <tr>
        <td scope="row">f74fa3cf1947eb095b31a6da30e32df2</td>
        <td>CNNVD-202202-1673 (CVE-2021-46701)</td>
-       <td>2022-02-20 12:57:06 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 12:57:06</td>
        <td>PreMid  安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1673">详情</a></td>
       </tr>
@@ -1319,6 +1319,14 @@
       </tr>
 
       <tr>
+       <td scope="row">f72588146e8a21951b8381f02a89d775</td>
+       <td></td>
+       <td>2022-02-15 13:52:17</td>
+       <td>锐捷 EG易网关 存在登陆绕过漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5432">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f631637d0c5abce1f9c5a2ec02adcb01</td>
        <td>CVE-2021-40380</td>
        <td>2022-02-15 10:26:44</td>
@@ -1335,19 +1343,11 @@
       </tr>
 
       <tr>
-       <td scope="row">3bcb717d6945218b4520bf33f7040070</td>
-       <td>CVE-2018-16060</td>
-       <td>2022-02-14 16:18:28</td>
-       <td>Mitsubishi Electric SmartRTU 存在代码泄露漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5433">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e9b3e3391566096c6fe8dc78af38e3c2</td>
-       <td></td>
-       <td>2022-02-14 14:26:04</td>
-       <td>飞思网巡 autoDiscover.php 存在命令执行漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5439">详情</a></td>
+       <td scope="row">d1f38e7245b40a61a08471ddc7f27d71</td>
+       <td>CVE-2020-24285</td>
+       <td>2022-02-14 16:53:54</td>
+       <td>Intelbras TELEFONE IP TIP200 存在文件读取漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5430">详情</a></td>
       </tr>
 
      </tbody>
@@ -1501,7 +1501,7 @@
       <tr>
        <td scope="row">854c995da1cb9806bd28213ad7787cac</td>
        <td>CVE-2020-26968</td>
-       <td>2022-02-20 13:49:56 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:56</td>
        <td>Mozilla Firefox ESR 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2fa632a8fe04406c8fea51f61b3533e1">详情</a></td>
       </tr>
@@ -1509,7 +1509,7 @@
       <tr>
        <td scope="row">c4ce9925b3b9879a7a803ef8b2a38d66</td>
        <td>CVE-2020-26965</td>
-       <td>2022-02-20 13:49:52 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:52</td>
        <td>Mozilla Firefox 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ae62cf022ed2432dae4caeaa7371fce4">详情</a></td>
       </tr>
@@ -1517,7 +1517,7 @@
       <tr>
        <td scope="row">f332940b9506e96fa113870658361bf0</td>
        <td>CVE-2020-26970</td>
-       <td>2022-02-20 13:49:50 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:50</td>
        <td>Mozilla Thunderbird 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2dc5e06ac3e648cca7a4db40b7d39317">详情</a></td>
       </tr>
@@ -1525,7 +1525,7 @@
       <tr>
        <td scope="row">dcc54aa5ca7533b8533db2c6c7bb6ab7</td>
        <td>CVE-2020-26967</td>
-       <td>2022-02-20 13:49:45 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:45</td>
        <td>Mozilla Firefox 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=02f32baaa2e34fec8998bbc74c86cabd">详情</a></td>
       </tr>
@@ -1533,7 +1533,7 @@
       <tr>
        <td scope="row">8e91c1b0de1b8a5f491fb434596297ac</td>
        <td>CVE-2020-26964</td>
-       <td>2022-02-20 13:49:42 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:42</td>
        <td>Mozilla Firefox for Android 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8daea1d5acda41749273da4c8b7b6e9d">详情</a></td>
       </tr>
@@ -1541,7 +1541,7 @@
       <tr>
        <td scope="row">2c43adcdc6873f6aec0d5dad6ba14473</td>
        <td>CVE-2020-26961</td>
-       <td>2022-02-20 13:49:38 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:38</td>
        <td>Mozilla Firefox 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8410981c13464738a8c25000c6d23530">详情</a></td>
       </tr>
@@ -1549,7 +1549,7 @@
       <tr>
        <td scope="row">d270cd5906c97f307d09158909e544a9</td>
        <td>CVE-2020-26969</td>
-       <td>2022-02-20 13:49:06 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:06</td>
        <td>Mozilla Firefox ESR 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=31817b6dd8664c328d0a4f894e14ff82">详情</a></td>
       </tr>
@@ -1557,7 +1557,7 @@
       <tr>
        <td scope="row">e04604586d653f1bceec2bfd5989cc12</td>
        <td>CVE-2020-26966</td>
-       <td>2022-02-20 13:49:02 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:49:02</td>
        <td>Mozilla Firefox 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4defd53c8fd647deafd37f267ce8df32">详情</a></td>
       </tr>
@@ -1565,7 +1565,7 @@
       <tr>
        <td scope="row">dcfc2c33fdd69a3d43985f3ee8234b9c</td>
        <td>CVE-2020-26963</td>
-       <td>2022-02-20 13:48:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:48:58</td>
        <td>Mozilla Firefox 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=b92e17b4ea4140849871c362bcabfe23">详情</a></td>
       </tr>
@@ -1573,7 +1573,7 @@
       <tr>
        <td scope="row">e965bc8d0d90463553f86da2a5df26db</td>
        <td>CVE-2020-26960</td>
-       <td>2022-02-20 13:48:54 <img src="imgs/new.gif" /></td>
+       <td>2022-02-20 13:48:54</td>
        <td>Mozilla Firefox 资源管理错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8627bb8238c5498cb49e8b0e90763d7a">详情</a></td>
       </tr>
