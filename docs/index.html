@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-22 18:45:12 -->
+<!-- RELEASE TIME : 2022-02-22 19:38:09 -->
 <html lang="zh-cn">
 
  <head>
@@ -2092,6 +2092,22 @@
       </tr>
 
       <tr>
+       <td scope="row">ee7506a162e8513dde0d1a9c669accb6</td>
+       <td>CVE-2022-24927</td>
+       <td>2022-02-11 18:15:12 </td>
+       <td>Improper privilege management vulnerability in Samsung Video Player prior to version 7.3.15.30 allows attackers to execute video files without permission.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24927">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">931c2c89b431379dd478839e44aa5c50</td>
+       <td>CVE-2022-24925</td>
+       <td>2022-02-11 18:15:12 </td>
+       <td>Improper input validation vulnerability in SettingsProvider prior to Android S(12) allows privileged attackers to trigger a permanent denial of service attack on a victim's devices.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24925">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8c41e77ce1797803138838bb6be8b098</td>
        <td>CVE-2022-24289</td>
        <td>2022-02-11 13:15:08 </td>
@@ -2113,6 +2129,14 @@
        <td>2022-02-10 20:15:07 </td>
        <td>Optimism before @eth-optimism/l2geth@0.5.11 allows economic griefing because a balance is duplicated upon contract self-destruction.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24916">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2a16c82c652e1db18800b304a347fcb7</td>
+       <td>CVE-2022-24668</td>
+       <td>2022-02-09 23:15:20 </td>
+       <td>A program using swift-nio-http2 is vulnerable to a denial of service attack caused by a network peer sending ALTSVC or ORIGIN frames. This attack affects all swift-nio-http2 versions from 1.0.0 to 1.19.1. This vulnerability is caused by a logical error after frame parsing but before frame handling. ORIGIN and ALTSVC frames are not currently supported by swift-nio-http2, and should be ignored. However, one code path that encounters them has a deliberate trap instead. This was left behind from the original development process and was never removed. Sending an ALTSVC or ORIGIN frame does not require any special permission, so any HTTP/2 connection peer may send such a frame. For clients, this means any server to which they connect may launch this attack. For servers, anyone they allow to connect to them may launch such an attack. The attack is low-effort: it takes very little resources to send one of these frames. The impact on availability is high: receiving the frame immediately crashes the server, dropping all in-flight connections and causing the service to need to restart. It is straightforward for an attacker to repeatedly send these frames, so attackers require very few resources to achieve a substantial denial of service. The attack does not have any confidentiality or integrity risks in and of itself. This is a controlled, intentional crash. However, sudden process crashes can lead to violations of invariants in services, so it is possible that this attack can be used to trigger an error condition that has confidentiality or integrity risks. The risk can be mitigated if untrusted peers can be prevented from communicating with the service. This mitigation is not available to many services. The issue is fixed by rewriting the parsing code to correctly handle the condition. The issue was found by automated fuzzing by oss-fuzz.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24668">详情</a></td>
       </tr>
 
       <tr>
@@ -2265,14 +2289,6 @@
        <td>2022-02-01 19:15:07 </td>
        <td>AtomCMS v2.0 was discovered to contain a SQL injection vulnerability via /admin/login.php.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24223">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97138763836b3c2779767a34b001b5b4</td>
-       <td>CVE-2022-22816</td>
-       <td>2022-01-10 14:12:54 </td>
-       <td>path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22816">详情</a></td>
       </tr>
 
      </tbody>
