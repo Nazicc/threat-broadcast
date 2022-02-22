@@ -1,33 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13067 (CVE-2021-22823)</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:00<br/>[<b>漏洞描述</b>] Schneider Electric Interactive Graphical SCADA System访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13067'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13067</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13078 (CVE-2021-46451)</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:09<br/>[<b>漏洞描述</b>] Sourcecodester Online Project Time Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13078'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13078</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21311</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406924'>http://cve.scap.org.cn/vuln/VHN-406924</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21312</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster缓冲区溢出漏洞（CNVD-2022-13059）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406925'>http://cve.scap.org.cn/vuln/VHN-406925</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21315</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13051）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406928'>http://cve.scap.org.cn/vuln/VHN-406928</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21317</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster缓冲区溢出漏洞（CNVD-2022-13057）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406930'>http://cve.scap.org.cn/vuln/VHN-406930</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21321</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster缓冲区溢出漏洞（CNVD-2022-13053）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406934'>http://cve.scap.org.cn/vuln/VHN-406934</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21322</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13061）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406935'>http://cve.scap.org.cn/vuln/VHN-406935</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21326</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13054）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406939'>http://cve.scap.org.cn/vuln/VHN-406939</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21329</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13052）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406942'>http://cve.scap.org.cn/vuln/VHN-406942</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21330</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13055）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406943'>http://cve.scap.org.cn/vuln/VHN-406943</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21332</font><br/>[<b>披露时间</b>] 2022-02-22 03:41:47<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13056）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406945'>http://cve.scap.org.cn/vuln/VHN-406945</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13079 (CVE-2021-23355)</font><br/>[<b>披露时间</b>] 2022-02-22 04:47:36<br/>[<b>漏洞描述</b>] Npm ps-kill命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13079'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13079</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-22710</font><br/>[<b>披露时间</b>] 2022-02-22 04:48:19<br/>[<b>漏洞描述</b>] Schneider Electric Interactive Graphical SCADA...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-381184'>http://cve.scap.org.cn/vuln/VHN-381184</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-22823</font><br/>[<b>披露时间</b>] 2022-02-22 04:48:19<br/>[<b>漏洞描述</b>] Schneider Electric Interactive Graphical SCADA...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-381297'>http://cve.scap.org.cn/vuln/VHN-381297</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
