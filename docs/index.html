@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-23 19:38:34 -->
+<!-- RELEASE TIME : 2022-02-23 20:40:07 -->
 <html lang="zh-cn">
 
  <head>
@@ -95,6 +95,46 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">591a5ae155ee62c16cc9d565caf1fd45</td>
+       <td>CVE-2022-20650</td>
+       <td>2022-02-23 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the NX-API feature of Cisco NX-OS Software could allow an authenticated, remote attacker to execute arbitrary commands with root privileges. The vulnerability is due to insufficient input validation of user supplied data that is sent to the NX-API. An attacker could exploit this vulnerability by sending a crafted HTTP POST request to the NX-API of an affected device. A successful exploit could allow the attacker to execute arbitrary commands with root privileges on the underlying operating system. Note: The NX-API feature is disabled by default.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20650">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7e79cba13651bc0a2c64b2e6a1a41177</td>
+       <td>CVE-2022-20625</td>
+       <td>2022-02-23 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the Cisco Discovery Protocol service of Cisco FXOS Software and Cisco NX-OS Software could allow an unauthenticated, adjacent attacker to cause the service to restart, resulting in a denial of service (DoS) condition. This vulnerability is due to improper handling of Cisco Discovery Protocol messages that are processed by the Cisco Discovery Protocol service. An attacker could exploit this vulnerability by sending a series of malicious Cisco Discovery Protocol messages to an affected device. A successful exploit could allow the attacker to cause the Cisco Discovery Protocol service to fail and restart. In rare conditions, repeated failures of the process could occur, which could cause the entire device to restart.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20625">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">81cbfc43a6be2d561a15d8c78896dfcb</td>
+       <td>CVE-2022-20624</td>
+       <td>2022-02-23 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the Cisco Fabric Services over IP (CFSoIP) feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to insufficient validation of incoming CFSoIP packets. An attacker could exploit this vulnerability by sending crafted CFSoIP packets to an affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20624">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bd02a182a9976da8bb3fac0168c29436</td>
+       <td>CVE-2022-20623</td>
+       <td>2022-02-23 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the rate limiter for Bidirectional Forwarding Detection (BFD) traffic of Cisco NX-OS Software for Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to cause BFD traffic to be dropped on an affected device. This vulnerability is due to a logic error in the BFD rate limiter functionality. An attacker could exploit this vulnerability by sending a crafted stream of traffic through the device. A successful exploit could allow the attacker to cause BFD traffic to be dropped, resulting in BFD session flaps. BFD session flaps can cause route instability and dropped traffic, resulting in a denial of service (DoS) condition. This vulnerability applies to both IPv4 and IPv6 traffic.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20623">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">91c7f6ec8a34c8916a105d1526c8257e</td>
+       <td>CVE-2022-0476</td>
+       <td>2022-02-23 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Denial of Service in GitHub repository radareorg/radare2 prior to 5.6.4.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0476">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">78958dbaa69f02f350f2f551aa42aab5</td>
        <td>CVE-2022-0729</td>
@@ -293,46 +333,6 @@
        <td>2022-02-22 19:15:00 <img src="imgs/new.gif" /></td>
        <td>Heap-based Buffer Overflow in GitHub repository radareorg/radare2 prior to 5.6.4.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0713">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2a356b15bd048d0c7eb5b90916272099</td>
-       <td>CVE-2022-0712</td>
-       <td>2022-02-22 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>NULL Pointer Dereference in GitHub repository radareorg/radare2 prior to 5.6.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0712">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9a03b946642769f4efe0b473eab929e9</td>
-       <td>CVE-2021-46699</td>
-       <td>2022-02-22 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Simcenter Femap (All versions < V2022.1.1). Affected application contains a stack based buffer overflow vulnerability while parsing specially crafted BDF files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-15061)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46699">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3d114487efa88db7c2ac72d4d3e467c2</td>
-       <td>CVE-2021-46162</td>
-       <td>2022-02-22 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Simcenter Femap (All versions < V2022.1.1). Affected application contains an out of bounds write past the end of an allocated structure while parsing specially crafted NEU files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-15048)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46162">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d59fb083fd786fdb983ba537edd7299</td>
-       <td>CVE-2022-0665</td>
-       <td>2022-02-22 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Path Traversal in GitHub repository pimcore/pimcore prior to 10.3.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0665">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d6a0b1ff8f107aaedc21b2c0fbe664e</td>
-       <td>CVE-2022-0676</td>
-       <td>2022-02-22 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Heap-based Buffer Overflow in NPM radare2.js prior to 5.6.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0676">详情</a></td>
       </tr>
 
      </tbody>
