@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-23 01:51:39 -->
+<!-- RELEASE TIME : 2022-02-23 02:51:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -95,6 +95,86 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">e6e6e7f156d560a6da9097391e2a1c25</td>
+       <td>CVE-2022-0654</td>
+       <td>2022-02-23 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Exposure of Sensitive Information to an Unauthorized Actor in GitHub repository fgribreau/node-request-retry prior to 7.0.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0654">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28444a435104ebc2b5a52b00b718250a</td>
+       <td>CVE-2022-23612</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenMRS is a patient-based medical record system focusing on giving providers a free customizable electronic medical record system. Affected versions are subject to arbitrary file exfiltration due to failure to sanitize request when satisfying GET requests for `/images` & `/initfilter/scripts`. This can allow an attacker to access any file on a system running OpenMRS that is accessible to the user id OpenMRS is running under. Affected implementations should update to the latest patch version of OpenMRS Core for the minor version they use. These are: 2.1.5, 2.2.1, 2.3.5, 2.4.5 and 2.5.3. As a general rule, this vulnerability is already mitigated by Tomcat's URL normalization in Tomcat 7.0.28+. Users on older versions of Tomcat should consider upgrading their Tomcat instance as well as their OpenMRS instance.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23612">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b3551a71433db7d51c23e81471751926</td>
+       <td>CVE-2022-23606</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. When a cluster is deleted via Cluster Discovery Service (CDS) all idle connections established to endpoints in that cluster are disconnected. A recursion was introduced in the procedure of disconnecting idle connections that can lead to stack exhaustion and abnormal process termination when a cluster has a large number of idle connections. This infinite recursion causes Envoy to crash. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23606">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d2bf9996c7c1641a25452ff5a625815c</td>
+       <td>CVE-2022-21657</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions Envoy does not restrict the set of certificates it accepts from the peer, either as a TLS client or a TLS server, to only those certificates that contain the necessary extendedKeyUsage (id-kp-serverAuth and id-kp-clientAuth, respectively). This means that a peer may present an e-mail certificate (e.g. id-kp-emailProtection), either as a leaf certificate or as a CA in the chain, and it will be accepted for TLS. This is particularly bad when combined with the issue described in pull request #630, in that it allows a Web PKI CA that is intended only for use with S/MIME, and thus exempted from audit or supervision, to issue TLS certificates that will be accepted by Envoy. As a result Envoy will trust upstream certificates that should not be trusted. There are no known workarounds to this issue. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21657">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e96d39c0e7f5a8a03c744f366b7131f</td>
+       <td>CVE-2022-21656</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. The default_validator.cc implementation used to implement the default certificate validation routines has a "type confusion" bug when processing subjectAltNames. This processing allows, for example, an rfc822Name or uniformResourceIndicator to be authenticated as a domain name. This confusion allows for the bypassing of nameConstraints, as processed by the underlying OpenSSL/BoringSSL implementation, exposing the possibility of impersonation of arbitrary servers. As a result Envoy will trust upstream certificates that should not be trusted.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21656">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ccf91b2cfbf6169f7c681b15c3cceeb6</td>
+       <td>CVE-2022-21655</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. The envoy common router will segfault if an internal redirect selects a route configured with direct response or redirect actions. This will result in a denial of service. As a workaround turn off internal redirects if direct response entries are configured on the same listener.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21655">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">beb31b4792f7cd40591a03ed4fc5645e</td>
+       <td>CVE-2022-21654</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. Envoy's tls allows re-use when some cert validation settings have changed from their default configuration. The only workaround for this issue is to ensure that default tls settings are used. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21654">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d361e44e9d5f9ad443a281ebf76414bf</td>
+       <td>CVE-2021-43826</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions of Envoy a crash occurs when configured for :ref:`upstream tunneling <envoy_v3_api_field_extensions.filters.network.tcp_proxy.v3.TcpProxy.tunneling_config>` and the downstream connection disconnects while the the upstream connection or http/2 stream is still being established. There are no workarounds for this issue. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43826">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cb4b885e6b9cb74bdd8b6b1ea6ce8c20</td>
+       <td>CVE-2021-43825</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. Sending a locally generated response must stop further processing of request or response data. Envoy tracks the amount of buffered request and response data and aborts the request if the amount of buffered data is over the limit by sending 413 or 500 responses. However when the buffer overflows while response is processed by the filter chain the operation may not be aborted correctly and result in accessing a freed memory block. If this happens Envoy will crash resulting in a denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43825">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c91b1752c2ccb38e56ae2b425ffbf614</td>
+       <td>CVE-2021-43824</td>
+       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions a crafted request crashes Envoy when a CONNECT request is sent to JWT filter configured with regex match. This provides a denial of service attack vector. The only workaround is to not use regex in the JWT filter. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43824">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">e4659a0314bdc2e5fb27c66c79469cb0</td>
        <td>CVE-2022-23635</td>
@@ -255,86 +335,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44573">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">08042550ca4844ad8c30e78e0c2c0ea3</td>
-       <td>CVE-2021-44571</td>
-       <td>2022-02-21 20:15:00</td>
-       <td>A heap overflow vulnerability exisfts in openSUSE libsolv through 13 Dec 2020 in the prefer_suggested function at src/policy.c: line 442.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44571">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eb3651c305c2faca3d17246c35f05e15</td>
-       <td>CVE-2022-0696</td>
-       <td>2022-02-21 20:15:00</td>
-       <td>NULL Pointer Dereference in GitHub repository vim/vim prior to 8.2.4428.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0696">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">94ea048320020b29fc0449a7008963ad</td>
-       <td>CVE-2022-0563</td>
-       <td>2022-02-21 19:15:00</td>
-       <td>A flaw was found in the Linux kernel’s util-linux chfn and chsh utilities when compiled with Readline support. The Readline library uses an "INPUTRC" environment variable to get a path to the library config file. When the library cannot parse the specified file, it prints an error message containing data from the file. This flaw allows an unprivileged user to read root-owned files, potentially leading to privilege escalation. This flaw affects util-linux versions prior to 2.37.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0563">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9988f1482f4c658888e586860131aae0</td>
-       <td>CVE-2021-44570</td>
-       <td>2022-02-21 19:15:00</td>
-       <td>Two heap-overflow vulnerabilities exists in openSUSE/libsolv through 13 Dec 2020 in the bugs in the solver_get_recommendations funtion function at src/solver.c: line 4286 & line 4305 FOR_PROVIDES.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44570">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9102a5a4a0233eeca5c564fbdff50962</td>
-       <td>CVE-2021-44569</td>
-       <td>2022-02-21 19:15:00</td>
-       <td>A heap-buffer openSUSE libsolv through 13 Dec 2020 exists in the solver_solve function at src/solver.c: line 3445.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44569">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">323ac7fdb3203ad6450c59382a4bb7d5</td>
-       <td>CVE-2022-0563</td>
-       <td>2022-02-21 19:15:00</td>
-       <td>A flaw was found in the util-linux chfn and chsh utilities when compiled with Readline support. The Readline library uses an "INPUTRC" environment variable to get a path to the library config file. When the library cannot parse the specified file, it prints an error message containing data from the file. This flaw allows an unprivileged user to read root-owned files, potentially leading to privilege escalation. This flaw affects util-linux versions prior to 2.37.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0563">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2d1906e3a1e165198351b652648765df</td>
-       <td>CVE-2022-25599</td>
-       <td>2022-02-21 18:15:00</td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability leading to event deletion was discovered in Spiffy Calendar WordPress plugin (versions <= 4.9.0).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25599">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">977b9f7e27d4a40b8c2c7fe723cd57f8</td>
-       <td>CVE-2022-24295</td>
-       <td>2022-02-21 18:15:00</td>
-       <td>Okta Advanced Server Access Client for Windows prior to version 1.57.0 was found to be vulnerable to command injection via a specially crafted URL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24295">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5754ecdfae4db60dd85ef3e9dff6b604</td>
-       <td>CVE-2022-23984</td>
-       <td>2022-02-21 18:15:00</td>
-       <td>Sensitive information disclosure discovered in wpDiscuz WordPress plugin (versions <= 7.3.11).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23984">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f0ca3049350b61af0a81e197de855ea9</td>
-       <td>CVE-2022-23983</td>
-       <td>2022-02-21 18:15:00</td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability leading to plugin Settings Update discovered in WP Content Copy Protection & No Right Click WordPress plugin (versions <= 3.4.4).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23983">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -349,6 +349,33 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">1d8f5bb2b3d3b86b25f1060d3e2b8266</td>
+       <td>CVE-2022-20653</td>
+       <td>2022-02-23 02:51:37 <img src="imgs/new.gif" /></td>
+       <td>Cisco Email Security Appliance资源管理错误漏洞（CNVD-2022-13368）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405206">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3370ae656ea04e36939b86ba00d6d25a</td>
+       <td>CVE-2022-20659</td>
+       <td>2022-02-23 02:51:37 <img src="imgs/new.gif" /></td>
+       <td>Cisco Prime Infrastructure and Cisco EPN Manager跨站脚本漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405212">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2f28cf152085a3743ea0744bbeebb7c2</td>
+       <td>CVE-2022-20750</td>
+       <td>2022-02-23 02:51:37 <img src="imgs/new.gif" /></td>
+       <td>Cisco RCM for Cisco StarOS Software拒绝服务漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405303">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">677b3589a1879575dc8418e7a4b43c55</td>
        <td>CVE-2021-34223</td>
@@ -592,33 +619,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406723">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">9d0cd896547a52dc1d6558863acbd398</td>
-       <td>CVE-2021-45268</td>
-       <td>2022-02-20 03:41:58</td>
-       <td>Backdrop CMS跨站请求伪造漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408899">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7749c18fad1021255877b76df1f269c1</td>
-       <td>CVE-2021-45331</td>
-       <td>2022-02-20 03:41:58</td>
-       <td>Gitea授权问题漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408962">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ae7c2d4d3010d290d3465fffae7aaa6b</td>
-       <td>CVE-2021-39685</td>
-       <td>2022-02-18 09:03:34</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401109">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -633,6 +633,46 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">0bdeb3ab39bd16488e1f8d64db1a1abf</td>
+       <td>CNVD-2022-13376 (CVE-2022-25365)</td>
+       <td>2022-02-23 02:51:09 <img src="imgs/new.gif" /></td>
+       <td>Docker Desktop存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13376">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0694edea5e27896d2f0480db82f14435</td>
+       <td>CNVD-2022-13377 (CVE-2022-0630)</td>
+       <td>2022-02-23 02:51:07 <img src="imgs/new.gif" /></td>
+       <td>mruby越界读取漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13377">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">db7fa98cc4763914b13a2eec788c96e5</td>
+       <td>CNVD-2022-13378 (CVE-2022-0632)</td>
+       <td>2022-02-23 02:51:03 <img src="imgs/new.gif" /></td>
+       <td>mruby代码问题漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13378">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7571d420506709ba190c027896c5f7d4</td>
+       <td>CNVD-2022-13379 (CVE-2022-0686)</td>
+       <td>2022-02-23 02:51:00 <img src="imgs/new.gif" /></td>
+       <td>NPM url-parse授权绕过漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13379">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b01f930087dceaeb945f05dff26d891d</td>
+       <td>CNVD-2022-13370 (CVE-2022-20750)</td>
+       <td>2022-02-23 02:50:51 <img src="imgs/new.gif" /></td>
+       <td>Cisco RCM for Cisco StarOS Software拒绝服务漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13370">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">cb60f804122ce4275424d9245eab3942</td>
        <td>CNVD-2022-13363 (CVE-2021-44730)</td>
@@ -831,46 +871,6 @@
        <td>2022-02-22 03:41:00 <img src="imgs/new.gif" /></td>
        <td>Schneider Electric Interactive Graphical SCADA System访问控制错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13067">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1039969d25320dc23709b2ffff0552cb</td>
-       <td>CNVD-2022-13064 (CVE-2022-21358)</td>
-       <td>2022-02-22 02:48:26 <img src="imgs/new.gif" /></td>
-       <td>Oracle MySQL Server输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13064">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">36031e8bf686eb1fe0101ac994237fa0</td>
-       <td>CNVD-2022-13062 (CVE-2022-21356)</td>
-       <td>2022-02-22 02:48:23 <img src="imgs/new.gif" /></td>
-       <td>Oracle MySQL Cluster输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13062">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">56b7fec8e3d824bcfefa503d8eb1d0f2</td>
-       <td>CNVD-2022-13052 (CVE-2022-21329)</td>
-       <td>2022-02-22 02:48:20 <img src="imgs/new.gif" /></td>
-       <td>Oracle MySQL Cluster输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13052">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">09b33aca1642519e92fe594b420574b2</td>
-       <td>CNVD-2022-13053 (CVE-2022-21321)</td>
-       <td>2022-02-22 02:48:17 <img src="imgs/new.gif" /></td>
-       <td>Oracle MySQL Cluster缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13053">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1b674299391f42d30bdc3111c3a1d95e</td>
-       <td>CNVD-2022-13054 (CVE-2022-21326)</td>
-       <td>2022-02-22 02:48:15 <img src="imgs/new.gif" /></td>
-       <td>Oracle MySQL Cluster输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13054">详情</a></td>
       </tr>
 
      </tbody>

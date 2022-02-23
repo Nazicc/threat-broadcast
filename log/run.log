@@ -4613,3 +4613,181 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.cnvd.org.cn', por
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-23635
 2022-02-23 01:51:39 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-02-23 02:50:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:50:45 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-23 02:50:46 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-23 02:50:46 [INFO] : --------------------------------------------
+2022-02-23 02:50:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:50:46 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-23 02:50:47 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-23 02:50:47 [INFO] : --------------------------------------------
+2022-02-23 02:50:47 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:50:47 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-23 02:51:13 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [5] 条
+2022-02-23 02:51:13 [INFO] : --------------------------------------------
+2022-02-23 02:51:13 [INFO] : 
+==============================================
+[ TITLE ] Cisco RCM for Cisco StarOS Software拒绝服务漏洞
+[ TIME  ] 2022-02-23 02:50:51
+[ CVE   ] CNVD-2022-13370 (CVE-2022-20750)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-13370
+2022-02-23 02:51:13 [INFO] : 
+==============================================
+[ TITLE ] NPM url-parse授权绕过漏洞
+[ TIME  ] 2022-02-23 02:51:00
+[ CVE   ] CNVD-2022-13379 (CVE-2022-0686)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-13379
+2022-02-23 02:51:13 [INFO] : 
+==============================================
+[ TITLE ] mruby代码问题漏洞
+[ TIME  ] 2022-02-23 02:51:03
+[ CVE   ] CNVD-2022-13378 (CVE-2022-0632)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-13378
+2022-02-23 02:51:13 [INFO] : 
+==============================================
+[ TITLE ] mruby越界读取漏洞
+[ TIME  ] 2022-02-23 02:51:07
+[ CVE   ] CNVD-2022-13377 (CVE-2022-0630)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-13377
+2022-02-23 02:51:13 [INFO] : 
+==============================================
+[ TITLE ] Docker Desktop存在未明漏洞
+[ TIME  ] 2022-02-23 02:51:09
+[ CVE   ] CNVD-2022-13376 (CVE-2022-25365)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-13376
+2022-02-23 02:51:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:13 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-23 02:51:33 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-23 02:51:33 [INFO] : --------------------------------------------
+2022-02-23 02:51:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:33 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-23 02:51:34 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-23 02:51:34 [INFO] : --------------------------------------------
+2022-02-23 02:51:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:34 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-23 02:51:35 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-02-23 02:51:35 [INFO] : --------------------------------------------
+2022-02-23 02:51:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:35 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-23 02:51:37 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [3] 条
+2022-02-23 02:51:37 [INFO] : --------------------------------------------
+2022-02-23 02:51:37 [INFO] : 
+==============================================
+[ TITLE ] Cisco Email Security Appliance资源管理错误漏洞（CNVD-2022-13368）
+                    
+[ TIME  ] 2022-02-23 02:51:37
+[ CVE   ] CVE-2022-20653
+[ SRC   ] 信息安全漏洞门户
+[ URL   ] http://cve.scap.org.cn/vuln/VHN-405206
+2022-02-23 02:51:37 [INFO] : 
+==============================================
+[ TITLE ] Cisco Prime Infrastructure and Cisco EPN Manager跨站脚本漏洞
+                    
+[ TIME  ] 2022-02-23 02:51:37
+[ CVE   ] CVE-2022-20659
+[ SRC   ] 信息安全漏洞门户
+[ URL   ] http://cve.scap.org.cn/vuln/VHN-405212
+2022-02-23 02:51:37 [INFO] : 
+==============================================
+[ TITLE ] Cisco RCM for Cisco StarOS Software拒绝服务漏洞
+                    
+[ TIME  ] 2022-02-23 02:51:37
+[ CVE   ] CVE-2022-20750
+[ SRC   ] 信息安全漏洞门户
+[ URL   ] http://cve.scap.org.cn/vuln/VHN-405303
+2022-02-23 02:51:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:37 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-23 02:51:38 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-23 02:51:38 [INFO] : --------------------------------------------
+2022-02-23 02:51:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:38 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-23 02:51:43 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-23 02:51:43 [INFO] : --------------------------------------------
+2022-02-23 02:51:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:43 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-23 02:51:44 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-23 02:51:44 [INFO] : --------------------------------------------
+2022-02-23 02:51:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:44 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-23 02:51:50 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-23 02:51:50 [INFO] : --------------------------------------------
+2022-02-23 02:51:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 02:51:50 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-23 02:51:50 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-02-23 02:51:50 [INFO] : --------------------------------------------
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Exposure of Sensitive Information to an Unauthorized Actor in GitHub repository fgribreau/node-request-retry prior to 7.0.0.
+[ TIME  ] 2022-02-23 00:15:00
+[ CVE   ] CVE-2022-0654
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0654
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] OpenMRS is a patient-based medical record system focusing on giving providers a free customizable electronic medical record system. Affected versions are subject to arbitrary file exfiltration due to failure to sanitize request when satisfying GET requests for `/images` & `/initfilter/scripts`. This can allow an attacker to access any file on a system running OpenMRS that is accessible to the user id OpenMRS is running under. Affected implementations should update to the latest patch version of OpenMRS Core for the minor version they use. These are: 2.1.5, 2.2.1, 2.3.5, 2.4.5 and 2.5.3. As a general rule, this vulnerability is already mitigated by Tomcat's URL normalization in Tomcat 7.0.28+. Users on older versions of Tomcat should consider upgrading their Tomcat instance as well as their OpenMRS instance.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2022-23612
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23612
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. When a cluster is deleted via Cluster Discovery Service (CDS) all idle connections established to endpoints in that cluster are disconnected. A recursion was introduced in the procedure of disconnecting idle connections that can lead to stack exhaustion and abnormal process termination when a cluster has a large number of idle connections. This infinite recursion causes Envoy to crash. Users are advised to upgrade.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2022-23606
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23606
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions Envoy does not restrict the set of certificates it accepts from the peer, either as a TLS client or a TLS server, to only those certificates that contain the necessary extendedKeyUsage (id-kp-serverAuth and id-kp-clientAuth, respectively). This means that a peer may present an e-mail certificate (e.g. id-kp-emailProtection), either as a leaf certificate or as a CA in the chain, and it will be accepted for TLS. This is particularly bad when combined with the issue described in pull request #630, in that it allows a Web PKI CA that is intended only for use with S/MIME, and thus exempted from audit or supervision, to issue TLS certificates that will be accepted by Envoy. As a result Envoy will trust upstream certificates that should not be trusted. There are no known workarounds to this issue. Users are advised to upgrade.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2022-21657
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-21657
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. The default_validator.cc implementation used to implement the default certificate validation routines has a "type confusion" bug when processing subjectAltNames. This processing allows, for example, an rfc822Name or uniformResourceIndicator to be authenticated as a domain name. This confusion allows for the bypassing of nameConstraints, as processed by the underlying OpenSSL/BoringSSL implementation, exposing the possibility of impersonation of arbitrary servers. As a result Envoy will trust upstream certificates that should not be trusted.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2022-21656
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-21656
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. The envoy common router will segfault if an internal redirect selects a route configured with direct response or redirect actions. This will result in a denial of service. As a workaround turn off internal redirects if direct response entries are configured on the same listener.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2022-21655
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-21655
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. Envoy's tls allows re-use when some cert validation settings have changed from their default configuration. The only workaround for this issue is to ensure that default tls settings are used. Users are advised to upgrade.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2022-21654
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-21654
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions of Envoy a crash occurs when configured for :ref:`upstream tunneling <envoy_v3_api_field_extensions.filters.network.tcp_proxy.v3.TcpProxy.tunneling_config>` and the downstream connection disconnects while the the upstream connection or http/2 stream is still being established. There are no workarounds for this issue. Users are advised to upgrade.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2021-43826
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43826
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. Sending a locally generated response must stop further processing of request or response data. Envoy tracks the amount of buffered request and response data and aborts the request if the amount of buffered data is over the limit by sending 413 or 500 responses. However when the buffer overflows while response is processed by the filter chain the operation may not be aborted correctly and result in accessing a freed memory block. If this happens Envoy will crash resulting in a denial of service.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2021-43825
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43825
+2022-02-23 02:51:50 [INFO] : 
+==============================================
+[ TITLE ] Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions a crafted request crashes Envoy when a CONNECT request is sent to JWT filter configured with regex match. This provides a denial of service attack vector. The only workaround is to not use regex in the JWT filter. Users are advised to upgrade.
+[ TIME  ] 2022-02-22 23:15:00
+[ CVE   ] CVE-2021-43824
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43824
+2022-02-23 02:51:50 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
