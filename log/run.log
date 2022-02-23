@@ -6095,3 +6095,122 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.cnvd.org.cn', por
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-0476
 2022-02-23 20:40:07 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-02-23 21:38:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:38:33 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-23 21:38:34 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-23 21:38:34 [INFO] : --------------------------------------------
+2022-02-23 21:38:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:38:34 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-23 21:38:35 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-23 21:38:35 [INFO] : --------------------------------------------
+2022-02-23 21:38:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:38:35 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-23 21:38:59 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-23 21:38:59 [INFO] : --------------------------------------------
+2022-02-23 21:38:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:38:59 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-23 21:39:21 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-23 21:39:21 [INFO] : --------------------------------------------
+2022-02-23 21:39:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:21 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-23 21:39:22 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-23 21:39:22 [INFO] : --------------------------------------------
+2022-02-23 21:39:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:22 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-23 21:39:23 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-02-23 21:39:23 [INFO] : --------------------------------------------
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] xmlparse.c in Expat (aka libexpat) before 2.4.5 allows attackers to insert namespace-separator characters into namespace URIs.
+[ TIME  ] 2022-02-16 01:15:07 
+[ CVE   ] CVE-2022-25236
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25236
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] xmltok_impl.c in Expat (aka libexpat) before 2.4.5 lacks certain validation of encoding, such as checks for whether a UTF-8 character is valid in a certain context.
+[ TIME  ] 2022-02-16 01:15:07 
+[ CVE   ] CVE-2022-25235
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25235
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins SWAMP Plugin 1.2.6 and earlier allows attackers to connect to an attacker-specified web server using attacker-specified credentials.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25212
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25212
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] A missing permission check in Jenkins SWAMP Plugin 1.2.6 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified web server using attacker-specified credentials.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25211
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25211
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Convertigo Mobile Platform Plugin 1.1 and earlier uses static fields to store job configuration information, allowing attackers with Item/Configure permission to capture passwords of the jobs that will be configured.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25210
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25210
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Chef Sinatra Plugin 1.20 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25209
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25209
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] A missing permission check in Jenkins Chef Sinatra Plugin 1.20 and earlier allows attackers with Overall/Read permission to have Jenkins send an HTTP request to an attacker-controlled URL and have it parse an XML response.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25208
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25208
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins Chef Sinatra Plugin 1.20 and earlier allows attackers to have Jenkins send an HTTP request to an attacker-controlled URL and have it parse an XML response.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25207
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25207
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] A missing check in Jenkins dbCharts Plugin 0.5.2 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified database via JDBC using attacker-specified credentials.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25206
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25206
+2022-02-23 21:39:23 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins dbCharts Plugin 0.5.2 and earlier allows attackers to connect to an attacker-specified database via JDBC using attacker-specified credentials and to determine if a class is available in the Jenkins instance.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25205
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25205
+2022-02-23 21:39:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:23 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-23 21:39:24 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-02-23 21:39:24 [INFO] : --------------------------------------------
+2022-02-23 21:39:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:24 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-23 21:39:25 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-23 21:39:25 [INFO] : --------------------------------------------
+2022-02-23 21:39:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:25 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-23 21:39:26 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-23 21:39:26 [INFO] : --------------------------------------------
+2022-02-23 21:39:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:26 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-23 21:39:28 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-23 21:39:28 [INFO] : --------------------------------------------
+2022-02-23 21:39:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:28 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-23 21:39:34 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-23 21:39:34 [INFO] : --------------------------------------------
+2022-02-23 21:39:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-23 21:39:34 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-23 21:39:34 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-02-23 21:39:34 [INFO] : --------------------------------------------
+2022-02-23 21:39:34 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
