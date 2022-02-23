@@ -1,29 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13373 (CVE-2022-23649)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:08<br/>[<b>漏洞描述</b>] Cosign信任管理问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13373'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13373</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13374 (CVE-2022-23650)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:10<br/>[<b>漏洞描述</b>] Gravitl Netmaker存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13374'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13374</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13375 (CVE-2022-23642)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:13<br/>[<b>漏洞描述</b>] Sourcegraph代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13375'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13375</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13380 (CVE-2021-46701)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:24<br/>[<b>漏洞描述</b>] PreMid存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13380'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13380</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23642</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] Sourcegraph代码注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412816'>http://cve.scap.org.cn/vuln/VHN-412816</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23649</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] Cosign信任管理问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412823'>http://cve.scap.org.cn/vuln/VHN-412823</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23650</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] Gravitl Netmaker存在未明漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412824'>http://cve.scap.org.cn/vuln/VHN-412824</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0630</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] mruby越界读取漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415149'>http://cve.scap.org.cn/vuln/VHN-415149</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0632</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] mruby代码问题漏洞（CNVD-2022-13378）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415151'>http://cve.scap.org.cn/vuln/VHN-415151</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25365</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] Docker Desktop存在未明漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415352'>http://cve.scap.org.cn/vuln/VHN-415352</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0686</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:56<br/>[<b>漏洞描述</b>] NPM url-parse授权绕过漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415358'>http://cve.scap.org.cn/vuln/VHN-415358</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25139</font><br/>[<b>披露时间</b>] 2022-02-14 22:15:08 <br/>[<b>漏洞描述</b>] njs through 0.7.0, used in NGINX, was discovered to contain a heap use-after-free in njs_await_fulfilled.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25139'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25139</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
