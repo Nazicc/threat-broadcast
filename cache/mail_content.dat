@@ -1,13 +1,16 @@
 
 <h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13922 (CVE-2022-25599)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:33<br/>[<b>漏洞描述</b>] WordPress plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13922'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13922</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13923 (CVE-2022-22308)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:35<br/>[<b>漏洞描述</b>] IBM Planning Analytics存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13923'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13923</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-13924 (CVE-2022-0708)</font><br/>[<b>披露时间</b>] 2022-02-23 04:47:38<br/>[<b>漏洞描述</b>] Mattermost存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-13924'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-13924</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21732</font><br/>[<b>披露时间</b>] 2022-02-23 05:37:59<br/>[<b>漏洞描述</b>] Google Tensorflow拒绝服务漏洞（CNVD-2022-13928）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-407345'>http://cve.scap.org.cn/vuln/VHN-407345</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44977</font><br/>[<b>披露时间</b>] 2022-02-23 05:37:59<br/>[<b>漏洞描述</b>] iCMS路径遍历漏洞（CNVD-2022-13929）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408361'>http://cve.scap.org.cn/vuln/VHN-408361</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44978</font><br/>[<b>披露时间</b>] 2022-02-23 05:37:59<br/>[<b>漏洞描述</b>] iCMS代码注入漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408362'>http://cve.scap.org.cn/vuln/VHN-408362</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
