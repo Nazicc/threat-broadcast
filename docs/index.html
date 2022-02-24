@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-02-23 23:40:57 -->
+<!-- RELEASE TIME : 2022-02-24 01:51:16 -->
 <html lang="zh-cn">
 
  <head>
@@ -95,6 +95,14 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">9685ffc100b3454464a260c1e0506342</td>
+       <td>CVE-2022-24409</td>
+       <td>2022-02-23 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Only customers with active BSAFE maintenance contracts can receive details about this vulnerability. Public disclosure of the vulnerability details will be shared at a later date.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24409">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">3645a062624b534b578739da4b5a8bea</td>
        <td>CVE-2022-22336</td>
@@ -258,7 +266,7 @@
       <tr>
        <td scope="row">28444a435104ebc2b5a52b00b718250a</td>
        <td>CVE-2022-23612</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>OpenMRS is a patient-based medical record system focusing on giving providers a free customizable electronic medical record system. Affected versions are subject to arbitrary file exfiltration due to failure to sanitize request when satisfying GET requests for `/images` & `/initfilter/scripts`. This can allow an attacker to access any file on a system running OpenMRS that is accessible to the user id OpenMRS is running under. Affected implementations should update to the latest patch version of OpenMRS Core for the minor version they use. These are: 2.1.5, 2.2.1, 2.3.5, 2.4.5 and 2.5.3. As a general rule, this vulnerability is already mitigated by Tomcat's URL normalization in Tomcat 7.0.28+. Users on older versions of Tomcat should consider upgrading their Tomcat instance as well as their OpenMRS instance.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23612">详情</a></td>
       </tr>
@@ -266,7 +274,7 @@
       <tr>
        <td scope="row">b3551a71433db7d51c23e81471751926</td>
        <td>CVE-2022-23606</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. When a cluster is deleted via Cluster Discovery Service (CDS) all idle connections established to endpoints in that cluster are disconnected. A recursion was introduced in the procedure of disconnecting idle connections that can lead to stack exhaustion and abnormal process termination when a cluster has a large number of idle connections. This infinite recursion causes Envoy to crash. Users are advised to upgrade.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23606">详情</a></td>
       </tr>
@@ -274,7 +282,7 @@
       <tr>
        <td scope="row">d2bf9996c7c1641a25452ff5a625815c</td>
        <td>CVE-2022-21657</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions Envoy does not restrict the set of certificates it accepts from the peer, either as a TLS client or a TLS server, to only those certificates that contain the necessary extendedKeyUsage (id-kp-serverAuth and id-kp-clientAuth, respectively). This means that a peer may present an e-mail certificate (e.g. id-kp-emailProtection), either as a leaf certificate or as a CA in the chain, and it will be accepted for TLS. This is particularly bad when combined with the issue described in pull request #630, in that it allows a Web PKI CA that is intended only for use with S/MIME, and thus exempted from audit or supervision, to issue TLS certificates that will be accepted by Envoy. As a result Envoy will trust upstream certificates that should not be trusted. There are no known workarounds to this issue. Users are advised to upgrade.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21657">详情</a></td>
       </tr>
@@ -282,7 +290,7 @@
       <tr>
        <td scope="row">4e96d39c0e7f5a8a03c744f366b7131f</td>
        <td>CVE-2022-21656</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. The default_validator.cc implementation used to implement the default certificate validation routines has a "type confusion" bug when processing subjectAltNames. This processing allows, for example, an rfc822Name or uniformResourceIndicator to be authenticated as a domain name. This confusion allows for the bypassing of nameConstraints, as processed by the underlying OpenSSL/BoringSSL implementation, exposing the possibility of impersonation of arbitrary servers. As a result Envoy will trust upstream certificates that should not be trusted.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21656">详情</a></td>
       </tr>
@@ -290,7 +298,7 @@
       <tr>
        <td scope="row">ccf91b2cfbf6169f7c681b15c3cceeb6</td>
        <td>CVE-2022-21655</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. The envoy common router will segfault if an internal redirect selects a route configured with direct response or redirect actions. This will result in a denial of service. As a workaround turn off internal redirects if direct response entries are configured on the same listener.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21655">详情</a></td>
       </tr>
@@ -298,7 +306,7 @@
       <tr>
        <td scope="row">beb31b4792f7cd40591a03ed4fc5645e</td>
        <td>CVE-2022-21654</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. Envoy's tls allows re-use when some cert validation settings have changed from their default configuration. The only workaround for this issue is to ensure that default tls settings are used. Users are advised to upgrade.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21654">详情</a></td>
       </tr>
@@ -306,7 +314,7 @@
       <tr>
        <td scope="row">d361e44e9d5f9ad443a281ebf76414bf</td>
        <td>CVE-2021-43826</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions of Envoy a crash occurs when configured for :ref:`upstream tunneling <envoy_v3_api_field_extensions.filters.network.tcp_proxy.v3.TcpProxy.tunneling_config>` and the downstream connection disconnects while the the upstream connection or http/2 stream is still being established. There are no workarounds for this issue. Users are advised to upgrade.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43826">详情</a></td>
       </tr>
@@ -314,7 +322,7 @@
       <tr>
        <td scope="row">cb4b885e6b9cb74bdd8b6b1ea6ce8c20</td>
        <td>CVE-2021-43825</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. Sending a locally generated response must stop further processing of request or response data. Envoy tracks the amount of buffered request and response data and aborts the request if the amount of buffered data is over the limit by sending 413 or 500 responses. However when the buffer overflows while response is processed by the filter chain the operation may not be aborted correctly and result in accessing a freed memory block. If this happens Envoy will crash resulting in a denial of service.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43825">详情</a></td>
       </tr>
@@ -322,17 +330,9 @@
       <tr>
        <td scope="row">c91b1752c2ccb38e56ae2b425ffbf614</td>
        <td>CVE-2021-43824</td>
-       <td>2022-02-22 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 23:15:00</td>
        <td>Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions a crafted request crashes Envoy when a CONNECT request is sent to JWT filter configured with regex match. This provides a denial of service attack vector. The only workaround is to not use regex in the JWT filter. Users are advised to upgrade.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43824">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e4659a0314bdc2e5fb27c66c79469cb0</td>
-       <td>CVE-2022-23635</td>
-       <td>2022-02-22 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Istio is an open platform to connect, manage, and secure microservices. In affected versions the Istio control plane, `istiod`, is vulnerable to a request processing error, allowing a malicious attacker that sends a specially crafted message which results in the control plane crashing. This endpoint is served over TLS port 15012, but does not require any authentication from the attacker. For simple installations, Istiod is typically only reachable from within the cluster, limiting the blast radius. However, for some deployments, especially [multicluster](https://istio.io/latest/docs/setup/install/multicluster/primary-remote/) topologies, this port is exposed over the public internet. There are no effective workarounds, beyond upgrading. Limiting network access to Istiod to the minimal set of clients can help lessen the scope of the vulnerability to some extent.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23635">详情</a></td>
       </tr>
 
      </tbody>
@@ -505,7 +505,7 @@
       <tr>
        <td scope="row">677b3589a1879575dc8418e7a4b43c55</td>
        <td>CVE-2021-34223</td>
-       <td>2022-02-22 10:41:59 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:41:59</td>
        <td>TOTOLINK A3002RU跨站脚本漏洞（CNVD-2022-13192）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-394391">详情</a></td>
@@ -514,7 +514,7 @@
       <tr>
        <td scope="row">a3bac08889eb4845094b9601e3f0ab02</td>
        <td>CVE-2021-3818</td>
-       <td>2022-02-22 10:41:59 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:41:59</td>
        <td>Grav访问控制错误漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-399881">详情</a></td>
@@ -523,7 +523,7 @@
       <tr>
        <td scope="row">4686a70979d3683aea2d0188160567f1</td>
        <td>CVE-2021-22710</td>
-       <td>2022-02-22 04:48:19 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 04:48:19</td>
        <td>Schneider Electric Interactive Graphical SCADA...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-381184">详情</a></td>
@@ -532,7 +532,7 @@
       <tr>
        <td scope="row">d4c54067ab9634daa53b1054bff0673d</td>
        <td>CVE-2021-22823</td>
-       <td>2022-02-22 04:48:19 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 04:48:19</td>
        <td>Schneider Electric Interactive Graphical SCADA...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-381297">详情</a></td>
@@ -541,7 +541,7 @@
       <tr>
        <td scope="row">9d3550ecced9794dc0116e4801f1695a</td>
        <td>CVE-2022-21311</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster缓冲区溢出漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406924">详情</a></td>
@@ -550,7 +550,7 @@
       <tr>
        <td scope="row">c95012db4fd40174ab786a7670a7abb0</td>
        <td>CVE-2022-21312</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster缓冲区溢出漏洞（CNVD-2022-13059）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406925">详情</a></td>
@@ -559,7 +559,7 @@
       <tr>
        <td scope="row">68d5f7266fce3d9b5fe7de2807fa8e26</td>
        <td>CVE-2022-21315</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13051）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406928">详情</a></td>
@@ -568,7 +568,7 @@
       <tr>
        <td scope="row">2231c05926d85975b39a22348a8e2a1c</td>
        <td>CVE-2022-21317</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster缓冲区溢出漏洞（CNVD-2022-13057）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406930">详情</a></td>
@@ -577,7 +577,7 @@
       <tr>
        <td scope="row">3a439ec5cad16e623cfced0364e2ed95</td>
        <td>CVE-2022-21321</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster缓冲区溢出漏洞（CNVD-2022-13053）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406934">详情</a></td>
@@ -586,7 +586,7 @@
       <tr>
        <td scope="row">64d63d2e4d3a022ab59948d3426e05c1</td>
        <td>CVE-2022-21322</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13061）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406935">详情</a></td>
@@ -595,7 +595,7 @@
       <tr>
        <td scope="row">a177e0ec3b979e2f354c2a4157c0def0</td>
        <td>CVE-2022-21326</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13054）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406939">详情</a></td>
@@ -604,7 +604,7 @@
       <tr>
        <td scope="row">2ab5f85df9590dae66616f3fa7490b2f</td>
        <td>CVE-2022-21329</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13052）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406942">详情</a></td>
@@ -613,7 +613,7 @@
       <tr>
        <td scope="row">34254e6afbdfeb7967f3f148daaa85a5</td>
        <td>CVE-2022-21330</td>
-       <td>2022-02-22 03:41:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 03:41:47</td>
        <td>Oracle MySQL Cluster输入验证错误漏洞（CNVD-2022-13055）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406943">详情</a></td>
@@ -772,7 +772,7 @@
       <tr>
        <td scope="row">75e605134a28064b24634b40b959565e</td>
        <td>CNVD-2022-13188 (CVE-2020-20514)</td>
-       <td>2022-02-22 10:41:27 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:41:27</td>
        <td>Maccms跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13188">详情</a></td>
       </tr>
@@ -780,7 +780,7 @@
       <tr>
        <td scope="row">a302f596359bacbe2aa0a6df5415e17b</td>
        <td>CNVD-2022-13207 (CVE-2022-0688)</td>
-       <td>2022-02-22 10:41:22 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:41:22</td>
        <td>microweber存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13207">详情</a></td>
       </tr>
@@ -788,7 +788,7 @@
       <tr>
        <td scope="row">569cf3fe9a61298bd8fad2ad055c3628</td>
        <td>CNVD-2022-13208 (CVE-2022-23998)</td>
-       <td>2022-02-22 10:41:02 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:41:02</td>
        <td>Google Android输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13208">详情</a></td>
       </tr>
@@ -796,7 +796,7 @@
       <tr>
        <td scope="row">c8db91b52e341bc5280c50ee98edfc84</td>
        <td>CNVD-2022-13192 (CVE-2021-34223)</td>
-       <td>2022-02-22 10:41:00 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:41:00</td>
        <td>TOTOLINK A3002RU跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13192">详情</a></td>
       </tr>
@@ -804,7 +804,7 @@
       <tr>
        <td scope="row">08f18673e7d2c2c99aa91a6d5338dd99</td>
        <td>CNVD-2022-13184 (CVE-2021-0186)</td>
-       <td>2022-02-22 10:40:57 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 10:40:57</td>
        <td>Intel SGX SDK输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13184">详情</a></td>
       </tr>
@@ -812,7 +812,7 @@
       <tr>
        <td scope="row">3359f8163ac80546f499dc035efca7a4</td>
        <td>CNVD-2022-13051 (CVE-2022-21315)</td>
-       <td>2022-02-22 07:37:54 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:54</td>
        <td>Oracle MySQL Cluster输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13051">详情</a></td>
       </tr>
@@ -820,7 +820,7 @@
       <tr>
        <td scope="row">b3788d995716868d46905988f94a9e88</td>
        <td>CNVD-2022-13072 (CVE-2022-24317)</td>
-       <td>2022-02-22 07:37:51 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:51</td>
        <td>Schneider Electric Interactive Graphical SCADA System授权问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13072">详情</a></td>
       </tr>
@@ -828,7 +828,7 @@
       <tr>
        <td scope="row">9c12f8652f46751d6428fe9b5c0c66cf</td>
        <td>CNVD-2022-13071 (CVE-2022-24315)</td>
-       <td>2022-02-22 07:37:49 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:49</td>
        <td>Schneider Electric Interactive Graphical SCADA System越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13071">详情</a></td>
       </tr>
@@ -836,7 +836,7 @@
       <tr>
        <td scope="row">c85bc4bad898f072594c14b049637a80</td>
        <td>CNVD-2022-13070 (CVE-2022-24314)</td>
-       <td>2022-02-22 07:37:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:47</td>
        <td>Schneider Electric Interactive Graphical Scada System越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13070">详情</a></td>
       </tr>
@@ -844,7 +844,7 @@
       <tr>
        <td scope="row">cb7ec85844425a0e75955dff088c4d32</td>
        <td>CNVD-2022-13069 (CVE-2022-24313)</td>
-       <td>2022-02-22 07:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:45</td>
        <td>Schneider Electric Interactive Graphical SCADA System缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13069">详情</a></td>
       </tr>
@@ -852,7 +852,7 @@
       <tr>
        <td scope="row">4fe56f89507179c6976fc803742700cb</td>
        <td>CNVD-2022-13068 (CVE-2022-24312)</td>
-       <td>2022-02-22 07:37:42 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:42</td>
        <td>Schneider Electric Interactive Graphical SCADA System路径遍历漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13068">详情</a></td>
       </tr>
@@ -860,7 +860,7 @@
       <tr>
        <td scope="row">4ef22e83877ef22e23b560055b96e9a0</td>
        <td>CNVD-2022-13066 (CVE-2022-24310)</td>
-       <td>2022-02-22 07:37:38 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:38</td>
        <td>Schneider Electric Interactive Graphical Scada System整数溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13066">详情</a></td>
       </tr>
@@ -868,7 +868,7 @@
       <tr>
        <td scope="row">1667208368ba905086ec85a44828637d</td>
        <td>CNVD-2022-13065 (CVE-2022-24316)</td>
-       <td>2022-02-22 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 07:37:36</td>
        <td>Schneider Electric Interactive Graphical SCADA System初始化错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13065">详情</a></td>
       </tr>
@@ -890,7 +890,7 @@
       <tr>
        <td scope="row">20616745ba5e84ac60eed58771fe1563</td>
        <td>CNNVD-202202-1729 (CVE-2022-0676)</td>
-       <td>2022-02-22 12:58:17 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:58:17</td>
        <td>radare2 缓冲区错误漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1729">详情</a></td>
       </tr>
@@ -898,7 +898,7 @@
       <tr>
        <td scope="row">a2656282a92d34a263d8bae50f743919</td>
        <td>CNNVD-202202-1762 (CVE-2022-21654)</td>
-       <td>2022-02-22 12:57:47 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:47</td>
        <td>Envoy 信任管理问题漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1762">详情</a></td>
       </tr>
@@ -906,7 +906,7 @@
       <tr>
        <td scope="row">c7f1a3481dfc8e91e397b1d7cfb25f8e</td>
        <td>CNNVD-202202-1763 (CVE-2022-21655)</td>
-       <td>2022-02-22 12:57:45 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:45</td>
        <td>Envoy 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1763">详情</a></td>
       </tr>
@@ -914,7 +914,7 @@
       <tr>
        <td scope="row">4a5bd65b9fda32d6724a9093edbc5d33</td>
        <td>CNNVD-202202-1764 (CVE-2021-43826)</td>
-       <td>2022-02-22 12:57:43 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:43</td>
        <td>Envoy 资源管理错误漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1764">详情</a></td>
       </tr>
@@ -922,7 +922,7 @@
       <tr>
        <td scope="row">f40ba272afc60b42fb1852e074ba8fd8</td>
        <td>CNNVD-202202-1765 (CVE-2022-21656)</td>
-       <td>2022-02-22 12:57:41 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:41</td>
        <td>Envoy  信任管理问题漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1765">详情</a></td>
       </tr>
@@ -930,7 +930,7 @@
       <tr>
        <td scope="row">f77011864213812f2736a4b19fc1fe14</td>
        <td>CNNVD-202202-1766 (CVE-2022-24407)</td>
-       <td>2022-02-22 12:57:39 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:39</td>
        <td>Cyrus SASL 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1766">详情</a></td>
       </tr>
@@ -938,7 +938,7 @@
       <tr>
        <td scope="row">b4d52c107f380b35639f37fee9364ee9</td>
        <td>CNNVD-202202-1767 (CVE-2022-21657)</td>
-       <td>2022-02-22 12:57:37 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:37</td>
        <td>Envoy 信任管理问题漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1767">详情</a></td>
       </tr>
@@ -946,7 +946,7 @@
       <tr>
        <td scope="row">4559e0c81d91f257c499cf7067d23988</td>
        <td>CNNVD-202202-1768 (CVE-2022-23921)</td>
-       <td>2022-02-22 12:57:35 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:35</td>
        <td>GE Proficy CIMPLICITY-IPM 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1768">详情</a></td>
       </tr>
@@ -954,7 +954,7 @@
       <tr>
        <td scope="row">3c7110c06b5a84f2cbf86bb76f73645d</td>
        <td>CNNVD-202202-1769 (CVE-2022-23606)</td>
-       <td>2022-02-22 12:57:33 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:33</td>
        <td>Envoy 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1769">详情</a></td>
       </tr>
@@ -962,7 +962,7 @@
       <tr>
        <td scope="row">eaf54a76163b53d2c172f76b08349071</td>
        <td>CNNVD-202202-1770 (CVE-2022-23612)</td>
-       <td>2022-02-22 12:57:32 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:32</td>
        <td>OpenMRS 路径遍历漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1770">详情</a></td>
       </tr>
@@ -970,7 +970,7 @@
       <tr>
        <td scope="row">a36c59a6a248ebb002d1260cdb225fed</td>
        <td>CNNVD-202202-1771 (CVE-2022-0654)</td>
-       <td>2022-02-22 12:57:30 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 12:57:30</td>
        <td>node-request-retry  信息泄露漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202202-1771">详情</a></td>
       </tr>
@@ -1626,7 +1626,7 @@
       <tr>
        <td scope="row">693e1a24d615e37c12c5882ff62a7c31</td>
        <td>CVE-2020-0244</td>
-       <td>2022-02-22 13:46:45 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:45</td>
        <td>Google Android 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4d9b7b62bff34aa0838b300275c1c1e9">详情</a></td>
       </tr>
@@ -1634,7 +1634,7 @@
       <tr>
        <td scope="row">166406ce9ed50c1f853c0459a934b3b0</td>
        <td>CVE-2020-5639</td>
-       <td>2022-02-22 13:46:41 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:41</td>
        <td>Soliton Systems Kk FileZen 路径遍历漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ff488e12332a419b898d23bf0c3c8dc2">详情</a></td>
       </tr>
@@ -1642,7 +1642,7 @@
       <tr>
        <td scope="row">c981b84035b59ab9554e219b3615ae99</td>
        <td>CVE-2020-17513</td>
-       <td>2022-02-22 13:46:38 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:38</td>
        <td>Apache Airflow 代码问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e81a3e8aea7f4d99a76eb1fa67a5df93">详情</a></td>
       </tr>
@@ -1650,7 +1650,7 @@
       <tr>
        <td scope="row">27039ccf9c4385d5728d32759e469e5f</td>
        <td>CVE-2020-5948</td>
-       <td>2022-02-22 13:46:34 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:34</td>
        <td>F5 BIG-IP 跨站脚本漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=563848cffffa409bbef81cc23bbec225">详情</a></td>
       </tr>
@@ -1658,7 +1658,7 @@
       <tr>
        <td scope="row">d82350c76b7ab15ed229d1b8030aad68</td>
        <td>CVE-2020-0016</td>
-       <td>2022-02-22 13:46:31 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:31</td>
        <td>Google Android Pixel 信任管理问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c33cd724ccc947f2b61720f5c0359c93">详情</a></td>
       </tr>
@@ -1666,7 +1666,7 @@
       <tr>
        <td scope="row">0176a1fc7400be2f92a70bcf2a1028db</td>
        <td>CVE-2020-27825</td>
-       <td>2022-02-22 13:46:29 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:29</td>
        <td>Linux kernel 资源管理错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3ae94355309e4e18a4f66dec5e57faec">详情</a></td>
       </tr>
@@ -1674,7 +1674,7 @@
       <tr>
        <td scope="row">d9b8b66c16d87897b353519167c36f6c</td>
        <td>CVE-2020-25175</td>
-       <td>2022-02-22 13:46:23 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:23</td>
        <td>General Electric Healthcare Imaging 和 General Electric Healthcare Ultrasound 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=55b0688dacaf4e749f7ac2db70a50b67">详情</a></td>
       </tr>
@@ -1682,7 +1682,7 @@
       <tr>
        <td scope="row">30071293adc7a5635e22b88be6462315</td>
        <td>CVE-2020-26421</td>
-       <td>2022-02-22 13:46:21 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:21</td>
        <td>Wireshark 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f2f2c5ff4d1145918c72ac3f8d0468c4">详情</a></td>
       </tr>
@@ -1690,7 +1690,7 @@
       <tr>
        <td scope="row">85a6a2adddbf0e001694fa24bb807d08</td>
        <td>CVE-2020-5949</td>
-       <td>2022-02-22 13:46:14 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:14</td>
        <td>F5 BIG-IP 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9a78f2c404c94b5888a6562be19c3aa4">详情</a></td>
       </tr>
@@ -1698,7 +1698,7 @@
       <tr>
        <td scope="row">1189c1477727b92371a201bfbfe8d22b</td>
        <td>CVE-2020-35176</td>
-       <td>2022-02-22 13:46:10 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 13:46:10</td>
        <td>Eldy Awstats 路径遍历漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=6f03f557d3364764ba0e71b4df298ece">详情</a></td>
       </tr>
@@ -1920,7 +1920,7 @@
       <tr>
        <td scope="row">5a014b3f7c1432492e6d9d3e667b2d52</td>
        <td>CVE-2021-46649</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Bentley MicroStation CONNECT越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63257">详情</a></td>
       </tr>
@@ -1928,7 +1928,7 @@
       <tr>
        <td scope="row">0d7b88a2a5c599e075cddf155e613f88</td>
        <td>CVE-2021-46650</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Bentley MicroStation CONNECT越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63256">详情</a></td>
       </tr>
@@ -1936,7 +1936,7 @@
       <tr>
        <td scope="row">fb755ac2d8591ed7b2d924c803202099</td>
        <td>CVE-2021-46647</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Bentley MicroStation CONNECT堆缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63255">详情</a></td>
       </tr>
@@ -1944,7 +1944,7 @@
       <tr>
        <td scope="row">80ff120982660c34e882646278af1d96</td>
        <td>CVE-2021-46656</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Bentley View越界写入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63254">详情</a></td>
       </tr>
@@ -1952,7 +1952,7 @@
       <tr>
        <td scope="row">70460d0f810304c581a06f506eee28c4</td>
        <td>CVE-2021-46655</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Bentley View内存错误引用漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63253">详情</a></td>
       </tr>
@@ -1960,7 +1960,7 @@
       <tr>
        <td scope="row">08b2ee1f966fcd03d06564dde5ad1b8b</td>
        <td>CVE-2022-24051</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>MariaDB权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63252">详情</a></td>
       </tr>
@@ -1968,7 +1968,7 @@
       <tr>
        <td scope="row">832a42e8a77c959f72917762aeb6a186</td>
        <td>CVE-2022-24050</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>MariaDB内存错误引用漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63251">详情</a></td>
       </tr>
@@ -1976,7 +1976,7 @@
       <tr>
        <td scope="row">c24fd4e89490aeb11cb5293f716f618a</td>
        <td>CVE-2022-24048</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>MariaDB堆栈缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63250">详情</a></td>
       </tr>
@@ -1984,7 +1984,7 @@
       <tr>
        <td scope="row">fa81c78b69c1c45ad6356928ad5f7d77</td>
        <td>CVE-2022-24052</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>MariaDB堆缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63249">详情</a></td>
       </tr>
@@ -1992,7 +1992,7 @@
       <tr>
        <td scope="row">f22aa36d2f4595adaf78e84090d6e6ee</td>
        <td>CVE-2022-24049</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Sonos One Speaker堆栈缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63248">详情</a></td>
       </tr>
@@ -2000,7 +2000,7 @@
       <tr>
        <td scope="row">2bef14a3b2825db5b0be2ec766a131aa</td>
        <td>CVE-2022-24046</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Sonos One Speaker整数溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63247">详情</a></td>
       </tr>
@@ -2008,7 +2008,7 @@
       <tr>
        <td scope="row">2ec20a24f72d515abf17a2717a8e9e83</td>
        <td>CVE-2021-40389</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Advantech DeviceOn/iEdge Server权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63246">详情</a></td>
       </tr>
@@ -2016,7 +2016,7 @@
       <tr>
        <td scope="row">30301a10e0ea3876b67c733f7c2e76cc</td>
        <td>CVE-2021-40396</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Advantech DeviceOn/iService权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63245">详情</a></td>
       </tr>
@@ -2024,7 +2024,7 @@
       <tr>
        <td scope="row">6e7f69c43409f57cb15c06414fdb7a47</td>
        <td>CVE-2021-40388</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Advantech SQ Manager Server权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63244">详情</a></td>
       </tr>
@@ -2032,7 +2032,7 @@
       <tr>
        <td scope="row">ea51e2625af3104f4eaacd09d6976386</td>
        <td>CVE-2021-46654</td>
-       <td>2022-02-22 11:37:58 <img src="imgs/new.gif" /></td>
+       <td>2022-02-22 11:37:58</td>
        <td>Bentley View越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/63243">详情</a></td>
       </tr>
