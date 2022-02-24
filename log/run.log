@@ -6416,3 +6416,73 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.cnvd.org.cn', por
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-24409
 2022-02-24 01:51:16 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-02-24 02:52:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:52:32 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-24 02:52:33 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-24 02:52:33 [INFO] : --------------------------------------------
+2022-02-24 02:52:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:52:33 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-24 02:52:34 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-24 02:52:34 [INFO] : --------------------------------------------
+2022-02-24 02:52:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:52:34 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-24 02:52:57 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-24 02:52:57 [INFO] : --------------------------------------------
+2022-02-24 02:52:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:52:57 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-24 02:53:19 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-24 02:53:19 [INFO] : --------------------------------------------
+2022-02-24 02:53:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:19 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-24 02:53:20 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-24 02:53:20 [INFO] : --------------------------------------------
+2022-02-24 02:53:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:20 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-24 02:53:20 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-02-24 02:53:20 [INFO] : --------------------------------------------
+2022-02-24 02:53:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:20 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-24 02:53:25 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-02-24 02:53:25 [INFO] : --------------------------------------------
+2022-02-24 02:53:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:25 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-24 02:53:26 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-24 02:53:26 [INFO] : --------------------------------------------
+2022-02-24 02:53:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:26 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-24 02:53:31 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-24 02:53:31 [INFO] : --------------------------------------------
+2022-02-24 02:53:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:31 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-24 02:53:32 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-24 02:53:32 [INFO] : --------------------------------------------
+2022-02-24 02:53:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:32 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-24 02:53:42 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-24 02:53:42 [INFO] : --------------------------------------------
+2022-02-24 02:53:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-24 02:53:42 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-24 02:53:42 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [3] 条
+2022-02-24 02:53:42 [INFO] : --------------------------------------------
+2022-02-24 02:53:42 [INFO] : 
+==============================================
+[ TITLE ] Octobercms is a self-hosted CMS platform based on the Laravel PHP Framework. Affected versions of OctoberCMS did not validate gateway server signatures. As a result non-authoritative gateway servers may be used to exfiltrate user private keys. Users are advised to upgrade their installations to build 474 or v1.1.10. The only known workaround is to manually apply the patch (e3b455ad587282f0fbcb7763c6d9c3d000ca1e6a) which adds server signature validation.
+[ TIME  ] 2022-02-24 00:15:00
+[ CVE   ] CVE-2022-23655
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23655
+2022-02-24 02:53:42 [INFO] : 
+==============================================
+[ TITLE ] B2 Command Line Tool is the official command line tool for the backblaze cloud storage service. Linux and Mac releases of the B2 command-line tool version 3.2.0 and below contain a key disclosure vulnerability that, in certain conditions, can be exploited by local attackers through a time-of-check-time-of-use (TOCTOU) race condition. The command line tool saves API keys (and bucket name-to-id mapping) in a local database file (`$XDG_CONFIG_HOME/b2/account_info`, `~/.b2_account_info` or a user-defined path) when `b2 authorize-account` is first run. This happens regardless of whether a valid key is provided or not. When first created, the file is world readable and is (typically a few milliseconds) later altered to be private to the user. If the directory is readable by a local attacker and the user did not yet run `b2 authorize-account` then during the brief period between file creation and permission modification, a local attacker can race to open the file and maintain a handle to it. This allows the local attacker to read the contents after the file after the sensitive information has been saved to it. Users that have not yet run `b2 authorize-account` should upgrade to B2 Command-Line Tool v3.2.1 before running it. Users that have run `b2 authorize-account` are safe if at the time of the file creation no other local users had read access to the local configuration file. Users that have run `b2 authorize-account` where the designated path could be opened by another local user should upgrade to B2 Command-Line Tool v3.2.1 and remove the database and regenerate all application keys. Note that `b2 clear-account` does not remove the database file and it should not be used to ensure that all open handles to the file are invalidated. If B2 Command-Line Tool cannot be upgraded to v3.2.1 due to a dependency conflict, a binary release can be used instead. Alternatively a new version could be installed within a virtualenv, or the permissions can be changed to prevent local users from opening the database file.
+[ TIME  ] 2022-02-23 23:15:00
+[ CVE   ] CVE-2022-23653
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23653
+2022-02-24 02:53:42 [INFO] : 
+==============================================
+[ TITLE ] b2-sdk-python is a python library to access cloud storage provided by backblaze. Linux and Mac releases of the SDK version 1.14.0 and below contain a key disclosure vulnerability that, in certain conditions, can be exploited by local attackers through a time-of-check-time-of-use (TOCTOU) race condition. SDK users of the SqliteAccountInfo format are vulnerable while users of the InMemoryAccountInfo format are safe. The SqliteAccountInfo saves API keys (and bucket name-to-id mapping) in a local database file ($XDG_CONFIG_HOME/b2/account_info, ~/.b2_account_info or a user-defined path). When first created, the file is world readable and is (typically a few milliseconds) later altered to be private to the user. If the directory containing the file is readable by a local attacker then during the brief period between file creation and permission modification, a local attacker can race to open the file and maintain a handle to it. This allows the local attacker to read the contents after the file after the sensitive information has been saved to it. Consumers of this SDK who rely on it to save data using SqliteAccountInfo class should upgrade to the latest version of the SDK. Those who believe a local user might have opened a handle using this race condition, should remove the affected database files and regenerate all application keys. Users should upgrade to b2-sdk-python 1.14.1 or later.
+[ TIME  ] 2022-02-23 23:15:00
+[ CVE   ] CVE-2022-23651
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23651
+2022-02-24 02:53:42 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
