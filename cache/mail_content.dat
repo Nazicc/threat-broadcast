@@ -1,14 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41571</font><br/>[<b>披露时间</b>] 2022-02-23 04:48:06<br/>[<b>漏洞描述</b>] Apache Pulsar输入验证错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-402736'>http://cve.scap.org.cn/vuln/VHN-402736</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41766</font><br/>[<b>披露时间</b>] 2022-02-23 04:48:06<br/>[<b>漏洞描述</b>] Apache Karaf代码问题漏洞（CNVD-2022-14707）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-402910'>http://cve.scap.org.cn/vuln/VHN-402910</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-14709 (CVE-2022-23437)</font><br/>[<b>披露时间</b>] 2022-02-23 07:37:15<br/>[<b>漏洞描述</b>] Apache Xerces拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-14709'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-14709</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-14705 (CVE-2021-41571)</font><br/>[<b>披露时间</b>] 2022-02-23 07:37:24<br/>[<b>漏洞描述</b>] Apache Pulsar输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-14705'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-14705</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23835</font><br/>[<b>披露时间</b>] 2022-02-25 04:15:00<br/>[<b>漏洞描述</b>] ** DISPUTED ** The Visual Voice Mail (VVM) application through 2022-02-24 for Android allows persistent access if an attacker temporarily controls an application that has the READ_SMS permission, and reads an IMAP credentialing message that is (by design) not displayed to the victim within the AOSP SMS/MMS messaging application. (Often, the IMAP credentials are usable to listen to voice mail messages sent before the vulnerability was exploited, in addition to new ones.) NOTE: some vendors characterize this as not a "concrete and exploitable risk."<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23835'>https://www.tenable.com/cve/CVE-2022-23835</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
