@@ -1,29 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-14704 (CVE-2022-24925)</font><br/>[<b>披露时间</b>] 2022-02-24 03:40:53<br/>[<b>漏洞描述</b>] Google Android输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-14704'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-14704</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21366</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63307'>http://www.nsfocus.net/vulndb/63307</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21296</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63306'>http://www.nsfocus.net/vulndb/63306</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21299</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63305'>http://www.nsfocus.net/vulndb/63305</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21305</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63304'>http://www.nsfocus.net/vulndb/63304</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21349</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63303'>http://www.nsfocus.net/vulndb/63303</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21291</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63302'>http://www.nsfocus.net/vulndb/63302</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21280</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63301'>http://www.nsfocus.net/vulndb/63301</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21285</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63300'>http://www.nsfocus.net/vulndb/63300</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21286</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63299'>http://www.nsfocus.net/vulndb/63299</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21287</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle MySQL Cluster输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63298'>http://www.nsfocus.net/vulndb/63298</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21345</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle PeopleSoft Enterprise PeopleTools信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63297'>http://www.nsfocus.net/vulndb/63297</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21300</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle PeopleSoft Enterprise CS SA Integration Pack信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63296'>http://www.nsfocus.net/vulndb/63296</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21298</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63295'>http://www.nsfocus.net/vulndb/63295</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21263</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63294'>http://www.nsfocus.net/vulndb/63294</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21375</font><br/>[<b>披露时间</b>] 2022-02-24 03:41:37<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63293'>http://www.nsfocus.net/vulndb/63293</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-29652</font><br/>[<b>披露时间</b>] 2022-02-24 13:48:21<br/>[<b>漏洞描述</b>] Golang Go crypto 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ec99ffcaa8984ef6a9cbdfad74a3a38e'>https://redqueen.tj-un.com/IntelDetails.html?id=ec99ffcaa8984ef6a9cbdfad74a3a38e</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41571</font><br/>[<b>披露时间</b>] 2022-02-23 04:48:06<br/>[<b>漏洞描述</b>] Apache Pulsar输入验证错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-402736'>http://cve.scap.org.cn/vuln/VHN-402736</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41766</font><br/>[<b>披露时间</b>] 2022-02-23 04:48:06<br/>[<b>漏洞描述</b>] Apache Karaf代码问题漏洞（CNVD-2022-14707）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-402910'>http://cve.scap.org.cn/vuln/VHN-402910</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
