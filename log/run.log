@@ -9907,3 +9907,80 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-24710
 2022-02-26 01:40:45 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-02-26 02:50:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:50:28 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-26 02:50:29 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-26 02:50:29 [INFO] : --------------------------------------------
+2022-02-26 02:50:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:50:29 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-26 02:50:31 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-26 02:50:31 [INFO] : --------------------------------------------
+2022-02-26 02:50:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:50:31 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-26 02:51:00 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-26 02:51:00 [INFO] : --------------------------------------------
+2022-02-26 02:51:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:00 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-26 02:51:23 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-26 02:51:23 [INFO] : --------------------------------------------
+2022-02-26 02:51:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:23 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-26 02:51:24 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-26 02:51:24 [INFO] : --------------------------------------------
+2022-02-26 02:51:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:24 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-26 02:51:24 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-02-26 02:51:24 [INFO] : --------------------------------------------
+2022-02-26 02:51:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:24 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-26 02:51:27 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-02-26 02:51:27 [INFO] : --------------------------------------------
+2022-02-26 02:51:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:27 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-26 02:51:28 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-26 02:51:28 [INFO] : --------------------------------------------
+2022-02-26 02:51:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:28 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-26 02:51:33 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-26 02:51:33 [INFO] : --------------------------------------------
+2022-02-26 02:51:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:33 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-26 02:51:34 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-26 02:51:34 [INFO] : --------------------------------------------
+2022-02-26 02:51:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:34 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-26 02:51:40 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-26 02:51:40 [INFO] : --------------------------------------------
+2022-02-26 02:51:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-26 02:51:40 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-26 02:51:41 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [4] 条
+2022-02-26 02:51:41 [INFO] : --------------------------------------------
+2022-02-26 02:51:41 [INFO] : 
+==============================================
+[ TITLE ] Home Owners Collection Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter in /members/view_member.php.
+[ TIME  ] 2022-02-26 00:15:00
+[ CVE   ] CVE-2022-25096
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25096
+2022-02-26 02:51:41 [INFO] : 
+==============================================
+[ TITLE ] Home Owners Collection Management System v1.0 allows unauthenticated attackers to compromise user accounts via a crafted POST request.
+[ TIME  ] 2022-02-26 00:15:00
+[ CVE   ] CVE-2022-25095
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25095
+2022-02-26 02:51:41 [INFO] : 
+==============================================
+[ TITLE ] Home Owners Collection Management System v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the parameter "cover" in SystemSettings.php.
+[ TIME  ] 2022-02-26 00:15:00
+[ CVE   ] CVE-2022-25094
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25094
+2022-02-26 02:51:41 [INFO] : 
+==============================================
+[ TITLE ] Zulip is an open-source team collaboration tool with topic-based threading. Zulip Server version 2.0.0 and above are vulnerable to insufficient access control with multi-use invitations. A Zulip Server deployment which hosts multiple organizations is vulnerable to an attack where an invitation created in one organization (potentially as a role with elevated permissions) can be used to join any other organization. This bypasses any restrictions on required domains on users' email addresses, may be used to gain access to organizations which are only accessible by invitation, and may be used to gain access with elevated privileges. This issue has been patched in release 4.10. There are no known workarounds for this issue. ### Patches _Has the problem been patched? What versions should users upgrade to?_ ### Workarounds _Is there a way for users to fix or remediate the vulnerability without upgrading?_ ### References _Are there any links users can visit to find out more?_ ### For more information If you have any questions or comments about this advisory, you can discuss them on the [developer community Zulip server](https://zulip.com/developer-community/), or email the [Zulip security team](mailto:security@zulip.com).
+[ TIME  ] 2022-02-26 00:15:00
+[ CVE   ] CVE-2022-21706
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-21706
+2022-02-26 02:51:41 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
