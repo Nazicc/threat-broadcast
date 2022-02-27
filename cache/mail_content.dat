@@ -5,8 +5,8 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26146</font><br/>[<b>披露时间</b>] 2022-02-26 20:15:00<br/>[<b>漏洞描述</b>] Tricentis qTest before 10.4 allows stored XSS by an authenticated attacker.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26146'>https://www.tenable.com/cve/CVE-2022-26146</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-27958</font><br/>[<b>披露时间</b>] 2022-02-26 20:15:00<br/>[<b>漏洞描述</b>] The Job Composer app in Ohio Supercomputer Center Open OnDemand before 1.7.19 and 1.8.x before 1.8.18 allows remote authenticated users to provide crafted input in a job template.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-27958'>https://www.tenable.com/cve/CVE-2020-27958</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22908</font><br/>[<b>披露时间</b>] 2022-02-26 22:15:00<br/>[<b>漏洞描述</b>] SangforCSClient.exe in Sangfor VDI Client 5.4.2.1006 allows attackers, when they are able to read process memory, to discover the contents of the Username and Password fields.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-22908'>https://www.tenable.com/cve/CVE-2022-22908</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26149</font><br/>[<b>披露时间</b>] 2022-02-26 21:15:00<br/>[<b>漏洞描述</b>] MODX Revolution through 2.8.3-pl allows remote authenticated administrators to execute arbitrary code by uploading an executable file, because the Uploadable File Types setting can be changed by an administrator.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26149'>https://www.tenable.com/cve/CVE-2022-26149</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
