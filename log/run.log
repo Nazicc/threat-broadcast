@@ -14392,3 +14392,122 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2021-44331
 2022-02-28 20:40:50 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-02-28 21:37:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:37:50 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-28 21:37:51 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-28 21:37:51 [INFO] : --------------------------------------------
+2022-02-28 21:37:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:37:51 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-28 21:37:52 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-28 21:37:52 [INFO] : --------------------------------------------
+2022-02-28 21:37:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:37:52 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-28 21:38:18 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-28 21:38:18 [INFO] : --------------------------------------------
+2022-02-28 21:38:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:18 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-28 21:38:40 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-28 21:38:40 [INFO] : --------------------------------------------
+2022-02-28 21:38:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:40 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-28 21:38:41 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-28 21:38:41 [INFO] : --------------------------------------------
+2022-02-28 21:38:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:41 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-28 21:38:42 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-02-28 21:38:42 [INFO] : --------------------------------------------
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Doktor Plugin 0.4.1 and earlier implements functionality that allows agent processes to render files on the controller as Markdown or Asciidoc, and error messages allow attackers able to control agent processes to determine whether a file with a given name exists.
+[ TIME  ] 2022-02-15 17:15:11 
+[ CVE   ] CVE-2022-25204
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25204
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Team Views Plugin 0.9.0 and earlier does not escape team names, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Overall/Read permission.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25203
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25203
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Promoted Builds (Simple) Plugin 1.9 and earlier does not escape the name of custom promotion levels, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Overall/Administer permission.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25202)
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25202)
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] Missing permission checks in Jenkins Checkmarx Plugin 2022.1.2 and earlier allow attackers with Overall/Read permission to connect to an attacker-specified webserver using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25201
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25201
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins Checkmarx Plugin 2022.1.2 and earlier allows attackers to connect to an attacker-specified webserver using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25200
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25200
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] A missing permission check in Jenkins SCP publisher Plugin 1.8 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified SSH server using attacker-specified credentials.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25199
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25199
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins SCP publisher Plugin 1.8 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25198
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25198
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] Jenkins HashiCorp Vault Plugin 336.v182c0fbaaeb7 and earlier implements functionality that allows agent processes to read arbitrary files on the Jenkins controller file system.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25197
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25197
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] Jenkins GitLab Authentication Plugin 1.13 and earlier records the HTTP Referer header as part of the URL query parameters when the authentication process starts, allowing attackers with access to Jenkins to craft a URL that will redirect users to an attacker-specified URL after logging in.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25196
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25196
+2022-02-28 21:38:42 [INFO] : 
+==============================================
+[ TITLE ] A missing permission check in Jenkins autonomiq Plugin 1.15 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL using attacker-specified credentials.
+[ TIME  ] 2022-02-15 17:15:10 
+[ CVE   ] CVE-2022-25195
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25195
+2022-02-28 21:38:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:42 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-28 21:38:44 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-02-28 21:38:44 [INFO] : --------------------------------------------
+2022-02-28 21:38:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:44 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-28 21:38:45 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-28 21:38:45 [INFO] : --------------------------------------------
+2022-02-28 21:38:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:45 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-28 21:38:51 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-28 21:38:51 [INFO] : --------------------------------------------
+2022-02-28 21:38:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:51 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-28 21:38:52 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-28 21:38:52 [INFO] : --------------------------------------------
+2022-02-28 21:38:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:52 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-28 21:38:58 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-28 21:38:58 [INFO] : --------------------------------------------
+2022-02-28 21:38:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 21:38:58 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-28 21:38:58 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-02-28 21:38:58 [INFO] : --------------------------------------------
+2022-02-28 21:38:58 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
