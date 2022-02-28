@@ -1,11 +1,26 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-02-28 03:10:28<br/>[<b>漏洞描述</b>] 安全事件周报 (02.21-02.27)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=fa38e12f0832a65af6ffb48e7be739f7'>https://cert.360.cn/warning/detail?id=fa38e12f0832a65af6ffb48e7be739f7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0557</font><br/>[<b>披露时间</b>] 2022-02-11 06:46:32<br/>[<b>漏洞描述</b>] Microweber 操作系统命令注入漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-0557'>https://avd.aliyun.com/detail?id=AVD-2022-0557</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-25076</font><br/>[<b>披露时间</b>] 2022-01-24 06:46:32<br/>[<b>漏洞描述</b>] WordPress plugin SQL注入漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2021-25076'>https://avd.aliyun.com/detail?id=AVD-2021-25076</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21882</font><br/>[<b>披露时间</b>] 2022-01-11 06:46:32<br/>[<b>漏洞描述</b>] win32k权限提升漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-21882'>https://avd.aliyun.com/detail?id=AVD-2022-21882</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45092</font><br/>[<b>披露时间</b>] 2021-12-16 06:46:32<br/>[<b>漏洞描述</b>] Cybele Software Thinfinity VirtualUI 注入漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2021-45092'>https://avd.aliyun.com/detail?id=AVD-2021-45092</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15174 (CVE-2022-23456)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:37<br/>[<b>漏洞描述</b>] HP Support Assistant任意文件删除漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15174'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15174</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15173 (CVE-2020-6919)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:41<br/>[<b>漏洞描述</b>] HP Support Assistant授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15173'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15173</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15172 (CVE-2020-6918)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:44<br/>[<b>漏洞描述</b>] HP Support Assistant授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15172'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15172</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15171 (CVE-2020-6920)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:46<br/>[<b>漏洞描述</b>] HP Support Assistant授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15171'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15171</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15170 (CVE-2020-6922)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:48<br/>[<b>漏洞描述</b>] HP Support Assistant授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15170'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15170</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15169 (CVE-2020-6917)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:50<br/>[<b>漏洞描述</b>] HP Support Assistant授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15169'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15169</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-15168 (CVE-2020-6921)</font><br/>[<b>披露时间</b>] 2022-02-28 06:46:52<br/>[<b>漏洞描述</b>] HP Support Assistant授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-15168'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-15168</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
