@@ -14630,3 +14630,115 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2020-22844
 2022-02-28 22:40:28 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-02-28 23:39:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:39:37 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-02-28 23:39:38 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-02-28 23:39:38 [INFO] : --------------------------------------------
+2022-02-28 23:39:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:39:38 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-02-28 23:39:39 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-02-28 23:39:39 [INFO] : --------------------------------------------
+2022-02-28 23:39:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:39:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-02-28 23:40:06 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-02-28 23:40:06 [INFO] : --------------------------------------------
+2022-02-28 23:40:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:06 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-02-28 23:40:28 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-02-28 23:40:28 [INFO] : --------------------------------------------
+2022-02-28 23:40:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:28 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-02-28 23:40:29 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-02-28 23:40:29 [INFO] : --------------------------------------------
+2022-02-28 23:40:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:29 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-02-28 23:40:30 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [9] 条
+2022-02-28 23:40:30 [INFO] : --------------------------------------------
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] A sandbox bypass vulnerability in Jenkins Pipeline: Shared Groovy Libraries Plugin 552.vd9cc05b8a2e1 and earlier allows attackers with Item/Configure permission to execute arbitrary code in the context of the Jenkins controller JVM through crafted SCM contents, if a global Pipeline library already exists.
+[ TIME  ] 2022-02-15 17:15:09 
+[ CVE   ] CVE-2022-25181
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25181
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Groovy Plugin 2648.va9433432b33c and earlier includes password parameters from the original build in replayed builds, allowing attackers with Run/Replay permission to obtain the values of password parameters passed to previous builds of a Pipeline.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25180
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25180
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Multibranch Plugin 706.vd43c65dec013 and earlier follows symbolic links to locations outside of the checkout directory for the configured SCM when reading files using the readTrusted step, allowing attackers able to configure Pipelines permission to read arbitrary files on the Jenkins controller file system.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25179
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25179
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Shared Groovy Libraries Plugin 552.vd9cc05b8a2e1 and earlier does not restrict the names of resources passed to the libraryResource step, allowing attackers able to configure Pipelines permission to read arbitrary files on the Jenkins controller file system.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25178
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25178
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Shared Groovy Libraries Plugin 552.vd9cc05b8a2e1 and earlier follows symbolic links to locations outside of the expected Pipeline library when reading files using the libraryResource step, allowing attackers able to configure Pipelines to read arbitrary files on the Jenkins controller file system.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25177
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25177
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Groovy Plugin 2648.va9433432b33c and earlier follows symbolic links to locations outside of the checkout directory for the configured SCM when reading the script file (typically Jenkinsfile) for Pipelines, allowing attackers able to configure Pipelines to read arbitrary files on the Jenkins controller file system.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25176
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25176
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Multibranch Plugin 706.vd43c65dec013 and earlier uses distinct checkout directories per SCM for the readTrusted step, allowing attackers with Item/Configure permission to invoke arbitrary OS commands on the controller through crafted SCM contents.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25175
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25175
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Shared Groovy Libraries Plugin 552.vd9cc05b8a2e1 and earlier uses the same checkout directories for distinct SCMs for Pipeline libraries, allowing attackers with Item/Configure permission to invoke arbitrary OS commands on the controller through crafted SCM contents.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25174
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25174
+2022-02-28 23:40:30 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Groovy Plugin 2648.va9433432b33c and earlier uses the same checkout directories for distinct SCMs when reading the script file (typically Jenkinsfile) for Pipelines, allowing attackers with Item/Configure permission to invoke arbitrary OS commands on the controller through crafted SCM contents.
+[ TIME  ] 2022-02-15 17:15:08 
+[ CVE   ] CVE-2022-25173
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25173
+2022-02-28 23:40:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:30 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-02-28 23:40:31 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-02-28 23:40:31 [INFO] : --------------------------------------------
+2022-02-28 23:40:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:31 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-02-28 23:40:32 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-02-28 23:40:32 [INFO] : --------------------------------------------
+2022-02-28 23:40:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:32 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-02-28 23:40:38 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-02-28 23:40:38 [INFO] : --------------------------------------------
+2022-02-28 23:40:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:38 [INFO] : 正在获取 [红后] 威胁情报...
+2022-02-28 23:40:39 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-02-28 23:40:39 [INFO] : --------------------------------------------
+2022-02-28 23:40:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:39 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-02-28 23:40:45 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-02-28 23:40:45 [INFO] : --------------------------------------------
+2022-02-28 23:40:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-02-28 23:40:45 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-02-28 23:40:45 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-02-28 23:40:45 [INFO] : --------------------------------------------
+2022-02-28 23:40:45 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
