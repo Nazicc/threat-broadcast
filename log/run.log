@@ -16699,3 +16699,115 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 2022-03-01 21:39:36 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-01 21:39:36 [INFO] : --------------------------------------------
 2022-03-01 21:39:36 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-01 22:39:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:39:30 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-01 22:39:31 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-01 22:39:31 [INFO] : --------------------------------------------
+2022-03-01 22:39:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:39:31 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-01 22:39:32 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-01 22:39:32 [INFO] : --------------------------------------------
+2022-03-01 22:39:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:39:32 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-01 22:39:57 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-01 22:39:57 [INFO] : --------------------------------------------
+2022-03-01 22:39:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:39:57 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-01 22:40:18 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-01 22:40:18 [INFO] : --------------------------------------------
+2022-03-01 22:40:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:18 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-01 22:40:19 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-01 22:40:19 [INFO] : --------------------------------------------
+2022-03-01 22:40:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:19 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-01 22:40:20 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-01 22:40:20 [INFO] : --------------------------------------------
+2022-03-01 22:40:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:20 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-01 22:40:21 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-01 22:40:21 [INFO] : --------------------------------------------
+2022-03-01 22:40:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:21 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-01 22:40:22 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-01 22:40:22 [INFO] : --------------------------------------------
+2022-03-01 22:40:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:22 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-01 22:40:23 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-01 22:40:23 [INFO] : --------------------------------------------
+2022-03-01 22:40:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:23 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-01 22:40:24 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-01 22:40:24 [INFO] : --------------------------------------------
+2022-03-01 22:40:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:24 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-01 22:40:29 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-01 22:40:29 [INFO] : --------------------------------------------
+2022-03-01 22:40:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-01 22:40:29 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-01 22:40:30 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [9] 条
+2022-03-01 22:40:30 [INFO] : --------------------------------------------
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] ssr-pages is an HTML page builder for the purpose of server-side rendering (SSR). In versions prior to 0.1.4, a path traversal issue can occur when providing untrusted input to the `svg` property as an argument to the `build(MessagePageOptions)` function. While there is no known workaround at this time, there is a patch in version 0.1.4.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2022-24718
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24718
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] ssr-pages is an HTML page builder for the purpose of server-side rendering (SSR). In versions prior to 0.1.5, a cross site scripting (XSS) issue can occur when providing untrusted input to the `redirect.link` property as an argument to the `build(MessagePageOptions)` function. While there is no known workaround at this time, there is a patch in version 0.1.5.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2022-24717
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24717
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] A improper handling of insufficient permissions or privileges in Fortinet FortiAnalyzer version 5.6.0 through 5.6.11, FortiAnalyzer version 6.0.0 through 6.0.11, FortiAnalyzer version 6.2.0 through 6.2.9, FortiAnalyzer version 6.4.0 through 6.4.7, FortiAnalyzer version 7.0.0 through 7 .0.2, FortiManager version 5.6.0 through 5.6.11, FortiManager version 6.0.0 through 6.0.11, FortiManager version 6.2.0 through 6.2.9, FortiManager version 6.4.0 through 6.4.7, FortiManager version 7.0.0 through 7.0.2 allows attacker to bypass the device policy and force the password-change action for its user.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2022-22300
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-22300
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiWLM version 8.6.2 and below, version 8.5.2 and below, version 8.4.2 and below, version 8.3.2 and below allows attacker to execute unauthorized code or commands via crafted HTTP requests to the AP monitor handlers.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2021-43077
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43077
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] A improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiWLM version 8.6.2 and below, version 8.5.2 and below, version 8.4.2 and below, version 8.3.2 and below allows attacker to execute unauthorized code or commands via crafted HTTP requests to the alarm dashboard and controller config handlers.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2021-43075
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43075
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] wire-avs is the audio visual signaling (AVS) component of Wire, an open-source messenger. A remote format string vulnerability in versions prior to 7.1.12 allows an attacker to cause a denial of service or possibly execute arbitrary code. The issue has been fixed in wire-avs 7.1.12. There are currently no known workarounds.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2021-41193
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41193
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] An improper input validation vulnerability in the web server CGI facilities of FortiMail before 7.0.1 may allow an unauthenticated attacker to alter the environment of the underlying script interpreter via specifically crafted HTTP requests.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2021-32586
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-32586
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] A improper input validation in Fortinet FortiGate version 6.4.3 and below, version 6.2.5 and below, version 6.0.11 and below, version 5.6.13 and below allows attacker to disclose sensitive information via SNI Client Hello TLS packets.
+[ TIME  ] 2022-03-01 19:15:00
+[ CVE   ] CVE-2020-15936
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2020-15936
+2022-03-01 22:40:30 [INFO] : 
+==============================================
+[ TITLE ] An improper authentication vulnerability in FortiMail before 7.0.1 may allow a remote attacker to efficiently guess one administrative account's authentication token by means of the observation of certain system's properties.
+[ TIME  ] 2022-03-01 18:15:00
+[ CVE   ] CVE-2021-36166
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-36166
+2022-03-01 22:40:30 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
