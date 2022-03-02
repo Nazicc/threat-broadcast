@@ -1,28 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">16</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1067719</font><br/>[<b>披露时间</b>] 2022-03-02 09:39:31<br/>[<b>漏洞描述</b>] Spring Cloud Gateway actuator 端点可访问
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1067719'>https://avd.aliyun.com/detail?id=AVD-2022-1067719</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41789</font><br/>[<b>披露时间</b>] 2022-03-03 09:40:23<br/>[<b>漏洞描述</b>] MediaTek Chipsets输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63382'>http://www.nsfocus.net/vulndb/63382</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20015</font><br/>[<b>披露时间</b>] 2022-03-03 09:40:23<br/>[<b>漏洞描述</b>] MediaTek&nbsp;&nbsp;Chipsets信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63381'>http://www.nsfocus.net/vulndb/63381</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25020</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] PluXml跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63380'>http://www.nsfocus.net/vulndb/63380</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25022</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Htmly跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63379'>http://www.nsfocus.net/vulndb/63379</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25099</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] WBCE CMS存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63378'>http://www.nsfocus.net/vulndb/63378</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25101</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] WBCE CMS存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63377'>http://www.nsfocus.net/vulndb/63377</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25175</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Jenkins Pipeline: Multibranch Plugin OS命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63376'>http://www.nsfocus.net/vulndb/63376</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25173</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Jenkins Pipeline: Groovy Plugin OS命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63375'>http://www.nsfocus.net/vulndb/63375</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25174</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Jenkins Pipeline: Shared Groovy Libraries Plugin OS命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63374'>http://www.nsfocus.net/vulndb/63374</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44961</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Slic3r libslic3r越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63373'>http://www.nsfocus.net/vulndb/63373</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44962</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Slic3r libslic3r越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63372'>http://www.nsfocus.net/vulndb/63372</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24251</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Extensis Portfolio任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63371'>http://www.nsfocus.net/vulndb/63371</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36166</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Fortinet FortiMail身份验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63370'>http://www.nsfocus.net/vulndb/63370</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36171</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Fortinet FortiPortal输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63369'>http://www.nsfocus.net/vulndb/63369</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15936</font><br/>[<b>披露时间</b>] 2022-03-02 09:40:23<br/>[<b>漏洞描述</b>] Fortinet FortiGate输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63368'>http://www.nsfocus.net/vulndb/63368</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22947</font><br/>[<b>披露时间</b>] 2022-03-02 18:27:56<br/>[<b>漏洞描述</b>] Spring Cloud Gateway 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5562'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5562</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
