@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-03 12:59:05 -->
+<!-- RELEASE TIME : 2022-03-03 16:57:02 -->
 <html lang="zh-cn">
 
  <head>
@@ -111,6 +111,30 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">6730ba707a26ada65c3b5ab0978583be</td>
+       <td>CVE-2022-23648</td>
+       <td>2022-03-03 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>containerd is a container runtime available as a daemon for Linux and Windows. A bug was found in containerd prior to versions 1.6.1, 1.5.10, and 1.14.12 where containers launched through containerdâ€™s CRI implementation on Linux with a specially-crafted image configuration could gain access to read-only copies of arbitrary files and directories on the host.  This may bypass any policy-based enforcement on container setup (including a Kubernetes Pod Security Policy) and expose potentially sensitive information.  Kubernetes and crictl can both be configured to use containerdâ€™s CRI implementation. This bug has been fixed in containerd 1.6.1, 1.5.10, and 1.4.12.  Users should update to these versions to resolve the issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23648">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec25a1ffc6ccb07614366bc1aa3f3955</td>
+       <td>CVE-2021-40636</td>
+       <td>2022-03-03 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>OS4ED openSIS 8.0 is affected by SQL Injection in CheckDuplicateName.php, which can extract information from the database.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40636">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">388ed4d2893e4ee4695d2bfdc500364b</td>
+       <td>CVE-2021-40635</td>
+       <td>2022-03-03 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>OS4ED openSIS 8.0 is affected by SQL injection in ChooseCpSearch.php, ChooseRequestSearch.php. An attacker can inject a SQL query to extract information from the database.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40635">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">018a420ba171c4559638b228f8365eea</td>
        <td>CVE-2022-0528</td>
@@ -325,30 +349,6 @@
        <td>2022-03-02 19:15:00 <img src="imgs/new.gif" /></td>
        <td>seacms V11.5 is affected by an arbitrary code execution vulnerability in admin_config.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23878">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b56ff6eaab24adaf89af9e8ad0441db6</td>
-       <td>CVE-2021-38268</td>
-       <td>2022-03-02 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Dynamic Data Mapping module in Liferay Portal through v7.3.6 and Liferay DXP through v7.3 incorrectly sets default permissions for site members, allowing authenticated attackers to add and duplicate forms via the UI or the API.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-38268">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd98794cf19af799a20367acb2bdc19b</td>
-       <td>CVE-2022-25016</td>
-       <td>2022-03-02 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Home Owners Collection Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /student_attendance/index.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25016">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">15a90c52bb502d43a290e37e99d52a15</td>
-       <td>CVE-2022-22350</td>
-       <td>2022-03-02 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>IBM AIX 7.1, 7.2, 7.3, and VIOS 3.1 could allow a non-privileged local user to exploit a vulnerability in CAA to cause a denial of service. IBM X-Force ID: 220394.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22350">详情</a></td>
       </tr>
 
      </tbody>
@@ -650,6 +650,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">50d17a775c084753b9a54db6adc54ce2</td>
+       <td>CNVD-2022-13865</td>
+       <td>2022-03-04 16:56:16 <img src="imgs/new.gif" /></td>
+       <td>四创科技有限公司山洪监测预警平台存在任意文件读取漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13865">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">506459663deafc6c2f0074aafed232f6</td>
+       <td>CNVD-2022-13864</td>
+       <td>2022-03-04 16:56:14 <img src="imgs/new.gif" /></td>
+       <td>四创科技有限公司山洪灾害监测预警平台存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13864">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9dd996a00ff6f48de239b616ebd15d1d</td>
+       <td>CNVD-2022-13863</td>
+       <td>2022-03-04 16:56:12 <img src="imgs/new.gif" /></td>
+       <td>四创科技有限公司山洪灾害监测预警平台存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13863">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a2baa9a9acef45f05dddc3ce652e5852</td>
+       <td>CNVD-2022-13862</td>
+       <td>2022-03-04 16:56:09 <img src="imgs/new.gif" /></td>
+       <td>四创科技有限公司山洪灾害监测预警平台存在文件上传漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13862">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cf7feca323038da94c73a3258ecbf940</td>
+       <td>CNVD-2022-13895</td>
+       <td>2022-03-04 16:56:07 <img src="imgs/new.gif" /></td>
+       <td>组态王（KingView）存在逻辑缺陷漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-13895">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">96806677ca70a6e67b40f90a639b0d03</td>
        <td>CNVD-2022-15854</td>
        <td>2022-03-03 16:54:47 <img src="imgs/new.gif" /></td>
@@ -847,46 +887,6 @@
        <td>2022-03-02 14:38:33 <img src="imgs/new.gif" /></td>
        <td>JetBrains TeamCity信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-15946">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9dee71cb285d2ea0298b6967ded792c1</td>
-       <td>CNVD-2022-15945 (CVE-2022-24342)</td>
-       <td>2022-03-02 14:38:31 <img src="imgs/new.gif" /></td>
-       <td>JetBrains TeamCity跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-15945">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">296bba68e8e170b20701297e6c7730f1</td>
-       <td>CNVD-2022-15944 (CVE-2022-24340)</td>
-       <td>2022-03-02 14:38:28 <img src="imgs/new.gif" /></td>
-       <td>JetBrains TeamCity XML外部实体处理漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-15944">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97e54ae558c9ee27a156a48bc37ff98a</td>
-       <td>CNVD-2022-15943 (CVE-2022-24339)</td>
-       <td>2022-03-02 14:38:26 <img src="imgs/new.gif" /></td>
-       <td>JetBrains TeamCity跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-15943">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97ef963bfa75cee65de2e0807a83303c</td>
-       <td>CNVD-2022-15942 (CVE-2022-24338)</td>
-       <td>2022-03-02 14:38:24 <img src="imgs/new.gif" /></td>
-       <td>JetBrains TeamCity跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-15942">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66a5e94c68e203ef8a3c548511559bc9</td>
-       <td>CNVD-2022-15959 (CVE-2022-21681)</td>
-       <td>2022-03-02 08:44:02 <img src="imgs/new.gif" /></td>
-       <td>marked拒绝服务漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-15959">详情</a></td>
       </tr>
 
      </tbody>
