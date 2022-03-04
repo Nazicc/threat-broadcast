@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-04 19:38:01 -->
+<!-- RELEASE TIME : 2022-03-04 20:40:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -111,6 +111,86 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">b173d751ef7562863e3e144bd11c884f</td>
+       <td>CVE-2022-26318</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code, aka FBX-22786. This vulnerability impacts Fireware OS before 12.7.2_U2, 12.x before 12.1.3_U8, and 12.2.x through 12.5.x before 12.5.9_U2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26318">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">084f1803cf847918a191cff5e6589e29</td>
+       <td>CVE-2022-23233</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>StorageGRID (formerly StorageGRID Webscale) versions prior to 11.6.0 are susceptible to a vulnerability which when successfully exploited could lead to Denial of Service (DoS) of the Local Distribution Router (LDR) service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23233">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3513d9da0546c388488fd0662c20321f</td>
+       <td>CVE-2022-23232</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>StorageGRID (formerly StorageGRID Webscale) versions prior to 11.6.0 are susceptible to a vulnerability which when successfully exploited could allow disabled, expired, or locked external user accounts to access S3 data to which they previously had access. StorageGRID 11.6.0 obtains the user account status from Active Directory or Azure and will block S3 access for disabled user accounts during the subsequent background synchronization. User accounts that are expired or locked for Active Directory or Azure, or user accounts that are disabled, expired, or locked in identity sources other than Active Directory or Azure must be manually removed from group memberships or have their S3 keys manually removed from Tenant Manager in all versions of StorageGRID (formerly StorageGRID Webscale).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23232">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">de3157545d1d56be73f68f9f5706d650</td>
+       <td>CVE-2021-3575</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A heap-based buffer overflow was found in openjpeg in color.c:379:42 in sycc420_to_rgb when decompressing a crafted .j2k file. An attacker could use this to execute arbitrary code with the permissions of the application compiled against openjpeg.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3575">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f76e627ceee7abdad16917b64ff46455</td>
+       <td>CVE-2021-3428</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw was found in the Linux kernel. A denial of service problem is identified if an extent tree is corrupted in a crafted ext4 filesystem in fs/ext4/extents.c in ext4_es_cache_extent. Fabricating an integer overflow, A local attacker with a special user privilege may cause a system crash problem which can lead to an availability threat.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3428">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">842885b363d72a8aa0e6b1cd70b42c75</td>
+       <td>CVE-2021-20319</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>An improper signature verification vulnerability was found in coreos-installer. A specially crafted gzip installation image can bypass the image signature verification and as a consequence can lead to the installation of unsigned content. An attacker able to modify the original installation image can write arbitrary data, and achieve full access to the node being installed.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-20319">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">be48851ab7ed194c5f25f6ec349ff091</td>
+       <td>CVE-2021-20303</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw found in function dataWindowForTile() of IlmImf/ImfTiledMisc.cpp. An attacker who is able to submit a crafted file to be processed by OpenEXR could trigger an integer overflow, leading to an out-of-bounds write on the heap. The greatest impact of this flaw is to application availability, with some potential impact to data integrity as well.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-20303">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">90f8a0eaf4c7b0030a681668d017695d</td>
+       <td>CVE-2021-20302</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw was found in OpenEXR's TiledInputFile functionality. This flaw allows an attacker who can submit a crafted single-part non-image to be processed by OpenEXR, to trigger a floating-point exception error. The highest threat from this vulnerability is to system availability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-20302">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">39a61986fc2daab353c236b296b4d78d</td>
+       <td>CVE-2021-20300</td>
+       <td>2022-03-04 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw was found in OpenEXR's hufUncompress functionality in OpenEXR/IlmImf/ImfHuf.cpp. This flaw allows an attacker who can submit a crafted file that is processed by OpenEXR, to trigger an integer overflow. The highest threat from this vulnerability is to system availability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-20300">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4539f29144bc713220cc160e21ba3dae</td>
+       <td>CVE-2022-25623</td>
+       <td>2022-03-04 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Symantec Management Agent is susceptible to a privilege escalation vulnerability. A low privilege local account can be elevated to the SYSTEM level through registry manipulations.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25623">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">bbf38c46aca495f300545dd7b7f5d0ce</td>
        <td>CVE-2022-26336</td>
@@ -269,86 +349,6 @@
        <td>2022-03-04 12:15:00 <img src="imgs/new.gif" /></td>
        <td>A design flaw in Go-Ethereum 1.10.12 and older versions allows an attacker node to send 5120 future transactions with a high gas price in one message, which can purge all of pending transactions in a victim node's memory pool, causing a denial of service (DoS).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23327">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e320fbbebc6559ecbc65027cf252503b</td>
-       <td>CVE-2022-0752</td>
-       <td>2022-03-04 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub repository hestiacp/hestiacp prior to 1.5.9.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0752">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">240e838b91b0680bf2488278b34b7c12</td>
-       <td>CVE-2022-0848</td>
-       <td>2022-03-04 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>OS Command Injection in GitHub repository part-db/part-db prior to 0.5.11.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0848">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e2aa949c01a1a3a7c4a1ec6e4d3d541e</td>
-       <td>CVE-2022-0838</td>
-       <td>2022-03-04 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Reflected in GitHub repository hestiacp/hestiacp prior to 1.5.10.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0838">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e31281cba776c48096cf36b3404fce7d</td>
-       <td>CVE-2022-0730</td>
-       <td>2022-03-03 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Under certain ldap conditions, Cacti authentication can be bypassed with certain credential types.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0730">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">75c16d69800d969f528499766847d0d6</td>
-       <td>CVE-2021-3640</td>
-       <td>2022-03-03 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw use-after-free in function sco_sock_sendmsg() of the Linux kernel HCI subsystem was found in the way user calls ioct UFFDIO_REGISTER or other way triggers race condition of the call sco_conn_del() together with the call sco_sock_sendmsg() with the expected controllable faulting memory page. A privileged local user could use this flaw to crash the system or escalate their privileges on the system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3640">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f4624fb3a17933e8fbff103f41fcb32b</td>
-       <td>CVE-2021-3638</td>
-       <td>2022-03-03 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An out-of-bounds memory access flaw was found in the ATI VGA device emulation of QEMU. This flaw occurs in the ati_2d_blt() routine while handling MMIO write operations when the guest provides invalid values for the destination display parameters. A malicious guest could use this flaw to crash the QEMU process on the host, resulting in a denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3638">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f2d9af91ceba7b7e849be5a12a445bd0</td>
-       <td>CVE-2021-26948</td>
-       <td>2022-03-03 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Null pointer dereference in the htmldoc v1.9.11 and before may allow attackers to execute arbitrary code and cause a denial of service via a crafted html file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-26948">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">28348b8869a8bb22a02919564baf691f</td>
-       <td>CVE-2021-26259</td>
-       <td>2022-03-03 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw was found in htmldoc in v1.9.12. Heap buffer overflow in render_table_row(),in ps-pdf.cxx may lead to arbitrary code execution and denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-26259">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7d08b866af46cbfd41a6e43d0a52e71a</td>
-       <td>CVE-2022-25220</td>
-       <td>2022-03-03 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>PeteReport Version 0.5 allows an authenticated admin user to inject persistent JavaScript code inside the markdown descriptions while creating a product, report or finding.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25220">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bd8ec8736869e2e640bdf98f300773b3</td>
-       <td>CVE-2022-24725</td>
-       <td>2022-03-03 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Shescape is a shell escape package for JavaScript. An issue in versions 1.4.0 to 1.5.1 allows for exposure of the home directory on Unix systems when using Bash with the `escape` or `escapeAll` functions from the _shescape_ API with the `interpolation` option set to `true`. Other tested shells, Dash and Zsh, are not affected. Depending on how the output of _shescape_ is used, directory traversal may be possible in the application using _shescape_. The issue was patched in version 1.5.1. As a workaround, manually escape all instances of the tilde character (`~`) using `arg.replace(/~/g, "\\~")`.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24725">详情</a></td>
       </tr>
 
      </tbody>
@@ -658,6 +658,22 @@
       </tr>
 
       <tr>
+       <td scope="row">85337657f7523a060fa0c1510b32fc0a</td>
+       <td>CNVD-2022-16727 (CVE-2022-25179)</td>
+       <td>2022-03-04 20:40:13 <img src="imgs/new.gif" /></td>
+       <td>Jenkins Pipeline Multibranch Plugin任意文件读取漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16727">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">634a41b5d49bec911c27c3618187c1f4</td>
+       <td>CNVD-2022-16728 (CVE-2022-25177)</td>
+       <td>2022-03-04 20:40:11 <img src="imgs/new.gif" /></td>
+       <td>Jenkins Pipeline Shared Groovy Libraries Plugin任意文件读取漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16728">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">50d17a775c084753b9a54db6adc54ce2</td>
        <td>CNVD-2022-13865</td>
        <td>2022-03-04 16:56:16 <img src="imgs/new.gif" /></td>
@@ -871,22 +887,6 @@
        <td>2022-03-03 06:47:10 <img src="imgs/new.gif" /></td>
        <td>Google Chrome资源管理错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16303">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b7b1ba1fa3c021e88467112210a43387</td>
-       <td>CNVD-2022-16304 (CVE-2021-4102)</td>
-       <td>2022-03-03 06:47:08 <img src="imgs/new.gif" /></td>
-       <td>Google Chrome资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16304">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e6baed7e0eaf4e86bf1941223b97d832</td>
-       <td>CNVD-2022-16294 (CVE-2022-21800)</td>
-       <td>2022-03-03 06:47:01 <img src="imgs/new.gif" /></td>
-       <td>Airspan Networks Mmp加密问题漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16294">详情</a></td>
       </tr>
 
      </tbody>
