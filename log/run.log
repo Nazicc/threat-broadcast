@@ -21418,3 +21418,122 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2021-3602
 2022-03-03 23:40:10 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-04 02:00:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:00:11 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-04 02:00:12 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-04 02:00:12 [INFO] : --------------------------------------------
+2022-03-04 02:00:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:00:12 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-04 02:00:13 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-04 02:00:13 [INFO] : --------------------------------------------
+2022-03-04 02:00:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:00:13 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-04 02:00:36 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-04 02:00:36 [INFO] : --------------------------------------------
+2022-03-04 02:00:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:00:36 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-04 02:00:59 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-04 02:00:59 [INFO] : --------------------------------------------
+2022-03-04 02:00:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:00:59 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-04 02:01:00 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-04 02:01:00 [INFO] : --------------------------------------------
+2022-03-04 02:01:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:00 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-04 02:01:00 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-04 02:01:00 [INFO] : --------------------------------------------
+2022-03-04 02:01:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:00 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-04 02:01:02 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-04 02:01:02 [INFO] : --------------------------------------------
+2022-03-04 02:01:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:02 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-04 02:01:03 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-04 02:01:03 [INFO] : --------------------------------------------
+2022-03-04 02:01:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:03 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-04 02:01:09 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-04 02:01:09 [INFO] : --------------------------------------------
+2022-03-04 02:01:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:09 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-04 02:01:10 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-04 02:01:10 [INFO] : --------------------------------------------
+2022-03-04 02:01:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:10 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-04 02:01:16 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-04 02:01:16 [INFO] : --------------------------------------------
+2022-03-04 02:01:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-04 02:01:16 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-04 02:01:17 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-03-04 02:01:17 [INFO] : --------------------------------------------
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] Under certain ldap conditions, Cacti authentication can be bypassed with certain credential types.
+[ TIME  ] 2022-03-03 23:15:00
+[ CVE   ] CVE-2022-0730
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0730
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] A flaw use-after-free in function sco_sock_sendmsg() of the Linux kernel HCI subsystem was found in the way user calls ioct UFFDIO_REGISTER or other way triggers race condition of the call sco_conn_del() together with the call sco_sock_sendmsg() with the expected controllable faulting memory page. A privileged local user could use this flaw to crash the system or escalate their privileges on the system.
+[ TIME  ] 2022-03-03 23:15:00
+[ CVE   ] CVE-2021-3640
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-3640
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] An out-of-bounds memory access flaw was found in the ATI VGA device emulation of QEMU. This flaw occurs in the ati_2d_blt() routine while handling MMIO write operations when the guest provides invalid values for the destination display parameters. A malicious guest could use this flaw to crash the QEMU process on the host, resulting in a denial of service.
+[ TIME  ] 2022-03-03 23:15:00
+[ CVE   ] CVE-2021-3638
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-3638
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] Null pointer dereference in the htmldoc v1.9.11 and before may allow attackers to execute arbitrary code and cause a denial of service via a crafted html file.
+[ TIME  ] 2022-03-03 23:15:00
+[ CVE   ] CVE-2021-26948
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-26948
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] A flaw was found in htmldoc in v1.9.12. Heap buffer overflow in render_table_row(),in ps-pdf.cxx may lead to arbitrary code execution and denial of service.
+[ TIME  ] 2022-03-03 23:15:00
+[ CVE   ] CVE-2021-26259
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-26259
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] PeteReport Version 0.5 allows an authenticated admin user to inject persistent JavaScript code inside the markdown descriptions while creating a product, report or finding.
+[ TIME  ] 2022-03-03 22:15:00
+[ CVE   ] CVE-2022-25220
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25220
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] Shescape is a shell escape package for JavaScript. An issue in versions 1.4.0 to 1.5.1 allows for exposure of the home directory on Unix systems when using Bash with the `escape` or `escapeAll` functions from the _shescape_ API with the `interpolation` option set to `true`. Other tested shells, Dash and Zsh, are not affected. Depending on how the output of _shescape_ is used, directory traversal may be possible in the application using _shescape_. The issue was patched in version 1.5.1. As a workaround, manually escape all instances of the tilde character (`~`) using `arg.replace(/~/g, "\\~")`.
+[ TIME  ] 2022-03-03 22:15:00
+[ CVE   ] CVE-2022-24725
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24725
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] A cross-site-scripting (XSS) vulnerability was discovered in the Data Preview Pane (previously known as Index Pattern Preview Pane) which could allow arbitrary JavaScript to be executed in a victim’s browser.
+[ TIME  ] 2022-03-03 22:15:00
+[ CVE   ] CVE-2022-23710
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23710
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] A flaw was discovered in Kibana in which users with Read access to the Uptime feature could modify alerting rules. A user with this privilege would be able to create new alerting rules or overwrite existing ones. However, any new or modified rules would not be enabled, and a user with this privilege could not modify alerting connectors. This effectively means that Read users could disable existing alerting rules.
+[ TIME  ] 2022-03-03 22:15:00
+[ CVE   ] CVE-2022-23709
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23709
+2022-03-04 02:01:17 [INFO] : 
+==============================================
+[ TITLE ] A flaw was discovered in Elasticsearch 7.17.0’s upgrade assistant, in which upgrading from version 6.x to 7.x would disable the in-built protections on the security index, allowing authenticated users with “*” index permissions access to this index.
+[ TIME  ] 2022-03-03 22:15:00
+[ CVE   ] CVE-2022-23708
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23708
+2022-03-04 02:01:17 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
