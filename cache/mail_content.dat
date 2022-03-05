@@ -1,13 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16911 (CVE-2021-43940)</font><br/>[<b>披露时间</b>] 2022-03-05 02:53:03<br/>[<b>漏洞描述</b>] Atlassian Confluence Server权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16911'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16911</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25312</font><br/>[<b>披露时间</b>] 2022-03-05 00:15:00<br/>[<b>漏洞描述</b>] An XML external entity (XXE) injection vulnerability was discovered in the Any23 RDFa XSLTStylesheet extractor and is known to affect Any23 versions < 2.7. XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external systems that the application itself can access. This issue is fixed in Apache Any23 2.7.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25312'>https://www.tenable.com/cve/CVE-2022-25312</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16915 (CVE-2021-43950)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:46<br/>[<b>漏洞描述</b>] Atlassian Jira Service Management Server信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16915'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16915</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16914 (CVE-2021-43953)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:48<br/>[<b>漏洞描述</b>] Atlassian Jira Server ViewInstrumentation.jspa跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16914'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16914</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16917 (CVE-2021-43941)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:55<br/>[<b>漏洞描述</b>] Atlassian Jira Server jira-importers-plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16917'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16917</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16916 (CVE-2021-43948)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:57<br/>[<b>漏洞描述</b>] Atlassian Jira Service Management Server授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16916'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16916</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
