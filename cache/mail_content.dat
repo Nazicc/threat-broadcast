@@ -1,14 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16915 (CVE-2021-43950)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:46<br/>[<b>漏洞描述</b>] Atlassian Jira Service Management Server信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16915'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16915</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16914 (CVE-2021-43953)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:48<br/>[<b>漏洞描述</b>] Atlassian Jira Server ViewInstrumentation.jspa跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16914'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16914</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16917 (CVE-2021-43941)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:55<br/>[<b>漏洞描述</b>] Atlassian Jira Server jira-importers-plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16917'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16917</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16916 (CVE-2021-43948)</font><br/>[<b>披露时间</b>] 2022-03-05 03:40:57<br/>[<b>漏洞描述</b>] Atlassian Jira Service Management Server授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16916'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16916</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16923 (CVE-2022-0212)</font><br/>[<b>披露时间</b>] 2022-03-05 06:45:18<br/>[<b>漏洞描述</b>] WordPress SpiderCalendar plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16923'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16923</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16922 (CVE-2022-0200)</font><br/>[<b>披露时间</b>] 2022-03-05 06:45:21<br/>[<b>漏洞描述</b>] WordPress Themify Portfolio Post plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16922'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16922</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16921 (CVE-2021-25115)</font><br/>[<b>披露时间</b>] 2022-03-05 06:45:23<br/>[<b>漏洞描述</b>] WordPress WP Photo Album Plus Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16921'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16921</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16920 (CVE-2022-0214)</font><br/>[<b>披露时间</b>] 2022-03-05 06:45:25<br/>[<b>漏洞描述</b>] WordPress Custom Popup Builde plugin拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16920'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16920</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-16919 (CVE-2021-24446)</font><br/>[<b>披露时间</b>] 2022-03-05 06:45:27<br/>[<b>漏洞描述</b>] WordPress Remove Footer Credit plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-16919'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-16919</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
