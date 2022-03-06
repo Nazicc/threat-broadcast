@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0868</font><br/>[<b>披露时间</b>] 2022-03-06 16:15:00<br/>[<b>漏洞描述</b>] Open Redirect in GitHub repository medialize/uri.js prior to 1.19.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0868'>https://www.tenable.com/cve/CVE-2022-0868</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44749</font><br/>[<b>披露时间</b>] 2022-03-06 20:15:00<br/>[<b>漏洞描述</b>] A vulnerability affecting F-Secure SAFE browser protection was discovered improper URL handling can be triggered to cause universal cross-site scripting through browsing protection in a SAFE web browser. User interaction is required prior to exploitation. A successful exploitation may lead to arbitrary code execution.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-44749'>https://www.tenable.com/cve/CVE-2021-44749</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44748</font><br/>[<b>披露时间</b>] 2022-03-06 20:15:00<br/>[<b>漏洞描述</b>] A vulnerability affecting F-Secure SAFE browser was discovered whereby browsers loads images automatically this vulnerability can be exploited remotely by an attacker to execute the JavaScript can be used to trigger universal cross-site scripting through the browser. User interaction is required prior to exploitation, such as entering a malicious website to trigger the vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-44748'>https://www.tenable.com/cve/CVE-2021-44748</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
