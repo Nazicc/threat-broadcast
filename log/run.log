@@ -27221,3 +27221,66 @@ requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected(
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-0429
 2022-03-07 13:40:55 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-07 14:38:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:01 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-07 14:38:02 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-07 14:38:02 [INFO] : --------------------------------------------
+2022-03-07 14:38:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:02 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-07 14:38:03 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-07 14:38:03 [INFO] : --------------------------------------------
+2022-03-07 14:38:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:03 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-07 14:38:28 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-07 14:38:28 [INFO] : --------------------------------------------
+2022-03-07 14:38:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:28 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-07 14:38:50 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-07 14:38:50 [INFO] : --------------------------------------------
+2022-03-07 14:38:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:50 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-07 14:38:51 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-07 14:38:51 [INFO] : --------------------------------------------
+2022-03-07 14:38:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:51 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-07 14:38:51 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-07 14:38:51 [INFO] : --------------------------------------------
+2022-03-07 14:38:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:51 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-07 14:38:53 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-07 14:38:53 [INFO] : --------------------------------------------
+2022-03-07 14:38:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:53 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-07 14:38:53 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-07 14:38:53 [INFO] : --------------------------------------------
+2022-03-07 14:38:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:53 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-07 14:38:55 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-07 14:38:55 [INFO] : --------------------------------------------
+2022-03-07 14:38:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:55 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-07 14:38:56 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-07 14:38:56 [INFO] : --------------------------------------------
+2022-03-07 14:38:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:38:56 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-07 14:39:01 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-07 14:39:01 [INFO] : --------------------------------------------
+2022-03-07 14:39:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-07 14:39:01 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-07 14:39:02 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [2] 条
+2022-03-07 14:39:02 [INFO] : --------------------------------------------
+2022-03-07 14:39:02 [INFO] : 
+==============================================
+[ TITLE ] Incorrect Permission Assignment for Critical Resource vulnerability in the crash handling component BDReinit.exe as used in Bitdefender Total Security, Internet Security, Antivirus Plus, Endpoint Security Tools for Windows allows a remote attacker to escalate local privileges to SYSTEM.This issue affects:Bitdefender Total Securityversions prior to 26.0.10.45.Bitdefender Internet Securityversions prior to 26.0.10.45.Bitdefender Antivirus Plusversions prior to 26.0.10.45.Bitdefender Endpoint Security Tools for Windowsversions prior to 7.4.3.146.
+[ TIME  ] 2022-03-07 12:15:00
+[ CVE   ] CVE-2021-4199
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-4199
+2022-03-07 14:39:02 [INFO] : 
+==============================================
+[ TITLE ] A NULL Pointer Dereference vulnerability in the messaging_ipc.dll component as used in Bitdefender Total Security, Internet Security, Antivirus Plus, Endpoint Security Tools, VPN Standalone allows an attacker to arbitrarily crash product processes and generate crashdump files.This issue affects:Bitdefender Total Securityversions prior to 26.0.3.29.Bitdefender Internet Securityversions prior to 26.0.3.29.Bitdefender Antivirus Plusversions prior to 26.0.3.29.Bitdefender Endpoint Security Toolsversions prior to 7.2.2.92.Bitdefender VPN Standaloneversions prior to 25.5.0.48.
+[ TIME  ] 2022-03-07 12:15:00
+[ CVE   ] CVE-2021-4198
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-4198
+2022-03-07 14:39:02 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
