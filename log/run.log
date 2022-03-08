@@ -29353,3 +29353,87 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='avd.aliyun.com', port
 2022-03-08 21:39:09 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-08 21:39:09 [INFO] : --------------------------------------------
 2022-03-08 21:39:09 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-08 22:39:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:39:59 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-08 22:40:00 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-08 22:40:00 [INFO] : --------------------------------------------
+2022-03-08 22:40:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:00 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-08 22:40:01 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-08 22:40:01 [INFO] : --------------------------------------------
+2022-03-08 22:40:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:01 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-08 22:40:30 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-08 22:40:30 [INFO] : --------------------------------------------
+2022-03-08 22:40:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:30 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-08 22:40:50 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-08 22:40:51 [INFO] : --------------------------------------------
+2022-03-08 22:40:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:51 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-08 22:40:51 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-08 22:40:51 [INFO] : --------------------------------------------
+2022-03-08 22:40:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:51 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-08 22:40:52 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-08 22:40:52 [INFO] : --------------------------------------------
+2022-03-08 22:40:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:52 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-08 22:40:53 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-08 22:40:53 [INFO] : --------------------------------------------
+2022-03-08 22:40:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:53 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-08 22:40:54 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-08 22:40:54 [INFO] : --------------------------------------------
+2022-03-08 22:40:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:40:54 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-08 22:41:00 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-08 22:41:00 [INFO] : --------------------------------------------
+2022-03-08 22:41:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:41:00 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-08 22:41:01 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-08 22:41:01 [INFO] : --------------------------------------------
+2022-03-08 22:41:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:41:01 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-08 22:41:07 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-08 22:41:07 [INFO] : --------------------------------------------
+2022-03-08 22:41:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 22:41:07 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-08 22:41:07 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [5] 条
+2022-03-08 22:41:07 [INFO] : --------------------------------------------
+2022-03-08 22:41:07 [INFO] : 
+==============================================
+[ TITLE ] Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Unauthenticated users can leak the contents of files of the local system accessible to the web-server user, including `icingaweb2` configuration files with database credentials. This issue has been resolved in versions 2.9.6 and 2.10 of Icinga Web 2. Database credentials should be rotated.
+[ TIME  ] 2022-03-08 20:15:00
+[ CVE   ] CVE-2022-24716
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24716
+2022-03-08 22:41:07 [INFO] : 
+==============================================
+[ TITLE ] Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Authenticated users, with access to the configuration, can create SSH resource files in unintended directories, leading to the execution of arbitrary code. This issue has been resolved in versions 2.8.6, 2.9.6 and 2.10 of Icinga Web 2. Users unable to upgrade should limit access to the Icinga Web 2 configuration.
+[ TIME  ] 2022-03-08 20:15:00
+[ CVE   ] CVE-2022-24715
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24715
+2022-03-08 22:41:07 [INFO] : 
+==============================================
+[ TITLE ] Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Installations of Icinga 2 with the IDO writer enabled are affected. If you use service custom variables in role restrictions, and you regularly decommission service objects, users with said roles may still have access to a collection of content. Note that this only applies if a role has implicitly permitted access to hosts, due to permitted access to at least one of their services. If access to a host is permitted by other means, no sensible information has been disclosed to unauthorized users. This issue has been resolved in versions 2.8.6, 2.9.6 and 2.10 of Icinga Web 2.
+[ TIME  ] 2022-03-08 20:15:00
+[ CVE   ] CVE-2022-24714
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24714
+2022-03-08 22:41:07 [INFO] : 
+==============================================
+[ TITLE ] regex is an implementation of regular expressions for the Rust language. The regex crate features built-in mitigations to prevent denial of service attacks caused by untrusted regexes, or untrusted input matched by trusted regexes. Those (tunable) mitigations already provide sane defaults to prevent attacks. This guarantee is documented and it's considered part of the crate's API. Unfortunately a bug was discovered in the mitigations designed to prevent untrusted regexes to take an arbitrary amount of time during parsing, and it's possible to craft regexes that bypass such mitigations. This makes it possible to perform denial of service attacks by sending specially crafted regexes to services accepting user-controlled, untrusted regexes. All versions of the regex crate before or equal to 1.5.4 are affected by this issue. The fix is include starting from regex 1.5.5. All users accepting user-controlled regexes are recommended to upgrade immediately to the latest version of the regex crate. Unfortunately there is no fixed set of problematic regexes, as there are practically infinite regexes that could be crafted to exploit this vulnerability. Because of this, it us not recommend to deny known problematic regexes.
+[ TIME  ] 2022-03-08 19:15:00
+[ CVE   ] CVE-2022-24713
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24713
+2022-03-08 22:41:07 [INFO] : 
+==============================================
+[ TITLE ] Nextcloud server is a self hosted system designed to provide cloud style services. The groupfolders application for Nextcloud allows sharing a folder with a group of people. In addition, it allows setting "advanced permissions" on subfolders, for example, a user could be granted access to the groupfolder but not specific subfolders. Due to a lacking permission check in affected versions, a user could still access these subfolders by copying the groupfolder to another location. It is recommended that the Nextcloud Server is upgraded to 20.0.14, 21.0.6 or 22.2.1. Users unable to upgrade should disable the "groupfolders" application in the admin settings.
+[ TIME  ] 2022-03-08 19:15:00
+[ CVE   ] CVE-2021-41241
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41241
+2022-03-08 22:41:07 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
