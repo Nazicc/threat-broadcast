@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-17364</font><br/>[<b>披露时间</b>] 2022-03-08 15:42:55<br/>[<b>漏洞描述</b>] MCMS存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-17364'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-17364</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25838</font><br/>[<b>披露时间</b>] 2022-02-24 15:15:33 <br/>[<b>漏洞描述</b>] Laravel Fortify before 1.11.1 allows reuse within a short time window, thus calling into question the &quot;OT&quot; part of the &quot;TOTP&quot; concept.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25838'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25838</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0877</font><br/>[<b>披露时间</b>] 2022-03-08 13:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository bookstackapp/bookstack prior to v22.02.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0877'>https://www.tenable.com/cve/CVE-2022-0877</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
