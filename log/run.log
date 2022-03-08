@@ -29227,3 +29227,73 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='avd.aliyun.com', port
 2022-03-08 19:38:28 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-08 19:38:28 [INFO] : --------------------------------------------
 2022-03-08 19:38:28 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-08 20:40:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:40:06 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-08 20:40:07 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-08 20:40:07 [INFO] : --------------------------------------------
+2022-03-08 20:40:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:40:07 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-08 20:40:09 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-08 20:40:09 [INFO] : --------------------------------------------
+2022-03-08 20:40:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:40:09 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-08 20:40:38 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-08 20:40:38 [INFO] : --------------------------------------------
+2022-03-08 20:40:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:40:38 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-08 20:40:59 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-08 20:40:59 [INFO] : --------------------------------------------
+2022-03-08 20:40:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:40:59 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-08 20:40:59 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-08 20:40:59 [INFO] : --------------------------------------------
+2022-03-08 20:40:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:40:59 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-08 20:41:00 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-08 20:41:00 [INFO] : --------------------------------------------
+2022-03-08 20:41:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:41:00 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-08 20:41:01 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-08 20:41:01 [INFO] : --------------------------------------------
+2022-03-08 20:41:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:41:01 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-08 20:41:02 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-08 20:41:02 [INFO] : --------------------------------------------
+2022-03-08 20:41:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:41:02 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-08 20:41:07 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-08 20:41:07 [INFO] : --------------------------------------------
+2022-03-08 20:41:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:41:07 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-08 20:41:08 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-08 20:41:08 [INFO] : --------------------------------------------
+2022-03-08 20:41:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:41:08 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-08 20:41:13 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-08 20:41:13 [INFO] : --------------------------------------------
+2022-03-08 20:41:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-08 20:41:13 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-08 20:41:14 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [3] 条
+2022-03-08 20:41:14 [INFO] : --------------------------------------------
+2022-03-08 20:41:14 [INFO] : 
+==============================================
+[ TITLE ] Nextcloud server is a self hosted system designed to provide cloud style services. In affected versions the User Status API did not consider the user enumeration settings by the administrator. This allowed a user to enumerate other users on the instance, even when user listings where disabled. It is recommended that the Nextcloud Server is upgraded to 20.0.14, 21.0.6 or 22.2.1. There are no known workarounds.
+[ TIME  ] 2022-03-08 18:15:00
+[ CVE   ] CVE-2021-41239
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41239
+2022-03-08 20:41:14 [INFO] : 
+==============================================
+[ TITLE ] Nextcloud talk is a self hosting messaging service. In versions prior to 12.3.0 the Nextcloud Android Talk application did not properly detect the lockscreen state when a call was incoming. If an attacker got physical access to the locked phone, and the victim received a phone call the attacker could gain access to the chat messages and files  of the user. It is recommended that the Nextcloud Android Talk App is upgraded to 12.3.0. There are no known workarounds.
+[ TIME  ] 2022-03-08 18:15:00
+[ CVE   ] CVE-2021-41181
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41181
+2022-03-08 20:41:14 [INFO] : 
+==============================================
+[ TITLE ] Nextcloud talk is a self hosting messaging service. In versions prior 12.1.2 an attacker is able to control the link of a geolocation preview in the Nextcloud Talk application due to a lack of validation on the link. This could result in an open-redirect, but required user interaction. This only affected users of the Android Talk client. It is recommended that the Nextcloud Talk App is upgraded to 12.1.2. There are no known workarounds.
+[ TIME  ] 2022-03-08 18:15:00
+[ CVE   ] CVE-2021-41180
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41180
+2022-03-08 20:41:14 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
