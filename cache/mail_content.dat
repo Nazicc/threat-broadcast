@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0847</font><br/>[<b>披露时间</b>] 2022-03-07 03:41:01<br/>[<b>漏洞描述</b>] Dirty Pipe - Linux 内核本地提权漏洞（CVE-2022-0847）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-0847'>https://avd.aliyun.com/detail?id=AVD-2022-0847</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-17353 (CVE-2022-21338)</font><br/>[<b>披露时间</b>] 2022-03-08 03:41:09<br/>[<b>漏洞描述</b>] Oracle Communications Convergence授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-17353'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-17353</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-17352 (CVE-2022-21402)</font><br/>[<b>披露时间</b>] 2022-03-08 03:41:24<br/>[<b>漏洞描述</b>] Oracle Communications Operations Monitor存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-17352'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-17352</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-17351 (CVE-2022-21400)</font><br/>[<b>披露时间</b>] 2022-03-08 03:41:27<br/>[<b>漏洞描述</b>] Oracle Communications Operations Monitor存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-17351'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-17351</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-17350 (CVE-2022-21398)</font><br/>[<b>披露时间</b>] 2022-03-08 03:41:30<br/>[<b>漏洞描述</b>] Oracle Communications Operations Monitor存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-17350'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-17350</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43944</font><br/>[<b>披露时间</b>] 2022-03-08 02:15:00<br/>[<b>漏洞描述</b>] This issue exists to document that a security improvement in the way that Jira Server and Data Center use templates has been implemented. Affected versions of Atlassian Jira Server and Data Center allowed remote attackers with system administrator permissions to execute arbitrary code via Template Injection leading to Remote Code Execution (RCE) in the Email Templates feature. The affected versions are before version 8.13.15, and from version 8.14.0 before 8.20.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43944'>https://www.tenable.com/cve/CVE-2021-43944</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
