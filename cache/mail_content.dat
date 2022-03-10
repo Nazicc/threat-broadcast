@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38296</font><br/>[<b>披露时间</b>] 2022-03-10 09:15:00<br/>[<b>漏洞描述</b>] Apache Spark supports end-to-end encryption of RPC connections via "spark.authenticate" and "spark.network.crypto.enabled". In versions 3.1.2 and earlier, it uses a bespoke mutual authentication protocol that allows for full encryption key recovery. After an initial interactive attack, this would allow someone to decrypt plaintext traffic offline. Note that this does not affect security mechanisms controlled by "spark.authenticate.enableSaslEncryption", "spark.io.encryption.enabled", "spark.ssl", "spark.ui.strictTransportSecurity".  Update to Apache Spark 3.1.3 or later<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-38296'>https://www.tenable.com/cve/CVE-2021-38296</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0895</font><br/>[<b>披露时间</b>] 2022-03-10 11:15:00<br/>[<b>漏洞描述</b>] Static Code Injection in GitHub repository microweber/microweber prior to 1.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0895'>https://www.tenable.com/cve/CVE-2022-0895</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
