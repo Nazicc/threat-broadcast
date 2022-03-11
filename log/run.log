@@ -35168,3 +35168,108 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-24095
 2022-03-11 22:41:02 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-11 23:39:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:02 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-11 23:39:03 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-11 23:39:03 [INFO] : --------------------------------------------
+2022-03-11 23:39:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:03 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-11 23:39:04 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-11 23:39:04 [INFO] : --------------------------------------------
+2022-03-11 23:39:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:04 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-11 23:39:27 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-11 23:39:27 [INFO] : --------------------------------------------
+2022-03-11 23:39:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:27 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-11 23:39:49 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-11 23:39:49 [INFO] : --------------------------------------------
+2022-03-11 23:39:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:49 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-11 23:39:50 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-11 23:39:50 [INFO] : --------------------------------------------
+2022-03-11 23:39:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:50 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-11 23:39:51 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [8] 条
+2022-03-11 23:39:51 [INFO] : --------------------------------------------
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] Pluxml v5.8.7 was discovered to allow attackers to execute arbitrary code via crafted PHP code inserted into static pages.
+[ TIME  ] 2022-03-01 02:15:07 
+[ CVE   ] CVE-2022-25018
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25018
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] Home Owners Collection Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /student_attendance/index.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+[ TIME  ] 2022-03-02 17:15:07 
+[ CVE   ] CVE-2022-25016
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25016
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] A stored cross-site scripting (XSS) vulnerability in Ice Hrm 30.0.0.OS allows attackers to steal cookies via a crafted payload inserted into the First Name field.
+[ TIME  ] 2022-02-28 19:15:12 
+[ CVE   ] CVE-2022-25015
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25015
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] Ice Hrm 30.0.0.OS was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the &quot;m&quot; parameter in the Dashboard of the current user. This vulnerability allows attackers to compromise session credentials via user interaction with a crafted link.
+[ TIME  ] 2022-02-28 19:15:12 
+[ CVE   ] CVE-2022-25014
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25014
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] Ice Hrm 30.0.0.OS was discovered to contain multiple reflected cross-site scripting (XSS) vulnerabilities via the &quot;key&quot; and &quot;fm&quot; parameters in the component login.php.
+[ TIME  ] 2022-02-28 19:15:12 
+[ CVE   ] CVE-2022-25013
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25013
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] Argus Surveillance DVR v4.0 employs weak password encryption.
+[ TIME  ] 2022-03-01 23:15:09 
+[ CVE   ] CVE-2022-25012
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25012
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] The component /rootfs in RageFile of Stepmania v5.1b2 and below allows attackers access to the entire file system.
+[ TIME  ] 2022-03-01 23:15:09 
+[ CVE   ] CVE-2022-25010
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25010
+2022-03-11 23:39:51 [INFO] : 
+==============================================
+[ TITLE ] KDE KCron through 21.12.2 uses a temporary file in /tmp when saving, but reuses the filename during an editing session. Thus, someone watching it be created the first time could potentially intercept the file the following time, enabling that person to run unauthorized commands.
+[ TIME  ] 2022-02-26 05:15:08 
+[ CVE   ] CVE-2022-24986
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24986
+2022-03-11 23:39:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:51 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-11 23:39:52 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-11 23:39:52 [INFO] : --------------------------------------------
+2022-03-11 23:39:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:52 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-11 23:39:53 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-11 23:39:53 [INFO] : --------------------------------------------
+2022-03-11 23:39:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:53 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-11 23:39:58 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-11 23:39:58 [INFO] : --------------------------------------------
+2022-03-11 23:39:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:58 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-11 23:39:59 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-11 23:39:59 [INFO] : --------------------------------------------
+2022-03-11 23:39:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:39:59 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-11 23:40:06 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-11 23:40:06 [INFO] : --------------------------------------------
+2022-03-11 23:40:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 23:40:06 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-11 23:40:06 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-03-11 23:40:06 [INFO] : --------------------------------------------
+2022-03-11 23:40:06 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
