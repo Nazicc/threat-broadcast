@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-11 15:43:53 -->
+<!-- RELEASE TIME : 2022-03-11 16:56:42 -->
 <html lang="zh-cn">
 
  <head>
@@ -119,6 +119,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">2a4cc17dcdeae08d1598093bbf689009</td>
+       <td>CVE-2022-21819</td>
+       <td>2022-03-11 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>NVIDIA distributions of Jetson Linux contain a vulnerability where an error in the IOMMU configuration may allow an unprivileged attacker with physical access to the board direct read/write access to the entire system address space through the PCI bus. Such an attack could result in denial of service, code execution, escalation of privileges, and impact to data integrity and confidentiality. The scope impact may extend to other components.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21819">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9394411151c96c1852e79fc016e9edca</td>
+       <td>CVE-2022-0860</td>
+       <td>2022-03-11 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Authorization in GitHub repository cobbler/cobbler prior to 3.3.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0860">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">2897f615dddf2e6f452121ce6c9359ed</td>
        <td>CVE-2022-0871</td>
@@ -341,22 +357,6 @@
        <td>2022-03-10 21:15:00 <img src="imgs/new.gif" /></td>
        <td>Istio is an open platform to connect, manage, and secure microservices. In affected versions the Istio control plane, istiod, is vulnerable to a request processing error, allowing a malicious attacker that sends a specially crafted message which results in the control plane crashing when the validating webhook for a cluster is exposed publicly. This endpoint is served over TLS port 15017, but does not require any authentication from the attacker. For simple installations, Istiod is typically only reachable from within the cluster, limiting the blast radius. However, for some deployments, especially [external istiod](https://istio.io/latest/docs/setup/install/external-controlplane/) topologies, this port is exposed over the public internet. This issue has been patched in versions 1.13.2, 1.12.5 and 1.11.8. Users are advised to upgrade. Users unable to upgrade should disable access to a validating webhook that is exposed to the public internet or restrict the set of IP addresses that can query it to a set of known, trusted entities.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24726">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d749666095775010f115cc62052c3cec</td>
-       <td>CVE-2021-44597</td>
-       <td>2022-03-10 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>An Access Control vunerabiity exists in Gerapy v 0.9.7 via the spider parameter in project_configure function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44597">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9fd731a1e60c46da516656d6a911001d</td>
-       <td>CVE-2021-44585</td>
-       <td>2022-03-10 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Cross Site Scripting (XSS) vulnerabilitiy exits in jeecg-boot 3.0 in /jeecg-boot/jmreport/view with a mouseover event.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44585">详情</a></td>
       </tr>
 
      </tbody>
