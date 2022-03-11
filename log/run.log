@@ -33302,3 +33302,164 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.cnvd.org.cn', por
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2021-41233
 2022-03-11 01:57:07 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-11 02:57:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:01 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-11 02:57:02 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-11 02:57:02 [INFO] : --------------------------------------------
+2022-03-11 02:57:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:02 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-11 02:57:03 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-11 02:57:03 [INFO] : --------------------------------------------
+2022-03-11 02:57:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:03 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-11 02:57:30 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [6] 条
+2022-03-11 02:57:30 [INFO] : --------------------------------------------
+2022-03-11 02:57:30 [INFO] : 
+==============================================
+[ TITLE ] Dell VNX2 OE for File敏感信息泄露漏洞
+[ TIME  ] 2022-03-11 02:57:08
+[ CVE   ] CNVD-2022-18265 (CVE-2021-36289)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18265
+2022-03-11 02:57:30 [INFO] : 
+==============================================
+[ TITLE ] Dell Wyse Management Suite反序列化漏洞
+[ TIME  ] 2022-03-11 02:57:15
+[ CVE   ] CNVD-2022-18270 (CVE-2021-36336)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18270
+2022-03-11 02:57:30 [INFO] : 
+==============================================
+[ TITLE ] Dell Wyse Device Agent信息泄露漏洞
+[ TIME  ] 2022-03-11 02:57:17
+[ CVE   ] CNVD-2022-18271 (CVE-2021-36341)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18271
+2022-03-11 02:57:30 [INFO] : 
+==============================================
+[ TITLE ] Dell OpenManage Enterprise身份验证不当漏洞
+[ TIME  ] 2022-03-11 02:57:19
+[ CVE   ] CNVD-2022-18273 (CVE-2021-21564)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18273
+2022-03-11 02:57:30 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS访问控制错误漏洞
+[ TIME  ] 2022-03-11 02:57:22
+[ CVE   ] CNVD-2022-18274 (CVE-2021-21567)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18274
+2022-03-11 02:57:30 [INFO] : 
+==============================================
+[ TITLE ] Dell Hybrid Client访问控制错误漏洞
+[ TIME  ] 2022-03-11 02:57:24
+[ CVE   ] CNVD-2022-18275 (CVE-2021-21535)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18275
+2022-03-11 02:57:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:30 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-11 02:57:53 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-11 02:57:53 [INFO] : --------------------------------------------
+2022-03-11 02:57:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:53 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-11 02:57:54 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-11 02:57:54 [INFO] : --------------------------------------------
+2022-03-11 02:57:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:54 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-11 02:57:54 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-11 02:57:54 [INFO] : --------------------------------------------
+2022-03-11 02:57:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:54 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-11 02:57:56 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-11 02:57:56 [INFO] : --------------------------------------------
+2022-03-11 02:57:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:56 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-11 02:57:56 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-11 02:57:56 [INFO] : --------------------------------------------
+2022-03-11 02:57:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:56 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-11 02:57:58 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-11 02:57:58 [INFO] : --------------------------------------------
+2022-03-11 02:57:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:58 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-11 02:57:59 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-11 02:57:59 [INFO] : --------------------------------------------
+2022-03-11 02:57:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:57:59 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-11 02:58:06 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-11 02:58:06 [INFO] : --------------------------------------------
+2022-03-11 02:58:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-11 02:58:06 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-11 02:58:06 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-03-11 02:58:06 [INFO] : --------------------------------------------
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] FreeTAKServer-UI v1.9.8 was discovered to leak sensitive API and Websocket keys.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-25512
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25512
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] An issue in the ?filename= argument of the route /DataPackageTable in FreeTAKServer-UI v1.9.8 allows attackers to place arbitrary files anywhere on the system.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-25511
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25511
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] FreeTAKServer 1.9.8 contains a hardcoded Flask secret key which allows attackers to create crafted cookies to bypass authentication or escalate privileges.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-25510
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25510
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] An access control issue in the component /ManageRoute/postRoute of FreeTAKServer v1.9.8 allows unauthenticated attackers to cause a Denial of Service (DoS) via an unusually large amount of created routes, or create unsafe or false routes for legitimate users.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-25508
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25508
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] FreeTAKServer-UI v1.9.8 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Callsign parameter.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-25507
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25507
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] FreeTAKServer-UI v1.9.8 was discovered to contain a SQL injection vulnerability via the API endpoint /AuthenticateUser.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-25506
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25506
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] Improper Authorization in GitHub repository orchardcms/orchardcore prior to 1.3.0.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-0821
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0821
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] Cross-site Scripting (XSS) - Stored in GitHub repository orchardcms/orchardcore prior to 1.3.0.
+[ TIME  ] 2022-03-11 00:15:00
+[ CVE   ] CVE-2022-0820
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0820
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] Improper access control vulnerability in McAfee WebAdvisor Chrome and Edge browser extensions up to 8.1.0.1895 allows a remote attacker to gain access to McAfee WebAdvisor settings and other details about the user’s system. This could lead to unexpected behaviors including; settings being changed, fingerprinting of the system leading to targeted scams, and not triggering the malicious software if McAfee software is detected.
+[ TIME  ] 2022-03-10 23:15:00
+[ CVE   ] CVE-2022-0815
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0815
+2022-03-11 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] A race condition vulnerability exists in the QuickClean feature of McAfee Total Protection for Windows prior to 16.0.43 that allows a local user to gain privilege elevation and perform an arbitrary file delete. This could lead to sensitive files being deleted and potentially cause denial of service. This attack exploits the way symlinks are created and how the product works with them.
+[ TIME  ] 2022-03-10 23:15:00
+[ CVE   ] CVE-2022-0280
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0280
+2022-03-11 02:58:06 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
