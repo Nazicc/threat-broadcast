@@ -1,12 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18538 (CVE-2021-43075)</font><br/>[<b>披露时间</b>] 2022-03-11 08:42:17<br/>[<b>漏洞描述</b>] Fortinet FortiWLM命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18538'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18538</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18531 (CVE-2022-23380)</font><br/>[<b>披露时间</b>] 2022-03-11 08:42:19<br/>[<b>漏洞描述</b>] Taocms id参数SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18531'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18531</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18774 (CVE-2022-22806)</font><br/>[<b>披露时间</b>] 2022-03-12 09:38:46<br/>[<b>漏洞描述</b>] Schneider Electric多款产品身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18774'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18774</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18773 (CVE-2022-22805)</font><br/>[<b>披露时间</b>] 2022-03-12 09:38:48<br/>[<b>漏洞描述</b>] Schneider Electric多款产品缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18773'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18773</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18772 (CVE-2022-0715)</font><br/>[<b>披露时间</b>] 2022-03-12 09:38:51<br/>[<b>漏洞描述</b>] Schneider Electric多款产品身份验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18772'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18772</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
