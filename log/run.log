@@ -35593,3 +35593,122 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 2022-03-12 05:39:35 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2022-03-12 05:39:35 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-12 05:39:35 [INFO] : --------------------------------------------
+2022-03-12 06:45:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:45:34 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-12 06:45:35 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-12 06:45:35 [INFO] : --------------------------------------------
+2022-03-12 06:45:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:45:35 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-12 06:45:36 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-12 06:45:36 [INFO] : --------------------------------------------
+2022-03-12 06:45:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:45:36 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-12 06:46:02 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-12 06:46:02 [INFO] : --------------------------------------------
+2022-03-12 06:46:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:02 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-12 06:46:24 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-12 06:46:24 [INFO] : --------------------------------------------
+2022-03-12 06:46:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:24 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-12 06:46:26 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-12 06:46:26 [INFO] : --------------------------------------------
+2022-03-12 06:46:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:26 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-12 06:46:26 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-03-12 06:46:26 [INFO] : --------------------------------------------
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SINEC NMS (All versions). The affected system allows to upload JSON objects that are deserialized to Java objects. Due to insecure deserialization of user-supplied content by the affected software, a privileged attacker could exploit this vulnerability by sending a maliciously crafted serialized Java object. This could allow the attacker to execute arbitrary code on the device with root privileges.
+[ TIME  ] 2022-03-08 12:15:11 
+[ CVE   ] CVE-2022-24282
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24282
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SINEC NMS (All versions). A privileged authenticated attacker could execute arbitrary commands in the local database by sending specially crafted requests to the webserver of the affected application.
+[ TIME  ] 2022-03-08 12:15:11 
+[ CVE   ] CVE-2022-24281
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24281
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] Extensis Portfolio v4.0 was discovered to contain hardcoded credentials which allows attackers to gain administrator privileges.
+[ TIME  ] 2022-03-01 23:15:08 
+[ CVE   ] CVE-2022-24255
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24255
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] An unrestricted file upload vulnerability in the Backup/Restore Archive component of Extensis Portfolio v4.0 allows remote attackers to execute arbitrary code via a crafted ZIP file.
+[ TIME  ] 2022-03-01 23:15:08 
+[ CVE   ] CVE-2022-24254
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24254
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] Extensis Portfolio v4.0 was discovered to contain an authenticated unrestricted file upload vulnerability via the component AdminFileTransferServlet.
+[ TIME  ] 2022-03-01 23:15:08 
+[ CVE   ] CVE-2022-24253
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24253
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] An unrestricted file upload vulnerability in the FileTransferServlet component of Extensis Portfolio v4.0 allows remote attackers to execute arbitrary code via a crafted file.
+[ TIME  ] 2022-03-01 23:15:08 
+[ CVE   ] CVE-2022-24252
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24252
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] Extensis Portfolio v4.0 was discovered to contain an authenticated unrestricted file upload vulnerability via the Catalog Asset Upload function.
+[ TIME  ] 2022-03-01 23:15:08 
+[ CVE   ] CVE-2022-24251
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24251
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Sonos One Speaker prior to 3.4.1 (S2 systems) and 11.2.13 build 57923290 (S1 systems). Authentication is not required to exploit this vulnerability. The specific flaw exists within the ALAC audio codec. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-15798.
+[ TIME  ] 2022-02-18 20:15:17 
+[ CVE   ] CVE-2022-24049
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24049
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Sonos One Speaker prior to 3.4.1 (S2 systems) and 11.2.13 build 57923290 (S1 systems). Authentication is not required to exploit this vulnerability. The specific flaw exists within the anacapd daemon. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-15828.
+[ TIME  ] 2022-02-18 20:15:17 
+[ CVE   ] CVE-2022-24046
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24046
+2022-03-12 06:46:26 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in AhciBusDxe in Insyde InsydeH2O with kernel 5.1 through 5.5. An SMM memory corruption vulnerability allows an attacker to write fixed or predictable data to SMRAM. Exploiting this issue could lead to escalating privileges to SMM.
+[ TIME  ] 2022-02-03 02:15:07 
+[ CVE   ] CVE-2022-24030
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24030
+2022-03-12 06:46:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:26 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-12 06:46:28 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-12 06:46:28 [INFO] : --------------------------------------------
+2022-03-12 06:46:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:28 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-12 06:46:29 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-12 06:46:29 [INFO] : --------------------------------------------
+2022-03-12 06:46:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:29 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-12 06:46:30 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-12 06:46:30 [INFO] : --------------------------------------------
+2022-03-12 06:46:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:30 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-12 06:46:31 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-12 06:46:31 [INFO] : --------------------------------------------
+2022-03-12 06:46:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:31 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-12 06:46:37 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-12 06:46:37 [INFO] : --------------------------------------------
+2022-03-12 06:46:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 06:46:37 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-12 06:46:37 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-03-12 06:46:37 [INFO] : --------------------------------------------
+2022-03-12 06:46:37 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
