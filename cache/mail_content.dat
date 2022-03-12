@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0880</font><br/>[<b>披露时间</b>] 2022-03-12 04:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository star7th/showdoc prior to 2.10.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0880'>https://www.tenable.com/cve/CVE-2022-0880</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26533</font><br/>[<b>披露时间</b>] 2022-03-12 01:15:00<br/>[<b>漏洞描述</b>] Alist v2.1.0 and below was discovered to contain a cross-site scripting (XSS) vulnerability via /i/:data/ipa.plist.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26533'>https://www.tenable.com/cve/CVE-2022-26533</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26276</font><br/>[<b>披露时间</b>] 2022-03-12 01:15:00<br/>[<b>漏洞描述</b>] An issue in index.php of OneNav v0.9.14 allows attackers to perform directory traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26276'>https://www.tenable.com/cve/CVE-2022-26276</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18538 (CVE-2021-43075)</font><br/>[<b>披露时间</b>] 2022-03-11 08:42:17<br/>[<b>漏洞描述</b>] Fortinet FortiWLM命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18538'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18538</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-18531 (CVE-2022-23380)</font><br/>[<b>披露时间</b>] 2022-03-11 08:42:19<br/>[<b>漏洞描述</b>] Taocms id参数SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-18531'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-18531</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
