@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-12 01:45:36 -->
+<!-- RELEASE TIME : 2022-03-12 02:52:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -119,6 +119,54 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">1b847d002e6ed392259d74865fa11fa8</td>
+       <td>CVE-2022-24760</td>
+       <td>2022-03-12 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Parse Server is an open source http web server backend. In versions prior to 4.10.7 there is a Remote Code Execution (RCE) vulnerability in Parse Server. This vulnerability affects Parse Server in the default configuration with MongoDB. The main weakness that leads to RCE is the Prototype Pollution vulnerable code in the file `DatabaseController.js`, so it is likely to affect Postgres and any other database backend as well. This vulnerability has been confirmed on Linux (Ubuntu) and Windows. Users are advised to upgrade as soon as possible. The only known workaround is to manually patch your installation with code referenced at the source GHSA-p6h4-93qp-jhcm.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24760">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9295621f57cbdc73f554c78794ecf9a</td>
+       <td>CVE-2021-42577</td>
+       <td>2022-03-11 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Softing OPC UA C++ SDK before 5.70. A malformed OPC/UA message abort packet makes the client crash with a NULL pointer dereference.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42577">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b7686caecad56a888c1ceea4cfe8dec6</td>
+       <td>CVE-2021-42262</td>
+       <td>2022-03-11 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Softing OPC UA C++ SDK before 5.70. An invalid XML element in the type dictionary makes the OPC/UA client crash due to an out-of-memory condition.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42262">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d2dc0093f778fbe654bb689439089cd3</td>
+       <td>CVE-2021-41850</td>
+       <td>2022-03-11 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Luna Simo PPR1.180610.011/202001031830. A pre-installed app with a package name of com.skyroam.silverhelper writes three IMEI values to system properties at system startup. The system property values can be obtained via getprop by all third-party applications co-located on the device, even those with no permissions granted, exposing the IMEI values to processes without enforcing any access control.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1fdef17cebbb58ec2fed408f58d2c1f9</td>
+       <td>CVE-2021-41849</td>
+       <td>2022-03-11 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Luna Simo PPR1.180610.011/202001031830. It sends the following Personally Identifiable Information (PII) in plaintext using HTTP to servers located in China: user's list of installed apps and device International Mobile Equipment Identity (IMEI). This PII is transmitted to log.skyroam.com.cn using HTTP, independent of whether the user uses the Simo software.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41849">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0db9bf0377f26fdeb77a128c1836cf8a</td>
+       <td>CVE-2021-41848</td>
+       <td>2022-03-11 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Luna Simo PPR1.180610.011/202001031830. It mishandles software updates such that local third-party apps can provide a spoofed software update file that contains an arbitrary shell script and arbitrary ARM binary, where both will be executed as the root user with an SELinux domain named osi. To exploit this vulnerability, a local third-party app needs to have write access to external storage to write the spoofed update at the expected path. The vulnerable system binary (i.e., /system/bin/osi_bin) does not perform any authentication of the update file beyond ensuring that it is encrypted with an AES key (that is hard-coded in the vulnerable system binary). Processes executing with the osi SELinux domain can programmatically perform the following actions: install apps, grant runtime permissions to apps (including permissions with protection levels of dangerous and development), access extensive Personally Identifiable Information (PII) using the programmatically grant permissions, uninstall apps, set the default launcher app to a malicious launcher app that spoofs other apps, set a network proxy to intercept network traffic, unload kernel modules, set the default keyboard to a keyboard that has keylogging functionality, examine notification contents, send text messages, and more. The spoofed update can optionally contain an arbitrary ARM binary that will be locally stored in internal storage and executed at system startup to achieve persistent code execution as the root user with the osi SELinux domain. This ARM binary will continue to execute at startup even if the app that provided the spoofed update is uninstalled.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41848">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">6b34e7af86a281c1a4cb5d1feed7df94</td>
        <td>CVE-2022-24421</td>
@@ -309,54 +357,6 @@
        <td>2022-03-11 11:15:00 <img src="imgs/new.gif" /></td>
        <td>Server-Side Request Forgery (SSRF) in GitHub repository gogs/gogs prior to 0.12.5.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0870">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4744bc4b6fa25518bcb907ebb95f3abd</td>
-       <td>CVE-2022-0912</td>
-       <td>2022-03-11 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Unrestricted Upload of File with Dangerous Type in GitHub repository microweber/microweber prior to 1.2.11.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0912">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8718380b14dc441ea73255011a998fbb</td>
-       <td>CVE-2022-0913</td>
-       <td>2022-03-11 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Integer Overflow or Wraparound in GitHub repository microweber/microweber prior to 1.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0913">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0a54137266f1e92f392c3a3227829f01</td>
-       <td>CVE-2022-23402</td>
-       <td>2022-03-11 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>The following Yokogawa Electric products hard-code the password for CAMS server applications: CENTUM VP versions from R5.01.00 to R5.04.20 and versions from R6.01.00 to R6.08.00, Exaopc versions from R3.72.00 to R3.79.00</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23402">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3d3ac20325333ddaf35a684b912c4bdb</td>
-       <td>CVE-2022-23401</td>
-       <td>2022-03-11 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>The following Yokogawa Electric products contain insecure DLL loading issues. CENTUM CS 3000 versions from R3.08.10 to R3.09.00, CENTUM VP versions from R4.01.00 to R4.03.00, from R5.01.00 to R5.04.20, and from R6.01.00 to R6.08.00, Exaopc versions from R3.72.00 to R3.79.00.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23401">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2523c98dabfc4c3f9487575fbb7f6afb</td>
-       <td>CVE-2022-21808</td>
-       <td>2022-03-11 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Path traversal vulnerability exists in CAMS for HIS Server contained in the following Yokogawa Electric products: CENTUM CS 3000 versions from R3.08.10 to R3.09.00, CENTUM VP versions from R4.01.00 to R4.03.00, from R5.01.00 to R5.04.20, and from R6.01.00 to R6.08.00, Exaopc versions from R3.72.00 to R3.79.00.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21808">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66a2c766ca4f1bfbe64067ba28cf511a</td>
-       <td>CVE-2022-22151</td>
-       <td>2022-03-11 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>CAMS for HIS Log Server contained in the following Yokogawa Electric products fails to properly neutralize log outputs: CENTUM CS 3000 versions from R3.08.10 to R3.09.00, CENTUM VP versions from R4.01.00 to R4.03.00, from R5.01.00 to R5.04.20, and from R6.01.00 to R6.08.00, and Exaopc versions from R3.72.00 to R3.79.00.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22151">详情</a></td>
       </tr>
 
      </tbody>

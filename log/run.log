@@ -35406,3 +35406,94 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-25839
 2022-03-12 01:45:36 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-12 02:51:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:51:25 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-12 02:51:33 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-12 02:51:33 [INFO] : --------------------------------------------
+2022-03-12 02:51:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:51:33 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-12 02:51:34 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-12 02:51:34 [INFO] : --------------------------------------------
+2022-03-12 02:51:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:51:34 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-12 02:51:59 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-12 02:51:59 [INFO] : --------------------------------------------
+2022-03-12 02:51:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:51:59 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-12 02:52:23 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-12 02:52:23 [INFO] : --------------------------------------------
+2022-03-12 02:52:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:23 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-12 02:52:24 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-12 02:52:24 [INFO] : --------------------------------------------
+2022-03-12 02:52:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:24 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-12 02:52:25 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-12 02:52:25 [INFO] : --------------------------------------------
+2022-03-12 02:52:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:25 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-12 02:52:26 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-12 02:52:26 [INFO] : --------------------------------------------
+2022-03-12 02:52:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:26 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-12 02:52:27 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-12 02:52:27 [INFO] : --------------------------------------------
+2022-03-12 02:52:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:27 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-12 02:52:36 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-12 02:52:36 [INFO] : --------------------------------------------
+2022-03-12 02:52:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:36 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-12 02:52:38 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-12 02:52:38 [INFO] : --------------------------------------------
+2022-03-12 02:52:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:38 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-12 02:52:44 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-12 02:52:44 [INFO] : --------------------------------------------
+2022-03-12 02:52:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 02:52:44 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-12 02:52:44 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [6] 条
+2022-03-12 02:52:44 [INFO] : --------------------------------------------
+2022-03-12 02:52:44 [INFO] : 
+==============================================
+[ TITLE ] Parse Server is an open source http web server backend. In versions prior to 4.10.7 there is a Remote Code Execution (RCE) vulnerability in Parse Server. This vulnerability affects Parse Server in the default configuration with MongoDB. The main weakness that leads to RCE is the Prototype Pollution vulnerable code in the file `DatabaseController.js`, so it is likely to affect Postgres and any other database backend as well. This vulnerability has been confirmed on Linux (Ubuntu) and Windows. Users are advised to upgrade as soon as possible. The only known workaround is to manually patch your installation with code referenced at the source GHSA-p6h4-93qp-jhcm.
+[ TIME  ] 2022-03-12 00:15:00
+[ CVE   ] CVE-2022-24760
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24760
+2022-03-12 02:52:44 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in Softing OPC UA C++ SDK before 5.70. A malformed OPC/UA message abort packet makes the client crash with a NULL pointer dereference.
+[ TIME  ] 2022-03-11 23:15:00
+[ CVE   ] CVE-2021-42577
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42577
+2022-03-12 02:52:44 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in Softing OPC UA C++ SDK before 5.70. An invalid XML element in the type dictionary makes the OPC/UA client crash due to an out-of-memory condition.
+[ TIME  ] 2022-03-11 23:15:00
+[ CVE   ] CVE-2021-42262
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42262
+2022-03-12 02:52:44 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in Luna Simo PPR1.180610.011/202001031830. A pre-installed app with a package name of com.skyroam.silverhelper writes three IMEI values to system properties at system startup. The system property values can be obtained via getprop by all third-party applications co-located on the device, even those with no permissions granted, exposing the IMEI values to processes without enforcing any access control.
+[ TIME  ] 2022-03-11 23:15:00
+[ CVE   ] CVE-2021-41850
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41850
+2022-03-12 02:52:44 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in Luna Simo PPR1.180610.011/202001031830. It sends the following Personally Identifiable Information (PII) in plaintext using HTTP to servers located in China: user's list of installed apps and device International Mobile Equipment Identity (IMEI). This PII is transmitted to log.skyroam.com.cn using HTTP, independent of whether the user uses the Simo software.
+[ TIME  ] 2022-03-11 23:15:00
+[ CVE   ] CVE-2021-41849
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41849
+2022-03-12 02:52:44 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in Luna Simo PPR1.180610.011/202001031830. It mishandles software updates such that local third-party apps can provide a spoofed software update file that contains an arbitrary shell script and arbitrary ARM binary, where both will be executed as the root user with an SELinux domain named osi. To exploit this vulnerability, a local third-party app needs to have write access to external storage to write the spoofed update at the expected path. The vulnerable system binary (i.e., /system/bin/osi_bin) does not perform any authentication of the update file beyond ensuring that it is encrypted with an AES key (that is hard-coded in the vulnerable system binary). Processes executing with the osi SELinux domain can programmatically perform the following actions: install apps, grant runtime permissions to apps (including permissions with protection levels of dangerous and development), access extensive Personally Identifiable Information (PII) using the programmatically grant permissions, uninstall apps, set the default launcher app to a malicious launcher app that spoofs other apps, set a network proxy to intercept network traffic, unload kernel modules, set the default keyboard to a keyboard that has keylogging functionality, examine notification contents, send text messages, and more. The spoofed update can optionally contain an arbitrary ARM binary that will be locally stored in internal storage and executed at system startup to achieve persistent code execution as the root user with the osi SELinux domain. This ARM binary will continue to execute at startup even if the app that provided the spoofed update is uninstalled.
+[ TIME  ] 2022-03-11 23:15:00
+[ CVE   ] CVE-2021-41848
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41848
+2022-03-12 02:52:44 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
