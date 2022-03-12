@@ -35273,3 +35273,136 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 2022-03-11 23:40:06 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-11 23:40:06 [INFO] : --------------------------------------------
 2022-03-11 23:40:06 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-12 01:44:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:44:36 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-12 01:44:37 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-12 01:44:37 [INFO] : --------------------------------------------
+2022-03-12 01:44:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:44:37 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-12 01:44:38 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-12 01:44:38 [INFO] : --------------------------------------------
+2022-03-12 01:44:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:44:38 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-12 01:45:01 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-12 01:45:01 [INFO] : --------------------------------------------
+2022-03-12 01:45:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:01 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-12 01:45:23 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-12 01:45:23 [INFO] : --------------------------------------------
+2022-03-12 01:45:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:23 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-12 01:45:24 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-12 01:45:24 [INFO] : --------------------------------------------
+2022-03-12 01:45:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:24 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-12 01:45:25 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [6] 条
+2022-03-12 01:45:25 [INFO] : --------------------------------------------
+2022-03-12 01:45:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in the Varnishcache extension before 2.0.1 for TYPO3. The Edge Site Includes (ESI) content element renderer component does not include an access check. This allows an unauthenticated user to render various content elements, resulting in insecure direct object reference (IDOR), with the potential of exposing internal content elements.
+[ TIME  ] 2022-02-19 04:15:06 
+[ CVE   ] CVE-2022-24979
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24979
+2022-03-12 01:45:25 [INFO] : 
+==============================================
+[ TITLE ] regexp.Compile in Go before 1.16.15 and 1.17.x before 1.17.8 allows stack exhaustion via a deeply nested expression.
+[ TIME  ] 2022-03-05 20:15:08 
+[ CVE   ] CVE-2022-24921
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24921
+2022-03-12 01:45:25 [INFO] : 
+==============================================
+[ TITLE ] Weblate is a web based localization tool with tight version control integration. Prior to version 4.11.1, Weblate didn't properly sanitize some arguments passed to Git and Mercurial, allowing them to change their behavior in an unintended way. Instances where untrusted users cannot create new components are not affected. The issues were fixed in the 4.11.1 release.
+[ TIME  ] 2022-03-04 17:15:07 
+[ CVE   ] CVE-2022-24727
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24727
+2022-03-12 01:45:25 [INFO] : 
+==============================================
+[ TITLE ] URI.js is a Javascript URL mutation library. Before version 1.19.9, whitespace characters are not removed from the beginning of the protocol, so URLs are not parsed properly. This issue has been patched in version 1.19.9. Removing leading whitespace from values before passing them to URI.parse can be used as a workaround.
+[ TIME  ] 2022-03-03 21:15:07 
+[ CVE   ] CVE-2022-24723
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24723
+2022-03-12 01:45:25 [INFO] : 
+==============================================
+[ TITLE ] VIewComponent is a framework for building view components in Ruby on Rails. Versions prior to 2.31.2 and 2.49.1 contain a cross-site scripting vulnerability that has the potential to impact anyone using translations with the view_component gem. Data received via user input and passed as an interpolation argument to the `translate` method is not properly sanitized before display. Versions 2.31.2 and 2.49.1 have been released and fully mitigate the vulnerability. As a workaround, avoid passing user input to the `translate` function, or sanitize the inputs before passing them.
+[ TIME  ] 2022-03-02 23:15:09 
+[ CVE   ] CVE-2022-24722
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24722
+2022-03-12 01:45:25 [INFO] : 
+==============================================
+[ TITLE ] image_processing is an image processing wrapper for libvips and ImageMagick/GraphicsMagick. Prior to version 1.12.2, using the `#apply` method from image_processing to apply a series of operations that are coming from unsanitized user input allows the attacker to execute shell commands. This method is called internally by Active Storage variants, so Active Storage is vulnerable as well. The vulnerability has been fixed in version 1.12.2 of image_processing. As a workaround, users who process based on user input should always sanitize the user input by allowing only a constrained set of operations.
+[ TIME  ] 2022-03-01 23:15:08 
+[ CVE   ] CVE-2022-24720
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24720
+2022-03-12 01:45:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:25 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-12 01:45:26 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-12 01:45:26 [INFO] : --------------------------------------------
+2022-03-12 01:45:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:26 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-12 01:45:27 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-12 01:45:27 [INFO] : --------------------------------------------
+2022-03-12 01:45:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:27 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-12 01:45:29 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-12 01:45:29 [INFO] : --------------------------------------------
+2022-03-12 01:45:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:29 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-12 01:45:30 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-12 01:45:30 [INFO] : --------------------------------------------
+2022-03-12 01:45:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:30 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-12 01:45:36 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-12 01:45:36 [INFO] : --------------------------------------------
+2022-03-12 01:45:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-12 01:45:36 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-12 01:45:36 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [6] 条
+2022-03-12 01:45:36 [INFO] : --------------------------------------------
+2022-03-12 01:45:36 [INFO] : 
+==============================================
+[ TITLE ] Dell BIOS contains an improper input validation vulnerability. A local authenticated malicious user may potentially exploit this vulnerability by using an SMI to gain arbitrary code execution during SMM.
+[ TIME  ] 2022-03-11 22:15:00
+[ CVE   ] CVE-2022-24421
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24421
+2022-03-12 01:45:36 [INFO] : 
+==============================================
+[ TITLE ] Dell BIOS contains an improper input validation vulnerability. A local authenticated malicious user may potentially exploit this vulnerability by using an SMI to gain arbitrary code execution during SMM.
+[ TIME  ] 2022-03-11 22:15:00
+[ CVE   ] CVE-2022-24420
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24420
+2022-03-12 01:45:36 [INFO] : 
+==============================================
+[ TITLE ] Dell BIOS contains an improper input validation vulnerability. A local authenticated malicious user may potentially exploit this vulnerability by using an SMI to gain arbitrary code execution during SMM.
+[ TIME  ] 2022-03-11 22:15:00
+[ CVE   ] CVE-2022-24419
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24419
+2022-03-12 01:45:36 [INFO] : 
+==============================================
+[ TITLE ] Dell BIOS contains an improper input validation vulnerability. A local authenticated malicious user may potentially exploit this vulnerability by using an SMI to gain arbitrary code execution during SMM.
+[ TIME  ] 2022-03-11 22:15:00
+[ CVE   ] CVE-2022-24416
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24416
+2022-03-12 01:45:36 [INFO] : 
+==============================================
+[ TITLE ] Dell BIOS contains an improper input validation vulnerability. A local authenticated malicious user may potentially exploit this vulnerability by using an SMI to gain arbitrary code execution during SMM.
+[ TIME  ] 2022-03-11 22:15:00
+[ CVE   ] CVE-2022-24415
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24415
+2022-03-12 01:45:36 [INFO] : 
+==============================================
+[ TITLE ] The package url-js before 2.1.0 are vulnerable to Improper Input Validation due to improper parsing, which makes it is possible for the hostname to be spoofed. http://\\\\\\\\localhost and http://localhost are the same URL. However, the hostname is not parsed as localhost, and the backslash is reflected as it is.
+[ TIME  ] 2022-03-11 20:15:00
+[ CVE   ] CVE-2022-25839
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25839
+2022-03-12 01:45:36 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
