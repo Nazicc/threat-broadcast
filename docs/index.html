@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-13 01:48:12 -->
+<!-- RELEASE TIME : 2022-03-13 02:52:00 -->
 <html lang="zh-cn">
 
  <head>
@@ -119,6 +119,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">e7117046f2cb64e9e6b22428e9c65a9c</td>
+       <td>CVE-2022-23960</td>
+       <td>2022-03-13 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Certain Arm Cortex and Neoverse processors through 2022-03-08 do not properly restrict cache speculation, aka Spectre-BHB. An attacker can leverage the shared branch history in the Branch History Buffer (BHB) to influence mispredicted branches. Then, cache allocation can allow the attacker to obtain sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23960">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">236dd5532c676f59b9e02cd06bb22bc9</td>
+       <td>CVE-2021-36368</td>
+       <td>2022-03-13 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>** DISPUTED ** An issue was discovered in OpenSSH before 8.9. If a client is using public-key authentication with agent forwarding but without -oLogLevel=verbose, and an attacker has silently modified the server to support the None authentication option, then the user cannot determine whether FIDO authentication is going to confirm that the user wishes to connect to that server, or that the user wishes to allow that server to connect to a different server on the user's behalf. NOTE: the vendor's position is "this is not an authentication bypass, since nothing is being bypassed."</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-36368">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">c9e0aa12d22406e81a90f67e0bdfbb27</td>
        <td>CVE-2022-26967</td>
@@ -341,22 +357,6 @@
        <td>2022-03-11 18:15:00</td>
        <td>Adobe After Effects versions 22.2 (and earlier) and 18.4.4 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24097">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">205c546c5377b5496c39055b9c75d767</td>
-       <td>CVE-2022-24096</td>
-       <td>2022-03-11 18:15:00</td>
-       <td>Adobe After Effects versions 22.2 (and earlier) and 18.4.4 (and earlier) are affected by an Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24096">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6c03fb2cff30945d5305f1f8d361f896</td>
-       <td>CVE-2022-24095</td>
-       <td>2022-03-11 18:15:00</td>
-       <td>Adobe After Effects versions 22.2 (and earlier) and 18.4.4 (and earlier) are affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24095">详情</a></td>
       </tr>
 
      </tbody>
@@ -658,6 +658,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">17b0727baded10be8b60b9774983b514</td>
+       <td>CNVD-2022-18849 (CVE-2021-25010)</td>
+       <td>2022-03-13 02:51:03 <img src="imgs/new.gif" /></td>
+       <td>WordPress Post Snippets plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18849">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a139381fa3fa406f4e6058fc937d833a</td>
+       <td>CNVD-2022-18850 (CVE-2022-0328)</td>
+       <td>2022-03-13 02:51:01 <img src="imgs/new.gif" /></td>
+       <td>WordPress Simple Membership plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3fd48d71a1f374464af07f43d5d62837</td>
+       <td>CNVD-2022-18851 (CVE-2021-24913)</td>
+       <td>2022-03-13 02:50:59 <img src="imgs/new.gif" /></td>
+       <td>WordPress Slick Slider plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18851">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a1e03ee8768262a16d8b69c21c95599</td>
+       <td>CNVD-2022-18852 (CVE-2021-24920)</td>
+       <td>2022-03-13 02:50:56 <img src="imgs/new.gif" /></td>
+       <td>WordPress StatCounter plugin跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18852">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3a84e52ad5de63c8f1e2c8ec4cf61ccd</td>
+       <td>CNVD-2022-18853 (CVE-2021-24823)</td>
+       <td>2022-03-13 02:50:54 <img src="imgs/new.gif" /></td>
+       <td>WordPress Support Board plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18853">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3ca86d8beac1ace51430497fafaaf683</td>
        <td>CNVD-2022-18772 (CVE-2022-0715)</td>
        <td>2022-03-12 09:38:51 <img src="imgs/new.gif" /></td>
@@ -855,46 +895,6 @@
        <td>2022-03-11 06:46:50</td>
        <td>Expat存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18357">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">20a9d46edd55216c044d88955edce4f7</td>
-       <td>CNVD-2022-18358 (CVE-2022-23990)</td>
-       <td>2022-03-11 06:46:47</td>
-       <td>Expat整数溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18358">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">749e5bf550812d688d61da060fd0b2d6</td>
-       <td>CNVD-2022-18275 (CVE-2021-21535)</td>
-       <td>2022-03-11 02:57:24</td>
-       <td>Dell Hybrid Client访问控制错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18275">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">664ec9d87cec93dfec1d94020dcca411</td>
-       <td>CNVD-2022-18274 (CVE-2021-21567)</td>
-       <td>2022-03-11 02:57:22</td>
-       <td>Dell PowerScale OneFS访问控制错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18274">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">03f7144d0755514c16b61f16f80eca78</td>
-       <td>CNVD-2022-18273 (CVE-2021-21564)</td>
-       <td>2022-03-11 02:57:19</td>
-       <td>Dell OpenManage Enterprise身份验证不当漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18273">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f8fcb779f5666683bfe222af56e7711c</td>
-       <td>CNVD-2022-18271 (CVE-2021-36341)</td>
-       <td>2022-03-11 02:57:17</td>
-       <td>Dell Wyse Device Agent信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18271">详情</a></td>
       </tr>
 
      </tbody>
