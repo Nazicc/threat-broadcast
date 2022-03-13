@@ -37068,3 +37068,80 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 2022-03-13 06:48:50 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-13 06:48:50 [INFO] : --------------------------------------------
 2022-03-13 06:48:50 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-13 07:36:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:36:59 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-13 07:37:00 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-13 07:37:00 [INFO] : --------------------------------------------
+2022-03-13 07:37:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:00 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-13 07:37:01 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-13 07:37:01 [INFO] : --------------------------------------------
+2022-03-13 07:37:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:01 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-13 07:37:26 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-13 07:37:26 [INFO] : --------------------------------------------
+2022-03-13 07:37:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:26 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-13 07:37:47 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-13 07:37:47 [INFO] : --------------------------------------------
+2022-03-13 07:37:47 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:47 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-13 07:37:50 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-13 07:37:50 [INFO] : --------------------------------------------
+2022-03-13 07:37:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:50 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-13 07:37:50 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-13 07:37:50 [INFO] : --------------------------------------------
+2022-03-13 07:37:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:50 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-13 07:37:52 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-13 07:37:52 [INFO] : --------------------------------------------
+2022-03-13 07:37:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:52 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-13 07:37:53 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-13 07:37:53 [INFO] : --------------------------------------------
+2022-03-13 07:37:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:53 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-13 07:37:58 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-13 07:37:58 [INFO] : --------------------------------------------
+2022-03-13 07:37:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:58 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-13 07:37:59 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-13 07:37:59 [INFO] : --------------------------------------------
+2022-03-13 07:37:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:37:59 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-13 07:38:09 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-13 07:38:09 [INFO] : --------------------------------------------
+2022-03-13 07:38:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-13 07:38:09 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-13 07:38:10 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [4] 条
+2022-03-13 07:38:10 [INFO] : --------------------------------------------
+2022-03-13 07:38:10 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in PONTON X/P Messenger before 3.11.2. Several functions are vulnerable to reflected XSS, as demonstrated by private/index.jsp?partners/ShowNonLocalPartners.do?localID= or private/index.jsp or private/index.jsp?database/databaseTab.jsp or private/index.jsp?activation/activationMainTab.jsp or private/index.jsp?communication/serverTab.jsp or private/index.jsp?emailNotification/notificationTab.jsp.
+[ TIME  ] 2022-03-13 02:15:00
+[ CVE   ] CVE-2021-45889
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45889
+2022-03-13 07:38:10 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in PONTON X/P Messenger before 3.11.2. The navigation tree that is shown on the left side of every page of the web application is vulnerable to XSS: it allows injection of JavaScript into its nodes. Creating such nodes is only possible for users who have the role Configuration Administrator or Administrator.
+[ TIME  ] 2022-03-13 02:15:00
+[ CVE   ] CVE-2021-45888
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45888
+2022-03-13 07:38:10 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in PONTON X/P Messenger before 3.11.2. Due to path traversal in private/SchemaSetUpload.do for uploaded ZIP files, an executable script can be uploaded by web application administrators, giving the attacker remote code execution on the underlying server via an imgs/*.jsp URI.
+[ TIME  ] 2022-03-13 02:15:00
+[ CVE   ] CVE-2021-45887
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45887
+2022-03-13 07:38:10 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in PONTON X/P Messenger before 3.11.2. Anti-CSRF tokens are globally valid, making the web application vulnerable to a weakened version of CSRF, where an arbitrary token of a low-privileged user (such as operator) can be used to confirm actions of higher-privileged ones (such as xpadmin).
+[ TIME  ] 2022-03-13 02:15:00
+[ CVE   ] CVE-2021-45886
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45886
+2022-03-13 07:38:10 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
