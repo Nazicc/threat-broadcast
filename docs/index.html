@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-14 22:40:59 -->
+<!-- RELEASE TIME : 2022-03-14 23:40:48 -->
 <html lang="zh-cn">
 
  <head>
@@ -127,6 +127,30 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">219d8c289a1bdfd2882328cfdf9b8f15</td>
+       <td>CVE-2022-24743</td>
+       <td>2022-03-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sylius is an open source eCommerce platform. Prior to versions 1.10.11 and 1.11.2, the reset password token was not set to null after the password was changed. The same token could be used several times, which could result in leak of the existing token and unauthorized password change. The issue is fixed in versions 1.10.11 and 1.11.2. As a workaround, overwrite the `Sylius\Bundle\ApiBundle\CommandHandler\ResetPasswordHandler` class with code provided by the maintainers and register it in a container. More information about this workaround is available in the GitHub Security Advisory.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24743">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c4a6628b61959b66316dcdfb6591b9df</td>
+       <td>CVE-2022-0943</td>
+       <td>2022-03-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Heap-based Buffer Overflow occurs in vim in GitHub repository vim/vim prior to 8.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0943">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4d904d2bbb44ef7abc4af758ad85c580</td>
+       <td>CVE-2022-24742</td>
+       <td>2022-03-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sylius is an open source eCommerce platform. Prior to versions 1.9.10, 1.10.11, and 1.11.2, any other user can view the data if browser tab remains unclosed after log out. The issue is fixed in versions 1.9.10, 1.10.11, and 1.11.2. A workaround is available. The application must strictly redirect to login page even browser back button is pressed. Another possibility is to set more strict cache policies for restricted content.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24742">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">09bbeb9b974be481d70dc1581c09359e</td>
        <td>CVE-2022-24733</td>
@@ -341,30 +365,6 @@
        <td>2022-03-14 15:15:00 <img src="imgs/new.gif" /></td>
        <td>The WP Home Page Menu WordPress plugin before 3.1 does not sanitise and escape its settings, allowing high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0684">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9746a63b385bfb665356f1da8e705703</td>
-       <td>CVE-2022-0674</td>
-       <td>2022-03-14 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Kunze Law WordPress plugin before 2.1 does not escape its 'E-Mail Error "From" Address' settings, allowing high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0674">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c89d8c34d3388ff4882bb8957510e797</td>
-       <td>CVE-2022-24387</td>
-       <td>2022-03-14 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>With administrator or admin privileges the application can be tricked into overwriting files in app_data/Config folder, e.g. the systemsettings.xml file. THis is possible in SmarterTrack v100.0.8019.14010</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24387">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2fa52a9c2d699430ae5133636887a4d8</td>
-       <td>CVE-2022-24386</td>
-       <td>2022-03-14 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Stored XSS in SmarterTools SmarterTrack This issue affects: SmarterTools SmarterTrack 100.0.8019.14010.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24386">详情</a></td>
       </tr>
 
      </tbody>
