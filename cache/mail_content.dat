@@ -1,14 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46709</font><br/>[<b>披露时间</b>] 2022-03-13 19:15:00<br/>[<b>漏洞描述</b>] phpLiteAdmin through 1.9.8.2 allows XSS via the index.php newRows parameter (aka num or number).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-46709'>https://www.tenable.com/cve/CVE-2021-46709</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26981</font><br/>[<b>披露时间</b>] 2022-03-13 18:15:00<br/>[<b>漏洞描述</b>] Liblouis through 3.21.0 has a buffer overflow in compilePassOpcode in compileTranslationTable.c (called, indirectly, by tools/lou_checktable.c).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26981'>https://www.tenable.com/cve/CVE-2022-26981</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24696</font><br/>[<b>披露时间</b>] 2022-03-13 18:15:00<br/>[<b>漏洞描述</b>] Mirametrix Glance before 5.1.1.42207 (released on 2018-08-30) allows a local attacker to elevate privileges. NOTE: this is unrelated to products from the glance.com and glance.net websites.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-24696'>https://www.tenable.com/cve/CVE-2022-24696</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24128</font><br/>[<b>披露时间</b>] 2022-03-13 18:15:00<br/>[<b>漏洞描述</b>] Timescale TimescaleDB 1.x and 2.x before 2.5.2 may allow privilege escalation during extension installation.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-24128'>https://www.tenable.com/cve/CVE-2022-24128</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1091191</font><br/>[<b>披露时间</b>] 2022-03-14 03:43:54<br/>[<b>漏洞描述</b>] Gitea 开放注册
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1091191'>https://avd.aliyun.com/detail?id=AVD-2022-1091191</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21661</font><br/>[<b>披露时间</b>] 2022-01-07 03:43:54<br/>[<b>漏洞描述</b>] WordPress plugin SQL注入漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-21661'>https://avd.aliyun.com/detail?id=AVD-2022-21661</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
