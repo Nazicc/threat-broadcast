@@ -41356,3 +41356,101 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 2022-03-15 17:39:44 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2022-03-15 17:39:44 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-15 17:39:44 [INFO] : --------------------------------------------
+2022-03-15 18:44:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:44:37 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-15 18:44:38 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-15 18:44:38 [INFO] : --------------------------------------------
+2022-03-15 18:44:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:44:38 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-15 18:44:39 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-15 18:44:39 [INFO] : --------------------------------------------
+2022-03-15 18:44:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:44:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-15 18:45:13 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-15 18:45:13 [INFO] : --------------------------------------------
+2022-03-15 18:45:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:13 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-15 18:45:41 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-15 18:45:41 [INFO] : --------------------------------------------
+2022-03-15 18:45:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:41 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-15 18:45:42 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-15 18:45:42 [INFO] : --------------------------------------------
+2022-03-15 18:45:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:42 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-15 18:45:42 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-15 18:45:42 [INFO] : --------------------------------------------
+2022-03-15 18:45:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:42 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-15 18:45:44 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-15 18:45:44 [INFO] : --------------------------------------------
+2022-03-15 18:45:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:44 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-15 18:45:45 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-15 18:45:45 [INFO] : --------------------------------------------
+2022-03-15 18:45:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:45 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-15 18:45:51 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-15 18:45:51 [INFO] : --------------------------------------------
+2022-03-15 18:45:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:51 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-15 18:45:52 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-15 18:45:52 [INFO] : --------------------------------------------
+2022-03-15 18:45:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:52 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-15 18:45:58 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-15 18:45:58 [INFO] : --------------------------------------------
+2022-03-15 18:45:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 18:45:58 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-15 18:45:58 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [7] 条
+2022-03-15 18:45:58 [INFO] : --------------------------------------------
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] Bareos is open source software for backup, archiving, and recovery of data for operating systems. When Bareos Director >= 18.2 but prior to 21.1.0, 20.0.6, and 19.2.12 is built and configured for PAM authentication, a failed PAM authentication will leak a small amount of memory. An attacker that is able to use the PAM Console (i.e. by knowing the shared secret or via the WebUI) can flood the Director with failing login attempts which will eventually lead to an out-of-memory condition in which the Director will not work anymore. Bareos Director versions 21.1.0, 20.0.6 and 19.2.12 contain a Bugfix for this problem. Users who are unable to upgrade may disable PAM authentication as a workaround.
+[ TIME  ] 2022-03-15 15:15:00
+[ CVE   ] CVE-2022-24756
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24756
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] Bareos is open source software for backup, archiving, and recovery of data for operating systems. When Bareos Director >= 18.2 >= 18.2 but prior to 21.1.0, 20.0.6, and 19.2.12 is built and configured for PAM authentication, it will skip authorization checks completely. Expired accounts and accounts with expired passwords can still login. This problem will affect users that have PAM enabled. Currently there is no authorization (e.g. check for expired or disabled accounts), but only plain authentication (i.e. check if username and password match). Bareos Director versions 21.1.0, 20.0.6 and 19.2.12 implement the authorization check that was previously missing. The only workaround is to make sure that authentication fails if the user is not authorized.
+[ TIME  ] 2022-03-15 15:15:00
+[ CVE   ] CVE-2022-24755
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24755
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] SyliusGridBundle is a package of generic data grids for Symfony applications. Prior to versions 1.10.1 and 1.11-rc2, values added at the end of query sorting were passed directly to the database. The maintainers do not know if this could lead to direct SQL injections but took steps to remediate the vulnerability. The issue is fixed in versions 1.10.1 and 1.11-rc2. As a workaround, overwrite the`Sylius\Component\Grid\Sorting\Sorter.php` class and register it in the container. More information about this workaround is available in the GitHub Security Advisory.
+[ TIME  ] 2022-03-15 15:15:00
+[ CVE   ] CVE-2022-24752
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24752
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] The microweber application allows large characters to insert in the input field "post title" which can allow attackers to cause a Denial of Service (DoS) via a crafted HTTP request. in GitHub repository microweber/microweber prior to 1.2.12.
+[ TIME  ] 2022-03-15 15:15:00
+[ CVE   ] CVE-2022-0961
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0961
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] Exposure of Sensitive Information to an Unauthorized Actor in GitHub repository httpie/httpie prior to 3.1.0.
+[ TIME  ] 2022-03-15 15:15:00
+[ CVE   ] CVE-2022-0430
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0430
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] CometD is a scalable comet implementation for web messaging. In any version prior to 5.0.11, 6.0.6, and 7.0.6, internal usage of Oort and Seti channels is improperly authorized, so any remote user could subscribe and publish to those channels. By subscribing to those channels, a remote user may be able to watch cluster-internal traffic that contains other users' (possibly sensitive) data. By publishing to those channels, a remote user may be able to create/modify/delete other user's data and modify the cluster structure. A fix is available in versions 5.0.11, 6.0.6, and 7.0.6. As a workaround, install a custom `SecurityPolicy` that forbids subscription and publishing to remote, non-Oort, sessions on Oort and Seti channels.
+[ TIME  ] 2022-03-15 14:15:00
+[ CVE   ] CVE-2022-24721
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24721
+2022-03-15 18:45:58 [INFO] : 
+==============================================
+[ TITLE ] Stored XSS due to Unrestricted File Upload in GitHub repository star7th/showdoc prior to 2.10.4.
+[ TIME  ] 2022-03-15 14:15:00
+[ CVE   ] CVE-2022-0942
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0942
+2022-03-15 18:45:58 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
