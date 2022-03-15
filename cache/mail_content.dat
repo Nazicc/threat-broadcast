@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19510 (CVE-2021-38266)</font><br/>[<b>披露时间</b>] 2022-03-15 03:41:58<br/>[<b>漏洞描述</b>] Liferay Portal和Liferay DXP拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19510'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19510</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19509 (CVE-2022-25146)</font><br/>[<b>披露时间</b>] 2022-03-15 03:42:13<br/>[<b>漏洞描述</b>] Liferay Portal信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19509'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19509</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19514 (CVE-2022-23052)</font><br/>[<b>披露时间</b>] 2022-03-15 03:42:15<br/>[<b>漏洞描述</b>] PeteReport跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19514'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19514</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0945</font><br/>[<b>披露时间</b>] 2022-03-15 04:15:00<br/>[<b>漏洞描述</b>] Stored XSS viva axd and cshtml file upload in star7th/showdoc in GitHub repository star7th/showdoc prior to v2.10.4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0945'>https://www.tenable.com/cve/CVE-2022-0945</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0944</font><br/>[<b>披露时间</b>] 2022-03-15 01:15:00<br/>[<b>漏洞描述</b>] Template injection in connection test endpoint leads to RCE in GitHub repository sqlpad/sqlpad prior to 6.10.1.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0944'>https://www.tenable.com/cve/CVE-2022-0944</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
