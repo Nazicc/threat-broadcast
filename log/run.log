@@ -39976,3 +39976,185 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-24742
 2022-03-14 23:40:48 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-15 01:57:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:57:43 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-15 01:57:44 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-15 01:57:44 [INFO] : --------------------------------------------
+2022-03-15 01:57:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:57:44 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-15 01:57:45 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-15 01:57:45 [INFO] : --------------------------------------------
+2022-03-15 01:57:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:57:45 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-15 01:58:10 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-15 01:58:10 [INFO] : --------------------------------------------
+2022-03-15 01:58:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:10 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-15 01:58:31 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-15 01:58:31 [INFO] : --------------------------------------------
+2022-03-15 01:58:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:31 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-15 01:58:32 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-15 01:58:32 [INFO] : --------------------------------------------
+2022-03-15 01:58:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:32 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-15 01:58:33 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [9] 条
+2022-03-15 01:58:33 [INFO] : --------------------------------------------
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] Out-of-bounds write vulnerability in CX-Programmer v9.76.1 and earlier which is a part of CX-One (v4.60) suite allows an attacker to cause information disclosure and/or arbitrary code execution by having a user to open a specially crafted CXP file. This vulnerability is different from CVE-2022-21124.
+[ TIME  ] 2022-03-10 17:47:03 
+[ CVE   ] CVE-2022-25234
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25234
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] Use after free vulnerability in CX-Programmer v9.76.1 and earlier which is a part of CX-One (v4.60) suite allows an attacker to cause information disclosure and/or arbitrary code execution by having a user to open a specially crafted CXP file. This vulnerability is different from CVE-2022-25325.
+[ TIME  ] 2022-03-10 17:47:03 
+[ CVE   ] CVE-2022-25230
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25230
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] The Remote App module in Liferay Portal through v7.4.3.8 and Liferay DXP through v7.4 does not check if the origin of event messages it receives matches the origin of the Remote App, allowing attackers to exfiltrate the CSRF token via a crafted event message.
+[ TIME  ] 2022-03-03 00:15:08 
+[ CVE   ] CVE-2022-25146
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25146
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] Axelor Open Suite v5.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Name parameter.
+[ TIME  ] 2022-03-03 17:15:07 
+[ CVE   ] CVE-2022-25138
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25138
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] MCMS v5.2.4 was discovered to contain a SQL injection vulnerability via search.do in the file /mdiy/dict/listExcludeApp.
+[ TIME  ] 2022-03-03 19:15:08 
+[ CVE   ] CVE-2022-25125
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25125
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] A remote code execution (RCE) vulnerability in the Avatar parameter under /admin/?page=user/manage_user of Home Owners Collection Management System v1.0 allows attackers to execute arbitrary code via a crafted PNG file.
+[ TIME  ] 2022-03-02 23:15:09 
+[ CVE   ] CVE-2022-25115
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25115
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] Foxit PDF Reader and Editor before 11.2.1 and PhantomPDF before 10.1.7 allow a NULL pointer dereference during PDF parsing because the pointer is used without proper validation.
+[ TIME  ] 2022-03-10 17:47:00 
+[ CVE   ] CVE-2022-25108
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25108
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] D-Link DIR-859 v1.05 was discovered to contain a stack-based buffer overflow via the function genacgi_main. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted payload.
+[ TIME  ] 2022-03-04 20:15:07 
+[ CVE   ] CVE-2022-25106
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25106
+2022-03-15 01:58:33 [INFO] : 
+==============================================
+[ TITLE ] Printix Secure Cloud Print Management through 1.3.1106.0 incorrectly uses Privileged APIs to modify values in HKEY_LOCAL_MACHINE via UITasks.PersistentRegistryData.
+[ TIME  ] 2022-03-03 00:15:08 
+[ CVE   ] CVE-2022-25089
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25089
+2022-03-15 01:58:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:33 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-15 01:58:34 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-15 01:58:34 [INFO] : --------------------------------------------
+2022-03-15 01:58:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:34 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-15 01:58:35 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-15 01:58:35 [INFO] : --------------------------------------------
+2022-03-15 01:58:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:35 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-15 01:58:36 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-15 01:58:36 [INFO] : --------------------------------------------
+2022-03-15 01:58:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:36 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-15 01:58:37 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-15 01:58:37 [INFO] : --------------------------------------------
+2022-03-15 01:58:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:37 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-15 01:58:43 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-15 01:58:43 [INFO] : --------------------------------------------
+2022-03-15 01:58:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-15 01:58:43 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-15 01:58:43 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-03-15 01:58:43 [INFO] : --------------------------------------------
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] sysend.js is a library that allows a user to send messages between pages that are open in the same browser. Users that use cross-origin communication may have their communications intercepted. Impact is limited by the communication occurring in the same browser. This issue has been patched in sysend.js version 1.10.0. The only currently known workaround is to avoid sending communications that a user does not want to have intercepted via sysend messages.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2022-24762
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24762
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Volto is a ReactJS-based frontend for the Plone Content Management System. Between versions 14.0.0-alpha.5 and 15.0.0-alpha.0, a user could have their authentication cookie replaced with an authentication cookie from another user, effectively giving them control of the other user's account and privileges. This occurs when using an outdated version of the `react-cookie` library and a server is under high load. A proof of concept does not currently exist, but it is possible for this issue to occur in the wild. The patch and fix is present in Volto 15.0.0-alpha.0. As a workaround, one may manually upgrade the `react-cookie` package to 4.1.1 and then override all Volto components that use this library.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2022-24740
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24740
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Heap buffer overflow in Clickhouse's LZ4 compression codec when parsing a malicious query. There is no verification that the copy operations in the LZ4::decompressImpl loop and especially the arbitrary copy operation wildCopy<copy_amount>(op, ip, copy_end), don’t exceed the destination buffer’s limits. This issue is very similar to CVE-2021-43304, but the vulnerable copy operation is in a different wildCopy call.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-43305
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43305
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Heap buffer overflow in Clickhouse's LZ4 compression codec when parsing a malicious query. There is no verification that the copy operations in the LZ4::decompressImpl loop and especially the arbitrary copy operation wildCopy<copy_amount>(op, ip, copy_end), don’t exceed the destination buffer’s limits.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-43304
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43304
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Divide-by-zero in Clickhouse's Gorilla compression codec when parsing a malicious query. The first byte of the compressed buffer is used in a modulo operation without being checked for 0.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-42391
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42391
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Divide-by-zero in Clickhouse's DeltaDouble compression codec when parsing a malicious query. The first byte of the compressed buffer is used in a modulo operation without being checked for 0.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-42390
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42390
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Divide-by-zero in Clickhouse's Delta compression codec when parsing a malicious query. The first byte of the compressed buffer is used in a modulo operation without being checked for 0.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-42389
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42389
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Heap out-of-bounds read in Clickhouse's LZ4 compression codec when parsing a malicious query. As part of the LZ4::decompressImpl() loop, a 16-bit unsigned user-supplied value ('offset') is read from the compressed data. The offset is later used in the length of a copy operation, without checking the lower bounds of the source of the copy operation.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-42388
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42388
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Heap out-of-bounds read in Clickhouse's LZ4 compression codec when parsing a malicious query. As part of the LZ4::decompressImpl() loop, a 16-bit unsigned user-supplied value ('offset') is read from the compressed data. The offset is later used in the length of a copy operation, without checking the upper bounds of the source of the copy operation.
+[ TIME  ] 2022-03-14 23:15:00
+[ CVE   ] CVE-2021-42387
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42387
+2022-03-15 01:58:43 [INFO] : 
+==============================================
+[ TITLE ] Sylius is an open source eCommerce platform. In versions prior to 1.9.10, 1.10.11, and 1.11.2, it is possible to upload an SVG file containing cross-site scripting (XSS) code in the admin panel. In order to perform a XSS attack, the file itself has to be open in a new card or loaded outside of the IMG tag. The problem applies both to the files opened on the admin panel and shop pages. The issue is fixed in versions 1.9.10, 1.10.11, and 1.11.2. As a workaround, require a library that adds on-upload file sanitization and overwrite the service before writing the file to the filesystem. The GitHub Security Advisory contains more specific information about the workaround.
+[ TIME  ] 2022-03-14 22:15:00
+[ CVE   ] CVE-2022-24749
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24749
+2022-03-15 01:58:43 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
