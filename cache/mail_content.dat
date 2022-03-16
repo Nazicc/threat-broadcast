@@ -1,41 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">20</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19787 (CVE-2022-0205)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:45<br/>[<b>漏洞描述</b>] WordPress YOP Poll Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19787'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19787</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19788 (CVE-2022-0389)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:48<br/>[<b>漏洞描述</b>] WordPress WP Time Slots Booking Form Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19788'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19788</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19789 (CVE-2022-0429)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:50<br/>[<b>漏洞描述</b>] WordPress WP Cerber Security, Anti-spam ＆ Malware Scan Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19789'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19789</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19790 (CVE-2022-0422)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:52<br/>[<b>漏洞描述</b>] WordPress White Label CMS Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19790'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19790</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19791 (CVE-2022-0384)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:55<br/>[<b>漏洞描述</b>] WordPress Video Conferencing with Zoom Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19791'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19791</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19792 (CVE-2022-0410)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:57<br/>[<b>漏洞描述</b>] WordPress The WP Visitor Statistics Plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19792'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19792</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19793 (CVE-2022-0163)</font><br/>[<b>披露时间</b>] 2022-03-15 03:00:59<br/>[<b>漏洞描述</b>] WordPress Smart Forms Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19793'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19793</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19794 (CVE-2022-0420)</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:01<br/>[<b>漏洞描述</b>] WordPress RegistrationMagic Plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19794'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19794</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19795 (CVE-2022-0426)</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:04<br/>[<b>漏洞描述</b>] WordPress Product Feed PRO for WooCommerce Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19795'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19795</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19796 (CVE-2021-25098)</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:06<br/>[<b>漏洞描述</b>] WordPress Pricing Tables Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19796'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19796</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27005</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415393'>http://cve.scap.org.cn/vuln/VHN-415393</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27004</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415394'>http://cve.scap.org.cn/vuln/VHN-415394</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27003</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415395'>http://cve.scap.org.cn/vuln/VHN-415395</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27002</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415396'>http://cve.scap.org.cn/vuln/VHN-415396</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27001</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415397'>http://cve.scap.org.cn/vuln/VHN-415397</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27000</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415398'>http://cve.scap.org.cn/vuln/VHN-415398</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26999</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415399'>http://cve.scap.org.cn/vuln/VHN-415399</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26998</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415400'>http://cve.scap.org.cn/vuln/VHN-415400</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26997</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415401'>http://cve.scap.org.cn/vuln/VHN-415401</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26996</font><br/>[<b>披露时间</b>] 2022-03-15 03:01:31<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415402'>http://cve.scap.org.cn/vuln/VHN-415402</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19842 (CVE-2021-3961)</font><br/>[<b>披露时间</b>] 2022-03-16 03:43:11<br/>[<b>漏洞描述</b>] Snipe-IT跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19842'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19842</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19843 (CVE-2021-3858)</font><br/>[<b>披露时间</b>] 2022-03-16 03:43:13<br/>[<b>漏洞描述</b>] Snipe-IT跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19843'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19843</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19844 (CVE-2021-3863)</font><br/>[<b>披露时间</b>] 2022-03-16 03:43:16<br/>[<b>漏洞描述</b>] Snipe-IT跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19844'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19844</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-19845 (CVE-2021-3879)</font><br/>[<b>披露时间</b>] 2022-03-16 03:43:18<br/>[<b>漏洞描述</b>] Snipe-IT跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-19845'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-19845</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22170</font><br/>[<b>披露时间</b>] 2022-03-16 03:43:59<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/63592'>http://www.nsfocus.net/vulndb/63592</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
