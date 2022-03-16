@@ -42438,3 +42438,150 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='poc.shuziguanxing.
 2022-03-16 05:38:28 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2022-03-16 05:38:28 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-16 05:38:28 [INFO] : --------------------------------------------
+2022-03-16 06:46:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:46:39 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-16 06:46:40 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-16 06:46:40 [INFO] : --------------------------------------------
+2022-03-16 06:46:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:46:40 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-16 06:46:41 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-16 06:46:41 [INFO] : --------------------------------------------
+2022-03-16 06:46:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:46:41 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-16 06:47:06 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [7] 条
+2022-03-16 06:47:06 [INFO] : --------------------------------------------
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] firefly-iii跨站请求伪造漏洞
+[ TIME  ] 2022-03-16 06:46:46
+[ CVE   ] CNVD-2022-19846 (CVE-2021-3901)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19846
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] ffjpeg空指针解引用漏洞
+[ TIME  ] 2022-03-16 06:46:48
+[ CVE   ] CNVD-2022-19849 (CVE-2021-34122)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19849
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] Industrial Light and Magic OpenEXR资源管理错误漏洞
+[ TIME  ] 2022-03-16 06:46:57
+[ CVE   ] CNVD-2022-19854 (CVE-2021-26945)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19854
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] firefly-iii开放重定向漏洞
+[ TIME  ] 2022-03-16 06:46:59
+[ CVE   ] CNVD-2022-19848 (CVE-2021-3851)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19848
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] firefly-iii代码问题漏洞
+[ TIME  ] 2022-03-16 06:47:01
+[ CVE   ] CNVD-2022-19847 (CVE-2021-3846)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19847
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] Industrial Light and Magic OpenEXR存在缓冲区溢出漏洞
+[ TIME  ] 2022-03-16 06:47:03
+[ CVE   ] CNVD-2022-19855 (CVE-2021-23169)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19855
+2022-03-16 06:47:06 [INFO] : 
+==============================================
+[ TITLE ] Industrial Light And Magic OpenEXR缓冲区溢出漏洞
+[ TIME  ] 2022-03-16 06:47:05
+[ CVE   ] CNVD-2022-19853 (CVE-2021-3605)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-19853
+2022-03-16 06:47:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:06 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-16 06:47:29 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-16 06:47:29 [INFO] : --------------------------------------------
+2022-03-16 06:47:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:29 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-16 06:47:31 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-16 06:47:31 [INFO] : --------------------------------------------
+2022-03-16 06:47:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:31 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-16 06:47:32 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-16 06:47:32 [INFO] : --------------------------------------------
+2022-03-16 06:47:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:32 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-16 06:47:33 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-16 06:47:33 [INFO] : --------------------------------------------
+2022-03-16 06:47:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:33 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-16 06:47:34 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-16 06:47:34 [INFO] : --------------------------------------------
+2022-03-16 06:47:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:34 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-16 06:47:36 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-16 06:47:36 [INFO] : --------------------------------------------
+2022-03-16 06:47:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:36 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-16 06:47:37 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-16 06:47:37 [INFO] : --------------------------------------------
+2022-03-16 06:47:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:37 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-16 06:47:43 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-16 06:47:43 [INFO] : --------------------------------------------
+2022-03-16 06:47:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-16 06:47:43 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-16 06:47:44 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [7] 条
+2022-03-16 06:47:44 [INFO] : --------------------------------------------
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] Gradle Enterprise before 2021.4.3 relies on cleartext data transmission in some situations. It uses Keycloak for identity management services. During the sign-in process, Keycloak sets browser cookies that effectively provide remember-me functionality. For backwards compatibility with older Safari versions, Keycloak sets a duplicate of the cookie without the Secure attribute, which allows the cookie to be sent when accessing the location that cookie is set for via HTTP. This creates the potential for an attacker (with the ability to impersonate the Gradle Enterprise host) to capture the login session of a user by having them click an http:// link to the server, despite the real server requiring HTTPS.
+[ TIME  ] 2022-03-16 01:15:00
+[ CVE   ] CVE-2022-27225
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27225
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] Various rest resources in Fisheye and Crucible before version 4.8.9 allowed remote attackers to brute force user login credentials as rest resources did not check if users were beyond their max failed login limits and therefore required solving a CAPTCHA in addition to providing user credentials for authentication via a improper restriction of excess authentication attempts vulnerability.
+[ TIME  ] 2022-03-16 01:15:00
+[ CVE   ] CVE-2021-43958
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43958
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] Affected versions of Atlassian Fisheye & Crucible allowed remote attackers to browse local files via an Insecure Direct Object References (IDOR) vulnerability in the WEB-INF directory and bypass the fix for CVE-2020-29446 due to a lack of url decoding. The affected versions are before version 4.8.9.
+[ TIME  ] 2022-03-16 01:15:00
+[ CVE   ] CVE-2021-43957
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43957
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] The jQuery deserialize library in Fisheye and Crucible before version 4.8.9 allowed remote attackers to to inject arbitrary HTML and/or JavaScript via a prototype pollution vulnerability.
+[ TIME  ] 2022-03-16 01:15:00
+[ CVE   ] CVE-2021-43956
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43956
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] The /rest-service-fecru/server-v1 resource in Fisheye and Crucible before version 4.8.9 allowed authenticated remote attackers to obtain information about installation directories via information disclosure vulnerability.
+[ TIME  ] 2022-03-16 01:15:00
+[ CVE   ] CVE-2021-43955
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43955
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] In drivers/usb/gadget/udc/udc-xilinx.c in the Linux kernel before 5.16.12, the endpoint index is not validated and might be manipulated by the host for out-of-array access.
+[ TIME  ] 2022-03-16 00:15:00
+[ CVE   ] CVE-2022-27223
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27223
+2022-03-16 06:47:44 [INFO] : 
+==============================================
+[ TITLE ] Mimecast Email Security before 2020-01-10 allows any admin to spoof any domain, and pass DMARC alignment via SPF. This occurs through misuse of the address rewrite feature. (The domain being spoofed must be a customer in the Mimecast grid from which the spoofing occurs.)
+[ TIME  ] 2022-03-16 00:15:00
+[ CVE   ] CVE-2020-36519
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2020-36519
+2022-03-16 06:47:44 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
