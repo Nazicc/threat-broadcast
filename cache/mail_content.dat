@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26355</font><br/>[<b>披露时间</b>] 2022-03-10 17:47:36 <br/>[<b>漏洞描述</b>] Citrix Federated Authentication Service (FAS) 7.17 - 10.6 causes deployments that have been configured to store a registration authority certificate's private key in a Trusted Platform Module (TPM) to incorrectly store that key in the Microsoft Software Key Storage Provider (MSKSP). This issue only occurs if PowerShell was used when configuring FAS to store the registration authority certificate&acirc;&euro;&trade;s private key in the TPM. It does not occur if the TPM was not selected for use or if the FAS administration console was used for configuration.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26355'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26355</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24595</font><br/>[<b>披露时间</b>] 2022-03-18 12:15:00<br/>[<b>漏洞描述</b>] Automotive Grade Linux Kooky Koi 11.0.0, 11.0.1, 11.0.2, 11.0.3, 11.0.4, and 11.0.5 is affected by Incorrect Access Control in usr/bin/afb-daemon. To exploit the vulnerability, an attacker should send a well-crafted HTTP (or WebSocket) request to the socket listened by the afb-daemon process. No credentials nor user interactions are required.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-24595'>https://www.tenable.com/cve/CVE-2022-24595</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0742</font><br/>[<b>披露时间</b>] 2022-03-18 12:15:00<br/>[<b>漏洞描述</b>] Memory leak in icmp6 implementation in Linux Kernel 5.13+ allows a remote attacker to DoS a host by making it go out-of-memory via icmp6 packets of type 130 or 131. We recommend upgrading past commit 2d3916f3189172d5c69d33065c3c21119fe539fc.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0742'>https://www.tenable.com/cve/CVE-2022-0742</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
