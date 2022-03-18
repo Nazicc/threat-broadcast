@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-18 09:41:05 -->
+<!-- RELEASE TIME : 2022-03-18 11:38:30 -->
 <html lang="zh-cn">
 
  <head>
@@ -127,6 +127,62 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">99207fbd485b3381e199eccac4cb4f62</td>
+       <td>CVE-2022-27191</td>
+       <td>2022-03-18 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>golang.org/x/crypto/ssh before 0.0.0-20220314234659-1baeb1ce4c0b in Go through 1.16.15 and 1.17.x through 1.17.8 allows an attacker to crash a server in certain circumstances involving AddHostKey.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27191">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e6c74a70f66ba76f554a398435d1ddd7</td>
+       <td>CVE-2022-26965</td>
+       <td>2022-03-18 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Pluck 4.7.16, an admin user can use the theme upload functionality at /admin.php?action=themeinstall to perform remote code execution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26965">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ebbb8c9b5cff4689d0f27d0fe8dc5b8e</td>
+       <td>CVE-2021-45868</td>
+       <td>2022-03-18 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>In the Linux kernel before 5.15.3, fs/quota/quota_tree.c does not validate the block number in the quota tree (on disk). This can, for example, lead to a kernel/locking/rwsem.c use-after-free if there is a corrupted quota file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45868">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a0106d09bee072aa1d802c058fed7c5</td>
+       <td>CVE-2022-27240</td>
+       <td>2022-03-18 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>scheme/webauthn.c in Glewlwyd SSO server 2.x before 2.6.2 has a buffer overflow associated with a webauthn assertion.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27240">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8aca01f81bf142c447d2a44656f99744</td>
+       <td>CVE-2021-45968</td>
+       <td>2022-03-18 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in xmppserver jar in the XMPP Server component of the JIve platform, as used in Pascom Cloud Phone System before 7.20.x (and in other products). An endpoint in the backend Tomcat server of the Pascom allows SSRF, a related issue to CVE-2019-18394.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45968">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5ca16df410fd7966fa6dc26071a5b223</td>
+       <td>CVE-2021-45967</td>
+       <td>2022-03-18 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Pascom Cloud Phone System before 7.20.x. A configuration error between NGINX and a backend Tomcat server leads to a path traversal in the Tomcat server, exposing unintended endpoints.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45967">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ed164e8405787473ff5966d47fe93b76</td>
+       <td>CVE-2021-45966</td>
+       <td>2022-03-18 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Pascom Cloud Phone System before 7.20.x. In the management REST API, /services/apply in exd.pl allows remote attackers to execute arbitrary code via shell metacharacters.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45966">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">0356c3a091fbc69bc2f27321d1ab3761</td>
        <td>CVE-2022-0758</td>
@@ -309,62 +365,6 @@
        <td>2022-03-17 16:15:00 <img src="imgs/new.gif" /></td>
        <td>Anaconda Anaconda3 through 2021.11.0.0 and Miniconda3 through 11.0.0.0 can create a world-writable directory under %PROGRAMDATA% and place that directory into the system PATH environment variable. Thus, for example, local users can gain privileges by placing a Trojan horse file into that directory. (This problem can only happen in a non-default installation. The person who installs the product must specify that it is being installed for all users. Also, the person who installs the product must specify that the system PATH should be changed.)</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26526">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ff836e91a71f511461d7a74bfd79b6fe</td>
-       <td>CVE-2021-44906</td>
-       <td>2022-03-17 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Minimist <=1.2.5 is vulnerable to Prototype Pollution via file index.js, function setKey() (lines 69-95).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44906">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b38ebd29149d0fc7aba1a0cafac83b8d</td>
-       <td>CVE-2020-15591</td>
-       <td>2022-03-17 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>fexsrv in F*EX (aka Frams' Fast File EXchange) before fex-20160919_2 allows eval injection (for unauthenticated remote code execution).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-15591">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">399b94fce2afefd040283766f09d62d0</td>
-       <td>CVE-2022-24761</td>
-       <td>2022-03-17 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Waitress is a Web Server Gateway Interface server for Python 2 and 3. When using Waitress versions 2.1.0 and prior behind a proxy that does not properly validate the incoming HTTP request matches the RFC7230 standard, Waitress and the frontend proxy may disagree on where one request starts and where it ends. This would allow requests to be smuggled via the front-end proxy to waitress and later behavior. There are two classes of vulnerability that may lead to request smuggling that are addressed by this advisory: The use of Python's `int()` to parse strings into integers, leading to `+10` to be parsed as `10`, or `0x01` to be parsed as `1`, where as the standard specifies that the string should contain only digits or hex digits; and Waitress does not support chunk extensions, however it was discarding them without validating that they did not contain illegal characters. This vulnerability has been patched in Waitress 2.1.1. A workaround is available. When deploying a proxy in front of waitress, turning on any and all functionality to make sure that the request matches the RFC7230 standard. Certain proxy servers may not have this functionality though and users are encouraged to upgrade to the latest version of waitress instead.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24761">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c6229d91b4045f59442782d253b7017e</td>
-       <td>CVE-2021-44262</td>
-       <td>2022-03-17 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability is in the 'MNU_top.htm' page of the Netgear W104, version WAC104-V1.0.4.13, which can allow a remote attacker to access this page without any authentication. When processed, it exposes some key information for the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44262">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">024d979960569ca5aa09d20affc4dd7f</td>
-       <td>CVE-2021-44261</td>
-       <td>2022-03-17 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability is in the 'BRS_top.html' page of the Netgear W104, version WAC104-V1.0.4.13, which can allow a remote attacker to access this page without any authentication. When processed, it exposes firmware version information for the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44261">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1b142955e6121265cad541136be62b4b</td>
-       <td>CVE-2021-44260</td>
-       <td>2022-03-17 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability is in the 'live_mfg.html' page of the WAVLINK AC1200, version WAVLINK-A42W-1.27.6-20180418, which can allow a remote attacker to access this page without any authentication. When processed, it exposes some key information of the manager of router.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44260">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9c9c7f481e3fe16002d99743bcbf9a61</td>
-       <td>CVE-2021-44259</td>
-       <td>2022-03-17 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability is in the 'wx.html' page of the WAVLINK AC1200, version WAVLINK-A42W-1.27.6-20180418, which can allow a remote attacker to access this page without any authentication. When an unauthorized user accesses this page directly, it connects to this device as a friend of the device owner.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44259">详情</a></td>
       </tr>
 
      </tbody>
