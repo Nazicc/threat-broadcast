@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24746</font><br/>[<b>披露时间</b>] 2022-03-09 23:15:08 <br/>[<b>漏洞描述</b>] Shopware is an open commerce platform based on the Symfony php Framework and the Vue javascript framework. In affected versions it is possible to inject code via the voucher code form. This issue has been patched in version 6.4.8.1. There are no known workarounds for this issue.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24746'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24746</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26981</font><br/>[<b>披露时间</b>] 2022-03-13 18:15:08 <br/>[<b>漏洞描述</b>] Liblouis through 3.21.0 has a buffer overflow in compilePassOpcode in compileTranslationTable.c (called, indirectly, by tools/lou_checktable.c).<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26981'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26981</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
