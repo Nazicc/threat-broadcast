@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26555</font><br/>[<b>披露时间</b>] 2022-03-20 19:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in the Add a Button function of Eova v1.6.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the button name text box.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26555'>https://www.tenable.com/cve/CVE-2022-26555</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26247</font><br/>[<b>披露时间</b>] 2022-03-20 19:15:00<br/>[<b>漏洞描述</b>] TMS v2.28.0 contains an insecure permissions vulnerability via the component /TMS/admin/user/Update2. This vulnerability allows attackers to modify the administrator account and password.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26247'>https://www.tenable.com/cve/CVE-2022-26247</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26246</font><br/>[<b>披露时间</b>] 2022-03-20 19:15:00<br/>[<b>漏洞描述</b>] TMS v2.28.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /TMS/admin/setting/mail/createorupdate.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26246'>https://www.tenable.com/cve/CVE-2022-26246</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25464</font><br/>[<b>披露时间</b>] 2022-03-20 19:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in the component /admin/contenttemp of DoraCMS v2.1.8 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25464'>https://www.tenable.com/cve/CVE-2022-25464</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25462</font><br/>[<b>披露时间</b>] 2022-03-20 20:15:00<br/>[<b>漏洞描述</b>] Yafu v2.0 contains a segmentation fault via the component /factor/avx-ecm/vecarith52.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via unspecified vectors.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25462'>https://www.tenable.com/cve/CVE-2022-25462</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
