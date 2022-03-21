@@ -53260,3 +53260,108 @@ requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', p
 2022-03-21 13:01:24 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-21 13:01:24 [INFO] : --------------------------------------------
 2022-03-21 13:01:24 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-21 13:40:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:40:38 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-21 13:40:39 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-21 13:40:39 [INFO] : --------------------------------------------
+2022-03-21 13:40:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:40:39 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-21 13:40:40 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-21 13:40:40 [INFO] : --------------------------------------------
+2022-03-21 13:40:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:40:40 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-21 13:41:02 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-21 13:41:02 [INFO] : --------------------------------------------
+2022-03-21 13:41:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:02 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-21 13:41:24 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-21 13:41:24 [INFO] : --------------------------------------------
+2022-03-21 13:41:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:24 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-21 13:41:24 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-21 13:41:24 [INFO] : --------------------------------------------
+2022-03-21 13:41:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:24 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-21 13:41:25 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-21 13:41:25 [INFO] : --------------------------------------------
+2022-03-21 13:41:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:25 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-21 13:41:26 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-21 13:41:26 [INFO] : --------------------------------------------
+2022-03-21 13:41:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:26 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-21 13:41:30 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-21 13:41:30 [INFO] : --------------------------------------------
+2022-03-21 13:41:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:30 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-21 13:41:31 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-21 13:41:31 [INFO] : --------------------------------------------
+2022-03-21 13:41:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:31 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-21 13:41:32 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-21 13:41:32 [INFO] : --------------------------------------------
+2022-03-21 13:41:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:32 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-21 13:41:38 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-21 13:41:38 [INFO] : --------------------------------------------
+2022-03-21 13:41:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 13:41:38 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-21 13:41:38 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [8] 条
+2022-03-21 13:41:38 [INFO] : --------------------------------------------
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] HexoEditor 1.1.8 is affected by Cross Site Scripting (XSS). By putting a common XSS payload in a markdown file, if opened with the app, will execute several times.
+[ TIME  ] 2022-03-21 11:15:00
+[ CVE   ] CVE-2022-24656
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24656
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Remote Command Execution in uploading repository file in GitHub repository gogs/gogs prior to 0.12.6.
+[ TIME  ] 2022-03-21 11:15:00
+[ CVE   ] CVE-2022-0415
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0415
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Multiple versions of GARO Wallbox GLB/GTB/GTC are affected by incorrect access control. Lack of access control on the web manger pages allows any user to view and modify information.
+[ TIME  ] 2022-03-21 11:15:00
+[ CVE   ] CVE-2021-45878
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45878
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Multiple versions of GARO Wallbox GLB/GTB/GTC are affected by hard coded credentials. A hardcoded credential exist in /etc/tomcat8/tomcat-user.xml, which allows attackers to gain authorized access and control the tomcat completely on port 8000 in the tomcat manger page.
+[ TIME  ] 2022-03-21 11:15:00
+[ CVE   ] CVE-2021-45877
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45877
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Multiple versions of GARO Wallbox GLB/GTB/GTC are affected by unauthenticated command injection. The url parameter of the function module downloadAndUpdate is vulnerable to an command Injection. Unfiltered user input is used to generate code which then gets executed when downloading new firmware.
+[ TIME  ] 2022-03-21 11:15:00
+[ CVE   ] CVE-2021-45876
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45876
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Accounted time is shown in the Ticket Detail View (External Interface), even if ExternalFrontend::TicketDetailView###AccountedTimeDisplay is disabled.
+[ TIME  ] 2022-03-21 10:15:00
+[ CVE   ] CVE-2022-1004
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1004
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Malicious translator is able to inject JavaScript code in few translatable strings (where HTML is allowed). The code could be executed in the Package manager. This issue affects: OTRS AG OTRS 7.0.x version: 7.0.32 and prior versions, 8.0.x version: 8.0.19 and prior versions.
+[ TIME  ] 2022-03-21 10:15:00
+[ CVE   ] CVE-2022-0475
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0475
+2022-03-21 13:41:38 [INFO] : 
+==============================================
+[ TITLE ] Specially crafted string in OTRS system configuration can allow the execution of any system command.
+[ TIME  ] 2022-03-21 10:15:00
+[ CVE   ] CVE-2021-36100
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-36100
+2022-03-21 13:41:38 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
