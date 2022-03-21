@@ -51802,3 +51802,157 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='console.riskivy.co
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2022-25462
 2022-03-20 23:39:43 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-21 03:06:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:06:21 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-21 03:06:22 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-21 03:06:22 [INFO] : --------------------------------------------
+2022-03-21 03:06:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:06:22 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-21 03:06:24 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-21 03:06:24 [INFO] : --------------------------------------------
+2022-03-21 03:06:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:06:24 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-21 03:06:47 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-21 03:06:47 [INFO] : --------------------------------------------
+2022-03-21 03:06:47 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:06:47 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-21 03:07:09 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-21 03:07:09 [INFO] : --------------------------------------------
+2022-03-21 03:07:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:09 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-21 03:07:10 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-21 03:07:10 [INFO] : --------------------------------------------
+2022-03-21 03:07:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:10 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-21 03:07:11 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-21 03:07:11 [INFO] : --------------------------------------------
+2022-03-21 03:07:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:11 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-21 03:07:17 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-21 03:07:17 [INFO] : --------------------------------------------
+2022-03-21 03:07:17 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:17 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-21 03:07:18 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-21 03:07:18 [INFO] : --------------------------------------------
+2022-03-21 03:07:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:18 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-21 03:07:20 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-21 03:07:20 [INFO] : --------------------------------------------
+2022-03-21 03:07:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:20 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-21 03:07:21 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-03-21 03:07:21 [INFO] : --------------------------------------------
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Teradici Cloud Access Connector 跨站请求伪造漏洞
+[ TIME  ] 2022-03-20 13:54:39
+[ CVE   ] CVE-2020-13186
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ec249090d15e45708517fbec6ae32f89
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Intel Graphics Drivers 输入验证错误漏洞
+[ TIME  ] 2022-03-20 13:54:35
+[ CVE   ] CVE-2020-12385
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=fe7cf177827e47478e9008b65f182ff6
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Wecon Technologies LeviStudioU 缓冲区错误漏洞
+[ TIME  ] 2022-03-20 13:54:31
+[ CVE   ] CVE-2020-16243
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=76add4ca73dc4178b355491815324a65
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Teradici Cloud Access Connector 安全漏洞
+[ TIME  ] 2022-03-20 13:54:27
+[ CVE   ] CVE-2020-13185
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=bf9b2c49d25c4ff392f89340521f0213
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Intel Graphics Drivers 安全漏洞
+[ TIME  ] 2022-03-20 13:54:23
+[ CVE   ] CVE-2020-12384
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=981afee45d144a14af1316cf6a771a48
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] 多款 Intel BMC 固件信任管理问题漏洞
+[ TIME  ] 2022-03-20 13:54:19
+[ CVE   ] CVE-2020-12376
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c4c1d704b93f497f965967cae8d81128
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] 多款 Intel BMC 固件缓冲区错误漏洞
+[ TIME  ] 2022-03-20 13:54:15
+[ CVE   ] CVE-2020-12375
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=0cf8ae1b40724d67bc741308751261e1
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Apache Thrift 资源管理错误漏洞
+[ TIME  ] 2022-03-20 13:54:00
+[ CVE   ] CVE-2020-13949
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=57726799ffc84d5198d6ad32d6d2780f
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Alfresco Software Alfresco Enterprise和Alfresco 注入漏洞
+[ TIME  ] 2022-03-20 13:53:56
+[ CVE   ] CVE-2020-12873
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=61cc6a06ecaf4e1698355e63e44757e7
+2022-03-21 03:07:21 [INFO] : 
+==============================================
+[ TITLE ] Intel Graphics Drivers 缓冲区错误漏洞
+[ TIME  ] 2022-03-20 13:53:52
+[ CVE   ] CVE-2020-12386
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=f8249226a3e64492a28767af53d5b73b
+2022-03-21 03:07:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:21 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-21 03:07:34 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-21 03:07:34 [INFO] : --------------------------------------------
+2022-03-21 03:07:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 03:07:34 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-21 03:07:34 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [5] 条
+2022-03-21 03:07:34 [INFO] : --------------------------------------------
+2022-03-21 03:07:34 [INFO] : 
+==============================================
+[ TITLE ] The wechat_return function in /controller/Index.php of EyouCms V1.5.4-UTF8-SP3 passes the user's input directly into the simplexml_ load_ String function, which itself does not prohibit external entities, triggering a XML external entity (XXE) injection vulnerability.
+[ TIME  ] 2022-03-20 22:15:00
+[ CVE   ] CVE-2021-42194
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-42194
+2022-03-21 03:07:34 [INFO] : 
+==============================================
+[ TITLE ] DWSurvey v3.2.0 was discovered to contain an arbitrary file write vulnerability via the component /utils/ToHtmlServlet.java.
+[ TIME  ] 2022-03-20 22:15:00
+[ CVE   ] CVE-2021-39384
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-39384
+2022-03-21 03:07:34 [INFO] : 
+==============================================
+[ TITLE ] DWSurvey v3.2.0 was discovered to contain a remote command execution (RCE) vulnerability via the component /sysuser/SysPropertyAction.java.
+[ TIME  ] 2022-03-20 22:15:00
+[ CVE   ] CVE-2021-39383
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-39383
+2022-03-21 03:07:34 [INFO] : 
+==============================================
+[ TITLE ] The PluginsUpload function in application/service/PluginsAdminService.php of ShopXO v1.9.0 contains an arbitrary file upload vulnerability which allows attackers to execute arbitrary code via uploading a crafted PHP file.
+[ TIME  ] 2022-03-20 22:15:00
+[ CVE   ] CVE-2020-26008
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2020-26008
+2022-03-21 03:07:34 [INFO] : 
+==============================================
+[ TITLE ] An arbitrary file upload vulnerability in the upload payment plugin of ShopXO v1.9.0 allows attackers to execute arbitrary code via uploading a crafted PHP file.
+[ TIME  ] 2022-03-20 22:15:00
+[ CVE   ] CVE-2020-26007
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2020-26007
+2022-03-21 03:07:34 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...

@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-20 23:39:43 -->
+<!-- RELEASE TIME : 2022-03-21 03:07:34 -->
 <html lang="zh-cn">
 
  <head>
@@ -128,6 +128,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6fe6c909287341218c1dd43aea3ebcca</td>
+       <td>CVE-2021-42194</td>
+       <td>2022-03-20 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>The wechat_return function in /controller/Index.php of EyouCms V1.5.4-UTF8-SP3 passes the user's input directly into the simplexml_ load_ String function, which itself does not prohibit external entities, triggering a XML external entity (XXE) injection vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42194">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8ffd9d2615e2af0b0edbdd0b884dfdc0</td>
+       <td>CVE-2021-39384</td>
+       <td>2022-03-20 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>DWSurvey v3.2.0 was discovered to contain an arbitrary file write vulnerability via the component /utils/ToHtmlServlet.java.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-39384">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">547195b6e2be2c390310c4afe126fb13</td>
+       <td>CVE-2021-39383</td>
+       <td>2022-03-20 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>DWSurvey v3.2.0 was discovered to contain a remote command execution (RCE) vulnerability via the component /sysuser/SysPropertyAction.java.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-39383">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f2c982290cb9ab81953da7adbce906b0</td>
+       <td>CVE-2020-26008</td>
+       <td>2022-03-20 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>The PluginsUpload function in application/service/PluginsAdminService.php of ShopXO v1.9.0 contains an arbitrary file upload vulnerability which allows attackers to execute arbitrary code via uploading a crafted PHP file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-26008">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">086588baa2fdf4a0ab3aeef6599be084</td>
+       <td>CVE-2020-26007</td>
+       <td>2022-03-20 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>An arbitrary file upload vulnerability in the upload payment plugin of ShopXO v1.9.0 allows attackers to execute arbitrary code via uploading a crafted PHP file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-26007">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e6411767ed97661bf5a7012fc6dc610c</td>
        <td>CVE-2022-25462</td>
        <td>2022-03-20 20:15:00 <img src="imgs/new.gif" /></td>
@@ -194,7 +234,7 @@
       <tr>
        <td scope="row">e159412de58687dd4d48e2fb5228f5b0</td>
        <td>CVE-2022-0991</td>
-       <td>2022-03-19 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 08:15:00</td>
        <td>Insufficient Session Expiration in GitHub repository admidio/admidio prior to 4.1.9.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0991">详情</a></td>
       </tr>
@@ -202,7 +242,7 @@
       <tr>
        <td scope="row">eacf1e901f1f1b1eb3162cb13014f55f</td>
        <td>CVE-2022-27226</td>
-       <td>2022-03-19 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 04:15:00</td>
        <td>A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27226">详情</a></td>
       </tr>
@@ -325,46 +365,6 @@
        <td>2022-03-18 21:15:00</td>
        <td>Tenda AC6 v15.03.05.09_multi was discovered to contain a stack overflow via the list parameter in the SetIpMacBind function.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25455">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5def508ed9e1ec311533be5102edcf0d</td>
-       <td>CVE-2022-25454</td>
-       <td>2022-03-18 21:15:00</td>
-       <td>Tenda AC6 v15.03.05.09_multi was discovered to contain a stack overflow via the loginpwd parameter in the SetFirewallCfg function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25454">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">847cd7ab42c8d2670543894d98c75de0</td>
-       <td>CVE-2022-25453</td>
-       <td>2022-03-18 21:15:00</td>
-       <td>Tenda AC6 v15.03.05.09_multi was discovered to contain a stack overflow via the time parameter in the saveParentControlInfo function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25453">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b5bcebb0ffa1370aad48fbaabe424021</td>
-       <td>CVE-2022-26502</td>
-       <td>2022-03-18 19:15:00</td>
-       <td>**REJECT** Veeam Backup & Replication 10.x and 11.x has an Untrusted Search Path.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26502">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">56da0aa934b13e244b20765445e20c5a</td>
-       <td>CVE-2022-27246</td>
-       <td>2022-03-18 18:15:00</td>
-       <td>An issue was discovered in MISP before 2.4.156. An SVG org logo (which may contain JavaScript) is not forbidden by default.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27246">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44b591472182f3839a6cbb7bf5e536c6</td>
-       <td>CVE-2022-27245</td>
-       <td>2022-03-18 18:15:00</td>
-       <td>An issue was discovered in MISP before 2.4.156. app/Model/Server.php does not restrict generateServerSettings to the CLI. This could lead to SSRF.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27245">详情</a></td>
       </tr>
 
      </tbody>
@@ -668,7 +668,7 @@
       <tr>
        <td scope="row">d8a16604ffd09188b4f7cdb60afda099</td>
        <td>CNVD-2022-16682</td>
-       <td>2022-03-19 16:56:07 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 16:56:07</td>
        <td>Arista VEOS存在拒绝服务漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16682">详情</a></td>
       </tr>
@@ -1624,9 +1624,89 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1749b6309ce9733faee7b43913c47cb0</td>
+       <td>CVE-2020-13186</td>
+       <td>2022-03-20 13:54:39 <img src="imgs/new.gif" /></td>
+       <td>Teradici Cloud Access Connector 跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ec249090d15e45708517fbec6ae32f89">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">acad8bc315940956f497346f7912aa9c</td>
+       <td>CVE-2020-12385</td>
+       <td>2022-03-20 13:54:35 <img src="imgs/new.gif" /></td>
+       <td>Intel Graphics Drivers 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fe7cf177827e47478e9008b65f182ff6">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e3a771cc8cb1e30a733b37636170c59</td>
+       <td>CVE-2020-16243</td>
+       <td>2022-03-20 13:54:31 <img src="imgs/new.gif" /></td>
+       <td>Wecon Technologies LeviStudioU 缓冲区错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=76add4ca73dc4178b355491815324a65">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5a9c048f790b0bab5ed9cea96e773f4e</td>
+       <td>CVE-2020-13185</td>
+       <td>2022-03-20 13:54:27 <img src="imgs/new.gif" /></td>
+       <td>Teradici Cloud Access Connector 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=bf9b2c49d25c4ff392f89340521f0213">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ab282ca930e94f179e6edc692f580bfc</td>
+       <td>CVE-2020-12384</td>
+       <td>2022-03-20 13:54:23 <img src="imgs/new.gif" /></td>
+       <td>Intel Graphics Drivers 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=981afee45d144a14af1316cf6a771a48">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ef629b8155572fc65d5264317cdb04d3</td>
+       <td>CVE-2020-12376</td>
+       <td>2022-03-20 13:54:19 <img src="imgs/new.gif" /></td>
+       <td>多款 Intel BMC 固件信任管理问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c4c1d704b93f497f965967cae8d81128">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1fc967a702d012f2a1a6fdc659c42787</td>
+       <td>CVE-2020-12375</td>
+       <td>2022-03-20 13:54:15 <img src="imgs/new.gif" /></td>
+       <td>多款 Intel BMC 固件缓冲区错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0cf8ae1b40724d67bc741308751261e1">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e603a9de618dc91ad1bc2bdb49f30ce1</td>
+       <td>CVE-2020-13949</td>
+       <td>2022-03-20 13:54:00 <img src="imgs/new.gif" /></td>
+       <td>Apache Thrift 资源管理错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=57726799ffc84d5198d6ad32d6d2780f">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28da31868a7928efe2d87599a85b31f5</td>
+       <td>CVE-2020-12873</td>
+       <td>2022-03-20 13:53:56 <img src="imgs/new.gif" /></td>
+       <td>Alfresco Software Alfresco Enterprise和Alfresco 注入漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=61cc6a06ecaf4e1698355e63e44757e7">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d6aa01f634087701c9adc08d80409bf</td>
+       <td>CVE-2020-12386</td>
+       <td>2022-03-20 13:53:52 <img src="imgs/new.gif" /></td>
+       <td>Intel Graphics Drivers 缓冲区错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f8249226a3e64492a28767af53d5b73b">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b45021e581b3c9d103ca399be2ac542c</td>
        <td>CVE-2021-27514</td>
-       <td>2022-03-19 13:51:36 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:51:36</td>
        <td>EyesOfNetwork 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f50917df4d474062ae781f6612434beb">详情</a></td>
       </tr>
@@ -1634,7 +1714,7 @@
       <tr>
        <td scope="row">42fd4e383d7c84bcf8570bfb33010e9c</td>
        <td>CVE-2021-27513</td>
-       <td>2022-03-19 13:51:36 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:51:36</td>
        <td>EyesOfNetwork 代码问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7691b480067145998acea743c38a77da">详情</a></td>
       </tr>
@@ -1642,7 +1722,7 @@
       <tr>
        <td scope="row">822bf0c1237c9a0347bf8b8fd65d882d</td>
        <td>CVE-2021-27375</td>
-       <td>2022-03-19 13:51:28 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:51:28</td>
        <td>Containous Traefik 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=baea2a8b59e141a681b20616c85760bf">详情</a></td>
       </tr>
@@ -1650,7 +1730,7 @@
       <tr>
        <td scope="row">2fb8cb387856604987eb30a516cf9130</td>
        <td>CVE-2021-27236</td>
-       <td>2022-03-19 13:51:23 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:51:23</td>
        <td>Mutare Voice 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e7944156adef455e855d13db4135b9bd">详情</a></td>
       </tr>
@@ -1658,7 +1738,7 @@
       <tr>
        <td scope="row">e69db54c3ad6e12988bab54c2b0c7fcc</td>
        <td>CVE-2021-27509</td>
-       <td>2022-03-19 13:51:01 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:51:01</td>
        <td>Visualware MyConnection Server 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=25876e57fa534a93990974c9ba9ecfa0">详情</a></td>
       </tr>
@@ -1666,7 +1746,7 @@
       <tr>
        <td scope="row">93b35aa876f469997b6a0145fb99f50e</td>
        <td>CVE-2021-27351</td>
-       <td>2022-03-19 13:50:57 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:50:57</td>
        <td>Telegram 代码问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0a10e65b6e384d29900503356bdd93f3">详情</a></td>
       </tr>
@@ -1674,7 +1754,7 @@
       <tr>
        <td scope="row">4a32437d72858f6dedc74369e2bf930e</td>
        <td>CVE-2021-27235</td>
-       <td>2022-03-19 13:50:53 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:50:53</td>
        <td>Mutare Voice 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f8074e311c7e4c2cbdeca771f2206762">详情</a></td>
       </tr>
@@ -1682,7 +1762,7 @@
       <tr>
        <td scope="row">0ea3f2804c610aad294ba2b17c9bbf2b</td>
        <td>CVE-2021-27232</td>
-       <td>2022-03-19 13:50:48 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:50:48</td>
        <td>Pelco Digital Sentry Server 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f4a9d07cf1ab429c841e13e34884dfdb">详情</a></td>
       </tr>
@@ -1690,7 +1770,7 @@
       <tr>
        <td scope="row">150e432f0de22b57bf035b0c1ef1888d</td>
        <td>CVE-2021-27218</td>
-       <td>2022-03-19 13:50:44 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:50:44</td>
        <td>GNOME Glib 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5bf7ab6705364dd0a8f9f2480a1b37a1">详情</a></td>
       </tr>
@@ -1698,7 +1778,7 @@
       <tr>
        <td scope="row">2f7ca3e7f371db5f5e2c65179e9c8cb4</td>
        <td>CVE-2021-27379</td>
-       <td>2022-03-19 13:50:27 <img src="imgs/new.gif" /></td>
+       <td>2022-03-19 13:50:27</td>
        <td>Xen 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2f779ba5d5a840559e8cf14c3d08b53f">详情</a></td>
       </tr>
@@ -1781,86 +1861,6 @@
        <td>2022-03-18 13:50:35</td>
        <td>Apache Livy 跨站脚本漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c83710e48ca04571b5bfdf117e6a90e2">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2b81fc66414afcba1da5c4eb92edaaa0</td>
-       <td>CVE-2021-24073</td>
-       <td>2022-03-17 13:51:28</td>
-       <td>Microsoft Skype 和 Microsoft Lync Server 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4214d937ac514935a66a70e1d3eec521">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">75d830d467100c891ff499541c1262ac</td>
-       <td>CVE-2021-24071</td>
-       <td>2022-03-17 13:51:24</td>
-       <td>Microsoft SharePoint 信息泄露漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9a59beb73ca54d3881229f746cb5e0a4">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c1570ba8c3a8dc83c7dc50887a437cea</td>
-       <td>CVE-2021-24070</td>
-       <td>2022-03-17 13:51:20</td>
-       <td>Microsoft Excel 资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3149f2ed34824c199324754c479b6bfd">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b05949a346c15596619317808be95b24</td>
-       <td>CVE-2021-24068</td>
-       <td>2022-03-17 13:51:15</td>
-       <td>Microsoft Excel 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2446210976e24e57ac183766e94cf716">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">15f88078a2d545c96ca13f5513685145</td>
-       <td>CVE-2021-24067</td>
-       <td>2022-03-17 13:51:11</td>
-       <td>Microsoft Excel 资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=6b45672e1ed84dab89745070012f212f">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">713c708fa7cb115a17e869d6ac667413</td>
-       <td>CVE-2021-23979</td>
-       <td>2022-03-17 13:51:07</td>
-       <td>Mozilla Firefox 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=498445cc34724c38ab7a0ef960876120">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d698f0c4576c2b0dc3e40f3573b717f5</td>
-       <td>CVE-2021-23978</td>
-       <td>2022-03-17 13:51:03</td>
-       <td>Mozilla Firefox 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a8ffce701bcb447b9427663e12436d32">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fe85523d8916f57e28f67c4dff113d4b</td>
-       <td>CVE-2021-23976</td>
-       <td>2022-03-17 13:50:59</td>
-       <td>Mozilla Firefox 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c0dcd97617854c998486686647f23525">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">edd8a61bf62ed2519016da7399a35f2a</td>
-       <td>CVE-2021-23975</td>
-       <td>2022-03-17 13:50:55</td>
-       <td>Mozilla Firefox 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ef3f406f6b9e4ecb900965dcfe4b159c">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">55fe66795e44301d5cb6146f500d34e4</td>
-       <td>CVE-2021-23973</td>
-       <td>2022-03-17 13:50:50</td>
-       <td>Mozilla Firefox 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=acec0e022c2c4fcb9a7de1d834601cf0">详情</a></td>
       </tr>
 
      </tbody>
