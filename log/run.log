@@ -53809,3 +53809,122 @@ requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', p
 2022-03-21 20:41:17 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-21 20:41:17 [INFO] : --------------------------------------------
 2022-03-21 20:41:17 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-21 21:37:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:37:56 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-21 21:37:58 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-21 21:37:58 [INFO] : --------------------------------------------
+2022-03-21 21:37:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:37:58 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-21 21:37:59 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-21 21:37:59 [INFO] : --------------------------------------------
+2022-03-21 21:37:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:37:59 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-21 21:38:22 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-21 21:38:22 [INFO] : --------------------------------------------
+2022-03-21 21:38:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:22 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-21 21:38:44 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-21 21:38:44 [INFO] : --------------------------------------------
+2022-03-21 21:38:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:44 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-21 21:38:45 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-21 21:38:45 [INFO] : --------------------------------------------
+2022-03-21 21:38:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:45 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-21 21:38:45 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-21 21:38:45 [INFO] : --------------------------------------------
+2022-03-21 21:38:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:45 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-21 21:38:47 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-21 21:38:47 [INFO] : --------------------------------------------
+2022-03-21 21:38:47 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:47 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-21 21:38:52 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-21 21:38:52 [INFO] : --------------------------------------------
+2022-03-21 21:38:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:52 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-21 21:38:58 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-21 21:38:58 [INFO] : --------------------------------------------
+2022-03-21 21:38:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:58 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-21 21:38:59 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-21 21:38:59 [INFO] : --------------------------------------------
+2022-03-21 21:38:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:38:59 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-21 21:39:05 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-21 21:39:05 [INFO] : --------------------------------------------
+2022-03-21 21:39:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-21 21:39:05 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-21 21:39:05 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-03-21 21:39:05 [INFO] : --------------------------------------------
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] guzzlehttp/psr7 is a PSR-7 HTTP message library. Versions prior to 1.8.4 and 2.1.1 are vulnerable to improper header parsing. An attacker could sneak in a new line character and pass untrusted values. The issue is patched in 1.8.4 and 2.1.1. There are currently no known workarounds.
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-24775
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24775
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] mitmproxy is an interactive, SSL/TLS-capable intercepting proxy. In mitmproxy 7.0.4 and below, a malicious client or server is able to perform HTTP request smuggling attacks through mitmproxy. This means that a malicious client/server could smuggle a request/response through mitmproxy as part of another request/response's HTTP message body. While mitmproxy would only see one request, the target server would see multiple requests. A smuggled request is still captured as part of another request's body, but it does not appear in the request list and does not go through the usual mitmproxy event hooks, where users may have implemented custom access control checks or input sanitization. Unless mitmproxy is used to protect an HTTP/1 service, no action is required. The vulnerability has been fixed in mitmproxy 8.0.0 and above. There are currently no known workarounds.
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-24766
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24766
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Simple Link Directory WordPress plugin before 7.7.2 does not validate and escape the post_id parameter before using it in a SQL statement via the qcopd_upvote_action AJAX action (available to unauthenticated and authenticated users), leading to an unauthenticated SQL Injection
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0760
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0760
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Infographic Maker WordPress plugin before 4.3.8 does not validate and escape the post_id parameter before using it in a SQL statement via the qcld_upvote_action AJAX action (available to unauthenticated and authenticated users), leading to an unauthenticated SQL Injection
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0747
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0747
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user supplied POST data before it is used in a dynamically constructed SQL query via the bookingpress_front_get_category_services AJAX action (available to unauthenticated users), leading to an unauthenticated SQL Injection
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0739
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0739
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Advanced Booking Calendar WordPress plugin before 1.7.0 does not validate and escape the calendar parameter before using it in a SQL statement via the abc_booking_getSingleCalendar AJAX action (available to both unauthenticated and authenticated users), leading to an unauthenticated SQL injection
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0694
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0694
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Amelia WordPress plugin before 1.0.47 stores image blobs into actual files whose extension is controlled by the user, which may lead to PHP backdoors being uploaded onto the site. This vulnerability can be exploited by logged-in users with the custom "Amelia Manager" role.
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0687
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0687
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Simple Membership WordPress plugin before 4.1.0 does not have CSRF check in place when deleting Transactions, which could allow attackers to make a logged in admin delete arbitrary transactions via a CSRF attack
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0681
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0681
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Pricing Table Builder WordPress plugin before 1.1.5 does not sanitize and escape the postid parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting.
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0640
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0640
+2022-03-21 21:39:05 [INFO] : 
+==============================================
+[ TITLE ] The Mega Menu WordPress plugin before 3.0.8 does not sanitize and escape the _wpnonce parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting.
+[ TIME  ] 2022-03-21 19:15:00
+[ CVE   ] CVE-2022-0628
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0628
+2022-03-21 21:39:05 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
