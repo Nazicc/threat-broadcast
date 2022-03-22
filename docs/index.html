@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-22 18:46:13 -->
+<!-- RELEASE TIME : 2022-03-22 20:40:54 -->
 <html lang="zh-cn">
 
  <head>
@@ -135,6 +135,38 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">f4a4355a0bbed3d18425706bdcc71f46</td>
+       <td>CVE-2022-26260</td>
+       <td>2022-03-22 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Simple-Plist v1.3.0 was discovered to contain a prototype pollution vulnerability via .parse().</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26260">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">514f547bee7516ed6a33a7df79fded60</td>
+       <td>CVE-2022-25517</td>
+       <td>2022-03-22 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>MyBatis plus v3.4.3 was discovered to contain a SQL injection vulnerability via the Column parameter in /core/conditions/AbstractWrapper.java.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25517">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7a648b795e3205eb558195fdd6007b10</td>
+       <td>CVE-2022-27228</td>
+       <td>2022-03-22 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>In the vote (aka "Polls, Votes") module before 21.0.100 of Bitrix Site Manager, a remote unauthenticated attacker can execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27228">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc7e56f5be3f5c76f11d701adc0d76c2</td>
+       <td>CVE-2021-41736</td>
+       <td>2022-03-22 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Faust v2.35.0 was discovered to contain a heap-buffer overflow in the function realPropagate() at propagate.cpp.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41736">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">0c9b4767b48d2b85f15a3f01ee78d2ea</td>
        <td>CVE-2022-25484</td>
@@ -341,38 +373,6 @@
        <td>2022-03-21 20:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue in BigAnt Software BigAnt Server v5.6.06 can lead to a Denial of Service (DoS).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23352">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">81b7f65a5a18f3b0af101e9230c4ab55</td>
-       <td>CVE-2022-23350</td>
-       <td>2022-03-21 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>BigAnt Software BigAnt Server v5.6.06 was discovered to contain a cross-site scripting (XSS) vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23350">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fa5d5d46c894980e238c5999327aeded</td>
-       <td>CVE-2022-23349</td>
-       <td>2022-03-21 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>BigAnt Software BigAnt Server v5.6.06 was discovered to contain a Cross-Site Request Forgery (CSRF).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23349">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">172075b70f7dc9d59ad6c7ac40a074dd</td>
-       <td>CVE-2022-23348</td>
-       <td>2022-03-21 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>BigAnt Software BigAnt Server v5.6.06 was discovered to utilize weak password hashes.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23348">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">31efc5a4b0ef2e009cfcdf01bda3930d</td>
-       <td>CVE-2022-23347</td>
-       <td>2022-03-21 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>BigAnt Software BigAnt Server v5.6.06 was discovered to be vulnerable to directory traversal attacks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23347">详情</a></td>
       </tr>
 
      </tbody>
@@ -2236,11 +2236,43 @@
       </tr>
 
       <tr>
+       <td scope="row">af20ab4e680784c5d546e14b1a663428</td>
+       <td>CVE-2022-27210</td>
+       <td>2022-03-15 17:15:11 </td>
+       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27210">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb118a8a13f2dbc945e280e0aa7aefc9</td>
+       <td>CVE-2022-27208</td>
+       <td>2022-03-15 17:15:11 </td>
+       <td>Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows users with Credentials/Create permission to read arbitrary files on the Jenkins controller.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27208">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">11a56f6d2e15970ff8f68462202ffc9b</td>
        <td>CVE-2022-27199</td>
        <td>2022-03-15 17:15:10 </td>
        <td>A missing permission check in Jenkins CloudBees AWS Credentials Plugin 189.v3551d5642995 and earlier allows attackers with Overall/Read permission to connect to an AWS service using an attacker-specified token.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27199">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4afa9fd8bf398bf60c49343ca230ac57</td>
+       <td>CVE-2022-27201</td>
+       <td>2022-03-15 17:15:10 </td>
+       <td>Jenkins Semantic Versioning Plugin 1.13 and earlier does not restrict execution of an controller/agent message to agents, and implements no limitations about the file path that can be parsed, allowing attackers able to control agent processes to have Jenkins parse a crafted file that uses external entities for extraction of secrets from the Jenkins controller or server-side request forgery.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27201">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7de5c963d67e3e1e4eabc36599c0d2f2</td>
+       <td>CVE-2022-27200</td>
+       <td>2022-03-15 17:15:10 </td>
+       <td>Jenkins Folder-based Authorization Strategy Plugin 1.3 and earlier does not escape the names of roles shown on the configuration form, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Overall/Administer permission.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27200">详情</a></td>
       </tr>
 
       <tr>
@@ -2345,38 +2377,6 @@
        <td>2022-03-10 17:47:52 </td>
        <td>An XXE issue was discovered in Tryton Application Platform (Server) 5.x through 5.0.45, 6.x through 6.0.15, and 6.1.x and 6.2.x through 6.2.5, and Tryton Application Platform (Command Line Client (proteus)) 5.x through 5.0.11, 6.x through 6.0.4, and 6.1.x and 6.2.x through 6.2.1. An authenticated user can make the server parse a crafted XML SEPA file to access arbitrary files on the system.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26661">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">69e271003fe906344b34fa555c806cc6</td>
-       <td>CVE-2022-26652</td>
-       <td>2022-03-10 17:47:51 </td>
-       <td>NATS nats-server before 2.7.4 allows Directory Traversal (with write access) via an element in a ZIP archive for JetStream streams. nats-streaming-server before 0.24.3 is also affected.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26652">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8ce1adc42e803c2e09c134149747eba6</td>
-       <td>CVE-2022-26521</td>
-       <td>2022-03-10 17:47:46 </td>
-       <td>Abantecart through 1.3.2 allows remote authenticated administrators to execute arbitrary code by uploading an executable file, because the Catalog&gt;Media Manager&gt;Images settings can be changed by an administrator (e.g., by configuring .php to be a valid image file type).</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26521">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eeb084a02170ea5c2cd00f28f8b2160d</td>
-       <td>CVE-2022-26355</td>
-       <td>2022-03-10 17:47:36 </td>
-       <td>Citrix Federated Authentication Service (FAS) 7.17 - 10.6 causes deployments that have been configured to store a registration authority certificate's private key in a Trusted Platform Module (TPM) to incorrectly store that key in the Microsoft Software Key Storage Provider (MSKSP). This issue only occurs if PowerShell was used when configuring FAS to store the registration authority certificate&acirc;&euro;&trade;s private key in the TPM. It does not occur if the TPM was not selected for use or if the FAS administration console was used for configuration.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26355">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bc012c6df1c1eed2374be65a03d9e8e0</td>
-       <td>CVE-2022-26311</td>
-       <td>2022-03-10 17:47:33 </td>
-       <td>Couchbase Operator 2.2.x before 2.2.3 exposes Sensitive Information to an Unauthorized Actor. Secrets are not redacted in logs collected from Kubernetes environments.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26311">详情</a></td>
       </tr>
 
      </tbody>

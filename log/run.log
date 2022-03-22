@@ -55816,3 +55816,108 @@ requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', p
 2022-03-22 19:38:58 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2022-03-22 19:38:59 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-22 19:38:59 [INFO] : --------------------------------------------
+2022-03-22 20:39:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:39:49 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-22 20:39:50 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-22 20:39:50 [INFO] : --------------------------------------------
+2022-03-22 20:39:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:39:50 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-22 20:39:51 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-22 20:39:51 [INFO] : --------------------------------------------
+2022-03-22 20:39:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:39:51 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-22 20:40:14 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-22 20:40:14 [INFO] : --------------------------------------------
+2022-03-22 20:40:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:14 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-22 20:40:40 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-22 20:40:40 [INFO] : --------------------------------------------
+2022-03-22 20:40:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:40 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-22 20:40:41 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-22 20:40:41 [INFO] : --------------------------------------------
+2022-03-22 20:40:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:41 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-22 20:40:41 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [4] 条
+2022-03-22 20:40:41 [INFO] : --------------------------------------------
+2022-03-22 20:40:41 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.
+[ TIME  ] 2022-03-15 17:15:11 
+[ CVE   ] CVE-2022-27210
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27210
+2022-03-22 20:40:41 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows users with Credentials/Create permission to read arbitrary files on the Jenkins controller.
+[ TIME  ] 2022-03-15 17:15:11 
+[ CVE   ] CVE-2022-27208
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27208
+2022-03-22 20:40:41 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Semantic Versioning Plugin 1.13 and earlier does not restrict execution of an controller/agent message to agents, and implements no limitations about the file path that can be parsed, allowing attackers able to control agent processes to have Jenkins parse a crafted file that uses external entities for extraction of secrets from the Jenkins controller or server-side request forgery.
+[ TIME  ] 2022-03-15 17:15:10 
+[ CVE   ] CVE-2022-27201
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27201
+2022-03-22 20:40:41 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Folder-based Authorization Strategy Plugin 1.3 and earlier does not escape the names of roles shown on the configuration form, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Overall/Administer permission.
+[ TIME  ] 2022-03-15 17:15:10 
+[ CVE   ] CVE-2022-27200
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27200
+2022-03-22 20:40:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:41 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-22 20:40:43 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-22 20:40:43 [INFO] : --------------------------------------------
+2022-03-22 20:40:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:43 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-22 20:40:44 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-22 20:40:44 [INFO] : --------------------------------------------
+2022-03-22 20:40:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:44 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-22 20:40:45 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-22 20:40:45 [INFO] : --------------------------------------------
+2022-03-22 20:40:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:45 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-22 20:40:46 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-22 20:40:46 [INFO] : --------------------------------------------
+2022-03-22 20:40:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:46 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-22 20:40:53 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-22 20:40:53 [INFO] : --------------------------------------------
+2022-03-22 20:40:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-22 20:40:53 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-22 20:40:54 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [4] 条
+2022-03-22 20:40:54 [INFO] : --------------------------------------------
+2022-03-22 20:40:54 [INFO] : 
+==============================================
+[ TITLE ] Simple-Plist v1.3.0 was discovered to contain a prototype pollution vulnerability via .parse().
+[ TIME  ] 2022-03-22 19:15:00
+[ CVE   ] CVE-2022-26260
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26260
+2022-03-22 20:40:54 [INFO] : 
+==============================================
+[ TITLE ] MyBatis plus v3.4.3 was discovered to contain a SQL injection vulnerability via the Column parameter in /core/conditions/AbstractWrapper.java.
+[ TIME  ] 2022-03-22 19:15:00
+[ CVE   ] CVE-2022-25517
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25517
+2022-03-22 20:40:54 [INFO] : 
+==============================================
+[ TITLE ] In the vote (aka "Polls, Votes") module before 21.0.100 of Bitrix Site Manager, a remote unauthenticated attacker can execute arbitrary code.
+[ TIME  ] 2022-03-22 18:15:00
+[ CVE   ] CVE-2022-27228
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27228
+2022-03-22 20:40:54 [INFO] : 
+==============================================
+[ TITLE ] Faust v2.35.0 was discovered to contain a heap-buffer overflow in the function realPropagate() at propagate.cpp.
+[ TIME  ] 2022-03-22 18:15:00
+[ CVE   ] CVE-2021-41736
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-41736
+2022-03-22 20:40:54 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
