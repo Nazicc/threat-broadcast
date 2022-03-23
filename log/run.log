@@ -57160,3 +57160,80 @@ requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', p
 2022-03-23 13:43:20 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-23 13:43:20 [INFO] : --------------------------------------------
 2022-03-23 13:43:20 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-23 14:37:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:37:11 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-23 14:37:12 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-23 14:37:12 [INFO] : --------------------------------------------
+2022-03-23 14:37:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:37:12 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-23 14:37:14 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-23 14:37:14 [INFO] : --------------------------------------------
+2022-03-23 14:37:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:37:14 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-23 14:37:37 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-23 14:37:37 [INFO] : --------------------------------------------
+2022-03-23 14:37:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:37:37 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-23 14:38:00 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-23 14:38:00 [INFO] : --------------------------------------------
+2022-03-23 14:38:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:00 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-23 14:38:03 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-23 14:38:03 [INFO] : --------------------------------------------
+2022-03-23 14:38:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:03 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-23 14:38:03 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [2] 条
+2022-03-23 14:38:03 [INFO] : --------------------------------------------
+2022-03-23 14:38:03 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Extended Choice Parameter Plugin 346.vd87693c5a_86c and earlier allows attackers with Item/Configure permission to read values from arbitrary JSON and Java properties files on the Jenkins controller.
+[ TIME  ] 2022-03-15 17:15:10 
+[ CVE   ] CVE-2022-27203
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27203
+2022-03-23 14:38:03 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Extended Choice Parameter Plugin 346.vd87693c5a_86c and earlier does not escape the value and description of extended choice parameters of radio buttons or check boxes type, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.
+[ TIME  ] 2022-03-15 17:15:10 
+[ CVE   ] CVE-2022-27202
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27202
+2022-03-23 14:38:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:03 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-23 14:38:05 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-23 14:38:05 [INFO] : --------------------------------------------
+2022-03-23 14:38:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:05 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-23 14:38:06 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-23 14:38:06 [INFO] : --------------------------------------------
+2022-03-23 14:38:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:06 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-23 14:38:12 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-23 14:38:12 [INFO] : --------------------------------------------
+2022-03-23 14:38:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:12 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-23 14:38:14 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-23 14:38:14 [INFO] : --------------------------------------------
+2022-03-23 14:38:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:14 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-23 14:38:24 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-23 14:38:24 [INFO] : --------------------------------------------
+2022-03-23 14:38:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 14:38:24 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-23 14:38:25 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [2] 条
+2022-03-23 14:38:25 [INFO] : --------------------------------------------
+2022-03-23 14:38:25 [INFO] : 
+==============================================
+[ TITLE ] BIND 9.11.0 -> 9.11.36 9.12.0 -> 9.16.26 9.17.0 -> 9.18.0 BIND Supported Preview Editions: 9.11.4-S1 -> 9.11.36-S1 9.16.8-S1 -> 9.16.26-S1 Versions of BIND 9 earlier than those shown - back to 9.1.0, including Supported Preview Editions - are also believed to be affected but have not been tested as they are EOL. The cache could become poisoned with incorrect records leading to queries being made to the wrong servers, which might also result in false information being returned to clients.
+[ TIME  ] 2022-03-23 13:15:00
+[ CVE   ] CVE-2021-25220
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-25220
+2022-03-23 14:38:25 [INFO] : 
+==============================================
+[ TITLE ] Versions affected: BIND 9.18.0 When a vulnerable version of named receives a series of specific queries, the named process will eventually terminate due to a failed assertion check.
+[ TIME  ] 2022-03-23 12:15:00
+[ CVE   ] CVE-2022-0635
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0635
+2022-03-23 14:38:25 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
