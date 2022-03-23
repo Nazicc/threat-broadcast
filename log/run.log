@@ -57418,3 +57418,115 @@ requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', p
 2022-03-23 16:56:26 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-23 16:56:26 [INFO] : --------------------------------------------
 2022-03-23 16:56:26 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-03-23 17:40:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:40:24 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-23 17:40:26 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-23 17:40:26 [INFO] : --------------------------------------------
+2022-03-23 17:40:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:40:26 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-23 17:40:27 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-23 17:40:27 [INFO] : --------------------------------------------
+2022-03-23 17:40:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:40:27 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-23 17:40:53 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-23 17:40:53 [INFO] : --------------------------------------------
+2022-03-23 17:40:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:40:53 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-23 17:41:14 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-23 17:41:14 [INFO] : --------------------------------------------
+2022-03-23 17:41:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:14 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-23 17:41:16 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-23 17:41:16 [INFO] : --------------------------------------------
+2022-03-23 17:41:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:16 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-23 17:41:17 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-23 17:41:17 [INFO] : --------------------------------------------
+2022-03-23 17:41:17 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:17 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-23 17:41:18 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-23 17:41:18 [INFO] : --------------------------------------------
+2022-03-23 17:41:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:18 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-23 17:41:19 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-23 17:41:19 [INFO] : --------------------------------------------
+2022-03-23 17:41:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:19 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-23 17:41:24 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-23 17:41:24 [INFO] : --------------------------------------------
+2022-03-23 17:41:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:24 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-23 17:41:25 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-23 17:41:25 [INFO] : --------------------------------------------
+2022-03-23 17:41:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:25 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-23 17:41:31 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-23 17:41:31 [INFO] : --------------------------------------------
+2022-03-23 17:41:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-23 17:41:31 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-23 17:41:32 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [9] 条
+2022-03-23 17:41:32 [INFO] : --------------------------------------------
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] A lack of password change protection vulnerability in a depreciated API of McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote attacker to change the password of a compromised session without knowing the existing user's password. This functionality was removed from the User Interface in ePO 10 and the API has now been disabled. Other protection is in place to reduce the likelihood of this being successful through sending a link to a logged in user.
+[ TIME  ] 2022-03-23 15:15:00
+[ CVE   ] CVE-2022-0862
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0862
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] A XML Extended entity vulnerability in McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote administrator attacker to upload a malicious XML file through the extension import functionality. The impact is limited to some access to confidential information and some ability to alter data.
+[ TIME  ] 2022-03-23 15:15:00
+[ CVE   ] CVE-2022-0861
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0861
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a local attacker to point an ePO server to an arbitrary SQL server during the restoration of the ePO server. To achieve this the attacker would have to be logged onto the server hosting the ePO server (restricted to administrators) and to know the SQL server password.
+[ TIME  ] 2022-03-23 15:15:00
+[ CVE   ] CVE-2022-0859
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0859
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] A cross-site scripting (XSS) vulnerability in McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote attacker to potentially obtain access to an ePO administrator's session by convincing the attacker to click on a carefully crafted link. This would lead to limited ability to alter some information in ePO due to the area of the User Interface the vulnerability is present in.
+[ TIME  ] 2022-03-23 15:15:00
+[ CVE   ] CVE-2022-0858
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0858
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] A reflected cross-site scripting (XSS) vulnerability in McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote attacker to potentially obtain access to an ePO administrator's session by convincing the attacker to click on a carefully crafted link. This would lead to limited access to sensitive information and limited ability to alter some information in ePO due to the area of the User Interface the vulnerability is present in.
+[ TIME  ] 2022-03-23 15:15:00
+[ CVE   ] CVE-2022-0857
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0857
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-27666. Reason: This candidate is a reservation duplicate of CVE-2022-27666. Notes: All CVE users should reference CVE-2022-27666 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+[ TIME  ] 2022-03-23 14:15:00
+[ CVE   ] CVE-2022-0886
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0886
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] A blind SQL injection vulnerability in McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote authenticated attacker to potentially obtain information from the ePO database. The data obtained is dependent on the privileges the attacker has and to obtain sensitive data the attacker would require administrator privileges.
+[ TIME  ] 2022-03-23 14:15:00
+[ CVE   ] CVE-2022-0842
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0842
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] Improper Authentication vulnerability in TLS origin validation of Apache Traffic Server allows an attacker to create a man in the middle attack. This issue affects Apache Traffic Server 8.0.0 to 8.1.0.
+[ TIME  ] 2022-03-23 14:15:00
+[ CVE   ] CVE-2021-44759
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-44759
+2022-03-23 17:41:32 [INFO] : 
+==============================================
+[ TITLE ] Improper Input Validation vulnerability in request line parsing of Apache Traffic Server allows an attacker to send invalid requests. This issue affects Apache Traffic Server 8.0.0 to 8.1.3 and 9.0.0 to 9.1.1.
+[ TIME  ] 2022-03-23 14:15:00
+[ CVE   ] CVE-2021-44040
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-44040
+2022-03-23 17:41:32 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
