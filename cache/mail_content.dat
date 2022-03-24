@@ -1,26 +1,33 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
 <ul>
-    <li><font color="red">8</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-31326</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] D-Link DIR-816 A2 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-391071'>http://cve.scap.org.cn/vuln/VHN-391071</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3589</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] Foreman 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-394619'>http://cve.scap.org.cn/vuln/VHN-394619</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40426</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] Sound Exchange libsox 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401774'>http://cve.scap.org.cn/vuln/VHN-401774</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44226</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] Razer Synapse 3 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406830'>http://cve.scap.org.cn/vuln/VHN-406830</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4148</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] Linux kernel 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408704'>http://cve.scap.org.cn/vuln/VHN-408704</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4150</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] Linux kernel 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408706'>http://cve.scap.org.cn/vuln/VHN-408706</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4180</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] openstack-tripleo-heat-templates 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-409828'>http://cve.scap.org.cn/vuln/VHN-409828</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22819</font><br/>[<b>披露时间</b>] 2022-03-23 13:42:52<br/>[<b>漏洞描述</b>] Nxp Semiconductors Nxp Lpc55S69 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411545'>http://cve.scap.org.cn/vuln/VHN-411545</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21712</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] twisted is an event-driven networking engine...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-407325'>http://cve.scap.org.cn/vuln/VHN-407325</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0547</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] OpenVPN 2.1 until v2.4.12 and v2.5.6 may enable......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-414446'>http://cve.scap.org.cn/vuln/VHN-414446</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0718</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415980'>http://cve.scap.org.cn/vuln/VHN-415980</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26381</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417082'>http://cve.scap.org.cn/vuln/VHN-417082</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26386</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417087'>http://cve.scap.org.cn/vuln/VHN-417087</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-418541</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] Event Management System 1.0 Shell Upload...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418541'>http://cve.scap.org.cn/vuln/VHN-418541</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-418542</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] Microfinance Management System 1.0 SQL Injection...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418542'>http://cve.scap.org.cn/vuln/VHN-418542</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-418543</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] Sports Complex Booking System 1.0 SQL Injection...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418543'>http://cve.scap.org.cn/vuln/VHN-418543</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-418544</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] Trend Micro Virtual Mobile Infrastructure...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418544'>http://cve.scap.org.cn/vuln/VHN-418544</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-418545</font><br/>[<b>披露时间</b>] 2022-03-24 15:44:25<br/>[<b>漏洞描述</b>] Foxit PDF Editor (iOS) 11.3.1 Arbitrary File Upload...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418545'>http://cve.scap.org.cn/vuln/VHN-418545</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1052</font><br/>[<b>披露时间</b>] 2022-03-24 13:15:00<br/>[<b>漏洞描述</b>] Heap Buffer Overflow in iterate_chained_fixups in GitHub repository radareorg/radare2 prior to 5.6.6.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1052'>https://www.tenable.com/cve/CVE-2022-1052</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43700</font><br/>[<b>披露时间</b>] 2022-03-24 13:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in ApiManager 1.1. there is sql injection vulnerability that can use in /index.php?act=api&tag=8.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43700'>https://www.tenable.com/cve/CVE-2021-43700</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
