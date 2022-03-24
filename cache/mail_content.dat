@@ -1,14 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22268 (CVE-2021-32436)</font><br/>[<b>披露时间</b>] 2022-03-24 03:45:00<br/>[<b>漏洞描述</b>] abcm2ps存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22268'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22268</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22252 (CVE-2022-25512)</font><br/>[<b>披露时间</b>] 2022-03-24 03:45:03<br/>[<b>漏洞描述</b>] FreeTAKServer-UI信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22252'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22252</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22297 (CVE-2022-24574)</font><br/>[<b>披露时间</b>] 2022-03-24 03:45:10<br/>[<b>漏洞描述</b>] GPAC空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22297'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22297</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22251 (CVE-2022-25511)</font><br/>[<b>披露时间</b>] 2022-03-24 03:45:12<br/>[<b>漏洞描述</b>] FreeTAKServer-UI存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22251'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22251</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22315 (CVE-2022-24577)</font><br/>[<b>披露时间</b>] 2022-03-24 04:49:07<br/>[<b>漏洞描述</b>] GPAC gf_utf8_wcslen函数拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22315'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22315</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22316 (CVE-2022-24575)</font><br/>[<b>披露时间</b>] 2022-03-24 04:49:23<br/>[<b>漏洞描述</b>] GPAC缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22316'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22316</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
