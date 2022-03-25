@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22708 (CVE-2022-23252)</font><br/>[<b>披露时间</b>] 2022-03-25 05:37:50<br/>[<b>漏洞描述</b>] Microsoft Office信息泄露漏洞（CVE-2022-23252）<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22708'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22708</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22733 (CVE-2022-24369)</font><br/>[<b>披露时间</b>] 2022-03-25 06:47:46<br/>[<b>漏洞描述</b>] Foxit PDF Reader缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22733'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22733</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22732 (CVE-2022-24368)</font><br/>[<b>披露时间</b>] 2022-03-25 06:47:51<br/>[<b>漏洞描述</b>] Foxit PDF Reader资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22732'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22732</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-22731 (CVE-2022-24366)</font><br/>[<b>披露时间</b>] 2022-03-25 06:47:56<br/>[<b>漏洞描述</b>] Foxit PDF Reader资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-22731'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-22731</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
