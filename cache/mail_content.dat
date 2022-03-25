@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22951,CVE-2022-22952</font><br/>[<b>披露时间</b>] 2022-03-25 17:58:44<br/>[<b>漏洞描述</b>] VMware Carbon Black App Control 两个高危漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5684'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5684</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2018-25032</font><br/>[<b>披露时间</b>] 2022-03-25 09:15:00<br/>[<b>漏洞描述</b>] zlib 1.2.11 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2018-25032'>https://www.tenable.com/cve/CVE-2018-25032</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22688</font><br/>[<b>披露时间</b>] 2022-03-25 07:15:00<br/>[<b>漏洞描述</b>] Improper neutralization of special elements used in a command ('Command Injection') vulnerability in File service functionality in Synology DiskStation Manager (DSM) before 6.2.4-25556-2 allows remote authenticated users to execute arbitrary commands via unspecified vectors.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-22688'>https://www.tenable.com/cve/CVE-2022-22688</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22687</font><br/>[<b>披露时间</b>] 2022-03-25 07:15:00<br/>[<b>漏洞描述</b>] Buffer copy without checking size of input ('Classic Buffer Overflow') vulnerability in Authentication functionality in Synology DiskStation Manager (DSM) before 6.2.3-25426-3 allows remote attackers to execute arbitrary code via unspecified vectors.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-22687'>https://www.tenable.com/cve/CVE-2022-22687</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
