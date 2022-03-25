@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1064</font><br/>[<b>披露时间</b>] 2022-03-25 12:15:00<br/>[<b>漏洞描述</b>] SQL injection through marking blog comments on bulk as spam in GitHub repository forkcms/forkcms prior to 5.11.1.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1064'>https://www.tenable.com/cve/CVE-2022-1064</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1040</font><br/>[<b>披露时间</b>] 2022-03-25 12:15:00<br/>[<b>漏洞描述</b>] An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1040'>https://www.tenable.com/cve/CVE-2022-1040</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27227</font><br/>[<b>披露时间</b>] 2022-03-25 15:15:00<br/>[<b>漏洞描述</b>] In PowerDNS Authoritative Server before 4.4.3, 4.5.x before 4.5.4, and 4.6.x before 4.6.1 and PowerDNS Recursor before 4.4.8, 4.5.x before 4.5.8, and 4.6.x before 4.6.1, insufficient validation of an IXFR end condition causes incomplete zone transfers to be handled as successful transfers.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-27227'>https://www.tenable.com/cve/CVE-2022-27227</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
