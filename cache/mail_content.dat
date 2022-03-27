@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26254</font><br/>[<b>披露时间</b>] 2022-03-27 17:15:00<br/>[<b>漏洞描述</b>] WoWonder The Ultimate PHP Social Network Platform v4.0.0 was discovered to contain an access control issue which allows unauthenticated attackers to arbitrarily change group ID names.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26254'>https://www.tenable.com/cve/CVE-2022-26254</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26252</font><br/>[<b>披露时间</b>] 2022-03-27 16:15:00<br/>[<b>漏洞描述</b>] aaPanel v6.8.21 was discovered to be vulnerable to directory traversal. This vulnerability allows attackers to obtain the root user private SSH key(id_rsa).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26252'>https://www.tenable.com/cve/CVE-2022-26252</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44127</font><br/>[<b>披露时间</b>] 2022-03-27 20:15:00<br/>[<b>漏洞描述</b>] In DLink DAP-1360 F1 firmware version <=v6.10 in the "webupg" binary, an attacker can use the "file" parameter to execute arbitrary system commands when the parameter is "name=deleteFile" after being authorized.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-44127'>https://www.tenable.com/cve/CVE-2021-44127</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
