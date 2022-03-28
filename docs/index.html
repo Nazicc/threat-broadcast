@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-28 19:38:48 -->
+<!-- RELEASE TIME : 2022-03-28 20:41:42 -->
 <html lang="zh-cn">
 
  <head>
@@ -2156,6 +2156,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">67aabdd86aa44214436df375d4e5c1ba</td>
+       <td>CVE-2022-27226</td>
+       <td>2022-03-19 04:15:08 </td>
+       <td>A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27226">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c5620ca91c31400b35f4da1d3dee525a</td>
        <td>CVE-2022-27246</td>
        <td>2022-03-18 18:15:16 </td>
@@ -2385,14 +2393,6 @@
        <td>2022-03-15 17:15:11 </td>
        <td>A missing/An incorrect permission check in Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified SSH server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27211">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4c42d0feb79a48279803113abe35c5b</td>
-       <td>CVE-2022-27209</td>
-       <td>2022-03-15 17:15:11 </td>
-       <td>A missing permission check in Jenkins Kubernetes Continuous Deploy Plugin 2.3.1 and earlier allows attackers with Overall/Read permission to enumerate credentials IDs of credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27209">详情</a></td>
       </tr>
 
      </tbody>
