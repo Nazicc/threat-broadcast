@@ -1,14 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22965</font><br/>[<b>披露时间</b>] 2022-03-31 15:44:11<br/>[<b>漏洞描述</b>] Spring Framework JDK >= 9 远程代码执行漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1124599'>https://avd.aliyun.com/detail?id=AVD-2022-1124599</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22965</font><br/>[<b>披露时间</b>] <br/>[<b>漏洞描述</b>] Spring Framework 远程代码执行漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7ddca0c968de4ba3aafc0271cb9e184c'>https://redqueen.tj-un.com/IntelDetails.html?id=7ddca0c968de4ba3aafc0271cb9e184c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2013-04515</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:23<br/>[<b>漏洞描述</b>] 多个高校正方教务管理系统存在数据库任意操作漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2013-04515'>https://www.cnvd.org.cn/flaw/show/CNVD-2013-04515</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24439 (CVE-2022-25445)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:25<br/>[<b>漏洞描述</b>] Tenda AC6 PowerSaveSet函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24439'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24439</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24438 (CVE-2022-25453)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:28<br/>[<b>漏洞描述</b>] Tenda AC6 saveParentControlInfo函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24438'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24438</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24437 (CVE-2022-25452)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:30<br/>[<b>漏洞描述</b>] Tenda AC6 saveParentControlInfo函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24437'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24437</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24436 (CVE-2022-25454)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:32<br/>[<b>漏洞描述</b>] Tenda AC6 SetFirewallCfg函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24436'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24436</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24435 (CVE-2022-25455)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:35<br/>[<b>漏洞描述</b>] Tenda AC6 SetIpMacBind函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24435'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24435</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24434 (CVE-2022-25460)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:37<br/>[<b>漏洞描述</b>] Tenda AC6 SetPptpServerCfg函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24434'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24434</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24433 (CVE-2022-25461)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:39<br/>[<b>漏洞描述</b>] Tenda AC6 SetPptpServerCfg函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24433'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24433</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24432 (CVE-2022-25451)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:41<br/>[<b>漏洞描述</b>] Tenda AC6 setstaticroutecfg函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24432'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24432</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-24431 (CVE-2022-25459)</font><br/>[<b>披露时间</b>] 2022-04-01 16:57:43<br/>[<b>漏洞描述</b>] Tenda AC6 SetSysTimeCfg函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-24431'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-24431</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
