@@ -1,12 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26205</font><br/>[<b>披露时间</b>] 2022-03-27 01:15:06 <br/>[<b>漏洞描述</b>] Marky commit 3686565726c65756e was discovered to contain a remote code execution (RCE) vulnerability via the Display text fields. This vulnerability allows attackers to execute arbitrary code via injection of a crafted payload.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26205'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26205</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26198</font><br/>[<b>披露时间</b>] 2022-03-27 00:15:09 <br/>[<b>漏洞描述</b>] Notable v1.8.4 does not filter text editing, allowing attackers to execute arbitrary code via a crafted payload injected into the Title text field.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26198'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26198</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43506</font><br/>[<b>披露时间</b>] 2022-03-31 17:15:00<br/>[<b>漏洞描述</b>] An SQL Injection vulnerability exists in Sourcecodester Simple Client Management System 1.0 via the password parameter in Login.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43506'>https://www.tenable.com/cve/CVE-2021-43506</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43505</font><br/>[<b>披露时间</b>] 2022-03-31 17:15:00<br/>[<b>漏洞描述</b>] Multiple Cross Site Scripting (XSS) vulnerabilities exist in Ssourcecodester Simple Client Management System v1 via (1) Add new Client and (2) Add new invoice.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43505'>https://www.tenable.com/cve/CVE-2021-43505</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0350</font><br/>[<b>披露时间</b>] 2022-03-31 16:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository vanessa219/vditor prior to 3.8.13.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0350'>https://www.tenable.com/cve/CVE-2022-0350</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-34257</font><br/>[<b>披露时间</b>] 2022-03-31 16:15:00<br/>[<b>漏洞描述</b>] Multiple Remote Code Execution (RCE) vulnerabilities exist in WPanel 4 4.3.1 and below via a malicious PHP file upload to (1) Dashboard's Avatar image, (2) Posts Folder image, (3) Pages Folder image and (4) Gallery Folder image.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-34257'>https://www.tenable.com/cve/CVE-2021-34257</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
