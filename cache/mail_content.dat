@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28352</font><br/>[<b>披露时间</b>] 2022-04-02 17:15:00<br/>[<b>漏洞描述</b>] WeeChat (aka Wee Enhanced Environment for Chat) 3.2 to 3.4 before 3.4.1 does not properly verify the TLS certificate of the server, after certain GnuTLS options are changed, which allows man-in-the-middle attackers to spoof a TLS chat server via an arbitrary certificate. NOTE: this only affects situations where weechat.network.gnutls_ca_system or weechat.network.gnutls_ca_user is changed without a WeeChat restart.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28352'>https://www.tenable.com/cve/CVE-2022-28352</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0315</font><br/>[<b>披露时间</b>] 2022-03-24 09:15:07 <br/>[<b>漏洞描述</b>] Insecure Temporary File in GitHub repository horovod/horovod prior to 0.24.0.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0315'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0315</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0290</font><br/>[<b>披露时间</b>] 2022-02-12 02:15:09 <br/>[<b>漏洞描述</b>] Use after free in Site isolation in Google Chrome prior to 97.0.4692.99 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0290'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0290</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28356</font><br/>[<b>披露时间</b>] 2022-04-02 21:15:00<br/>[<b>漏洞描述</b>] In the Linux kernel before 5.17.1, a refcount leak bug was found in net/llc/af_llc.c.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28356'>https://www.tenable.com/cve/CVE-2022-28356</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
