@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-05 13:46:05 -->
+<!-- RELEASE TIME : 2022-04-05 14:41:25 -->
 <html lang="zh-cn">
 
  <head>
@@ -143,6 +143,54 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">cbd23093655f99cad38c4db2dbcfc2de</td>
+       <td>CVE-2022-26361</td>
+       <td>2022-04-05 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>IOMMU: RMRR (VT-d) and unity map (AMD-Vi) handling issues T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Certain PCI devices in a system might be assigned Reserved Memory Regions (specified via Reserved Memory Region Reporting, "RMRR") for Intel VT-d or Unity Mapping ranges for AMD-Vi. These are typically used for platform tasks such as legacy USB emulation. Since the precise purpose of these regions is unknown, once a device associated with such a region is active, the mappings of these regions need to remain continuouly accessible by the device. This requirement has been violated. Subsequent DMA or interrupts from the device may have unpredictable behaviour, ranging from IOMMU faults to memory corruption.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26361">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">61dd8b729de693768bb873ca400abf2e</td>
+       <td>CVE-2022-26360</td>
+       <td>2022-04-05 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>IOMMU: RMRR (VT-d) and unity map (AMD-Vi) handling issues T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Certain PCI devices in a system might be assigned Reserved Memory Regions (specified via Reserved Memory Region Reporting, "RMRR") for Intel VT-d or Unity Mapping ranges for AMD-Vi. These are typically used for platform tasks such as legacy USB emulation. Since the precise purpose of these regions is unknown, once a device associated with such a region is active, the mappings of these regions need to remain continuouly accessible by the device. This requirement has been violated. Subsequent DMA or interrupts from the device may have unpredictable behaviour, ranging from IOMMU faults to memory corruption.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26360">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">723f83ad0ed8fca87d35a2ef1fb96d00</td>
+       <td>CVE-2022-26359</td>
+       <td>2022-04-05 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>IOMMU: RMRR (VT-d) and unity map (AMD-Vi) handling issues T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Certain PCI devices in a system might be assigned Reserved Memory Regions (specified via Reserved Memory Region Reporting, "RMRR") for Intel VT-d or Unity Mapping ranges for AMD-Vi. These are typically used for platform tasks such as legacy USB emulation. Since the precise purpose of these regions is unknown, once a device associated with such a region is active, the mappings of these regions need to remain continuouly accessible by the device. This requirement has been violated. Subsequent DMA or interrupts from the device may have unpredictable behaviour, ranging from IOMMU faults to memory corruption.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26359">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f9b016f302e540bfd81b8dc56ad7b27</td>
+       <td>CVE-2022-26358</td>
+       <td>2022-04-05 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>IOMMU: RMRR (VT-d) and unity map (AMD-Vi) handling issues T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Certain PCI devices in a system might be assigned Reserved Memory Regions (specified via Reserved Memory Region Reporting, "RMRR") for Intel VT-d or Unity Mapping ranges for AMD-Vi. These are typically used for platform tasks such as legacy USB emulation. Since the precise purpose of these regions is unknown, once a device associated with such a region is active, the mappings of these regions need to remain continuouly accessible by the device. This requirement has been violated. Subsequent DMA or interrupts from the device may have unpredictable behaviour, ranging from IOMMU faults to memory corruption.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26358">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">204a42f24a5ef824055b6f27315c773d</td>
+       <td>CVE-2022-26357</td>
+       <td>2022-04-05 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>race in VT-d domain ID cleanup Xen domain IDs are up to 15 bits wide. VT-d hardware may allow for only less than 15 bits to hold a domain ID associating a physical device with a particular domain. Therefore internally Xen domain IDs are mapped to the smaller value range. The cleaning up of the housekeeping structures has a race, allowing for VT-d domain IDs to be leaked and flushes to be bypassed.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26357">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">27d7439a05d9d970dfdc52caa81b5cdd</td>
+       <td>CVE-2022-26356</td>
+       <td>2022-04-05 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Racy interactions between dirty vram tracking and paging log dirty hypercalls Activation of log dirty mode done by XEN_DMOP_track_dirty_vram (was named HVMOP_track_dirty_vram before Xen 4.9) is racy with ongoing log dirty hypercalls. A suitably timed call to XEN_DMOP_track_dirty_vram can enable log dirty while another CPU is still in the process of tearing down the structures related to a previously enabled log dirty mode (XEN_DOMCTL_SHADOW_OP_OFF). This is due to lack of mutually exclusive locking between both operations and can lead to entries being added in already freed slots, resulting in a memory leak.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26356">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">8490c9d03fade668153bca43172009b8</td>
        <td>CVE-2021-38834</td>
@@ -333,54 +381,6 @@
        <td>2022-04-04 20:15:00 <img src="imgs/new.gif" /></td>
        <td>A remote cross-site scripting (xss) vulnerability was discovered in HPE OneView version(s): Prior to 6.6. HPE has provided a software update to resolve this vulnerability in HPE OneView.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23697">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0af6ce886434df49cc154732a821892e</td>
-       <td>CVE-2022-1233</td>
-       <td>2022-04-04 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>URL Confusion When Scheme Not Supplied in GitHub repository medialize/uri.js prior to 1.19.11.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1233">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2bea9c64ba10c9380ae4f10bbd257c46</td>
-       <td>CVE-2022-27651</td>
-       <td>2022-04-04 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw was found in buildah where containers were incorrectly started with non-empty default permissions. A bug was found in Moby (Docker Engine) where containers were incorrectly started with non-empty inheritable Linux process capabilities, enabling an attacker with access to programs with inheritable file capabilities to elevate those capabilities to the permitted set when execve(2) runs. This has the potential to impact confidentiality and integrity.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b352a858cd02943570e405dd0875a405</td>
-       <td>CVE-2022-27608</td>
-       <td>2022-04-04 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Forcepoint One Endpoint prior to version 22.01 installed on Microsoft Windows is vulnerable to registry key tampering by users with Administrator privileges. This could result in a user disabling anti-tampering mechanisms which would then allow the user to disable Forcepoint One Endpoint and the protection offered by it.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27608">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fdd897e64113c6be648d0473d9dacb36</td>
-       <td>CVE-2022-25613</td>
-       <td>2022-04-04 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Authenticated Persistent Cross-Site Scripting (XSS) vulnerability in FV Flowplayer Video Player (WordPress plugin) versions <= 7.5.18.727 via &fv_wp_flowplayer_field_splash parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25613">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9378df814ea23b03b504911d3e6febe0</td>
-       <td>CVE-2022-26572</td>
-       <td>2022-04-04 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Xerox ColorQube 8580 was discovered to contain an access control issue which allows attackers to print, view the status, and obtain sensitive information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26572">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c769641ec072410b9851dc3b13481d5c</td>
-       <td>CVE-2022-25569</td>
-       <td>2022-04-04 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Bettini Srl GAMS Product Line v4.3.0 was discovered to re-use static SSH keys across installations, allowing unauthenticated attackers to login as root users via extracting a key from the software.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25569">详情</a></td>
       </tr>
 
      </tbody>
