@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-05 06:48:45 -->
+<!-- RELEASE TIME : 2022-04-05 10:42:52 -->
 <html lang="zh-cn">
 
  <head>
@@ -143,6 +143,38 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">6f28ed57d24905e31d815522ec96887c</td>
+       <td>CVE-2022-1236</td>
+       <td>2022-04-05 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>Weak Password Requirements in GitHub repository weseek/growi prior to v5.0.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1236">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e53194d37fe267d8f7a7753acf657a97</td>
+       <td>CVE-2022-1235</td>
+       <td>2022-04-05 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Weak secrethash can be brute-forced in GitHub repository livehelperchat/livehelperchat prior to 3.96.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1235">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e383d61c444555eb954d4a01969db260</td>
+       <td>CVE-2022-25154</td>
+       <td>2022-04-05 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>A DLL hijacking vulnerability in Samsung portable SSD T5 PC software before 1.6.9 could allow a local attacker to escalate privileges. (An attacker must already have user privileges on Windows 7, 10, or 11 to exploit this vulnerability.)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25154">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a13fbe927379742d4997a5849ad75e46</td>
+       <td>CVE-2022-23909</td>
+       <td>2022-04-05 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is an unquoted service path in Sherpa Connector Service (SherpaConnectorService.exe) 2020.2.20328.2050. This might allow a local user to escalate privileges by creating a "C:\Program Files\Sherpa Software\Sherpa.exe" file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23909">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">77ed17eba744ddf51e12f14bb69cea3f</td>
        <td>CVE-2022-1213</td>
@@ -349,38 +381,6 @@
        <td>2022-04-04 18:15:00 <img src="imgs/new.gif" /></td>
        <td>Directus is a real-time API and App dashboard for managing SQL database content. Prior to version 9.7.0, unauthorized JavaScript (JS) can be executed by inserting an iframe into the rich text html interface that links to a file uploaded HTML file that loads another uploaded JS file in its script tag. This satisfies the regular content security policy header, which in turn allows the file to run any arbitrary JS. This issue was resolved in version 9.7.0. As a workaround, disable the live embed in the what-you-see-is-what-you-get by adding `{ "media_live_embeds": false }` to the _Options Overrides_ option of the Rich Text HTML interface.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24814">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4c0251ec6362c0fdc3e197080b8156c8</td>
-       <td>CVE-2022-24813</td>
-       <td>2022-04-04 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>CreateWiki is Miraheze's MediaWiki extension for requesting & creating wikis. Without the patch for this issue, anonymous comments can be made using Special:RequestWikiQueue when sent directly via POST. A patch for this issue is available in the `master` branch of CreateWiki's GitHub repository.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24813">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">21f6ce355c344ab98f92a0329d75e145</td>
-       <td>CVE-2022-24801</td>
-       <td>2022-04-04 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Twisted is an event-based framework for internet applications, supporting Python 3.6+. Prior to version 22.4.0rc1, the Twisted Web HTTP 1.1 server, located in the `twisted.web.http` module, parsed several HTTP request constructs more leniently than permitted by RFC 7230. This non-conformant parsing can lead to desync if requests pass through multiple HTTP parsers, potentially resulting in HTTP request smuggling. Users who may be affected use Twisted Web's HTTP 1.1 server and/or proxy and also pass requests through a different HTTP server and/or proxy. The Twisted Web client is not affected. The HTTP 2.0 server uses a different parser, so it is not affected. The issue has been addressed in Twisted 22.4.0rc1. Two workarounds are available: Ensure any vulnerabilities in upstream proxies have been addressed, such as by upgrading them; or filter malformed requests by other means, such as configuration of an upstream proxy.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24801">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d43d18d73315f3e11a23811780aab52</td>
-       <td>CVE-2022-24787</td>
-       <td>2022-04-04 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vyper is a Pythonic Smart Contract Language for the Ethereum Virtual Machine. In version 0.3.1 and prior, bytestrings can have dirty bytes in them, resulting in the word-for-word comparisons giving incorrect results. Even without dirty nonzero bytes, two bytestrings can compare to equal if one ends with `"\x00"` because there is no comparison of the length. A patch is available and expected to be part of the 0.3.2 release. There are currently no known workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24787">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ff4c90fd3e2d3d1e4f4573193c547332</td>
-       <td>CVE-2022-0990</td>
-       <td>2022-04-04 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Server-Side Request Forgery (SSRF) in GitHub repository janeczku/calibre-web prior to 0.6.18.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0990">详情</a></td>
       </tr>
 
      </tbody>
