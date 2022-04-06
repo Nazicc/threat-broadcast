@@ -1,18 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
     <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25757</font><br/>[<b>披露时间</b>] 2022-03-28 07:15:06 <br/>[<b>漏洞描述</b>] In Apache APISIX before 2.13.0, when decoding JSON with duplicate keys, lua-cjson will choose the last occurred value as the result. By passing a JSON with a duplicate key, the attacker can bypass the body_schema validation in the request-validation plugin. For example, `{&quot;string_payload&quot;:&quot;bad&quot;,&quot;string_payload&quot;:&quot;good&quot;}` can be used to hide the &quot;bad&quot; input. Systems satisfy three conditions below are affected by this attack: 1. use body_schema validation in the request-validation plugin 2. upstream application uses a special JSON library that chooses the first occurred value, like jsoniter or gojay 3. upstream application does not validate the input anymore. The fix in APISIX is to re-encode the validated JSON input back into the request body at the side of APISIX. Improper Input Validation vulnerability in __COMPONENT__ of Apache APISIX allows an attacker to __IMPACT__. This issue affects Apache APISIX Apache APISIX version 2.12.1 and prior versions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25757'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25757</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23882</font><br/>[<b>披露时间</b>] 2022-04-02 02:14:16<br/>[<b>漏洞描述</b>] TuziCMS SQL注入漏洞（CNVD-2022-25982）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413259'>http://cve.scap.org.cn/vuln/VHN-413259</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25582</font><br/>[<b>披露时间</b>] 2022-04-02 02:14:16<br/>[<b>漏洞描述</b>] ClassCMS跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416406'>http://cve.scap.org.cn/vuln/VHN-416406</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1064</font><br/>[<b>披露时间</b>] 2022-04-02 02:14:16<br/>[<b>漏洞描述</b>] forkcms SQL注入漏洞（CNVD-2022-25983）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418519'>http://cve.scap.org.cn/vuln/VHN-418519</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28209</font><br/>[<b>披露时间</b>] 2022-03-30 07:15:07 <br/>[<b>漏洞描述</b>] An issue was discovered in Mediawiki through 1.37.1. The check for the override-antispoof permission in the AntiSpoof extension is incorrect.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28209'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28209</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
