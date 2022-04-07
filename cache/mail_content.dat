@@ -1,14 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27016</font><br/>[<b>披露时间</b>] 2022-04-07 15:15:00<br/>[<b>漏洞描述</b>] There is a stack overflow vulnerability in the SetStaticRouteCfg() function in the httpd service of Tenda AC9 15.03.2.21_cn.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-27016'>https://www.tenable.com/cve/CVE-2022-27016</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26627</font><br/>[<b>披露时间</b>] 2022-04-07 15:15:00<br/>[<b>漏洞描述</b>] Online Project Time Management System v1.0 was discovered to contain an arbitrary file write vulnerability which allows attackers to execute arbitrary code via a crafted HTML file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26627'>https://www.tenable.com/cve/CVE-2022-26627</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25339</font><br/>[<b>披露时间</b>] 2022-04-07 15:15:00<br/>[<b>漏洞描述</b>] ownCloud owncloud/android 2.20 has Incorrect Access Control for local attackers.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25339'>https://www.tenable.com/cve/CVE-2022-25339</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25338</font><br/>[<b>披露时间</b>] 2022-04-07 14:15:00<br/>[<b>漏洞描述</b>] ownCloud owncloud/android before 2.20 has Incorrect Access Control for physically proximate attackers.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25338'>https://www.tenable.com/cve/CVE-2022-25338</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43429</font><br/>[<b>披露时间</b>] 2022-04-07 17:15:00<br/>[<b>漏洞描述</b>] A Denial of Service vulnerability exists in CORTX-S3 Server as of 11/7/2021 via the mempool_destroy method due to a failture to release locks pool->lock.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43429'>https://www.tenable.com/cve/CVE-2021-43429</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43421</font><br/>[<b>披露时间</b>] 2022-04-07 17:15:00<br/>[<b>漏洞描述</b>] A File Upload vulnerability exists in Studio-42 elFinder 2.0.4 to 2.1.59 via connector.minimal.php, which allows a remote malicious user to upload arbitrary files and execute PHP code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43421'>https://www.tenable.com/cve/CVE-2021-43421</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27022</font><br/>[<b>披露时间</b>] 2022-04-07 16:15:00<br/>[<b>漏洞描述</b>] There is a stack overflow vulnerability in the SetSysTimeCfg() function in the httpd service of Tenda AC9 V15.03.2.21_cn. The attacker can obtain a stable root shell through a constructed payload.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-27022'>https://www.tenable.com/cve/CVE-2022-27022</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
