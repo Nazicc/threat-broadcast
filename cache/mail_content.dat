@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26613</font><br/>[<b>披露时间</b>] 2022-04-06 21:15:00<br/>[<b>漏洞描述</b>] PHP-CMS v1.0 was discovered to contain a SQL injection vulnerability via the category parameter in categorymenu.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26613'>https://www.tenable.com/cve/CVE-2022-26613</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26607</font><br/>[<b>披露时间</b>] 2022-04-06 21:15:00<br/>[<b>漏洞描述</b>] A remote code execution (RCE) vulnerability in baigo CMS v3.0-alpha-2 was discovered to allow attackers to execute arbitrary code via uploading a crafted PHP file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26607'>https://www.tenable.com/cve/CVE-2022-26607</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26605</font><br/>[<b>披露时间</b>] 2022-04-06 21:15:00<br/>[<b>漏洞描述</b>] eZiosuite v2.0.7 contains an authenticated arbitrary file upload via the Avatar upload functionality.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26605'>https://www.tenable.com/cve/CVE-2022-26605</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26591</font><br/>[<b>披露时间</b>] 2022-04-06 20:15:00<br/>[<b>漏洞描述</b>] FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows unauthenticated attackers to access and download arbitrary files via a crafted GET request.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26591'>https://www.tenable.com/cve/CVE-2022-26591</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-22253</font><br/>[<b>披露时间</b>] 2022-04-06 23:15:00<br/>[<b>漏洞描述</b>] Xiongmai Technology Co devices AHB7008T-MH-V2, AHB7804R-ELS, AHB7804R-MH-V2, AHB7808R-MS-V2, AHB7808R-MS, AHB7808T-MS-V2, AHB7804R-LMS, and HI3518E_50H10L_S39 were all discovered to have port 9530 open which allows unauthenticated attackers to make arbitrary Telnet connections with the victim device.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-22253'>https://www.tenable.com/cve/CVE-2020-22253</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
