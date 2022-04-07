@@ -1,11 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22965</font><br/>[<b>披露时间</b>] 2022-04-07 10:51:18<br/>[<b>漏洞描述</b>] Cisco多个产品存在 Spring 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5770'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5770</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27819</font><br/>[<b>披露时间</b>] 2022-04-07 02:15:00<br/>[<b>漏洞描述</b>] SWHKD 1.1.5 allows unsafe parsing via the -c option. An information leak might occur but there is a simple denial of service (memory exhaustion) upon an attempt to parse a large or infinite file (such as a block or character device).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-27819'>https://www.tenable.com/cve/CVE-2022-27819</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27818</font><br/>[<b>披露时间</b>] 2022-04-07 02:15:00<br/>[<b>漏洞描述</b>] SWHKD 1.1.5 unsafely uses the /tmp/swhkd.sock pathname. There can be an information leak or denial of service.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-27818'>https://www.tenable.com/cve/CVE-2022-27818</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-27376</font><br/>[<b>披露时间</b>] 2022-04-07 02:15:00<br/>[<b>漏洞描述</b>] Dr Trust USA iCheck Connect BP Monitor BP Testing 118 version 1.2.1 is vulnerable to Missing Authentication.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-27376'>https://www.tenable.com/cve/CVE-2020-27376</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-27375</font><br/>[<b>披露时间</b>] 2022-04-07 02:15:00<br/>[<b>漏洞描述</b>] Dr Trust USA iCheck Connect BP Monitor BP Testing 118 version 1.2.1 is vulnerable to Transmitting Write Requests and Chars.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-27375'>https://www.tenable.com/cve/CVE-2020-27375</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-27374</font><br/>[<b>披露时间</b>] 2022-04-07 02:15:00<br/>[<b>漏洞描述</b>] Dr Trust USA iCheck Connect BP Monitor BP Testing 118 1.2.1 is vulnerable to a Replay Attack to BP Monitoring.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-27374'>https://www.tenable.com/cve/CVE-2020-27374</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-27373</font><br/>[<b>披露时间</b>] 2022-04-07 02:15:00<br/>[<b>漏洞描述</b>] Dr Trust USA iCheck Connect BP Monitor BP Testing 118 1.2.1 is vulnerable to Plain text command over BLE.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-27373'>https://www.tenable.com/cve/CVE-2020-27373</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
