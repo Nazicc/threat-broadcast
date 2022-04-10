@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1286</font><br/>[<b>披露时间</b>] 2022-04-10 11:15:00<br/>[<b>漏洞描述</b>] heap-buffer-overflow in mrb_vm_exec in mruby/mruby in GitHub repository mruby/mruby prior to 3.2. Possible arbitrary code execution if being exploited.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1286'>https://www.tenable.com/cve/CVE-2022-1286</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1276</font><br/>[<b>披露时间</b>] 2022-04-10 10:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds Read in mrb_get_args in GitHub repository mruby/mruby prior to 3.2. Possible arbitrary code execution if being exploited.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1276'>https://www.tenable.com/cve/CVE-2022-1276</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-21830</font><br/>[<b>披露时间</b>] 2022-04-11 16:54:38<br/>[<b>漏洞描述</b>] 七牛Logkit监控中心存在未授权访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-21830'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-21830</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
