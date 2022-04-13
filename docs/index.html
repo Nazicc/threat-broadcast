@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-13 22:41:17 -->
+<!-- RELEASE TIME : 2022-04-13 23:41:28 -->
 <html lang="zh-cn">
 
  <head>
@@ -191,6 +191,38 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">3c2791485a23b9a0cfd9279aa4848629</td>
+       <td>CVE-2022-24844</td>
+       <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. The problem occurs in the following code in server/service/system/sys_auto_code_pgsql.go, which means that PostgreSQL must be used as the database for this vulnerability to occur. Users must: Require JWT loginï¼‰ and be using PostgreSQL to be affected. This issue has been resolved in version 2.5.1. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24844">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f49fc9e876341c83f88fae1d5a616666</td>
+       <td>CVE-2022-24828</td>
+       <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Composer is a dependency manager for the PHP programming language. Integrators using Composer code to call `VcsDriver::getFileContent` can have a code injection vulnerability if the user can control the `$file` or `$identifier` argument. This leads to a vulnerability on packagist.org for example where the composer.json's `readme` field can be used as a vector for injecting parameters into hg/Mercurial via the `$file` argument, or git via the `$identifier` argument if you allow arbitrary data there (Packagist does not, but maybe other integrators do). Composer itself should not be affected by the vulnerability as it does not call `getFileContent` with arbitrary data into `$file`/`$identifier`. To the best of our knowledge this was not abused, and the vulnerability has been patched on packagist.org and Private Packagist within a day of the vulnerability report.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24828">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9a5fd166436424ebc66c3c2c16f84e51</td>
+       <td>CVE-2022-24818</td>
+       <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>GeoTools is an open source Java library that provides tools for geospatial data. The GeoTools library has a number of data sources that can perform unchecked JNDI lookups, which in turn can be used to perform class deserialization and result in arbitrary code execution. Similar to the Log4J case, the vulnerability can be triggered if the JNDI names are user-provided, but requires admin-level login to be triggered. The lookups are now restricted in GeoTools 26.4, GeoTools 25.6, and GeoTools 24.6. Users unable to upgrade should ensure that any downstream application should not allow usage of remotely provided JNDI strings.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24818">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ea2f5535868ec225e4710ba8531cade9</td>
+       <td>CVE-2022-24816</td>
+       <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request can lead to a Remote Code Execution as the Jiffle script is compiled into Java code via Janino, and executed. In particular, this affects the downstream GeoServer project. Version 1.2.22 will contain a patch that disables the ability to inject malicious code into the resulting script. Users unable to upgrade may negate the ability to compile Jiffle scripts from the final application, by removing janino-x.y.z.jar from the classpath.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24816">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">f2ffc3cd27bce2a1855491131f0b558c</td>
        <td>CVE-2022-27479</td>
@@ -397,38 +429,6 @@
        <td>2022-04-13 13:15:00 <img src="imgs/new.gif" /></td>
        <td>Froxlor through 0.10.22 does not perform validation on user input passed in the customermail GET parameter. The value of this parameter is reflected in the login webpage, allowing the injection of arbitrary HTML tags.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-29653">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d14bf9c37cb1d063d50a9605ec61d3ca</td>
-       <td>CVE-2022-27475</td>
-       <td>2022-04-13 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross site scripting (XSS) vulnerability in tramyardg hotel-mgmt-system, allows attackers to execute arbitrary code when when /admin.php is loaded.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27475">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c476322bb2057fa781de40e947f0e94e</td>
-       <td>CVE-2022-1339</td>
-       <td>2022-04-13 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection in ElementController.php in GitHub repository pimcore/pimcore prior to 10.3.5. This vulnerability is capable of steal the data</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1339">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4946f49431a39deff8738ffa7d1d342</td>
-       <td>CVE-2022-29156</td>
-       <td>2022-04-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>drivers/infiniband/ulp/rtrs/rtrs-clt.c in the Linux kernel before 5.16.12 has a double free related to rtrs_clt_dev_release.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29156">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e27f1c27ed61db2c7b71dbbf066b0eeb</td>
-       <td>CVE-2022-22279</td>
-       <td>2022-04-13 06:15:00 <img src="imgs/new.gif" /></td>
-       <td>** UNSUPPORTED WHEN ASSIGNED ** A post-authentication arbitrary file read vulnerability impacting end-of-life Secure Remote Access (SRA) products and older firmware versions of Secure Mobile Access (SMA) 100 series products, specifically the SRA appliances running all 8.x, 9.0.0.5-19sv and earlier versions and Secure Mobile Access (SMA) 100 series products running older firmware 9.0.0.9-26sv and earlier versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22279">详情</a></td>
       </tr>
 
      </tbody>
