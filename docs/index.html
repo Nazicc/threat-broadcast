@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-13 18:47:39 -->
+<!-- RELEASE TIME : 2022-04-13 19:38:31 -->
 <html lang="zh-cn">
 
  <head>
@@ -208,6 +208,46 @@
       </tr>
 
       <tr>
+       <td scope="row">32ea30f5f187ba4e3bef77880f6a22bc</td>
+       <td>CVE-2022-0221</td>
+       <td>2022-04-13 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A CWE-611: Improper Restriction of XML External Entity Reference vulnerability exists that could result in information disclosure when opening a malicious solution file provided by an attacker with SCADAPack Workbench. This could be exploited to pass data from local files to a remote system controlled by an attacker. Affected Product: SCADAPack Workbench (6.6.8a and prior)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0221">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">00d4e523c90b76e95b3d9780eef4de6e</td>
+       <td>CVE-2021-42136</td>
+       <td>2022-04-13 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A stored Cross-Site Scripting (XSS) vulnerability in the Missing Data Codes Functionality of REDCap 11.2.5 allows remote attackers to execute JavaScript code in the client's browser by storing said code as a Missing Data Code value. This can then be leveraged to execute a Cross-Site Request Forgery attack to escalate privileges to administrator.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42136">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4e696f2aec91f5512692b50427bf0d4</td>
+       <td>CVE-2021-22795</td>
+       <td>2022-04-13 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability exists that could cause remote code execution when performed over the network. Affected Product: StruxureWare Data Center Expert (V7.8.1 and prior)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-22795">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32a6becf882bf528f62a3ad9ae272096</td>
+       <td>CVE-2021-22794</td>
+       <td>2022-04-13 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability exists that could cause remote code execution. Affected Product: StruxureWare Data Center Expert (V7.8.1 and prior)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-22794">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9b4e33880c3f5d6a2dcc9827ebba72af</td>
+       <td>CVE-2015-20107</td>
+       <td>2022-04-13 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Python (aka CPython) through 3.10.4, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2015-20107">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f84e024c46fb53f585f6370bd9b70b80</td>
        <td>CVE-2022-28052</td>
        <td>2022-04-13 15:15:00 <img src="imgs/new.gif" /></td>
@@ -389,46 +429,6 @@
        <td>2022-04-12 20:15:00 <img src="imgs/new.gif" /></td>
        <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Subversion Plugin 2.15.3 and earlier allows attackers to connect to an attacker-specified URL.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29048">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f5e881eb88d4dc702b7e2c28ebfe919e</td>
-       <td>CVE-2022-29047</td>
-       <td>2022-04-12 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins Pipeline: Shared Groovy Libraries Plugin 564.ve62a_4eb_b_e039 and earlier, except 2.21.3, allows attackers able to submit pull requests (or equivalent), but not able to commit directly to the configured SCM, to effectively change the Pipeline behavior by changing the definition of a dynamically retrieved library in their pull request, even if the Pipeline is configured to not trust them.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29047">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dbafe24d82d38515410ce55ce3f58a8a</td>
-       <td>CVE-2022-29046</td>
-       <td>2022-04-12 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins Subversion Plugin 2.15.3 and earlier does not escape the name and description of List Subversion tags (and more) parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29046">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">17b5badcfd833b228dbc660ea8200ed9</td>
-       <td>CVE-2022-29045</td>
-       <td>2022-04-12 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins promoted builds Plugin 873.v6149db_d64130 and earlier, except 3.10.1, does not escape the name and description of Promoted Build parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29045">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4609e8ae68afd0f46d4925e2760d484e</td>
-       <td>CVE-2022-0915</td>
-       <td>2022-04-12 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is a Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability in Logitech Sync for Windows prior to 2.4.574. Successful exploitation of these vulnerabilities may escalate the permission to the system user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0915">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e724978333a536d34b72edb9659abbd8</td>
-       <td>CVE-2022-24842</td>
-       <td>2022-04-12 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. A security issue was found where an non-admin user is able to create service accounts for root or other admin users and then is able to assume their access policies via the generated credentials. This in turn allows the user to escalate privilege to that of the root user. This vulnerability has been resolved in pull request #14729 and is included in `RELEASE.2022-04-12T06-55-35Z`. Users unable to upgrade may workaround this issue by explicitly adding a `admin:CreateServiceAccount` deny policy, however, this, in turn, denies the user the ability to create their own service accounts as well.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24842">详情</a></td>
       </tr>
 
      </tbody>
