@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-13 23:41:28 -->
+<!-- RELEASE TIME : 2022-04-14 03:27:25 -->
 <html lang="zh-cn">
 
  <head>
@@ -192,6 +192,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">571c47b0e07a67e64b7a9fd4734dca15</td>
+       <td>CVE-2021-43154</td>
+       <td>2022-04-13 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross Site Scripting (XSS) vulnerability exists in CMS Made Simple 2.2.15 via the Name field in an Add Category action in moduleinterface.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43154">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3667846cbc24995c11114f0899d46784</td>
+       <td>CVE-2022-24847</td>
+       <td>2022-04-13 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. The GeoServer security mechanism can perform an unchecked JNDI lookup, which in turn can be used to perform class deserialization and result in arbitrary code execution. The same can happen while configuring data stores with data sources located in JNDI, or while setting up the disk quota mechanism. In order to perform any of the above changes, the attack needs to have obtained admin rights and use either the GeoServer GUI, or its REST API. The lookups are going to be restricted in GeoServer 2.21.0, 2.20.4, 1.19.6. Users unable to upgrade should restrict access to the `geoserver/web` and `geoserver/rest` via a firewall and ensure that the GeoWebCache is not remotely accessible.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24847">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b26ca2a60c0fa5428aade706125298a</td>
+       <td>CVE-2022-24845</td>
+       <td>2022-04-13 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. In affected versions, the return of `<iface>.returns_int128()` is not validated to fall within the bounds of `int128`. This issue can result in a misinterpretation of the integer value and lead to incorrect behavior. As of v0.3.0, `<iface>.returns_int128()` is validated in simple expressions, but not complex expressions. Users are advised to upgrade. There is no known workaround for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24845">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ce2ed41cfc761931e90f7bbca96984ec</td>
+       <td>CVE-2022-24843</td>
+       <td>2022-04-13 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. Gin-vue-admin 2.50 has arbitrary file read vulnerability due to a lack of parameter validation. This has been resolved in version 2.5.1. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24843">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3c2791485a23b9a0cfd9279aa4848629</td>
        <td>CVE-2022-24844</td>
        <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
@@ -221,6 +253,14 @@
        <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
        <td>JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request can lead to a Remote Code Execution as the Jiffle script is compiled into Java code via Janino, and executed. In particular, this affects the downstream GeoServer project. Version 1.2.22 will contain a patch that disables the ability to inject malicious code into the resulting script. Users unable to upgrade may negate the ability to compile Jiffle scripts from the final application, by removing janino-x.y.z.jar from the classpath.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24816">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fbf274c7d619f05955109f29b8ed4952</td>
+       <td>CVE-2022-24844</td>
+       <td>2022-04-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. The problem occurs in the following code in server/service/system/sys_auto_code_pgsql.go, which means that PostgreSQL must be used as the database for this vulnerability to occur. Users must: Require JWT login? and be using PostgreSQL to be affected. This issue has been resolved in version 2.5.1. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24844">详情</a></td>
       </tr>
 
       <tr>
@@ -389,46 +429,6 @@
        <td>2022-04-13 14:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue in EasyIO CPT Graphics v0.8 allows attackers to discover valid users in the application.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26643">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3fe2d0e5eecbf3df2235d19ad4a04d16</td>
-       <td>CVE-2022-26144</td>
-       <td>2022-04-13 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>An XSS issue was discovered in MantisBT before 2.25.3. Improper escaping of a Plugin name allows execution of arbitrary code (if CSP allows it) in manage_plugin_page.php and manage_plugin_uninstall.php when a crafted plugin is installed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26144">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">26af8dfc248b3204d925e8b22df5e36d</td>
-       <td>CVE-2021-43741</td>
-       <td>2022-04-13 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>CMSimple 5.4 is vulnerable to Directory Traversal. The vulnerability exists when a user changes the file name to malicious file on config.php leading to remote code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43741">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">718f3880b241d9bedc9730de41a67768</td>
-       <td>CVE-2022-24308</td>
-       <td>2022-04-13 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Automox Agent prior to version 37 on Windows and Linux and Version 36 on OSX could allow for a non privileged user to obtain sensitive information during the install process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24308">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f07c7bcf1888065b1c54af41d5fc51d2</td>
-       <td>CVE-2021-43742</td>
-       <td>2022-04-13 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>CMSimple 5.4 is vulnerable to Cross Site Scripting (XSS) via the file upload feature.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43742">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0665f3393f545fb89ca9621ce3c01f50</td>
-       <td>CVE-2020-29653</td>
-       <td>2022-04-13 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Froxlor through 0.10.22 does not perform validation on user input passed in the customermail GET parameter. The value of this parameter is reflected in the login webpage, allowing the injection of arbitrary HTML tags.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-29653">详情</a></td>
       </tr>
 
      </tbody>
@@ -892,7 +892,7 @@
       <tr>
        <td scope="row">ff6bc91750c04aaad222c80db02b15ec</td>
        <td>CNVD-2022-21892</td>
-       <td>2022-04-12 16:58:50 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 16:58:50</td>
        <td>TOTOLINK N302R Plus存在命令执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-21892">详情</a></td>
       </tr>
@@ -900,7 +900,7 @@
       <tr>
        <td scope="row">a1ccdd6a34785736520e5db7462a39cf</td>
        <td>CNVD-2022-27552 (CVE-2020-20096)</td>
-       <td>2022-04-12 16:58:48 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 16:58:48</td>
        <td>Facebook WhatsApp存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-27552">详情</a></td>
       </tr>
@@ -908,7 +908,7 @@
       <tr>
        <td scope="row">201cfeb92bdc570237c8f730c031e495</td>
        <td>CNVD-2022-28453 (CVE-2021-26699)</td>
-       <td>2022-04-12 06:47:29 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 06:47:29</td>
        <td>Open-xchange OX App Suite代码问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28453">详情</a></td>
       </tr>
@@ -916,7 +916,7 @@
       <tr>
        <td scope="row">3a1c99672e057489dd50be8a78e4493e</td>
        <td>CNVD-2022-28452 (CVE-2021-26698)</td>
-       <td>2022-04-12 06:47:27 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 06:47:27</td>
        <td>Open-xchange OX App Suite跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28452">详情</a></td>
       </tr>
@@ -924,7 +924,7 @@
       <tr>
        <td scope="row">d9c3578f32b42cdffadbe3cab2d3ea57</td>
        <td>CNVD-2022-28451 (CVE-2021-44208)</td>
-       <td>2022-04-12 06:47:22 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 06:47:22</td>
        <td>Open-xchange OX App Suite跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28451">详情</a></td>
       </tr>
@@ -932,7 +932,7 @@
       <tr>
        <td scope="row">51b522fc34144ff77172a016953d0bc4</td>
        <td>CNVD-2022-28450 (CVE-2021-44209)</td>
-       <td>2022-04-12 06:47:20 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 06:47:20</td>
        <td>Open-xchange OX App Suite跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28450">详情</a></td>
       </tr>
@@ -940,7 +940,7 @@
       <tr>
        <td scope="row">257e659a38649b2b33752e7dfc1b1906</td>
        <td>CNVD-2022-28454 (CVE-2021-44210)</td>
-       <td>2022-04-12 06:47:17 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 06:47:17</td>
        <td>Open-xchange OX App Suite跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28454">详情</a></td>
       </tr>
@@ -1002,7 +1002,7 @@
       <tr>
        <td scope="row">1ebbfb24f489b2addce273d824a62d58</td>
        <td>CNNVD-202204-3285 (CVE-2022-27381)</td>
-       <td>2022-04-12 13:45:23 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:23</td>
        <td>MariaDB 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3285">详情</a></td>
       </tr>
@@ -1010,7 +1010,7 @@
       <tr>
        <td scope="row">751c472da201acf4b0772736c0d7e087</td>
        <td>CNNVD-202204-3286 (CVE-2022-27379)</td>
-       <td>2022-04-12 13:45:22 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:22</td>
        <td>MariaDB 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3286">详情</a></td>
       </tr>
@@ -1018,7 +1018,7 @@
       <tr>
        <td scope="row">edcc3630b099731610eb5ac0d30cab19</td>
        <td>CNNVD-202204-3287 (CVE-2021-44520)</td>
-       <td>2022-04-12 13:45:20 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:20</td>
        <td>Citrix Systems XenMobile Server 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3287">详情</a></td>
       </tr>
@@ -1026,7 +1026,7 @@
       <tr>
        <td scope="row">6cc15e3da514d46a34a1e1101dd7360a</td>
        <td>CNNVD-202204-3288 (CVE-2022-1264)</td>
-       <td>2022-04-12 13:45:18 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:18</td>
        <td>Inductive Automation Ignition 路径遍历漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3288">详情</a></td>
       </tr>
@@ -1034,7 +1034,7 @@
       <tr>
        <td scope="row">0e29fd9d9d86507467339f3ce110faa5</td>
        <td>CNNVD-202204-3289 (CVE-2022-26151)</td>
-       <td>2022-04-12 13:45:16 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:16</td>
        <td>Citrix Systems XenMobile Server 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3289">详情</a></td>
       </tr>
@@ -1042,7 +1042,7 @@
       <tr>
        <td scope="row">0e7abfbeca1ebaa6e9b52332240c218f</td>
        <td>CNNVD-202204-3290 (CVE-2022-26921)</td>
-       <td>2022-04-12 13:45:14 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:14</td>
        <td>Microsoft Visual Studio 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3290">详情</a></td>
       </tr>
@@ -1050,7 +1050,7 @@
       <tr>
        <td scope="row">e71a236447c3fcf17d7f25a96aa89ff4</td>
        <td>CNNVD-202204-3291 (CVE-2022-26589)</td>
-       <td>2022-04-12 13:45:12 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:12</td>
        <td>Pluck安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3291">详情</a></td>
       </tr>
@@ -1058,7 +1058,7 @@
       <tr>
        <td scope="row">c5a6548970941da8dd44d0bc58c7e86f</td>
        <td>CNNVD-202204-3292 (CVE-2022-26924)</td>
-       <td>2022-04-12 13:45:10 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:45:10</td>
        <td>Microsoft YARP reverse proxy 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3292">详情</a></td>
       </tr>
@@ -1826,7 +1826,7 @@
       <tr>
        <td scope="row">bc4c237b5cbd817c258d878392089363</td>
        <td>CVE-2021-28146</td>
-       <td>2022-04-12 13:52:07 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:52:07</td>
        <td>Grafana 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4a5d7cdc7d414ed0902f71acb37213f0">详情</a></td>
       </tr>
@@ -1834,7 +1834,7 @@
       <tr>
        <td scope="row">456924957206f20794c383e104989295</td>
        <td>CVE-2021-27595</td>
-       <td>2022-04-12 13:52:03 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:52:03</td>
        <td>SAP 3D Visual Enterprise Viewer 输入验证错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=d605229d8c65496686feaf886285b367">详情</a></td>
       </tr>
@@ -1842,7 +1842,7 @@
       <tr>
        <td scope="row">8a3f0da3ccf3248f7581b15aae4370cc</td>
        <td>CVE-2021-27962</td>
-       <td>2022-04-12 13:51:59 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:59</td>
        <td>Grafana Labs Grafana Enterprise 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=cbe307c40b5241c6be9e0d2f0145688e">详情</a></td>
       </tr>
@@ -1850,7 +1850,7 @@
       <tr>
        <td scope="row">484d8914f323d40939d282e86859a1ac</td>
        <td>CVE-2021-26295</td>
-       <td>2022-04-12 13:51:54 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:54</td>
        <td>Apache OFBiz 代码问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7c227006d9a147d79f7e51677cad5b00">详情</a></td>
       </tr>
@@ -1858,7 +1858,7 @@
       <tr>
        <td scope="row">da81ce3c36f86176b34c569f5cf7f8f1</td>
        <td>CVE-2021-27596</td>
-       <td>2022-04-12 13:51:50 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:50</td>
        <td>SAP 3D Visual Enterprise Viewer 输入验证错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c463bf5ad4e04ea98f8fe609883ddbc5">详情</a></td>
       </tr>
@@ -1866,7 +1866,7 @@
       <tr>
        <td scope="row">9f187950988d3368e230b820cef3406d</td>
        <td>CVE-2021-27593</td>
-       <td>2022-04-12 13:51:46 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:46</td>
        <td>SAP 3D Visual Enterprise Viewer 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0a4420c9561d4f6e96452fffaadcd579">详情</a></td>
       </tr>
@@ -1874,7 +1874,7 @@
       <tr>
        <td scope="row">f85288a7a9cc4b3531d9e5891d16fd97</td>
        <td>CVE-2021-21438</td>
-       <td>2022-04-12 13:51:41 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:41</td>
        <td>OTRS OTRS 权限许可和访问控制问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2e3ea05f951c44a99ca211598ebd41ea">详情</a></td>
       </tr>
@@ -1882,7 +1882,7 @@
       <tr>
        <td scope="row">8662dbc8d7999f023d20292a2afbe343</td>
        <td>CVE-2021-26070</td>
-       <td>2022-04-12 13:51:37 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:37</td>
        <td>Atlassian Jira 授权问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3a6b6cff28cc444486a8a660eed1018a">详情</a></td>
       </tr>
@@ -1890,7 +1890,7 @@
       <tr>
        <td scope="row">ce37ea68f7f04b144f32cc31204311a8</td>
        <td>CVE-2020-13963</td>
-       <td>2022-04-12 13:51:33 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:33</td>
        <td>SOPlanning 授权问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=eb23d8d9061348feb48414834b025a78">详情</a></td>
       </tr>
@@ -1898,7 +1898,7 @@
       <tr>
        <td scope="row">aa360c4efb74e62352cc63b201c20b62</td>
        <td>CVE-2021-28957</td>
-       <td>2022-04-12 13:51:28 <img src="imgs/new.gif" /></td>
+       <td>2022-04-12 13:51:28</td>
        <td>Lxml 跨站脚本漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=56818551ca9845f7a0b351d4dbedd9a9">详情</a></td>
       </tr>
@@ -2506,6 +2506,24 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b1ea68d15f9634c96971593c29040b02</td>
+       <td>CVE-2022-24491</td>
+       <td>2022-04-12 03:26:20</td>
+       <td>Windows 网络文件系统远程代码执行漏洞
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-24491">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7f57ad8dbf77779abfe030c873e98360</td>
+       <td>CVE-2022-26809</td>
+       <td>2022-04-12 03:26:20</td>
+       <td>Windows 远程过程调用运行时远程执行代码漏洞
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-26809">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0f258b1c9c62f6382e86a1d6281713e1</td>
        <td>CVE-2022-22954</td>
        <td>2022-04-08 03:29:42</td>
@@ -2755,24 +2773,6 @@
        <td>Apache ShenYu Admin plugin 未授权访问漏洞（CVE-2022-23944）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-23944">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0329e0bbebeb749debd8cd40a36ed939</td>
-       <td>AVD-2022-987442</td>
-       <td>2022-01-24 09:02:39</td>
-       <td>Apache Solr log4j 远程代码执行漏洞
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-987442">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">96f4497e4b2975584306b3754845b117</td>
-       <td>CVE-2022-24112</td>
-       <td>2022-01-24 09:02:39</td>
-       <td>Apache APISIX batch-requests SSRF 漏洞
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-987436">详情</a></td>
       </tr>
 
      </tbody>
