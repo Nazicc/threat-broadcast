@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-15 05:42:43 -->
+<!-- RELEASE TIME : 2022-04-15 07:40:06 -->
 <html lang="zh-cn">
 
  <head>
@@ -191,6 +191,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">2408aea41fba7b18240b0ba17d387fe6</td>
+       <td>CVE-2022-27188</td>
+       <td>2022-04-15 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>OS command injection vulnerability exists in CENTUM VP R4.01.00 to R4.03.00, CENTUM VP Small R4.01.00 to R4.03.00, CENTUM VP Basic R4.01.00 to R4.03.00, and B/M9000 VP R6.01.01 to R6.03.02, which may allow an attacker who can access the computer where the affected product is installed to execute an arbitrary OS command by altering a file generated using Graphic Builder.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27188">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4071c7b7f426f2feb69d969190e476b0</td>
+       <td>CVE-2022-26034</td>
+       <td>2022-04-15 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authentication vulnerability in the communication protocol provided by AD (Automation Design) server of CENTUM VP R6.01.10 to R6.09.00, CENTUM VP Small R6.01.10 to R6.09.00, CENTUM VP Basic R6.01.10 to R6.09.00, and B/M9000 VP R8.01.01 to R8.03.01 allows an attacker to use the functions provided by AD server. This may lead to leakage or tampering of data managed by AD server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26034">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">93e1d1e451fb7c9410adbd6feea50f0e</td>
        <td>CVE-2022-24855</td>
@@ -413,22 +429,6 @@
        <td>2022-04-14 16:15:00 <img src="imgs/new.gif" /></td>
        <td>An Improper Handling of Unexpected Data Type vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a locally authenticated attacker with low privileges to cause a Denial of Service (DoS). Continued execution of this command might cause a sustained Denial of Service condition. If BGP rib sharding is configured and a certain CLI command is executed the rpd process can crash. During the rpd crash and restart, the routing protocols might be impacted and traffic disruption might be seen due to the loss of routing information. This issue affects: Juniper Networks Junos OS 20.3 versions prior to 20.3R3-S1; 20.4 versions prior to 20.4R3; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R2. Juniper Networks Junos OS Evolved 20.4 versions prior to 20.4R3-EVO; 21.1 versions prior to 21.1R3-EVO; 21.2 versions prior to 21.2R2-EVO. This issue does not affect: Juniper Networks Junos OS versions prior to 20.3R1. Juniper Networks Junos OS Evolved versions prior to 20.3R1-EVO.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22193">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc0521ff0509e3e0448092d82c369422</td>
-       <td>CVE-2022-22191</td>
-       <td>2022-04-14 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Denial of Service (DoS) vulnerability in the processing of a flood of specific ARP traffic in Juniper Networks Junos OS on the EX4300 switch, sent from the local broadcast domain, may allow an unauthenticated network-adjacent attacker to trigger a PFEMAN watchdog timeout, causing the Packet Forwarding Engine (PFE) to crash and restart. After the restart, transit traffic will be temporarily interrupted until the PFE is reprogrammed. In a virtual chassis (VC), the impacted Flexible PIC Concentrator (FPC) may split from the VC temporarily, and join back into the VC once the PFE restarts. Continued receipt and processing of these packets will create a sustained Denial of Service (DoS) condition. This issue affects Juniper Networks Junos OS on the EX4300: All versions prior to 15.1R7-S12; 18.4 versions prior to 18.4R2-S10, 18.4R3-S11; 19.1 versions prior to 19.1R3-S8; 19.2 versions prior to 19.2R1-S9, 19.2R3-S4; 19.3 versions prior to 19.3R3-S5; 19.4 versions prior to 19.4R2-S6, 19.4R3-S7; 20.1 versions prior to 20.1R3-S3; 20.2 versions prior to 20.2R3-S3; 20.3 versions prior to 20.3R3-S2; 20.4 versions prior to 20.4R3-S1; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R2-S1, 21.2R3; 21.3 versions prior to 21.3R1-S2, 21.3R2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22191">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">78cab508c7263956f66e379aab7330bf</td>
-       <td>CVE-2022-1351</td>
-       <td>2022-04-14 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Stored XSS in Tooltip in GitHub repository pimcore/pimcore prior to 10.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1351">详情</a></td>
       </tr>
 
      </tbody>
@@ -770,6 +770,62 @@
       </tr>
 
       <tr>
+       <td scope="row">c7fd6d3b48ddc7ef902a9e0247e375ec</td>
+       <td>CNVD-2022-29290 (CVE-2021-40635)</td>
+       <td>2022-04-15 07:39:25 <img src="imgs/new.gif" /></td>
+       <td>OS4Ed OpenSIS SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79a4b7b959eff7c03e244e9aff3afb36</td>
+       <td>CNVD-2022-29291 (CVE-2021-40636)</td>
+       <td>2022-04-15 07:39:23 <img src="imgs/new.gif" /></td>
+       <td>OS4Ed OpenSIS SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29291">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">597bc8ab1b1df1bd377b8045639efaad</td>
+       <td>CNVD-2022-29292 (CVE-2022-23648)</td>
+       <td>2022-04-15 07:39:21 <img src="imgs/new.gif" /></td>
+       <td>Apache containerd信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29292">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f7cc489691fc207af8bbf1608b3e3949</td>
+       <td>CNVD-2022-29293 (CVE-2021-40637)</td>
+       <td>2022-04-15 07:39:19 <img src="imgs/new.gif" /></td>
+       <td>OS4Ed OpenSIS跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29293">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a255471b920428ae19a793d5e57d23bd</td>
+       <td>CNVD-2022-29294 (CVE-2021-46702)</td>
+       <td>2022-04-15 07:39:14 <img src="imgs/new.gif" /></td>
+       <td>Tor Browser信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29294">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">78299936225ac2c4609c9f9a75afe34b</td>
+       <td>CNVD-2022-29295 (CVE-2022-0500)</td>
+       <td>2022-04-15 07:39:11 <img src="imgs/new.gif" /></td>
+       <td>Linux kernel缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29295">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">560e22134603727e3486a80f58733d7a</td>
+       <td>CNVD-2022-29296 (CVE-2020-27958)</td>
+       <td>2022-04-15 07:39:09 <img src="imgs/new.gif" /></td>
+       <td>Open OnDemand存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-29296">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">944e14dd80fcddfc3d6148c6d9e4da61</td>
        <td>CNVD-2022-27360</td>
        <td>2022-04-14 16:58:55 <img src="imgs/new.gif" /></td>
@@ -911,62 +967,6 @@
        <td>2022-04-14 10:44:15 <img src="imgs/new.gif" /></td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28911">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a91a96d509779cb6dd8b1c95c9366a7e</td>
-       <td>CNVD-2022-28910 (CVE-2021-39795)</td>
-       <td>2022-04-14 10:44:13 <img src="imgs/new.gif" /></td>
-       <td>Google Android权限提升漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28910">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b196a00060b11ebcaa685d12edd14efd</td>
-       <td>CNVD-2022-28909 (CVE-2021-39796)</td>
-       <td>2022-04-14 10:44:10 <img src="imgs/new.gif" /></td>
-       <td>Google Android权限提升漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28909">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b2080b482586aecf1478538230bfd8a8</td>
-       <td>CNVD-2022-28802 (CVE-2022-21702)</td>
-       <td>2022-04-14 04:48:58 <img src="imgs/new.gif" /></td>
-       <td>Grafana跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28802">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">199e41f50437fed67062d786f4f43798</td>
-       <td>CNVD-2022-28487 (CVE-2022-25650)</td>
-       <td>2022-04-13 08:45:41</td>
-       <td>Siemens Mendix访问控制错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28487">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2924036e39e06fdb23f4e3e992a16a77</td>
-       <td>CNVD-2022-28486 (CVE-2022-25751)</td>
-       <td>2022-04-13 08:45:39</td>
-       <td>Siemens SCALANCE X-300 Switch Family Devices输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28486">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86c594ad7ae15697a9583aa4e9e941a6</td>
-       <td>CNVD-2022-28485 (CVE-2022-25752)</td>
-       <td>2022-04-13 08:45:36</td>
-       <td>Siemens SCALANCE X-300 Switch Family Devices存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28485">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec0f86be304e5f8d0c818f42b0e4fe53</td>
-       <td>CNVD-2022-28484 (CVE-2022-25753)</td>
-       <td>2022-04-13 08:45:34</td>
-       <td>Siemens SCALANCE X-300 Switch Family Devices缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-28484">详情</a></td>
       </tr>
 
      </tbody>
