@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-18 22:44:20 -->
+<!-- RELEASE TIME : 2022-04-18 23:40:17 -->
 <html lang="zh-cn">
 
  <head>
@@ -208,6 +208,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d67c4ef993534f851d7d600b083d4cf4</td>
+       <td>CVE-2022-29458</td>
+       <td>2022-04-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29458">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6242c2f394d7ec5b6bbaca5531ad5d0e</td>
+       <td>CVE-2022-29457</td>
+       <td>2022-04-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Zoho ManageEngine ADSelfService Plus before 6121, ADAuditPlus 7060, Exchange Reporter Plus 5701, and ADManagerPlus 7131 allow NTLM Hash disclosure during certain storage-path configuration steps.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29457">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7b304596ebfd35d85799c09a50d15287</td>
        <td>CVE-2022-24863</td>
        <td>2022-04-18 19:15:00 <img src="imgs/new.gif" /></td>
@@ -221,6 +237,14 @@
        <td>2022-04-18 19:15:00 <img src="imgs/new.gif" /></td>
        <td>PyPDF2 is an open source python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files. In versions prior to 1.27.5 an attacker who uses this vulnerability can craft a PDF which leads to an infinite loop if the PyPDF2 if the code attempts to get the content stream. The reason is that the last while-loop in `ContentStream._readInlineImage` only terminates when it finds the `EI` token, but never actually checks if the stream has already ended. This issue has been resolved in version `1.27.5`. Users unable to upgrade should validate and PDFs prior to iterating over their content stream.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24859">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2f3e99aed4c139f12ef7d4eae5692104</td>
+       <td>CVE-2022-24863</td>
+       <td>2022-04-18 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>http-swagger is an open source wrapper to automatically generate RESTful API documentation with Swagger 2.0. In versions of http-swagger prior to 1.2.6 an attacker may perform a denial of service attack consisting of memory exhaustion on the host system. The cause of the memory exhaustion is down to improper handling of http methods. Users are advised to upgrade. Users unable to upgrade may to restrict the path prefix to the "GET" method as a workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24863">详情</a></td>
       </tr>
 
       <tr>
@@ -421,30 +445,6 @@
        <td>2022-04-18 01:15:00 <img src="imgs/new.gif" /></td>
        <td>global heap buffer overflow in skip_range in GitHub repository vim/vim prior to 8.2. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1381">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0bee4ede9c9dbae98a603af0b28b3fce</td>
-       <td>CVE-2022-1381</td>
-       <td>2022-04-18 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>global heap buffer overflow in skip_range in GitHub repository vim/vim prior to 8.2.4763. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1381">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13818fc19a441a339a13e45f297587b9</td>
-       <td>CVE-2022-28966</td>
-       <td>2022-04-16 16:15:00</td>
-       <td>Wasm3 0.5.0 has a heap-based buffer overflow in NewCodePage in m3_code.c (called indirectly from Compile_BranchTable in m3_compile.c).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28966">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2db1f13218c9f0ea2467487c63b06044</td>
-       <td>CVE-2022-26777</td>
-       <td>2022-04-16 16:15:00</td>
-       <td>Zoho ManageEngine Remote Access Plus before 10.1.2137.15 allows guest users to view license details.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26777">详情</a></td>
       </tr>
 
      </tbody>
