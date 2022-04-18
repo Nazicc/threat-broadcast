@@ -1,14 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-25679</font><br/>[<b>披露时间</b>] 2022-04-18 16:55:01<br/>[<b>漏洞描述</b>] 四创科技有限公司建站系统存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-25679'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-25679</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-25687</font><br/>[<b>披露时间</b>] 2022-04-18 16:55:03<br/>[<b>漏洞描述</b>] BossCMS V1.1 后台存在任意文件下载漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-25687'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-25687</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-25677</font><br/>[<b>披露时间</b>] 2022-04-18 16:55:06<br/>[<b>漏洞描述</b>] TOTOLINK N600R路由器存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-25677'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-25677</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-25692</font><br/>[<b>披露时间</b>] 2022-04-18 16:55:08<br/>[<b>漏洞描述</b>] BossCMS存在任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-25692'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-25692</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-29862 (CVE-2022-0679)</font><br/>[<b>披露时间</b>] 2022-04-17 02:34:09<br/>[<b>漏洞描述</b>] WordPress Narnoo Distributor plugin路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-29862'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-29862</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-29861 (CVE-2021-24978)</font><br/>[<b>披露时间</b>] 2022-04-17 02:34:12<br/>[<b>漏洞描述</b>] WordPress OSMapper plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-29861'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-29861</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-29860 (CVE-2022-0680)</font><br/>[<b>披露时间</b>] 2022-04-17 02:34:14<br/>[<b>漏洞描述</b>] WordPress Plezi plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-29860'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-29860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-29859 (CVE-2022-0479)</font><br/>[<b>披露时间</b>] 2022-04-17 02:34:16<br/>[<b>漏洞描述</b>] WordPress Popup Builder plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-29859'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-29859</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-29858 (CVE-2022-0641)</font><br/>[<b>披露时间</b>] 2022-04-17 02:34:18<br/>[<b>漏洞描述</b>] WordPress Popup Like box plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-29858'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-29858</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-29857 (CVE-2021-25012)</font><br/>[<b>披露时间</b>] 2022-04-17 02:34:20<br/>[<b>漏洞描述</b>] WordPress Pz-LinkCard plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-29857'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-29857</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
