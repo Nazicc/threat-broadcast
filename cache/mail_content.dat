@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-30451 (CVE-2022-27849)</font><br/>[<b>披露时间</b>] 2022-04-19 07:39:41<br/>[<b>漏洞描述</b>] WordPress Simple Ajax Chat plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-30451'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-30451</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-30452 (CVE-2022-27850)</font><br/>[<b>披露时间</b>] 2022-04-19 07:39:44<br/>[<b>漏洞描述</b>] WordPress Simple Ajax Chat plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-30452'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-30452</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-20213</font><br/>[<b>披露时间</b>] 2022-04-19 08:46:01<br/>[<b>漏洞描述</b>] 武汉金同方科技有限公司月子会所ERP管理平台存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-20213'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-20213</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
