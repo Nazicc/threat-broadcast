@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-20 06:51:28 -->
+<!-- RELEASE TIME : 2022-04-20 07:41:02 -->
 <html lang="zh-cn">
 
  <head>
@@ -207,6 +207,30 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">84756194f67efaefa3eddf8ca8f73cb4</td>
+       <td>CVE-2022-27629</td>
+       <td>2022-04-20 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-site request forgery (CSRF) vulnerability in 'MicroPayments - Paid Author Subscriptions, Content, Downloads, Membership' versions prior to 1.9.6 allows a remote unauthenticated attacker to hijack the authentication of an administrator and perform unintended operation via unspecified vectors.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27629">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a911f021a69f317413cc9c967e9b9392</td>
+       <td>CVE-2022-24860</td>
+       <td>2022-04-20 00:16:00 <img src="imgs/new.gif" /></td>
+       <td>Databasir is a team-oriented relational database model document management platform. Databasir 1.01 has Use of Hard-coded Cryptographic Key vulnerability. An attacker can use hard coding to generate login credentials of any user and log in to the service background located at different IP addresses.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24860">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ce19df79c80d2f1c10e27f73ed320c11</td>
+       <td>CVE-2022-24826</td>
+       <td>2022-04-20 00:16:00 <img src="imgs/new.gif" /></td>
+       <td>On Windows, if Git LFS operates on a malicious repository with a `..exe` file as well as a file named `git.exe`, and `git.exe` is not found in `PATH`, the `..exe` program will be executed, permitting the attacker to execute arbitrary code. This does not affect Unix systems. Similarly, if the malicious repository contains files named `..exe` and `cygpath.exe`, and `cygpath.exe` is not found in `PATH`, the `..exe` program will be executed when certain Git LFS commands are run. More generally, if the current working directory contains any file with a base name of `.` and a file extension from `PATHEXT` (except `.bat` and `.cmd`), and also contains another file with the same base name as a program Git LFS intends to execute (such as `git`, `cygpath`, or `uname`) and any file extension from `PATHEXT` (including `.bat` and `.cmd`), then, on Windows, when Git LFS attempts to execute the intended program the `..exe`, `..com`, etc., file will be executed instead, but only if the intended program is not found in any directory listed in `PATH`. The vulnerability occurs because when Git LFS detects that the program it intends to run does not exist in any directory listed in `PATH` then Git LFS passes an empty string as the executable file path to the Go `os/exec` package, which contains a bug such that, on Windows, it prepends the name of the current working directory (i.e., `.`) to the empty string without adding a path separator, and as a result searches in that directory for a file with the base name `.` combined with any file extension from `PATHEXT`, executing the first one it finds. (The reason `..bat` and `..cmd` files are not executed in the same manner is that, although the Go `os/exec` package tries to execute them just as it does a `..exe` file, the Microsoft Win32 API `CreateProcess()` family of functions have an undocumented feature in that they apparently recognize when a caller is attempting to execute a batch script file and instead run the `cmd.exe` command interpreter, passing the full set of command line arguments as parameters. These are unchanged from the command line arguments set by Git LFS, and as such, the intended program's name is the first, resulting in a command line like `cmd.exe /c git`, which then fails.) Git LFS has resolved this vulnerability by always reporting an error when a program is not found in any directory listed in `PATH` rather than passing an empty string to the Go `os/exec` package in this case. The bug in the Go `os/exec` package has been reported to the Go project and is expected to be patched after this security advisory is published. The problem was introduced in version 2.12.1 and is patched in version 3.1.3. Users of affected versions should upgrade to version 3.1.3. There are currently no known workarounds at this time.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24826">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">46e5b6dcc25b92095d7bad0b64f7fb0d</td>
        <td>CVE-2022-24858</td>
@@ -421,30 +445,6 @@
        <td>2022-04-19 13:15:00 <img src="imgs/new.gif" /></td>
        <td>Liferay Portal 7.3.7, 7.4.0, and 7.4.1, and Liferay DXP 7.2 fix pack 13, and 7.3 fix pack 2 does not properly check user permission when accessing a list of sites/groups, which allows remote authenticated users to view sites/groups via the user's site membership assignment UI.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26595">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fc0ea9d975ad9739e2c823dda4db1725</td>
-       <td>CVE-2022-26593</td>
-       <td>2022-04-19 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site scripting (XSS) vulnerability in the Asset module's asset categories selector in Liferay Portal 7.3.3 through 7.4.0, and Liferay DXP 7.3 before service pack 3 allows remote attackers to inject arbitrary web script or HTML via the name of a asset category.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26593">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c9e3ae6e169f54bb9719e66abe635de4</td>
-       <td>CVE-2021-43129</td>
-       <td>2022-04-19 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>An Access Control vulnerability exists in Desire2Learn/D2L Learning Management System (LMS) 20.21.7 via the quizzing feature, which allows a remote malicious user to disable the Disable right click control.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43129">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">803d70a080dea5dac760e13bd37578cf</td>
-       <td>CVE-2021-41570</td>
-       <td>2022-04-19 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Veritas NetBackup OpsCenter Analytics 9.1 allows XSS via the NetBackup Master Server Name, Display Name, NetBackup User Name, or NetBackup Password field during a Settings/Configuration Add operation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41570">详情</a></td>
       </tr>
 
      </tbody>
@@ -754,6 +754,22 @@
       </tr>
 
       <tr>
+       <td scope="row">d38caaa21f137f2a511dd9ace4443c0c</td>
+       <td>CNVD-2022-30797 (CVE-2020-21363)</td>
+       <td>2022-04-20 07:40:05 <img src="imgs/new.gif" /></td>
+       <td>Maccms任意文件删除漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-30797">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">898cd01ca00ae8f28d2fae230a335faa</td>
+       <td>CNVD-2022-30787 (CVE-2021-46367)</td>
+       <td>2022-04-20 07:39:58 <img src="imgs/new.gif" /></td>
+       <td>RiteCMS任意文件上传漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-30787">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b86c5d4741085fb5d9826f128df91805</td>
        <td>CNVD-2022-30777 (CVE-2022-27164)</td>
        <td>2022-04-20 06:50:40 <img src="imgs/new.gif" /></td>
@@ -967,22 +983,6 @@
        <td>2022-04-19 06:49:29 <img src="imgs/new.gif" /></td>
        <td>zbzcms访问控制错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-30434">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fc4038a2563621cf4a24c94e278d0772</td>
-       <td>CNVD-2022-30433 (CVE-2022-27126)</td>
-       <td>2022-04-19 06:49:27 <img src="imgs/new.gif" /></td>
-       <td>zbzcms SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-30433">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e9ae6d03606ad3962911e6b6df1864d0</td>
-       <td>CNVD-2022-30432 (CVE-2022-27131)</td>
-       <td>2022-04-19 06:49:24 <img src="imgs/new.gif" /></td>
-       <td>zbzcms任意文件上传漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-30432">详情</a></td>
       </tr>
 
      </tbody>
@@ -1348,6 +1348,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">abd64b9febb86e1eaa6e9c31db457a8d</td>
+       <td>CVE-2022-23305,CVE-2022-21420,CVE-2022-21441,CVE-2022-23437,CVE-2022-21453,CVE-2021-41184</td>
+       <td>2022-04-20 14:59:01 <img src="imgs/new.gif" /></td>
+       <td>Oracle WebLogic Server多个组件安全漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5874">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1a0a2fa7dac135ef72c6f53669d88b6c</td>
        <td>CVE-2022-22966</td>
        <td>2022-04-15 23:30:40</td>
@@ -1579,14 +1587,6 @@
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5450">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">c3b044cb7fcc9c208b3633daeca1930a</td>
-       <td></td>
-       <td>2022-02-16 15:19:08</td>
-       <td>北京中成科信 综合管理平台 TicketsSellMainHandler.ashx 存在SQL注入漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5459">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -1760,6 +1760,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">289c740bec1088f24aa54b321797b8f0</td>
+       <td>CVE-2020-25218</td>
+       <td>2022-04-20 13:55:11 <img src="imgs/new.gif" /></td>
+       <td>Grandstream GRP261x VoIP phone 授权问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ef3e414cf82849089c377d29ec70b947">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aea03f09c25a396beea47b1d2969ab1c</td>
+       <td>CVE-2021-25372</td>
+       <td>2022-04-20 13:55:07 <img src="imgs/new.gif" /></td>
+       <td>Samsung SMR 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=60612e2941ab43029bf9b8c6fa17a6c8">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fd4b5fbdef4b49f59e60489eeef78de0</td>
+       <td>CVE-2021-25369</td>
+       <td>2022-04-20 13:55:02 <img src="imgs/new.gif" /></td>
+       <td>Samsung SMR 信息泄露漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a0a0656495264f13931f05707bbdcaca">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8e55cb5f64adaf8637d3899069476902</td>
+       <td>CVE-2021-29265</td>
+       <td>2022-04-20 13:54:58 <img src="imgs/new.gif" /></td>
+       <td>Linux kernel 竞争条件问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=71627ead234d4067a471a20cf033e51f">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">61458373cea213e653d5e6d4b18f3c70</td>
+       <td>CVE-2020-25217</td>
+       <td>2022-04-20 13:54:55 <img src="imgs/new.gif" /></td>
+       <td>Grandstream GRP261x VoIP phone 命令注入漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a742c458abbe4ffa8fbd2b758c9c880f">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c2d2fa2db00cf136ef6d32bfa57a1528</td>
+       <td>CVE-2021-22184</td>
+       <td>2022-04-20 13:54:51 <img src="imgs/new.gif" /></td>
+       <td>GitLab 信息泄露漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f77a705ffd6d4e41b2bfb518c865c89f">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5c04e3841fa3f0b512fd4c909a1a839</td>
+       <td>CVE-2021-25370</td>
+       <td>2022-04-20 13:54:46 <img src="imgs/new.gif" /></td>
+       <td>Samsung SMR 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c80e856093774651b97873608b07ea8e">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8082d8fdf0d6596ad59be2ee59e81450</td>
+       <td>CVE-2021-29264</td>
+       <td>2022-04-20 13:54:42 <img src="imgs/new.gif" /></td>
+       <td>Linux kernel 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3419ce30515746bb85f5b83be3508593">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a3627bb6a550c897f30b6183b335107</td>
+       <td>CVE-2021-21411</td>
+       <td>2022-04-20 13:54:38 <img src="imgs/new.gif" /></td>
+       <td>OAuth2-Proxy 访问控制错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4310e89dffea4763b948c21fe2392cf8">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">29d658fc660c997cad1c8ff14e34d2bc</td>
+       <td>CVE-2021-22194</td>
+       <td>2022-04-20 13:54:34 <img src="imgs/new.gif" /></td>
+       <td>GitLab 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8424212f11a04a3dafd59fe8c17ae5f6">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e71c4770100a1821e2dab977e3c275c1</td>
        <td>CVE-2021-3109</td>
        <td>2022-04-19 13:51:22 <img src="imgs/new.gif" /></td>
@@ -1917,86 +1997,6 @@
        <td>2022-04-18 14:04:23</td>
        <td>Genivia gSOAP 输入验证错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=92dd493d2096465eb9674910fb2d3de2">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">69a7c349d51273b67244a75d92d2b938</td>
-       <td>CVE-2021-1382</td>
-       <td>2022-04-17 13:52:47</td>
-       <td>Cisco IOS XE SD-WAN Software 命令注入漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fcf55015bb1f406ba56e95e0d7a0f2ef">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">37f42a4c2784938b3e8f294d11ec16bf</td>
-       <td>CVE-2021-1376</td>
-       <td>2022-04-17 13:52:43</td>
-       <td>Cisco IOS XE 数据伪造问题漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=bb99f1f420504ac4a77a3ae786947ace">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">559a86cd8336eb489560e99d5cf129b9</td>
-       <td>CVE-2021-1374</td>
-       <td>2022-04-17 13:52:38</td>
-       <td>思科 Cisco IOS XE Wireless Controller software 跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=24b51eee001f46fc85ccc597ccd38d1c">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">da01740024206894ef6133ebd4f625ae</td>
-       <td>CVE-2021-1381</td>
-       <td>2022-04-17 13:52:35</td>
-       <td>思科 Cisco IOS XE Software 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7527f454dfb24fef9192e3f381176c63">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e23f0ce8576098c13e44e40b90ee5cb4</td>
-       <td>CVE-2021-1371</td>
-       <td>2022-04-17 13:52:31</td>
-       <td>Cisco IOS XE SD-WAN Software 默认配置问题漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fba848d93e9246ba8b7303d6456318c0">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">892c8242f3345b50f458c411ebcbcedc</td>
-       <td>CVE-2021-1383</td>
-       <td>2022-04-17 13:52:28</td>
-       <td>Cisco IOS XE SD-WAN Software 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=55f56cc5172542ad802ab2ec3273c094">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">65b1f96caeccc4a69a36e22c2e1ac0ba</td>
-       <td>CVE-2021-1375</td>
-       <td>2022-04-17 13:52:24</td>
-       <td>Cisco IOS XE SD-WAN Software 数据伪造问题漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3db1e3ede23f4f059c4b4044bd7fd1eb">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">543713ceae55ff775c3a2462d1ceacad</td>
-       <td>CVE-2021-1220</td>
-       <td>2022-04-17 13:52:20</td>
-       <td>Cisco IOS XE Software 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=61a9b3050eea455ebbf26174c710a69f">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9f803ce55757ddef94789100430da6d4</td>
-       <td>CVE-2021-1377</td>
-       <td>2022-04-17 13:52:15</td>
-       <td>Cisco IOS和IOS XE 资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9b8e762706b741e5b006e12d098c926b">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">89edc7692aed1a71913e63580f0be932</td>
-       <td>CVE-2021-1356</td>
-       <td>2022-04-17 13:52:11</td>
-       <td>Cisco IOS XE Software 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c5f1343cdfd646b2832e1ae8aabb9f85">详情</a></td>
       </tr>
 
      </tbody>
