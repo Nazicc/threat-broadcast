@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-31938 (CVE-2021-45452)</font><br/>[<b>披露时间</b>] 2022-04-24 10:42:39<br/>[<b>漏洞描述</b>] Django路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-31938'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-31938</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46542</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Cesanta MJS分段错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64399'>http://www.nsfocus.net/vulndb/64399</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46548</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Cesanta MJS分段错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64398'>http://www.nsfocus.net/vulndb/64398</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46528</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Cesanta MJS分段错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64397'>http://www.nsfocus.net/vulndb/64397</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46516</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Cesanta MJS分段错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64396'>http://www.nsfocus.net/vulndb/64396</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46498</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Jsish堆释放后重用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64395'>http://www.nsfocus.net/vulndb/64395</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46491</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Jsish分段错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64394'>http://www.nsfocus.net/vulndb/64394</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46485</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Jsish分段错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64393'>http://www.nsfocus.net/vulndb/64393</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44122</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] SPIP跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64392'>http://www.nsfocus.net/vulndb/64392</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46560</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Moxa TN-5900命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64391'>http://www.nsfocus.net/vulndb/64391</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21686</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] PrestaShop代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64390'>http://www.nsfocus.net/vulndb/64390</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42791</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Veridium VeridiumAD HTTP请求走私漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64389'>http://www.nsfocus.net/vulndb/64389</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46383</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] MingSoft MCMS SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64388'>http://www.nsfocus.net/vulndb/64388</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44795</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Kronos Single Connect授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64387'>http://www.nsfocus.net/vulndb/64387</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-32849</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Gerapy命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64386'>http://www.nsfocus.net/vulndb/64386</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22828</font><br/>[<b>披露时间</b>] 2022-04-24 11:38:25<br/>[<b>漏洞描述</b>] Synametrics Technologies SynaMan授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64385'>http://www.nsfocus.net/vulndb/64385</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
