@@ -1,14 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-8927</font><br/>[<b>披露时间</b>] 2022-04-24 13:54:01<br/>[<b>漏洞描述</b>] Google brotli Library 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0b549175952742c7a1d370df8dc7e7db'>https://redqueen.tj-un.com/IntelDetails.html?id=0b549175952742c7a1d370df8dc7e7db</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-24977</font><br/>[<b>披露时间</b>] 2022-04-24 13:53:57<br/>[<b>漏洞描述</b>] libxml2 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ad8ca68fee8d494e841b69244db007fa'>https://redqueen.tj-un.com/IntelDetails.html?id=ad8ca68fee8d494e841b69244db007fa</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-6112</font><br/>[<b>披露时间</b>] 2022-04-24 13:53:53<br/>[<b>漏洞描述</b>] Nitro Software Nitro Pro 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7fae26af8f9a4c9d81ae640d3cfac739'>https://redqueen.tj-un.com/IntelDetails.html?id=7fae26af8f9a4c9d81ae640d3cfac739</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-24616</font><br/>[<b>披露时间</b>] 2022-04-24 13:53:49<br/>[<b>漏洞描述</b>] FasterXML jackson-databind 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=89cc710264a448bfbb7b085114f79b39'>https://redqueen.tj-un.com/IntelDetails.html?id=89cc710264a448bfbb7b085114f79b39</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-31838 (CVE-2022-28346)</font><br/>[<b>披露时间</b>] 2022-04-24 08:44:13<br/>[<b>漏洞描述</b>] Django SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-31838'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-31838</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-31837 (CVE-2022-28347)</font><br/>[<b>披露时间</b>] 2022-04-24 08:44:18<br/>[<b>漏洞描述</b>] Django SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-31837'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-31837</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
