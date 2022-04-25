@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-25 18:52:41 -->
+<!-- RELEASE TIME : 2022-04-25 19:38:46 -->
 <html lang="zh-cn">
 
  <head>
@@ -240,6 +240,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">881ce16add8c6d2a23aee1dcc71e638f</td>
+       <td>CVE-2022-29419</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>SQL Injection (SQLi) vulnerability in Don Crowther's 3xSocializer plugin <= 0.98.22 at WordPress possible for users with a low role like a subscriber or higher.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29419">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fc4cfc149b82616e40b70a421d3661d6</td>
+       <td>CVE-2022-29418</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Authenticated (admin user role) Persistent Cross-Site Scripting (XSS) in Mark Daniels Night Mode plugin <= 1.0.0 on WordPress via vulnerable parameters: &ntmode_page_setting[enable-me], &ntmode_page_setting[bg-color], &ntmode_page_setting[txt-color], &ntmode_page_setting[anc_color].</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29418">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8e96d80af3008b97ca3c4e5199673370</td>
+       <td>CVE-2022-29417</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Plugin Settings Update vulnerability in ShortPixel's ShortPixel Adaptive Images plugin <= 3.3.1 at WordPress allows an attacker with a low user role like a subscriber or higher to change the plugin settings.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29417">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0d6039b0b49bed3d63a9b263cd92b16b</td>
+       <td>CVE-2022-28290</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Reflective Cross-Site Scripting vulnerability in WordPress Country Selector Plugin Version 1.6.5. The XSS payload executes whenever the user tries to access the country selector page with the specified payload as a part of the HTTP request</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1ba0c04587598568ae233e30b4f2eb06</td>
+       <td>CVE-2022-25866</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package czproject/git-php before 4.0.3 are vulnerable to Command Injection via git argument injection. When calling the isRemoteUrlReadable($url, array $refs = NULL) function, both the url and refs parameters are passed to the git ls-remote subcommand in a way that additional flags can be set. The additional flags can be used to perform a command injection.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25866">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f565c292c1fbdbe728ecc51f50cee5c8</td>
+       <td>CVE-2022-1441</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>MP4Box is a component of GPAC-2.0.0, which is a widely-used third-party package on RPM Fusion. When MP4Box tries to parse a MP4 file, it calls the function `diST_box_read()` to read from video. In this function, it allocates a buffer `str` with fixed length. However, content read from `bs` is controllable by user, so is the length, which causes a buffer overflow.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1441">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d93cd7d3db66823d917c31d78c789a04</td>
+       <td>CVE-2022-0477</td>
+       <td>2022-04-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue has been discovered in GitLab affecting all versions starting from 11.9 before 14.5.4, all versions starting from 14.6.0 before 14.6.4, all versions starting from 14.7.0 before 14.7.1. GitLab was not correctly handling bulk requests to delete existing packages from the package registries which could result in a Denial of Service under specific conditions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0477">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">de75063f608da88f396ed365c3be5326</td>
+       <td>CVE-2022-27375</td>
+       <td>2022-04-25 16:16:00 <img src="imgs/new.gif" /></td>
+       <td>Tenda AX12 V22.03.01.21_CN was discovered to contain a Cross-Site Request Forgery (CSRF) via the function sub_422168 at /goform/WifiExtraSet.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27375">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f246f2c92d2cf5d5eae21f8e8a235850</td>
+       <td>CVE-2022-27374</td>
+       <td>2022-04-25 16:16:00 <img src="imgs/new.gif" /></td>
+       <td>Tenda AX12 V22.03.01.21_CN was discovered to contain a Cross-Site Request Forgery (CSRF) via the function sub_42E328 at /goform/SysToolReboot.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27374">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">679aa5fad9cf1ab6dee06bad4bdb4794</td>
+       <td>CVE-2022-26597</td>
+       <td>2022-04-25 16:16:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-site scripting (XSS) vulnerability in the Layout module's Open Graph integration in Liferay Portal 7.3.0 through 7.4.0, and Liferay DXP 7.3 before service pack 3 allows remote attackers to inject arbitrary web script or HTML via the site name.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26597">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">15e3de530ae3130b740b4bab8218d274</td>
        <td>CVE-2022-29078</td>
        <td>2022-04-25 15:15:00 <img src="imgs/new.gif" /></td>
@@ -397,86 +477,6 @@
        <td>2022-04-25 10:15:00 <img src="imgs/new.gif" /></td>
        <td>Stored XSS Leads To Session Hijacking in GitHub repository openemr/openemr prior to 6.1.0.1.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1458">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f4caf6448bb175f1b8e8cb23fca03eb</td>
-       <td>CVE-2022-29603</td>
-       <td>2022-04-25 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>A SQL Injection vulnerability exists in UniverSIS UniverSIS-API through 1.2.1 via the $select parameter to multiple API endpoints. A remote authenticated attacker could send crafted SQL statements to a vulnerable endpoint (such as /api/students/me/messages/) to, for example, retrieve personal information or change grades.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29603">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5615a5c8d66cdb40763213ec2d359378</td>
-       <td>CVE-2019-25059</td>
-       <td>2022-04-25 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>Artifex Ghostscript through 9.26 mishandles .completefont. NOTE: this issue exists because of an incomplete fix for CVE-2019-3839.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2019-25059">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">46d83cafadd8ff41892e660ed56b417e</td>
-       <td>CVE-2022-29546</td>
-       <td>2022-04-25 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>HtmlUnit NekoHtml Parser before 2.61.0 suffers from a denial of service vulnerability. Crafted input associated with the parsing of Processing Instruction (PI) data leads to heap memory consumption. This is similar to CVE-2022-28366 but affects a much later version of the product.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29546">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">244a69e192f6f593882d4ac40ef24df6</td>
-       <td>CVE-2022-29077</td>
-       <td>2022-04-25 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>A heap-based buffer overflow exists in rippled before 1.8.5. The vulnerability allows attackers to cause a crash or execute commands remotely on a rippled node, which may lead to XRPL mainnet DoS or compromise. This exposes all digital assets from the Ripple Network to a security threat.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29077">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bf5d4b29e6009ea94d2e7171a2e37e3e</td>
-       <td>CVE-2022-1452</td>
-       <td>2022-04-24 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds Read in r_bin_java_bootstrap_methods_attr_new function in GitHub repository radareorg/radare2 prior to 5.7.0. The bug causes the program reads data past the end 2f the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash. More details see [CWE-125: Out-of-bounds read](https://cwe.mitre.org/data/definitions/125.html).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1452">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d2b176bacd363b77d3fb3d711d5c58a1</td>
-       <td>CVE-2022-1451</td>
-       <td>2022-04-24 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds Read in r_bin_java_constant_value_attr_new function in GitHub repository radareorg/radare2 prior to 5.7.0. The bug causes the program reads data past the end 2f the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash. More details see [CWE-125: Out-of-bounds read](https://cwe.mitre.org/data/definitions/125.html).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1451">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">775e35838a118478c08968968ccc8434</td>
-       <td>CVE-2022-1445</td>
-       <td>2022-04-24 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Stored Cross Site Scripting vulnerability in the checked_out_to parameter in GitHub repository snipe/snipe-it prior to 5.4.3. The vulnerability is capable of stolen the user Cookie.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1445">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4649d0cffd83a8c94d951ae791edfd63</td>
-       <td>CVE-2022-1444</td>
-       <td>2022-04-23 22:15:00</td>
-       <td>heap-use-after-free in GitHub repository radareorg/radare2 prior to 5.7.0. This vulnerability is capable of inducing denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1444">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c821eab65d11adf4046cc236b9644df6</td>
-       <td>CVE-2022-1427</td>
-       <td>2022-04-23 00:15:00</td>
-       <td>Out-of-bounds Read in mrb_obj_is_kind_of in in GitHub repository mruby/mruby prior to 3.2. # Impact: Possible arbitrary code execution if being exploited.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1427">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">62d61b4a1c47d923edb6ddeafc2db3a4</td>
-       <td>CVE-2022-1108</td>
-       <td>2022-04-22 21:15:00</td>
-       <td>A potential vulnerability due to improper buffer validation in the SMI handler LenovoFlashDeviceInterface in Thinkpad X1 Fold Gen 1 could be exploited by an attacker with local access and elevated privileges to execute arbitrary code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1108">详情</a></td>
       </tr>
 
      </tbody>
@@ -1800,6 +1800,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5805ba8fb66b6ab062dda22fb7ddfff5</td>
+       <td>CVE-2021-21099</td>
+       <td>2022-04-26 01:59:59 <img src="imgs/new.gif" /></td>
+       <td>Adobe InDesign 缓冲区错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=dc2859b59e8e4cefbd622d429b6050dc">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5f6077f0780bcc172ea1c858b62dd9b7</td>
+       <td>CVE-2021-22342</td>
+       <td>2022-04-26 01:59:55 <img src="imgs/new.gif" /></td>
+       <td>Huawei IPS Module和Huawei USG9500 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e8cf6c6a14134ceaac1dd8869d83fada">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f09bbbdfd4ed4101b8a0436b0c923775</td>
+       <td>CVE-2021-32712</td>
+       <td>2022-04-26 01:59:51 <img src="imgs/new.gif" /></td>
+       <td>Shopware 信息泄露漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=44a0ad9d7bff468e9bc786b57b83c594">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ea87a4e0c78c1c71f0e3378da72e6440</td>
+       <td>CVE-2021-28563</td>
+       <td>2022-04-26 01:59:47 <img src="imgs/new.gif" /></td>
+       <td>Adobe Magento 授权问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4d1970a1a5c046189f9444ab4f420377">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f8392771c9df22d1bf54b9ca63ded13f</td>
+       <td>CVE-2021-22363</td>
+       <td>2022-04-26 01:59:43 <img src="imgs/new.gif" /></td>
+       <td>Huawei eCNS280_TD 资源管理错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5e2accdefcef47c583835d303a1e28bc">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b6ba71a52fd71e541e0d5df2b81450c7</td>
+       <td>CVE-2021-32717</td>
+       <td>2022-04-26 01:59:39 <img src="imgs/new.gif" /></td>
+       <td>Shopware信息泄露漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7d8bfbce7e0a4b49aa26c183f464a904">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5b37c89a765e2f9ed0796acfa37c8ff3</td>
+       <td>CVE-2021-28570</td>
+       <td>2022-04-26 01:59:35 <img src="imgs/new.gif" /></td>
+       <td>Adobe After Effects 代码问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2892eb488f27402f8271478efb209331">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">09edeb4e12084fdef2f329bcbb33fca5</td>
+       <td>CVE-2021-34372</td>
+       <td>2022-04-26 01:59:31 <img src="imgs/new.gif" /></td>
+       <td>NVIDIA Jetson 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a5f49545c2334b5290a28b16a5fd218c">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8db9af01ec1aec8155787d32373ded5f</td>
+       <td>CVE-2021-31615</td>
+       <td>2022-04-26 01:59:27 <img src="imgs/new.gif" /></td>
+       <td>Bluetooth 加密问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5e1b0e6722494ccaa192452f979244db">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dc51898688a61cd35da58718b0afe6a1</td>
+       <td>CVE-2021-28576</td>
+       <td>2022-04-26 01:59:23 <img src="imgs/new.gif" /></td>
+       <td>Adobe Animate 缓冲区错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=040968e522424e6daf2e5715c3b04d58">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">08bdd8b13683c1a259c600135a85d4bb</td>
        <td>CVE-2021-31997</td>
        <td>2022-04-26 00:59:57 <img src="imgs/new.gif" /></td>
@@ -1957,86 +2037,6 @@
        <td>2022-04-25 23:59:24 <img src="imgs/new.gif" /></td>
        <td>Triconex Model 3009 MP 代码问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=27ac167e79a04135aadea69c81004e89">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">917e060299850ffdf4ef464902c0dedd</td>
-       <td>CVE-2020-8927</td>
-       <td>2022-04-24 13:54:01 <img src="imgs/new.gif" /></td>
-       <td>Google brotli Library 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0b549175952742c7a1d370df8dc7e7db">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b37f7343cfbd8ee94def101e702e261e</td>
-       <td>CVE-2020-24977</td>
-       <td>2022-04-24 13:53:57 <img src="imgs/new.gif" /></td>
-       <td>libxml2 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ad8ca68fee8d494e841b69244db007fa">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b095cce366849c7ea00b7b4da8498cd</td>
-       <td>CVE-2020-6112</td>
-       <td>2022-04-24 13:53:53 <img src="imgs/new.gif" /></td>
-       <td>Nitro Software Nitro Pro 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7fae26af8f9a4c9d81ae640d3cfac739">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">802109ad9992ca7a2c8c3fd780597435</td>
-       <td>CVE-2020-24616</td>
-       <td>2022-04-24 13:53:49 <img src="imgs/new.gif" /></td>
-       <td>FasterXML jackson-databind 代码问题漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=89cc710264a448bfbb7b085114f79b39">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ba812d485e83515b3039c4a69cc39c50</td>
-       <td>CVE-2020-1968</td>
-       <td>2022-04-24 13:53:45 <img src="imgs/new.gif" /></td>
-       <td>OpenSSL 加密问题漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9be21e5fc4a141838b9eaf5ca490fe96">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bdcf716e1140e4aa3229942c92ea676d</td>
-       <td>CVE-2020-6113</td>
-       <td>2022-04-24 13:53:41 <img src="imgs/new.gif" /></td>
-       <td>Nitro Software Nitro Pro 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7c21366b3be0420a89bbf68c90013c47">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">65a1628a980ef080e0c1919fb0c3a6e5</td>
-       <td>CVE-2020-6070</td>
-       <td>2022-04-24 13:53:37 <img src="imgs/new.gif" /></td>
-       <td>fsck.f2fs 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fa5412d2d55843cfb268a9c6ac7c69af">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e43c0e8c84eed4a6b75413f09229915f</td>
-       <td>CVE-2020-6151</td>
-       <td>2022-04-24 13:53:33 <img src="imgs/new.gif" /></td>
-       <td>Accusoft ImageGear 内存损坏漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fd72d4a6b30947a1a5d90e57d652a33d">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5671b2f229db807d888e9eb6091c82ef</td>
-       <td>CVE-2020-15250</td>
-       <td>2022-04-23 13:53:29</td>
-       <td>Junit 信息泄露漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=efd9169754914ac19efea5054afdb61f">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d826007ddc85211338286e3cc516ae0e</td>
-       <td>CVE-2020-26217</td>
-       <td>2022-04-22 13:56:31</td>
-       <td>XStream 操作系统命令注入漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=6680ad3fa59d458385068dab62c6c5c6">详情</a></td>
       </tr>
 
      </tbody>
