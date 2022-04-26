@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-25 23:43:14 -->
+<!-- RELEASE TIME : 2022-04-26 02:39:11 -->
 <html lang="zh-cn">
 
  <head>
@@ -240,6 +240,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">0ef57b4685ac23ec69c39cd529b6140e</td>
+       <td>CVE-2022-24880</td>
+       <td>2022-04-25 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>flask-session-captcha is a package which allows users to extend Flask by adding an image based captcha stored in a server side session. In versions prior to 1.2.1, he `captcha.validate()` function would return `None` if passed no value (e.g. by submitting an having an empty form). If implementing users were checking the return value to be **False**, the captcha verification check could be bypassed. Version 1.2.1 fixes the issue. Users can workaround the issue by not explicitly checking that the value is False. Checking the return value less explicitly should still work.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24880">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3aba21e98c87afd36c2f4604a8717c29</td>
        <td>CVE-2022-23457</td>
        <td>2022-04-25 20:15:00 <img src="imgs/new.gif" /></td>
@@ -469,14 +477,6 @@
        <td>2022-04-25 11:15:00 <img src="imgs/new.gif" /></td>
        <td>It is possible to execute arbitrary commands as root in Terramaster F4-210, F2-210 TOS 4.2.X (4.2.15-2107141517) by sending a specifically crafted input to /tos/index.php?app/del.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45837">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">94b9e2e06ac477fb6def493a1fac616c</td>
-       <td>CVE-2021-45836</td>
-       <td>2022-04-25 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>An authenticated attacker can execute arbitrary commands as root in Terramaster F4-210, F2-210 TOS 4.2.X (4.2.15-2107141517) by injecting a maliciously crafted input in the request through /tos/index.php?app/hand_app.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45836">详情</a></td>
       </tr>
 
      </tbody>
@@ -778,9 +778,57 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fd36b085b837e2fe69b6f9d87b8166ce</td>
+       <td>CNVD-2022-32610 (CVE-2020-28624)</td>
+       <td>2022-04-25 02:38:25 <img src="imgs/new.gif" /></td>
+       <td>Laurent Rineau CGAL代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32610">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d716d087fe3dee6c2f97dda2906571c</td>
+       <td>CNVD-2022-32609 (CVE-2020-28613)</td>
+       <td>2022-04-25 02:38:22 <img src="imgs/new.gif" /></td>
+       <td>Laurent Rineau CGAL代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32609">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c09f64a9efda91e7476aba21f3fd5b84</td>
+       <td>CNVD-2022-32608 (CVE-2020-28610)</td>
+       <td>2022-04-25 02:38:20 <img src="imgs/new.gif" /></td>
+       <td>Laurent Rineau CGAL代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32608">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b4133a44385d9cd8367fda58debf4363</td>
+       <td>CNVD-2022-32607 (CVE-2020-28611)</td>
+       <td>2022-04-25 02:38:17 <img src="imgs/new.gif" /></td>
+       <td>Laurent Rineau CGAL代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32607">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d0361eb412f3c76307e2b80bea787848</td>
+       <td>CNVD-2022-32606 (CVE-2020-28608)</td>
+       <td>2022-04-25 02:38:15 <img src="imgs/new.gif" /></td>
+       <td>Laurent Rineau CGAL代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32606">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">608593c19c45ee63223b76d2330ffaed</td>
+       <td>CNVD-2022-32605 (CVE-2020-28623)</td>
+       <td>2022-04-25 02:38:13 <img src="imgs/new.gif" /></td>
+       <td>Laurent Rineau CGAL代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32605">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9d778bb4a2e89a2bd892473218afff03</td>
        <td>CNVD-2022-31552 (CVE-2021-25082)</td>
-       <td>2022-04-24 16:56:04 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 16:56:04</td>
        <td>WordPress插件Popup Builder路径遍历漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31552">详情</a></td>
       </tr>
@@ -788,7 +836,7 @@
       <tr>
        <td scope="row">30a5a5afe4e81a2cb7738c02caf99995</td>
        <td>CNVD-2022-31554 (CVE-2021-25075)</td>
-       <td>2022-04-24 16:56:02 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 16:56:02</td>
        <td>WordPress插件Duplicate Page or Post跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31554">详情</a></td>
       </tr>
@@ -796,7 +844,7 @@
       <tr>
        <td scope="row">056dca914da96b6471a4879df0dc63a1</td>
        <td>CNVD-2022-31556 (CVE-2021-25069)</td>
-       <td>2022-04-24 16:55:59 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 16:55:59</td>
        <td>WordPress插件Download Manager SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31556">详情</a></td>
       </tr>
@@ -804,7 +852,7 @@
       <tr>
        <td scope="row">4816a766b917ccdc6c85cd92b0d857d7</td>
        <td>CNVD-2022-31557 (CVE-2021-25060)</td>
-       <td>2022-04-24 16:55:56 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 16:55:56</td>
        <td>WordPress插件Five Star Business Profile and Schema跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31557">详情</a></td>
       </tr>
@@ -812,7 +860,7 @@
       <tr>
        <td scope="row">935bd32422c0d9731218bd155efade5c</td>
        <td>CNVD-2022-31558 (CVE-2021-25058)</td>
-       <td>2022-04-24 16:55:54 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 16:55:54</td>
        <td>WordPress插件Buffer Button跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31558">详情</a></td>
       </tr>
@@ -820,7 +868,7 @@
       <tr>
        <td scope="row">b7801b1d0b8c92abe7eea4d0513c2474</td>
        <td>CNVD-2022-31560 (CVE-2022-0313)</td>
-       <td>2022-04-24 16:55:51 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 16:55:51</td>
        <td>Wordpress插件Float menu跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31560">详情</a></td>
       </tr>
@@ -828,7 +876,7 @@
       <tr>
        <td scope="row">cfc5c7d0d0a6d10416175dca283aca88</td>
        <td>CNVD-2022-31849 (CVE-2022-21494)</td>
-       <td>2022-04-24 13:00:33 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:33</td>
        <td>Oracle Solaris存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31849">详情</a></td>
       </tr>
@@ -836,7 +884,7 @@
       <tr>
        <td scope="row">e81e39770df0a1c4da1ea3a382f61643</td>
        <td>CNVD-2022-31848 (CVE-2022-21489)</td>
-       <td>2022-04-24 13:00:31 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:31</td>
        <td>Oracle MySQL输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31848">详情</a></td>
       </tr>
@@ -844,7 +892,7 @@
       <tr>
        <td scope="row">2edc5b8a1985169bd31281b01c66645b</td>
        <td>CNVD-2022-31924 (CVE-2022-21488)</td>
-       <td>2022-04-24 13:00:29 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:29</td>
        <td>Oracle Virtualization和Oracle VM VirtualBox输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31924">详情</a></td>
       </tr>
@@ -852,7 +900,7 @@
       <tr>
        <td scope="row">5a669e9b3b3a660b8826eb4e44741d21</td>
        <td>CNVD-2022-31923 (CVE-2022-21486)</td>
-       <td>2022-04-24 13:00:27 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:27</td>
        <td>Oracle MySQL缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31923">详情</a></td>
       </tr>
@@ -860,7 +908,7 @@
       <tr>
        <td scope="row">88e6f28a04accab494af0814219a92f7</td>
        <td>CNVD-2022-31922 (CVE-2022-21485)</td>
-       <td>2022-04-24 13:00:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:25</td>
        <td>Oracle MySQL缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31922">详情</a></td>
       </tr>
@@ -868,7 +916,7 @@
       <tr>
        <td scope="row">cfc9b213ee8846b062b783c35c5f5fdf</td>
        <td>CNVD-2022-31847 (CVE-2022-21471)</td>
-       <td>2022-04-24 13:00:22 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:22</td>
        <td>Oracle Virtualization和Oracle VM VirtualBox输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31847">详情</a></td>
       </tr>
@@ -876,7 +924,7 @@
       <tr>
        <td scope="row">bd44a5239d93cafd309d3d1b05051093</td>
        <td>CNVD-2022-31841 (CVE-2022-20786)</td>
-       <td>2022-04-24 13:00:20 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:20</td>
        <td>Cisco Unified Communications Manager SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31841">详情</a></td>
       </tr>
@@ -884,7 +932,7 @@
       <tr>
        <td scope="row">928cd67d3ad0ea4a2be2c2fe0c48d25f</td>
        <td>CNVD-2022-31840 (CVE-2021-39798)</td>
-       <td>2022-04-24 13:00:18 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:00:18</td>
        <td>Google Android缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31840">详情</a></td>
       </tr>
@@ -892,7 +940,7 @@
       <tr>
        <td scope="row">e305e974142bef2cb04e37f1d4bf226e</td>
        <td>CNVD-2022-31938 (CVE-2021-45452)</td>
-       <td>2022-04-24 10:42:39 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 10:42:39</td>
        <td>Django路径遍历漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31938">详情</a></td>
       </tr>
@@ -900,7 +948,7 @@
       <tr>
        <td scope="row">b85f618eb62c2b4d6931ccc90b355911</td>
        <td>CNVD-2022-31837 (CVE-2022-28347)</td>
-       <td>2022-04-24 08:44:18 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 08:44:18</td>
        <td>Django SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31837">详情</a></td>
       </tr>
@@ -908,7 +956,7 @@
       <tr>
        <td scope="row">953261b91e9d10747044bd081f7cdcaf</td>
        <td>CNVD-2022-31838 (CVE-2022-28346)</td>
-       <td>2022-04-24 08:44:13 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 08:44:13</td>
        <td>Django SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31838">详情</a></td>
       </tr>
@@ -916,7 +964,7 @@
       <tr>
        <td scope="row">d5b9c2763f4ed82ec2782dc54718b7df</td>
        <td>CNVD-2022-31819 (CVE-2021-43109)</td>
-       <td>2022-04-24 06:48:46 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:46</td>
        <td>PuneethReddyHC SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31819">详情</a></td>
       </tr>
@@ -924,7 +972,7 @@
       <tr>
        <td scope="row">2019ae2de389092a05039cfa359d5b1c</td>
        <td>CNVD-2022-31820 (CVE-2021-42911)</td>
-       <td>2022-04-24 06:48:44 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:44</td>
        <td>DrayTek Vigor格式字符串漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31820">详情</a></td>
       </tr>
@@ -932,7 +980,7 @@
       <tr>
        <td scope="row">ede14434611abad35fa3bf931533f78d</td>
        <td>CNVD-2022-31829 (CVE-2022-0776)</td>
-       <td>2022-04-24 06:48:41 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:41</td>
        <td>reveal.js跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31829">详情</a></td>
       </tr>
@@ -940,7 +988,7 @@
       <tr>
        <td scope="row">7ca4ccbca79992d09abe8af0bd42f765</td>
        <td>CNVD-2022-31821 (CVE-2021-43118)</td>
-       <td>2022-04-24 06:48:39 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:39</td>
        <td>DrayTek Vigor远程命令注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31821">详情</a></td>
       </tr>
@@ -948,7 +996,7 @@
       <tr>
        <td scope="row">72e30df0b4f035eea605600044964832</td>
        <td>CNVD-2022-31831 (CVE-2022-25327)</td>
-       <td>2022-04-24 06:48:37 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:37</td>
        <td>Google fscrypt输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31831">详情</a></td>
       </tr>
@@ -956,7 +1004,7 @@
       <tr>
        <td scope="row">df0f7876266dd9e549c6e2db3f9dd904</td>
        <td>CNVD-2022-31832 (CVE-2022-25328)</td>
-       <td>2022-04-24 06:48:34 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:34</td>
        <td>Google fscrypt命令注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31832">详情</a></td>
       </tr>
@@ -964,57 +1012,9 @@
       <tr>
        <td scope="row">6caaa6929365c169b738d3a0d59c3906</td>
        <td>CNVD-2022-31816 (CVE-2022-23623)</td>
-       <td>2022-04-24 06:48:32 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 06:48:32</td>
        <td>Frourio输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31816">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13a19cf2cad38cc2d3713e1663571f23</td>
-       <td>CNVD-2022-31822 (CVE-2021-24947)</td>
-       <td>2022-04-24 06:48:29 <img src="imgs/new.gif" /></td>
-       <td>WordPress Plugin RVM跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31822">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c12dbea730202dcb61dde21328ee095</td>
-       <td>CNVD-2022-31823 (CVE-2021-24928)</td>
-       <td>2022-04-24 06:48:27 <img src="imgs/new.gif" /></td>
-       <td>WordPress pluginSQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31823">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6da01ea26b1dfd685696680b9be48aa6</td>
-       <td>CNVD-2022-31824 (CVE-2021-24880)</td>
-       <td>2022-04-24 06:48:24 <img src="imgs/new.gif" /></td>
-       <td>Wordpress Plugin SupportCandy跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31824">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">114699bebf3ccab667c2e23959f8e1bc</td>
-       <td>CNVD-2022-25696</td>
-       <td>2022-04-22 17:03:47</td>
-       <td>xmanager7存在逻辑缺陷漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-25696">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">132faf23259b553e3385ec867ed406b3</td>
-       <td>CNVD-2022-31559 (CVE-2022-0186)</td>
-       <td>2022-04-22 08:46:12</td>
-       <td>WordPress插件Image Photo Gallery Final Tiles Grid跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31559">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c1dc56ad0396a4b1bbe9236c9acc0c8a</td>
-       <td>CNVD-2022-31543 (CVE-2022-27289)</td>
-       <td>2022-04-22 08:46:09</td>
-       <td>D-Link DIR-619堆栈溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31543">详情</a></td>
       </tr>
 
      </tbody>
@@ -1034,7 +1034,7 @@
       <tr>
        <td scope="row">83faaa2879e0da6060cfedc21ac94e9c</td>
        <td>CNNVD-202204-4291 (CVE-2022-1445)</td>
-       <td>2022-04-24 13:49:32 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:49:32</td>
        <td>snipe-it 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4291">详情</a></td>
       </tr>
@@ -1042,7 +1042,7 @@
       <tr>
        <td scope="row">64bacccde66f3cfe47ea68182765a3ec</td>
        <td>CNNVD-202204-4292 (CVE-2022-1452)</td>
-       <td>2022-04-24 13:49:30 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:49:30</td>
        <td>radare2 缓冲区错误漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4292">详情</a></td>
       </tr>
@@ -1050,7 +1050,7 @@
       <tr>
        <td scope="row">d00823b1f5e0357384c5474476e1d0e9</td>
        <td>CNNVD-202204-4293 (CVE-2022-1451)</td>
-       <td>2022-04-24 13:49:28 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 13:49:28</td>
        <td>radare2 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4293">详情</a></td>
       </tr>
@@ -2056,7 +2056,7 @@
       <tr>
        <td scope="row">8fa2a64acf63c9226b8e52bce99a1190</td>
        <td>CVE-2021-46542</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Cesanta MJS分段错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64399">详情</a></td>
       </tr>
@@ -2064,7 +2064,7 @@
       <tr>
        <td scope="row">b4c09fcf18134cce5761561984c262b7</td>
        <td>CVE-2021-46548</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Cesanta MJS分段错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64398">详情</a></td>
       </tr>
@@ -2072,7 +2072,7 @@
       <tr>
        <td scope="row">3a0690a4db89ff354e59c283227473cb</td>
        <td>CVE-2021-46528</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Cesanta MJS分段错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64397">详情</a></td>
       </tr>
@@ -2080,7 +2080,7 @@
       <tr>
        <td scope="row">2b6a5d34aa02bb3bca7d23c52a6a04dd</td>
        <td>CVE-2021-46516</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Cesanta MJS分段错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64396">详情</a></td>
       </tr>
@@ -2088,7 +2088,7 @@
       <tr>
        <td scope="row">b0321979aa172c335551046e4d7f701c</td>
        <td>CVE-2021-46498</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Jsish堆释放后重用漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64395">详情</a></td>
       </tr>
@@ -2096,7 +2096,7 @@
       <tr>
        <td scope="row">af966f42f1761e8199edffa6b7e4567f</td>
        <td>CVE-2021-46491</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Jsish分段错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64394">详情</a></td>
       </tr>
@@ -2104,7 +2104,7 @@
       <tr>
        <td scope="row">9bbf15e6ce540dba418f0889914838c9</td>
        <td>CVE-2021-46485</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Jsish分段错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64393">详情</a></td>
       </tr>
@@ -2112,7 +2112,7 @@
       <tr>
        <td scope="row">64bbf1cd568631ee15a7a6ee3e7bdc6e</td>
        <td>CVE-2021-44122</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>SPIP跨站请求伪造漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64392">详情</a></td>
       </tr>
@@ -2120,7 +2120,7 @@
       <tr>
        <td scope="row">17ffedd84d425f0a5bf59842e9ad3818</td>
        <td>CVE-2021-46560</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Moxa TN-5900命令注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64391">详情</a></td>
       </tr>
@@ -2128,7 +2128,7 @@
       <tr>
        <td scope="row">0506533ca008ba0b314b528a0173d047</td>
        <td>CVE-2022-21686</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>PrestaShop代码注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64390">详情</a></td>
       </tr>
@@ -2136,7 +2136,7 @@
       <tr>
        <td scope="row">1cf5a63fe8d248591016d636e0fa62dd</td>
        <td>CVE-2021-42791</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Veridium VeridiumAD HTTP请求走私漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64389">详情</a></td>
       </tr>
@@ -2144,7 +2144,7 @@
       <tr>
        <td scope="row">dba244374b19187646c2869d097c5962</td>
        <td>CVE-2021-46383</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>MingSoft MCMS SQL注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64388">详情</a></td>
       </tr>
@@ -2152,7 +2152,7 @@
       <tr>
        <td scope="row">d0a04e7030c8acb828c07f00b9d3811e</td>
        <td>CVE-2021-44795</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Kronos Single Connect授权错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64387">详情</a></td>
       </tr>
@@ -2160,7 +2160,7 @@
       <tr>
        <td scope="row">2eb440ded2135840cf1319cc3a23d8ed</td>
        <td>CVE-2021-32849</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Gerapy命令注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64386">详情</a></td>
       </tr>
@@ -2168,7 +2168,7 @@
       <tr>
        <td scope="row">1a0c65d719f4b93dcece3c23535c919c</td>
        <td>CVE-2022-22828</td>
-       <td>2022-04-24 11:38:25 <img src="imgs/new.gif" /></td>
+       <td>2022-04-24 11:38:25</td>
        <td>Synametrics Technologies SynaMan授权错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/64385">详情</a></td>
       </tr>
