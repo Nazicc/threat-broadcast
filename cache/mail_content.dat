@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
     <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40710</font><br/>[<b>披露时间</b>] 2021-09-29 16:15:11 <br/>[<b>漏洞描述</b>] Adobe Premiere Pro version 15.4 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious .svg file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required in that the victim must open a specially crafted file to exploit this vulnerability.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-40710'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-40710</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29967</font><br/>[<b>披露时间</b>] 2022-04-29 23:15:00<br/>[<b>漏洞描述</b>] static_compressed_inmemory_website_callback.c in Glewlwyd through 2.6.2 allows directory traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29967'>https://www.tenable.com/cve/CVE-2022-29967</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40703</font><br/>[<b>披露时间</b>] 2021-09-27 16:15:10 <br/>[<b>漏洞描述</b>] Adobe Premiere Elements version 2021.2235820 (and earlier) is affected by a memory corruption vulnerability due to insecure handling of a malicious m4a file, potentially resulting in arbitrary code execution in the context of the current user. User interaction is required to exploit this vulnerability.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-40703'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-40703</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
