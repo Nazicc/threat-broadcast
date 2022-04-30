@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-30 10:43:32 -->
+<!-- RELEASE TIME : 2022-04-30 13:02:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -248,6 +248,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2e2ab9ec83f0f573e9a8cbd2eea2ffe0</td>
+       <td>CVE-2022-29265</td>
+       <td>2022-04-30 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple components in Apache NiFi 0.0.1 to 1.16.0 do not restrict XML External Entity references in the default configuration. The Standard Content Viewer service attempts to resolve XML External Entity references when viewing formatted XML files. The following Processors attempt to resolve XML External Entity references when configured with default property values: - EvaluateXPath - EvaluateXQuery - ValidateXml Apache NiFi flow configurations that include these Processors are vulnerable to malicious XML documents that contain Document Type Declarations with XML External Entity references. The resolution disables Document Type Declarations in the default configuration for these Processors, and disallows XML External Entity resolution in standard services.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29265">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">05f22aefda48a551c89c02455c3f1e1a</td>
        <td>CVE-2022-29967</td>
        <td>2022-04-29 23:15:00 <img src="imgs/new.gif" /></td>
@@ -477,14 +485,6 @@
        <td>2022-04-28 10:15:00</td>
        <td>In JetBrains PyCharm before 2022.1 exposure of the debugger port to the internal network was possible</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29820">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6fcdc6f23cdb0a1a1683f19c71499c50</td>
-       <td>CVE-2022-29819</td>
-       <td>2022-04-28 10:15:00</td>
-       <td>In JetBrains IntelliJ IDEA before 2022.1 local code execution via links in Quick Documentation was possible</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29819">详情</a></td>
       </tr>
 
      </tbody>
