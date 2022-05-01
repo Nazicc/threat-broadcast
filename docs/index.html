@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-01 18:47:13 -->
+<!-- RELEASE TIME : 2022-05-01 19:38:33 -->
 <html lang="zh-cn">
 
  <head>
@@ -248,6 +248,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9cae8b2e8bf594e16c1a81bea4c2e8e9</td>
+       <td>CVE-2022-25301</td>
+       <td>2022-05-01 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package jsgui-lang-essentials are vulnerable to Prototype Pollution due to allowing all Object attributes to be altered, including their magical attributes such as proto, constructor and prototype.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25301">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">054e21f30d0c5ee96b0ff31bfcb3fb62</td>
+       <td>CVE-2022-26068</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>This affects the package pistacheio/pistache before 0.0.3.20220425. It is possible to traverse directories to fetch arbitrary files from the server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26068">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ea874fd72ce38893b959df4a5c7e742d</td>
+       <td>CVE-2022-25850</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package github.com/hoppscotch/proxyscotch before 1.0.0 are vulnerable to Server-side Request Forgery (SSRF) when interceptor mode is set to proxy. It occurs when an HTTP request is made by a backend server to an untrusted URL submitted by a user. It leads to a leakage of sensitive information from the server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d39cbdc4ad5ab7197ec71fa59330c134</td>
+       <td>CVE-2022-25844</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package angular after 1.7.0 are vulnerable to Regular Expression Denial of Service (ReDoS) by providing a custom locale rule that makes it possible to assign the parameter in posPre: ' '.repeat() of NUMBER_FORMATS.PATTERNS[1].posPre with a very high value. **Note:** 1) This package has been deprecated and is no longer maintained. 2) The vulnerable versions are 1.7.0 and higher.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25844">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">baa187583ba268a1070b95bc19ada71c</td>
+       <td>CVE-2022-25842</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package com.alibaba.oneagent:one-java-agent-plugin are vulnerable to Arbitrary File Write via Archive Extraction (Zip Slip) using a specially crafted archive that holds directory traversal filenames (e.g. ../../evil.exe). The attacker can overwrite executable files and either invoke them remotely or wait for the system or user to call them, thus achieving remote command execution on the victim’s machine.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25842">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0720a96b3673746d286774833433c35f</td>
+       <td>CVE-2022-25767</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package com.bstek.ureport:ureport2-console are vulnerable to Remote Code Execution by connecting to a malicious database server, causing arbitrary file read and deserialization of local gadgets.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25767">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8597c1015c37d69a230196c9e6f1e9f0</td>
+       <td>CVE-2022-25647</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package com.google.code.gson:gson before 2.8.9 are vulnerable to Deserialization of Untrusted Data via the writeReplace() method in internal classes, which may lead to DoS attacks.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25647">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">07fcf04e2ef1c0cf2aec5b22fd39f5b1</td>
+       <td>CVE-2022-25645</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package dset are vulnerable to Prototype Pollution via 'dset/merge' mode, as the dset function checks for prototype pollution by validating if the top-level path contains __proto__, constructor or protorype. By crafting a malicious object, it is possible to bypass this check and achieve prototype pollution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25645">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aa88b17d3dff42fbc13f64681ff94ed9</td>
+       <td>CVE-2022-25349</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package materialize-css are vulnerable to Cross-site Scripting (XSS) due to improper escape of user input (such as &lt;not-a-tag /&gt;) that is being parsed as HTML/JavaScript, and inserted into the Document Object Model (DOM). This vulnerability can be exploited when the user-input is provided to the autocomplete component.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25349">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">adf2bd16bf1bf56f272994bac8f5d7ec</td>
+       <td>CVE-2022-24437</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package git-pull-or-clone before 2.0.2 are vulnerable to Command Injection due to the use of the --upload-pack feature of git which is also supported for git clone. The source includes the use of the secure child process API spawn(). However, the outpath parameter passed to it may be a command-line argument to the git clone command and result in arbitrary command injection.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24437">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">924a9e72d21c0244dea0f219a9f0cf37</td>
        <td>CVE-2022-28481</td>
        <td>2022-05-01 15:15:00 <img src="imgs/new.gif" /></td>
@@ -405,86 +485,6 @@
        <td>2022-04-29 17:15:00</td>
        <td>USU Oracle Optimization before 5.17.5 lacks Polkit authentication, which allows smartcollector users to achieve root access via pkexec. NOTE: this is not an Oracle Corporation product.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29934">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd8227528e94a708fe2d52ba070cd520</td>
-       <td>CVE-2022-29451</td>
-       <td>2022-04-29 17:15:00</td>
-       <td>Cross-Site Request Forgery (CSRF) leading to Arbitrary File Upload vulnerability in Rara One Click Demo Import plugin <= 1.2.9 on WordPress allows attackers to trick logged-in admin users into uploading dangerous files into /wp-content/uploads/ directory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29451">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">00353a0f7370e75cfd62b4fe8b1fb480</td>
-       <td>CVE-2022-28117</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>A Server-Side Request Forgery (SSRF) in feed_parser class of Navigate CMS v2.9.4 allows remote attackers to force the application to make arbitrary requests via injection of arbitrary URLs into the feed parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28117">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05341f9fdabd609d1b7374469319b3a7</td>
-       <td>CVE-2022-28114</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>DSCMS v3.0 was discovered to contain an arbitrary file deletion vulnerability via /controller/Adv.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28114">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cdee26aa4ad396db7d7f4a4c28924dfe</td>
-       <td>CVE-2022-24892</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>Shopware is an open source e-commerce software platform. Starting with version 5.0.4 and before version 5.7.9, multiple tokens for password reset can be requested. All tokens can be used to change the password. This makes it possible for an attacker to take over the victim's account if they somehow gain access to the victims email account and find an unused password reset token in the emails. This issue is fixed in version 5.7.9.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24892">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c897b970ae1da27b7e867f3ad50b336</td>
-       <td>CVE-2022-24879</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>Shopware is an open source e-commerce software platform. Versions prior to 5.7.9 are vulnerable to malfunction of cross-site request forgery (CSRF) token validation. Under certain circumstances, the CSRF tokens were not generated anew and not validated correctly. This issue is fixed in version 5.7.9. Users of older versions may attempt to mitigate the vulnerability by using the Shopware security plugin.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24879">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ec6c7587f4738cac0e079a95d4ef435</td>
-       <td>CVE-2022-22783</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>A vulnerability in Zoom On-Premise Meeting Connector Controller version 4.8.102.20220310 and On-Premise Meeting Connector MMR version 4.8.102.20220310 exposes process memory fragments to connected clients, which could be observed by a passive attacker.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22783">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de4c10d0e307ae195e4dd72a497f7162</td>
-       <td>CVE-2022-22782</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>The Zoom Client for Meetings for Windows prior to version 5.9.7, Zoom Rooms for Conference Room for Windows prior to version 5.10.0, Zoom Plugins for Microsoft Outlook for Windows prior to version 5.10.3, and Zoom VDI Windows Meeting Clients prior to version 5.9.6; was susceptible to a local privilege escalation issue during the installer repair operation. A malicious actor could utilize this to potentially delete system level files or folders, causing integrity or availability issues on the user’s host machine.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22782">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">503f51f121932bd43c2b57d5ae3df43c</td>
-       <td>CVE-2022-22781</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>The Zoom Client for Meetings for MacOS (Standard and for IT Admin) prior to version 5.9.6 failed to properly check the package version during the update process. This could lead to a malicious actor updating an unsuspecting user’s currently installed version to a less secure version.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22781">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fd7e88d5455b917cbde7b6e62f1c77e7</td>
-       <td>CVE-2022-1511</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>Improper Access Control in GitHub repository snipe/snipe-it prior to 5.4.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1511">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8c35c97e582cbc03988b9ce51f2fd3cc</td>
-       <td>CVE-2021-43939</td>
-       <td>2022-04-28 15:15:00</td>
-       <td>Elcomplus SmartPTT is vulnerable when a low-authenticated user can access higher level administration authorization by issuing requests directly to the desired endpoints.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-43939">详情</a></td>
       </tr>
 
      </tbody>
