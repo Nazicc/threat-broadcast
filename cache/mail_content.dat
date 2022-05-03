@@ -1,17 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33812 (CVE-2021-38745)</font><br/>[<b>披露时间</b>] 2022-05-02 17:04:53<br/>[<b>漏洞描述</b>] Chamilo LMS代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33812'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33812</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33819 (CVE-2020-21651)</font><br/>[<b>披露时间</b>] 2022-05-02 17:04:56<br/>[<b>漏洞描述</b>] Myucms代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33819'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33819</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33818 (CVE-2020-21649)</font><br/>[<b>披露时间</b>] 2022-05-02 17:04:59<br/>[<b>漏洞描述</b>] Myucms跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33818'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33818</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33838 (CVE-2022-25505)</font><br/>[<b>披露时间</b>] 2022-05-02 17:05:01<br/>[<b>漏洞描述</b>] Taocms SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33838'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33838</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33829 (CVE-2022-25412)</font><br/>[<b>披露时间</b>] 2022-05-02 17:05:03<br/>[<b>漏洞描述</b>] Maxsite CMS任意文件删除漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33829'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33829</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33828 (CVE-2022-25411)</font><br/>[<b>披露时间</b>] 2022-05-02 17:05:06<br/>[<b>漏洞描述</b>] Maxsite CMS文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33828'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33828</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33827 (CVE-2022-25410)</font><br/>[<b>披露时间</b>] 2022-05-02 17:05:08<br/>[<b>漏洞描述</b>] Maxsite CMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33827'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33827</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28590</font><br/>[<b>披露时间</b>] 2022-05-03 14:15:00<br/>[<b>漏洞描述</b>] A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/admin-ajax.php?action=install_theme.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28590'>https://www.tenable.com/cve/CVE-2022-28590</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28589</font><br/>[<b>披露时间</b>] 2022-05-03 14:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in Pixelimity 1.0 allows attackers to execute arbitrary web scripts or HTML via the Title field in admin/pages.php?action=add_new<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28589'>https://www.tenable.com/cve/CVE-2022-28589</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0916</font><br/>[<b>披露时间</b>] 2022-05-03 14:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in Logitech Options. The OAuth 2.0 state parameter was not properly validated. This leaves applications vulnerable to CSRF attacks during authentication and authorization operations.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0916'>https://www.tenable.com/cve/CVE-2022-0916</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
