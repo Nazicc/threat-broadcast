@@ -1,12 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42218</font><br/>[<b>披露时间</b>] 2022-05-03 11:15:00<br/>[<b>漏洞描述</b>] OMPL v1.5.2 contains a memory leak in VFRRT.cpp<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42218'>https://www.tenable.com/cve/CVE-2021-42218</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41959</font><br/>[<b>披露时间</b>] 2022-05-03 11:15:00<br/>[<b>漏洞描述</b>] JerryScript Git version 14ff5bf does not sufficiently track and release allocated memory via jerry-core/ecma/operations/ecma-regexp-object.c after RegExp, which causes a memory leak.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-41959'>https://www.tenable.com/cve/CVE-2021-41959</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29537</font><br/>[<b>披露时间</b>] 2022-04-20 23:15:08 <br/>[<b>漏洞描述</b>] gp_rtp_builder_do_hevc in ietf/rtp_pck_mpeg4.c in GPAC 2.0.0 has a heap-based buffer over-read, as demonstrated by MP4Box.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29537'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29537</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38905</font><br/>[<b>披露时间</b>] 2022-05-03 20:31:39<br/>[<b>漏洞描述</b>] IBM Cognos Analytics 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2fa7cb1222f0434cb3d5b9b95e253000'>https://redqueen.tj-un.com/IntelDetails.html?id=2fa7cb1222f0434cb3d5b9b95e253000</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-29824</font><br/>[<b>披露时间</b>] 2022-05-03 20:31:31<br/>[<b>漏洞描述</b>] IBM Cognos Analytics 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0171f1157137464b95a66462dd904cec'>https://redqueen.tj-un.com/IntelDetails.html?id=0171f1157137464b95a66462dd904cec</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22436</font><br/>[<b>披露时间</b>] 2022-05-03 20:31:26<br/>[<b>漏洞描述</b>] IBM Maximo Asset Management 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c6e85d84ac754589b9e4834c3f43e3b0'>https://redqueen.tj-un.com/IntelDetails.html?id=c6e85d84ac754589b9e4834c3f43e3b0</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1429</font><br/>[<b>披露时间</b>] 2022-05-03 20:31:17<br/>[<b>漏洞描述</b>] pimcore SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=82f9ed88c7394d59b19460be1350b7c8'>https://redqueen.tj-un.com/IntelDetails.html?id=82f9ed88c7394d59b19460be1350b7c8</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24871</font><br/>[<b>披露时间</b>] 2022-05-03 20:31:08<br/>[<b>漏洞描述</b>] Shopware 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f1bac9bf729942f898d95f90a486ff19'>https://redqueen.tj-un.com/IntelDetails.html?id=f1bac9bf729942f898d95f90a486ff19</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
