@@ -1,12 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26352</font><br/>[<b>披露时间</b>] 2022-05-05 08:47:23<br/>[<b>漏洞描述</b>] dotCMS api/content 任意文件上传漏洞（CVE-2022-26352）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1202752'>https://avd.aliyun.com/detail?id=AVD-2022-1202752</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33990 (CVE-2022-21437)</font><br/>[<b>披露时间</b>] 2022-05-05 11:38:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33990'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33990</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33992 (CVE-2022-21435)</font><br/>[<b>披露时间</b>] 2022-05-05 11:38:57<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33992'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33992</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33993 (CVE-2022-21425)</font><br/>[<b>披露时间</b>] 2022-05-05 11:39:00<br/>[<b>漏洞描述</b>] Oracle MySQL Server输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33993'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33993</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33994 (CVE-2022-21418)</font><br/>[<b>披露时间</b>] 2022-05-05 11:39:02<br/>[<b>漏洞描述</b>] Oracle MySQL Server输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33994'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33994</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33995 (CVE-2022-21417)</font><br/>[<b>披露时间</b>] 2022-05-05 11:39:04<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33995'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33995</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33996 (CVE-2022-21414)</font><br/>[<b>披露时间</b>] 2022-05-05 11:39:06<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33996'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33996</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-33997 (CVE-2022-21412)</font><br/>[<b>披露时间</b>] 2022-05-05 11:39:09<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-33997'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-33997</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28890</font><br/>[<b>披露时间</b>] 2022-05-05 09:15:00<br/>[<b>漏洞描述</b>] A vulnerability in the RDF/XML parser of Apache Jena allows an attacker to cause an external DTD to be retrieved. This issue affects Apache Jena version 4.4.0 and prior versions. Apache Jena 4.2.x and 4.3.x do not allow external entities.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28890'>https://www.tenable.com/cve/CVE-2022-28890</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1588</font><br/>[<b>披露时间</b>] 2022-05-05 07:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) in GitHub repository contao/contao prior to 4.13.3. Attacker can execute Malicious JS in Application :)<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1588'>https://www.tenable.com/cve/CVE-2022-1588</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
