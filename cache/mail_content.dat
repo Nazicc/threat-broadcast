@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29155</font><br/>[<b>披露时间</b>] 2022-05-04 20:15:00<br/>[<b>漏洞描述</b>] In OpenLDAP 2.x before 2.5.12 and 2.6.x before 2.6.2, a SQL injection vulnerability exists in the experimental back-sql backend to slapd, via a SQL statement within an LDAP query. This can occur during an LDAP search operation when the search filter is processed, due to a lack of proper escaping.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29155'>https://www.tenable.com/cve/CVE-2022-29155</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30292</font><br/>[<b>披露时间</b>] 2022-05-04 23:15:00<br/>[<b>漏洞描述</b>] thread_call in sqbaselib.cpp in SQUIRREL 3.2 lacks a certain sq_reservestack call.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30292'>https://www.tenable.com/cve/CVE-2022-30292</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30288</font><br/>[<b>披露时间</b>] 2022-05-04 23:15:00<br/>[<b>漏洞描述</b>] Agoo through 2.14.2 does not reject GraphQL fragment spreads that form cycles, leading to an application crash.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30288'>https://www.tenable.com/cve/CVE-2022-30288</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30284</font><br/>[<b>披露时间</b>] 2022-05-04 22:15:00<br/>[<b>漏洞描述</b>] In the python-libnmap package through 0.7.2 for Python, remote command execution can occur (if used in a client application that does not validate arguments).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30284'>https://www.tenable.com/cve/CVE-2022-30284</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
