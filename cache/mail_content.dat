@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25324</font><br/>[<b>披露时间</b>] 2022-05-06 20:15:00<br/>[<b>漏洞描述</b>] All versions of package bignum are vulnerable to Denial of Service (DoS) due to a type-check exception in V8, when verifying the type of the second argument to the .powm function, V8 will crash regardless of Node try/catch blocks.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25324'>https://www.tenable.com/cve/CVE-2022-25324</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-23792</font><br/>[<b>披露时间</b>] 2022-05-06 20:15:00<br/>[<b>漏洞描述</b>] The package com.twelvemonkeys.imageio:imageio-metadata before 3.7.1 are vulnerable to XML External Entity (XXE) Injection due to an insecurely initialized XML parser for reading XMP Metadata. An attacker can exploit this vulnerability if they are able to supply a file (e.g. when an online profile picture is processed) with a malicious XMP segment. If the XMP metadata of the uploaded image is parsed, then the XXE vulnerability is triggered.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-23792'>https://www.tenable.com/cve/CVE-2021-23792</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-23592</font><br/>[<b>披露时间</b>] 2022-05-06 20:15:00<br/>[<b>漏洞描述</b>] The package topthink/framework before 6.0.12 are vulnerable to Deserialization of Untrusted Data due to insecure unserialize method in the Driver class.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-23592'>https://www.tenable.com/cve/CVE-2021-23592</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-35423 (CVE-2021-21795)</font><br/>[<b>披露时间</b>] 2022-05-06 03:53:43<br/>[<b>漏洞描述</b>] Accusoft ImageGear堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-35423'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-35423</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
