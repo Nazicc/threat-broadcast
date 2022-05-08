@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29813</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:44<br/>[<b>漏洞描述</b>] JetBrains IntelliJ IDEA 代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a1666fddd3f74313bd50fde0ce65898f'>https://redqueen.tj-un.com/IntelDetails.html?id=a1666fddd3f74313bd50fde0ce65898f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29812</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:44<br/>[<b>漏洞描述</b>] JetBrains IntelliJ IDEA 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=923d296fd0ff4168a4c32c090b654f1b'>https://redqueen.tj-un.com/IntelDetails.html?id=923d296fd0ff4168a4c32c090b654f1b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29817</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:35<br/>[<b>漏洞描述</b>] Jetbrains JetBrains IntelliJ IDEA 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=4b84898cc6384c71ae4db0dd2b7e799d'>https://redqueen.tj-un.com/IntelDetails.html?id=4b84898cc6384c71ae4db0dd2b7e799d</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29815</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:33<br/>[<b>漏洞描述</b>] Jetbrains JetBrains IntelliJ IDEA 代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=3924b64bf0bc4fc8b6a8f7178e12bec4'>https://redqueen.tj-un.com/IntelDetails.html?id=3924b64bf0bc4fc8b6a8f7178e12bec4</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29818</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:27<br/>[<b>漏洞描述</b>] Jetbrains JetBrains IntelliJ IDEA 访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c2db90280ee643968c8b40bb596c92e8'>https://redqueen.tj-un.com/IntelDetails.html?id=c2db90280ee643968c8b40bb596c92e8</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29816</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:23<br/>[<b>漏洞描述</b>] Jetbrains JetBrains IntelliJ IDEA 注入漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6ce3b9c57495416c9f37bdea9d90404a'>https://redqueen.tj-un.com/IntelDetails.html?id=6ce3b9c57495416c9f37bdea9d90404a</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29821</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:20<br/>[<b>漏洞描述</b>] Jetbrains Rider 代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fe8a66f70b354ef78df8ce4d32841b1d'>https://redqueen.tj-un.com/IntelDetails.html?id=fe8a66f70b354ef78df8ce4d32841b1d</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29820</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:13<br/>[<b>漏洞描述</b>] Jetbrains JetBrains PyCharm 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7b8fc6f249d642dd972f71b7df6b4334'>https://redqueen.tj-un.com/IntelDetails.html?id=7b8fc6f249d642dd972f71b7df6b4334</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1173</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:12<br/>[<b>漏洞描述</b>] Grav 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fa246a7332fb46789953e3067ef7ee8b'>https://redqueen.tj-un.com/IntelDetails.html?id=fa246a7332fb46789953e3067ef7ee8b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28470</font><br/>[<b>披露时间</b>] 2022-05-08 20:15:00<br/>[<b>漏洞描述</b>] marcador package in PyPI 0.1 through 0.13 included a code-execution backdoor.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28470'>https://www.tenable.com/cve/CVE-2022-28470</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
