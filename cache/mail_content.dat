@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28463</font><br/>[<b>披露时间</b>] 2022-05-08 23:15:00<br/>[<b>漏洞描述</b>] ImageMagick 7.1.0-27 is vulnerable to Buffer Overflow.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28463'>https://www.tenable.com/cve/CVE-2022-28463</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-35550 (CVE-2022-27445)</font><br/>[<b>披露时间</b>] 2022-05-07 06:51:05<br/>[<b>漏洞描述</b>] MariaDB sql_window.cc拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-35550'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-35550</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-35549 (CVE-2022-27456)</font><br/>[<b>披露时间</b>] 2022-05-07 06:51:09<br/>[<b>漏洞描述</b>] MariaDB Vdec::Vdec组件内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-35549'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-35549</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-35548 (CVE-2022-27444)</font><br/>[<b>披露时间</b>] 2022-05-07 06:51:14<br/>[<b>漏洞描述</b>] MariaDB item_subselect.cc拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-35548'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-35548</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-35541 (CVE-2021-43510)</font><br/>[<b>披露时间</b>] 2022-05-07 06:51:16<br/>[<b>漏洞描述</b>] Sourcecodester Simple Client Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-35541'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-35541</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-35540 (CVE-2021-43509)</font><br/>[<b>披露时间</b>] 2022-05-07 06:51:20<br/>[<b>漏洞描述</b>] Sourcecodester Simple Client Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-35540'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-35540</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-05-09 06:18:57<br/>[<b>漏洞描述</b>] 安全事件周报 (04.25-05.08)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=30e2a87bf942e0958b9fa87190a036e0'>https://cert.360.cn/warning/detail?id=30e2a87bf942e0958b9fa87190a036e0</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
