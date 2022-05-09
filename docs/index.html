@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-09 06:52:00 -->
+<!-- RELEASE TIME : 2022-05-09 13:12:21 -->
 <html lang="zh-cn">
 
  <head>
@@ -264,6 +264,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9463db4cf950b9f7c7f68f6a24b8a3e4</td>
+       <td>CVE-2022-30333</td>
+       <td>2022-05-09 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write to files during an extract (aka unpack) operation, as demonstrated by creating a ~/.ssh/authorized_keys file. NOTE: WinRAR and Android RAR are unaffected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30333">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a94da244ce3bcdf312673268a2612e4</td>
+       <td>CVE-2022-23066</td>
+       <td>2022-05-09 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Solana rBPF versions 0.2.26 and 0.2.27 are affected by Incorrect Calculation which is caused by improper implementation of sdiv instruction. This can lead to the wrong execution path, resulting in huge loss in specific cases. For example, the result of a sdiv instruction may decide whether to transfer tokens or not. The vulnerability affects both integrity and may cause serious availability problems.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23066">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dafaac8c7dd115e7d1698e58a5e6f3d3</td>
        <td>CVE-2022-28463</td>
        <td>2022-05-08 23:15:00 <img src="imgs/new.gif" /></td>
@@ -288,10 +304,26 @@
       </tr>
 
       <tr>
+       <td scope="row">d114370a3928fdfa2275631468b59d5d</td>
+       <td>CVE-2022-1620</td>
+       <td>2022-05-08 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>NULL Pointer Dereference in function vim_regexec_string at regexp.c:2729 in GitHub repository vim/vim prior to 8.2.4901. NULL Pointer Dereference in function vim_regexec_string at regexp.c:2729 allows attackers to cause a denial of service (application crash) via a crafted input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1620">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6bdfb5918213e98b5bc83b374cdd3d7d</td>
        <td>CVE-2022-1619</td>
        <td>2022-05-08 10:15:00 <img src="imgs/new.gif" /></td>
        <td>Heap-based Buffer Overflow in function cmdline_erase_chars in GitHub repository vim/vim prior to 8.2. This vulnerabilities are capable of crashing software, modify memory, and possible remote execution</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1619">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">49473e2a875a8da49438d1c6a63aa399</td>
+       <td>CVE-2022-1619</td>
+       <td>2022-05-08 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Heap-based Buffer Overflow in function cmdline_erase_chars in GitHub repository vim/vim prior to 8.2.4899. This vulnerabilities are capable of crashing software, modify memory, and possible remote execution</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1619">详情</a></td>
       </tr>
 
@@ -341,6 +373,14 @@
        <td>2022-05-07 04:15:00</td>
        <td>A vulnerability in which attackers could forge HTTP requests to manipulate the `charm` data directory to access or delete anything on the server. This has been patched and is available in release [v0.12.1](https://github.com/charmbracelet/charm/releases/tag/v0.12.1). We recommend that all users running self-hosted `charm` instances update immediately. This vulnerability was found in-house and we haven't been notified of any potential exploiters. ### Additional notes * Encrypted user data uploaded to the Charm server is safe as Charm servers cannot decrypt user data. This includes filenames, paths, and all key-value data. * Users running the official Charm [Docker images](https://github.com/charmbracelet/charm/blob/main/docker.md) are at minimal risk because the exploit is limited to the containerized filesystem.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29180">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1868d47cd7662add24fc36537b42043e</td>
+       <td>CVE-2022-30330</td>
+       <td>2022-05-07 04:15:00</td>
+       <td>In the KeepKey firmware before 7.3.2, the bootloader can be exploited in unusual situations in which the attacker has physical access, convinces the victim to install malicious firmware, or has unspecified other capabilities. lib/board/supervise.c mishandles svhandler_flash_* address range checks. If exploited, any installed malware could persist even after wiping the device and resetting the firmware.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30330">详情</a></td>
       </tr>
 
       <tr>
@@ -461,46 +501,6 @@
        <td>2022-05-06 17:15:00</td>
        <td>Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Adam Skaat's Countdown & Clock plugin <= 2.3.2 at WordPress via &ycd-circle-countdown-before-countdown and &ycd-circle-countdown-after-countdown vulnerable parameters.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29420">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3a535e6bbd01b7d92af174d3ef043148</td>
-       <td>CVE-2022-28545</td>
-       <td>2022-05-06 17:15:00</td>
-       <td>FUDforum 3.1.1 is vulnerable to Stored XSS.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28545">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc106c80ce71e7321886fcb786893c34</td>
-       <td>CVE-2022-28507</td>
-       <td>2022-05-06 17:15:00</td>
-       <td>Dragon Path Technologies Bharti Airtel Routers Hardware BDT-121 version 1.0 is vulnerable to Cross Site Scripting (XSS) via Dragon path router admin page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28507">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">48c741a8e71b2141ea56caf753c5c23d</td>
-       <td>CVE-2022-28165</td>
-       <td>2022-05-06 17:15:00</td>
-       <td>A vulnerability in the role-based access control (RBAC) functionality of the Brocade SANNav before 2.2.0 could allow an authenticated, remote attacker to access resources that they should not be able to access and perform actions that they should not be able to perform. The vulnerability exists because restrictions are not performed on Server side to ensure the user has required permission before processing requests.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28165">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bc0adda7c9ee4a7880541620bfc9f556</td>
-       <td>CVE-2022-27183</td>
-       <td>2022-05-06 17:15:00</td>
-       <td>The Monitoring Console app configured in Distributed mode allows for a Reflected XSS in a query parameter in Splunk Enterprise versions before 8.1.4. The Monitoring Console app is a bundled app included in Splunk Enterprise, not for download on SplunkBase, and not installed on Splunk Cloud Platform instances. Note that the Cloud Monitoring Console is not impacted.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27183">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">47c8dea7fe2b5168f8f9247dbaf1ecc9</td>
-       <td>CVE-2022-26889</td>
-       <td>2022-05-06 17:15:00</td>
-       <td>The lack of sanitization in a relative url path in a search parameter allows for arbitrary injection of external content in Splunk Enterprise versions before 8.1.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26889">详情</a></td>
       </tr>
 
      </tbody>
@@ -1056,6 +1056,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d3b3f8a1efde76d1b69d1322a3cca3f9</td>
+       <td>CNNVD-202205-2614 (CVE-2022-28463)</td>
+       <td>2022-05-08 13:11:52 <img src="imgs/new.gif" /></td>
+       <td>Imagemagick Studio ImageMagick 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2614">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">03f847b27d7c38e170f1b90e91625ec7</td>
+       <td>CNNVD-202205-2615 (CVE-2022-28470)</td>
+       <td>2022-05-08 13:11:50 <img src="imgs/new.gif" /></td>
+       <td>marcador 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2615">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4f47dd6d9d35bac3106fcf9216f9dfd4</td>
+       <td>CNNVD-202205-2616 (CVE-2018-25033)</td>
+       <td>2022-05-08 13:11:48 <img src="imgs/new.gif" /></td>
+       <td>ADMesh 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2616">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c8fad757b5b31ab2612e514a0aa05170</td>
+       <td>CNNVD-202205-2617 (CVE-2022-1620)</td>
+       <td>2022-05-08 13:11:46 <img src="imgs/new.gif" /></td>
+       <td>Vim 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2617">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7fe4d786406f77e217d6a3dcfadb3df6</td>
+       <td>CNNVD-202205-2618 (CVE-2022-1619)</td>
+       <td>2022-05-08 13:11:44 <img src="imgs/new.gif" /></td>
+       <td>Vim 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2618">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">95610a226809534ad3f64d2edbcbf2d4</td>
+       <td>CNNVD-202205-2610 (CVE-2022-30334)</td>
+       <td>2022-05-07 13:12:00</td>
+       <td>Brave 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2610">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2de6c20db0af6e4f742245a12e3d7f9a</td>
+       <td>CNNVD-202205-2611 (CVE-2022-29180)</td>
+       <td>2022-05-07 13:11:58</td>
+       <td>Charm 代码问题漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2611">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">25ea12023a4096111e34d7744cfec745</td>
+       <td>CNNVD-202205-2612 (CVE-2022-30330)</td>
+       <td>2022-05-07 13:11:56</td>
+       <td>KeepKey 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2612">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">342d7754f483d6001ed4af8ae3d4dfb3</td>
+       <td>CNNVD-202205-2613 (CVE-2022-1616)</td>
+       <td>2022-05-07 13:11:54</td>
+       <td>Vim 资源管理错误漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-2613">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d86627eb0b15aeb766714f499465e919</td>
        <td>CNNVD-202205-2600 (CVE-2021-27759)</td>
        <td>2022-05-06 13:02:39</td>
@@ -1221,78 +1293,6 @@
        <td>2022-04-30 13:15:22</td>
        <td>Apache NiFi 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4640">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9bc4d14d499482d511dfcaaf1a5f6880</td>
-       <td>CNNVD-202204-4641 (CVE-2022-28323)</td>
-       <td>2022-04-30 13:15:19</td>
-       <td>MediaWiki 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4641">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8238db9adfafe8c608a61c266304b687</td>
-       <td>CNNVD-202204-4642 (CVE-2021-42001)</td>
-       <td>2022-04-30 13:15:17</td>
-       <td>Desk 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4642">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">803c5d0660a0c382f1ad504672fa61c4</td>
-       <td>CNNVD-202204-4643 (CVE-2021-41994)</td>
-       <td>2022-04-30 13:15:15</td>
-       <td>Ping Identity iOS App 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4643">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bc7511b2ec1635b7506a3de8c540413b</td>
-       <td>CNNVD-202204-4644 (CVE-2021-41992)</td>
-       <td>2022-04-30 13:15:12</td>
-       <td>Ping Identity Windows PingId 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4644">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">639df03486e444a76ebad2b54272a689</td>
-       <td>CNNVD-202204-4645 (CVE-2021-41993)</td>
-       <td>2022-04-30 13:15:10</td>
-       <td>Ping Identity Android App 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4645">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">647a8cbacfba4251295aac9520ad77ca</td>
-       <td>CNNVD-202204-4636 (CVE-2022-1114)</td>
-       <td>2022-04-29 13:15:31</td>
-       <td>Imagemagick Studio ImageMagick 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4636">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ade32a9e7a4181b1b027ac349afefc8e</td>
-       <td>CNNVD-202204-4637 (CVE-2022-29856)</td>
-       <td>2022-04-29 13:15:29</td>
-       <td>Automation 360 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4637">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2b1c56d31808a8256266f8b832fcf09a</td>
-       <td>CNNVD-202204-4638 (CVE-2022-0669)</td>
-       <td>2022-04-29 13:15:26</td>
-       <td>DPDK 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4638">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f24ce7ccc98631fa6fcdef49bd910a3</td>
-       <td>CNNVD-202204-4639 (CVE-2021-3839)</td>
-       <td>2022-04-29 13:15:24</td>
-       <td>DPDK 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4639">详情</a></td>
       </tr>
 
      </tbody>
