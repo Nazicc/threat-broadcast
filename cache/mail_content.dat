@@ -1,19 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36051 (CVE-2022-27157)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:05<br/>[<b>漏洞描述</b>] pearweb授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36051'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36051</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36052 (CVE-2022-27257)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:07<br/>[<b>漏洞描述</b>] Hubzilla文件包含漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36052'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36052</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36053 (CVE-2022-1380)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:10<br/>[<b>漏洞描述</b>] snipe-it跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36053'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36053</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36048 (CVE-2022-28966)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:12<br/>[<b>漏洞描述</b>] Wasm3堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36048'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36048</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36049 (CVE-2022-26777)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:15<br/>[<b>漏洞描述</b>] Zoho ManageEngine Remote Access Plus信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36049'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36049</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36050 (CVE-2022-26653)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:17<br/>[<b>漏洞描述</b>] Zoho ManageEngine Remote Access Plus信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36050'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36050</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36045 (CVE-2022-27817)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:19<br/>[<b>漏洞描述</b>] SWHKD存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36045'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36045</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36046 (CVE-2022-27814)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:21<br/>[<b>漏洞描述</b>] SWHKD存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36046'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36046</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36047 (CVE-2022-1304)</font><br/>[<b>披露时间</b>] 2022-05-10 06:50:24<br/>[<b>漏洞描述</b>] E2fsprogs越界读/写漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36047'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36047</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36041 (CVE-2022-27146)</font><br/>[<b>披露时间</b>] 2022-05-10 08:45:55<br/>[<b>漏洞描述</b>] GPAC堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36041'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36041</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36040 (CVE-2021-43503)</font><br/>[<b>披露时间</b>] 2022-05-10 08:46:01<br/>[<b>漏洞描述</b>] Laravel远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36040'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36040</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
