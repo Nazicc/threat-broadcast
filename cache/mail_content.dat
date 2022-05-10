@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29972</font><br/>[<b>披露时间</b>] 2022-05-10 18:38:37<br/>[<b>漏洞描述</b>] Azure Data Factory和Azure Synapse pipelines远程命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6140'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6140</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22160</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64711'>http://www.nsfocus.net/vulndb/64711</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38785</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Allwinner R818 SoC Android Q SDK空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64710'>http://www.nsfocus.net/vulndb/64710</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41809</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] M-Files Server服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64709'>http://www.nsfocus.net/vulndb/64709</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0210</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] WordPress Random Banner Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64708'>http://www.nsfocus.net/vulndb/64708</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-34404</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] NVIDIA SHIELD TV拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64707'>http://www.nsfocus.net/vulndb/64707</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-29632</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] FreeBSD信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64706'>http://www.nsfocus.net/vulndb/64706</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45394</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Spipu HTML2PDF服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64705'>http://www.nsfocus.net/vulndb/64705</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22173</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64704'>http://www.nsfocus.net/vulndb/64704</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22179</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64703'>http://www.nsfocus.net/vulndb/64703</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22167</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64702'>http://www.nsfocus.net/vulndb/64702</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44217</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Ericsson CodeChecker跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64701'>http://www.nsfocus.net/vulndb/64701</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23302</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Apache Log4j不可信数据反序列化漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64700'>http://www.nsfocus.net/vulndb/64700</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45808</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Jpress任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64699'>http://www.nsfocus.net/vulndb/64699</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46204</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] Taocms SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64698'>http://www.nsfocus.net/vulndb/64698</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23221</font><br/>[<b>披露时间</b>] 2022-05-10 11:40:28<br/>[<b>漏洞描述</b>] H2Console代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/64697'>http://www.nsfocus.net/vulndb/64697</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
