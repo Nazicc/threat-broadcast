@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29967</font><br/>[<b>披露时间</b>] 2022-04-29 23:15:09 <br/>[<b>漏洞描述</b>] static_compressed_inmemory_website_callback.c in Glewlwyd through 2.6.2 allows directory traversal.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29967'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29967</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29591</font><br/>[<b>披露时间</b>] 2022-05-10 12:15:00<br/>[<b>漏洞描述</b>] Tenda TX9 Pro 22.03.02.10 devices have a SetNetControlList buffer overflow.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29591'>https://www.tenable.com/cve/CVE-2022-29591</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28110</font><br/>[<b>披露时间</b>] 2022-05-10 12:15:00<br/>[<b>漏洞描述</b>] Hotel Management System v1.0 was discovered to contain a SQL injection vulnerability via the username parameter at the login page.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-28110'>https://www.tenable.com/cve/CVE-2022-28110</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-43094</font><br/>[<b>披露时间</b>] 2022-05-10 12:15:00<br/>[<b>漏洞描述</b>] An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-43094'>https://www.tenable.com/cve/CVE-2021-43094</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42645</font><br/>[<b>披露时间</b>] 2022-05-10 12:15:00<br/>[<b>漏洞描述</b>] CMSimple_XH 1.7.4 is affected by a remote code execution (RCE) vulnerability. To exploit this vulnerability, an attacker must use the "File" parameter to upload a PHP payload to get a reverse shell from the vulnerable host.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42645'>https://www.tenable.com/cve/CVE-2021-42645</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
