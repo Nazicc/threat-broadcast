@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-13 10:46:57 -->
+<!-- RELEASE TIME : 2022-05-13 11:41:41 -->
 <html lang="zh-cn">
 
  <head>
@@ -272,6 +272,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7fde58fc47206b1e75a0baf2228965ca</td>
+       <td>CVE-2022-25762</td>
+       <td>2022-05-13 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>If a web application sends a WebSocket message concurrently with the WebSocket connection closing when running on Apache Tomcat 8.5.0 to 8.5.75 or Apache Tomcat 9.0.0.M1 to 9.0.20, it is possible that the application will continue to use the socket after it has been closed. The error handling triggered in this case could cause the a pooled object to be placed in the pool twice. This could result in subsequent connections using the same object concurrently which could result in data being returned to the wrong use and/or other errors.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25762">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">809b22f082ca02229f65e8b9afd3aabf</td>
        <td>CVE-2022-29218</td>
        <td>2022-05-13 01:15:00 <img src="imgs/new.gif" /></td>
@@ -501,14 +509,6 @@
        <td>2022-05-12 17:15:00 <img src="imgs/new.gif" /></td>
        <td>An OS command injection vulnerability exists in the console infactory_port functionality of InHand Networks InRouter302 V3.5.37. A specially-crafted series of network requests can lead to remote code execution. An attacker can send a sequence of requests to trigger this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26420">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3414f0dd0cd1c6b024a16eb0fc723fe2</td>
-       <td>CVE-2022-26085</td>
-       <td>2022-05-12 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>An OS command injection vulnerability exists in the httpd wlscan_ASP functionality of InHand Networks InRouter302 V3.5.4. A specially-crafted HTTP request can lead to arbitrary command execution. An attacker can make an authenticated HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26085">详情</a></td>
       </tr>
 
      </tbody>
