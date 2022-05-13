@@ -1,12 +1,14 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29218</font><br/>[<b>披露时间</b>] 2022-05-13 01:15:00<br/>[<b>漏洞描述</b>] RubyGems is a package registry used to supply software for the Ruby language ecosystem. An ordering mistake in the code that accepts gem uploads allowed some gems (with platforms ending in numbers, like `arm64-darwin-21`) to be temporarily replaced in the CDN cache by a malicious package. The bug has been patched, and is believed to have never been exploited, based on an extensive review of logs and existing gems by rubygems. The easiest way to ensure that an application has not been exploited by this vulnerability is to verify all downloaded .gems checksums match the checksum recorded in the RubyGems.org database. RubyGems.org has been patched and is no longer vulnerable to this issue.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29218'>https://www.tenable.com/cve/CVE-2022-29218</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27134</font><br/>[<b>披露时间</b>] 2022-05-13 01:15:00<br/>[<b>漏洞描述</b>] EOSIO batdappboomx v327c04cf has an Access-control vulnerability in the `transfer` function of the smart contract which allows remote attackers to win the cryptocurrency without paying ticket fee via the `std::string memo` parameter.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-27134'>https://www.tenable.com/cve/CVE-2022-27134</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20699</font><br/>[<b>披露时间</b>] 2022-02-11 08:47:08<br/>[<b>漏洞描述</b>] Cisco Small Business RV Series Routers远程代码执行漏洞（CVE-2022-20699）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-20699'>https://avd.aliyun.com/detail?id=AVD-2022-20699</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-36996</font><br/>[<b>披露时间</b>] 2022-05-13 08:47:09<br/>[<b>漏洞描述</b>] Esri ArcGIS Enterprise Portal for ArcGIS组件XXE漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-36996'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-36996</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
