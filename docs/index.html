@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-18 21:42:51 -->
+<!-- RELEASE TIME : 2022-05-18 23:43:23 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">261f9868a87394a7680c13a0223de862</td>
+       <td>CVE-2022-29230</td>
+       <td>2022-05-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Hydrogen is a React-based framework for building dynamic, Shopify-powered custom storefronts. There is a potential Cross-Site Scripting (XSS) vulnerability where an arbitrary user is able to execute scripts on pages that are built with Hydrogen. This affects all versions of Hydrogen starting from version 0.10.0 to 0.18.0. This vulnerability is exploitable in applications whose hydrating data is user controlled. All Hydrogen users should upgrade their project to version 0.19.0. There is no current workaround, and users should update as soon as possible. Additionally, the Content Security Policy is not an effective mitigation for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29230">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1a58c1ef58a1bfef3dd4deba4683463a</td>
+       <td>CVE-2022-29229</td>
+       <td>2022-05-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>CaSS is a Competency and Skills System. CaSS Library, (npm:cassproject) has a missing cryptographic step when storing cryptographic keys that can allow a server administrator access to an account’s cryptographic keys. This affects CaSS servers using standalone username/password authentication, which uses a method that expects e2e cryptographic security of authorization credentials. The issue has been patched in 1.5.8, however, the vulnerable accounts are only resecured when the user next logs in using standalone authentication, as the data required to resecure the account is not available to the server. The issue may be mitigated by using SSO or client side certificates to log in. Please note that SSO and client side certificate authentication does not have this expectation of no-knowledge credential access, and cryptographic keys are available to the server administrator.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29229">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cbadc2ec7d06d432e33db75377a2b467</td>
+       <td>CVE-2022-1774</td>
+       <td>2022-05-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Exposure of Sensitive Information to an Unauthorized Actor in GitHub repository jgraph/drawio prior to 18.0.7.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1774">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">69dadba221a584b5433f7b07b04d8ae6</td>
+       <td>CVE-2022-30994</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cleartext transmission of sensitive information. The following products are affected: Acronis Cyber Protect 15 (Windows) before build 29240</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30994">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e418e617ec4ff23165787aa03039b05c</td>
+       <td>CVE-2022-30993</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cleartext transmission of sensitive information. The following products are affected: Acronis Cyber Protect 15 (Linux, Windows) before build 29240</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30993">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9439339ffe29d52a8530c4142f69431b</td>
+       <td>CVE-2022-30992</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Open redirect via user-controlled query parameter. The following products are affected: Acronis Cyber Protect 15 (Linux, Windows) before build 29240</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30992">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5000643dbfbb5c7ad69d139a447f65b2</td>
+       <td>CVE-2022-30991</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>HTML injection via report name. The following products are affected: Acronis Cyber Protect 15 (Linux, Windows) before build 29240</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30991">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d861405e6da47bcea0f3cd56953bcabe</td>
+       <td>CVE-2022-30990</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sensitive information disclosure due to insecure folder permissions. The following products are affected: Acronis Cyber Protect 15 (Linux) before build 29240, Acronis Agent (Linux) before build 28037</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30990">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f0dcab8cf1f58661f58146c78c0e49fc</td>
+       <td>CVE-2022-30033</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Tenda TX9 Pro V22.03.02.10 is vulnerable to Buffer Overflow via the functtion setIPv6Status() in httpd module.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30033">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a8fccdc678d4b7788862dc1cf7038f8d</td>
+       <td>CVE-2022-1771</td>
+       <td>2022-05-18 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Stack-based Buffer Overflow in GitHub repository vim/vim prior to 8.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1771">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5e21ba633b23940e71adb90a2dac10f7</td>
        <td>CVE-2022-30600</td>
        <td>2022-05-18 18:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-05-18 15:15:00 <img src="imgs/new.gif" /></td>
        <td>The web console of FUJITSU Network IPCOM series (IPCOM EX2 IN(3200, 3500), IPCOM EX2 LB(1100, 3200, 3500), IPCOM EX2 SC(1100, 3200, 3500), IPCOM EX2 NW(1100, 3200, 3500), IPCOM EX2 DC, IPCOM EX2 DC, IPCOM EX IN(2300, 2500, 2700), IPCOM EX LB(1100, 1300, 2300, 2500, 2700), IPCOM EX SC(1100, 1300, 2300, 2500, 2700), and IPCOM EX NW(1100, 1300, 2300, 2500, 2700)) allows a remote attacker to execute an arbitrary OS command via unspecified vectors.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29516">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2d323a5ea65072585e513647c85105ac</td>
-       <td>CVE-2022-28717</td>
-       <td>2022-05-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site scripting vulnerability in Rebooter(WATCH BOOT nino RPC-M2C [End of Sale] all firmware versions, WATCH BOOT light RPC-M5C [End of Sale] all firmware versions, WATCH BOOT L-zero RPC-M4L [End of Sale] all firmware versions, WATCH BOOT mini RPC-M4H [End of Sale] all firmware versions, WATCH BOOT nino RPC-M2CS firmware version 1.00A to 1.00D, WATCH BOOT light RPC-M5CS firmware version 1.00A to 1.00D, WATCH BOOT L-zero RPC-M4LS firmware version 1.00A to 1.20A, and Signage Rebooter RPC-M4HSi firmware version 1.00A), PoE Rebooter(PoE BOOT nino PoE8M2 firmware version 1.00A to 1.20A), Scheduler(TIME BOOT mini RSC-MT4H [End of Sale] all firmware versions, TIME BOOT RSC-MT8F [End of Sale] all firmware versions, TIME BOOT RSC-MT8FP [End of Sale] all firmware versions, TIME BOOT mini RSC-MT4HS firmware version 1.00A to 1.10A, and TIME BOOT RSC-MT8FS firmware version 1.00A to 1.00E), and Contact Converter(POSE SE10-8A7B1 firmware version 1.00A to 1.20A) allows a remote attacker with the administrative privilege to inject an arbitrary script via unspecified vectors.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28717">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ca6857c643859670376713e7435c30e0</td>
-       <td>CVE-2022-27632</td>
-       <td>2022-05-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site request forgery (CSRF) vulnerability in Rebooter(WATCH BOOT nino RPC-M2C [End of Sale] all firmware versions, WATCH BOOT light RPC-M5C [End of Sale] all firmware versions, WATCH BOOT L-zero RPC-M4L [End of Sale] all firmware versions, WATCH BOOT mini RPC-M4H [End of Sale] all firmware versions, WATCH BOOT nino RPC-M2CS firmware version 1.00A to 1.00D, WATCH BOOT light RPC-M5CS firmware version 1.00A to 1.00D, WATCH BOOT L-zero RPC-M4LS firmware version 1.00A to 1.20A, and Signage Rebooter RPC-M4HSi firmware version 1.00A), PoE Rebooter(PoE BOOT nino PoE8M2 firmware version 1.00A to 1.20A), Scheduler(TIME BOOT mini RSC-MT4H [End of Sale] all firmware versions, TIME BOOT RSC-MT8F [End of Sale] all firmware versions, TIME BOOT RSC-MT8FP [End of Sale] all firmware versions, TIME BOOT mini RSC-MT4HS firmware version 1.00A to 1.10A, and TIME BOOT RSC-MT8FS firmware version 1.00A to 1.00E), and Contact Converter(POSE SE10-8A7B1 firmware version 1.00A to 1.20A) allows a remote attacker to hijack the authentication of an administrator and conduct arbitrary operations by having a user to view a specially crafted page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3f599a93a1995c6b7a95a28d45525420</td>
-       <td>CVE-2022-1795</td>
-       <td>2022-05-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use After Free in GitHub repository gpac/gpac prior to v2.1.0-DEV.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1795">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ac763989e9e11f0d2fea7999edd990c</td>
-       <td>CVE-2022-1782</td>
-       <td>2022-05-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub repository erudika/para prior to v1.45.11.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1782">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1fbf22b9463fc8a808c18a77aff14b56</td>
-       <td>CVE-2021-27548</td>
-       <td>2022-05-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is a Null Pointer Dereference vulnerability in the XFAScanner::scanNode() function in XFAScanner.cc in xpdf 4.03.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-27548">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">54e1b35f6b353698cfd443d330276118</td>
-       <td>CVE-2022-23068</td>
-       <td>2022-05-18 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>ToolJet versions v0.6.0 to v1.10.2 are vulnerable to HTML injection where an attacker can inject malicious code inside the first name and last name field while inviting a new user which will be reflected in the invitational e-mail.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23068">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e6a6f20689f561534ccc7eda6df5b88</td>
-       <td>CVE-2022-23067</td>
-       <td>2022-05-18 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>ToolJet versions v0.5.0 to v1.2.2 are vulnerable to token leakage via Referer header that leads to account takeover . If the user opens the invite link/signup link and then clicks on any external links within the page, it leaks the password set token/signup token in the referer header. Using these tokens the attacker can access the user’s account.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23067">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">73502ca74978e070dbca4f74e9fedc9a</td>
-       <td>CVE-2022-29646</td>
-       <td>2022-05-18 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>An access control issue in TOTOLINK A3100R V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129 allows attackers to obtain sensitive information via a crafted web request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29646">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1368e99daa477808eb404107a3bcca71</td>
-       <td>CVE-2022-29645</td>
-       <td>2022-05-18 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>TOTOLINK A3100R V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129 were discovered to contain a hard coded password for root stored in the component /etc/shadow.sample.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29645">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6bcbfa16d43765a945a360879e46d3a2</td>
-       <td>CVE-2022-29644</td>
-       <td>2022-05-18 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>TOTOLINK A3100R V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129 were discovered to contain a hard coded password for the telnet service stored in the component /web_cste/cgi-bin/product.ini.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29644">详情</a></td>
       </tr>
 
      </tbody>
