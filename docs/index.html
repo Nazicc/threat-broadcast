@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-19 16:04:52 -->
+<!-- RELEASE TIME : 2022-05-19 17:31:07 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a3e2802e8d844c0b30dfc0f08f7a0e20</td>
+       <td>CVE-2022-22978</td>
+       <td>2022-05-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Spring Security versions 5.5.6 and 5.5.7 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22978">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e36e1ea396e6380019322bbf1b58b934</td>
+       <td>CVE-2022-22976</td>
+       <td>2022-05-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier unsupported versions contain an integer overflow vulnerability. When using the BCrypt class with the maximum work factor (31), the encoder does not perform any salt rounds, due to an integer overflow error. The default settings are not affected by this CVE.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22976">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f0ffe6a86b4354da9e5a63ca920c3e1a</td>
+       <td>CVE-2021-45730</td>
+       <td>2022-05-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>JFrog Artifactory prior to 7.31.10, is vulnerable to Broken Access Control where a Project Admin is able to create, edit and delete Repository Layouts while Repository Layouts configuration should only be available for Platform Administrators.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45730">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5bd2b5477a7a712a398fc8a8225088a6</td>
+       <td>CVE-2021-37413</td>
+       <td>2022-05-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>GRANDCOM DynWEB before 4.2 contains a SQL Injection vulnerability in the admin login interface. A remote unauthenticated attacker can exploit this vulnerability to obtain administrative access to the webpage, access the user database, modify web content and upload custom files. The backend login script does not verify and sanitize user-provided strings.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-37413">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">72fdecb1e518e7f12f245d0b3bc2b087</td>
+       <td>CVE-2021-26631</td>
+       <td>2022-05-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper input validation vulnerability in Mangboard commerce package could lead to occur for abnormal request. A remote attacker can exploit this vulnerability to manipulate the total order amount into a negative number and then pay for the order.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-26631">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">96285aa42496c7a3a08a58e2abc93542</td>
+       <td>CVE-2021-26630</td>
+       <td>2022-05-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper input validation vulnerability in HANDY Groupware’s ActiveX moudle allows attackers to download or execute arbitrary files. This vulnerability can be exploited by using the file download or execution path as the parameter value of the vulnerable function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-26630">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5d4f84e11af841566d7062fe88fd02aa</td>
+       <td>CVE-2022-30018</td>
+       <td>2022-05-19 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Mobotix Control Center (MxCC) through 2.5.4.5 has Insufficiently Protected Credentials, Storing Passwords in a Recoverable Format via the MxCC.ini config file. The credential storage method in this software enables an attacker/user of the machine to gain admin access to the software and gain access to recordings/recording locations.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30018">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0db607658d70a1d788baca02d306b579</td>
+       <td>CVE-2022-1730</td>
+       <td>2022-05-19 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-site Scripting (XSS) - Stored in GitHub repository jgraph/drawio prior to 18.0.4.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1730">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ca55ef5f0a6081d61c9ee2ff7a36c1fa</td>
+       <td>CVE-2021-41938</td>
+       <td>2022-05-19 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in ShopXO CMS 2.2.0. After entering the management page, there is an arbitrary file upload vulnerability in three locations.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41938">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1ec01f319aca640cf651741e44fab45d</td>
        <td>CVE-2022-1785</td>
        <td>2022-05-19 13:15:00 <img src="imgs/new.gif" /></td>
@@ -447,78 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30597">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">2e625a8333158c73e5cf67395ce9bc07</td>
-       <td>CVE-2022-30111</td>
-       <td>2022-05-18 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Due to the use of an insecure algorithm for rolling codes in MCK Smartlock 1.0, allows attackers to unlock the mechanism via replay attacks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30111">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">92f8c8d4782d812afdaccc774303d55c</td>
-       <td>CVE-2022-28921</td>
-       <td>2022-05-18 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Cross-Site Request Forgery (CSRF) vulnerability discovered in BlogEngine.Net v3.3.8.0 allows unauthenticated attackers to read arbitrary files on the hosting web server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28921">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">487afff7e6e55fd192fc08ac5de3a299</td>
-       <td>CVE-2022-25617</td>
-       <td>2022-05-18 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Reflected Cross-Site Scripting (XSS) vulnerability in Code Snippets plugin <= 2.14.3 at WordPress via &orderby vulnerable parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25617">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c99a4b93dfbd54f3103990d7a210bde3</td>
-       <td>CVE-2022-30596</td>
-       <td>2022-05-18 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw was found in moodle where ID numbers displayed when bulk allocating markers to assignments required additional sanitizing to prevent a stored XSS risk.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30596">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">33dbcfc53a61e2d411d1a348ac1b5bfb</td>
-       <td>CVE-2022-29445</td>
-       <td>2022-05-18 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Authenticated (administrator or higher role) Local File Inclusion (LFI) vulnerability in Wow-Company's Popup Box plugin <= 2.1.2 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29445">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e0896c6e0f7bf326003b3617465e260</td>
-       <td>CVE-2022-28924</td>
-       <td>2022-05-18 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>An information disclosure vulnerability in UniverSIS-Students before v1.5.0 allows attackers to obtain sensitive information via a crafted GET request to the endpoint /api/students/me/courses/.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28924">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a2d35840d2a7866c5caa0a8c582ba395</td>
-       <td>CVE-2022-25162</td>
-       <td>2022-05-18 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Input Validation vulnerability in Mitsubishi Electric MELSEC iQ-F series FX5U-xMy/z(x=32,64,80, y=T,R, z=ES,DS,ESS,DSS) versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-xMy/z(x=32,64,96, y=T,R, z=D,DSS) versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-32MT/DS-TS versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-32MT/DSS-TS versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-32MR/DS-TS versions prior to 1.270 and Mitsubishi Electric MELSEC iQ-F series FX5UJ-xMy/z(x=24,40,60, y=T,R, z=ES,ESS) versions prior to 1.030 allows a remote unauthenticated attacker to cause a temporary DoS condition for the product's communication by sending specially crafted packets.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25162">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87f0e7663d3500befb23cbff652e7a03</td>
-       <td>CVE-2022-25161</td>
-       <td>2022-05-18 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Input Validation vulnerability in Mitsubishi Electric MELSEC iQ-F series FX5U-xMy/z(x=32,64,80, y=T,R, z=ES,DS,ESS,DSS) versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-xMy/z(x=32,64,96, y=T,R, z=D,DSS) versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-32MT/DS-TS versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-32MT/DSS-TS versions prior to 1.270, Mitsubishi Electric MELSEC iQ-F series FX5UC-32MR/DS-TS versions prior to 1.270 and Mitsubishi Electric MELSEC iQ-F series FX5UJ-xMy/z(x=24,40,60, y=T,R, z=ES,ESS) versions prior to 1.030 allows a remote unauthenticated attacker to cause a DoS condition for the product's program execution or communication by sending specially crafted packets. System reset of the product is required for recovery.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25161">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e08665e7a75129ae9e2149aac5c47754</td>
-       <td>CVE-2022-22787</td>
-       <td>2022-05-18 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Zoom Client for Meetings (for Android, iOS, Linux, macOS, and Windows) before version 5.10.0 fails to properly validate the hostname during a server switch request. This issue could be used in a more sophisticated attack to trick an unsuspecting users client to connect to a malicious server when attempting to use Zoom services.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22787">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,78 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">ba641d76b47819de14c4702116e5c2fe</td>
+       <td>CVE-2021-21465</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>SAP Business Information Warehouse SQL注入漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-379507">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a74248477318de999f06f634063bd266</td>
+       <td>CVE-2021-21466</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>SAP Business Warehouse 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-379508">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">66e2bf7b621fc02b93cabf86d5c16d36</td>
+       <td>CVE-2021-21468</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>SAP Business Information Warehouse SQL注入漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-379510">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a7d65e8739079473f7b224c0d73f7322</td>
+       <td>CVE-2021-21473</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>SAP NetWeaver AS ABAP 和 ABAP Platform 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-379515">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e7256d11907dc4c00b0fb5d332079325</td>
+       <td>CVE-2021-29429</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>Gradle 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-389026">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">097dbf8ae6b8b52b30076f15316fdfc7</td>
+       <td>CVE-2021-30140</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>LiquidFiles 3.4.15 has stored XSS through the...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-389793">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc464a8397e7b5765f9eac9ca2755040</td>
+       <td>CVE-2021-3914</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-400725">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">445844815cef347a0c0b13d3209deff5</td>
+       <td>CVE-2021-46426</td>
+       <td>2022-05-19 17:30:52 <img src="imgs/new.gif" /></td>
+       <td>phpIPAM 1.4.4 allows Reflected XSS and CSRF via......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-413108">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">587aa9ce81b0b78b27f24ec0f499ed59</td>
        <td>CVE-2021-28544</td>
@@ -729,78 +801,6 @@
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-411301">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">72fe813f2a78690f3012a415d323ab92</td>
-       <td>CVE-2022-22677</td>
-       <td>2022-05-17 18:46:45</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-411305">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0c6791226c67c596dc878e37d3c2fe50</td>
-       <td>CVE-2022-24108</td>
-       <td>2022-05-17 18:46:45</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-413661">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2de096fda0e93026ad4b765d2a05d3d2</td>
-       <td>CVE-2022-26693</td>
-       <td>2022-05-17 18:46:45</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-417362">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4b523bc75727f0ab9ff51e0b6bb4b8a</td>
-       <td>CVE-2022-26694</td>
-       <td>2022-05-17 18:46:45</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-417363">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1d28a89503c7175096f8e24c8934f664</td>
-       <td>CVE-2021-35249</td>
-       <td>2022-05-17 13:20:33</td>
-       <td>SolarWinds Serv-U FTP Server 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-395546">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d9a152e166a1ccc49b86d9159048e2a3</td>
-       <td>CVE-2021-3899</td>
-       <td>2022-05-17 13:20:33</td>
-       <td>Canonical Apport 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-400574">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">166644439423d89876bebb83f6968d3a</td>
-       <td>CVE-2022-23706</td>
-       <td>2022-05-17 13:20:33</td>
-       <td>Hewlett Packard Enterprise OneView 跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412882">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d47d83e21476a5b18b268d0d3256823</td>
-       <td>CVE-2022-24108</td>
-       <td>2022-05-17 13:20:33</td>
-       <td>OpenCart 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-413661">详情</a></td>
       </tr>
 
      </tbody>
