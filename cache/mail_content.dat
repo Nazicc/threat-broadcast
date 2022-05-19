@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22972,CVE-2022-22973</font><br/>[<b>披露时间</b>] 2022-05-19 17:55:14<br/>[<b>漏洞描述</b>] VMware Workspace ONE Access等产品中存在多个安全漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6238'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6238</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-38529 (CVE-2022-22931)</font><br/>[<b>披露时间</b>] 2022-05-19 11:39:30<br/>[<b>漏洞描述</b>] Apache James路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-38529'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-38529</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-38521 (CVE-2022-28890)</font><br/>[<b>披露时间</b>] 2022-05-19 11:39:43<br/>[<b>漏洞描述</b>] Apache Jena XML外部实体注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-38521'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-38521</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-38527 (CVE-2022-26612)</font><br/>[<b>披露时间</b>] 2022-05-19 11:39:45<br/>[<b>漏洞描述</b>] Apache Hadoop路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-38527'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-38527</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-38528 (CVE-2022-25598)</font><br/>[<b>披露时间</b>] 2022-05-19 11:39:48<br/>[<b>漏洞描述</b>] Apache DolphinScheduler拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-38528'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-38528</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
