@@ -1,20 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21223</font><br/>[<b>披露时间</b>] 2022-05-19 07:41:32<br/>[<b>漏洞描述</b>] cocoapods-downloader命令注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416186'>http://cve.scap.org.cn/vuln/VHN-416186</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25786</font><br/>[<b>披露时间</b>] 2022-05-19 07:41:32<br/>[<b>漏洞描述</b>] Secomea GateManager存在未明漏洞（CNVD-2022-38146）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416602'>http://cve.scap.org.cn/vuln/VHN-416602</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1437</font><br/>[<b>披露时间</b>] 2022-05-19 07:41:32<br/>[<b>漏洞描述</b>] radare2堆缓冲区溢出漏洞（CNVD-2022-38158）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419550'>http://cve.scap.org.cn/vuln/VHN-419550</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1451</font><br/>[<b>披露时间</b>] 2022-05-19 07:41:32<br/>[<b>漏洞描述</b>] radare2越界读取漏洞（CNVD-2022-38159）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419564'>http://cve.scap.org.cn/vuln/VHN-419564</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1452</font><br/>[<b>披露时间</b>] 2022-05-19 07:41:32<br/>[<b>漏洞描述</b>] radare2越界读取漏洞（CNVD-2022-38160）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419565'>http://cve.scap.org.cn/vuln/VHN-419565</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22972,CVE-2022-22973</font><br/>[<b>披露时间</b>] 2022-05-19 17:55:14<br/>[<b>漏洞描述</b>] VMware Workspace ONE Access等产品中存在多个安全漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6238'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6238</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
