@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31259</font><br/>[<b>披露时间</b>] 2022-05-21 19:15:00<br/>[<b>漏洞描述</b>] The route lookup process in beego through 1.12.4 and 2.x through 2.0.2 allows attackers to bypass access control. When a /p1/p2/:name route is configured, attackers can access it by appending .xml in various places (e.g., p1.xml instead of p1).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31259'>https://www.tenable.com/cve/CVE-2022-31259</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30061</font><br/>[<b>披露时间</b>] 2022-05-11 18:15:29 <br/>[<b>漏洞描述</b>] ftcms &lt;=2.1 was discovered to be vulnerable to directory traversal attacks via the parameter tp.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30061'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30061</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30060</font><br/>[<b>披露时间</b>] 2022-05-11 18:15:29 <br/>[<b>漏洞描述</b>] ftcms &lt;=2.1 was discovered to be vulnerable to Arbitrary File Write via admin/controllers/tp.php<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30060'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30060</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30059</font><br/>[<b>披露时间</b>] 2022-05-11 18:15:29 <br/>[<b>漏洞描述</b>] Shopwind &lt;=v3.4.2 was discovered to contain a Arbitrary File Delete vulnerability via the neirong parameter at \backend\controllers\DbController.php.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30059'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30059</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
