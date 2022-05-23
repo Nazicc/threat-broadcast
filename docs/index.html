@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-23 09:45:20 -->
+<!-- RELEASE TIME : 2022-05-23 11:40:53 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d76205e17b40a5aea84816f9831a378d</td>
+       <td>CVE-2022-1298</td>
+       <td>2022-05-23 08:16:00 <img src="imgs/new.gif" /></td>
+       <td>The Tabs WordPress plugin before 2.2.8 does not sanitise and escape Tab descriptions, which could allow high privileged users with a role as low as editor to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1298">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5dd293e7f6844ae8e99ae6a6335ab381</td>
+       <td>CVE-2022-1268</td>
+       <td>2022-05-23 08:16:00 <img src="imgs/new.gif" /></td>
+       <td>The Donate Extra WordPress plugin through 2.02 does not sanitise and escape a parameter before outputting it back in the response, leading to a Reflected cross-Site Scripting</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1268">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9f184ccf620670d1828548902a01435f</td>
+       <td>CVE-2022-0781</td>
+       <td>2022-05-23 08:16:00 <img src="imgs/new.gif" /></td>
+       <td>The Nirweb support WordPress plugin before 2.8.2 does not sanitise and escape a parameter before using it in a SQL statement via an AJAX action (available to unauthenticated users), leading to an SQL injection</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0781">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">237a4352d9bd2c9ba9a389b010e0ae4a</td>
+       <td>CVE-2022-0346</td>
+       <td>2022-05-23 08:16:00 <img src="imgs/new.gif" /></td>
+       <td>The XML Sitemap Generator for Google WordPress plugin before 2.0.4 does not validate a parameter which can be set to an arbitrary value, thus causing XSS via error message or RCE if allow_url_include is turned on.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0346">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">24f0f7dbf7422bde9366318592a805d2</td>
        <td>CVE-2022-1813</td>
        <td>2022-05-22 16:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2022-05-20 22:16:00</td>
        <td>TensorFlow is an open source platform for machine learning. Prior to versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4, multiple TensorFlow operations misbehave in eager mode when the resource handle provided to them is invalid. In graph mode, it would have been impossible to perform these API calls, but migration to TF 2.x eager mode opened up this vulnerability. If the resource handle is empty, then a reference is bound to a null pointer inside TensorFlow codebase (various codepaths). This is undefined behavior. Versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4 contain a patch for this issue.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29207">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d6af7c8a102988ade42d806a0b5d611b</td>
-       <td>CVE-2022-29447</td>
-       <td>2022-05-20 21:15:00</td>
-       <td>Authenticated (administrator or higher user role) Local File Inclusion (LFI) vulnerability in Wow-Company's Hover Effects plugin <= 2.1 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29447">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">830783d978e271db8b63a5742d6712ce</td>
-       <td>CVE-2022-29434</td>
-       <td>2022-05-20 21:15:00</td>
-       <td>Insecure Direct Object References (IDOR) vulnerability in Spiffy Plugins Spiffy Calendar <= 4.9.0 at WordPress allows an attacker to edit or delete events.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29434">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">be7a93e5231a212e6761d73302f54762</td>
-       <td>CVE-2022-29432</td>
-       <td>2022-05-20 21:15:00</td>
-       <td>Multiple Authenticated (administrator or higher user role) Persistent Cross-Site Scripting (XSS) vulnerabilities in TMS-Plugins wpDataTables plugin <= 2.1.27 on WordPress via &data-link-text, &data-link-url, &data, &data-shortcode, &data-star-num vulnerable parameters.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29432">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5793694534dbd83db7cc2864e3093cc0</td>
-       <td>CVE-2022-29431</td>
-       <td>2022-05-20 21:15:00</td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in KubiQ CPT base plugin <= 5.8 at WordPress allows an attacker to delete the CPT base.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29431">详情</a></td>
       </tr>
 
      </tbody>

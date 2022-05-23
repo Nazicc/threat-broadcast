@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-05-23 09:33:30<br/>[<b>漏洞描述</b>] 安全事件周报 (05.16-05.22)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=2b09c953867a8c727f664cc53078aeb7'>https://cert.360.cn/warning/detail?id=2b09c953867a8c727f664cc53078aeb7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1298</font><br/>[<b>披露时间</b>] 2022-05-23 08:16:00<br/>[<b>漏洞描述</b>] The Tabs WordPress plugin before 2.2.8 does not sanitise and escape Tab descriptions, which could allow high privileged users with a role as low as editor to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1298'>https://www.tenable.com/cve/CVE-2022-1298</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1268</font><br/>[<b>披露时间</b>] 2022-05-23 08:16:00<br/>[<b>漏洞描述</b>] The Donate Extra WordPress plugin through 2.02 does not sanitise and escape a parameter before outputting it back in the response, leading to a Reflected cross-Site Scripting<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1268'>https://www.tenable.com/cve/CVE-2022-1268</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0781</font><br/>[<b>披露时间</b>] 2022-05-23 08:16:00<br/>[<b>漏洞描述</b>] The Nirweb support WordPress plugin before 2.8.2 does not sanitise and escape a parameter before using it in a SQL statement via an AJAX action (available to unauthenticated users), leading to an SQL injection<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0781'>https://www.tenable.com/cve/CVE-2022-0781</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0346</font><br/>[<b>披露时间</b>] 2022-05-23 08:16:00<br/>[<b>漏洞描述</b>] The XML Sitemap Generator for Google WordPress plugin before 2.0.4 does not validate a parameter which can be set to an arbitrary value, thus causing XSS via error message or RCE if allow_url_include is turned on.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0346'>https://www.tenable.com/cve/CVE-2022-0346</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
