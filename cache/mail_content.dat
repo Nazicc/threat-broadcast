@@ -1,16 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31263</font><br/>[<b>披露时间</b>] 2022-05-24 04:15:00<br/>[<b>漏洞描述</b>] app/models/user.rb in Mastodon before 3.5.0 allows a bypass of e-mail restrictions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31263'>https://www.tenable.com/cve/CVE-2022-31263</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29309</font><br/>[<b>披露时间</b>] 2022-05-24 03:15:00<br/>[<b>漏洞描述</b>] mysiteforme v2.2.1 was discovered to contain a Server-Side Request Forgery.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29309'>https://www.tenable.com/cve/CVE-2022-29309</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29305</font><br/>[<b>披露时间</b>] 2022-05-24 03:15:00<br/>[<b>漏洞描述</b>] imgurl v2.31 was discovered to contain a Blind SQL injection vulnerability via /upload/localhost.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29305'>https://www.tenable.com/cve/CVE-2022-29305</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0910</font><br/>[<b>披露时间</b>] 2022-05-24 03:15:00<br/>[<b>漏洞描述</b>] A downgrade from two-factor authentication to one-factor authentication vulnerability in the CGI program of Zyxel USG/ZyWALL series firmware versions 4.32 through 4.71, USG FLEX series firmware versions 4.50 through 5.21, ATP series firmware versions 4.32 through 5.21, and VPN series firmware versions 4.32 through 5.21, that could allow an authenticated attacker to bypass the second authentication phase to connect the IPsec VPN server even though the two-factor authentication (2FA) was enabled.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0910'>https://www.tenable.com/cve/CVE-2022-0910</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0734</font><br/>[<b>披露时间</b>] 2022-05-24 03:15:00<br/>[<b>漏洞描述</b>] A cross-site scripting vulnerability was identified in the CGI program of Zyxel USG/ZyWALL series firmware versions 4.35 through 4.70, USG FLEX series firmware versions 4.50 through 5.20, ATP series firmware versions 4.35 through 5.20, and VPN series firmware versions 4.35 through 5.20, that could allow an attacker to obtain some information stored in the user's browser, such as cookies or session tokens, via a malicious script.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-0734'>https://www.tenable.com/cve/CVE-2022-0734</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29377</font><br/>[<b>披露时间</b>] 2022-05-24 02:15:00<br/>[<b>漏洞描述</b>] Totolink A3600R V4.1.2cu.5182_B20201102 was discovered to contain a stacker overflow in the fread function at infostat.cgi. This vulnerability allows attackers to cause a Denial of Service (DoS) via the parameter CONTENT_LENGTH.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29377'>https://www.tenable.com/cve/CVE-2022-29377</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-40233</font><br/>[<b>披露时间</b>] 2022-05-23 07:40:51<br/>[<b>漏洞描述</b>] Fastjson远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-40233'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-40233</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-423189</font><br/>[<b>披露时间</b>] 2022-05-23 07:41:44<br/>[<b>漏洞描述</b>] Fastjson远程代码执行漏洞（CNVD-2022-40233）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423189'>http://cve.scap.org.cn/vuln/VHN-423189</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
