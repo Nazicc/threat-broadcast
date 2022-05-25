@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-25 21:42:43 -->
+<!-- RELEASE TIME : 2022-05-25 23:43:26 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">843a7ba20a510bf5f12cfba975c62dc0</td>
+       <td>CVE-2022-31624</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>MariaDB Server before 10.7 is vulnerable to Denial of Service. While executing the plugin/server_audit/server_audit.c method log_statement_ex, the held lock lock_bigbuffer is not released correctly, which allows local users to trigger a denial of service due to the deadlock.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31624">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ed744c240d1ea45e419ee1d59eb4cb7c</td>
+       <td>CVE-2022-31623</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>MariaDB Server before 10.7 is vulnerable to Denial of Service. In extra/mariabackup/ds_compress.cc, when an error occurs (i.e., going to the err label) while executing the method create_worker_threads, the held lock thd->ctrl_mutex is not released correctly, which allows local users to trigger a denial of service due to the deadlock.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31623">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">33634f6cafc7af2d65ffb98dbc8762d7</td>
+       <td>CVE-2022-31622</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>MariaDB Server before 10.7 is vulnerable to Denial of Service. In extra/mariabackup/ds_compress.cc, when an error occurs (pthread_create returns a nonzero value) while executing the method create_worker_threads, the held lock is not released correctly, which allows local users to trigger a denial of service due to the deadlock.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31622">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d195047b5d5d2e2f4a0b5c0005c63a01</td>
+       <td>CVE-2022-31621</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>MariaDB Server before 10.7 is vulnerable to Denial of Service. In extra/mariabackup/ds_xbstream.cc, when an error occurs (stream_ctxt->dest_file == NULL) while executing the method xbstream_open, the held lock is not released correctly, which allows local users to trigger a denial of service due to the deadlock.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31621">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ddda766f4813d3e2d11532f8650d3bcd</td>
+       <td>CVE-2022-31620</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>In libjpeg before 1.64, BitStream<false>::Get in bitstream.hpp has an assertion failure that may cause denial of service. This is related to out-of-bounds array access during arithmetically coded lossless scan or arithmetically coded sequential scan.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31620">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">82bbc89cade6bd33ff26baef927da8bb</td>
+       <td>CVE-2022-29253</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Starting with version 8.3-rc-1 and prior to versions 12.10.3 and 14.0, one can ask for any file located in the classloader using the template API and a path with ".." in it. The issue is patched in versions 14.0 and 13.10.3. There is no easy workaround for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29253">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c75bca476bbc521d93cefbc0e0a7e110</td>
+       <td>CVE-2022-29252</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform Wiki UI Main Wiki is a package for managing subwikis. Starting with version 5.3-milestone-2, XWiki Platform Wiki UI Main Wiki contains a possible cross-site scripting vector in the `WikiManager.JoinWiki ` wiki page related to the "requestJoin" field. The issue is patched in versions 12.10.11, 14.0-rc-1, 13.4.7, and 13.10.3. The easiest available workaround is to edit the wiki page `WikiManager.JoinWiki` (with wiki editor) according to the suggestion provided in the GitHub Security Advisory.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29252">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">693754658307797c323acff9fa5663ab</td>
+       <td>CVE-2022-29251</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform Flamingo Theme UI is a tool that allows customization and preview of any Flamingo-based skin. Starting with versions 6.2.4 and 6.3-rc-1, a possible cross-site scripting vector is present in the `FlamingoThemesCode.WebHomeSheet` wiki page related to the "newThemeName" form field. The issue is patched in versions 12.10.11, 14.0-rc-1, 13.4.7, and 13.10.3. The easiest available workaround is to edit the wiki page `FlamingoThemesCode.WebHomeSheet` (with wiki editor) according to the suggestion provided in the GitHub Security Advisory.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29251">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">59012a6a9c89a0e0a4051352ae06a675</td>
+       <td>CVE-2022-27169</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An information disclosure vulnerability exists in the OAS Engine SecureBrowseFile functionality of Open Automation Software OAS Platform V16.00.0112. A specially-crafted network request can lead to a disclosure of sensitive information. An attacker can send a network request to trigger this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27169">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0cd7b0fa4dcd4a40d740d95adebb1e11</td>
+       <td>CVE-2022-26833</td>
+       <td>2022-05-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An improper authentication vulnerability exists in the REST API functionality of Open Automation Software OAS Platform V16.00.0121. A specially-crafted series of HTTP requests can lead to unauthenticated use of the REST API. An attacker can send a series of HTTP requests to trigger this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26833">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">75cfe0ce9f011e0d5687fc963363b566</td>
        <td>CVE-2022-29402</td>
        <td>2022-05-25 18:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-05-25 13:15:00 <img src="imgs/new.gif" /></td>
        <td>An arbitrary file upload vulnerability in the Select Image function of Online Food Ordering System v1.0 allows attackers to execute arbitrary code via a crafted PHP file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a6048ad5d542aaa23c9b6633a4e995fb</td>
-       <td>CVE-2022-29650</td>
-       <td>2022-05-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Online Food Ordering System v1.0 was discovered to contain a SQL injection vulnerability via the Search parameter at /online-food-order/food-search.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29650">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4a6a0586cec48ba67d488b751181c075</td>
-       <td>CVE-2022-29379</td>
-       <td>2022-05-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nginx NJS v0.7.3 was discovered to contain a stack overflow in the function njs_default_module_loader at /src/njs/src/njs_module.c.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29379">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">024d7bdcb3ddad4cca62deeda1926820</td>
-       <td>CVE-2022-1851</td>
-       <td>2022-05-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds Read in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1851">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a29cc74008a8113e78b6d9b9094a0a7f</td>
-       <td>CVE-2022-30595</td>
-       <td>2022-05-25 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>libImaging/TgaRleDecode.c in Pillow 9.1.0 has a heap buffer overflow in the processing of invalid TGA image files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30595">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b74a4927d8e5ee3f13c3c40e8217b47c</td>
-       <td>CVE-2022-30323</td>
-       <td>2022-05-25 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>HashiCorp go-getter through 2.0.2 does not safely perform downloads (issue 3 of 3).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30323">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd610e45df281da6ca048b7bec8ecd9e</td>
-       <td>CVE-2022-30322</td>
-       <td>2022-05-25 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>HashiCorp go-getter through 2.0.2 does not safely perform downloads (issue 2 of 3).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30322">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">00c3a47fdf58156a6dacac57b445abb0</td>
-       <td>CVE-2022-30321</td>
-       <td>2022-05-25 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>HashiCorp go-getter through 2.0.2 does not safely perform downloads (issue 1 of 3).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30321">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">31f41f1373e2574cba7463215f4f1077</td>
-       <td>CVE-2022-28862</td>
-       <td>2022-05-25 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Archibus Web Central before 26.2, multiple SQL Injection vulnerabilities occur in dwr/call/plaincall/workflow.runWorkflowRule.dwr. Through the injection of arbitrary SQL statements, a potential attacker can modify query syntax and perform unauthorized (and unexpected) operations against the remote database. This is fixed in all recent versions, such as version 26.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28862">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fdbac237987a2cefa145f82be0f67f74</td>
-       <td>CVE-2022-26945</td>
-       <td>2022-05-25 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>HashiCorp go-getter before 2.0.2 allows Command Injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26945">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44a72866ac8a340852920da238024941</td>
-       <td>CVE-2022-21951</td>
-       <td>2022-05-25 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Missing Encryption of Sensitive Data vulnerability in SUSE Rancher, Rancher allows attackers on the network to read and change network data due to missing encryption of data transmitted via the network when a cluster is created from an RKE template with the CNI value overridden This issue affects: SUSE Rancher Rancher versions prior to 2.5.14; Rancher versions prior to 2.6.5.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21951">详情</a></td>
       </tr>
 
      </tbody>
