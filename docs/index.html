@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-26 14:42:36 -->
+<!-- RELEASE TIME : 2022-05-26 15:49:25 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b00fcf209fd99ae574d43ac0c7480ee3</td>
+       <td>CVE-2022-29721</td>
+       <td>2022-05-26 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>74cmsSE v3.5.1 was discovered to contain a SQL injection vulnerability via the keyword parameter at /home/jobfairol/resumelist.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29721">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5c2394e2b276d4190906b33381419ed2</td>
+       <td>CVE-2022-29720</td>
+       <td>2022-05-26 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>74cmsSE v3.5.1 was discovered to contain an arbitrary file read vulnerability via the component \index\controller\Download.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29720">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a536e8997796f8f36e16fe530cf9841</td>
+       <td>CVE-2021-40317</td>
+       <td>2022-05-26 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Piwigo 11.5.0 is affected by a SQL injection vulnerability via admin.php and the id parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40317">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">974b95cb7c55ba4f0aa93baf3e8d770f</td>
+       <td>CVE-2021-42860</td>
+       <td>2022-05-26 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>A stack buffer overflow exists in Mini-XML v3.2. When inputting an unformed XML string to the mxmlLoadString API, it will cause a stack-buffer-overflow in mxml_string_getc:2611.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42860">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7b4eaf8921770f8e71e5a5087a4ffa78</td>
+       <td>CVE-2021-42859</td>
+       <td>2022-05-26 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>A memory leak issue was discovered in Mini-XML v3.2 that could cause a denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42859">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e7f51a679d20c522622a4b698a38f40c</td>
        <td>CVE-2021-42692</td>
        <td>2022-05-26 11:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-05-25 16:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability was found in logrotate in how the state file is created. The state file is used to prevent parallel executions of multiple instances of logrotate by acquiring and releasing a file lock. When the state file does not exist, it is created with world-readable permission, allowing an unprivileged user to lock the state file, stopping any rotation. This flaw affects logrotate versions before 3.20.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1348">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9cd1c936cb7b45c9827957f2cab45d99</td>
-       <td>CVE-2021-44719</td>
-       <td>2022-05-25 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Docker Desktop 4.3.0 has Incorrect Access Control.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44719">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">101bd940e8d0eb90bee690fd4ad84b79</td>
-       <td>CVE-2022-1678</td>
-       <td>2022-05-25 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in the Linux Kernel from 4.18 to 4.19, an improper update of sock reference in TCP pacing can lead to memory/netns leak, which can be used by remote clients.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1678">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">abb36f1aacca5b1c47fd2d1837a541c3</td>
-       <td>CVE-2022-29380</td>
-       <td>2022-05-25 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Academy-LMS v4.3 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the SEO panel.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29380">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23352c96f54be4e27e6a1ce60f4e817c</td>
-       <td>CVE-2022-22127</td>
-       <td>2022-05-25 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tableau is aware of a broken access control vulnerability present in Tableau Server affecting Tableau Server customers using Local Identity Store for managing users. The vulnerability allows a malicious site administrator to change passwords for users in different sites hosted on the same Tableau Server, resulting in the potential for unauthorized access to data.Tableau Server versions affected are:2020.4.16, 2021.1.13, 2021.2.10, 2021.3.9, 2021.4.4 and earlierNote: All future releases of Tableau Server will address this security issue. Versions that are no longer supported are not tested and may be vulnerable.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22127">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a89f75d37e14fef58ba8b37e4375292d</td>
-       <td>CVE-2021-35487</td>
-       <td>2022-05-25 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nokia Broadcast Message Center through 11.1.0 allows an authenticated user to perform a Boolean Blind SQL Injection attack on the endpoint /owui/block/send-receive-updates (for the Manage Alerts page) via the extIdentifier HTTP POST parameter. This allows an attacker to obtain the database user, database name, and database version information, and potentially database data.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-35487">详情</a></td>
       </tr>
 
      </tbody>
