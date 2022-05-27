@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30886</font><br/>[<b>披露时间</b>] 2022-05-20 13:15:16 <br/>[<b>漏洞描述</b>] School Dormitory Management System v1.0 was discovered to contain a SQL injection vulnerability via the month parameter at /dms/admin/reports/daily_collection_report.php.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30886'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30886</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30767</font><br/>[<b>披露时间</b>] 2022-05-16 03:15:07 <br/>[<b>漏洞描述</b>] nfs_lookup_reply in net/nfs.c in Das U-Boot through 2022.04 (and through 2022.07-rc2) has an unbounded memcpy with a failed length check, leading to a buffer overflow. NOTE: this issue exists because of an incorrect fix for CVE-2019-14196.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30767'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30767</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-27781</font><br/>[<b>披露时间</b>] 2022-05-27 17:15:00<br/>[<b>漏洞描述</b>] The Master operator may be able to embed script tag in HTML with alert pop-up display cookie.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-27781'>https://www.tenable.com/cve/CVE-2021-27781</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-27780</font><br/>[<b>披露时间</b>] 2022-05-27 17:15:00<br/>[<b>漏洞描述</b>] The software may be vulnerable to both Un-Auth XML interaction and unauthenticated device enrollment.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-27780'>https://www.tenable.com/cve/CVE-2021-27780</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
