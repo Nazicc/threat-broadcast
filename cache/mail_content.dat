@@ -1,22 +1,19 @@
 
 <h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39676</font><br/>[<b>披露时间</b>] 2022-05-31 05:01:42<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-42139）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401100'>http://cve.scap.org.cn/vuln/VHN-401100</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39695</font><br/>[<b>披露时间</b>] 2022-05-31 05:01:42<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-42142）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401119'>http://cve.scap.org.cn/vuln/VHN-401119</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39708</font><br/>[<b>披露时间</b>] 2022-05-31 05:01:42<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-42141）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401132'>http://cve.scap.org.cn/vuln/VHN-401132</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39709</font><br/>[<b>披露时间</b>] 2022-05-31 05:01:42<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-42140）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401133'>http://cve.scap.org.cn/vuln/VHN-401133</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39714</font><br/>[<b>披露时间</b>] 2022-05-31 05:01:42<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-42148）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401138'>http://cve.scap.org.cn/vuln/VHN-401138</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39784</font><br/>[<b>披露时间</b>] 2022-05-31 05:01:42<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-42147）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401208'>http://cve.scap.org.cn/vuln/VHN-401208</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30190</font><br/>[<b>披露时间</b>] 2022-05-30 06:51:42<br/>[<b>漏洞描述</b>] Microsoft 支持诊断工具（MSDT）远程代码执行漏洞（CVE-2022-30190）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-30190'>https://avd.aliyun.com/detail?id=AVD-2022-30190</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-42151 (CVE-2022-30033)</font><br/>[<b>披露时间</b>] 2022-05-31 06:52:02<br/>[<b>漏洞描述</b>] Tenda TX9 Pro缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-42151'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-42151</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-42156 (CVE-2022-28896)</font><br/>[<b>披露时间</b>] 2022-05-31 06:52:09<br/>[<b>漏洞描述</b>] D-Link DIR882命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-42156'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-42156</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-42155 (CVE-2022-29332)</font><br/>[<b>披露时间</b>] 2022-05-31 06:52:11<br/>[<b>漏洞描述</b>] D-LINK DIR-825 AC1200 R2目录遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-42155'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-42155</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1934</font><br/>[<b>披露时间</b>] 2022-05-31 03:15:00<br/>[<b>漏洞描述</b>] Use After Free in GitHub repository mruby/mruby prior to 3.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1934'>https://www.tenable.com/cve/CVE-2022-1934</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1931</font><br/>[<b>披露时间</b>] 2022-05-31 02:15:00<br/>[<b>漏洞描述</b>] Incorrect Synchronization in GitHub repository polonel/trudesk prior to 1.2.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1931'>https://www.tenable.com/cve/CVE-2022-1931</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
