@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-31 22:44:17 -->
+<!-- RELEASE TIME : 2022-06-01 03:06:08 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">d98de03075a051648774441a82d8ae09</td>
        <td></td>
-       <td>2022-05-30 06:37:51 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 06:37:51</td>
        <td>安全事件周报 (05.23-05.29)</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=c9ea1421e7691fca084f3b82e82968a7">详情</a></td>
       </tr>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">17b0cdf30ddbe541b55ace8e17a42cc5</td>
+       <td>CVE-2022-31015</td>
+       <td>2022-05-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Waitress is a Web Server Gateway Interface server for Python 2 and 3. Waitress versions 2.1.0 and 2.1.1 may terminate early due to a thread closing a socket while the main thread is about to call select(). This will lead to the main thread raising an exception that is not handled and then causing the entire application to be killed. This issue has been fixed in Waitress 2.1.2 by no longer allowing the WSGI thread to close the socket. Instead, that is always delegated to the main thread. There is no work-around for this issue. However, users using waitress behind a reverse proxy server are less likely to have issues if the reverse proxy always reads the full response.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31015">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e79809b6f61fc3dcbbad3f6147bcf877</td>
+       <td>CVE-2022-31013</td>
+       <td>2022-05-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Chat Server is the chat server for Vartalap, an open-source messaging application. Versions 2.3.2 until 2.6.0 suffer from a bug in validating the access token, resulting in authentication bypass. The function `this.authProvider.verifyAccessKey` is an async function, as the code is not using `await` to wait for the verification result. Every time the function responds back with success, along with an unhandled exception if the token is invalid. A patch is available in version 2.6.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31013">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b62a05229d13f4c6bea1b4a12a69ae98</td>
+       <td>CVE-2022-1947</td>
+       <td>2022-05-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Use of Incorrect Operator in GitHub repository polonel/trudesk prior to 1.2.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1947">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">03e8da1b766bd1618943972fc10822bf</td>
+       <td>CVE-2022-1893</td>
+       <td>2022-05-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Exposure of Sensitive Information to an Unauthorized Actor in GitHub repository polonel/trudesk prior to 1.2.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1893">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">58ea2742a32285f4b98c30bb03ede47c</td>
+       <td>CVE-2022-1808</td>
+       <td>2022-05-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Execution with Unnecessary Privileges in GitHub repository polonel/trudesk prior to 1.2.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1808">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b0bf51661ae511322bb5ec2b2855f02f</td>
        <td>CVE-2022-31011</td>
        <td>2022-05-31 20:15:00 <img src="imgs/new.gif" /></td>
@@ -426,7 +466,7 @@
       <tr>
        <td scope="row">8e516b66cf36691b3e5d19f82dbc18dc</td>
        <td>CVE-2022-1646</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The Simple Real Estate Pack WordPress plugin through 1.4.8 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1646">详情</a></td>
       </tr>
@@ -434,7 +474,7 @@
       <tr>
        <td scope="row">424b8bf6a1c3521241de18b88304d8c9</td>
        <td>CVE-2022-1645</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The Amazon Link WordPress plugin through 3.2.10 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1645">详情</a></td>
       </tr>
@@ -442,7 +482,7 @@
       <tr>
        <td scope="row">9491ead1655d2a2650fc3e4cd09906b7</td>
        <td>CVE-2022-1644</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The Call&Book Mobile Bar WordPress plugin through 1.2.2 does not sanitize and escape some of its settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1644">详情</a></td>
       </tr>
@@ -450,7 +490,7 @@
       <tr>
        <td scope="row">54abc42eb138a54333294043926faa8b</td>
        <td>CVE-2022-1643</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The Birthdays Widget WordPress plugin through 1.7.18 does not sanitise and escape some of its fields, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1643">详情</a></td>
       </tr>
@@ -458,7 +498,7 @@
       <tr>
        <td scope="row">674ff8c47c1ac0716c33882f6a1aaf6d</td>
        <td>CVE-2022-1611</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The Bulk Page Creator WordPress plugin before 1.1.4 does not protect its page creation functionalities with nonce checks, which makes them vulnerable to CSRF.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1611">详情</a></td>
       </tr>
@@ -466,7 +506,7 @@
       <tr>
        <td scope="row">caaa7e9c8a4e734c1e94729a16567d9d</td>
        <td>CVE-2022-1589</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The Change wp-admin login WordPress plugin before 1.1.0 does not properly check for authorisation and is also missing CSRF check when updating its settings, which could allow unauthenticated users to change the settings. The attacked could also be performed via a CSRF vector</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1589">详情</a></td>
       </tr>
@@ -474,49 +514,9 @@
       <tr>
        <td scope="row">3cc50e2156c33721cccc09fef4ed059f</td>
        <td>CVE-2022-1583</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:15:00</td>
        <td>The External Links in New Window / New Tab WordPress plugin before 1.43 does not ensure window.opener is set to "null" when links to external sites are clicked, which may enable tabnabbing attacks to occur.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1583">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9a85a3d8bf368482041b9808a0faa85d</td>
-       <td>CVE-2022-1582</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>The External Links in New Window / New Tab WordPress plugin before 1.43 does not properly escape URLs it concatenates to onclick event handlers, which makes Stored Cross-Site Scripting attacks possible.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1582">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">943b8cbc6112860fb2024a5ab7e8aded</td>
-       <td>CVE-2022-1568</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Team Members WordPress plugin before 5.1.1 does not escape some of its Team settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1568">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">63099c28dc572a860e543fd12e8be6ac</td>
-       <td>CVE-2022-1566</td>
-       <td>2022-05-30 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Quotes llama WordPress plugin through 0.7 does not sanitise and escape Quotes, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed. The attack could also be performed by tricking an admin to import a malicious CSV file</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1566">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">83e174cf2492ba2114cf6009d9ee7369</td>
-       <td>CVE-2022-1928</td>
-       <td>2022-05-29 14:15:00</td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository go-gitea/gitea prior to 1.16.9.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1928">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">891a9016c462dcd3d3316e8320648201</td>
-       <td>CVE-2022-1927</td>
-       <td>2022-05-29 14:15:00</td>
-       <td>Buffer Over-read in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1927">详情</a></td>
       </tr>
 
      </tbody>
@@ -644,7 +644,7 @@
       <tr>
        <td scope="row">feb5891a58ebc0904960e266e571c1eb</td>
        <td>CVE-2022-0779</td>
-       <td>2022-05-30 15:50:23 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 15:50:23</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416020">详情</a></td>
@@ -653,7 +653,7 @@
       <tr>
        <td scope="row">692b0f09c4ed8827a67728c904ce76ba</td>
        <td>CVE-2021-0976</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>Google Android越界读取漏洞（CNVD-2022-41835）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373567">详情</a></td>
@@ -662,7 +662,7 @@
       <tr>
        <td scope="row">ff5f3ad1ff35f92df618c469a34592d7</td>
        <td>CVE-2021-25120</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Easy Social Feed Free plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-383841">详情</a></td>
@@ -671,7 +671,7 @@
       <tr>
        <td scope="row">195d25e20f102124f30114b1c7d94893</td>
        <td>CVE-2021-36828</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress WP Maintenance plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398664">详情</a></td>
@@ -680,7 +680,7 @@
       <tr>
        <td scope="row">87b7318c597e4936950e725976db10d7</td>
        <td>CVE-2021-36848</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Social Media Feather  plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398684">详情</a></td>
@@ -689,7 +689,7 @@
       <tr>
        <td scope="row">38ea5c9c34e75dfa84254cc4c36835ab</td>
        <td>CVE-2021-36893</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Responsive Tabs plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398725">详情</a></td>
@@ -698,7 +698,7 @@
       <tr>
        <td scope="row">e411e01268b3e321b2fb6fa47daf687f</td>
        <td>CVE-2021-36896</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Pricing Table plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398728">详情</a></td>
@@ -707,7 +707,7 @@
       <tr>
        <td scope="row">5414dcd9bb92ae737cdbd085d9c1a331</td>
        <td>CVE-2022-0141</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Visual Form Builder plugin跨站请求伪造漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-411419">详情</a></td>
@@ -716,7 +716,7 @@
       <tr>
        <td scope="row">2ec46282c86c2d07f1fbefaa48aad6db</td>
        <td>CVE-2022-0706</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Easy Digital Downloads plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-415973">详情</a></td>
@@ -725,7 +725,7 @@
       <tr>
        <td scope="row">71abd86bd2ca1f76099e15bc1f11930d</td>
        <td>CVE-2022-0707</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress Easy Digital Downloads plugin跨站请求伪造漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-415974">详情</a></td>
@@ -734,7 +734,7 @@
       <tr>
        <td scope="row">859c08265d3f7e54ee1690724a190dae</td>
        <td>CVE-2022-0780</td>
-       <td>2022-05-30 05:07:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 05:07:11</td>
        <td>WordPress SearchIQ plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416021">详情</a></td>
@@ -956,7 +956,7 @@
       <tr>
        <td scope="row">56a62319c7f9d6abb4e575bc0c946a61</td>
        <td>CNVD-2022-41804 (CVE-2021-25120)</td>
-       <td>2022-05-30 11:40:32 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 11:40:32</td>
        <td>WordPress Easy Social Feed Free plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41804">详情</a></td>
       </tr>
@@ -964,7 +964,7 @@
       <tr>
        <td scope="row">2fa834b7dac312f264466ffe06e39338</td>
        <td>CNVD-2022-41803 (CVE-2022-0780)</td>
-       <td>2022-05-30 11:40:30 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 11:40:30</td>
        <td>WordPress SearchIQ plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41803">详情</a></td>
       </tr>
@@ -972,7 +972,7 @@
       <tr>
        <td scope="row">41613499871ae14574579a36c94a7a1e</td>
        <td>CNVD-2022-41802 (CVE-2022-0707)</td>
-       <td>2022-05-30 11:40:27 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 11:40:27</td>
        <td>WordPress Easy Digital Downloads plugin跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41802">详情</a></td>
       </tr>
@@ -980,7 +980,7 @@
       <tr>
        <td scope="row">2b9b88bc5cb35c27083d571e9979557d</td>
        <td>CNVD-2022-41800 (CVE-2022-27862)</td>
-       <td>2022-05-30 11:40:23 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 11:40:23</td>
        <td>WordPress VikBooking Hotel Booking Engine ＆ PMS plugin任意文件上传漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41800">详情</a></td>
       </tr>
@@ -988,7 +988,7 @@
       <tr>
        <td scope="row">5e3112c1f5038e167cd3e0ce6f822dd7</td>
        <td>CNVD-2022-41807 (CVE-2022-0785)</td>
-       <td>2022-05-30 04:19:11 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:19:11</td>
        <td>WordPress Daily Prayer Time plugin SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41807">详情</a></td>
       </tr>
@@ -996,7 +996,7 @@
       <tr>
        <td scope="row">5ce5cb49ff1d83c93e84e2881f53d2eb</td>
        <td>CNVD-2022-41801 (CVE-2022-27863)</td>
-       <td>2022-05-30 04:19:08 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:19:08</td>
        <td>WordPress VikBooking Hotel Booking Engine ＆ PMS plugin信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41801">详情</a></td>
       </tr>
@@ -1004,7 +1004,7 @@
       <tr>
        <td scope="row">ac598d497768832fc1a3f19af32c21a7</td>
        <td>CNVD-2022-41808 (CVE-2022-27853)</td>
-       <td>2022-05-30 04:19:06 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:19:06</td>
        <td>WordPress Contest Gallery plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41808">详情</a></td>
       </tr>
@@ -1012,7 +1012,7 @@
       <tr>
        <td scope="row">a52d2017fd79ca26f8e7d54f7bf19f9e</td>
        <td>CNVD-2022-41833 (CVE-2021-1017)</td>
-       <td>2022-05-30 04:19:04 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:19:04</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41833">详情</a></td>
       </tr>
@@ -1020,7 +1020,7 @@
       <tr>
        <td scope="row">31cdaf89b3fcf59f5ad365fd0f0127ea</td>
        <td>CNVD-2022-41811 (CVE-2022-0141)</td>
-       <td>2022-05-30 04:19:01 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:19:01</td>
        <td>WordPress Visual Form Builder plugin跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41811">详情</a></td>
       </tr>
@@ -1028,7 +1028,7 @@
       <tr>
        <td scope="row">3f45336fdae38c0f9cb25c0376968c49</td>
        <td>CNVD-2022-41799 (CVE-2022-1463)</td>
-       <td>2022-05-30 04:18:59 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:18:59</td>
        <td>WordPress Booking Calendar plugin代码问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41799">详情</a></td>
       </tr>
@@ -1036,7 +1036,7 @@
       <tr>
        <td scope="row">d133f1cd4fceadb768f1a4d56a821caf</td>
        <td>CNVD-2022-41835 (CVE-2021-0976)</td>
-       <td>2022-05-30 04:18:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:18:55</td>
        <td>Google Android越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41835">详情</a></td>
       </tr>
@@ -1044,7 +1044,7 @@
       <tr>
        <td scope="row">f6501adb63023ae38f337c019d8e492f</td>
        <td>CNVD-2022-41820 (CVE-2021-36893)</td>
-       <td>2022-05-30 04:18:52 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:18:52</td>
        <td>WordPress Responsive Tabs plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41820">详情</a></td>
       </tr>
@@ -1052,7 +1052,7 @@
       <tr>
        <td scope="row">675f65194080df581834c0c6fde931c1</td>
        <td>CNVD-2022-41821 (CVE-2021-36896)</td>
-       <td>2022-05-30 04:18:50 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 04:18:50</td>
        <td>WordPress Pricing Table plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41821">详情</a></td>
       </tr>
@@ -1074,7 +1074,7 @@
       <tr>
        <td scope="row">9e39b8850947e236d6cf54d1f179b696</td>
        <td>CNNVD-202205-4275 (CVE-2022-1299)</td>
-       <td>2022-05-30 13:22:48 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:48</td>
        <td>WordPress plugin Slideshow 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4275">详情</a></td>
       </tr>
@@ -1082,7 +1082,7 @@
       <tr>
        <td scope="row">4b2b263aaf5e3b7f7e633268e4650d3d</td>
        <td>CNNVD-202205-4276 (CVE-2022-0779)</td>
-       <td>2022-05-30 13:22:46 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:46</td>
        <td>WordPress plugin User Meta Manager 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4276">详情</a></td>
       </tr>
@@ -1090,7 +1090,7 @@
       <tr>
        <td scope="row">fd857e4be6a7e7e990594438c51fc288</td>
        <td>CNNVD-202205-4277 (CVE-2022-30190)</td>
-       <td>2022-05-30 13:22:44 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:44</td>
        <td>Microsoft Windows Support Diagnostic Tool 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4277">详情</a></td>
       </tr>
@@ -1098,7 +1098,7 @@
       <tr>
        <td scope="row">3a7c484174d56a2e54a966d7111eaf3b</td>
        <td>CNNVD-202205-4278 (CVE-2022-1566)</td>
-       <td>2022-05-30 13:22:41 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:41</td>
        <td>WordPress plugin Quotes llama 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4278">详情</a></td>
       </tr>
@@ -1106,7 +1106,7 @@
       <tr>
        <td scope="row">8b8da9812457b11e4d2cf8bb052d395f</td>
        <td>CNNVD-202205-4279 (CVE-2022-1568)</td>
-       <td>2022-05-30 13:22:39 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:39</td>
        <td>WordPress plugin Team Members 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4279">详情</a></td>
       </tr>
@@ -1114,7 +1114,7 @@
       <tr>
        <td scope="row">3cdecf9e99da80dbddcd6333d3359879</td>
        <td>CNNVD-202205-4280 (CVE-2022-1009)</td>
-       <td>2022-05-30 13:22:37 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:37</td>
        <td>WordPress plugin Smush 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4280">详情</a></td>
       </tr>
@@ -1122,7 +1122,7 @@
       <tr>
        <td scope="row">c0af8b0739d7e3fa9609fe0816c86ba9</td>
        <td>CNNVD-202205-4281 (CVE-2022-1203)</td>
-       <td>2022-05-30 13:22:35 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:35</td>
        <td>WordPress plugin Content Mask 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4281">详情</a></td>
       </tr>
@@ -1130,7 +1130,7 @@
       <tr>
        <td scope="row">024cd41c4b42e9c941c22d9348b60ef6</td>
        <td>CNNVD-202205-4282 (CVE-2022-0376)</td>
-       <td>2022-05-30 13:22:32 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:32</td>
        <td>WordPress plugin User Meta 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4282">详情</a></td>
       </tr>
@@ -1138,7 +1138,7 @@
       <tr>
        <td scope="row">42b90c0283f5cfce5430333b84f4bd55</td>
        <td>CNNVD-202205-4283 (CVE-2022-1275)</td>
-       <td>2022-05-30 13:22:30 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:30</td>
        <td>WordPress plugin BannerMan 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4283">详情</a></td>
       </tr>
@@ -1146,7 +1146,7 @@
       <tr>
        <td scope="row">220cb0a569d9e4f1e4f4bd0910f6886b</td>
        <td>CNNVD-202205-4284 (CVE-2022-1294)</td>
-       <td>2022-05-30 13:22:28 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 13:22:28</td>
        <td>WordPress plugin IMDB info box  跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202205-4284">详情</a></td>
       </tr>
@@ -1914,7 +1914,7 @@
       <tr>
        <td scope="row">e1705a6d5780a82f72d386167c757a9d</td>
        <td>CVE-2022-31622</td>
-       <td>2022-05-30 20:11:58 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 20:11:58</td>
        <td>MariaDB 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f46bcb78d66a44f5b3603f88e5e7f6e1">详情</a></td>
       </tr>
@@ -1922,7 +1922,7 @@
       <tr>
        <td scope="row">86bc540b03d5e39db336d2e5c9585081</td>
        <td>CVE-2022-31623</td>
-       <td>2022-05-30 20:11:54 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 20:11:54</td>
        <td>MariaDB 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1ae58c4caafc490795cf7f1d5efba3fd">详情</a></td>
       </tr>
@@ -1930,7 +1930,7 @@
       <tr>
        <td scope="row">6f88ff9bfbd546542a62b69747edd0c5</td>
        <td>CVE-2022-1298</td>
-       <td>2022-05-30 20:11:50 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 20:11:50</td>
        <td>WordPress plugin Tabs 跨站脚本漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=cd9a548553b6493fa960d8b8c88b60a7">详情</a></td>
       </tr>
@@ -1938,7 +1938,7 @@
       <tr>
        <td scope="row">c49d4c5aa77230f7eb1b1b146a86daa7</td>
        <td>CVE-2022-1825</td>
-       <td>2022-05-30 20:11:45 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 20:11:45</td>
        <td>Providence 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=061dfaae5e674fae82e7be15fc7ee0ad">详情</a></td>
       </tr>
@@ -1946,7 +1946,7 @@
       <tr>
        <td scope="row">ee2e8eba1056d037a2aa8a6d9e261ec5</td>
        <td>CVE-2022-31621</td>
-       <td>2022-05-30 20:11:23 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 20:11:23</td>
        <td>MariaDB 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a907e02fb351497485d6169bcec68f52">详情</a></td>
       </tr>
@@ -2248,7 +2248,7 @@
       <tr>
        <td scope="row">481d3cd6832ff5f665fed1dba12cd042</td>
        <td>CVE-2022-28822</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>Adobe Framemaker越界写入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65308">详情</a></td>
       </tr>
@@ -2256,7 +2256,7 @@
       <tr>
        <td scope="row">ec74f6d3110dc727877e10516e5438ac</td>
        <td>CVE-2021-46167</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>WIZPLAT PD065访问控制错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65307">详情</a></td>
       </tr>
@@ -2264,7 +2264,7 @@
       <tr>
        <td scope="row">e176c71d6c3bed761be20c79e824b7a1</td>
        <td>CVE-2022-28052</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>Roothub路径遍历漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65306">详情</a></td>
       </tr>
@@ -2272,7 +2272,7 @@
       <tr>
        <td scope="row">b6e2604ab913463bdae51641e64ae32f</td>
        <td>CVE-2021-42136</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>REDCap跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65305">详情</a></td>
       </tr>
@@ -2280,7 +2280,7 @@
       <tr>
        <td scope="row">c522627dd7d4f0fb47d123475f8408ad</td>
        <td>CVE-2022-27289</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>D-Link DIR-619堆栈溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65304">详情</a></td>
       </tr>
@@ -2288,7 +2288,7 @@
       <tr>
        <td scope="row">2ff14d105309a4f67936479087d94a8b</td>
        <td>CVE-2022-27291</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>D-Link DIR-619堆栈溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65303">详情</a></td>
       </tr>
@@ -2296,7 +2296,7 @@
       <tr>
        <td scope="row">b32421ed9e9d62920a036a3182c6f122</td>
        <td>CVE-2022-27292</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>D-Link DIR-619堆栈溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65302">详情</a></td>
       </tr>
@@ -2304,7 +2304,7 @@
       <tr>
        <td scope="row">fc3ee8fea041738ad0746389b0dd8cd5</td>
        <td>CVE-2022-27274</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>InHand Networks InRouter 900 Industrial 4G Router远程代码执行漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65301">详情</a></td>
       </tr>
@@ -2312,7 +2312,7 @@
       <tr>
        <td scope="row">1eafae0dd736a9bb6dbe99cbeb6b9f0d</td>
        <td>CVE-2022-27273</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>InHand Networks InRouter 900 Industrial 4G Router远程代码执行漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65300">详情</a></td>
       </tr>
@@ -2320,7 +2320,7 @@
       <tr>
        <td scope="row">8a3701d83f74cad111a55e7df08ecfe1</td>
        <td>CVE-2022-27276</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>InHand Networks InRouter 900 Industrial 4G Router远程代码执行漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65299">详情</a></td>
       </tr>
@@ -2328,7 +2328,7 @@
       <tr>
        <td scope="row">ce1fbb78547855ce79dc625e6bd8316f</td>
        <td>CVE-2022-27279</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>InHand Networks InRouter 900 Industrial 4G Router任意文件删除漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65298">详情</a></td>
       </tr>
@@ -2336,7 +2336,7 @@
       <tr>
        <td scope="row">1900b2573acf97ec7bf76b4e23648214</td>
        <td>CVE-2022-27268</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>InHand Networks InRouter 900 Industrial 4G Router远程代码执行漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65297">详情</a></td>
       </tr>
@@ -2344,7 +2344,7 @@
       <tr>
        <td scope="row">842f71b195e3749ce6e2b4738986aa3e</td>
        <td>CVE-2022-27524</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>Autodesk TrueView越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65296">详情</a></td>
       </tr>
@@ -2352,7 +2352,7 @@
       <tr>
        <td scope="row">8e284f797d9ebea6363bd65a8ce912da</td>
        <td>CVE-2022-27523</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>Autodesk TrueView缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65295">详情</a></td>
       </tr>
@@ -2360,7 +2360,7 @@
       <tr>
        <td scope="row">53e42180653a0f3b04f00a815a895a59</td>
        <td>CVE-2022-26595</td>
-       <td>2022-05-30 09:45:55 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 09:45:55</td>
        <td>Liferay Portal权限管理错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/65294">详情</a></td>
       </tr>
@@ -2636,7 +2636,7 @@
       <tr>
        <td scope="row">9fb130a5c4c06baa0f249bf53b9883ae</td>
        <td>CVE-2022-30190</td>
-       <td>2022-05-30 06:51:42 <img src="imgs/new.gif" /></td>
+       <td>2022-05-30 06:51:42</td>
        <td>Microsoft 支持诊断工具（MSDT）远程代码执行漏洞（CVE-2022-30190）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-30190">详情</a></td>
