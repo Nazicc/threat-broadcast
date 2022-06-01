@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-01 21:43:57 -->
+<!-- RELEASE TIME : 2022-06-01 23:45:09 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">62a8d67c82ef9f21596e2308758945b0</td>
+       <td>CVE-2022-31022</td>
+       <td>2022-06-01 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Bleve is a text indexing library for go. Bleve includes HTTP utilities under bleve/http package, that are used by its sample application. These HTTP methods pave way for exploitation of a nodeâ€™s filesystem where the bleve index resides, if the user has used bleveâ€™s own HTTP (bleve/http) handlers for exposing the access to the indexes. For instance, the CreateIndexHandler (`http/index_create.go`) and DeleteIndexHandler (`http/index_delete.go`) enable an attacker to create a bleve index (directory structure) anywhere where the user running the server has the write permissions and to delete recursively any directory owned by the same user account. Users who have used the bleve/http package for exposing access to bleve index without the explicit handling for the Role Based Access Controls(RBAC) of the index assets would be impacted by this issue. There is no patch for this issue because the http package is purely intended to be used for demonstration purposes. Bleve was never designed handle the RBACs, nor it was ever advertised to be used in that way. The collaborators of this project have decided to stay away from adding any authentication or authorization to bleve project at the moment. The bleve/http package is mainly for demonstration purposes and it lacks exhaustive validation of the user inputs as well as any authentication and authorization measures. It is recommended to not use bleve/http in production use cases.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31022">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ecce4081154e32bbd3a2012d3646843e</td>
+       <td>CVE-2022-30190</td>
+       <td>2022-06-01 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30190">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e5cf836bf3a4aa77ac6022ecd75c7bac</td>
+       <td>CVE-2022-30128</td>
+       <td>2022-06-01 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-30127.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30128">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9b89f51f8eb8a3e6e55e432dedd8822d</td>
+       <td>CVE-2022-30127</td>
+       <td>2022-06-01 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-30128.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30127">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cb425c5074474b83607182d6aa6603f9</td>
+       <td>CVE-2022-26905</td>
+       <td>2022-06-01 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Spoofing Vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26905">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e4538f6c835d69eca4b53d5b9a8bcc8d</td>
        <td>CVE-2022-31000</td>
        <td>2022-06-01 18:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-05-31 16:15:00 <img src="imgs/new.gif" /></td>
        <td>IBM Business Automation Workflow traditional 21.0.1 through 21.0.3, 20.0.0.1 through 20.0.0.2, 19.0.0.1 through 19.0.0.3, 18.0.0.0 through 18.0.0.1, IBM Business Automation Workflow containers	V21.0.1 - V21.0.320.0.0.1 through 20.0.0.2, IBM Business Process Manager 8.6.0.0 through 8.6.0.201803, and 8.5.0.0 through 8.5.0.201706 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22361">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">664767395137e5dcb0c97843e18172f9</td>
-       <td>CVE-2022-23082</td>
-       <td>2022-05-31 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>In CureKit versions v1.0.1 through v1.1.3 are vulnerable to path traversal as the function â€˜isFileOutsideDirâ€™ fails to sanitize the user input which may lead to path traversal.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23082">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">74547dd40e362a29a7e5e70fd6dbd0ad</td>
-       <td>CVE-2022-30973</td>
-       <td>2022-05-31 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>We failed to apply the fix for CVE-2022-30126 to the 1.x branch in the 1.28.2 release.  In Apache Tika, a regular expression in the StandardsText class, used by the StandardsExtractingContentHandler could lead to a denial of service caused by backtracking on a specially crafted file. This only affects users who are running the StandardsExtractingContentHandler, which is a non-standard handler.  This is fixed in 1.28.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30973">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7c5bb22f8fd2d5ec258a1ee2f0a372b4</td>
-       <td>CVE-2022-1942</td>
-       <td>2022-05-31 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Heap-based Buffer Overflow in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1942">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0db95f892fa7966c7318e5f3f23f0df1</td>
-       <td>CVE-2021-3555</td>
-       <td>2022-05-31 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Buffer Overflow vulnerability in the RSTP server component of Eufy Indoor 2K Indoor Camera allows a local attacker to achieve remote code execution.This issue affects:Eufy Indoor 2K Indoor Camera2.0.9.3 version and prior versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3555">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">90bb2125bd4dcce0260a4836701cfc99</td>
-       <td>CVE-2022-1926</td>
-       <td>2022-05-31 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Integer Overflow or Wraparound in GitHub repository polonel/trudesk prior to 1.2.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1926">详情</a></td>
       </tr>
 
      </tbody>
