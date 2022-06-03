@@ -1,13 +1,21 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42890</font><br/>[<b>披露时间</b>] 2022-06-03 15:15:00<br/>[<b>漏洞描述</b>] TOTOLINK EX1200T V4.1.2cu.5215 contains a remote command injection vulnerability in function NTPSyncWithHost of the file system.so which can control hostTime to attack.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42890'>https://www.tenable.com/cve/CVE-2021-42890</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42889</font><br/>[<b>披露时间</b>] 2022-06-03 15:15:00<br/>[<b>漏洞描述</b>] In TOTOLINK EX1200T V4.1.2cu.5215, an attacker can obtain sensitive information (wifikey, wifiname, etc.) without authorization.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42889'>https://www.tenable.com/cve/CVE-2021-42889</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42888</font><br/>[<b>披露时间</b>] 2022-06-03 14:15:00<br/>[<b>漏洞描述</b>] TOTOLINK EX1200T V4.1.2cu.5215 contains a remote command injection vulnerability in function setLanguageCfg of the file global.so which can control langType to attack.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42888'>https://www.tenable.com/cve/CVE-2021-42888</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21499</font><br/>[<b>披露时间</b>] 2022-06-03 18:46:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-407112'>http://cve.scap.org.cn/vuln/VHN-407112</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21820</font><br/>[<b>披露时间</b>] 2022-06-03 18:46:21<br/>[<b>漏洞描述</b>] NVIDIA DCGM contains a vulnerability in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-408126'>http://cve.scap.org.cn/vuln/VHN-408126</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-424223</font><br/>[<b>披露时间</b>] 2022-06-03 18:46:21<br/>[<b>漏洞描述</b>] Real Player 20.1.0.312 / 20.0.3.317 DLL Hijacking...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-424223'>http://cve.scap.org.cn/vuln/VHN-424223</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-424224</font><br/>[<b>披露时间</b>] 2022-06-03 18:46:21<br/>[<b>漏洞描述</b>] IIPImage Remote Memory Corruption...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-424224'>http://cve.scap.org.cn/vuln/VHN-424224</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42892</font><br/>[<b>披露时间</b>] 2022-06-03 17:15:00<br/>[<b>漏洞描述</b>] In TOTOLINK EX1200T V4.1.2cu.5215, an attacker can start telnet without authorization because the default username and password exists in the firmware.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42892'>https://www.tenable.com/cve/CVE-2021-42892</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42891</font><br/>[<b>披露时间</b>] 2022-06-03 16:15:00<br/>[<b>漏洞描述</b>] In TOTOLINK EX1200T V4.1.2cu.5215, an attacker can obtain sensitive information (wifikey, etc.) without authorization.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42891'>https://www.tenable.com/cve/CVE-2021-42891</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
