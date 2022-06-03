@@ -1,12 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26493</font><br/>[<b>披露时间</b>] 2022-06-03 18:15:00<br/>[<b>漏洞描述</b>] Multiple vulnerabilities vulnerability in Drupal SAML SP 2.0 Single Sign On (SSO) - SAML Service Provider in certain non-default configurations allow a malicious user to login as any chosen user. The vulnerability is mitigated by the module's default settings which require the options "Either sign SAML assertions" and "x509 certificate". This issue affects: Drupal SAML SP 2.0 Single Sign On (SSO) - SAML Service Provider 8.x version 8.x-2.24 and prior versions; 7.x version 7.x-2.57 and prior versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26493'>https://www.tenable.com/cve/CVE-2022-26493</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42893</font><br/>[<b>披露时间</b>] 2022-06-03 18:15:00<br/>[<b>漏洞描述</b>] In TOTOLINK EX1200T V4.1.2cu.5215, an attacker can obtain sensitive information (wifikey, etc.) without authorization through getSysStatusCfg.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-42893'>https://www.tenable.com/cve/CVE-2021-42893</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26134</font><br/>[<b>披露时间</b>] 2022-06-03 22:39:47<br/>[<b>漏洞描述</b>] Atlassian Confluence 远程代码执行漏洞（CVE-2022-26134）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-26134'>https://avd.aliyun.com/detail?id=AVD-2022-26134</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
