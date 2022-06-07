@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">5</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31258</font><br/>[<b>披露时间</b>] 2022-05-20 23:15:45 <br/>[<b>漏洞描述</b>] In Checkmk before 1.6.0p29, 2.x before 2.0.0p25, and 2.1.x before 2.1.0b10, a site user can escalate to root by editing an OMD hook symlink.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31258'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31258</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22673</font><br/>[<b>披露时间</b>] 2022-06-07 20:10:06<br/>[<b>漏洞描述</b>] Apple iOS和Apple iPadOS 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8b2cdc3084694b80b3382eab0e428705'>https://redqueen.tj-un.com/IntelDetails.html?id=8b2cdc3084694b80b3382eab0e428705</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26708</font><br/>[<b>披露时间</b>] 2022-06-07 20:09:57<br/>[<b>漏洞描述</b>] macOS Monterey 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6e9e210e68ad45aa822b884001c599b3'>https://redqueen.tj-un.com/IntelDetails.html?id=6e9e210e68ad45aa822b884001c599b3</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44974</font><br/>[<b>披露时间</b>] 2022-06-07 20:09:48<br/>[<b>漏洞描述</b>] radare2 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=9980966040194d2abb9b2d77c264ab10'>https://redqueen.tj-un.com/IntelDetails.html?id=9980966040194d2abb9b2d77c264ab10</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1886</font><br/>[<b>披露时间</b>] 2022-06-07 20:09:44<br/>[<b>漏洞描述</b>] Vim 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=09759d8c15984694ad6dba90af86ce48'>https://redqueen.tj-un.com/IntelDetails.html?id=09759d8c15984694ad6dba90af86ce48</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1851</font><br/>[<b>披露时间</b>] 2022-06-07 20:09:39<br/>[<b>漏洞描述</b>] Vim 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0aebad15aebf4e4c8e0f6ad486ccfd47'>https://redqueen.tj-un.com/IntelDetails.html?id=0aebad15aebf4e4c8e0f6ad486ccfd47</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1991</font><br/>[<b>披露时间</b>] 2022-06-07 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic has been found in Fast Food Ordering System 1.0. Affected is the file Master.php of the Master List. The manipulation of the argument Description with the input foo "><img src="" onerror="alert(document.cookie)"> leads to cross site scripting. It is possible to launch the attack remotely but it requires authentication. Exploit details have been disclosed to the public.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1991'>https://www.tenable.com/cve/CVE-2022-1991</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
