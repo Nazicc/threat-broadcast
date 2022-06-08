@@ -1,13 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1899</font><br/>[<b>披露时间</b>] 2022-06-08 20:08:29<br/>[<b>漏洞描述</b>] radare2 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=18cfc1d987394e99a48c9252565b8121'>https://redqueen.tj-un.com/IntelDetails.html?id=18cfc1d987394e99a48c9252565b8121</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26703</font><br/>[<b>披露时间</b>] 2022-06-08 20:08:16<br/>[<b>漏洞描述</b>] Apple iOS 和 iPadOS 安全特征问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=61930a7318e3477c97d163a9dd332faf'>https://redqueen.tj-un.com/IntelDetails.html?id=61930a7318e3477c97d163a9dd332faf</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1898</font><br/>[<b>披露时间</b>] 2022-06-08 20:08:03<br/>[<b>漏洞描述</b>] Vim 资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7e7e333a9ab04844a1cf6c98cb0d9289'>https://redqueen.tj-un.com/IntelDetails.html?id=7e7e333a9ab04844a1cf6c98cb0d9289</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30790</font><br/>[<b>披露时间</b>] 2022-06-08 13:15:00<br/>[<b>漏洞描述</b>] Das U-Boot 2022.01 has a Buffer Overflow, a different issue than CVE-2022-30552.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30790'>https://www.tenable.com/cve/CVE-2022-30790</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30552</font><br/>[<b>披露时间</b>] 2022-06-08 13:15:00<br/>[<b>漏洞描述</b>] Das U-Boot 2022.01 has a Buffer Overflow.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30552'>https://www.tenable.com/cve/CVE-2022-30552</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1996</font><br/>[<b>披露时间</b>] 2022-06-08 13:15:00<br/>[<b>漏洞描述</b>] Authorization Bypass Through User-Controlled Key in GitHub repository emicklei/go-restful prior to v3.8.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1996'>https://www.tenable.com/cve/CVE-2022-1996</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31497</font><br/>[<b>披露时间</b>] 2022-06-08 12:15:00<br/>[<b>漏洞描述</b>] LibreHealth EHR Base 2.0.0 allows interface/main/finder/finder_navigation.php patient XSS.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31497'>https://www.tenable.com/cve/CVE-2022-31497</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
