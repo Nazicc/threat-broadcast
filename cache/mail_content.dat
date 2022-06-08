@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31000</font><br/>[<b>披露时间</b>] 2022-06-01 18:15:07 <br/>[<b>漏洞描述</b>] solidus_backend is the admin interface for the Solidus e-commerce framework. Versions prior to 3.1.6, 3.0.6, and 2.11.16 contain a cross-site request forgery (CSRF) vulnerability. The vulnerability allows attackers to change the state of an order's adjustments if they hold its number, and the execution happens on a store administrator's computer. Users should upgrade to solidus_backend 3.1.6, 3.0.6, or 2.11.16 to receive a patch.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31000'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31000</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31313</font><br/>[<b>披露时间</b>] 2022-06-08 20:15:00<br/>[<b>漏洞描述</b>] api-res-py package in PyPI 0.1 is vulnerable to a code execution backdoor in the request package.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31313'>https://www.tenable.com/cve/CVE-2022-31313</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30882</font><br/>[<b>披露时间</b>] 2022-06-08 20:15:00<br/>[<b>漏洞描述</b>] pyanxdns package in PyPI version 0.2 is vulnerable to code execution backdoor. The impact is: execute arbitrary code (remote). When installing the pyanxdns package of version 0.2, the request package will be installed.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30882'>https://www.tenable.com/cve/CVE-2022-30882</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
