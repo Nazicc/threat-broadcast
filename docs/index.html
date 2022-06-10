@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-10 19:38:44 -->
+<!-- RELEASE TIME : 2022-06-10 20:40:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -2468,6 +2468,78 @@
       </tr>
 
       <tr>
+       <td scope="row">ecae4f27d88437ab59bf2e8dc74c0912</td>
+       <td>CVE-2022-31989</td>
+       <td>2022-06-02 16:15:08 </td>
+       <td>Badminton Center Management System v1.0 is vulnerable to SQL Injection via /bcms/admin/?page=user/manage_user&amp;id=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31989">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c3fc10a29f397338fcf7e2360caabe2a</td>
+       <td>CVE-2022-31988</td>
+       <td>2022-06-02 16:15:08 </td>
+       <td>Badminton Center Management System v1.0 is vulnerable to SQL Injection via bcms/admin/?page=reports/daily_services_report&amp;date=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31988">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5e87c58eeec0f44294efac1f6906ca36</td>
+       <td>CVE-2022-31986</td>
+       <td>2022-06-02 16:15:08 </td>
+       <td>Badminton Center Management System v1.0 is vulnerable to SQL Injection via /bcms/admin/?page=reports/daily_court_rental_report&amp;date=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31986">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aa2d5783244fc30c898470e377d7d1e8</td>
+       <td>CVE-2022-31985</td>
+       <td>2022-06-02 16:15:08 </td>
+       <td>Badminton Center Management System v1.0 is vulnerable to SQL Injection via /bcms/admin/?page=reports/daily_sales_report&amp;date=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31985">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">74315ab5a3c3c7367521f747bfe2c744</td>
+       <td>CVE-2022-31984</td>
+       <td>2022-06-02 14:16:00 </td>
+       <td>Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/admin/requests/take_action.php?id=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31984">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c123cbf55a9f308f2b02425e2aede843</td>
+       <td>CVE-2022-31983</td>
+       <td>2022-06-02 14:16:00 </td>
+       <td>Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/admin/?page=requests/manage_request&amp;id=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31983">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b07a2af9db785a642798574461941cf3</td>
+       <td>CVE-2022-31982</td>
+       <td>2022-06-02 14:16:00 </td>
+       <td>Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/admin/?page=requests/view_request&amp;id=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31982">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">31f75b97e264118a4eb59e92000d0b07</td>
+       <td>CVE-2022-31981</td>
+       <td>2022-06-02 14:16:00 </td>
+       <td>Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/admin/?page=teams/view_team&amp;id=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31981">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">26ac9b143d6b05a6f4d873f3c44cf2f9</td>
+       <td>CVE-2022-31980</td>
+       <td>2022-06-02 14:16:00 </td>
+       <td>Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/admin/?page=teams/manage_team&amp;id=.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31980">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8e9157bd1be3210902fc92ef130b5a76</td>
        <td>CVE-2022-31971</td>
        <td>2022-06-02 14:15:59 </td>
@@ -2548,83 +2620,11 @@
       </tr>
 
       <tr>
-       <td scope="row">2690d813c785aadce3c3965589b05747</td>
-       <td>CVE-2022-31022</td>
-       <td>2022-06-01 20:15:08 </td>
-       <td>Bleve is a text indexing library for go. Bleve includes HTTP utilities under bleve/http package, that are used by its sample application. These HTTP methods pave way for exploitation of a node&acirc;&euro;&trade;s filesystem where the bleve index resides, if the user has used bleve&acirc;&euro;&trade;s own HTTP (bleve/http) handlers for exposing the access to the indexes. For instance, the CreateIndexHandler (`http/index_create.go`) and DeleteIndexHandler (`http/index_delete.go`) enable an attacker to create a bleve index (directory structure) anywhere where the user running the server has the write permissions and to delete recursively any directory owned by the same user account. Users who have used the bleve/http package for exposing access to bleve index without the explicit handling for the Role Based Access Controls(RBAC) of the index assets would be impacted by this issue. There is no patch for this issue because the http package is purely intended to be used for demonstration purposes. Bleve was never designed handle the RBACs, nor it was ever advertised to be used in that way. The collaborators of this project have decided to stay away from adding any authentication or authorization to bleve project at the moment. The bleve/http package is mainly for demonstration purposes and it lacks exhaustive validation of the user inputs as well as any authentication and authorization measures. It is recommended to not use bleve/http in production use cases.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31022">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d6549268677025e4af77d570cb1ecee</td>
-       <td>CVE-2022-31000</td>
-       <td>2022-06-01 18:15:07 </td>
-       <td>solidus_backend is the admin interface for the Solidus e-commerce framework. Versions prior to 3.1.6, 3.0.6, and 2.11.16 contain a cross-site request forgery (CSRF) vulnerability. The vulnerability allows attackers to change the state of an order's adjustments if they hold its number, and the execution happens on a store administrator's computer. Users should upgrade to solidus_backend 3.1.6, 3.0.6, or 2.11.16 to receive a patch.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31000">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c37000a433e3df58c0dc7bcccf45f9dc</td>
-       <td>CVE-2022-31011</td>
-       <td>2022-05-31 20:15:08 </td>
-       <td>TiDB is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. Under certain conditions, an attacker can construct malicious authentication requests to bypass the authentication process, resulting in privilege escalation or unauthorized access. Only users using TiDB 5.3.0 are affected by this vulnerability. TiDB version 5.3.1 contains a patch for this issue. Other mitigation strategies include turning off Security Enhanced Mode (SEM), disabling local login for non-root accounts, and ensuring that the same IP cannot be logged in as root and normal user at the same time.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31011">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">19358cfc6e0a28448dbf5fa80e6aa743</td>
-       <td>CVE-2022-31003</td>
-       <td>2022-05-31 20:15:07 </td>
-       <td>Sofia-SIP is an open-source Session Initiation Protocol (SIP) User-Agent library. Prior to version 1.13.8, when parsing each line of a sdp message, `rest = record + 2` will access the memory behind `\0` and cause an out-of-bounds write. An attacker can send a message with evil sdp to FreeSWITCH, causing a crash or more serious consequence, such as remote code execution. Version 1.13.8 contains a patch for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31003">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ff5fdd407cd3665b26bb6e0f187511ea</td>
-       <td>CVE-2022-31002</td>
-       <td>2022-05-31 19:15:07 </td>
-       <td>Sofia-SIP is an open-source Session Initiation Protocol (SIP) User-Agent library. Prior to version 1.13.8, an attacker can send a message with evil sdp to FreeSWITCH, which may cause a crash. This type of crash may be caused by a URL ending with `%`. Version 1.13.8 contains a patch for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31002">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7c1e66dcdf5f3cf9353e63c1e010a605</td>
-       <td>CVE-2022-31648</td>
-       <td>2022-05-26 20:15:10 </td>
-       <td>Talend Administration Center is vulnerable to a reflected Cross-Site Scripting (XSS) issue in the SSO login endpoint. The issue is fixed for versions 8.0.x in TPS-5233, for versions 7.3.x in TPS-5324, and for versions 7.2.x in TPS-5235. Earlier versions of Talend Administration Center may also be impacted; users are encouraged to update to a supported version.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31648">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1220f7264214382d94d64104b79e490f</td>
-       <td>CVE-2022-26728</td>
-       <td>2022-05-26 19:15:08 </td>
-       <td>This issue was addressed with improved entitlements. This issue is fixed in Security Update 2022-004 Catalina, macOS Monterey 12.4, macOS Big Sur 11.6.6. A malicious application may be able to access restricted files.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26728">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cebb80496c84427377ec859f458ca5b3</td>
-       <td>CVE-2022-26727</td>
-       <td>2022-05-26 19:15:08 </td>
-       <td>This issue was addressed with improved entitlements. This issue is fixed in Security Update 2022-004 Catalina, macOS Monterey 12.4. A malicious application may be able to modify protected parts of the file system.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26727">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">184b9dd2c623098c4bedccf6aef0a0f4</td>
-       <td>CVE-2022-26724</td>
-       <td>2022-05-26 19:15:08 </td>
-       <td>An authentication issue was addressed with improved state management. This issue is fixed in tvOS 15.5. A local user may be able to enable iCloud Photos without authentication.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26724">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8dc1247ece5f269520c6f8dc581adffa</td>
-       <td>CVE-2022-26712</td>
-       <td>2022-05-26 19:15:08 </td>
-       <td>This issue was addressed by removing the vulnerable code. This issue is fixed in macOS Monterey 12.4, macOS Big Sur 11.6.6. A malicious application may be able to modify protected parts of the file system.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26712">详情</a></td>
+       <td scope="row">284d9a974c10589a4e97f4b1f150182e</td>
+       <td>CVE-2022-31978</td>
+       <td>2022-06-02 14:15:59 </td>
+       <td>Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/classes/Master.php?f=delete_inquiry.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31978">详情</a></td>
       </tr>
 
      </tbody>
