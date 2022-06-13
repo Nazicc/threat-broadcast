@@ -1,23 +1,32 @@
 
 <h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44686 (CVE-2022-20715)</font><br/>[<b>披露时间</b>] 2022-06-13 06:48:59<br/>[<b>漏洞描述</b>] Cisco Adaptive Security Appliance和Firepower Threat Defense拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44686'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44686</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44687 (CVE-2022-20742)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:01<br/>[<b>漏洞描述</b>] Cisco Adaptive Security Appliance和Firepower Threat Defense信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44687'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44687</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44688 (CVE-2022-20759)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:03<br/>[<b>漏洞描述</b>] Cisco Adaptive Security Appliance和Firepower Threat Defense权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44688'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44688</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44689 (CVE-2022-20760)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:05<br/>[<b>漏洞描述</b>] Cisco Adaptive Security Appliance和Firepower Threat Defense拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44689'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44689</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44703 (CVE-2022-20789)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:08<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME任意文件写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44703'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44703</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44704 (CVE-2022-20790)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:10<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44704'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44704</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44705 (CVE-2022-20787)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:12<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44705'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44705</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44706 (CVE-2022-20804)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:15<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44706'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44706</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44707 (CVE-2022-20788)</font><br/>[<b>披露时间</b>] 2022-06-13 06:49:17<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44707'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44707</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-06-13 06:39:43<br/>[<b>漏洞描述</b>] 安全事件周报 (06.06-06.12)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=a6b64f2bcc2455101acc5fc8cbb84155'>https://cert.360.cn/warning/detail?id=a6b64f2bcc2455101acc5fc8cbb84155</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2013</font><br/>[<b>披露时间</b>] 2022-06-13 00:15:00<br/>[<b>漏洞描述</b>] In Octopus Server after version 2022.1.1495 and before 2022.1.2647 if private spaces were enabled via the experimental feature flag all new users would have access to the Script Console within their private space.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2013'>https://www.tenable.com/cve/CVE-2022-2013</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-44708 (CVE-2022-1008)</font><br/>[<b>披露时间</b>] 2022-06-13 07:39:40<br/>[<b>漏洞描述</b>] WordPress One Click Demo Import plugin文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-44708'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-44708</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-25090</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Wordpress Portfolio Gallery和Product Catalog跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-383811'>http://cve.scap.org.cn/vuln/VHN-383811</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20715</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Cisco Adaptive Security Appliance和Firepower...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405268'>http://cve.scap.org.cn/vuln/VHN-405268</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20787</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME跨站请求伪造漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405340'>http://cve.scap.org.cn/vuln/VHN-405340</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20788</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405341'>http://cve.scap.org.cn/vuln/VHN-405341</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20789</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME任意文件写入漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405342'>http://cve.scap.org.cn/vuln/VHN-405342</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20790</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME任意文件读取漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405343'>http://cve.scap.org.cn/vuln/VHN-405343</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20804</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] Cisco Unified CM和Unified CM SME拒绝服务漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405357'>http://cve.scap.org.cn/vuln/VHN-405357</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0271</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] WordPress LearnPress plugin跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412531'>http://cve.scap.org.cn/vuln/VHN-412531</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0314</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] WordPress Nimble Page Builder plugin跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412832'>http://cve.scap.org.cn/vuln/VHN-412832</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0828</font><br/>[<b>披露时间</b>] 2022-06-13 07:40:13<br/>[<b>漏洞描述</b>] WordPress Download Manager plugin加密问题漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416061'>http://cve.scap.org.cn/vuln/VHN-416061</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
