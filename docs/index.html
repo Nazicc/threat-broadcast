@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-13 20:43:44 -->
+<!-- RELEASE TIME : 2022-06-13 21:41:16 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">cb14afc2a9c056f9a00ea834bfdb4b6d</td>
+       <td>CVE-2022-29798</td>
+       <td>2022-06-13 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is a denial of service vulnerability in CV81-WDM FW versions 01.70.49.29.46. Successful exploitation could cause denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29798">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">39b9c5db6040027d436a140f742c1076</td>
+       <td>CVE-2022-29797</td>
+       <td>2022-06-13 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is a buffer overflow vulnerability in CV81-WDM FW 01.70.49.29.46. Successful exploitation of this vulnerability may lead to privilege escalation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29797">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e36380831dd2c415eb100ba69afa7302</td>
+       <td>CVE-2022-22259</td>
+       <td>2022-06-13 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is an improper authentication vulnerability in FLMG-10 10.0.1.0(H100SP22C00). Successful exploitation of this vulnerability may lead to a control of the victim device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22259">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">67336e24f18ab04e1e2bf8b28996f053</td>
+       <td>CVE-2022-33175</td>
+       <td>2022-06-13 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Power Distribution Units running on Powertek firmware (multiple brands) before 3.30.30 have an insecure permissions setting on the user.token field that is accessible to everyone through the /cgi/get_param.cgi HTTP API. This leads to disclosing active session ids of currently logged-in administrators. The session id can then be reused to act as the administrator, allowing reading of the cleartext password, or reconfiguring the device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33175">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fb164eeae11364bcaa1c3d55a76fac26</td>
+       <td>CVE-2022-33174</td>
+       <td>2022-06-13 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Power Distribution Units running on Powertek firmware (multiple brands) before 3.30.30 allows remote authorization bypass in the web interface. To exploit the vulnerability, an attacker must send an HTTP packet to the data retrieval interface (/cgi/get_param.cgi) with the tmpToken cookie set to an empty string followed by a semicolon. This bypasses an active session authorization check. This can be then used to fetch the values of protected sys.passwd and sys.su.name fields that contain the username and password in cleartext.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33174">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f7c2b61828f539d72d851648425d091</td>
+       <td>CVE-2021-41663</td>
+       <td>2022-06-13 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability exists in Mini CMS V1.11. The vulnerability exists in the article upload: post-edit.php page.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41663">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8dedc52d8cea2266e2bdaf4d0a0c685d</td>
+       <td>CVE-2021-40604</td>
+       <td>2022-06-13 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Server-Side Request Forgery (SSRF) vulnerability in IPS Community Suite before 4.6.2 allows remote authenticated users to request arbitrary URLs or trigger deserialization via phar protocol when generating class names dynamically. In some cases an exploitation is possible by an unauthenticated user.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40604">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c2a9b83141e4b237d5a878f7f4caa8f1</td>
+       <td>CVE-2021-40036</td>
+       <td>2022-06-13 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>The bone voice ID TA has a memory overwrite vulnerability. Successful exploitation of this vulnerability may result in malicious code execution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40036">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5678bb9f36f7998ed296bf2892822a75</td>
        <td>CVE-2022-29455</td>
        <td>2022-06-13 17:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-06-13 08:15:00 <img src="imgs/new.gif" /></td>
        <td>Attacker is able to determine if the provided username exists (and it's valid) using Request New Password feature, based on the response time.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32741">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">55377ee6bc64682bf3aa97cf0ba59757</td>
-       <td>CVE-2022-32740</td>
-       <td>2022-06-13 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A reply to a forwarded email article by a 3rd party could unintensionally expose the email content to the ticket customer under certain circumstances.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32740">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3ca9617f4202b9bc159614fedf06652e</td>
-       <td>CVE-2022-32739</td>
-       <td>2022-06-13 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>When Secure::DisableBanner system configuration has been disabled and agent shares his calendar via public URL, received ICS file contains OTRS release number.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32739">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">29d271e332011120b4eb168ebab70198</td>
-       <td>CVE-2021-37404</td>
-       <td>2022-06-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is a potential heap buffer overflow in Apache Hadoop libhdfs native code. Opening a file path provided by user without validation may result in a denial of service or arbitrary code execution. Users should upgrade to Apache Hadoop 2.10.2, 3.2.3, 3.3.2 or higher.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-37404">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">475ce7133ac7faf31aed1757d088f767</td>
-       <td>CVE-2017-20045</td>
-       <td>2022-06-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Navetti PricePoint 4.6.0.0. It has been declared as critical. This vulnerability affects unknown code. The manipulation leads to cross-site request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20045">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0754371e70887a080d2a3f9f402d810f</td>
-       <td>CVE-2017-20044</td>
-       <td>2022-06-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Navetti PricePoint 4.6.0.0. It has been classified as problematic. This affects an unknown part. The manipulation leads to basic cross site scripting (Reflected). It is possible to initiate the attack remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20044">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4801a2694a63162bbeb535f452428d05</td>
-       <td>CVE-2017-20043</td>
-       <td>2022-06-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Navetti PricePoint 4.6.0.0 and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to basic cross site scripting (Persistent). The attack may be launched remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20043">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d3e695b8920f562d5226d4e2ae0257e2</td>
-       <td>CVE-2017-20042</td>
-       <td>2022-06-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been found in Navetti PricePoint 4.6.0.0 and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection (Blind). The attack can be launched remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20042">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86780db5e262dad93b13346e144551e4</td>
-       <td>CVE-2017-20041</td>
-       <td>2022-06-13 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Ucweb UC Browser 11.2.5.932. It has been classified as critical. Affected is an unknown function of the component HTML Handler. The manipulation of the argument title leads to improper restriction of rendered ui layers (URL). It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20041">详情</a></td>
       </tr>
 
      </tbody>
