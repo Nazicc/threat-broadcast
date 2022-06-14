@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31447</font><br/>[<b>披露时间</b>] 2022-06-14 03:15:00<br/>[<b>漏洞描述</b>] An XML external entity (XXE) injection vulnerability in Magicpin v3.4 allows attackers to access sensitive database information via a crafted SVG file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31447'>https://www.tenable.com/cve/CVE-2022-31447</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31446</font><br/>[<b>披露时间</b>] 2022-06-14 03:15:00<br/>[<b>漏洞描述</b>] Tenda AC18 router V15.03.05.19 and V15.03.05.05 was discovered to contain a remote code execution (RCE) vulnerability via the Mac parameter at ip/goform/WriteFacMac.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31446'>https://www.tenable.com/cve/CVE-2022-31446</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31415</font><br/>[<b>披露时间</b>] 2022-06-14 03:15:00<br/>[<b>漏洞描述</b>] Online Fire Reporting System v1.0 was discovered to contain a SQL injection vulnerability via the GET parameter in /report/list.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31415'>https://www.tenable.com/cve/CVE-2022-31415</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40822</font><br/>[<b>披露时间</b>] 2022-06-14 07:39:46<br/>[<b>漏洞描述</b>] GeoServer服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/65814'>http://www.nsfocus.net/vulndb/65814</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
