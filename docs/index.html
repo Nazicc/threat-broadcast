@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-15 16:57:02 -->
+<!-- RELEASE TIME : 2022-06-15 17:42:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">bf8de446abb671b8862d693f633916b8</td>
+       <td>CVE-2022-20210</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>The UE and the EMM communicate with each other using NAS messages. When a new NAS message arrives from the EMM, the modem parses it and fills in internal objects based on the received data. A bug in the parsing code could be used by an attacker to remotely crash the modem, which could lead to DoS or RCE.Product: AndroidVersions: Android SoCAndroid ID: A-228868888</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20210">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16474550289789487a63ccd8e9df5488</td>
+       <td>CVE-2022-20193</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In getUniqueUsagesWithLabels of PermissionUsageHelper.java, there is a possible incorrect permission attribution due to a logic error in the code. This could lead to local escalation of privilege by conflating apps with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-212434116</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20193">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cca198ceeee786bb6edecd331d9bdccd</td>
+       <td>CVE-2022-20178</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In ioctl_dpm_qos_update and ioctl_event_control_set of (TBD), there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-224932775References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20178">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d932cb8fafe2d976e45a31c6aaef82db</td>
+       <td>CVE-2022-20176</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In auth_store of sjtag-driver.c, there is a possible read of uninitialized memory due to a missing bounds check. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-197787879References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20176">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d86a74fbfbd38096ff7e5f6c9348ef9</td>
+       <td>CVE-2022-20175</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Product: AndroidVersions: Android kernelAndroid ID: A-209252491References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20175">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">11fea416eab70fee820fa96c1eb73c71</td>
+       <td>CVE-2022-20165</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In asn1_parse of asn1.c, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-220868345References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20165">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">401514918dedb6f202c1fcbcb2f15c9e</td>
+       <td>CVE-2022-20151</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Product: AndroidVersions: Android kernelAndroid ID: A-210712565References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20151">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d924d32ca052b0303df42d0001c345a6</td>
+       <td>CVE-2022-20143</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In addAutomaticZenRule of ZenModeHelper.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220735360</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20143">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d350fae7d21cd679f8a0c1c22d67823f</td>
+       <td>CVE-2022-20124</td>
+       <td>2022-06-15 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>In deletePackageX of DeletePackageHelper.java, there is a possible way for a Guest user to reset pre-loaded applications for other users due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-170646036</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20124">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c2a01d7c8816f5b15719171fbbf04724</td>
        <td>CVE-2021-40212</td>
        <td>2022-06-15 11:15:00 <img src="imgs/new.gif" /></td>
@@ -445,78 +517,6 @@
        <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
        <td>A highly privileged user can exploit SUID-root program to escalate his privileges to root on a local Unix system.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31594">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8786a1b6b6a2b476ac5c845ee9b473ed</td>
-       <td>CVE-2022-31590</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>SAP PowerDesigner Proxy - version 16.7, allows an attacker with low privileges and has local access, with the ability to work around system’s root disk access restrictions to Write/Create a program file on system disk root path, which could then be executed with elevated privileges of the application during application start up or reboot, potentially compromising Confidentiality, Integrity and Availability of the system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31590">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66ba47ccf339a5f88edc19789b06e4a7</td>
-       <td>CVE-2022-31589</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Due to improper authorization check, business users who are using Israeli File from SHAAM program (/ATL/VQ23 transaction), are granted more than needed authorization to perform certain transaction, which may lead to users getting access to data that would otherwise be restricted.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31589">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">89d25a82d46125dcc82d394ba6084108</td>
-       <td>CVE-2022-29618</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Due to insufficient input validation, SAP NetWeaver Development Infrastructure (Design Time Repository) - versions 7.30, 7.31, 7.40, 7.50, allows an unauthenticated attacker to inject script into the URL and execute code in the user’s browser. On successful exploitation, an attacker can view or modify information causing a limited impact on confidentiality and integrity of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29618">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b4369211c3367e6484358db4a9731c77</td>
-       <td>CVE-2022-29615</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>SAP NetWeaver Developer Studio (NWDS) - version 7.50, is based on Eclipse, which contains the logging framework log4j in version 1.x. The application's confidentiality and integrity could have a low impact due to the vulnerabilities associated with version 1.x.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29615">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">35d2161cd613f59c36d2733bea93bd66</td>
-       <td>CVE-2022-29614</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>SAP startservice - of SAP NetWeaver Application Server ABAP, Application Server Java, ABAP Platform and HANA Database - versions KERNEL 7.22, 7.49, 7.53, 7.77, 7.81, 7.85, 7.86, 7.87, 7.88, KRNL64NUC 7.22, 7.22EXT, 7.49, KRNL64UC 7.22, 7.22EXT, 7.49, 7.53, SAPHOSTAGENT 7.22, - on Unix systems, s-bit helper program sapuxuserchk, can be abused physically resulting in a privilege escalation of an attacker leading to low impact on confidentiality and integrity, but a profound impact on availability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29614">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">60671dbf345a1c83c3cccc8878cd44e4</td>
-       <td>CVE-2022-32367</td>
-       <td>2022-06-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/?page=inquiries/view_inquiry&id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32367">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">06bfc77e6284f3b8bb90ef58cf23ba79</td>
-       <td>CVE-2022-32366</td>
-       <td>2022-06-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/fields/view_field.php?id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32366">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">36598932e8ec96d76b12a0ff7b37939b</td>
-       <td>CVE-2022-32561</td>
-       <td>2022-06-14 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Couchbase Server before 6.6.5 and 7.x before 7.0.4. Previous mitigations for CVE-2018-15728 were found to be insufficient when it was discovered that diagnostic endpoints could still be accessed from the network.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32561">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1a1d008839164a21bcbc406791af7a95</td>
-       <td>CVE-2022-32559</td>
-       <td>2022-06-14 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Couchbase Server before 7.0.4. Random HTTP requests lead to leaked metrics.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32559">详情</a></td>
       </tr>
 
      </tbody>
