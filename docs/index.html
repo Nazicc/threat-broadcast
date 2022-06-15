@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-15 17:42:47 -->
+<!-- RELEASE TIME : 2022-06-15 18:48:39 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">4d059eba8d887ce8c95e5c1cd8581a5b</td>
+       <td>CVE-2022-33140</td>
+       <td>2022-06-15 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>The optional ShellUserGroupProvider in Apache NiFi 1.10.0 to 1.16.2 and Apache NiFi Registry 0.6.0 to 1.16.2 does not neutralize arguments for group resolution commands, allowing injection of operating system commands on Linux and macOS platforms. The ShellUserGroupProvider is not included in the default configuration. Command injection requires ShellUserGroupProvider to be one of the enabled User Group Providers in the Authorizers configuration. Command injection also requires an authenticated user with elevated privileges. Apache NiFi requires an authenticated user with authorization to modify access policies in order to execute the command. Apache NiFi Registry requires an authenticated user with authorization to read user groups in order to execute the command. The resolution removes command formatting based on user-provided arguments.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33140">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e79bb802b5e69c0cdea669261acd548e</td>
+       <td>CVE-2021-33036</td>
+       <td>2022-06-15 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Apache Hadoop 2.2.0 to 2.10.1, 3.0.0-alpha1 to 3.1.4, 3.2.0 to 3.2.2, and 3.3.0 to 3.3.1, a user who can escalate to yarn user can possibly run arbitrary commands as root user. Users should upgrade to Apache Hadoop 2.10.2, 3.2.3, 3.3.2 or higher.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33036">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bf8de446abb671b8862d693f633916b8</td>
        <td>CVE-2022-20210</td>
        <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
@@ -341,6 +357,62 @@
        <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
        <td>In addAutomaticZenRule of ZenModeHelper.java, there is a possible permanent denial of service due to resource exhaustion. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220735360</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20143">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a0350bd2a91ef1343d5c1330d3121b9</td>
+       <td>CVE-2022-29406</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerabilities in DynamicWebLab's WordPress Team Manager plugin <= 1.6.9 at WordPress.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29406">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f3110001cbf5c6e1d36523adc37b8e71</td>
+       <td>CVE-2022-27859</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerabilities in Nicdark d.o.o. Travel Management plugin <= 2.0 at WordPress.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27859">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">231873ccec5ea3869d4b40cb7c1650f3</td>
+       <td>CVE-2022-20233</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In param_find_digests_internal and related functions of the Titan-M source, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-222472803References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20233">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7ffc2fb4386c8770f06576a68c70616a</td>
+       <td>CVE-2022-20209</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In hme_add_new_node_to_a_sorted_array of hme_utils.c, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-207502397</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20209">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">88d8dfcd2a7019ce5f0d780770cad5d3</td>
+       <td>CVE-2022-20208</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In parseRecursively of cppbor_parse.cpp, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-192743373</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20208">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b4d5f8985df80a71fd7421fe13db05f4</td>
+       <td>CVE-2022-20207</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In static definitions of GattServiceConfig.java, there is a possible permission bypass due to an insecure default value. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-185513714</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20207">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8170fb2d2e1457783995278382a2f146</td>
+       <td>CVE-2022-20206</td>
+       <td>2022-06-15 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In setPackageOrComponentEnabled of NotificationManagerService.java, there is a missing permission check. This could lead to local information disclosure about enabled notification listeners with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-220737634</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20206">详情</a></td>
       </tr>
 
       <tr>
@@ -445,78 +517,6 @@
        <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
        <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/classes/Master.php?f=delete_inquiry.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32358">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">628c064c9bab85da6e9d1892b4d58450</td>
-       <td>CVE-2022-32355</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/?page=products/view_product&id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32355">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4f73490e9c9353fd8edfb9a11421e1d</td>
-       <td>CVE-2022-32354</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/?page=user/manage_user&id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32354">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6971f7cb50388440888cd70cb707c9b6</td>
-       <td>CVE-2022-32353</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/categories/manage_field_order.php?id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32353">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">04526d246d30a99e575d40a9da3d92e9</td>
-       <td>CVE-2022-31060</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Discourse is an open-source discussion platform. Prior to version 2.8.4 in the `stable` branch and version `2.9.0.beta5` in the `beta` and `tests-passed` branches, banner topic data is exposed on login-required sites. This issue is patched in version 2.8.4 in the `stable` branch and version `2.9.0.beta5` in the `beta` and `tests-passed` branches of Discourse. As a workaround, one may disable banners.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31060">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f3f502d713f7331b3e002fc921ae0035</td>
-       <td>CVE-2022-31050</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>TYPO3 is an open source web content management system. Prior to versions 9.5.34 ELTS, 10.4.29, and 11.5.11, Admin Tool sessions initiated via the TYPO3 backend user interface had not been revoked even if the corresponding user account was degraded to lower permissions or disabled completely. This way, sessions in the admin tool theoretically could have been prolonged without any limit. TYPO3 versions 9.5.34 ELTS, 10.4.29, and 11.5.11 contain a fix for the problem.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31050">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6c58fbf6f9138b77375a36df386f7089</td>
-       <td>CVE-2022-31049</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>TYPO3 is an open source web content management system. Prior to versions 9.5.34 ELTS, 10.4.29, and 11.5.11, user submitted content was used without being properly encoded in HTML emails sent to users. The actually affected components were mail clients used to view those messages. TYPO3 versions 9.5.34 ELTS, 10.4.29, and 11.5.11 contain a fix for the problem.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31049">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">db1cff5cd8081ea18168b41f5b334b8f</td>
-       <td>CVE-2022-32235</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>When a user opens manipulated AutoCAD (.dwg, TeighaTranslator.exe) files received from untrusted sources in SAP 3D Visual Enterprise Viewer, the application crashes and becomes temporarily unavailable to the user until restart of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32235">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aca21baf7e5b67118e88d4eda0cc818e</td>
-       <td>CVE-2022-31595</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>SAP Financial Consolidation - version 1010,?does not perform necessary authorization checks for an authenticated user, resulting in escalation of privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31595">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e9bab9665b879db6597aca6e9c5528d</td>
-       <td>CVE-2022-31594</td>
-       <td>2022-06-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A highly privileged user can exploit SUID-root program to escalate his privileges to root on a local Unix system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31594">详情</a></td>
       </tr>
 
      </tbody>
@@ -2396,6 +2396,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">617fd2f29f55e4503d68490f91d56810</td>
+       <td>CVE-2022-30924</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the SetAPWifiorLedInfoById parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30924">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">619fe2d01f204d79adcd9b4fa3ad9b8a</td>
+       <td>CVE-2022-30923</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the Asp_SetTimingtimeWifiAndLed parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30923">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">99c644a848452e46e624fa870714dd96</td>
+       <td>CVE-2022-30922</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the EditWlanMacList parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30922">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2ad9d185fe0d543feb3fb80dde3efd2a</td>
+       <td>CVE-2022-30921</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the SetMobileAPInfoById parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30921">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b40c4832ef5bc11a9b5974ac1b087828</td>
+       <td>CVE-2022-30920</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the Edit_BasicSSID parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30920">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c1325f60b94a775585db2324e5e4fae6</td>
+       <td>CVE-2022-30919</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the Edit_BasicSSID_5G parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30919">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c58eff0e58fdd11568f12c1f12b2302b</td>
+       <td>CVE-2022-30918</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the Asp_SetTelnet parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30918">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9e111e06f7782fcbf26df0f56cc5f0af</td>
+       <td>CVE-2022-30917</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the AddWlanMacList parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30917">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c8ef3ff4543540f732118e0740b15c95</td>
+       <td>CVE-2022-30916</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the Asp_SetTelnetDebug parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30916">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0b4334ee564f4650f2898a29f4279362</td>
+       <td>CVE-2022-30915</td>
+       <td>2022-06-08 14:15:08 </td>
+       <td>H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the UpdateSnat parameter at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30915">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5efc61eea5199ccc940e357ef4911db7</td>
        <td>CVE-2022-30912</td>
        <td>2022-06-08 14:15:07 </td>
@@ -2553,86 +2633,6 @@
        <td>2022-06-03 06:15:07 </td>
        <td>StarWind SAN and NAS v0.2 build 1914 allow remote code execution.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32268">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f7a5b52b91b702017c3d560d0cbaa47d</td>
-       <td>CVE-2022-32271</td>
-       <td>2022-06-03 06:15:07 </td>
-       <td>In Real Player 20.0.8.310, there is a DCP:// URI Remote Arbitrary Code Execution Vulnerability. This is an internal URL Protocol used by Real Player to reference a file that contains an URL. It is possible to inject script code to arbitrary domains. It is also possible to reference arbitrary local files.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32271">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">07eedd93ac774be364c97113af55f26a</td>
-       <td>CVE-2022-32265</td>
-       <td>2022-06-03 05:15:07 </td>
-       <td>qDecoder before 12.1.0 does not ensure that the percent character is followed by two hex digits for URL decoding.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32265">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ccda2e3297b027e02679c92ced952b7f</td>
-       <td>CVE-2022-31463</td>
-       <td>2022-06-02 22:15:08 </td>
-       <td>Owl Labs Meeting Owl 5.2.0.15 does not require a password for Bluetooth commands, because only client-side authentication is used.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31463">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ef2f0154f0fc21f00fadf3ec94389f1</td>
-       <td>CVE-2022-31462</td>
-       <td>2022-06-02 22:15:08 </td>
-       <td>Owl Labs Meeting Owl 5.2.0.15 allows attackers to control the device via a backdoor password (derived from the serial number) that can be found in Bluetooth broadcast data.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31462">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">613c5d8c22b96365cb9ba55a232edf3f</td>
-       <td>CVE-2022-31461</td>
-       <td>2022-06-02 22:15:08 </td>
-       <td>Owl Labs Meeting Owl 5.2.0.15 allows attackers to deactivate the passcode protection mechanism via a certain c 11 message.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31461">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">559554dbffd6974f5dfadc9c1d0314d2</td>
-       <td>CVE-2022-31460</td>
-       <td>2022-06-02 22:15:08 </td>
-       <td>Owl Labs Meeting Owl 5.2.0.15 allows attackers to activate Tethering Mode with hard-coded hoothoot credentials via a certain c 150 value.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31460">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e732c00e58e69e3cc866c9c4c896d57c</td>
-       <td>CVE-2022-32250</td>
-       <td>2022-06-02 21:15:07 </td>
-       <td>net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local user (able to create user/net namespaces) to escalate privileges to root because an incorrect NFT_STATEFUL_EXPR check leads to a use-after-free.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32250">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">81ba67fb0a97934e9dffe17b1c0a9c08</td>
-       <td>CVE-2022-32018</td>
-       <td>2022-06-02 16:15:09 </td>
-       <td>Complete Online Job Search System v1.0 is vulnerable to SQL Injection via /eris/index.php?q=hiring&amp;search=.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32018">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8f15f1ef2fffa51fc5fa433adfb91cc1</td>
-       <td>CVE-2022-32017</td>
-       <td>2022-06-02 16:15:09 </td>
-       <td>Complete Online Job Search System v1.0 is vulnerable to SQL Injection via /eris/index.php?q=result&amp;searchfor=bytitle.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32017">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">99bb9ccf5e953d837b2ce01db732f890</td>
-       <td>CVE-2022-32028</td>
-       <td>2022-06-02 16:15:09 </td>
-       <td>Car Rental Management System v1.0 is vulnerable to SQL Injection via /car-rental-management-system/admin/manage_user.php?id=.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32028">详情</a></td>
       </tr>
 
      </tbody>
