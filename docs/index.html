@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-15 18:48:39 -->
+<!-- RELEASE TIME : 2022-06-15 19:39:02 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1596157e8d04f89ad033f76447ad3d45</td>
+       <td>CVE-2022-32992</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Online Tours And Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the tname parameter at /admin/operations/tax.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32992">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8990c7c89e0cbd33fa300e864c6d9601</td>
+       <td>CVE-2022-32991</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Web Based Quiz System v1.0 was discovered to contain a SQL injection vulnerability via the eid parameter at welcome.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32991">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fbad837a8f7c780dfb52bd69542b39e9</td>
+       <td>CVE-2022-32302</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Theme Park Ticketing System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at edit_ticket.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32302">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fd69953e3d7f437faab9119727e88867</td>
+       <td>CVE-2022-32301</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>YoudianCMS v9.5.0 was discovered to contain a SQL injection vulnerability via the IdList parameter at /App/Lib/Action/Home/ApiAction.class.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32301">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f2b90bc1f59902f0cc8ba31bcc7232da</td>
+       <td>CVE-2022-32300</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>YoudianCMS v9.5.0 was discovered to contain a SQL injection vulnerability via the MailSendID parameter at /App/Lib/Action/Admin/MailAction.class.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32300">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">90d2262257dcee0c3e51e401ffe09e4c</td>
+       <td>CVE-2022-32299</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>YoudianCMS v9.5.0 was discovered to contain a SQL injection vulnerability via the id parameter at /App/Lib/Action/Admin/SiteAction.class.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32299">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b947f5ba4cc00ba559865bac3fb9603c</td>
+       <td>CVE-2022-32158</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Splunk Enterprise deployment servers in versions before 9.0 let clients deploy forwarder bundles to other deployment clients through the deployment server. An attacker that compromised a Universal Forwarder endpoint could use the vulnerability to execute arbitrary code on all other Universal Forwarder endpoints subscribed to the deployment server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32158">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1de06da5ad2108e9306f1aba5a78dabd</td>
+       <td>CVE-2022-32157</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Splunk Enterprise deployment servers in versions before 9.0 allow unauthenticated downloading of forwarder bundles. Remediation requires you to update the deployment server to version 9.0 and Configure authentication for deployment servers and clients (https://docs.splunk.com/Documentation/Splunk/9.0.0/Security/ConfigDSDCAuthEnhancements#Configure_authentication_for_deployment_servers_and_clients). Once enabled, deployment servers can manage only Universal Forwarder versions 9.0 and higher. Though the vulnerability does not directly affect Universal Forwarders, remediation requires updating all Universal Forwarders that the deployment server manages to version 9.0 or higher prior to enabling the remediation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32157">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">40cb8f8b564909e176a67ecd53d0fb15</td>
+       <td>CVE-2022-32156</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Splunk Enterprise and Universal Forwarder versions before 9.0, the Splunk command-line interface (CLI) did not validate TLS certificates while connecting to a remote Splunk platform instance by default. Splunk peer communications configured properly with valid certificates were not vulnerable. However, connections from misconfigured nodes without valid certificates did not fail by default. After updating to version 9.0, see Configure TLS host name validation for the Splunk CLI (https://docs.splunk.com/Documentation/Splunk/9.0.0/Security/EnableTLSCertHostnameValidation#Configure_TLS_host_name_validation_for_the_Splunk_CLI) to enable the remediation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32156">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">be255612818bc1d2391d85fb7ab5fbfb</td>
+       <td>CVE-2022-32155</td>
+       <td>2022-06-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>In universal forwarder versions before 9.0, management services are available remotely by default. When not required, it introduces a potential exposure, but it is not a vulnerability. If exposed, we recommend each customer assess the potential severity specific to your environment. In 9.0, the universal forwarder now binds the management port to localhost preventing remote logins by default. If management services are not required in versions before 9.0, set disableDefaultPort = true in server.conf OR allowRemoteLogin = never in server.conf OR mgmtHostPort = localhost in web.conf. See Configure universal forwarder management security (https://docs.splunk.com/Documentation/Splunk/9.0.0/Security/EnableTLSCertHostnameValidation#Configure_universal_forwarder_management_security) for more information on disabling the remote management services.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32155">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4d059eba8d887ce8c95e5c1cd8581a5b</td>
        <td>CVE-2022-33140</td>
        <td>2022-06-15 15:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-06-15 10:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability classified as critical has been found in FileCloud. Affected is the NTFS handler which leads to improper access controls. It is possible to launch the attack remotely but it demands some form of authentication. Upgrading to version 21.3.5.18513 is able to address this issue. It is recommended to upgrade the affected component.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1958">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">96a24e09f11ec4c2a238574713b73864</td>
-       <td>CVE-2022-32243</td>
-       <td>2022-06-14 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>When a user opens manipulated Scalable Vector Graphics (.svg, svg.x3d) files received from untrusted sources in SAP 3D Visual Enterprise Viewer, the application crashes and becomes temporarily unavailable to the user until restart of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32243">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">16c77fe5d2f26548ac7aebce08110e79</td>
-       <td>CVE-2022-32242</td>
-       <td>2022-06-14 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>When a user opens manipulated Radiance Picture (.hdr, hdr.x3d) files received from untrusted sources in SAP 3D Visual Enterprise Viewer, the application crashes and becomes temporarily unavailable to the user until restart of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32242">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f9d6d0c68bd6bed2acd7dba481c512e9</td>
-       <td>CVE-2022-32241</td>
-       <td>2022-06-14 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>When a user opens manipulated Portable Document Format (.pdf, PDFView.x3d) files received from untrusted sources in SAP 3D Visual Enterprise Viewer, the application crashes and becomes temporarily unavailable to the user until restart of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32241">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1bf94c341f2c22173ef9d9e1911faaa9</td>
-       <td>CVE-2022-32240</td>
-       <td>2022-06-14 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>When a user opens manipulated Jupiter Tesselation (.jt, JTReader.x3d) files received from untrusted sources in SAP 3D Visual Enterprise Viewer, the application crashes and becomes temporarily unavailable to the user until restart of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32240">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">325ac388f61915058910fb5600116ea4</td>
-       <td>CVE-2022-32230</td>
-       <td>2022-06-14 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Windows SMBv3 suffers from a null pointer dereference in versions of Windows prior to the April, 2022 patch set. By sending a malformed FileNormalizedNameInformation SMBv3 request over a named pipe, an attacker can cause a Blue Screen of Death (BSOD) crash of the Windows kernel. For most systems, this attack requires authentication, except in the special case of Windows Domain Controllers, where unauthenticated users can always open named pipes as long as they can establish an SMB session. Typically, after the BSOD, the victim SMBv3 server will reboot.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32230">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">defd15b3e5ec36e69da9ab7e9c502c9b</td>
-       <td>CVE-2022-31066</td>
-       <td>2022-06-14 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>EdgeX Foundry is an open source project for building a common open framework for Internet of Things edge computing. Prior to version 2.1.1, the /api/v2/config endpoint exposes message bus credentials to local unauthenticated users. In security-enabled mode, message bus credentials are supposed to be kept in the EdgeX secret store and require authentication to access. This vulnerability bypasses the access controls on message bus credentials when running in security-enabled mode. (No credentials are required when running in security-disabled mode.) As a result, attackers could intercept data or inject fake data into the EdgeX message bus. Users should upgrade to EdgeXFoundry Kamakura release (2.2.0) or to the June 2022 EdgeXFoundry LTS Jakarta release (2.1.1) to receive a patch. More information about which go modules, docker containers, and snaps contain patches is available in the GitHub Security Advisory. There are currently no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31066">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87cb4d9517dc2d7da8785e9078d502c7</td>
-       <td>CVE-2022-32363</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/categories/view_category.php?id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32363">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c385c797bae812ccaf41973cb7fe7cf7</td>
-       <td>CVE-2022-32362</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/admin/categories/manage_category.php?id=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32362">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5017ad0bb2c176b460773ca806046dbb</td>
-       <td>CVE-2022-32359</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/classes/Master.php?f=delete_category.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32359">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fca9d7a54a8b0ce3bfd437d04cc1c82f</td>
-       <td>CVE-2022-32358</td>
-       <td>2022-06-14 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/classes/Master.php?f=delete_inquiry.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32358">详情</a></td>
       </tr>
 
      </tbody>
