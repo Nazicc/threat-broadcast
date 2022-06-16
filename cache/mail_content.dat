@@ -1,14 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30549</font><br/>[<b>披露时间</b>] 2022-06-16 02:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds read vulnerability exists in V-Server v4.0.11.0 and earlier and V-Server Lite v4.0.13.0 and earlier, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30549'>https://www.tenable.com/cve/CVE-2022-30549</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30546</font><br/>[<b>披露时间</b>] 2022-06-16 02:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds read vulnerability exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30546'>https://www.tenable.com/cve/CVE-2022-30546</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30538</font><br/>[<b>披露时间</b>] 2022-06-16 02:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds write vulnerability exists in the simulator module contained in the graphic editor 'V-SFT' versions prior to v6.1.6.0, which may allow an attacker to obtain information and/or execute arbitrary code by having a user to open a specially crafted image file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30538'>https://www.tenable.com/cve/CVE-2022-30538</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30533</font><br/>[<b>披露时间</b>] 2022-06-16 02:15:00<br/>[<b>漏洞描述</b>] Cross-site scripting vulnerability in Modern Events Calendar Lite versions prior to 6.3.0 allows remote an authenticated attacker to inject an arbitrary script via unspecified vectors.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30533'>https://www.tenable.com/cve/CVE-2022-30533</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0454</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome缓冲区溢出漏洞（CNVD-2022-45563）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413938'>http://cve.scap.org.cn/vuln/VHN-413938</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0455</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome输入验证错误漏洞（CNVD-2022-45564）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413939'>http://cve.scap.org.cn/vuln/VHN-413939</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0457</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome类型混淆漏洞（CNVD-2022-45565）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413941'>http://cve.scap.org.cn/vuln/VHN-413941</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0458</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45566）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413942'>http://cve.scap.org.cn/vuln/VHN-413942</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0459</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45567）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413943'>http://cve.scap.org.cn/vuln/VHN-413943</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0460</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45568）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413944'>http://cve.scap.org.cn/vuln/VHN-413944</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0461</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome访问控制错误漏洞（CNVD-2022-45569）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413945'>http://cve.scap.org.cn/vuln/VHN-413945</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0462</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome安全特征问题漏洞（CNVD-2022-45570）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413946'>http://cve.scap.org.cn/vuln/VHN-413946</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0464</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45571）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413948'>http://cve.scap.org.cn/vuln/VHN-413948</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0465</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（ CNVD-2022-45572 ）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413949'>http://cve.scap.org.cn/vuln/VHN-413949</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
