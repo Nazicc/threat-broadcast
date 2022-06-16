@@ -1,30 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0454</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome缓冲区溢出漏洞（CNVD-2022-45563）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413938'>http://cve.scap.org.cn/vuln/VHN-413938</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0455</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome输入验证错误漏洞（CNVD-2022-45564）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413939'>http://cve.scap.org.cn/vuln/VHN-413939</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0457</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome类型混淆漏洞（CNVD-2022-45565）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413941'>http://cve.scap.org.cn/vuln/VHN-413941</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0458</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45566）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413942'>http://cve.scap.org.cn/vuln/VHN-413942</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0459</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45567）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413943'>http://cve.scap.org.cn/vuln/VHN-413943</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0460</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45568）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413944'>http://cve.scap.org.cn/vuln/VHN-413944</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0461</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome访问控制错误漏洞（CNVD-2022-45569）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413945'>http://cve.scap.org.cn/vuln/VHN-413945</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0462</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome安全特征问题漏洞（CNVD-2022-45570）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413946'>http://cve.scap.org.cn/vuln/VHN-413946</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0464</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（CNVD-2022-45571）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413948'>http://cve.scap.org.cn/vuln/VHN-413948</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0465</font><br/>[<b>披露时间</b>] 2022-06-16 07:43:08<br/>[<b>漏洞描述</b>] Google Chrome资源管理错误漏洞（ CNVD-2022-45572 ）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413949'>http://cve.scap.org.cn/vuln/VHN-413949</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45564 (CVE-2022-0455)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:22<br/>[<b>漏洞描述</b>] Google Chrome输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45564'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45564</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45563 (CVE-2022-0454)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:24<br/>[<b>漏洞描述</b>] Google Chrome缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45563'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45563</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45562 (CVE-2022-0470)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:26<br/>[<b>漏洞描述</b>] Google Chrome缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45562'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45562</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45561 (CVE-2022-0466)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:28<br/>[<b>漏洞描述</b>] Google Chrome安全特征问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45561'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45561</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45560 (CVE-2022-0809)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:31<br/>[<b>漏洞描述</b>] Google Chrome缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45560'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45560</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45559 (CVE-2022-0792)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:33<br/>[<b>漏洞描述</b>] Google Chrome读取越界漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45559'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45559</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-45558 (CVE-2022-0806)</font><br/>[<b>披露时间</b>] 2022-06-16 08:50:35<br/>[<b>漏洞描述</b>] Google Chrome信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-45558'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-45558</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
