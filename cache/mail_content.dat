@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33981</font><br/>[<b>披露时间</b>] 2022-06-18 16:15:00<br/>[<b>漏洞描述</b>] drivers/block/floppy.c in the Linux kernel before 5.17.6 is vulnerable to a denial of service, because of a concurrency use-after-free flaw after deallocating raw_cmd in the raw_cmd_ioctl function.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33981'>https://www.tenable.com/cve/CVE-2022-33981</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46823</font><br/>[<b>披露时间</b>] 2022-06-18 16:15:00<br/>[<b>漏洞描述</b>] python-ldap before 3.4.0 is vulnerable to a denial of service when ldap.schema is used for untrusted schema definitions, because of a regular expression denial of service (ReDoS) flaw in the LDAP schema parser. By sending crafted regex input, a remote authenticated attacker could exploit this vulnerability to cause a denial of service condition.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-46823'>https://www.tenable.com/cve/CVE-2021-46823</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46822</font><br/>[<b>披露时间</b>] 2022-06-18 16:15:00<br/>[<b>漏洞描述</b>] The PPM reader in libjpeg-turbo through 2.0.90 mishandles use of tjLoadImage for loading a 16-bit binary PPM file into a grayscale buffer and loading a 16-bit binary PGM file into an RGB buffer. This is related to a heap-based buffer overflow in the get_word_rgb_row function in rdppm.c.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-46822'>https://www.tenable.com/cve/CVE-2021-46822</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-24405</font><br/>[<b>披露时间</b>] 2021-07-06 11:15:09 <br/>[<b>漏洞描述</b>] The Easy Cookies Policy WordPress plugin through 1.6.2 is lacking any capability and CSRF check when saving its settings, allowing any authenticated users (such as subscriber) to change them. If users can't register, this can be done through CSRF. Furthermore, the cookie banner setting is not sanitised or validated before being output in all pages of the frontend and the backend settings one, leading to a Stored Cross-Site Scripting issue.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-24405'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-24405</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
