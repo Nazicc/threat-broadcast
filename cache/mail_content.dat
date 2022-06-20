@@ -1,13 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">8</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34006</font><br/>[<b>披露时间</b>] 2022-06-19 21:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in TitanFTP (aka Titan FTP) NextGen before 1.2.1050. When installing, Microsoft SQL Express 2019 installs by default with an SQL instance running as SYSTEM with BUILTIN\Users as sysadmin, thus enabling unprivileged Windows users to execute commands locally as NT AUTHORITY\SYSTEM, aka NX-I674 (sub-issue 2).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34006'>https://www.tenable.com/cve/CVE-2022-34006</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34005</font><br/>[<b>披露时间</b>] 2022-06-19 21:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in TitanFTP (aka Titan FTP) NextGen before 1.2.1050. There is Remote Code Execution due to a hardcoded password for the sa account on the Microsoft SQL Express 2019 instance installed by default during TitanFTP NextGen installation, aka NX-I674 (sub-issue 1).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34005'>https://www.tenable.com/cve/CVE-2022-34005</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34000</font><br/>[<b>披露时间</b>] 2022-06-19 20:15:00<br/>[<b>漏洞描述</b>] libjxl 0.6.1 has an assertion failure in LowMemoryRenderPipeline::Init() in render_pipeline/low_memory_render_pipeline.cc.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34000'>https://www.tenable.com/cve/CVE-2022-34000</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30611</font><br/>[<b>披露时间</b>] 2022-06-10 16:15:08 <br/>[<b>漏洞描述</b>] IBM Spectrum Copy Data Management 2.2.0.0 through 2.2.15.0 is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote attacker could exploit this vulnerability using some fields of the form in the portal UI to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials. IBM X-Force ID: 227364.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30611'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30611</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36048</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] XMP Toolkit SDK version 2020.1 (and earlier) is......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-396391'>http://cve.scap.org.cn/vuln/VHN-396391</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36053</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] XMP Toolkit SDK versions 2020.1 (and earlier) are......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-396396'>http://cve.scap.org.cn/vuln/VHN-396396</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36058</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] XMP Toolkit SDK version 2020.1 (and earlier) is......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-396401'>http://cve.scap.org.cn/vuln/VHN-396401</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1232</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419345'>http://cve.scap.org.cn/vuln/VHN-419345</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1483</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419596'>http://cve.scap.org.cn/vuln/VHN-419596</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30184</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] .NET and Visual Studio Information Disclosure...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-421679'>http://cve.scap.org.cn/vuln/VHN-421679</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-426260</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] phpIPAM 1.4.5 Remote Code Execution...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426260'>http://cve.scap.org.cn/vuln/VHN-426260</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-426261</font><br/>[<b>披露时间</b>] 2022-06-20 02:34:08<br/>[<b>漏洞描述</b>] Old Age Home Management System 1.0 SQL Injection...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426261'>http://cve.scap.org.cn/vuln/VHN-426261</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1836</font><br/>[<b>披露时间</b>] 2022-06-19 22:15:00<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-33981. Reason: This candidate is a reservation duplicate of CVE-2022-33981. Notes: All CVE users should reference CVE-2022-33981 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1836'>https://www.tenable.com/cve/CVE-2022-1836</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
