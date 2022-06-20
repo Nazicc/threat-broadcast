@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-20 14:40:34 -->
+<!-- RELEASE TIME : 2022-06-20 17:01:14 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">cd1ec014d2c7889060320b58873293dd</td>
+       <td>CVE-2022-31795</td>
+       <td>2022-06-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered on Fujitsu ETERNUS CentricStor CS8000 (Control Center) devices before 8.1A SP02 P04. The vulnerability resides in the grel_finfo function in grel.php. An attacker is able to influence the username (user), password (pw), and file-name (file) parameters and inject special characters such as semicolons, backticks, or command-substitution sequences in order to force the application to execute arbitrary commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31795">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b08a6b8aadb71b64e739c5cc4bfeefb1</td>
+       <td>CVE-2022-31794</td>
+       <td>2022-06-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered on Fujitsu ETERNUS CentricStor CS8000 (Control Center) devices before 8.1A SP02 P04. The vulnerability resides in the requestTempFile function in hw_view.php. An attacker is able to influence the unitName POST parameter and inject special characters such as semicolons, backticks, or command-substitution sequences in order to force the application to execute arbitrary commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31794">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">78fab5dfda5803786042bdaf476181b7</td>
+       <td>CVE-2022-2134</td>
+       <td>2022-06-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Denial of Service in GitHub repository inventree/inventree prior to 0.8.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2134">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c9d5f02ca57af2663d05ec071e92d90</td>
+       <td>CVE-2022-1720</td>
+       <td>2022-06-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Buffer Over-read in function grab_file_name in GitHub repository vim/vim prior to 8.2.4956. This vulnerability is capable of crashing the software, memory modification, and possible remote execution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1720">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c48595d504160025e0958fa91fbcaf47</td>
+       <td>CVE-2021-41683</td>
+       <td>2022-06-20 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is a stack-overflow at ecma-helpers.c:326 in ecma_get_lex_env_type in JerryScript 2.4.0</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41683">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">43e55c8625c305155777f626e2b6f941</td>
+       <td>CVE-2021-41682</td>
+       <td>2022-06-20 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is a heap-use-after-free at ecma-helpers-string.c:1940 in ecma_compare_ecma_non_direct_strings in JerryScript 2.4.0</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41682">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bcf392c10b9aad5e46d9bebf9ea4731e</td>
+       <td>CVE-2022-25772</td>
+       <td>2022-06-20 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability in the web tracking component of Mautic before 4.3.0 allows remote attackers to inject executable javascript</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25772">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">82b2886f414ada6762d0567bbcfdde36</td>
        <td>CVE-2022-1945</td>
        <td>2022-06-20 11:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-06-19 21:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue was discovered in TitanFTP (aka Titan FTP) NextGen before 1.2.1050. When installing, Microsoft SQL Express 2019 installs by default with an SQL instance running as SYSTEM with BUILTIN\Users as sysadmin, thus enabling unprivileged Windows users to execute commands locally as NT AUTHORITY\SYSTEM, aka NX-I674 (sub-issue 2).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34006">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ab95ab219347944040159aae3f3c856</td>
-       <td>CVE-2022-34005</td>
-       <td>2022-06-19 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in TitanFTP (aka Titan FTP) NextGen before 1.2.1050. There is Remote Code Execution due to a hardcoded password for the sa account on the Microsoft SQL Express 2019 instance installed by default during TitanFTP NextGen installation, aka NX-I674 (sub-issue 1).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34005">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e604953eb59fcb8b5488c8f2d7f16ed</td>
-       <td>CVE-2022-34000</td>
-       <td>2022-06-19 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>libjxl 0.6.1 has an assertion failure in LowMemoryRenderPipeline::Init() in render_pipeline/low_memory_render_pipeline.cc.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34000">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e7013065e657fbd30023fc83dd2522fa</td>
-       <td>CVE-2022-2129</td>
-       <td>2022-06-19 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds Write in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2129">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7d96137bf9b41e41af2a1d7c87b7337f</td>
-       <td>CVE-2022-2126</td>
-       <td>2022-06-19 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds Read in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2126">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ad1c5c316a938adff7ff39d257c5396</td>
-       <td>CVE-2022-2125</td>
-       <td>2022-06-19 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Heap-based Buffer Overflow in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2125">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1d92f710dda118419bfb532002ad16b4</td>
-       <td>CVE-2022-23071</td>
-       <td>2022-06-19 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Recipes, versions 0.9.1 through 1.2.5 are vulnerable to Server Side Request Forgery (SSRF), in the “Import Recipe” functionality. When an attacker enters the localhost URL, a low privileged attacker can access/read the internal file system to access sensitive information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23071">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cf32d7216258e7f4f5ce0af3bfb4a2a9</td>
-       <td>CVE-2022-2124</td>
-       <td>2022-06-19 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Buffer Over-read in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2124">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">29233e9d2647667ef3a6f49daef7f6f1</td>
+       <td>CNVD-2022-41797</td>
+       <td>2022-06-21 17:00:10 <img src="imgs/new.gif" /></td>
+       <td>四创科技有限公司建站系统存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-41797">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">319f8c4599ef1486f38d094198ad73f6</td>
        <td>CNVD-2022-46290 (CVE-2021-39804)</td>
        <td>2022-06-20 13:17:56 <img src="imgs/new.gif" /></td>
@@ -1047,14 +1055,6 @@
        <td>2022-06-17 10:42:38</td>
        <td>Tenda HG6命令注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46164">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c9b6fc180a89647490a16bbcaee20de</td>
-       <td>CNVD-2022-46163 (CVE-2022-30922)</td>
-       <td>2022-06-17 10:42:35</td>
-       <td>H3C Magic R100缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46163">详情</a></td>
       </tr>
 
      </tbody>
