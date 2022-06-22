@@ -1,25 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1729</font><br/>[<b>披露时间</b>] 2022-06-22 17:49:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422493'>http://cve.scap.org.cn/vuln/VHN-422493</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31016</font><br/>[<b>披露时间</b>] 2022-06-22 17:49:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422703'>http://cve.scap.org.cn/vuln/VHN-422703</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31034</font><br/>[<b>披露时间</b>] 2022-06-22 17:49:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422721'>http://cve.scap.org.cn/vuln/VHN-422721</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31035</font><br/>[<b>披露时间</b>] 2022-06-22 17:49:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422722'>http://cve.scap.org.cn/vuln/VHN-422722</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31036</font><br/>[<b>披露时间</b>] 2022-06-22 17:49:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422723'>http://cve.scap.org.cn/vuln/VHN-422723</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31897</font><br/>[<b>披露时间</b>] 2022-06-22 17:49:21<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423780'>http://cve.scap.org.cn/vuln/VHN-423780</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32549</font><br/>[<b>披露时间</b>] 2022-06-22 15:15:00<br/>[<b>漏洞描述</b>] Apache Sling Commons Log <= 5.4.0 and Apache Sling API <= 2.25.0 are vulnerable to log injection. The ability to forge logs may allow an attacker to cover tracks by injecting fake logs and potentially corrupt log files.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32549'>https://www.tenable.com/cve/CVE-2022-32549</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20651</font><br/>[<b>披露时间</b>] 2022-06-22 14:15:00<br/>[<b>漏洞描述</b>] A vulnerability in the logging component of Cisco Adaptive Security Device Manager (ASDM) could allow an authenticated, local attacker to view sensitive information in clear text on an affected system. Cisco ADSM must be deployed in a shared workstation environment for this issue to be exploited. This vulnerability is due to the storage of unencrypted credentials in certain logs. An attacker could exploit this vulnerability by accessing the logs on an affected system. A successful exploit could allow the attacker to view the credentials of other users of the shared device.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-20651'>https://www.tenable.com/cve/CVE-2022-20651</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32560</font><br/>[<b>披露时间</b>] 2022-06-13 21:15:08 <br/>[<b>漏洞描述</b>] An issue was discovered in Couchbase Server before 7.0.4. XDCR lacks role checking when changing internal settings.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32560'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32560</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32558</font><br/>[<b>披露时间</b>] 2022-06-13 21:15:07 <br/>[<b>漏洞描述</b>] An issue was discovered in Couchbase Server before 7.0.4. Sample bucket loading may leak internal user passwords during a failure.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32558'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32558</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
