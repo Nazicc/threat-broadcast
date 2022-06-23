@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32159</font><br/>[<b>披露时间</b>] 2022-06-22 18:15:00<br/>[<b>漏洞描述</b>] In openlibrary versions deploy-2016-07-0 through deploy-2021-12-22 are vulnerable to Stored XSS.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32159'>https://www.tenable.com/cve/CVE-2022-32159</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23081</font><br/>[<b>披露时间</b>] 2022-06-22 18:15:00<br/>[<b>漏洞描述</b>] In openlibrary versions deploy-2016-07-0 through deploy-2021-12-22 are vulnerable to Reflected XSS.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23081'>https://www.tenable.com/cve/CVE-2022-23081</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-46962 (CVE-2022-20726)</font><br/>[<b>披露时间</b>] 2022-06-23 04:09:48<br/>[<b>漏洞描述</b>] Cisco Iox拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-46962'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-46962</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-46961 (CVE-2022-20722)</font><br/>[<b>披露时间</b>] 2022-06-23 04:09:51<br/>[<b>漏洞描述</b>] Cisco Iox路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-46961'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-46961</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
