@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32987</font><br/>[<b>披露时间</b>] 2022-06-23 19:15:00<br/>[<b>漏洞描述</b>] Multiple cross-site scripting (XSS) vulnerabilities in /bsms/?page=manage_account of Simple Bakery Shop Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Username or Full Name fields.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32987'>https://www.tenable.com/cve/CVE-2022-32987</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2183</font><br/>[<b>披露时间</b>] 2022-06-23 19:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds Read in GitHub repository vim/vim prior to 8.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2183'>https://www.tenable.com/cve/CVE-2022-2183</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26864</font><br/>[<b>披露时间</b>] 2022-06-23 18:15:00<br/>[<b>漏洞描述</b>] Prior Dell BIOS versions contain an Input Validation vulnerability. A locally authenticated malicious user could potentially exploit this vulnerability by sending malicious input to an SMI in order to bypass security controls in SMM.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26864'>https://www.tenable.com/cve/CVE-2022-26864</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26863</font><br/>[<b>披露时间</b>] 2022-06-23 18:15:00<br/>[<b>漏洞描述</b>] Prior Dell BIOS versions contain an Input Validation vulnerability. A locally authenticated malicious user could potentially exploit this vulnerability by sending malicious input to an SMI in order to bypass security controls in SMM.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26863'>https://www.tenable.com/cve/CVE-2022-26863</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26862</font><br/>[<b>披露时间</b>] 2022-06-23 18:15:00<br/>[<b>漏洞描述</b>] Prior Dell BIOS versions contain an Input Validation vulnerability. A locally authenticated malicious user could potentially exploit this vulnerability by sending malicious input to an SMI in order to bypass security controls in SMM.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-26862'>https://www.tenable.com/cve/CVE-2022-26862</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2182</font><br/>[<b>披露时间</b>] 2022-06-23 18:15:00<br/>[<b>漏洞描述</b>] Heap-based Buffer Overflow in GitHub repository vim/vim prior to 8.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2182'>https://www.tenable.com/cve/CVE-2022-2182</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2147</font><br/>[<b>披露时间</b>] 2022-06-23 21:15:00<br/>[<b>漏洞描述</b>] Cloudflare Warp for Windows from version 2022.2.95.0 contained an unquoted service path which enables arbitrary code execution leading to privilege escalation. The fix was released in version 2022.3.186.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2147'>https://www.tenable.com/cve/CVE-2022-2147</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
