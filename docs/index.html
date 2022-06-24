@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-24 09:41:49 -->
+<!-- RELEASE TIME : 2022-06-24 10:44:34 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b5bc4c6481e638cb28f990355707557e</td>
+       <td>CVE-2022-32143</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In multiple CODESYS products, file download and upload function allows access to internal files in the working directory e.g. firmware files of the PLC. All requests are processed on the controller only if no level 1 password is configured on the controller or if remote attacker has previously successfully authenticated himself to the controller. A successful Attack may lead to a denial of service, change of local files, or drain of confidential Information. User interaction is not required</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32143">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">53c84958794c1c1cc16e8f8cb7b9464a</td>
+       <td>CVE-2022-32142</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple CODESYS Products are prone to a out-of bounds read or write access. A low privileged remote attacker may craft a request with invalid offset, which can cause an out-of-bounds read or write access, resulting in denial-of-service condition or local memory overwrite, which can lead to a change of local files. User interaction is not required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32142">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">40d65ce62a5859b036f880510ade51ab</td>
+       <td>CVE-2022-32141</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple CODESYS Products are prone to a buffer over read. A low privileged remote attacker may craft a request with an invalid offset, which can cause an internal buffer over-read, resulting in a denial-of-service condition. User interaction is not required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32141">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b8770cc1b728bb8904a36a02399deac2</td>
+       <td>CVE-2022-32140</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple CODESYS products are affected to a buffer overflow.A low privileged remote attacker may craft a request, which can cause a buffer copy without checking the size of the service, resulting in a denial-of-service condition. User Interaction is not required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32140">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">71f3efd7c94579d2f93aef38c2b01196</td>
+       <td>CVE-2022-32139</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In multiple CODESYS products, a low privileged remote attacker may craft a request, which cause an out-of-bounds read, resulting in a denial-of-service condition. User Interaction is not required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32139">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c2410892efca1f87c5ca199dde41489d</td>
+       <td>CVE-2022-32138</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In multiple CODESYS products, a remote attacker may craft a request which may cause an unexpected sign extension, resulting in a denial-of-service condition or memory overwrite.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32138">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">972ee19b45343ddb47e1a033a7c8c390</td>
+       <td>CVE-2022-32137</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In multiple CODESYS products, a low privileged remote attacker may craft a request, which may cause a heap-based buffer overflow, resulting in a denial-of-service condition or memory overwrite. User interaction is not required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32137">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">69a3300983cb445a3d82558938887aa0</td>
+       <td>CVE-2022-32136</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In multiple CODESYS products, a low privileged remote attacker may craft a request that cause a read access to an uninitialized pointer, resulting in a denial-of-service. User interaction is not required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32136">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2b7790db15b09dfc425886ea36a17d50</td>
+       <td>CVE-2022-31806</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In CODESYS V2 PLCWinNT and Runtime Toolkit 32 in versions prior to V2.4.7.57 password protection is not enabled by default and there is no information or prompt to enable password protection at login in case no password is set at the controller.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31806">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f67334377cb0d630e4438aafb2c2d21a</td>
+       <td>CVE-2022-31805</td>
+       <td>2022-06-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In the CODESYS Development System multiple components in multiple versions transmit the passwords for the communication between clients and servers unprotected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31805">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">eabddb9ca1727371c0b5eaba1003a640</td>
        <td>CVE-2022-32405</td>
        <td>2022-06-24 02:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
        <td>There is a heap-based buffer over-read in libdwarf 0.4.0. This issue is related to dwarf_global_formref_b.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34299">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">603877273fe25ebf5f23d8fa401fad9f</td>
-       <td>CVE-2022-34298</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>The NT auth module in OpenAM before 14.6.6 allows a "replace Samba username attack."</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34298">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">24dd4d2d46538d0fff99b0e754f53914</td>
-       <td>CVE-2022-34296</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Zalando Skipper before 0.13.218, a query predicate could be bypassed via a prepared request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34296">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b1bea9a6e0c6a9f0d8d0025ccaabb70</td>
-       <td>CVE-2022-34295</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>totd before 1.5.3 does not properly randomize mesg IDs.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34295">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f7cb959230569b0b6d85110fc22cda72</td>
-       <td>CVE-2022-34213</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins Squash TM Publisher (Squash4Jenkins) Plugin 1.0.0 and earlier stores passwords unencrypted in its global configuration file on the Jenkins controller where they can be viewed by users with access to the Jenkins controller file system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34213">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">49187d12230ddf841600db6d83932614</td>
-       <td>CVE-2022-34212</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A missing permission check in Jenkins vRealize Orchestrator Plugin 3.0 and earlier allows attackers with Overall/Read permission to send an HTTP POST request to an attacker-specified URL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34212">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4319ad879320923c8cd0a37ee8c730b2</td>
-       <td>CVE-2022-34211</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins vRealize Orchestrator Plugin 3.0 and earlier allows attackers to send an HTTP POST request to an attacker-specified URL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34211">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0adb7db751a31563f529b940a25b887</td>
-       <td>CVE-2022-34210</td>
-       <td>2022-06-23 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A missing permission check in Jenkins ThreadFix Plugin 1.5.4 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34210">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">01cdb761ae1fe871022fd264d1b96eae</td>
-       <td>CVE-2022-2175</td>
-       <td>2022-06-23 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Buffer Over-read in GitHub repository vim/vim prior to 8.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2175">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f6f024a87424e1d9d68747ad9d8729e4</td>
-       <td>CVE-2022-34305</td>
-       <td>2022-06-23 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64 and 8.5.50 to 8.5.81 the Form authentication example in the examples web application displayed user provided data without filtering, exposing a XSS vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34305">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">257b7270581539b8fdb1de7d8d99d4ad</td>
-       <td>CVE-2022-31009</td>
-       <td>2022-06-23 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>wire-ios is an iOS client for the Wire secure messaging application. Invalid accent colors of Wire communication partners may render the iOS Wire Client partially unusable by causing it to crash multiple times on launch. These invalid accent colors can be used by and sent between Wire users. The root cause was an unnecessary assert statement when converting an integer value into the corresponding enum value, causing an exception instead of a fallback to a default value. This issue is fixed in  [wire-ios](https://github.com/wireapp/wire-ios/commit/caa0e27dbe51f9edfda8c7a9f017d93b8cfddefb) and in Wire for iOS 3.100. There is no workaround available, but users may use other Wire clients (such as the [web app](https://app.wire.com)) to continue using Wire, or upgrade their client.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31009">详情</a></td>
       </tr>
 
      </tbody>
@@ -882,6 +882,38 @@
       </tr>
 
       <tr>
+       <td scope="row">9e4994a3f6da1671bfae3c2e260e5421</td>
+       <td>CNVD-2022-47472 (CVE-2022-24873)</td>
+       <td>2022-06-24 10:43:55 <img src="imgs/new.gif" /></td>
+       <td>Shopware跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47472">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">407d297bb4b4bb8a6a40b6f9897c0ad3</td>
+       <td>CNVD-2022-47473 (CVE-2022-28074)</td>
+       <td>2022-06-24 10:43:52 <img src="imgs/new.gif" /></td>
+       <td>Halo跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47473">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a0bcf1a9bf7349026bd845085c64e99</td>
+       <td>CNVD-2022-47471 (CVE-2022-29894)</td>
+       <td>2022-06-24 10:43:41 <img src="imgs/new.gif" /></td>
+       <td>Strapi跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47471">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1d748882fc928830a6d2008d3ee921e5</td>
+       <td>CNVD-2022-47474 (CVE-2022-1445)</td>
+       <td>2022-06-24 10:43:38 <img src="imgs/new.gif" /></td>
+       <td>Snipe-IT跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47474">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5964be3d069f695f3c81f4b9846214a3</td>
        <td>CNVD-2022-47419 (CVE-2022-1093)</td>
        <td>2022-06-24 08:48:42 <img src="imgs/new.gif" /></td>
@@ -1023,38 +1055,6 @@
        <td>2022-06-23 04:09:48 <img src="imgs/new.gif" /></td>
        <td>Cisco Iox拒绝服务漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46962">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">439b431dd79246d1ef35b65227800146</td>
-       <td>CNVD-2022-46777 (CVE-2022-1320)</td>
-       <td>2022-06-22 10:44:32</td>
-       <td>WordPress Sliderby10Web plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46777">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6718d37904221ba5931b751512bd1f3c</td>
-       <td>CNVD-2022-46776 (CVE-2022-1221)</td>
-       <td>2022-06-22 10:44:30</td>
-       <td>WordPress Imagemap Selector plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46776">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ae9216eb00d3e6d4b4ac00f8bb1704d3</td>
-       <td>CNVD-2022-46775 (CVE-2022-1268)</td>
-       <td>2022-06-22 10:44:27</td>
-       <td>WordPress Donate Extra plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46775">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9fd74f3b9dc2fb6dc1452ff1f0908b23</td>
-       <td>CNVD-2022-46774 (CVE-2022-1218)</td>
-       <td>2022-06-22 10:44:24</td>
-       <td>WordPress Domain Replace plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-46774">详情</a></td>
       </tr>
 
      </tbody>
@@ -1508,6 +1508,14 @@
       </tr>
 
       <tr>
+       <td scope="row">3937be2e0245c26d3ed1675e7a933a1f</td>
+       <td>CVE-2022-22980</td>
+       <td>2022-06-21 15:10:51</td>
+       <td>Spring Data MongoDB  存在SpEL表达式注入漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6624">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">db63cdd998f78f60a7b07d769bff4af1</td>
        <td>CVE-2020-25078</td>
        <td>2022-06-21 11:16:14</td>
@@ -1649,14 +1657,6 @@
        <td>2022-06-01 18:42:05</td>
        <td>Kubernetes Argo CD权限提升漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6415">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3acfaddfee555b5db3a79fde7ea5b5e5</td>
-       <td>CVE-2022-29405</td>
-       <td>2022-05-26 19:01:18</td>
-       <td>Apache Archiva 密码重置漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6346">详情</a></td>
       </tr>
 
      </tbody>
