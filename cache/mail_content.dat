@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-30327</font><br/>[<b>披露时间</b>] 2022-06-25 19:59:27<br/>[<b>漏洞描述</b>] 多款Qualcomm产品资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c127fbd69f154d7ebc4c5ff3dfe59ffa'>https://redqueen.tj-un.com/IntelDetails.html?id=c127fbd69f154d7ebc4c5ff3dfe59ffa</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-30346</font><br/>[<b>披露时间</b>] 2022-06-25 19:59:19<br/>[<b>漏洞描述</b>] 多款Qualcomm产品配置错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d8871f284da54ffab9ada2d545d91f8e'>https://redqueen.tj-un.com/IntelDetails.html?id=d8871f284da54ffab9ada2d545d91f8e</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-30345</font><br/>[<b>披露时间</b>] 2022-06-25 19:59:14<br/>[<b>漏洞描述</b>] 多款Qualcomm产品配置错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=043952f3a968486cb31b20deacbfae12'>https://redqueen.tj-un.com/IntelDetails.html?id=043952f3a968486cb31b20deacbfae12</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-30349</font><br/>[<b>披露时间</b>] 2022-06-25 19:59:09<br/>[<b>漏洞描述</b>] 多款Qualcomm产品访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a71ebfb1ab634ff48e8f847e9e462c24'>https://redqueen.tj-un.com/IntelDetails.html?id=a71ebfb1ab634ff48e8f847e9e462c24</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35070</font><br/>[<b>披露时间</b>] 2022-06-25 19:59:04<br/>[<b>漏洞描述</b>] 多款Qualcomm产品信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2f5e1ab705a043af9cc09d62d728d927'>https://redqueen.tj-un.com/IntelDetails.html?id=2f5e1ab705a043af9cc09d62d728d927</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35071</font><br/>[<b>披露时间</b>] 2022-06-25 19:58:59<br/>[<b>漏洞描述</b>] 多款Qualcomm产品缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f44dd7604a944b219ce8a0476400de48'>https://redqueen.tj-un.com/IntelDetails.html?id=f44dd7604a944b219ce8a0476400de48</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35073</font><br/>[<b>披露时间</b>] 2022-06-25 19:58:54<br/>[<b>漏洞描述</b>] Qualcomm 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a3ae60245a5e4a5d885dce53db9cdccf'>https://redqueen.tj-un.com/IntelDetails.html?id=a3ae60245a5e4a5d885dce53db9cdccf</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35076</font><br/>[<b>披露时间</b>] 2022-06-25 19:58:49<br/>[<b>漏洞描述</b>] Qualcomm 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2c7bfe6788d24749be674bbec4c4a3fb'>https://redqueen.tj-un.com/IntelDetails.html?id=2c7bfe6788d24749be674bbec4c4a3fb</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35078</font><br/>[<b>披露时间</b>] 2022-06-25 19:58:45<br/>[<b>漏洞描述</b>] Qualcomm多款产品 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a9939e85474045f3aaaac35642c01edd'>https://redqueen.tj-un.com/IntelDetails.html?id=a9939e85474045f3aaaac35642c01edd</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29931</font><br/>[<b>披露时间</b>] 2022-06-25 19:15:00<br/>[<b>漏洞描述</b>] Raytion 7.2.0 allows reflected Cross-site Scripting (XSS).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-29931'>https://www.tenable.com/cve/CVE-2022-29931</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
