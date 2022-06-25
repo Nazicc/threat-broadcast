@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-25 22:41:26 -->
+<!-- RELEASE TIME : 2022-06-25 23:40:46 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fbda62cbfa78d300849923d33894b505</td>
+       <td>CVE-2022-34491</td>
+       <td>2022-06-25 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>In the RSS extension for MediaWiki through 1.38.1, when the $wgRSSAllowLinkTag config variable was set to true, and a new RSS feed was created with certain XSS payloads within its description tags and added to the $wgRSSUrlWhitelist config variable, stored XSS could occur via MediaWiki's template system whenever that feed was loaded via the rss document tag.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34491">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8dc37ca9f6e7db7277030a6918a1be39</td>
        <td>CVE-2022-29931</td>
        <td>2022-06-25 19:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-06-24 15:15:00 <img src="imgs/new.gif" /></td>
        <td># Possible XSS Vulnerability in Rails::Html::SanitizerThere is a possible XSS vulnerability with certain configurations of Rails::Html::Sanitizer.This vulnerability has been assigned the CVE identifier CVE-2022-32209.Versions Affected: ALLNot affected: NONEFixed Versions: v1.4.3## ImpactA possible XSS vulnerability with certain configurations of Rails::Html::Sanitizer may allow an attacker to inject content if the application developer has overridden the sanitizer's allowed tags to allow both `select` and `style` elements.Code is only impacted if allowed tags are being overridden. This may be done via application configuration:```ruby# In config/application.rbconfig.action_view.sanitized_allowed_tags = ["select", "style"]```see https://guides.rubyonrails.org/configuring.html#configuring-action-viewOr it may be done with a `:tags` option to the Action View helper `sanitize`:```<%= sanitize @comment.body, tags: ["select", "style"] %>```see https://api.rubyonrails.org/classes/ActionView/Helpers/SanitizeHelper.html#method-i-sanitizeOr it may be done with Rails::Html::SafeListSanitizer directly:```ruby# class-level optionRails::Html::SafeListSanitizer.allowed_tags = ["select", "style"]```or```ruby# instance-level optionRails::Html::SafeListSanitizer.new.sanitize(@article.body, tags: ["select", "style"])```All users overriding the allowed tags by any of the above mechanisms to include both "select" and "style" should either upgrade or use one of the workarounds immediately.## ReleasesThe FIXED releases are available at the normal locations.## WorkaroundsRemove either `select` or `style` from the overridden allowed tags.## CreditsThis vulnerability was responsibly reported by [windshock](https://hackerone.com/windshock?type=user).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32209">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">225d30637ef45b2ae08c149eb1e6d5ab</td>
-       <td>CVE-2022-30120</td>
-       <td>2022-06-24 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>XSS in /dashboard/blocks/stacks/view_details/ - old browsers only. When using an older browser with built-in XSS protection disabled, insufficient sanitation where built urls are outputted can be exploited for Concrete 8.5.7 and below as well as Concrete 9.0 through 9.0.2 to allow XSS. This cannot be exploited in modern-day web browsers due to an automatic input escape mechanism. Concrete CMS Security team ranked this vulnerability 3.1with CVSS v3.1 Vector AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N. Sanitation has been added where built urls are output. Credit to Credit to Bogdan Tiron from FORTBRIDGE (https://www.fortbridge.co.uk/ ) for reporting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30120">详情</a></td>
       </tr>
 
      </tbody>
