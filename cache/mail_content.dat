@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40894</font><br/>[<b>披露时间</b>] 2022-06-24 22:15:00<br/>[<b>漏洞描述</b>] A Regular Expression Denial of Service (ReDOS) vulnerability was discovered in underscore-99xp v1.7.2 when the deepValueSearch function is called.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-40894'>https://www.tenable.com/cve/CVE-2021-40894</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33128</font><br/>[<b>披露时间</b>] 2022-06-25 02:15:00<br/>[<b>漏洞描述</b>] RG-EG series gateway EG350 EG_RGOS 11.1(6) was discovered to contain a SQL injection vulnerability via the function get_alarmAction at /alarm_pi/alarmService.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33128'>https://www.tenable.com/cve/CVE-2022-33128</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
