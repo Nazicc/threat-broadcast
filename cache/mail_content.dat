@@ -5,8 +5,8 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34495</font><br/>[<b>披露时间</b>] 2022-06-26 16:15:00<br/>[<b>漏洞描述</b>] rpmsg_probe in drivers/rpmsg/virtio_rpmsg_bus.c in the Linux kernel before 5.18.4 has a double free.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34495'>https://www.tenable.com/cve/CVE-2022-34495</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34494</font><br/>[<b>披露时间</b>] 2022-06-26 16:15:00<br/>[<b>漏洞描述</b>] rpmsg_virtio_add_ctrl_dev in drivers/rpmsg/virtio_rpmsg_bus.c in the Linux kernel before 5.18.4 has a double free.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34494'>https://www.tenable.com/cve/CVE-2022-34494</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30932</font><br/>[<b>披露时间</b>] 2022-06-26 19:15:00<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30932'>https://www.tenable.com/cve/CVE-2022-30932</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2206</font><br/>[<b>披露时间</b>] 2022-06-26 19:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds Read in GitHub repository vim/vim prior to 8.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2206'>https://www.tenable.com/cve/CVE-2022-2206</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
