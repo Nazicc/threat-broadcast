@@ -1,13 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20126</font><br/>[<b>披露时间</b>] 2022-06-27 20:03:36<br/>[<b>漏洞描述</b>] Google Android 权限许可和访问控制问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bd5597e9ecaa43d6890065a037025fd9'>https://redqueen.tj-un.com/IntelDetails.html?id=bd5597e9ecaa43d6890065a037025fd9</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20129</font><br/>[<b>披露时间</b>] 2022-06-27 20:03:21<br/>[<b>漏洞描述</b>] Google Android 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7bc2988942164ce29f5e83ba5cd21fe5'>https://redqueen.tj-un.com/IntelDetails.html?id=7bc2988942164ce29f5e83ba5cd21fe5</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20131</font><br/>[<b>披露时间</b>] 2022-06-27 20:03:16<br/>[<b>漏洞描述</b>] Google Android 信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d79cf73bf5734233912c0a4d23e080ac'>https://redqueen.tj-un.com/IntelDetails.html?id=d79cf73bf5734233912c0a4d23e080ac</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2218</font><br/>[<b>披露时间</b>] 2022-06-27 13:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository ionicabizau/parse-url prior to 7.0.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2218'>https://www.tenable.com/cve/CVE-2022-2218</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2208</font><br/>[<b>披露时间</b>] 2022-06-27 13:15:00<br/>[<b>漏洞描述</b>] NULL Pointer Dereference in GitHub repository vim/vim prior to 8.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2208'>https://www.tenable.com/cve/CVE-2022-2208</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40901</font><br/>[<b>披露时间</b>] 2022-06-27 13:15:00<br/>[<b>漏洞描述</b>] A Regular Expression Denial of Service (ReDOS) vulnerability was discovered in scniro-validator v1.0.1 when validating crafted invalid emails.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-40901'>https://www.tenable.com/cve/CVE-2021-40901</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40900</font><br/>[<b>披露时间</b>] 2022-06-27 13:15:00<br/>[<b>漏洞描述</b>] A Regular Expression Denial of Service (ReDOS) vulnerability was discovered in regexfn v1.0.5 when validating crafted invalid emails.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-40900'>https://www.tenable.com/cve/CVE-2021-40900</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2216</font><br/>[<b>披露时间</b>] 2022-06-27 12:15:00<br/>[<b>漏洞描述</b>] Server-Side Request Forgery (SSRF) in GitHub repository ionicabizau/parse-url prior to 7.0.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2216'>https://www.tenable.com/cve/CVE-2022-2216</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2207</font><br/>[<b>披露时间</b>] 2022-06-27 12:15:00<br/>[<b>漏洞描述</b>] Heap-based Buffer Overflow in GitHub repository vim/vim prior to 8.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2207'>https://www.tenable.com/cve/CVE-2022-2207</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
