@@ -1,16 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32981</font><br/>[<b>披露时间</b>] 2022-06-10 20:15:08 <br/>[<b>漏洞描述</b>] An issue was discovered in the Linux kernel through 5.18.3 on powerpc 32-bit platforms. There is a buffer overflow in ptrace PEEKUSER and POKEUSER (aka PEEKUSR and POKEUSR) when accessing floating point registers.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32981'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32981</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-21161</font><br/>[<b>披露时间</b>] 2022-06-27 15:15:00<br/>[<b>漏洞描述</b>] Cross Site Scripting (XSS) vulnerability in Ruckus Wireless ZoneDirector 9.8.3.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-21161'>https://www.tenable.com/cve/CVE-2020-21161</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2017-20102</font><br/>[<b>披露时间</b>] 2022-06-27 14:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Album Lock 4.0 and classified as critical. Affected by this issue is some unknown functionality of the file /getImage. The manipulation of the argument filePaht leads to path traversal. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2017-20102'>https://www.tenable.com/cve/CVE-2017-20102</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2017-20101</font><br/>[<b>披露时间</b>] 2022-06-27 14:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, was found in ProjectSend r754. This affects an unknown part of the file process.php?do=zip_download. The manipulation of the argument client/file leads to information disclosure. It is possible to initiate the attack remotely.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2017-20101'>https://www.tenable.com/cve/CVE-2017-20101</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2017-20100</font><br/>[<b>披露时间</b>] 2022-06-27 14:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Air Transfer 1.0.14/1.2.1. It has been rated as problematic. Affected by this issue is some unknown functionality. The manipulation leads to basic cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2017-20100'>https://www.tenable.com/cve/CVE-2017-20100</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28285</font><br/>[<b>披露时间</b>] 2022-06-27 17:45:43<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419188'>http://cve.scap.org.cn/vuln/VHN-419188</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29548</font><br/>[<b>披露时间</b>] 2022-06-27 17:45:43<br/>[<b>漏洞描述</b>] A reflected XSS issue exists in the Management......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-421057'>http://cve.scap.org.cn/vuln/VHN-421057</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-426998</font><br/>[<b>披露时间</b>] 2022-06-27 17:45:43<br/>[<b>漏洞描述</b>] WordPress Simple Page Transition 1.4.1 Cross...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426998'>http://cve.scap.org.cn/vuln/VHN-426998</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-426999</font><br/>[<b>披露时间</b>] 2022-06-27 17:45:43<br/>[<b>漏洞描述</b>] Mailhog 1.0.1 Cross Site Scripting...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426999'>http://cve.scap.org.cn/vuln/VHN-426999</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
