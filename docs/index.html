@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-29 15:33:51 -->
+<!-- RELEASE TIME : 2022-06-29 17:25:32 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c4ffb97c3f8e475badf1de11ddbe4170</td>
+       <td>CVE-2022-32969</td>
+       <td>2022-06-29 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>MetaMask before 10.11.3 might allow an attacker to access a user's secret recovery phrase because an input field is used for a BIP39 mnemonic, and Firefox and Chromium save such fields to disk in order to support the Restore Session feature, aka the Demonic issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32969">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">accb4c57dcb725b6af47e1aa1bbd48df</td>
+       <td>CVE-2020-26877</td>
+       <td>2022-06-29 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>ApiFest OAuth 2.0 Server 0.3.1 does not validate the redirect URI in accordance with RFC 6749 and is susceptible to an open redirector attack. Specifically, it directly sends an authorization code to the redirect URI submitted with the authorization request, without checking whether the redirect URI is registered by the client who initiated the request. This allows an attacker to craft a request with a manipulated redirect URI (redirect_uri parameter), which is under the attacker's control, and consequently obtain the leaked authorization code when the server redirects the client to the manipulated redirect URI with an authorization code. NOTE: this is similar to CVE-2019-3778.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-26877">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">42a09595c4e5e855d0746259e1b8890b</td>
        <td>CVE-2022-34043</td>
        <td>2022-06-29 13:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-06-28 22:15:00 <img src="imgs/new.gif" /></td>
        <td>A reflected Cross Site Scripting (XSS) in wuzhicms v4.1.0 allows remote attackers to execute arbitrary web script or HTML via the imgurl parameter.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-19897">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cadf7d98732b22d9e339cf10cc5656ec</td>
-       <td>CVE-2020-19896</td>
-       <td>2022-06-28 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>File inclusion vulnerability in Minicms v1.9 allows remote attackers to execute arbitary PHP code via post-edit.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-19896">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">41ae9492fa06845e20c424a872c09226</td>
-       <td>CVE-2022-31886</td>
-       <td>2022-06-28 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Marval MSM v14.19.0.12476 is vulnerable to Cross Site Request Forgery (CSRF). An attacker can disable the 2FA by sending the user a malicious form.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31886">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">cde3e31347a6c18f43ad9f850a654f43</td>
+       <td>CNVD-2022-43846</td>
+       <td>2022-06-30 17:24:35 <img src="imgs/new.gif" /></td>
+       <td>jeecg-boot存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43846">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a75d35fa2360f064d59630f640bface4</td>
+       <td>CNVD-2022-43843</td>
+       <td>2022-06-30 17:24:33 <img src="imgs/new.gif" /></td>
+       <td>泛微OA存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43843">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c1aac11b0ea289103b1861d94c63bb59</td>
+       <td>CNVD-2022-45485 (CVE-2022-24546)</td>
+       <td>2022-06-30 17:24:30 <img src="imgs/new.gif" /></td>
+       <td>Microsoft DWM Core Library权限提升漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-45485">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bae4432114efd74bac685333f333ea93</td>
        <td>CNVD-2022-48177 (CVE-2022-1644)</td>
        <td>2022-06-29 02:56:17 <img src="imgs/new.gif" /></td>
@@ -1031,30 +1055,6 @@
        <td>2022-06-28 02:51:57 <img src="imgs/new.gif" /></td>
        <td>多款TotoLink产品命令注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47969">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc7dab11b2ecc9880759bf41192a21b2</td>
-       <td>CNVD-2022-47968 (CVE-2022-26208)</td>
-       <td>2022-06-28 02:51:54 <img src="imgs/new.gif" /></td>
-       <td>多款TotoLink产品命令注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47968">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">682806ff42af6ba0f3d7e0ef23171ec9</td>
-       <td>CNVD-2022-44332</td>
-       <td>2022-06-27 16:53:06</td>
-       <td>南京中卫信软件科技股份有限公司体检档案管理系统存在SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-44332">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e75195719b4ad8bf28020e6af66be91</td>
-       <td>CNVD-2022-47675 (CVE-2022-20047)</td>
-       <td>2022-06-27 10:45:06</td>
-       <td>Google Android缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-47675">详情</a></td>
       </tr>
 
      </tbody>
@@ -2396,6 +2396,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b64e0d067285b2c70df1adf806650326</td>
+       <td>CVE-2022-34183</td>
+       <td>2022-06-23 17:15:16 </td>
+       <td>Jenkins Agent Server Parameter Plugin 1.1 and earlier does not escape the name and description of Agent Server parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34183">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d3367754304889c4e9c219a4da9fdae7</td>
+       <td>CVE-2022-34182</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>Jenkins Nested View Plugin 1.20 through 1.25 (both inclusive) does not escape search parameters, resulting in a reflected cross-site scripting (XSS) vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34182">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">78696b7cdd86111a0c8dd01d1b17dbaf</td>
+       <td>CVE-2022-34181</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>Jenkins xUnit Plugin 3.0.8 and earlier implements an agent-to-controller message that creates a user-specified directory if it doesn't exist, and parsing files inside it as test results, allowing attackers able to control agent processes to create an arbitrary directory on the Jenkins controller or to obtain test results from existing files in an attacker-specified directory.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34181">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fe103ad784633295cb3ec824071636b6</td>
+       <td>CVE-2022-34180</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>Jenkins Embeddable Build Status Plugin 2.0.3 and earlier does not correctly perform the ViewStatus permission check in the HTTP endpoint it provides for &quot;unprotected&quot; status badge access, allowing attackers without any permissions to obtain the build status badge icon for any attacker-specified job and/or build.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34180">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2133da43c95da3df8bff4d180de2a420</td>
+       <td>CVE-2022-34179</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>Jenkins Embeddable Build Status Plugin 2.0.3 and earlier allows specifying a `style` query parameter that is used to choose a different SVG image style without restricting possible values, resulting in a relative path traversal vulnerability that allows attackers without Overall/Read permission to specify paths to other SVG images on the Jenkins controller file system.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34179">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ce3f898df5a39f34059088388e53e80a</td>
+       <td>CVE-2022-34178</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>Jenkins Embeddable Build Status Plugin 2.0.3 allows specifying a 'link' query parameter that build status badges will link to, without restricting possible values, resulting in a reflected cross-site scripting (XSS) vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34178">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fc5e691a6aa118972bfc098af82b8972</td>
+       <td>CVE-2022-34175</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>Jenkins 2.335 through 2.355 (both inclusive) allows attackers in some cases to bypass a protection mechanism, thereby directly accessing some view fragments containing sensitive information, bypassing any permission checks in the corresponding view.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34175">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb4af694f0225abc404822188b896d1e</td>
+       <td>CVE-2022-34174</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34174">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2aebbb8e2517b8a0c9aba6c2bb93162c</td>
+       <td>CVE-2022-34173</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>In Jenkins 2.340 through 2.355 (both inclusive) the tooltip of the build button in list views supports HTML without escaping the job display name, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34173">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a541be8cdc9db1f9bb610e1b5fee7bb5</td>
+       <td>CVE-2022-34172</td>
+       <td>2022-06-23 17:15:15 </td>
+       <td>In Jenkins 2.340 through 2.355 (both inclusive) symbol-based icons unescape previously escaped values of 'tooltip' parameters, resulting in a cross-site scripting (XSS) vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34172">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">28867261b682131542d8869d0c9c60e8</td>
        <td>CVE-2022-34008</td>
        <td>2022-06-21 15:15:09 </td>
@@ -2553,86 +2633,6 @@
        <td>2022-06-16 22:15:08 </td>
        <td>CA Automic Automation 12.2 and 12.3 contain an insecure file creation and handling vulnerability in the Automic agent that could allow a user to potentially elevate privileges.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33753">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">788f0fb42b25ca9e306b42c5156d9295</td>
-       <td>CVE-2022-33752</td>
-       <td>2022-06-16 22:15:08 </td>
-       <td>CA Automic Automation 12.2 and 12.3 contain an insufficient input validation vulnerability in the Automic agent that could allow a remote attacker to potentially execute arbitrary code.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33752">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3a183ec382d28ff7481c42c09b8ec82c</td>
-       <td>CVE-2022-33751</td>
-       <td>2022-06-16 22:15:08 </td>
-       <td>CA Automic Automation 12.2 and 12.3 contain an insecure memory handling vulnerability in the Automic agent that could allow a remote attacker to potentially access sensitive data.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33751">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec4020e4741790b656f96215e3d06331</td>
-       <td>CVE-2022-30664</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe Animate version 22.0.5 (and earlier) is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30664">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">16b001b04e3e874a756b1f25d8cd23d1</td>
-       <td>CVE-2022-30655</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by a Use-After-Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30655">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea71f536ddc853828ada4f2eace78193</td>
-       <td>CVE-2022-30654</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30654">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de2e9a6b29e653927eb8f1cfe3f941c4</td>
-       <td>CVE-2022-30653</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30653">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">65c5770e6bb0a4bc3780fad3df448957</td>
-       <td>CVE-2022-30652</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30652">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">65700e96a7b28238184a84f44900e623</td>
-       <td>CVE-2022-30651</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a709059dcf6413a21482fafaa2c6d174</td>
-       <td>CVE-2022-30650</td>
-       <td>2022-06-16 18:15:10 </td>
-       <td>Adobe InCopy versions 17.2 (and earlier) and 16.4.1 (and earlier) are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30650">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">10db4526401b7c1a2acbf3041c3808ea</td>
-       <td>CVE-2022-31384</td>
-       <td>2022-06-16 17:15:08 </td>
-       <td>Directory Management System v1.0 was discovered to contain a SQL injection vulnerability via the fullname parameter in add-directory.php.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31384">详情</a></td>
       </tr>
 
      </tbody>
