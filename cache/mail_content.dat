@@ -1,16 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32532</font><br/>[<b>披露时间</b>] 2022-06-29 11:38:11<br/>[<b>漏洞描述</b>] Apache Shiro 身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6747'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6747</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32532</font><br/>[<b>披露时间</b>] 2022-06-29 04:27:42<br/>[<b>漏洞描述</b>] Apache Shiro RegExPatternMatcher 权限绕过漏洞（CVE-2022-32532）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-32532'>https://avd.aliyun.com/detail?id=AVD-2022-32532</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27191</font><br/>[<b>披露时间</b>] 2022-03-18 04:27:42<br/>[<b>漏洞描述</b>] Golong golang.org/x/crypto/ssh拒绝服务漏洞（CVE-2022-27191）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-27191'>https://avd.aliyun.com/detail?id=AVD-2022-27191</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0626</font><br/>[<b>披露时间</b>] 2022-06-29 05:08:49<br/>[<b>漏洞描述</b>] WordPress Advanced Admin Search plugin跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415145'>http://cve.scap.org.cn/vuln/VHN-415145</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0827</font><br/>[<b>披露时间</b>] 2022-06-29 05:08:49<br/>[<b>漏洞描述</b>] WordPress Bestbooks plugin SQL注入漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416060'>http://cve.scap.org.cn/vuln/VHN-416060</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1336</font><br/>[<b>披露时间</b>] 2022-06-29 05:08:49<br/>[<b>漏洞描述</b>] WordPress Carousel CK plugin跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419449'>http://cve.scap.org.cn/vuln/VHN-419449</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1710</font><br/>[<b>披露时间</b>] 2022-06-29 05:08:49<br/>[<b>漏洞描述</b>] WordPress Appointment Hour Booking plugin跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422273'>http://cve.scap.org.cn/vuln/VHN-422273</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1779</font><br/>[<b>披露时间</b>] 2022-06-29 05:08:49<br/>[<b>漏洞描述</b>] WordPress Auto Delete Posts plugin跨站请求伪造漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422636'>http://cve.scap.org.cn/vuln/VHN-422636</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
