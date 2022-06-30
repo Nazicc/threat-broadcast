@@ -1,32 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36833</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress MC4WP plugin跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-398670'>http://cve.scap.org.cn/vuln/VHN-398670</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29424</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress Image Hover Effects Ultimate plugin跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420958'>http://cve.scap.org.cn/vuln/VHN-420958</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29426</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress Image Slider by 2J plugin跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420960'>http://cve.scap.org.cn/vuln/VHN-420960</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29427</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress Disable Right Click For WP plugin跨站请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420961'>http://cve.scap.org.cn/vuln/VHN-420961</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29428</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress WP Slider plugin跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420962'>http://cve.scap.org.cn/vuln/VHN-420962</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29430</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress PNG to JPG plugin跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420964'>http://cve.scap.org.cn/vuln/VHN-420964</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29432</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress wpDataTables plugin跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420966'>http://cve.scap.org.cn/vuln/VHN-420966</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29434</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress Spiffy Calendar plugin不安全直接对象引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420968'>http://cve.scap.org.cn/vuln/VHN-420968</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29447</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress Hover Effects plugin本地文件包含漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420981'>http://cve.scap.org.cn/vuln/VHN-420981</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29448</font><br/>[<b>披露时间</b>] 2022-06-30 06:52:23<br/>[<b>漏洞描述</b>] WordPress Herd Effects plugin本地文件包含漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420982'>http://cve.scap.org.cn/vuln/VHN-420982</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34835</font><br/>[<b>披露时间</b>] 2022-06-30 00:15:00<br/>[<b>漏洞描述</b>] In Das U-Boot through 2022.07-rc5, an integer signedness error and resultant stack-based buffer overflow in the "i2c md" command enables the corruption of the return address pointer of the do_i2c_md function.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34835'>https://www.tenable.com/cve/CVE-2022-34835</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-48384 (CVE-2022-32532)</font><br/>[<b>披露时间</b>] 2022-06-30 07:38:37<br/>[<b>漏洞描述</b>] Apache Shiro身份认证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-48384'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-48384</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
