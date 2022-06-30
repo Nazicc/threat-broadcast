@@ -1,12 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-37778</font><br/>[<b>披露时间</b>] 2022-06-30 15:15:00<br/>[<b>漏洞描述</b>] There is a buffer overflow in gps-sdr-sim v1.0 when parsing long command line parameters, which can lead to DoS or code execution.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-37778'>https://www.tenable.com/cve/CVE-2021-37778</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-37770</font><br/>[<b>披露时间</b>] 2022-06-30 15:15:00<br/>[<b>漏洞描述</b>] Nucleus CMS v3.71 is affected by a file upload vulnerability. In this vulnerability, we can use upload to change the upload path to the path without the Htaccess file. Upload an Htaccess file and write it to AddType application / x-httpd-php.jpg. In this way, an attacker can upload a picture with shell, treat it as PHP, execute commands, so as to take down website resources.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-37770'>https://www.tenable.com/cve/CVE-2021-37770</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34207</font><br/>[<b>披露时间</b>] 2022-06-23 17:15:17 <br/>[<b>漏洞描述</b>] A cross-site request forgery (CSRF) vulnerability in Jenkins Beaker builder Plugin 1.10 and earlier allows attackers to connect to an attacker-specified URL.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34207'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34207</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34206</font><br/>[<b>披露时间</b>] 2022-06-23 17:15:17 <br/>[<b>漏洞描述</b>] A missing permission check in Jenkins Jianliao Notification Plugin 1.1 and earlier allows attackers with Overall/Read permission to send HTTP POST requests to an attacker-specified URL.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34206'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34206</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34205</font><br/>[<b>披露时间</b>] 2022-06-23 17:15:17 <br/>[<b>漏洞描述</b>] A cross-site request forgery (CSRF) vulnerability in Jenkins Jianliao Notification Plugin 1.1 and earlier allows attackers to send HTTP POST requests to an attacker-specified URL.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34205'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34205</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34204</font><br/>[<b>披露时间</b>] 2022-06-23 17:15:17 <br/>[<b>漏洞描述</b>] A missing permission check in Jenkins EasyQA Plugin 1.0 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified HTTP server.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34204'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34204</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
