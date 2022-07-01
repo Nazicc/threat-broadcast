@@ -1,33 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">9</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://vas.riskivy.com/vuln">斗象</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2185</font><br/>[<b>披露时间</b>] 2022-07-01 09:42:16<br/>[<b>漏洞描述</b>] Gitlab Project import 远程代码执行漏洞（CVE-2022-2185）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-2185'>https://avd.aliyun.com/detail?id=AVD-2022-2185</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28839</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-48774）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420373'>http://cve.scap.org.cn/vuln/VHN-420373</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28840</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-48779）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420374'>http://cve.scap.org.cn/vuln/VHN-420374</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28841</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge输入验证错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420375'>http://cve.scap.org.cn/vuln/VHN-420375</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28842</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge内存错误引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420376'>http://cve.scap.org.cn/vuln/VHN-420376</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28844</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-48778）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420378'>http://cve.scap.org.cn/vuln/VHN-420378</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28848</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-48772）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420382'>http://cve.scap.org.cn/vuln/VHN-420382</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28849</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge资源管理错误漏洞（CNVD-2022-48773）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420383'>http://cve.scap.org.cn/vuln/VHN-420383</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28850</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Bridge越界读取漏洞（CNVD-2022-48777）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420384'>http://cve.scap.org.cn/vuln/VHN-420384</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30648</font><br/>[<b>披露时间</b>] 2022-07-01 09:43:09<br/>[<b>漏洞描述</b>] Adobe Illustrator资源管理错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422118'>http://cve.scap.org.cn/vuln/VHN-422118</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 斗象<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2185</font><br/>[<b>披露时间</b>] 2022-07-01 09:02:05<br/>[<b>漏洞描述</b>] GitLab 远程代码执行漏洞(CVE-2022-2185)<br/>[<b>相关链接</b>] <a href='https://vas.riskivy.com/vuln-detail?id=3244'>https://vas.riskivy.com/vuln-detail?id=3244</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26477</font><br/>[<b>披露时间</b>] 2022-07-01 17:55:20<br/>[<b>漏洞描述</b>] Apache SystemDS 拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6797'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6797</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
