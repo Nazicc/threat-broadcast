@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2284</font><br/>[<b>披露时间</b>] 2022-07-02 15:15:00<br/>[<b>漏洞描述</b>] Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2284'>https://www.tenable.com/cve/CVE-2022-2284</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33016</font><br/>[<b>披露时间</b>] 2022-07-02 14:15:00<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33016'>https://www.tenable.com/cve/CVE-2022-33016</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33015</font><br/>[<b>披露时间</b>] 2022-07-02 14:15:00<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33015'>https://www.tenable.com/cve/CVE-2022-33015</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33014</font><br/>[<b>披露时间</b>] 2022-07-02 14:15:00<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33014'>https://www.tenable.com/cve/CVE-2022-33014</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2285</font><br/>[<b>披露时间</b>] 2022-07-02 16:15:00<br/>[<b>漏洞描述</b>] Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2285'>https://www.tenable.com/cve/CVE-2022-2285</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
