@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-48939 (CVE-2022-22311)</font><br/>[<b>披露时间</b>] 2022-07-04 18:47:54<br/>[<b>漏洞描述</b>] IBM Security Verify Access输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-48939'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-48939</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34265</font><br/>[<b>披露时间</b>] 2022-07-04 16:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Trunc() and Extract() database functions are subject to SQL injection if untrusted data is used as a kind/lookup_name value. Applications that constrain the lookup name and kind choice to a known safe list are unaffected.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34265'>https://www.tenable.com/cve/CVE-2022-34265</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33171</font><br/>[<b>披露时间</b>] 2022-07-04 16:15:00<br/>[<b>漏洞描述</b>] ** DISPUTED ** The findOne function in TypeORM before 0.3.0 can either be supplied with a string or a FindOneOptions object. When input to the function is a user-controlled parsed JSON object, supplying a crafted FindOneOptions instead of an id string leads to SQL injection. NOTE: the vendor's position is that the user's application is responsible for input validation.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33171'>https://www.tenable.com/cve/CVE-2022-33171</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
