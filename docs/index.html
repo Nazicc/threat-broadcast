@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-04 22:42:04 -->
+<!-- RELEASE TIME : 2022-07-04 23:41:39 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">afb4e28e329571c5ca1c917fe6920333</td>
+       <td>CVE-2022-34918</td>
+       <td>2022-07-04 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug in nft_set_elem_init (leading to a buffer overflow) could be used by a local attacker to escalate privileges, a different vulnerability than CVE-2022-32250. (The attacker can obtain root access, but must start with an unprivileged user namespace to obtain CAP_NET_ADMIN access.) This can be fixed in nft_setelem_parse_data in net/netfilter/nf_tables_api.c.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34918">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bf6131e49df7bbec543b9df1f06444df</td>
+       <td>CVE-2022-34829</td>
+       <td>2022-07-04 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Zoho ManageEngine ADSelfService Plus before 6203 allows a denial of service (application restart) via a crafted payload to the Mobile App Deployment API.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34829">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d73da19e16af8f29c1acd3db7a377b73</td>
        <td>CVE-2022-31603</td>
        <td>2022-07-04 18:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-07-04 02:15:00 <img src="imgs/new.gif" /></td>
        <td>Authentication bypass by capture-replay vulnerability exists in Machine automation controller NX7 series all models V1.28 and earlier, Machine automation controller NX1 series all models V1.48 and earlier, and Machine automation controller NJ series all models V 1.48 and earlier, which may allow an adjacent attacker who can analyze the communication between the controller and the specific software used by OMRON internally to cause a denial-of-service (DoS) condition or execute a malicious program.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33971">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2a3382f89ece08ab52f88093a8cc7681</td>
-       <td>CVE-2022-33948</td>
-       <td>2022-07-04 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>HOME SPOT CUBE2 V102 contains an OS command injection vulnerability due to improper processing of data received from DHCP server. An adjacent attacker may execute an arbitrary OS command on the product if a malicious DHCP server is placed on the WAN side of the product.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33948">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8f16a105cfc0a40ef1fc5146177bf0c9</td>
-       <td>CVE-2022-33208</td>
-       <td>2022-07-04 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Authentication bypass by capture-replay vulnerability exists in Machine automation controller NJ series all models V 1.48 and earlier, Machine automation controller NX7 series all models V1.28 and earlier, Machine automation controller NX1 series all models V1.48 and earlier, Automation software 'Sysmac Studio' all models V1.49 and earlier, and Programmable Terminal (PT) NA series NA5-15W/NA5-12W/NA5-9W/NA5-7W models Runtime V1.15 and earlier, which may allow a remote attacker who can analyze the communication between the affected controller and automation software 'Sysmac Studio' and/or a Programmable Terminal (PT) to access the controller.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33208">详情</a></td>
       </tr>
 
      </tbody>
