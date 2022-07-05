@@ -1,19 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-25056</font><br/>[<b>披露时间</b>] 2022-07-04 14:03:49<br/>[<b>漏洞描述</b>] WordPress plugin Ninja Forms Contact Form 安全漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-383777'>http://cve.scap.org.cn/vuln/VHN-383777</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-25066</font><br/>[<b>披露时间</b>] 2022-07-04 14:03:49<br/>[<b>漏洞描述</b>] WordPress plugin Ninja Forms Contact Form 跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-383787'>http://cve.scap.org.cn/vuln/VHN-383787</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-25234</font><br/>[<b>披露时间</b>] 2022-07-05 20:38:57<br/>[<b>漏洞描述</b>] 多款 Trend Micro 信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c9a66ba41ede4434ad688c13f8b8a407'>https://redqueen.tj-un.com/IntelDetails.html?id=c9a66ba41ede4434ad688c13f8b8a407</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2097</font><br/>[<b>披露时间</b>] 2022-07-05 11:15:00<br/>[<b>漏洞描述</b>] AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of "in place" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2097'>https://www.tenable.com/cve/CVE-2022-2097</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2309</font><br/>[<b>披露时间</b>] 2022-07-05 10:15:00<br/>[<b>漏洞描述</b>] NULL Pointer Dereference allows attackers to cause a denial of service (or application crash). This only applies when lxml is used together with libxml2 2.9.10 through 2.9.14. libxml2 2.9.9 and earlier are not affected. It allows triggering crashes through forged input data, given a vulnerable code sequence in the application. The vulnerability is caused by the iterwalk function (also used by the canonicalize function). Such code shouldn't be in wide-spread use, given that parsing + iterwalk would usually be replaced with the more efficient iterparse function. However, an XML converter that serialises to C14N would also be vulnerable, for example, and there are legitimate use cases for this code sequence. If untrusted input is received (also remotely) and processed via iterwalk function, a crash can be triggered.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2309'>https://www.tenable.com/cve/CVE-2022-2309</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30150</font><br/>[<b>披露时间</b>] 2022-07-05 15:46:51<br/>[<b>漏洞描述</b>] Windows Defender Remote Credential Guard...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-421645'>http://cve.scap.org.cn/vuln/VHN-421645</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-427074</font><br/>[<b>披露时间</b>] 2022-07-05 15:46:51<br/>[<b>漏洞描述</b>] Ransom Lockbit 3.0 MVID-2022-0621 Code Execution...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-427074'>http://cve.scap.org.cn/vuln/VHN-427074</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-427075</font><br/>[<b>披露时间</b>] 2022-07-05 15:46:51<br/>[<b>漏洞描述</b>] Advanced Testimonials Manager 5.6 SQL Injection...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-427075'>http://cve.scap.org.cn/vuln/VHN-427075</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
