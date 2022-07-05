@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-05 13:25:57 -->
+<!-- RELEASE TIME : 2022-07-05 14:04:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b5f34df1afabb558da2e2f0349a845a9</td>
+       <td>CVE-2022-2097</td>
+       <td>2022-07-05 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of "in place" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2097">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3ae905aafb38fd98e02a470bab1ccfe2</td>
+       <td>CVE-2022-2309</td>
+       <td>2022-07-05 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>NULL Pointer Dereference allows attackers to cause a denial of service (or application crash). This only applies when lxml is used together with libxml2 2.9.10 through 2.9.14. libxml2 2.9.9 and earlier are not affected. It allows triggering crashes through forged input data, given a vulnerable code sequence in the application. The vulnerability is caused by the iterwalk function (also used by the canonicalize function). Such code shouldn't be in wide-spread use, given that parsing + iterwalk would usually be replaced with the more efficient iterparse function. However, an XML converter that serialises to C14N would also be vulnerable, for example, and there are legitimate use cases for this code sequence. If untrusted input is received (also remotely) and processed via iterwalk function, a crash can be triggered.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2309">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">83cafcfbd527628df735960f642bdf57</td>
        <td>CVE-2022-2306</td>
        <td>2022-07-05 09:15:00 <img src="imgs/new.gif" /></td>
@@ -503,22 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27807">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">7c77e92022921d23432eafae1c7d6922</td>
-       <td>CVE-2022-27803</td>
-       <td>2022-07-04 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper input validation vulnerability in Space of Cybozu Garoon 4.0.0 to 5.5.1 allows a remote authenticated attacker to alter the data of Space.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27803">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">04ccbbf79569e1073a23cd526c654940</td>
-       <td>CVE-2022-34151</td>
-       <td>2022-07-04 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use of hard-coded credentials vulnerability exists in Machine automation controller NJ series all models V 1.48 and earlier, Machine automation controller NX7 series all models V1.28 and earlier, Machine automation controller NX1 series all models V1.48 and earlier, Automation software 'Sysmac Studio' all models V1.49 and earlier, and Programmable Terminal (PT) NA series NA5-15W/NA5-12W/NA5-9W/NA5-7W models Runtime V1.15 and earlier, which may allow a remote attacker who successfully obtained the user credentials by analyzing the affected product to access the controller.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34151">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -567,6 +567,24 @@
        <td>In PHP versions 7.4.x below 7.4.30, 8.0.x below......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423429">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">293d7a38fb62a542e3d62651cbd0acb9</td>
+       <td>CVE-2021-25056</td>
+       <td>2022-07-04 14:03:49 <img src="imgs/new.gif" /></td>
+       <td>WordPress plugin Ninja Forms Contact Form 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-383777">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">774540aaa4a7303cbc601b1ed02fd4a2</td>
+       <td>CVE-2021-25066</td>
+       <td>2022-07-04 14:03:49 <img src="imgs/new.gif" /></td>
+       <td>WordPress plugin Ninja Forms Contact Form 跨站脚本漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-383787">详情</a></td>
       </tr>
 
       <tr>
@@ -783,24 +801,6 @@
        <td>Adobe Bridge越界读取漏洞（CNVD-2022-48777）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420384">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">987489f3a4fc7747fb2a66f192bd01bb</td>
-       <td>CVE-2022-30648</td>
-       <td>2022-07-01 09:43:09</td>
-       <td>Adobe Illustrator资源管理错误漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422118">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ee154f9e199ed93f78adbabd63aa3f03</td>
-       <td>CVE-2022-24232</td>
-       <td>2022-07-01 08:47:46</td>
-       <td>Sourcecodester Hospital Patient Records...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-413829">详情</a></td>
       </tr>
 
      </tbody>
@@ -1896,6 +1896,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">cc3b48015511cdd8242040fc89ea6895</td>
+       <td>CVE-2021-25234</td>
+       <td>2022-07-05 20:38:57 <img src="imgs/new.gif" /></td>
+       <td>多款 Trend Micro 信息泄露漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c9a66ba41ede4434ad688c13f8b8a407">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b5828e757fd96fecd574387a9510c816</td>
        <td>CVE-2022-30028</td>
        <td>2022-07-04 20:36:32 <img src="imgs/new.gif" /></td>
@@ -2125,14 +2133,6 @@
        <td>2022-07-01 20:27:17</td>
        <td>多款 Trend Micro 信息泄露漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c261bba78249400f9e065b9911179ce7">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5bc51f52225721e01f0bb9a4e89143a5</td>
-       <td>CVE-2022-32983</td>
-       <td>2022-06-30 20:32:23</td>
-       <td>Knot Resolver 其他漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f36d7ee18a8f4c16a9b7876767f4eeb8">详情</a></td>
       </tr>
 
      </tbody>
