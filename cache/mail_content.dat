@@ -1,35 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">14</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49950 (CVE-2022-30967)</font><br/>[<b>披露时间</b>] 2022-07-07 04:29:21<br/>[<b>漏洞描述</b>] Jenkins Selection Tasks Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49950'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49950</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49951 (CVE-2022-30946)</font><br/>[<b>披露时间</b>] 2022-07-07 04:29:24<br/>[<b>漏洞描述</b>] Jenkins Script Security Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49951'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49951</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49952 (CVE-2022-30956)</font><br/>[<b>披露时间</b>] 2022-07-07 04:29:26<br/>[<b>漏洞描述</b>] Jenkins Rundeck Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49952'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49952</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49953 (CVE-2022-30949)</font><br/>[<b>披露时间</b>] 2022-07-07 04:29:28<br/>[<b>漏洞描述</b>] Jenkins REPO Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49953'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49953</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26135</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Atlassian Jira Server and Data Center服务器端请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416889'>http://cve.scap.org.cn/vuln/VHN-416889</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30945</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Pipeline安全特征问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422583'>http://cve.scap.org.cn/vuln/VHN-422583</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30946</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Script Security Plugin跨站请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422584'>http://cve.scap.org.cn/vuln/VHN-422584</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30947</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Git Plugin信息泄露漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422585'>http://cve.scap.org.cn/vuln/VHN-422585</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30948</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Mercurial Plugin信息泄露漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422586'>http://cve.scap.org.cn/vuln/VHN-422586</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30949</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins REPO Plugin信息泄露漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422587'>http://cve.scap.org.cn/vuln/VHN-422587</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30952</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Pipeline SCM API for Blue Ocean Plugin信息泄露漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422590'>http://cve.scap.org.cn/vuln/VHN-422590</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30953</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Blue Ocean跨站请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422591'>http://cve.scap.org.cn/vuln/VHN-422591</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30954</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins Blue Ocean访问控制错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422592'>http://cve.scap.org.cn/vuln/VHN-422592</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30955</font><br/>[<b>披露时间</b>] 2022-07-07 04:30:07<br/>[<b>漏洞描述</b>] Jenkins GitLab Plugin权限许可和访问控制问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422593'>http://cve.scap.org.cn/vuln/VHN-422593</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49971 (CVE-2022-34265)</font><br/>[<b>披露时间</b>] 2022-07-07 05:44:00<br/>[<b>漏洞描述</b>] Django SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49971'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49971</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
