@@ -1,24 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28845</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-50225）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420379'>http://cve.scap.org.cn/vuln/VHN-420379</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28846</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-50226）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420380'>http://cve.scap.org.cn/vuln/VHN-420380</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28847</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Bridge越界写入漏洞（CNVD-2022-50227）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420381'>http://cve.scap.org.cn/vuln/VHN-420381</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30647</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Illustrator资源管理错误漏洞（CNVD-2022-50220）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422117'>http://cve.scap.org.cn/vuln/VHN-422117</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30649</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Illustrator越界写入漏洞（CNVD-2022-50221）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422119'>http://cve.scap.org.cn/vuln/VHN-422119</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30666</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Illustrator越界读取漏洞（CNVD-2022-50222）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422136'>http://cve.scap.org.cn/vuln/VHN-422136</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30667</font><br/>[<b>披露时间</b>] 2022-07-07 11:40:41<br/>[<b>漏洞描述</b>] Adobe Illustrator越界读取漏洞（CNVD-2022-50223）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422137'>http://cve.scap.org.cn/vuln/VHN-422137</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-536 (CVE-2021-35133)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:30<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-536'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-536</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-535 (CVE-2022-20219)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:33<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-535'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-535</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-534 (CVE-2022-20228)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:35<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-534'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-534</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-533 (CVE-2022-20222)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:37<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-533'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-533</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-532 (CVE-2014-8164)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:39<br/>[<b>漏洞描述</b>] Red Hat CloudForms Management Engine 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-532'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-532</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-531 (CVE-2015-3172)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:42<br/>[<b>漏洞描述</b>] EidoGo 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-531'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-531</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-530 (CVE-2021-4234)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:44<br/>[<b>漏洞描述</b>] OpenVPN 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-530'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-530</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-529 (CVE-2015-3173)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:46<br/>[<b>漏洞描述</b>] Wordpress plugin custom-content-type-manager 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-529'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-529</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-528 (CVE-2022-20229)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:48<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-528'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-528</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202207-527 (CVE-2022-20223)</font><br/>[<b>披露时间</b>] 2022-07-06 13:14:50<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-527'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-527</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
