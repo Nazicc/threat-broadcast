@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-07 17:04:58 -->
+<!-- RELEASE TIME : 2022-07-07 17:47:55 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">4c8dc0c414ea0c3b1347968fee53a4a4</td>
+       <td>CVE-2022-32441</td>
+       <td>2022-07-07 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A memory corruption in Hex Rays Ida Pro v6.6 allows attackers to cause a Denial of Service (DoS) via a crafted file. Related to Data from Faulting Address controls subsequent Write Address starting at msvcrt!memcpy+0x0000000000000056.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32441">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ba52c49d239fa1d6fd48e4714a5e35e8</td>
        <td>CVE-2022-32208</td>
        <td>2022-07-07 13:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-07-06 18:15:00 <img src="imgs/new.gif" /></td>
        <td>Nextcloud mail is a Mail app for the Nextcloud home server product. Versions of Nextcloud mail prior to 1.12.2 were found to be missing user account ownership checks when performing tasks related to mail attachments. Attachments may have been exposed to incorrect system users. It is recommended that the Nextcloud Mail app is upgraded to 1.12.2. There are no known workarounds for this issue. ### Workarounds No workaround available ### References * [Pull request](https://github.com/nextcloud/mail/pull/6600) * [HackerOne](https://hackerone.com/reports/1579820) ### For more information If you have any questions or comments about this advisory: * Create a post in [nextcloud/security-advisories](https://github.com/nextcloud/security-advisories/discussions) * Customers: Open a support ticket at [support.nextcloud.com](https://support.nextcloud.com)</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31131">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b6bc39fcf6a71bd69d4b6413b86f02c4</td>
-       <td>CVE-2022-31129</td>
-       <td>2022-07-06 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>moment is a JavaScript date library for parsing, validating, manipulating, and formatting dates. Affected versions of moment were found to use an inefficient parsing algorithm. Specifically using string-to-date parsing in moment (more specifically rfc2822 parsing, which is tried by default) has quadratic (N^2) complexity on specific inputs. Users may notice a noticeable slowdown is observed with inputs above 10k characters. Users who pass user-provided strings without sanity length checks to moment constructor are vulnerable to (Re)DoS attacks. The problem is patched in 2.29.4, the patch can be applied to all affected versions with minimal tweaking. Users are advised to upgrade. Users unable to upgrade should consider limiting date lengths accepted from user input.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31129">详情</a></td>
       </tr>
 
      </tbody>

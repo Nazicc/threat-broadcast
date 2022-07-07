@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50271 (CVE-2022-20126)</font><br/>[<b>披露时间</b>] 2022-07-08 17:03:55<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50271'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50271</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50272 (CVE-2022-20153)</font><br/>[<b>披露时间</b>] 2022-07-08 17:03:57<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50272'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50272</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50273 (CVE-2022-20155)</font><br/>[<b>披露时间</b>] 2022-07-08 17:03:59<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50273'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50273</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50274 (CVE-2022-20156)</font><br/>[<b>披露时间</b>] 2022-07-08 17:04:01<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50274'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50274</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50275 (CVE-2022-20165)</font><br/>[<b>披露时间</b>] 2022-07-08 17:04:04<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50275'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50275</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50276 (CVE-2022-20183)</font><br/>[<b>披露时间</b>] 2022-07-08 17:04:06<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50276'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50276</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50277 (CVE-2022-20201)</font><br/>[<b>披露时间</b>] 2022-07-08 17:04:08<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50277'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50277</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32441</font><br/>[<b>披露时间</b>] 2022-07-07 14:15:00<br/>[<b>漏洞描述</b>] A memory corruption in Hex Rays Ida Pro v6.6 allows attackers to cause a Denial of Service (DoS) via a crafted file. Related to Data from Faulting Address controls subsequent Write Address starting at msvcrt!memcpy+0x0000000000000056.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32441'>https://www.tenable.com/cve/CVE-2022-32441</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
