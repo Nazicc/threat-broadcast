@@ -1,18 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1343460</font><br/>[<b>披露时间</b>] 2022-06-09 08:52:37<br/>[<b>漏洞描述</b>] Apache Pinot 未授权访问漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1343460'>https://avd.aliyun.com/detail?id=AVD-2022-1343460</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1343458</font><br/>[<b>披露时间</b>] 2022-05-20 08:52:37<br/>[<b>漏洞描述</b>] 智明 SmartOA EmailDownload.ashx 任意文件下载漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1343458'>https://avd.aliyun.com/detail?id=AVD-2022-1343458</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1343459</font><br/>[<b>披露时间</b>] 2022-05-20 08:52:37<br/>[<b>漏洞描述</b>] 致翔OA msglog.aspx SQL注入漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1343459'>https://avd.aliyun.com/detail?id=AVD-2022-1343459</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1343461</font><br/>[<b>披露时间</b>] 2022-04-21 08:52:37<br/>[<b>漏洞描述</b>] 华天动力OA workFlowService SQL注入漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1343461'>https://avd.aliyun.com/detail?id=AVD-2022-1343461</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20768</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco TelePresence Collaboration Endpoint和RoomOS Software信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67061'>http://www.nsfocus.net/vulndb/67061</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20800</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Unified Communications产品跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67060'>http://www.nsfocus.net/vulndb/67060</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20815</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Unified Communications产品跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67059'>http://www.nsfocus.net/vulndb/67059</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20791</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Unified Communications产品任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67058'>http://www.nsfocus.net/vulndb/67058</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20859</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Unified Communications产品访问控制漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67057'>http://www.nsfocus.net/vulndb/67057</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20862</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Unified Communications Manager任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67056'>http://www.nsfocus.net/vulndb/67056</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20752</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Unified Communications产品定时攻击漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67055'>http://www.nsfocus.net/vulndb/67055</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20808</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Smart Software Manager On-Prem拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67054'>http://www.nsfocus.net/vulndb/67054</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20813</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Expressway Series和TelePresence VCS空字节注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67053'>http://www.nsfocus.net/vulndb/67053</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20812</font><br/>[<b>披露时间</b>] 2022-07-07 09:42:26<br/>[<b>漏洞描述</b>] Cisco Expressway Series和TelePresence VCS任意文件覆盖漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67052'>http://www.nsfocus.net/vulndb/67052</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
