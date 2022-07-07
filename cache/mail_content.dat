@@ -1,13 +1,21 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49973 (CVE-2022-33980)</font><br/>[<b>披露时间</b>] 2022-07-07 06:49:32<br/>[<b>漏洞描述</b>] Apache Commons远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49973'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49973</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2339</font><br/>[<b>披露时间</b>] 2022-07-07 04:15:00<br/>[<b>漏洞描述</b>] With this SSRF vulnerability, an attacker can reach internal addresses to make a request as the server and read it's contents. This attack can lead to leak of sensitive information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2339'>https://www.tenable.com/cve/CVE-2022-2339</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33980</font><br/>[<b>披露时间</b>] 2022-07-07 15:18:40<br/>[<b>漏洞描述</b>] Apache Commons Configuration远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6864'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6864</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1343457</font><br/>[<b>披露时间</b>] 2022-05-20 07:39:44<br/>[<b>漏洞描述</b>] 一米OA getfile.jsp 任意文件读取漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1343457'>https://avd.aliyun.com/detail?id=AVD-2022-1343457</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26960</font><br/>[<b>披露时间</b>] 2022-03-23 07:39:44<br/>[<b>漏洞描述</b>] elFinder connector.minimal.php 任意文件读取漏洞（CVE-2022-26960）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-26960'>https://avd.aliyun.com/detail?id=AVD-2022-26960</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49970 (CVE-2022-29885)</font><br/>[<b>披露时间</b>] 2022-07-07 07:39:53<br/>[<b>漏洞描述</b>] Apache Tomcat拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49970'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49970</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49969 (CVE-2022-30960)</font><br/>[<b>披露时间</b>] 2022-07-07 07:39:58<br/>[<b>漏洞描述</b>] Jenkins Application Detector跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49969'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49969</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49968 (CVE-2022-30961)</font><br/>[<b>披露时间</b>] 2022-07-07 07:40:00<br/>[<b>漏洞描述</b>] Jenkins Autocomplete Parameter Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49968'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49968</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-49967 (CVE-2022-30970)</font><br/>[<b>披露时间</b>] 2022-07-07 07:40:02<br/>[<b>漏洞描述</b>] Jenkins Autocomplete Parameter Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-49967'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-49967</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
