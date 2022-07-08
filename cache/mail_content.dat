@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-41037</font><br/>[<b>披露时间</b>] 2022-07-08 04:15:00<br/>[<b>漏洞描述</b>] In Eclipse p2, installable units are able to alter the Eclipse Platform installation and the local machine via touchpoints during installation. Those touchpoints can, for example, alter the command-line used to start the application, injecting things like agent or other settings that usually require particular attention in term of security. Although p2 has built-in strategies to ensure artifacts are signed and then to help establish trust, there is no such strategy for the metadata part that does configure such touchpoints. As a result, it's possible to install a unit that will run malicious code during installation without user receiving any warning about this installation step being risky when coming from untrusted source.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-41037'>https://www.tenable.com/cve/CVE-2021-41037</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1245</font><br/>[<b>披露时间</b>] 2022-07-08 00:15:00<br/>[<b>漏洞描述</b>] A privilege escalation flaw was found in the token exchange feature of keycloak. Missing authorization allows a client application holding a valid access token to exchange tokens for any target client by passing the client_id of the target. This could allow a client to gain unauthorized access to additional services.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-1245'>https://www.tenable.com/cve/CVE-2022-1245</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28889</font><br/>[<b>披露时间</b>] 2022-07-08 18:10:55<br/>[<b>漏洞描述</b>] Apache Druid点击劫持漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6884'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6884</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
