@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-08 21:41:47 -->
+<!-- RELEASE TIME : 2022-07-08 23:41:41 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2412378ba724a6a3558229e9b0502516</td>
+       <td>CVE-2022-35412</td>
+       <td>2022-07-08 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Digital Guardian Agent 7.7.4.0042 allows an administrator (who ordinarily does not have a supported way to uninstall the product) to disable some of the agent functionality and then exfiltrate files to an external USB device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35412">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b933d04ef5af3daf694711dc2c558684</td>
+       <td>CVE-2022-31137</td>
+       <td>2022-07-08 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Roxy-WI is a web interface for managing Haproxy, Nginx, Apache and Keepalived servers. Versions prior to 6.1.1.0 are subject to a remote code execution vulnerability. System commands can be run remotely via the subprocess_execute function without processing the inputs received from the user in the /app/options.py file. Attackers need not be authenticated to exploit this vulnerability. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31137">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ef5675be15b82ca5f73a1080b339a7ef</td>
        <td>CVE-2022-35411</td>
        <td>2022-07-08 19:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-07-07 22:15:00 <img src="imgs/new.gif" /></td>
        <td>AdminLTE is a Pi-hole Dashboard for stats and configuration. In affected versions inserting code like `<script>alert("XSS")</script>` in the field marked with "Domain to look for" and hitting <kbd>enter</kbd> (or clicking on any of the buttons) will execute the script. The user must be logged in to use this vulnerability. Usually only administrators have login access to pi-hole, minimizing the risks. Users are advised to upgrade. There are no known workarounds for this issue.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31029">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1ae357e660b4577eee4c62035efe08de</td>
-       <td>CVE-2022-2191</td>
-       <td>2022-07-07 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Eclipse Jetty versions 10.0.0 thru 10.0.9, and 11.0.0 thru 11.0.9 versions, SslConnection does not release ByteBuffers from configured ByteBufferPool in case of error code paths.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2191">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">02ae6b2304e2cdbab9badf39af30399b</td>
-       <td>CVE-2022-2048</td>
-       <td>2022-07-07 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2048">详情</a></td>
       </tr>
 
      </tbody>
