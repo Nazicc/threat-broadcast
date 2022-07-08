@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-08 05:44:07 -->
+<!-- RELEASE TIME : 2022-07-08 06:49:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ba0549e3e145b288826bad4d9020a9d0</td>
+       <td>CVE-2021-41037</td>
+       <td>2022-07-08 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Eclipse p2, installable units are able to alter the Eclipse Platform installation and the local machine via touchpoints during installation. Those touchpoints can, for example, alter the command-line used to start the application, injecting things like agent or other settings that usually require particular attention in term of security. Although p2 has built-in strategies to ensure artifacts are signed and then to help establish trust, there is no such strategy for the metadata part that does configure such touchpoints. As a result, it's possible to install a unit that will run malicious code during installation without user receiving any warning about this installation step being risky when coming from untrusted source.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41037">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3273d914e79f9811680003270db37a21</td>
+       <td>CVE-2022-1245</td>
+       <td>2022-07-08 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A privilege escalation flaw was found in the token exchange feature of keycloak. Missing authorization allows a client application holding a valid access token to exchange tokens for any target client by passing the client_id of the target. This could allow a client to gain unauthorized access to additional services.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1245">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dd44ff72075019f9572fccba5b634c54</td>
        <td>CVE-2022-32061</td>
        <td>2022-07-07 23:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-07-07 18:15:00 <img src="imgs/new.gif" /></td>
        <td>HumHub is an Open Source Enterprise Social Network. Affected versions of HumHub are vulnerable to a stored Cross-Site Scripting (XSS) vulnerability. For exploitation, the attacker would need a permission to administer the Spaces feature. The names of individual "spaces" are not properly escaped and so an attacker with sufficient privilege could insert malicious javascript into a space name and exploit system users who visit that space. It is recommended that the HumHub is upgraded to 1.11.4, 1.10.5. There are no known workarounds for this issue.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31133">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">78cd8ad9ee75d942f9de5eac610f9d0b</td>
-       <td>CVE-2014-8113</td>
-       <td>2022-07-07 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2014-8113">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3d28adb21e29892bd08e07cb8fa4731</td>
-       <td>CVE-2014-7854</td>
-       <td>2022-07-07 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2014-7854">详情</a></td>
       </tr>
 
      </tbody>
