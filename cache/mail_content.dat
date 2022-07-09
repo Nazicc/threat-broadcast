@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34835</font><br/>[<b>披露时间</b>] 2022-06-30 00:15:08 <br/>[<b>漏洞描述</b>] In Das U-Boot through 2022.07-rc5, an integer signedness error and resultant stack-based buffer overflow in the &quot;i2c md&quot; command enables the corruption of the return address pointer of the do_i2c_md function.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34835'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34835</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2353</font><br/>[<b>披露时间</b>] 2022-07-09 09:15:00<br/>[<b>漏洞描述</b>] Prior to microweber/microweber v1.2.20, due to improper neutralization of input, an attacker can steal tokens to perform cross-site request forgery, fetch contents from same-site and redirect a user.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2353'>https://www.tenable.com/cve/CVE-2022-2353</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
