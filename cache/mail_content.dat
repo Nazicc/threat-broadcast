@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2353</font><br/>[<b>披露时间</b>] 2022-07-09 09:15:00<br/>[<b>漏洞描述</b>] Prior to microweber/microweber v1.2.20, due to improper neutralization of input, an attacker can steal tokens to perform cross-site request forgery, fetch contents from same-site and redirect a user.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2353'>https://www.tenable.com/cve/CVE-2022-2353</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50631 (CVE-2022-20862)</font><br/>[<b>披露时间</b>] 2022-07-08 13:43:44<br/>[<b>漏洞描述</b>] Cisco Unified Communications Manager任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50631'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50631</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50630 (CVE-2022-20815)</font><br/>[<b>披露时间</b>] 2022-07-08 13:43:47<br/>[<b>漏洞描述</b>] Cisco Unified Communications Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50630'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50630</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50629 (CVE-2022-20808)</font><br/>[<b>披露时间</b>] 2022-07-08 13:43:51<br/>[<b>漏洞描述</b>] Cisco Smart Software Manager On-Prem和Cisco Smart Software Manager资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50629'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50629</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
