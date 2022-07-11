@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31138</font><br/>[<b>披露时间</b>] 2022-07-11 14:15:00<br/>[<b>漏洞描述</b>] mailcow is a mailserver suite. Prior to mailcow-dockerized version 2022-06a, an extended privilege vulnerability can be exploited by manipulating the custom parameters regexmess, skipmess, regexflag, delete2foldersonly, delete2foldersbutnot, regextrans2, pipemess, or maxlinelengthcmd to execute arbitrary code. Users should update their mailcow instances with the `update.sh` script in the mailcow root directory to 2022-06a or newer to receive a patch for this issue. As a temporary workaround, the Syncjob ACL can be removed from all mailbox users, preventing changes to those settings.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31138'>https://www.tenable.com/cve/CVE-2022-31138</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-4150</font><br/>[<b>披露时间</b>] 2022-07-11 17:15:00<br/>[<b>漏洞描述</b>] IBM SiteProtector Appliance 3.1.1 contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.  IBM X-Force ID:  174142.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-4150'>https://www.tenable.com/cve/CVE-2020-4150</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-4138</font><br/>[<b>披露时间</b>] 2022-07-11 17:15:00<br/>[<b>漏洞描述</b>] IBM SiteProtector Appliance 3.1.1 allows web pages to be stored locally which can be read by another user on the system.  IBM X-Force ID:  174049.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-4138'>https://www.tenable.com/cve/CVE-2020-4138</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
