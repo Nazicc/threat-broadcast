@@ -1,16 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50718 (CVE-2022-28940)</font><br/>[<b>披露时间</b>] 2022-07-11 08:59:21<br/>[<b>漏洞描述</b>] H3C MagicR100存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50718'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50718</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50704 (CVE-2022-30919)</font><br/>[<b>披露时间</b>] 2022-07-11 08:59:23<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50704'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50704</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-50716 (CVE-2022-30926)</font><br/>[<b>披露时间</b>] 2022-07-11 08:59:26<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-50716'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-50716</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-427103</font><br/>[<b>披露时间</b>] 2022-07-11 09:00:05<br/>[<b>漏洞描述</b>] 泛微云桥存在SQL注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-427103'>http://cve.scap.org.cn/vuln/VHN-427103</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28940</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C MagicR100存在未明漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420474'>http://cve.scap.org.cn/vuln/VHN-420474</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30915</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50710）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422451'>http://cve.scap.org.cn/vuln/VHN-422451</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30916</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50703）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422452'>http://cve.scap.org.cn/vuln/VHN-422452</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30917</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50702）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422453'>http://cve.scap.org.cn/vuln/VHN-422453</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30918</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50709）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422454'>http://cve.scap.org.cn/vuln/VHN-422454</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30919</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50704）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422455'>http://cve.scap.org.cn/vuln/VHN-422455</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30920</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50711）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422456'>http://cve.scap.org.cn/vuln/VHN-422456</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30921</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50712）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422457'>http://cve.scap.org.cn/vuln/VHN-422457</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30923</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50713）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422459'>http://cve.scap.org.cn/vuln/VHN-422459</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30924</font><br/>[<b>披露时间</b>] 2022-07-11 09:46:59<br/>[<b>漏洞描述</b>] H3C Magic R100缓冲区溢出漏洞（CNVD-2022-50714）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422460'>http://cve.scap.org.cn/vuln/VHN-422460</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
