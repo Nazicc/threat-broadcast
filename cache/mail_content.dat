@@ -1,14 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-26092</font><br/>[<b>披露时间</b>] 2022-07-12 08:59:41<br/>[<b>漏洞描述</b>] Fortinet FortiGate 跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-385056'>http://cve.scap.org.cn/vuln/VHN-385056</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22306</font><br/>[<b>披露时间</b>] 2022-07-12 08:59:41<br/>[<b>漏洞描述</b>] Fortinet FortiOS信任管理问题漏洞（CNVD-2022-50946）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-410860'>http://cve.scap.org.cn/vuln/VHN-410860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1713</font><br/>[<b>披露时间</b>] 2022-07-12 09:42:56<br/>[<b>漏洞描述</b>] JGraph draw.io服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67147'>http://www.nsfocus.net/vulndb/67147</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1721</font><br/>[<b>披露时间</b>] 2022-07-12 09:42:56<br/>[<b>漏洞描述</b>] JGraph draw.io路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67146'>http://www.nsfocus.net/vulndb/67146</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1722</font><br/>[<b>披露时间</b>] 2022-07-12 09:42:56<br/>[<b>漏洞描述</b>] JGraph draw.io服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67145'>http://www.nsfocus.net/vulndb/67145</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
