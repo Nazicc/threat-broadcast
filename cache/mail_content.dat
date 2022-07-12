@@ -1,12 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34912</font><br/>[<b>披露时间</b>] 2022-07-02 20:15:08 <br/>[<b>漏洞描述</b>] An issue was discovered in MediaWiki before 1.37.3 and 1.38.x before 1.38.1. The contributions-title, used on Special:Contributions, is used as page title without escaping. Hence, in a non-default configuration where a username contains HTML entities, it won't be escaped.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34912'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34912</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34911</font><br/>[<b>披露时间</b>] 2022-07-02 20:15:08 <br/>[<b>漏洞描述</b>] An issue was discovered in MediaWiki before 1.35.7, 1.36.x and 1.37.x before 1.37.3, and 1.38.x before 1.38.1. XSS can occur in configurations that allow a JavaScript payload in a username. After account creation, when it sets the page title to &quot;Welcome&quot; followed by the username, the username is not escaped: SpecialCreateAccount::successfulAction() calls ::showSuccessPage() with a message as second parameter, and OutputPage::setPageTitle() uses text().<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34911'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34911</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22982</font><br/>[<b>披露时间</b>] 2022-07-12 21:41:06<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411842'>http://cve.scap.org.cn/vuln/VHN-411842</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
