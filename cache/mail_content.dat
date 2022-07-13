@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22982</font><br/>[<b>披露时间</b>] 2022-07-13 15:55:39<br/>[<b>漏洞描述</b>] VMware vCenter Server 服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6907'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=6907</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2019-10761</font><br/>[<b>披露时间</b>] 2022-07-13 09:15:00<br/>[<b>漏洞描述</b>] This affects the package vm2 before 3.6.11. It is possible to trigger a RangeError exception from the host rather than the "sandboxed" context by reaching the stack call limit with an infinite recursion. The returned object is then used to reference the mainModule property of the host code running the script allowing it to spawn a child_process and execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2019-10761'>https://www.tenable.com/cve/CVE-2019-10761</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31781</font><br/>[<b>披露时间</b>] 2022-07-13 08:15:00<br/>[<b>漏洞描述</b>] Apache Tapestry up to version 5.8.1 is vulnerable to Regular Expression Denial of Service (ReDoS) in the way it handles Content Types. Specially crafted Content Types may cause catastrophic backtracking, taking exponential time to complete. Specifically, this is about the regular expression used on the parameter of the org.apache.tapestry5.http.ContentType class. Apache Tapestry 5.8.2 has a fix for this vulnerability. Notice the vulnerability cannot be triggered by web requests in Tapestry code alone. It would only happen if there's some non-Tapestry codepath passing some outside input to the ContentType class constructor.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31781'>https://www.tenable.com/cve/CVE-2022-31781</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46827</font><br/>[<b>披露时间</b>] 2022-07-13 05:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in Oxygen XML WebHelp before 22.1 build 2021082006 and 23.x before 23.1 build 2021090310. An XSS vulnerability in search terms proposals (in online documentation generated using Oxygen XML WebHelp) allows attackers to execute JavaScript by convincing a user to type specific text in the WebHelp output search field.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-46827'>https://www.tenable.com/cve/CVE-2021-46827</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
