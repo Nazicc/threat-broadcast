@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-15 22:41:54 -->
+<!-- RELEASE TIME : 2022-07-15 23:42:10 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">952d8e9ddec0727cf405319eeabb420e</td>
+       <td>CVE-2022-35890</td>
+       <td>2022-07-15 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Inductive Automation Ignition before 7.9.20 and 8.x before 8.1.17. Designer and Vision Client Session IDs are mishandled. An attacker can determine which session IDs were generated in the past and then hijack sessions assigned to these IDs via Randy.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35890">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f439c38f835c515fd3a6deba2590463</td>
+       <td>CVE-2022-32434</td>
+       <td>2022-07-15 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>EIPStackGroup OpENer v2.3.0 was discovered to contain a stack overflow via /bin/posix/src/ports/POSIX/OpENer+0x56073d.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32434">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0143e30adb64316cbd707ed21498ccd7</td>
+       <td>CVE-2022-31161</td>
+       <td>2022-07-15 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Roxy-WI is a Web interface for managing HAProxy, Nginx and Keepalived servers. Prior to version 6.1.1.0, the system command can be run remotely via the subprocess_execute function without processing the inputs received from the user in the /app/options.py file. Version 6.1.1.0 contains a patch for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31161">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c21bb6d350fe84966c9a1bcfee64743</td>
+       <td>CVE-2022-30634</td>
+       <td>2022-07-15 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Infinite loop in Read in crypto/rand before Go 1.17.11 and Go 1.18.3 on Windows allows attacker to cause an indefinite hang by passing a buffer larger than 1 << 32 - 1 bytes.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30634">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5f250ca4b270667090033e1e83895aa0</td>
+       <td>CVE-2022-25891</td>
+       <td>2022-07-15 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package github.com/containrrr/shoutrrr/pkg/util before 0.6.0 are vulnerable to Denial of Service (DoS) via the util.PartitionMessage function. Exploiting this vulnerability is possible by sending exactly 2000, 4000, or 6000 characters messages.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25891">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c48ff07a5ecfebb454a8534292b2048</td>
+       <td>CVE-2022-25869</td>
+       <td>2022-07-15 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of <textarea> elements.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25869">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d3483141eb913d63542c993c77fee3ff</td>
+       <td>CVE-2022-25858</td>
+       <td>2022-07-15 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package terser before 4.8.1, from 5.0.0 and before 5.14.2 are vulnerable to Regular Expression Denial of Service (ReDoS) due to insecure usage of regular expressions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25858">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b14894fe48425007b127fbe605ef688d</td>
        <td>CVE-2021-34987</td>
        <td>2022-07-15 19:15:00 <img src="imgs/new.gif" /></td>
@@ -292,6 +348,22 @@
        <td>CVE-2021-34986</td>
        <td>2022-07-15 19:15:00 <img src="imgs/new.gif" /></td>
        <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.5.0 (49183). An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.The specific flaw exists within the Parallels Service. By creating a symbolic link, an attacker can abuse the service to execute a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-13932.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34986">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3e4fec821ad369e297d1fde6c39c2dda</td>
+       <td>CVE-2021-34987</td>
+       <td>2022-07-15 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.5.1 (49187). An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the HDAudio virtual device. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-14969.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34987">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5abcb5f34dadf7748300785185f70077</td>
+       <td>CVE-2021-34986</td>
+       <td>2022-07-15 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.5.0 (49183). An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Parallels Service. By creating a symbolic link, an attacker can abuse the service to execute a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-13932.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34986">详情</a></td>
       </tr>
 
@@ -445,78 +517,6 @@
        <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
        <td>In Couchbase Server 7.1.x before 7.1.1, an encrypted Private Key passphrase may be leaked in the logs.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34826">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8447cd55290af18e2454c9f3843d897b</td>
-       <td>CVE-2022-32119</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file upload vulnerabilities via the Add Photo function at photogalleries.inc.php and the import staff excel function at 1finance_master.inc.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32119">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9272a640f4d1498d66214ff617c56907</td>
-       <td>CVE-2022-32118</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Arox School ERP Pro v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the dispatchcategory parameter in backoffice.inc.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32118">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e460d5d63b512f79306aa66620f530df</td>
-       <td>CVE-2022-31097</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Grafana is an open-source platform for monitoring and observability. Versions on the 8.x and 9.x branch prior to 9.0.3, 8.5.9, 8.4.10, and 8.3.10 are vulnerable to stored cross-site scripting via the Unified Alerting feature of Grafana. An attacker can exploit this vulnerability to escalate privilege from editor to admin by tricking an authenticated admin to click on a link. Versions 9.0.3, 8.5.9, 8.4.10, and 8.3.10 contain a patch. As a workaround, it is possible to disable alerting or use legacy alerting.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31097">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c8070e3260063d303ebb14c922c4a13f</td>
-       <td>CVE-2022-30245</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Honeywell Alerton Compass Software 1.6.5 allows unauthenticated configuration changes from remote users. This enables configuration data to be stored on the controller and then implemented. A user with malicious intent can send a crafted packet to change the controller configuration without the knowledge of other users, altering the controller's function capabilities. The changed configuration is not updated in the User Interface, which creates an inconsistency between the configuration display and the actual configuration on the controller. After the configuration change, remediation requires reverting to the correct configuration, requiring either physical or remote access depending on the configuration that was altered.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30245">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0752329056ce096967642f8e55ed662</td>
-       <td>CVE-2022-30244</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Honeywell Alerton Ascent Control Module (ACM) through 2022-05-04 allows unauthenticated programming writes from remote users. This enables code to be store on the controller and then run without verification. A user with malicious intent can send a crafted packet to change and/or stop the program without the knowledge of other users, altering the controller's function. After the programming change, the program needs to be overwritten in order for the controller to restore its original operational function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30244">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0423f53801ca8b96727183ed7f53b5e</td>
-       <td>CVE-2022-30243</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Honeywell Alerton Visual Logic through 2022-05-04 allows unauthenticated programming writes from remote users. This enables code to be stored on the controller and then run without verification. A user with malicious intent can send a crafted packet to change and/or stop the program without the knowledge of other users, altering the controller's function. After the programming change, the program needs to be overwritten in order for the controller to restore its original operational function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30243">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44900b91a76f8f932084aa45a524edf6</td>
-       <td>CVE-2022-30242</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Honeywell Alerton Ascent Control Module (ACM) through 2022-05-04 allows unauthenticated configuration changes from remote users. This enables configuration data to be stored on the controller and then implemented. A user with malicious intent can send a crafted packet to change the controller configuration without the knowledge of other users, altering the controller's function capabilities. The changed configuration is not updated in the User Interface, which creates an inconsistency between the configuration display and the actual configuration on the controller. After the configuration change, remediation requires reverting to the correct configuration, requiring either physical or remote access depending on the configuration that was altered.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30242">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8a56f94eaa63dc064f4734e4e6a5d472</td>
-       <td>CVE-2021-36461</td>
-       <td>2022-07-15 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>An Arbitrary File Upload vulnerability exists in Microweber 1.1.3 that allows attackers to getshell via the Settings Upload Picture section by uploading pictures with malicious code, user.ini.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-36461">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e24cc5ef40ec8ced79365cae97742183</td>
-       <td>CVE-2022-29890</td>
-       <td>2022-07-15 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>In affected versions of Octopus Server the help sidebar can be customized to include a Cross-Site Scripting payload in the support link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29890">详情</a></td>
       </tr>
 
      </tbody>
