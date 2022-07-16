@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31517</font><br/>[<b>披露时间</b>] 2022-07-11 01:15:08 <br/>[<b>漏洞描述</b>] The HolgerGraef/MSM repository through 2021-04-20 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31517'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31517</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31516</font><br/>[<b>披露时间</b>] 2022-07-11 01:15:08 <br/>[<b>漏洞描述</b>] The Harveyzyh/Python repository through 2022-05-04 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31516'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31516</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36126</font><br/>[<b>披露时间</b>] 2022-07-16 19:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in Inductive Automation Ignition before 7.9.20 and 8.x before 8.1.17. The ScriptInvoke function allows remote attackers to execute arbitrary code by supplying a Python script.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-36126'>https://www.tenable.com/cve/CVE-2022-36126</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
