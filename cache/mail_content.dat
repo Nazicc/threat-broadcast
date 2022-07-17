@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35861</font><br/>[<b>披露时间</b>] 2022-07-17 17:15:00<br/>[<b>漏洞描述</b>] pyenv 1.2.24 through 2.3.2 allows local users to gain privileges via a .python-version file in the current working directory. An attacker can craft a Python version string in .python-version to execute shims under their control. (Shims are executables that pass a command along to a specific version of pyenv. The version string is used to construct the path to the command, and there is no validation of whether the version specified is a valid version. Thus, relative path traversal can occur.)<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-35861'>https://www.tenable.com/cve/CVE-2022-35861</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32320</font><br/>[<b>披露时间</b>] 2022-07-17 17:15:00<br/>[<b>漏洞描述</b>] A Cross-Site Request Forgery (CSRF) in Ferdi through 5.8.1 and Ferdium through 6.0.0-nightly.98 allows attackers to read files via an uploaded file such as a settings/preferences file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32320'>https://www.tenable.com/cve/CVE-2022-32320</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30550</font><br/>[<b>披露时间</b>] 2022-07-17 19:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in the auth component in Dovecot 2.2 and 2.3 before 2.3.20. When two passdb configuration entries exist with the same driver and args settings, incorrect username_filter and mechanism settings can be applied to passdb definitions. These incorrectly applied settings can lead to an unintended security configuration and can permit privilege escalation in certain configurations. The documentation does not advise against the use of passdb definitions that have the same driver and args settings. One such configuration would be where an administrator wishes to use the same PAM configuration or passwd file for both normal and master users but use the username_filter setting to restrict which of the users is able to be a master user.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30550'>https://www.tenable.com/cve/CVE-2022-30550</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
