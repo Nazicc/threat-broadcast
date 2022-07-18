@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-18 04:32:44 -->
+<!-- RELEASE TIME : 2022-07-18 05:50:37 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">348439c75c4ea3dbac5e16e1ebacf59a</td>
+       <td>CVE-2022-27434</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>UNIT4 TETA Mobile Edition (ME) before 29.5.HF17 was discovered to contain a SQL injection vulnerability via the ProfileName parameter in the errorReporting page.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27434">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b495189a09223290ad1ccf28771d976f</td>
+       <td>CVE-2021-44954</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>In QVIS NVR DVR before 2021-12-13, an attacker can escalate privileges from a qvisdvr user to the root user by abusing a Sudo misconfiguration.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44954">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3dc19845778afb9301c5e471962ec281</td>
+       <td>CVE-2021-42923</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>ShowMyPC 3606 on Windows suffers from a DLL hijack vulnerability. If an attacker overwrites the file %temp%\ShowMyPC\-ShowMyPC3606\wodVPN.dll, it will run any malicious code contained in that file. The code will run with normal user privileges unless the user specifically runs ShowMyPC as administrator.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-42923">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c24da71b997df15121a7aa7b54b297f8</td>
+       <td>CVE-2021-41419</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>QVIS NVR DVR before 2021-12-13 is vulnerable to Remote Code Execution via Java deserialization.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41419">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ca5bf82b77eb76ecdd5464c19dbf41ef</td>
+       <td>CVE-2021-40874</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in LemonLDAP::NG (aka lemonldap-ng) 2.0.13. When using the RESTServer plug-in to operate a REST password validation service (for another LemonLDAP::NG instance, for example) and using the Kerberos authentication method combined with another method with the Combination authentication plug-in, any password will be recognized as valid for an existing user.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40874">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">595659f5b0d25713cd9685e1e106606c</td>
+       <td>CVE-2020-23563</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>IrfanView 4.54 allows a user-mode write access violation starting at FORMATS!ShowPlugInSaveOptions_W+0x0000000000002cba.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-23563">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">01d1b724d2ee94eb3918105061a75e3c</td>
+       <td>CVE-2020-23562</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>IrfanView 4.54 allows a user-mode write access violation starting at FORMATS!ShowPlugInSaveOptions_W+0x000000000000aefe.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-23562">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a620089c066e3a81ef0c0080dfec663d</td>
+       <td>CVE-2020-23561</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>IrfanView 4.54 allows a user-mode write access violation starting at FORMATS!ShowPlugInSaveOptions_W+0x0000000000005722.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-23561">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">54d9dc48894247ba31f08bcbba8cdddf</td>
+       <td>CVE-2020-16093</td>
+       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>In LemonLDAP::NG (aka lemonldap-ng) through 2.0.8, validity of the X.509 certificate is not checked by default when connecting to remote LDAP backends, because the default configuration of the Net::LDAPS module for Perl is used.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-16093">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">af2c39a34064ef7b3aaf2240230e8948</td>
        <td>CVE-2022-33903</td>
        <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
@@ -445,78 +517,6 @@
        <td>2022-07-17 19:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue was discovered in the auth component in Dovecot 2.2 and 2.3 before 2.3.20. When two passdb configuration entries exist with the same driver and args settings, incorrect username_filter and mechanism settings can be applied to passdb definitions. These incorrectly applied settings can lead to an unintended security configuration and can permit privilege escalation in certain configurations. The documentation does not advise against the use of passdb definitions that have the same driver and args settings. One such configuration would be where an administrator wishes to use the same PAM configuration or passwd file for both normal and master users but use the username_filter setting to restrict which of the users is able to be a master user.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30550">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">584fa1be6a1ec832839d3d2a263363d9</td>
-       <td>CVE-2022-35861</td>
-       <td>2022-07-17 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>pyenv 1.2.24 through 2.3.2 allows local users to gain privileges via a .python-version file in the current working directory. An attacker can craft a Python version string in .python-version to execute shims under their control. (Shims are executables that pass a command along to a specific version of pyenv. The version string is used to construct the path to the command, and there is no validation of whether the version specified is a valid version. Thus, relative path traversal can occur.)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35861">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">083d40d0938d833866b4b3a4be02bcd9</td>
-       <td>CVE-2022-32320</td>
-       <td>2022-07-17 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Cross-Site Request Forgery (CSRF) in Ferdi through 5.8.1 and Ferdium through 6.0.0-nightly.98 allows attackers to read files via an uploaded file such as a settings/preferences file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32320">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">238182334601606315de2f5ad1ca9535</td>
-       <td>CVE-2022-2222</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Download Monitor WordPress plugin before 4.5.91 does not ensure that files to be downloaded are inside the blog folders, and not sensitive, allowing high privilege users such as admin to download the wp-config.php or /etc/passwd even in an hardened environment or multisite setup.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2222">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">015396ab5c22f95632d67d346b6c03a5</td>
-       <td>CVE-2022-2194</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Accept Stripe Payments WordPress plugin before 2.0.64 does not sanitize and escape some of its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14bda315bcb5e2f20edfdcccc42143c1</td>
-       <td>CVE-2022-2187</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Contact Form 7 Captcha WordPress plugin before 0.1.2 does not escape the $_SERVER['REQUEST_URI'] parameter before outputting it back in an attribute, which could lead to Reflected Cross-Site Scripting in old web browsers</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2187">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3d1322205f4faf7bc76622056dc82b45</td>
-       <td>CVE-2022-2186</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Simple Post Notes WordPress plugin before 1.7.6 does not sanitise and escape its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2186">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">84e5a7ad53bb384cd1472913b3980c15</td>
-       <td>CVE-2022-2173</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Advanced Database Cleaner WordPress plugin before 3.1.1 does not escape numerous generated URLs before outputting them back in href attributes of admin dashboard pages, leading to Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2173">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cfa706b90f1b40c0ae9c099666051fb8</td>
-       <td>CVE-2022-2169</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Loading Page with Loading Screen WordPress plugin before 1.0.83 does not escape its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2169">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0bd64e978ffc3a1d004e3218aef4d141</td>
-       <td>CVE-2022-2168</td>
-       <td>2022-07-17 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Download Manager WordPress plugin before 3.2.44 does not escape a generated URL before outputting it back in an attribute of the history dashboard, leading to Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2168">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,6 +2412,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fb41253ca8d847c526aeea83809c27bd</td>
+       <td>CVE-2022-35228</td>
+       <td>2022-07-12 21:15:11 </td>
+       <td>SAP BusinessObjects CMC allows an unauthenticated attacker to retrieve token information over the network which would otherwise be restricted. This can be achieved only when a legitimate user accesses the application and a local compromise occurs, like sniffing or social engineering. On successful exploitation, the attacker can completely compromise the application.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35228">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a5c950531e3396a26e9bc022e67f4533</td>
        <td>CVE-2022-31598</td>
        <td>2022-07-12 21:15:10 </td>
@@ -2436,11 +2444,27 @@
       </tr>
 
       <tr>
+       <td scope="row">29e7268bc62bee9cc56d48fc8fef8ab0</td>
+       <td>CVE-2022-35224</td>
+       <td>2022-07-12 21:15:10 </td>
+       <td>SAP Enterprise Portal - versions 7.10, 7.11, 7.20, 7.30, 7.31, 7.40, 7.50, does not sufficiently encode user-controlled inputs, resulting in Cross-Site Scripting (XSS) vulnerability. This attack can be used to non-permanently deface or modify portal content. The execution of script content by a victim registered on the portal could compromise the confidentiality and integrity of victim?s web browser session.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35224">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">905b5a990685abbeb0642404fde51435</td>
        <td>CVE-2022-31591</td>
        <td>2022-07-12 21:15:09 </td>
        <td>SAP BusinessObjects BW Publisher Service - versions 420, 430, uses a search path that contains an unquoted element. A local attacker can gain elevated privileges by inserting an executable file in the path of the affected service</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31591">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bad12918f9f9f791961b027bdca527fd</td>
+       <td>CVE-2022-35416</td>
+       <td>2022-07-11 03:15:07 </td>
+       <td>H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35416">详情</a></td>
       </tr>
 
       <tr>
@@ -2625,30 +2649,6 @@
        <td>2022-07-11 01:15:10 </td>
        <td>The DSAB-local/DSAB repository through 2019-02-18 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31566">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d0766cb19fcb7a2bef6960025a0060e</td>
-       <td>CVE-2022-31558</td>
-       <td>2022-07-11 01:15:10 </td>
-       <td>The tooxie/shiva-server repository through 0.10.0 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31558">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5855c4d9de5937ac07e84088237ac4c6</td>
-       <td>CVE-2022-31557</td>
-       <td>2022-07-11 01:15:10 </td>
-       <td>The seveas/golem repository through 2016-05-17 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31557">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6fe2b791df49aedff02d28b611782b6f</td>
-       <td>CVE-2022-31544</td>
-       <td>2022-07-11 01:15:09 </td>
-       <td>The meerstein/rbtm repository through 1.5 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31544">详情</a></td>
       </tr>
 
      </tbody>
