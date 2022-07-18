@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-18 17:02:28 -->
+<!-- RELEASE TIME : 2022-07-18 17:47:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b30964d9ac61a021e3c1918b3ec58f8b</td>
+       <td>CVE-2022-35741</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Apache CloudStack version 4.5.0 and later has a SAML 2.0 authentication Service Provider plugin which is found to be vulnerable to XML external entity (XXE) injection. This plugin is not enabled by default and the attacker would require that this plugin be enabled to exploit the vulnerability. When the SAML 2.0 plugin is enabled in affected versions of Apache CloudStack could potentially allow the exploitation of XXE vulnerabilities. The SAML 2.0 messages constructed during the authentication flow in Apache CloudStack are XML-based and the XML data is parsed by various standard libraries that are now understood to be vulnerable to XXE injection attacks such as arbitrary file reading, possible denial of service, server-side request forgery (SSRF) on the CloudStack management server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35741">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ff7827568fc930edab9237f0e952e3e5</td>
+       <td>CVE-2022-34902</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Access 6.5.4 (39316) Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Desktop Control Agent service. The service loads Qt plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-15787.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34902">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b0d809b03b3b9b9628fd774b37a6fec2</td>
+       <td>CVE-2022-34901</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Access 6.5.4 (39316) Agent. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. The specific flaw exists within the Parallels Service. The service executes files from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-16137.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34901">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">24d8ecdaff9e1fe27bc25ba223827aa7</td>
+       <td>CVE-2022-34900</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Access 6.5.3 (39313) Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Dispatcher service. The service loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-15213.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34900">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f44cca2960d34687ced98f329d9156ec</td>
+       <td>CVE-2022-34899</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Access 6.5.4 (39316) Agent. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. The specific flaw exists within the Parallels service. By creating a symbolic link, an attacker can abuse the service to execute a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-16134.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34899">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">41bf2552c9d89e9e71ce44f8718be0f3</td>
+       <td>CVE-2022-34892</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop Parallels Desktop 17.1.1. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the update machanism. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-16396.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34892">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">17e7c0c9d3eee8c9860f46578610e73d</td>
+       <td>CVE-2022-34891</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop Parallels Desktop 17.1.1. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the update machanism. The product sets incorrect permissions on sensitive files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Was ZDI-CAN-16395.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34891">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d1542eaf7db7eaf663f668a889626558</td>
+       <td>CVE-2022-34890</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 17.1.1 (51537). An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Parallels Tools component. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the kernel. Was ZDI-CAN-16653.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34890">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d7ea141742c60fac123f8e2c65a14010</td>
+       <td>CVE-2022-34889</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 17.1.1 (51537). An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the ACPI virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-16554.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34889">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a18bbc4cc3331371214e83a70f22c369</td>
+       <td>CVE-2022-2400</td>
+       <td>2022-07-18 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>External Control of File Name or Path in GitHub repository dompdf/dompdf prior to 2.0.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2400">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">df0a06c80ee43e44df8bbb863efe551a</td>
        <td>CVE-2022-35404</td>
        <td>2022-07-18 13:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-23561">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">54d9dc48894247ba31f08bcbba8cdddf</td>
-       <td>CVE-2020-16093</td>
-       <td>2022-07-18 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>In LemonLDAP::NG (aka lemonldap-ng) through 2.0.8, validity of the X.509 certificate is not checked by default when connecting to remote LDAP backends, because the default configuration of the Net::LDAPS module for Perl is used.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-16093">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">af2c39a34064ef7b3aaf2240230e8948</td>
-       <td>CVE-2022-33903</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tor 0.4.7.x before 0.4.7.8 allows a denial of service via the wedging of RTT estimation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33903">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">70faea9747edb2239bbde1821ee66f06</td>
-       <td>CVE-2022-32985</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>libnx_apl.so on Nexans FTTO GigaSwitch before 6.02N and 7.x before 7.02 implements a Backdoor Account for SSH logins on port 50200 or 50201.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32985">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">007a4fee3491a8b29c654ef2aac6aa77</td>
-       <td>CVE-2022-31213</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in dbus-broker before 31. Multiple NULL pointer dereferences can be found when supplying a malformed XML config file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31213">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cc00c3892c7431fce60cd10bd73af2b7</td>
-       <td>CVE-2022-31212</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in dbus-broker before 31. It depends on c-uitl/c-shquote to parse the DBus service's Exec line. c-shquote contains a stack-based buffer over-read if a malicious Exec line is supplied.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31212">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">312acbb3a400194ebe2256830aa03239</td>
-       <td>CVE-2022-31211</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Infiray IRAY-A8Z3 1.0.957. There is a blank root password for TELNET by default.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31211">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c29d8ca2630332ab6f341372a373a9e</td>
-       <td>CVE-2022-31210</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Infiray IRAY-A8Z3 1.0.957. The binary file /usr/local/sbin/webproject/set_param.cgi contains hardcoded credentials to the web application. Because these accounts cannot be deactivated or have their passwords changed, they are considered to be backdoor accounts.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31210">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2a09aac5609dfdee6083f1d218c35ec5</td>
-       <td>CVE-2022-31209</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Infiray IRAY-A8Z3 1.0.957. The firmware contains a potential buffer overflow by calling strcpy() without checking the string length beforehand.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31209">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e2a333f1939adc47964aea87ce15de5e</td>
-       <td>CVE-2022-31208</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Infiray IRAY-A8Z3 1.0.957. The webserver contains an endpoint that can execute arbitrary commands by manipulating the cmd_string URL parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31208">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">318a118e741f37fca46818249e5e2fb2</td>
-       <td>CVE-2022-31202</td>
-       <td>2022-07-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The export function in SoftGuard Web (SGW) before 5.1.5 allows directory traversal to read an arbitrary local file via export or man.tcl.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31202">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,60 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">65b61fe0c6f6408e753677528afe4d59</td>
+       <td>VHN-427169</td>
+       <td>2022-07-18 17:46:55 <img src="imgs/new.gif" /></td>
+       <td>Builder XtremeRAT 3.7 MVID-2022-0624 Insecure...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427169">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2bca6188fc816696f9be0c42051accca</td>
+       <td>VHN-427170</td>
+       <td>2022-07-18 17:46:55 <img src="imgs/new.gif" /></td>
+       <td>Builder XtremeRAT 3.7 MVID-2022-0623 Insecure...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427170">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e3ae54549cf0522996c77a19df8f4d35</td>
+       <td>VHN-427171</td>
+       <td>2022-07-18 17:46:55 <img src="imgs/new.gif" /></td>
+       <td>Backdoor.Win32.HoneyPot.a MVID-2022-0622 Weak...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427171">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">466dc6f3d66354003e88394f952215e0</td>
+       <td>VHN-427172</td>
+       <td>2022-07-18 17:46:55 <img src="imgs/new.gif" /></td>
+       <td>Orange Station 1.0 SQL Injection...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427172">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f9ebbb10dbbdfd63e00ad02d4221a028</td>
+       <td>VHN-427173</td>
+       <td>2022-07-18 17:46:55 <img src="imgs/new.gif" /></td>
+       <td>Property Listing Script 3.1 SQL Injection...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427173">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">db5490cbfa60bf93136da9462e37639b</td>
+       <td>VHN-427174</td>
+       <td>2022-07-18 17:46:55 <img src="imgs/new.gif" /></td>
+       <td>Travel Tours Script 1.0 SQL Injection...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427174">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">ad66a03a9a80f7ee2422ca159089a25d</td>
        <td>CVE-2021-33649</td>
@@ -747,60 +801,6 @@
        <td>Tenda AC23 fromAdvSetMacMtuWan函数缓冲区溢出漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-424404">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d861ea8f519dcd65565645dd07698eab</td>
-       <td>CVE-2022-34595</td>
-       <td>2022-07-15 05:56:18</td>
-       <td>Tenda AX1803命令执行漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426945">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e57676541b4ef19fd1d4f8a2d77f2a4</td>
-       <td>CVE-2022-34596</td>
-       <td>2022-07-15 05:56:18</td>
-       <td>Tenda AX1803 WanParameterSetting函数命令注入漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426946">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ed6879b53549d7df49f2c56da1fb55b</td>
-       <td>CVE-2022-34597</td>
-       <td>2022-07-15 05:56:18</td>
-       <td>Tenda AX1806 WanParameterSetting函数命令注入漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426947">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">35d37f3fc60de1b23bfa5c2204805ed8</td>
-       <td>CVE-2022-0500</td>
-       <td>2022-07-14 15:46:58</td>
-       <td>A flaw was found in unrestricted eBPF usage......
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-414123">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68586ec8e2c6f72e286163be38737893</td>
-       <td>CVE-2015-20107</td>
-       <td>2022-07-14 15:46:58</td>
-       <td>In Python (aka CPython) through 3.10.4, the...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419285">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4ad1a870b16f4c2c320e895d9e300498</td>
-       <td>CVE-2022-29187</td>
-       <td>2022-07-14 15:46:58</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420721">详情</a></td>
       </tr>
 
      </tbody>
