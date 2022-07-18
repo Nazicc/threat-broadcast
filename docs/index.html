@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-18 14:06:51 -->
+<!-- RELEASE TIME : 2022-07-18 14:43:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -2412,6 +2412,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">dda0df12b3d09ba48ebfb4cea3d77ecb</td>
+       <td>CVE-2022-35861</td>
+       <td>2022-07-17 17:15:08  <img src="imgs/new.gif" /></td>
+       <td>pyenv 1.2.24 through 2.3.2 allows local users to gain privileges via a .python-version file in the current working directory. An attacker can craft a Python version string in .python-version to execute shims under their control. (Shims are executables that pass a command along to a specific version of pyenv. The version string is used to construct the path to the command, and there is no validation of whether the version specified is a valid version. Thus, relative path traversal can occur.)</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35861">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">fb41253ca8d847c526aeea83809c27bd</td>
        <td>CVE-2022-35228</td>
        <td>2022-07-12 21:15:11 </td>
@@ -2641,14 +2649,6 @@
        <td>2022-07-11 01:15:10 </td>
        <td>The DSABenchmark/DSAB repository through 2.1 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31567">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0816440b5a90f7bd7826b772d260d9ab</td>
-       <td>CVE-2022-31566</td>
-       <td>2022-07-11 01:15:10 </td>
-       <td>The DSAB-local/DSAB repository through 2019-02-18 on GitHub allows absolute path traversal because the Flask send_file function is used unsafely.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31566">详情</a></td>
       </tr>
 
      </tbody>
