@@ -1,17 +1,35 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">13</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52263 (CVE-2021-39691)</font><br/>[<b>披露时间</b>] 2022-07-19 07:39:56<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52263'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52263</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52264 (CVE-2022-20133)</font><br/>[<b>披露时间</b>] 2022-07-19 07:39:58<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52264'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52264</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52265 (CVE-2022-20135)</font><br/>[<b>披露时间</b>] 2022-07-19 07:40:00<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52265'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52265</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52266 (CVE-2022-20137)</font><br/>[<b>披露时间</b>] 2022-07-19 07:40:03<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52266'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52266</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52267 (CVE-2022-20138)</font><br/>[<b>披露时间</b>] 2022-07-19 07:40:05<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52267'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52267</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52268 (CVE-2022-20142)</font><br/>[<b>披露时间</b>] 2022-07-19 07:40:07<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52268'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52268</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52252 (CVE-2022-33026)</font><br/>[<b>披露时间</b>] 2022-07-19 07:40:09<br/>[<b>漏洞描述</b>] GNU LibreDWG堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52252'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52252</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52291 (CVE-2022-34229)</font><br/>[<b>披露时间</b>] 2022-07-19 08:47:24<br/>[<b>漏洞描述</b>] 多款Adobe资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52291'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52291</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52290 (CVE-2022-31061)</font><br/>[<b>披露时间</b>] 2022-07-19 08:47:29<br/>[<b>漏洞描述</b>] GLPI SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52290'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52290</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33891</font><br/>[<b>披露时间</b>] 2022-07-19 07:49:50<br/>[<b>漏洞描述</b>] CVE-2022-33891：Apache Spark 命令注入漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=cd1051be4f8bf65f9e5da22372a4b71c'>https://cert.360.cn/warning/detail?id=cd1051be4f8bf65f9e5da22372a4b71c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39691</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52263）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401115'>http://cve.scap.org.cn/vuln/VHN-401115</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20133</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52264）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404686'>http://cve.scap.org.cn/vuln/VHN-404686</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20134</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android输入验证错误漏洞（CNVD-2022-52273）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404687'>http://cve.scap.org.cn/vuln/VHN-404687</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20135</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52265）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404688'>http://cve.scap.org.cn/vuln/VHN-404688</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20137</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52266）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404690'>http://cve.scap.org.cn/vuln/VHN-404690</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20138</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52267）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404691'>http://cve.scap.org.cn/vuln/VHN-404691</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20141</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52271）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404694'>http://cve.scap.org.cn/vuln/VHN-404694</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20142</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞（CNVD-2022-52268）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404695'>http://cve.scap.org.cn/vuln/VHN-404695</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20147</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android缓冲区溢出漏洞（CNVD-2022-52274）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404700'>http://cve.scap.org.cn/vuln/VHN-404700</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20154</font><br/>[<b>披露时间</b>] 2022-07-19 08:48:17<br/>[<b>漏洞描述</b>] Google Android竞争条件问题漏洞（CNVD-2022-52276）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404707'>http://cve.scap.org.cn/vuln/VHN-404707</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
