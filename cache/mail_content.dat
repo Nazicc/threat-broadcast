@@ -1,18 +1,22 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52560 (CVE-2022-21404)</font><br/>[<b>披露时间</b>] 2022-07-20 08:47:53<br/>[<b>漏洞描述</b>] Oracle Fusion Middleware Helidon输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52560'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52560</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52562 (CVE-2022-21368)</font><br/>[<b>披露时间</b>] 2022-07-20 08:47:55<br/>[<b>漏洞描述</b>] Oracle MySQL输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52562'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52562</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52563 (CVE-2022-21346)</font><br/>[<b>披露时间</b>] 2022-07-20 08:47:58<br/>[<b>漏洞描述</b>] Oracle BI Publisher输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52563'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52563</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52564 (CVE-2022-21247)</font><br/>[<b>披露时间</b>] 2022-07-20 08:48:01<br/>[<b>漏洞描述</b>] Oracle Database Server输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52564'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52564</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52565 (CVE-2021-35587)</font><br/>[<b>披露时间</b>] 2022-07-20 08:48:03<br/>[<b>漏洞描述</b>] Oracle Access Manager存在输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52565'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52565</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-52566 (CVE-2022-21306)</font><br/>[<b>披露时间</b>] 2022-07-20 08:48:06<br/>[<b>漏洞描述</b>] Oracle WebLogic Server输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-52566'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-52566</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-07-20 08:16:54<br/>[<b>漏洞描述</b>] 2022-07 补丁日: Oracle多个产品漏洞安全风险通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=57ad0c90254297d4be919c90767adb93'>https://cert.360.cn/warning/detail?id=57ad0c90254297d4be919c90767adb93</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35541</font><br/>[<b>披露时间</b>] 2022-07-20 09:43:04<br/>[<b>漏洞描述</b>] Oracle PeopleSoft Enterprise信息泄露漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-395874'>http://cve.scap.org.cn/vuln/VHN-395874</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-35587</font><br/>[<b>披露时间</b>] 2022-07-20 09:43:04<br/>[<b>漏洞描述</b>] Oracle Access Manager存在输入验证错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-395920'>http://cve.scap.org.cn/vuln/VHN-395920</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21247</font><br/>[<b>披露时间</b>] 2022-07-20 09:43:04<br/>[<b>漏洞描述</b>] Oracle Database Server输入验证错误漏洞（CNVD-2022-52564）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406860'>http://cve.scap.org.cn/vuln/VHN-406860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21306</font><br/>[<b>披露时间</b>] 2022-07-20 09:43:04<br/>[<b>漏洞描述</b>] Oracle WebLogic Server输入验证错误漏洞（CNVD-2022-52566）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406919'>http://cve.scap.org.cn/vuln/VHN-406919</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21346</font><br/>[<b>披露时间</b>] 2022-07-20 09:43:04<br/>[<b>漏洞描述</b>] Oracle BI Publisher输入验证错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-406959'>http://cve.scap.org.cn/vuln/VHN-406959</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21404</font><br/>[<b>披露时间</b>] 2022-07-20 09:43:04<br/>[<b>漏洞描述</b>] Oracle Fusion Middleware Helidon输入验证错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-407017'>http://cve.scap.org.cn/vuln/VHN-407017</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
