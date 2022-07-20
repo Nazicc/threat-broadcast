@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-20 15:46:04 -->
+<!-- RELEASE TIME : 2022-07-20 17:02:18 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fab14988cc18d3d7ebc79bccabc4d4fb</td>
+       <td>CVE-2022-22215</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Missing Release of File Descriptor or Handle after Effective Lifetime vulnerability in plugable authentication module (PAM) of Juniper Networks Junos OS and Junos OS Evolved allows a locally authenticated attacker with low privileges to cause a Denial of Service (DoS). It is possible that after the termination of a gRPC connection the respective/var/run/<pid>.env file is not getting deleted which if occurring repeatedly can cause inode exhaustion. Inode exhaustion can present itself in two different ways: 1. The following log message can be observed: host kernel: pid <pid> (<process>), uid <uid> inumber <number> on /.mount/var: out of inodes which by itself is a clear indication. 2. The following log message can be observed: host <process>[<pid>]: ... : No space left on device which is not deterministic and just a representation of a write error which could have several reasons. So the following check needs to be done: user@host> show system storage no-forwarding Filesystem Size Used Avail Capacity Mounted on /dev/ada1p1 475M 300M 137M 69% /.mount/var which indicates that the write error is not actually due to a lack of disk space. If either 1. or 2. has been confirmed, then the output of: user@host> file list /var/run/*.env | count need to be checked and if it indicates a high (>10000) number of files the system has been affected by this issue. This issue affects: Juniper Networks Junos OS All versions prior to 19.1R3-S8; 19.2 versions prior to 19.2R3-S6; 19.3 versions prior to 19.3R3-S5; 19.4 versions prior to 19.4R2-S6, 19.4R3-S7; 20.1 version 20.1R1 and later versions; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S4; 20.4 versions prior to 20.4R3; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R2. Juniper Networks Junos OS Evolved All versions prior to 20.4R3-EVO; 21.1 versions prior to 21.1R3-S1-EVO; 21.2 versions prior to 21.2R1-S1-EVO, 21.2R2-EVO.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22215">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">957c0312830a6d02244ce429d4411398</td>
+       <td>CVE-2022-22214</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>An Improper Input Validation vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS and Junos OS Evolved allows an adjacent attacker to cause a PFE crash and thereby a Denial of Service (DoS). An FPC will crash and reboot after receiving a specific transit IPv6 packet over MPLS. Continued receipt of this packet will create a sustained Denial of Service (DoS) condition. This issue does not affect systems configured for IPv4 only. This issue affects: Juniper Networks Junos OS All versions prior to 12.3R12-S21; 15.1 versions prior to 15.1R7-S10; 17.3 versions prior to 17.3R3-S12; 18.3 versions prior to 18.3R3-S6; 18.4 versions prior to 18.4R2-S9, 18.4R3-S9; 19.1 versions prior to 19.1R2-S3, 19.1R3-S7; 19.2 versions prior to 19.2R1-S7, 19.2R3-S3; 19.3 versions prior to 19.3R2-S7, 19.3R3-S4; 19.4 versions prior to 19.4R3-S5; 20.1 versions prior to 20.1R3; 20.2 versions prior to 20.2R3-S2; 20.3 versions prior to 20.3R3; 20.4 versions prior to 20.4R2-S2, 20.4R3; 21.1 versions prior to 21.1R2. Juniper Networks Junos OS Evolved All versions prior to 20.4R3-S3-EVO; 21.2 versions prior to 21.2R3-EVO; 21.3 versions prior to 21.3R2-S1-EVO, 21.3R3-EVO; 21.4 versions prior to 21.4R2-EVO.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22214">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">67263e4c401bfece8205361ced7bd3d4</td>
+       <td>CVE-2022-22213</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in Handling of Undefined Values in the routing protocol daemon (RPD) process of Juniper Networks Junos OS and Junos OS Evolved may allow an unauthenticated network-based attacker to crash the RPD process by sending a specific BGP update while the system is under heavy load, leading to a Denial of Service (DoS). Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition. Malicious exploitation of this issue requires a very specific combination of load, timing, and configuration of the vulnerable system which is beyond the direct control of the attacker. Internal reproduction has only been possible through artificially created load and specially instrumented source code. Systems are only vulnerable to this issue if BGP multipath is enabled. Routers not configured for BGP multipath are not vulnerable to this issue. This issue affects: Juniper Networks Junos OS: 21.1 versions prior to 21.1R3-S1; 21.2 versions prior to 21.2R2-S2, 21.2R3; 21.3 versions prior to 21.3R2, 21.3R3; 21.4 versions prior to 21.4R1-S1, 21.4R2. Juniper Networks Junos OS Evolved: 21.1 versions prior to 21.1R3-S1-EVO; 21.2 version 21.2R1-EVO and later versions; 21.3 versions prior to 21.3R3-EVO; 21.4 versions prior to 21.4R1-S1-EVO, 21.4R2-EVO. This issue does not affect: Juniper Networks Junos OS versions prior to 21.1. Juniper Networks Junos OS Evolved versions prior to 21.1-EVO.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22213">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">63e0a70a3faf6da39559fc7d159d20e5</td>
+       <td>CVE-2022-22212</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>An Allocation of Resources Without Limits or Throttling vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS Evolved allows unauthenticated network based attacker to cause a Denial of Service (DoS). On all Junos Evolved platforms hostbound protocols will be impacted by a high rate of specific hostbound traffic from ports on a PFE. Continued receipt of this amount of traffic will create a sustained Denial of Service (DoS) condition. This issue affects Juniper Networks Junos OS Evolved: 21.2 versions prior to 21.2R3-EVO; 21.3 versions prior to 21.3R2-EVO. This issue does not affect Juniper Networks Junos OS Evolved versions prior to 21.2R1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22212">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">08b3b8b00c65ca213f861c282d25394b</td>
+       <td>CVE-2022-22210</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A NULL Pointer Dereference vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS on QFX5000 Series and MX Series allows an unauthenticated adjacent attacker to cause a Denial of Service (DoS). On QFX5K Series and MX Series, when the PFE receives a specific VxLAN packet the Layer 2 Address Learning Manager (L2ALM) process will crash leading to an FPC reboot. Continued receipt of this specific packet will create a sustained Denial of Service (DoS) condition. This issue affects Juniper Networks Junos OS on QFX5000 Series, MX Series: 20.3 versions prior to 20.3R3-S3; 20.4 versions prior to 20.4R3-S2; 21.2 versions prior to 21.2R2-S1. This issue does not affect Juniper Networks Junos OS: All versions prior to 20.3R1; 21.1 version 21.1R1 and later versions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22210">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b2f61d1c8988aeb07b83d45201d4849c</td>
+       <td>CVE-2022-22209</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Missing Release of Memory after Effective Lifetime vulnerability in the kernel of Juniper Networks Junos OS allows an unauthenticated network based attacker to cause a Denial of Service (DoS). On all Junos platforms, the Kernel Routing Table (KRT) queue can get stuck due to a memory leak triggered by interface flaps or route churn leading to RIB and PFEs getting out of sync. The memory leak causes RTNEXTHOP/route and next-hop memory pressure issue and the KRT queue will eventually get stuck with the error- 'ENOMEM -- Cannot allocate memory'. The out-of-sync state between RIB and FIB can be seen with the "show route" and "show route forwarding-table" command. This issue will lead to failures for adding new routes. The KRT queue status can be checked using the CLI command "show krt queue": user@host > show krt state High-priority add queue: 1 queued ADD nhtype Router index 0 (31212) error 'ENOMEM -- Cannot allocate memory' kqp '0x8ad5e40' The following messages will be observed in /var/log/messages, which indicate high memory for routes/nexthops: host rpd[16279]: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 266 [2022-03-04 05:06:07] host rpd[16279]: RPD_KRT_Q_RETRIES: nexthop ADD: Cannot allocate memory host rpd[16279]: RPD_KRT_Q_RETRIES: nexthop ADD: Cannot allocate memory host kernel: rts_veto_net_delayed_unref_limit: Route/nexthop memory is severe pressure. User Application to perform recovery actions. O p 8 err 12, rtsm_id 0:-1, msg type 10, veto simulation: 0. host kernel: rts_veto_net_delayed_unref_limit: Memory usage of M_RTNEXTHOP type = (806321208) Max size possible for M_RTNEXTHOP type = (689432176) Current delayed unref = (0), Max delayed unref on this platform = (120000) Current delayed weight unref = (0) Max delayed weight unref on this platform = (400000) curproc = rpd. This issue affects: Juniper Networks Junos OS 21.2 versions prior to 21.2R3; 21.3 versions prior to 21.3R2-S1, 21.3R3; 21.4 versions prior to 21.4R1-S2, 21.4R2; This issue does not affect Juniper Networks Junos OS versions prior to 21.2R1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22209">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">963426ce2932d306144d0241e6a10745</td>
+       <td>CVE-2022-22207</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Use After Free vulnerability in the Advanced Forwarding Toolkit (AFT) manager process (aftmand) of Juniper Networks Junos OS allows an unauthenticated networked attacker to cause a kernel crash due to intensive polling of Abstracted Fabric (AF) interface statistics and thereby a Denial of Service (DoS). Continued gathering of AF interface statistics will create a sustained Denial of Service (DoS) condition. This issue affects Juniper Networks Junos OS on MX Series: 20.1 versions later than 20.1R1; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S4; 20.4 versions prior to 20.4R3; 21.1 versions prior to 21.1R2; 21.2 versions prior to 21.2R2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22207">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e7dfa04e5f8b7b1d3e79e206093b20f2</td>
+       <td>CVE-2022-22205</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Missing Release of Memory after Effective Lifetime vulnerability in the Application Quality of Experience (appqoe) subsystem of the PFE of Juniper Networks Junos OS on SRX Series allows an unauthenticated network based attacker to cause a Denial of Service (DoS). Upon receiving specific traffic a memory leak will occur. Sustained processing of such specific traffic will eventually lead to an out of memory condition that prevents all services from continuing to function, and requires a manual restart to recover. A device is only vulnerable when advance(d) policy based routing (APBR) is configured and AppQoE (sla rule) is not configured for these APBR rules. This issue affects Juniper Networks Junos OS on SRX Series: 20.3 versions prior to 20.3R3-S2; 20.4 versions prior to 20.4R3-S2; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R2-S1, 21.2R3; 21.3 versions prior to 21.3R1-S2, 21.3R2. This issue does not affect Juniper Networks Junos OS versions prior to 20.3R1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22205">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">131c4fb4fb6aae41da39a867783bee03</td>
+       <td>CVE-2022-22204</td>
+       <td>2022-07-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>An Improper Release of Memory Before Removing Last Reference vulnerability in the Session Initiation Protocol (SIP) Application Layer Gateway (ALG) of Juniper Networks Junos OS allows unauthenticated network-based attacker to cause a partial Denial of Service (DoS). On all MX and SRX platforms, if the SIP ALG is enabled, receipt of a specific SIP packet will create a stale SIP entry. Sustained receipt of such packets will cause the SIP call table to eventually fill up and cause a DoS for all SIP traffic. The SIP call usage can be monitored by "show security alg sip calls". To be affected the SIP ALG needs to be enabled, either implicitly / by default or by way of configuration. Please verify on SRX with: user@host> show security alg status | match sip SIP : Enabled Please verify on MX whether the following is configured: [ services ... rule <rule-name> (term <term-name>) from/match application/application-set <name> ] where either a. name = junos-sip or an application or application-set refers to SIP: b. [ applications application <name> application-protocol sip ] or c. [ applications application-set <name> application junos-sip ] This issue affects Juniper Networks Junos OS on SRX Series and MX Series: 20.4 versions prior to 20.4R3-S2; 21.1 versions prior to 21.1R3-S2; 21.2 versions prior to 21.2R2-S2; 21.2 versions prior to 21.2R3; 21.3 versions prior to 21.3R2; 21.4 versions prior to 21.4R2. This issue does not affect Juniper Networks Junos OS versions prior to 20.4R1. Juniper SIRT is not aware of any malicious exploitation of this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22204">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16d50875f8fe2ec295b6858e90618dad</td>
+       <td>CVE-2022-34610</td>
+       <td>2022-07-20 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>H3C Magic R200 R200V200R004L02 was discovered to contain a stack overflow via the URL /ihomers/app.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34610">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">51724018add643809c93d396e8460691</td>
        <td>CVE-2022-36322</td>
        <td>2022-07-20 13:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-07-20 02:15:00 <img src="imgs/new.gif" /></td>
        <td>Digiwin BPM has a XML External Entity Injection (XXE) vulnerability due to insufficient validation for user input. An unauthenticated remote attacker can perform XML injection attack to access arbitrary system files.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32458">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7001519bd5496139611a1d2d48e0d65f</td>
-       <td>CVE-2022-32457</td>
-       <td>2022-07-20 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Digiwin BPM has inadequate filtering for URL parameter. An unauthenticated remote attacker can perform Blind SSRF attack to discover internal network topology base on URL error response.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32457">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8c20b024ced4538e3b1b608e751aed9</td>
-       <td>CVE-2022-32456</td>
-       <td>2022-07-20 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Digiwin BPM’s function has insufficient validation for user input. An unauthenticated remote attacker can inject arbitrary SQL command to access, modify, delete database or disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32456">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">008f5cd326289d56a40f9c1e67b5ad0c</td>
-       <td>CVE-2022-21586</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Banking Trade Finance product of Oracle Financial Services Applications (component: Infrastructure). The supported version that is affected is 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Trade Finance. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Banking Trade Finance accessible data as well as unauthorized access to critical data or complete access to all Oracle Banking Trade Finance accessible data. CVSS 3.1 Base Score 6.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21586">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">394900e33e3e4344876cc715826abc86</td>
-       <td>CVE-2022-21585</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Banking Trade Finance product of Oracle Financial Services Applications (component: Infrastructure). The supported version that is affected is 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Trade Finance. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Banking Trade Finance accessible data as well as unauthorized access to critical data or complete access to all Oracle Banking Trade Finance accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Banking Trade Finance. CVSS 3.1 Base Score 6.7 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:L).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21585">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6edcaa8f0d794947eb3b83667054af45</td>
-       <td>CVE-2022-21584</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Banking Trade Finance product of Oracle Financial Services Applications (component: Infrastructure). The supported version that is affected is 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Trade Finance. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Banking Trade Finance accessible data as well as unauthorized access to critical data or complete access to all Oracle Banking Trade Finance accessible data. CVSS 3.1 Base Score 6.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21584">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">225b6d653f16e11af601b18fffdfb00b</td>
-       <td>CVE-2022-21583</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Banking Trade Finance product of Oracle Financial Services Applications (component: Infrastructure). The supported version that is affected is 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Trade Finance. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Banking Trade Finance accessible data as well as unauthorized update, insert or delete access to some of Oracle Banking Trade Finance accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Banking Trade Finance. CVSS 3.1 Base Score 6.4 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:L).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21583">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d1c618c2047d5500c6dfc7befa22d5c0</td>
-       <td>CVE-2022-21582</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Banking Trade Finance product of Oracle Financial Services Applications (component: Infrastructure). The supported version that is affected is 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Trade Finance. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Banking Trade Finance accessible data as well as unauthorized access to critical data or complete access to all Oracle Banking Trade Finance accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Banking Trade Finance. CVSS 3.1 Base Score 6.7 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:L).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21582">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b7ef19e9446a9f7375481fbc49f0d409</td>
-       <td>CVE-2022-21581</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Banking Trade Finance product of Oracle Financial Services Applications (component: Infrastructure). The supported version that is affected is 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Banking Trade Finance. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Banking Trade Finance accessible data as well as unauthorized read access to a subset of Oracle Banking Trade Finance accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Banking Trade Finance. CVSS 3.1 Base Score 5.9 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:H/A:L).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21581">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b5818f3143f0b0a8d057400fb0a6b9e7</td>
-       <td>CVE-2022-21580</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle Financial Services Revenue Management and Billing product of Oracle Financial Services Applications (component: Infrastructure). Supported versions that are affected are 2.9.0.0.0, 2.9.0.1.0, 3.0.0.0.0-3.2.0.0.0 and 4.0.0.0.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Financial Services Revenue Management and Billing. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Financial Services Revenue Management and Billing accessible data as well as unauthorized update, insert or delete access to some of Oracle Financial Services Revenue Management and Billing accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Financial Services Revenue Management and Billing. CVSS 3.1 Base Score 5.9 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:L/A:L).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21580">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">73f477f51fc5be2c79f3558837182f21</td>
-       <td>CVE-2022-21579</td>
-       <td>2022-07-19 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle FLEXCUBE Universal Banking product of Oracle Financial Services Applications (component: Infrastructure). Supported versions that are affected are 12.1-12.4, 14.0-14.3 and 14.5. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle FLEXCUBE Universal Banking. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle FLEXCUBE Universal Banking accessible data as well as unauthorized access to critical data or complete access to all Oracle FLEXCUBE Universal Banking accessible data. CVSS 3.1 Base Score 6.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21579">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">bce519ac4f0ca128bb9669134db78ef0</td>
+       <td>CNVD-2022-50692 (CVE-2022-1934)</td>
+       <td>2022-07-21 17:01:19 <img src="imgs/new.gif" /></td>
+       <td>mruby存在二进制漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50692">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">017309ab8b9d5e424d7a2d7d459747a0</td>
+       <td>CNVD-2022-50691 (CVE-2022-1898)</td>
+       <td>2022-07-21 17:01:17 <img src="imgs/new.gif" /></td>
+       <td>vim存在二进制漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50691">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f04e1896b6737066d23d1fff645cd2d0</td>
+       <td>CNVD-2022-50690 (CVE-2022-1897)</td>
+       <td>2022-07-21 17:01:13 <img src="imgs/new.gif" /></td>
+       <td>vim存在二进制漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50690">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9cb1f39cf315482cb6ce57af4257a185</td>
+       <td>CNVD-2022-50689 (CVE-2022-1942)</td>
+       <td>2022-07-21 17:01:11 <img src="imgs/new.gif" /></td>
+       <td>vim存在二进制漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50689">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">244334704b028e736a68b5f443823d70</td>
+       <td>CNVD-2022-50013 (CVE-2022-26134)</td>
+       <td>2022-07-21 17:01:09 <img src="imgs/new.gif" /></td>
+       <td>Atlassian Confluence Server and Data Center存在命令执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50013">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5092e8d299096590654129e4e2a429b3</td>
+       <td>CNVD-2022-50009</td>
+       <td>2022-07-21 17:01:06 <img src="imgs/new.gif" /></td>
+       <td>心通达OA 2022初夏端午版存在任意文件下载漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50009">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1addd9180c00825d811ec9a30d83ab50</td>
        <td>CNVD-2022-50412</td>
        <td>2022-07-20 17:05:15 <img src="imgs/new.gif" /></td>
@@ -1007,54 +1055,6 @@
        <td>2022-07-17 16:53:15</td>
        <td>绿盟科技集团股份有限公司UTS统一威胁探针存在信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-50360">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">91ef213cb6810538c6294ee919953a78</td>
-       <td>CNVD-2022-51204</td>
-       <td>2022-07-17 16:53:13</td>
-       <td>北京宝兰德软件股份有限公司BES管理控制台存在XML实体注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-51204">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c18b47a01f1280e16e88cbab6ce3a95c</td>
-       <td>CNVD-2022-51203</td>
-       <td>2022-07-17 16:53:11</td>
-       <td>北京宝兰德软件股份有限公司BES管理控制台存在逻辑缺陷漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-51203">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">171cb9724c2c53606a40974e07428fa2</td>
-       <td>CNVD-2022-48625</td>
-       <td>2022-07-17 16:53:08</td>
-       <td>北京宝兰德软件股份有限公司BES管理控制台存在逻辑缺陷漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-48625">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f07203a665181a6951e46e1556b12427</td>
-       <td>CNVD-2022-48623</td>
-       <td>2022-07-17 16:53:06</td>
-       <td>易勤WEB考勤管理软件存在SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-48623">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e3a33dd9a5faa1ee734a2f2b3852f49</td>
-       <td>CNVD-2022-48616</td>
-       <td>2022-07-17 16:53:04</td>
-       <td>北京宝兰德软件股份有限公司BES管理控制台存在未授权访问漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-48616">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">018a4925f9f9a507bc6307767e6c7ff5</td>
-       <td>CNVD-2022-51192 (CVE-2022-1292)</td>
-       <td>2022-07-15 17:04:16</td>
-       <td>OpenSSL存在命令执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-51192">详情</a></td>
       </tr>
 
      </tbody>
@@ -2420,6 +2420,30 @@
       </tr>
 
       <tr>
+       <td scope="row">59a1a246edf581cbcd12d1522bba8e6b</td>
+       <td>CVE-2022-34094</td>
+       <td>2022-07-14 22:15:09 </td>
+       <td>Portal do Software Publico Brasileiro i3geo v7.0.5 was discovered to contain a cross-site scripting (XSS) vulnerability via request_token.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34094">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d08044057f3726a573c8fd1485f88a31</td>
+       <td>CVE-2022-34093</td>
+       <td>2022-07-14 22:15:09 </td>
+       <td>Portal do Software Publico Brasileiro i3geo v7.0.5 was discovered to contain a cross-site scripting (XSS) vulnerability via access_token.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34093">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c1265560279c6185b6e408c48cda570</td>
+       <td>CVE-2022-34092</td>
+       <td>2022-07-14 22:15:08 </td>
+       <td>Portal do Software Publico Brasileiro i3geo v7.0.5 was discovered to contain a cross-site scripting (XSS) vulnerability via svg2img.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34092">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">78a8fd1fbb85a3df48272c2d76394647</td>
        <td>CVE-2022-35283</td>
        <td>2022-07-14 17:15:08 </td>
@@ -2625,30 +2649,6 @@
        <td>2022-07-12 14:15:19 </td>
        <td>The frame scheduling module has a null pointer dereference vulnerability. Successful exploitation of this vulnerability will affect the kernel availability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34735">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2c8943dd732a1b16279a2c9fccd0c401</td>
-       <td>CVE-2022-34819</td>
-       <td>2022-07-12 10:15:12 </td>
-       <td>A vulnerability has been identified in SIMATIC CP 1242-7 V2 (All versions), SIMATIC CP 1243-1 (All versions), SIMATIC CP 1243-7 LTE EU (All versions), SIMATIC CP 1243-7 LTE US (All versions), SIMATIC CP 1243-8 IRC (All versions), SIMATIC CP 1542SP-1 IRC (All versions &gt;= V2.0), SIMATIC CP 1543-1 (All versions &lt; V3.0.22), SIMATIC CP 1543SP-1 (All versions &gt;= V2.0), SIPLUS ET 200SP CP 1542SP-1 IRC TX RAIL (All versions &gt;= V2.0), SIPLUS ET 200SP CP 1543SP-1 ISEC (All versions &gt;= V2.0), SIPLUS ET 200SP CP 1543SP-1 ISEC TX RAIL (All versions &gt;= V2.0), SIPLUS NET CP 1242-7 V2 (All versions), SIPLUS NET CP 1543-1 (All versions &lt; V3.0.22), SIPLUS S7-1200 CP 1243-1 (All versions), SIPLUS S7-1200 CP 1243-1 RAIL (All versions). The application lacks proper validation of user-supplied data when parsing specific messages. This could result in a heap-based buffer overflow. An attacker could leverage this vulnerability to execute code in the context of device.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34819">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cb76a2a4fab7bd8ce422e4bd69250c43</td>
-       <td>CVE-2022-34748</td>
-       <td>2022-07-12 10:15:12 </td>
-       <td>A vulnerability has been identified in Simcenter Femap (All versions &lt; V2022.2). The affected application contains an out of bounds write past the end of an allocated structure while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-17293)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34748">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ead51ef15826ab65e42dac6038e1fa7</td>
-       <td>CVE-2022-34291</td>
-       <td>2022-07-12 10:15:11 </td>
-       <td>A vulnerability has been identified in PADS Standard/Plus Viewer (All versions). The affected application contains a stack corruption vulnerability while parsing PCB files. An attacker could leverage this vulnerability to leak information in the context of the current process. (FG-VD-22-057, FG-VD-22-058, FG-VD-22-060)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34291">详情</a></td>
       </tr>
 
      </tbody>
