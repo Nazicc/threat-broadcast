@@ -1,12 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26138</font><br/>[<b>披露时间</b>] 2022-07-21 06:51:39<br/>[<b>漏洞描述</b>] Confluence Questions For Confluence 硬编码漏洞（CVE-2022-26138）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-26138'>https://avd.aliyun.com/detail?id=AVD-2022-26138</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3555</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Eufy Indoor 2K Indoor Camera缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67625'>http://www.nsfocus.net/vulndb/67625</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23082</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] WhiteSource CureKit路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67624'>http://www.nsfocus.net/vulndb/67624</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21567</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Workflow信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67623'>http://www.nsfocus.net/vulndb/67623</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21566</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Applications Framework信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67622'>http://www.nsfocus.net/vulndb/67622</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21558</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Crystal Ball存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67621'>http://www.nsfocus.net/vulndb/67621</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21568</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle iReceivables信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67620'>http://www.nsfocus.net/vulndb/67620</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21573</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Communications Billing and Revenue Management拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67619'>http://www.nsfocus.net/vulndb/67619</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21572</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Communications Billing and Revenue Management信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67618'>http://www.nsfocus.net/vulndb/67618</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21574</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Communications Billing and Revenue Management拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67617'>http://www.nsfocus.net/vulndb/67617</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21579</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle FLEXCUBE Universal Banking存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67616'>http://www.nsfocus.net/vulndb/67616</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21523</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle BI Publisher信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67615'>http://www.nsfocus.net/vulndb/67615</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21576</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle FLEXCUBE Universal Banking存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67614'>http://www.nsfocus.net/vulndb/67614</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21510</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Database Server存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67613'>http://www.nsfocus.net/vulndb/67613</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21577</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle FLEXCUBE Universal Banking存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67612'>http://www.nsfocus.net/vulndb/67612</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21583</font><br/>[<b>披露时间</b>] 2022-07-21 09:43:14<br/>[<b>漏洞描述</b>] Oracle Banking Trade Finance存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67611'>http://www.nsfocus.net/vulndb/67611</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
