@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
     <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23631</font><br/>[<b>披露时间</b>] 2022-07-22 18:04:05<br/>[<b>漏洞描述</b>] Superjson远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7082'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7082</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22280</font><br/>[<b>披露时间</b>] 2022-07-22 19:04:47<br/>[<b>漏洞描述</b>] SonicWall Analytics和GMS SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7085'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7085</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-53005 (CVE-2017-20036)</font><br/>[<b>披露时间</b>] 2022-07-22 11:39:45<br/>[<b>漏洞描述</b>] phplist跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-53005'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-53005</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
