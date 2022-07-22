@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21550</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67703'>http://www.nsfocus.net/vulndb/67703</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21525</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67702'>http://www.nsfocus.net/vulndb/67702</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21519</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67701'>http://www.nsfocus.net/vulndb/67701</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21537</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67700'>http://www.nsfocus.net/vulndb/67700</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21547</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67699'>http://www.nsfocus.net/vulndb/67699</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21517</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67698'>http://www.nsfocus.net/vulndb/67698</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21539</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67697'>http://www.nsfocus.net/vulndb/67697</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21524</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67696'>http://www.nsfocus.net/vulndb/67696</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21439</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67695'>http://www.nsfocus.net/vulndb/67695</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21533</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67694'>http://www.nsfocus.net/vulndb/67694</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21514</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle Solaris拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67693'>http://www.nsfocus.net/vulndb/67693</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21509</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67692'>http://www.nsfocus.net/vulndb/67692</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21528</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67691'>http://www.nsfocus.net/vulndb/67691</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21527</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67690'>http://www.nsfocus.net/vulndb/67690</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21569</font><br/>[<b>披露时间</b>] 2022-07-22 09:43:55<br/>[<b>漏洞描述</b>] Oracle MySQL Server拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/67689'>http://www.nsfocus.net/vulndb/67689</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23631</font><br/>[<b>披露时间</b>] 2022-07-22 18:04:05<br/>[<b>漏洞描述</b>] Superjson远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7082'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7082</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
