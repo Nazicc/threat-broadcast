@@ -1,15 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27929</font><br/>[<b>披露时间</b>] 2022-07-24 20:15:49<br/>[<b>漏洞描述</b>] Pexip Infinity 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=521b3d1eb0ba47f98ccea0a826c2b0c7'>https://redqueen.tj-un.com/IntelDetails.html?id=521b3d1eb0ba47f98ccea0a826c2b0c7</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27930</font><br/>[<b>披露时间</b>] 2022-07-24 20:15:45<br/>[<b>漏洞描述</b>] Pexip Infinity 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a3d51ade31394df09a46f25be0ad86a6'>https://redqueen.tj-un.com/IntelDetails.html?id=a3d51ade31394df09a46f25be0ad86a6</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27931</font><br/>[<b>披露时间</b>] 2022-07-24 20:15:40<br/>[<b>漏洞描述</b>] Pexip Infinity 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8a05daf172994ea2a9ec3ca1226b20ac'>https://redqueen.tj-un.com/IntelDetails.html?id=8a05daf172994ea2a9ec3ca1226b20ac</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27934</font><br/>[<b>披露时间</b>] 2022-07-24 20:15:35<br/>[<b>漏洞描述</b>] Pexip Infinity 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=971960ad172b42449d9dbe27913ce926'>https://redqueen.tj-un.com/IntelDetails.html?id=971960ad172b42449d9dbe27913ce926</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27933</font><br/>[<b>披露时间</b>] 2022-07-24 20:15:30<br/>[<b>漏洞描述</b>] Pexip Infinity 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a94fcffeff244eabb4b91a466c06e06b'>https://redqueen.tj-un.com/IntelDetails.html?id=a94fcffeff244eabb4b91a466c06e06b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46829</font><br/>[<b>披露时间</b>] 2022-07-24 19:15:00<br/>[<b>漏洞描述</b>] GNOME GdkPixbuf (aka GDK-PixBuf) before 2.42.8 allows a heap-based buffer overflow when compositing or clearing frames in GIF files, as demonstrated by io-gif-animation.c composite_frame. This overflow is controllable and could be abused for code execution, especially on 32-bit systems.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-46829'>https://www.tenable.com/cve/CVE-2021-46829</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24294</font><br/>[<b>披露时间</b>] 2022-07-24 18:15:00<br/>[<b>漏洞描述</b>] A regular expression used in Apache MXNet (incubating) is vulnerable to a potential denial-of-service by excessive resource consumption. The bug could be exploited when loading a model in Apache MXNet that has a specially crafted operator name that would cause the regular expression evaluation to use excessive resources to attempt a match. This issue affects Apache MXNet versions prior to 1.9.1.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-24294'>https://www.tenable.com/cve/CVE-2022-24294</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
