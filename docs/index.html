@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-25 18:51:43 -->
+<!-- RELEASE TIME : 2022-07-25 20:43:39 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">e81b83f0a1fa4a3de1fcbafdd5b528b6</td>
+       <td>CVE-2022-35873</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of ZIP files. Crafted data in a ZIP file can cause the application to execute arbitrary Python scripts. The user interface fails to provide sufficient indication of the hazard. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-16949.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35873">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f48f2b14f3996c1d57adfb7d56ca9d54</td>
+       <td>CVE-2022-35872</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ZIP files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-17115.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35872">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">234a9d01f2b2446743cc25f9f28f0e6a</td>
+       <td>CVE-2022-35871</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). Authentication is not required to exploit this vulnerability. The specific flaw exists within the authenticateAdSso method. The issue results from the lack of authentication prior to allowing the execution of python code. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-17206.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35871">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ff5b0a2bcb6ca156208e2db134a9d627</td>
+       <td>CVE-2022-35870</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within com.inductiveautomation.metro.impl. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Was ZDI-CAN-17265.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35870">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4ab43830088095fb017223f35ecb8192</td>
+       <td>CVE-2022-35869</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>This vulnerability allows remote attackers to bypass authentication on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). Authentication is not required to exploit this vulnerability. The specific flaw exists within com.inductiveautomation.ignition.gateway.web.pages. The issue results from the lack of proper authentication prior to access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-17211.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35869">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">687c9b3cdbbc89af90f72211da67aa35</td>
+       <td>CVE-2022-34966</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contain an HTML injection vulnerability via the location parameter at http://ip_address/:port/ossn/home.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34966">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cbf3740645f6154f86007020391e79f9</td>
+       <td>CVE-2022-23000</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Western Digital My Cloud Web App [https://os5.mycloud.com/] uses a weak SSLContext when attempting to configure port forwarding rules. This was enabled to maintain compatibility with old or outdated home routers. By using an "SSL" context instead of "TLS" or specifying stronger validation, deprecated or insecure protocols are permitted. As a result, a local user with no privileges can exploit this vulnerability and jeopardize the integrity, confidentiality and authenticity of information transmitted. The scope of impact cannot extend to other components and no user input is required to exploit this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23000">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e212921d56427951edae0e9ff9518d7</td>
+       <td>CVE-2022-22999</td>
+       <td>2022-07-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Western Digital My Cloud devices are vulnerable to a cross side scripting vulnerability that can allow a malicious user with elevated privileges access to drives being backed up to construct and inject JavaScript payloads into an authenticated user's browser. As a result, it may be possible to gain control over the authenticated session, steal data, modify settings, or redirect the user to malicious websites. The scope of impact can extend to other components.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22999">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f33ceb21b9619583cf1d75c7dea09297</td>
+       <td>CVE-2022-35288</td>
+       <td>2022-07-25 18:23:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Security Verify Information Queue 10.0.2 could allow a user to obtain sensitive information that could be used in further attacks against the system. IBM X-Force ID: 230818.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35288">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d47c2de233f446eec105bb5d3fce2651</td>
+       <td>CVE-2022-35287</td>
+       <td>2022-07-25 18:23:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Security Verify Information Queue 10.0.2 contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data. IBM X-Force ID: 230817.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35287">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">75e6cec66ef5d7fe8f798d3b0d66e7bf</td>
        <td>CVE-2022-34965</td>
        <td>2022-07-25 17:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
        <td>The Allow SVG Files WordPress plugin through 1.1 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2299">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">322d96c9e9d6a5ab1f52d0c967c47272</td>
-       <td>CVE-2022-2239</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Request a Quote WordPress plugin through 2.3.7 does not sanitise and escape some of its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2239">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a54615903dd84516637e6f587643b332</td>
-       <td>CVE-2022-2219</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Unyson WordPress plugin before 2.7.27 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2219">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e805f2947e2c30a7e281cbae282b80ce</td>
-       <td>CVE-2022-2189</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The WP Video Lightbox WordPress plugin before 1.9.5 does not escape the $_SERVER['REQUEST_URI'] parameter before outputting it back in an attribute, which could lead to Reflected Cross-Site Scripting in old web browsers</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2189">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cf7968e14c1fd8c7e0b495d90830aa3f</td>
-       <td>CVE-2022-2072</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Name Directory WordPress plugin before 1.25.3 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting. Furthermore, as the payload is also saved into the database after the request, it leads to a Stored XSS as well</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2072">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d6e267406f4325b682e4e5d78372c655</td>
-       <td>CVE-2022-2071</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Name Directory WordPress plugin before 1.25.4 does not have CSRF check when importing names, and is also lacking sanitisation as well as escaping in some of the imported data, which could allow attackers to make a logged in admin import arbitrary names with XSS payloads in them.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2071">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b7b30b9de5447c543512bfa7a791e604</td>
-       <td>CVE-2022-1551</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The SP Project & Document Manager WordPress plugin through 4.57 uses an easily guessable path to store user files, bad actors could use that to access other users' sensitive files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1551">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c55dfb0c5e385b3aa6304863618d2ece</td>
-       <td>CVE-2022-1539</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Exports and Reports WordPress plugin before 0.9.2 does not sanitize and validate data when generating the CSV to export, which could lead to a CSV injection, by the use of Microsoft Excel DDE function, or to leak data via maliciously injected hyperlinks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1539">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">62914b55da95bb925b086eece9e715e0</td>
-       <td>CVE-2022-2240</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Request a Quote WordPress plugin through 2.3.7 does not validate uploaded CSV files, allowing unauthenticated users to attach a malicious CSV file to a quote, which could lead to a CSV injection once an admin download and open it</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2240">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">06ffd78cd9fdd87a31a4a337bc7cf4fd</td>
-       <td>CVE-2022-2115</td>
-       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Popup Anything WordPress plugin before 2.1.7 does not sanitise and escape a parameter before outputting it back in a frontend page, leading to a Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2115">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b58c8085741fac09b837d0cd81dc4d11</td>
-       <td>CVE-2022-36450</td>
-       <td>2022-07-25 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Obsidian 0.14.x and 0.15.x before 0.15.5 allows obsidian://hook-get-address remote code execution because window.open is used without checking the URL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36450">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,11 +2412,43 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">dc8507edaaf2d77a592a4dcb2bd06433</td>
+       <td>CVE-2022-36305</td>
+       <td>2022-07-19 19:15:11 </td>
+       <td>Vesta v1.0.0-5 was discovered to contain a cross-site scripting (XSS) vulnerability via the body function at /web/api/v1/upload/UploadHandler.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36305">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">12810933f82b574123b215a9ef45b2d6</td>
+       <td>CVE-2022-36304</td>
+       <td>2022-07-19 19:15:11 </td>
+       <td>Vesta v1.0.0-5 was discovered to contain a cross-site scripting (XSS) vulnerability via the generate_response function at /web/api/v1/upload/UploadHandler.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36304">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">209c87203060a754ceafbf89cd85f968</td>
+       <td>CVE-2022-36303</td>
+       <td>2022-07-19 19:15:10 </td>
+       <td>Vesta v1.0.0-5 was discovered to contain a cross-site scripting (XSS) vulnerability via the handle_file_upload function at /web/api/v1/upload/UploadHandler.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36303">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">24d2305dd07b69acff4502994aa390c6</td>
        <td>CVE-2022-32450</td>
        <td>2022-07-18 13:15:10 </td>
        <td>AnyDesk 7.0.9 allows a local user to gain SYSTEM privileges via a symbolic link because the user can write to their own %APPDATA% folder (used for ad.trace and chat) but the product runs as SYSTEM when writing chat-room data there.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32450">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bbd73dc6272db642c890a9157aa187ec</td>
+       <td>CVE-2022-36127</td>
+       <td>2022-07-18 12:15:08 </td>
+       <td>A vulnerability in Apache SkyWalking NodeJS Agent prior to 0.5.1. The vulnerability will cause NodeJS services that has this agent installed to be unavailable if the OAP is unhealthy and NodeJS agent can't establish the connection.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36127">详情</a></td>
       </tr>
 
       <tr>
@@ -2617,38 +2649,6 @@
        <td>2022-07-14 22:15:08 </td>
        <td>The login function of Mealie v1.0.0beta-2 allows attackers to enumerate existing usernames by timing the server's response time.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32425">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3a859641355c9fed9f1194bdc26be484</td>
-       <td>CVE-2022-32417</td>
-       <td>2022-07-14 22:15:08 </td>
-       <td>PbootCMS v3.1.2 was discovered to contain a remote code execution (RCE) vulnerability via the function parserIfLabel at function.php.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32417">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">108f958ba17c1c648039e2178db93f7c</td>
-       <td>CVE-2022-32416</td>
-       <td>2022-07-14 22:15:08 </td>
-       <td>Product Show Room Site v1.0 is vulnerable to SQL Injection via /psrs/classes/Master.php?f=delete_product.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32416">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">78a8fd1fbb85a3df48272c2d76394647</td>
-       <td>CVE-2022-35283</td>
-       <td>2022-07-14 17:15:08 </td>
-       <td>IBM Security Verify Information Queue 10.0.2 could allow an authenticated user to cause a denial of service with a specially crafted HTTP request.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35283">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">874a0fbda5219eaeff87c67ba361cffa</td>
-       <td>CVE-2022-35857</td>
-       <td>2022-07-13 22:15:09 </td>
-       <td>kvf-admin through 2022-02-12 allows remote attackers to execute arbitrary code because deserialization is mishandled. The rememberMe parameter is encrypted with a hardcoded key from the com.kalvin.kvf.common.shiro.ShiroConfig file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35857">详情</a></td>
       </tr>
 
      </tbody>
