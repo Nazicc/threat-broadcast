@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-27 18:49:16 -->
+<!-- RELEASE TIME : 2022-07-27 20:43:09 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8925bdad9423c6e12db9f7136242398b</td>
+       <td>CVE-2022-34121</td>
+       <td>2022-07-27 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cuppa CMS v1.0 was discovered to contain a local file inclusion (LFI) vulnerability via the component /templates/default/html/windows/right.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34121">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6c778fbeb9290b8105f876ecd1e099bc</td>
+       <td>CVE-2022-34120</td>
+       <td>2022-07-27 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Barangay Management System v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the module editing function at /pages/activity/activity.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34120">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">189a9e37c79e029e6f7f7117aff3d14d</td>
        <td>CVE-2022-35672</td>
        <td>2022-07-27 17:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-07-27 02:15:00 <img src="imgs/new.gif" /></td>
        <td>Advanced School Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component ip/school/moudel/update_subject.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Edit Subject text field.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34594">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">917abb88dae0508a5983a092df284c0d</td>
-       <td>CVE-2022-36129</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>HashiCorp Vault and Vault Enterprise through 2022-07-17 have Incorrect Access Control.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36129">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e3ebc20035deac7f6c2032c4c92bf64e</td>
-       <td>CVE-2022-30276</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Motorola MOSCAD and ACE line of RTUs through 2022-05-02 omit an authentication requirement. They feature IP Gateway modules which allow for interfacing between Motorola Data Link Communication (MDLC) networks (potentially over a variety of serial, RF and/or Ethernet links) and TCP/IP networks. Communication with RTUs behind the gateway is done by means of the proprietary IPGW protocol (5001/TCP). This protocol does not have any authentication features, allowing any attacker capable of communicating with the port in question to invoke (a subset of) desired functionality.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30276">详情</a></td>
       </tr>
 
      </tbody>
@@ -2468,6 +2468,14 @@
       </tr>
 
       <tr>
+       <td scope="row">ac1142c8353e2a879fa30e659d8919d5</td>
+       <td>CVE-2022-34902</td>
+       <td>2022-07-18 15:15:08 </td>
+       <td>This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Access 6.5.4 (39316) Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Desktop Control Agent service. The service loads Qt plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-15787.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34902">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">24d2305dd07b69acff4502994aa390c6</td>
        <td>CVE-2022-32450</td>
        <td>2022-07-18 13:15:10 </td>
@@ -2641,14 +2649,6 @@
        <td>2022-07-15 16:15:14 </td>
        <td>Adobe Photoshop versions 22.5.7 (and earlier) and 23.3.2 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34243">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">913ab46ee9d850ccd5c2969ab92bb7c6</td>
-       <td>CVE-2022-34242</td>
-       <td>2022-07-15 16:15:14 </td>
-       <td>Adobe Character Animator version 4.4.7 (and earlier) and 22.4 (and earlier) are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34242">详情</a></td>
       </tr>
 
      </tbody>
