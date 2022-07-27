@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-27 17:49:44 -->
+<!-- RELEASE TIME : 2022-07-27 18:49:16 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">189a9e37c79e029e6f7f7117aff3d14d</td>
+       <td>CVE-2022-35672</td>
+       <td>2022-07-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Adobe Acrobat Reader version 22.001.20085 (and earlier), 20.005.30314 (and earlier) and 17.012.30205 (and earlier) are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35672">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">102d1782c89d11d572d704fb4b677978</td>
+       <td>CVE-2022-35669</td>
+       <td>2022-07-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Acrobat Reader versions 22.001.20142 (and earlier), 20.005.30334 (and earlier) and 20.005.30334 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35669">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">39b7ec505d805eeaeb8c4bcfd5b418ab</td>
+       <td>CVE-2022-33943</td>
+       <td>2022-07-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Authenticated (contributor or higher user role) Cross-Site Scripting (XSS) vulnerability in Nico Amarilla's BxSlider WP plugin <= 2.0.0 at WordPress.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33943">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">28ff43abe61f4d06afeb1898b6728020</td>
        <td>CVE-2022-36919</td>
        <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
@@ -495,30 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30276">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">b08bd146afa69b06b2437991fb49bc0d</td>
-       <td>CVE-2022-30274</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Motorola ACE1000 RTU through 2022-05-02 uses ECB encryption unsafely. It can communicate with an XRT LAN-to-radio gateway by means of an embedded client. Credentials for accessing this gateway are stored after being encrypted with the Tiny Encryption Algorithm (TEA) in ECB mode using a hardcoded key. Similarly, the ACE1000 RTU can route MDLC traffic over Extended Command and Management Protocol (XCMP) and Network Layer (XNL) networks via the MDLC driver. Authentication to the XNL port is protected by TEA in ECB mode using a hardcoded key.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30274">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d8ab55f72f59feb6b6710b093d948a7</td>
-       <td>CVE-2022-30272</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Motorola ACE1000 RTU through 2022-05-02 mishandles firmware integrity. It utilizes either the STS software suite or ACE1000 Easy Configurator for performing firmware updates. In case of the Easy Configurator, firmware updates are performed through access to the Web UI where file system, kernel, package, bundle, or application images can be installed. Firmware updates for the Front End Processor (FEP) module are performed via access to the SSH interface (22/TCP), where a .hex file image is transferred and a bootloader script invoked. File system, kernel, package, and bundle updates are supplied as RPM (RPM Package Manager) files while FEP updates are supplied as S-rec files. In all cases, firmware images were found to have no authentication (in the form of firmware signing) and only relied on insecure checksums for regular integrity checks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30272">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">239a57188ff88833b15ffd03ba871337</td>
-       <td>CVE-2022-30271</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Motorola ACE1000 RTU through 2022-05-02 ships with a hardcoded SSH private key and initialization scripts (such as /etc/init.d/sshd_service) only generate a new key if no private-key file exists. Thus, this hardcoded key is likely to be used by default.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30271">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">26e55e0f3cd99137812f9986118b6218</td>
+       <td>CVE-2021-22135</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>Elasticsearch 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-380544">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e49ac4877bfe58d50af8c08f072198be</td>
+       <td>CVE-2021-22137</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>Elasticsearch 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-380546">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6a34a8c10de97ea5c2cd1ed9974ba376</td>
+       <td>CVE-2021-43859</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>XStream is an open source java library to......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406484">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e5c122e9ba4894c0e115c717ebe159da</td>
+       <td>CVE-2022-21540</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-407153">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28cb18239f662b233d5195fb51010dfc</td>
+       <td>CVE-2022-21541</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-407154">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9a51e7b6e98de9f1ddec614075fbb111</td>
+       <td>CVE-2022-21549</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-407162">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4971d514a92657a9cd11123f82d71392</td>
+       <td>CVE-2022-22950</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>n Spring Framework versions 5.3.0 - 5.3.16 and......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-411810">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cdbacf16b923f77248b04a749563d020</td>
+       <td>CVE-2022-28347</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>A SQL injection issue was discovered in...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419280">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">807029d09f0aad9df431816dbfa59fc8</td>
+       <td>CVE-2022-31107</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422794">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0483f77f8c99976141b80932a8afc04c</td>
+       <td>CVE-2022-32250</td>
+       <td>2022-07-27 18:48:06 <img src="imgs/new.gif" /></td>
+       <td>net/netfilter/nf_tables_api.c in the Linux...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-424189">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">d74e6a74fac019530ee121cab67c6489</td>
        <td>VHN-427236</td>
@@ -711,96 +801,6 @@
        <td>deferred-exec 安全漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373902">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6f3f529c42620c229dca039725b4ea61</td>
-       <td>CVE-2020-28441</td>
-       <td>2022-07-25 13:57:44</td>
-       <td>conf-cfg-ini 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373905">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b0d02b038f1334f90f6d75cbfb06a666</td>
-       <td>CVE-2020-28443</td>
-       <td>2022-07-25 13:57:44</td>
-       <td>sonar-wrapper 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373907">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b15f55abadd274c64b5c2ac71658315e</td>
-       <td>CVE-2020-28445</td>
-       <td>2022-07-25 13:57:44</td>
-       <td>npm-help 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373909">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">00401b88a90a6ba4c92c6e2b5191f4e1</td>
-       <td>CVE-2020-28446</td>
-       <td>2022-07-25 13:57:44</td>
-       <td>tesseract 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373910">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0253aca6a728af14db4be5cd1eadb1bc</td>
-       <td>CVE-2022-20130</td>
-       <td>2022-07-25 10:46:19</td>
-       <td>Google Android越界写入漏洞（CNVD-2022-53385）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404683">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2ee501ef0c3cfcd31e3436c487d63ae4</td>
-       <td>CVE-2022-20131</td>
-       <td>2022-07-25 10:46:19</td>
-       <td>Google Android越界读取漏洞（CNVD-2022-53368）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404684">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">10ccd5d85296505cbf47a5f4d4a461e9</td>
-       <td>CVE-2022-20132</td>
-       <td>2022-07-25 10:46:19</td>
-       <td>Google Android越界读取漏洞（CNVD-2022-53382）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404685">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eef6133872e667c5805364a818c843a3</td>
-       <td>CVE-2022-20140</td>
-       <td>2022-07-25 10:46:19</td>
-       <td>Google Android越界写入漏洞（CNVD-2022-53369）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404693">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1800c438648370475368eef5c2d208cf</td>
-       <td>CVE-2022-20143</td>
-       <td>2022-07-25 10:46:19</td>
-       <td>Google Android资源管理错误漏洞（CNVD-2022-53370）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404696">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9a75bf94a4ab34a0617d537e9aebbaf8</td>
-       <td>CVE-2022-20149</td>
-       <td>2022-07-25 10:46:19</td>
-       <td>Google Android信息泄露漏洞(CNVD-2022-53380)
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404702">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,6 +2412,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6121117c2c6905662ac0db242fe1e0bd</td>
+       <td>CVE-2022-35569</td>
+       <td>2022-07-20 18:15:08 </td>
+       <td>Blogifier v3.0 was discovered to contain an arbitrary file upload vulnerability at /api/storage/upload/PostImage. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35569">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dc8507edaaf2d77a592a4dcb2bd06433</td>
        <td>CVE-2022-36305</td>
        <td>2022-07-19 19:15:11 </td>
@@ -2641,14 +2649,6 @@
        <td>2022-07-15 16:15:14 </td>
        <td>Adobe Character Animator version 4.4.7 (and earlier) and 22.4 (and earlier) are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34242">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">04a755ca08c27985e9efe232907945f7</td>
-       <td>CVE-2022-35409</td>
-       <td>2022-07-15 14:15:09 </td>
-       <td>An issue was discovered in Mbed TLS before 2.28.2 and 3.x before 3.2.0. In some configurations, an unauthenticated attacker can send an invalid ClientHello message to a DTLS server that causes a heap-based buffer over-read of up to 255 bytes. This can cause a server crash or possibly information disclosure based on error responses. Affected configurations have MBEDTLS_SSL_DTLS_CLIENT_PORT_REUSE enabled and MBEDTLS_SSL_IN_CONTENT_LEN less than a threshold that depends on the configuration: 258 bytes if using mbedtls_ssl_cookie_check, and possibly up to 571 bytes with a custom cookie check function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35409">详情</a></td>
       </tr>
 
      </tbody>
