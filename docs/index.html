@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-27 17:04:32 -->
+<!-- RELEASE TIME : 2022-07-27 17:49:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -360,6 +360,54 @@
       </tr>
 
       <tr>
+       <td scope="row">c4744fbd087b14a388105e5064e0069c</td>
+       <td>CVE-2022-36922</td>
+       <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Jenkins Lucene-Search Plugin 370.v62a5f618cd3a and earlier does not escape the search query parameter displayed on the 'search' result page, resulting in a reflected cross-site scripting (XSS) vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36922">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">52a6e51d6e826515a72b10461d4f0169</td>
+       <td>CVE-2022-36921</td>
+       <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A missing permission check in Jenkins Coverity Plugin 1.11.4 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36921">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3389ed7170deda8dd57b595b7d750dad</td>
+       <td>CVE-2022-36920</td>
+       <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Coverity Plugin 1.11.4 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36920">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8fa72cb4b575acd5bc6acfe860d3be32</td>
+       <td>CVE-2022-36917</td>
+       <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A missing permission check in Jenkins Google Cloud Backup Plugin 0.6 and earlier allows attackers with Overall/Read permission to request a manual backup.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36917">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a0c60b349b25d599b8aab28fa948db81</td>
+       <td>CVE-2022-36914</td>
+       <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Jenkins Files Found Trigger Plugin 1.5 and earlier does not perform a permission check in a method implementing form validation, allowing attackers with Overall/Read permission to check for the existence of an attacker-specified file path on the Jenkins controller file system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36914">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">601f026f1b46f13a331ce97a6fd8212d</td>
+       <td>CVE-2022-36913</td>
+       <td>2022-07-27 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Jenkins Openstack Heat Plugin 1.5 and earlier does not perform permission checks in methods implementing form validation, allowing attackers with Overall/Read permission to check for the existence of an attacker-specified file path on the Jenkins controller file system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36913">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bbbdbdad2dcc1401b3f1e466b195d03c</td>
        <td>CVE-2022-2313</td>
        <td>2022-07-27 10:15:00 <img src="imgs/new.gif" /></td>
@@ -469,54 +517,6 @@
        <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
        <td>The Motorola ACE1000 RTU through 2022-05-02 ships with a hardcoded SSH private key and initialization scripts (such as /etc/init.d/sshd_service) only generate a new key if no private-key file exists. Thus, this hardcoded key is likely to be used by default.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30271">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">27776f919cc15a40ae5436e329642ab1</td>
-       <td>CVE-2022-30270</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Motorola ACE1000 RTU through 2022-05-02 has default credentials. It exposes an SSH interface on port 22/TCP. This interface is used for remote maintenance and for SFTP file-transfer operations that are part of engineering software functionality. Access to this interface is controlled by 5 preconfigured accounts (root, abuilder, acelogin, cappl, ace), all of which come with default credentials. Although the ACE1000 documentation mentions the root, abuilder and acelogin accounts and instructs users to change the default credentials, the cappl and ace accounts remain undocumented and thus are unlikely to have their credentials changed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30270">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">465a34b473edfd2ccfc56c00f6c9276e</td>
-       <td>CVE-2022-30269</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Motorola ACE1000 RTUs through 2022-05-02 mishandle application integrity. They allow for custom application installation via either STS software, the C toolkit, or the ACE1000 Easy Configurator. In the case of the Easy Configurator, application images (as PLX/DAT/APP/CRC files) are uploaded via the Web UI. In case of the C toolkit, they are transferred and installed using SFTP/SSH. In each case, application images were found to have no authentication (in the form of firmware signing) and only relied on insecure checksums for regular integrity checks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30269">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05c7a824442f857db212003d4b33ff55</td>
-       <td>CVE-2021-40180</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>In the WeChat application 8.0.10 for Android and iOS, a mini program can obtain sensitive information from a user's address book via wx.searchContacts.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40180">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d99778ed144a102f15326de3654f2b8</td>
-       <td>CVE-2021-33057</td>
-       <td>2022-07-26 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>The QQ application 8.7.1 for Android and iOS does not enforce the permission requirements (e.g., android.permission.ACCESS_FINE_LOCATION) for determining the device's physical location. An attacker can use qq.createMapContext to create a MapContext object, use MapContext.moveToLocation to move the center of the map to the device's location, and use MapContext.getCenterLocation to get the latitude and longitude of the current map center.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33057">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">45ab1a4a58c4b079ed95fbaf031ec1f4</td>
-       <td>CVE-2022-31207</td>
-       <td>2022-07-26 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Omron SYSMAC Cx product family PLCs (CS series, CJ series, and CP series) through 2022-05-18 lack cryptographic authentication. They utilize the Omron FINS (9600/TCP) protocol for engineering purposes, including downloading projects and control logic to the PLC. This protocol has authentication flaws as reported in FSCT-2022-0057. Control logic is downloaded to PLC volatile memory using the FINS Program Area Read and Program Area Write commands or to non-volatile memory using other commands from where it can be loaded into volatile memory for execution. The logic that is loaded into and executed from the user program area exists in compiled object code form. Upon execution, these object codes are first passed to a dedicated ASIC that determines whether the object code is to be executed by the ASIC or the microprocessor. In the former case, the object code is interpreted by the ASIC whereas in the latter case the object code is passed to the microprocessor for object code interpretation by a ROM interpreter. In the abnormal case where the object code cannot be handled by either, an abnormal condition is triggered and the PLC is halted. The logic that is downloaded to the PLC does not seem to be cryptographically authenticated, thus allowing an attacker to manipulate transmitted object code to the PLC and either execute arbitrary object code commands on the ASIC or on the microprocessor interpreter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31207">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e4c86ffc5fc5edb0c7b978bbad747362</td>
-       <td>CVE-2022-1671</td>
-       <td>2022-07-26 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A NULL pointer dereference flaw was found in rxrpc_preparse_s in net/rxrpc/server_key.c in the Linux kernel. This flaw allows a local attacker to crash the system or leak internal kernel information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1671">详情</a></td>
       </tr>
 
      </tbody>
