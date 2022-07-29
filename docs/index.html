@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-29 17:00:31 -->
+<!-- RELEASE TIME : 2022-07-29 18:51:26 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7e9475fe1fc2f95b3a3e00d0458f01f7</td>
+       <td>CVE-2022-35632</td>
+       <td>2022-07-29 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Velociraptor GUI contains an editor suggestion feature that can display the description field of a VQL function, plugin or artifact. This field was not properly sanitized and can lead to cross-site scripting (XSS).This issue was resolved in Velociraptor 0.6.5-2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35632">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b89d2f1a36268492f893e39000553c3e</td>
+       <td>CVE-2022-35631</td>
+       <td>2022-07-29 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>On MacOS and Linux, it may be possible to perform a symlink attack by replacing this predictable file name with a symlink to another file and have the Velociraptor client overwrite the other file.This issue was resolved in Velociraptor 0.6.5-2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35631">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">40380e6b5f361b2b9dd1b1297bf0e07c</td>
+       <td>CVE-2022-35630</td>
+       <td>2022-07-29 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) issue in generating a collection report made it possible for malicious clients to inject JavaScript code into the static HTML file.This issue was resolved in Velociraptor 0.6.5-2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35630">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b2ae7d85e25c65e46ed8005dc8caf10</td>
+       <td>CVE-2022-35629</td>
+       <td>2022-07-29 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Due to a bug in the handling of the communication between the client and server, it was possible for one client, already registered with their own client ID, to send messages to the server claiming to come from another client ID.This issue was resolved in Velociraptor 0.6.5-2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35629">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7eed226095701dbbd9cfd5823fb2937a</td>
+       <td>CVE-2022-33881</td>
+       <td>2022-07-29 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Parsing a maliciously crafted PRT file can force Autodesk AutoCAD 2023 to read beyond allocated boundaries. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33881">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32ddda5003486277d6bc43340e3f0fb5</td>
+       <td>CVE-2022-27873</td>
+       <td>2022-07-29 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>An attacker can force the victim’s device to perform arbitrary HTTP requests in WAN through a malicious SVG file being parsed by Autodesk Fusion 360’s document parser. The vulnerability exists in the application’s ‘Insert SVG’ procedure. An attacker can also leverage this vulnerability to obtain victim’s public IP and possibly other sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27873">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">921d9cf04b12fe9ef89e3cbdc9c4810e</td>
+       <td>CVE-2022-2579</td>
+       <td>2022-07-29 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, was found in SourceCodester Garage Management System 1.0. Affected is an unknown function of the file /php_action/createUser.php. The manipulation of the argument userName with the input lala<img src="" onerror=alert(1)> leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2579">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">86b9dcbe40d0c9e2f5d119b5a542770b</td>
+       <td>CVE-2022-2578</td>
+       <td>2022-07-29 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as critical, has been found in SourceCodester Garage Management System 1.0. This issue affects some unknown processing of the file /php_action/createUser.php. The manipulation leads to improper access controls. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2578">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e920f4d919b83009e85e3b79a69056ec</td>
+       <td>CVE-2022-2577</td>
+       <td>2022-07-29 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as critical was found in SourceCodester Garage Management System 1.0. This vulnerability affects unknown code of the file /edituser.php. The manipulation of the argument id with the input -2'%20UNION%20select%2011,user(),333,444--+ leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2577">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f8a03b038be9f930e70753e56c98f6b3</td>
+       <td>CVE-2016-4981</td>
+       <td>2022-07-29 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2016-4982. Reason: This candidate is a duplicate of CVE-2016-4982. Notes: All CVE users should reference CVE-2016-4982 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-4981">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6a2f1332c395e5b302feb4a09a3208dd</td>
        <td>CVE-2022-36123</td>
        <td>2022-07-29 14:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-07-28 20:15:00 <img src="imgs/new.gif" /></td>
        <td>DPTech VPN v8.1.28.0 was discovered to contain an arbitrary file read vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34593">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">12ae0deaa2bb2d1001d83c048a095e34</td>
-       <td>CVE-2022-34578</td>
-       <td>2022-07-28 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Open Source Point of Sale v3.3.7 was discovered to contain an arbitrary file upload vulnerability via the Update Branding Settings page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34578">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f2645ebde0c3b2fb37086981b349cfe</td>
-       <td>CVE-2022-2564</td>
-       <td>2022-07-28 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Prototype Pollution in GitHub repository automattic/mongoose prior to 6.4.6.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2564">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2ce309b36c1c2774a39cbc9a84801007</td>
-       <td>CVE-2016-7049</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-7049">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c097e9c62223b5f61076ce47ec7ab0b3</td>
-       <td>CVE-2016-7029</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-7029">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">431b7688c35b344d7ffbbc5945612ddc</td>
-       <td>CVE-2016-6326</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-6326">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">98a118cc3c49844d1f98e0bb60ae1361</td>
-       <td>CVE-2016-6324</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-6324">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c7b53032552a96f38735747ec93a3f6</td>
-       <td>CVE-2016-6315</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-6315">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e4ed51cabaecd9e2505d81a5eceee9d</td>
-       <td>CVE-2016-6314</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-6314">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">213987b0ad7cc634ce5ff4143b8bb3cc</td>
-       <td>CVE-2016-5428</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-5428">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1c6acd1560559dbf8b957576612935f9</td>
-       <td>CVE-2016-5415</td>
-       <td>2022-07-28 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2016. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-5415">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5eaf88f28f4faec2428173cc70b9dc22</td>
+       <td>CNVD-2022-14717</td>
+       <td>2022-07-30 18:49:28 <img src="imgs/new.gif" /></td>
+       <td>达梦数据库管理系统存在文件上传漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-14717">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2c8b94aa230f0412945d528d9f473867</td>
+       <td>CNVD-2022-14716</td>
+       <td>2022-07-30 18:49:26 <img src="imgs/new.gif" /></td>
+       <td>达梦数据库管理系统存在文件删除漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-14716">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e5df47b4313065f9cc59b2dff11d62e3</td>
+       <td>CNVD-2022-18259</td>
+       <td>2022-07-30 18:49:23 <img src="imgs/new.gif" /></td>
+       <td>达梦数据库管理系统存在信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-18259">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">193198555d879767518a584a905343e6</td>
+       <td>CNVD-2022-19522</td>
+       <td>2022-07-30 18:49:21 <img src="imgs/new.gif" /></td>
+       <td>达梦数据库管理系统存在逻辑缺陷漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-19522">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9b4efcd2db27877e97d3f1d4ec1e4801</td>
+       <td>CNVD-2022-49990</td>
+       <td>2022-07-30 18:49:19 <img src="imgs/new.gif" /></td>
+       <td>西门子智慧能源管理平台存在弱口令漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-49990">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">15e2200f86ae45126d19a33542364786</td>
        <td>CNVD-2022-51199 (CVE-2021-26086)</td>
        <td>2022-07-30 16:57:58 <img src="imgs/new.gif" /></td>
@@ -1015,46 +1055,6 @@
        <td>2022-07-28 14:00:47 <img src="imgs/new.gif" /></td>
        <td>Jenkins Deployment Dashboard Plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-53894">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0a0228957d7a610809773f4fc5e2fb72</td>
-       <td>CNVD-2022-53893 (CVE-2022-34808)</td>
-       <td>2022-07-28 08:47:30 <img src="imgs/new.gif" /></td>
-       <td>Jenkins Cisco Spark Plugin信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-53893">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f78fb17cc5e8eded4b633f10346a3cb8</td>
-       <td>CNVD-2022-53892 (CVE-2022-34785)</td>
-       <td>2022-07-28 08:47:28 <img src="imgs/new.gif" /></td>
-       <td>Jenkins build-metrics Plugin信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-53892">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1e6eae50ddc3f1100a14c7168d6d43f6</td>
-       <td>CNVD-2022-53891 (CVE-2022-34784)</td>
-       <td>2022-07-28 08:47:26 <img src="imgs/new.gif" /></td>
-       <td>Jenkins build-metrics Plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-53891">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">01b0e03560f34f11f18a3a344fd4cbad</td>
-       <td>CNVD-2022-53890 (CVE-2022-34800)</td>
-       <td>2022-07-28 08:47:23 <img src="imgs/new.gif" /></td>
-       <td>Jenkins Build Notifications Plugin信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-53890">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bd474461c86d4991b9a4e941348f3677</td>
-       <td>CNVD-2022-53889 (CVE-2022-34796)</td>
-       <td>2022-07-28 08:47:21 <img src="imgs/new.gif" /></td>
-       <td>Jenkins Deployment Dashboard信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-53889">详情</a></td>
       </tr>
 
      </tbody>
@@ -2420,6 +2420,14 @@
       </tr>
 
       <tr>
+       <td scope="row">31754f06d827a60081145e49b62a09dd</td>
+       <td>CVE-2022-2071</td>
+       <td>2022-07-25 13:15:08 </td>
+       <td>The Name Directory WordPress plugin before 1.25.4 does not have CSRF check when importing names, and is also lacking sanitisation as well as escaping in some of the imported data, which could allow attackers to make a logged in admin import arbitrary names with XSS payloads in them.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2071">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c10c17da7d4ad57e0700a4293abfc304</td>
        <td>CVE-2022-25759</td>
        <td>2022-07-22 20:15:09 </td>
@@ -2641,14 +2649,6 @@
        <td>2022-07-19 22:15:12 </td>
        <td>Vulnerability in the Java VM component of Oracle Database Server. Supported versions that are affected are 12.1.0.2, 19c and 21c. Easily exploitable vulnerability allows low privileged attacker having Create Procedure privilege with network access via Oracle Net to compromise Java VM. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Java VM accessible data. CVSS 3.1 Base Score 6.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N).</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21565">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d7b26a8ed1723a58944ec3e75f0df90c</td>
-       <td>CVE-2022-21564</td>
-       <td>2022-07-19 22:15:12 </td>
-       <td>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Web Services). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle WebLogic Server. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21564">详情</a></td>
       </tr>
 
      </tbody>
