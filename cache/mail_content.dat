@@ -1,15 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36336</font><br/>[<b>披露时间</b>] 2022-07-30 00:15:00<br/>[<b>漏洞描述</b>] A link following vulnerability in the scanning function of Trend Micro Apex One and Worry-Free Business Security agents could allow a local attacker to escalate privileges on affected installations. The resolution for this issue has been deployed automatically via ActiveUpdate to customers in an updated Spyware pattern. Customers who are up-to-date on detection patterns are not required to take any additional steps to mitigate this issue.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-36336'>https://www.tenable.com/cve/CVE-2022-36336</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35234</font><br/>[<b>披露时间</b>] 2022-07-30 00:15:00<br/>[<b>漏洞描述</b>] Trend Micro Security 2021 and 2022 (Consumer) is vulnerable to an Out-Of-Bounds Read Information Disclosure Vulnerability that could allow an attacker to read sensitive information from other memory locations and cause a crash on an affected machine.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-35234'>https://www.tenable.com/cve/CVE-2022-35234</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33158</font><br/>[<b>披露时间</b>] 2022-07-30 00:15:00<br/>[<b>漏洞描述</b>] Trend Micro VPN Proxy Pro version 5.2.1026 and below contains a vulnerability involving some overly permissive folders in a key directory which could allow a local attacker to obtain privilege escalation on an affected system.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33158'>https://www.tenable.com/cve/CVE-2022-33158</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30083</font><br/>[<b>披露时间</b>] 2022-07-30 00:15:00<br/>[<b>漏洞描述</b>] EllieGrid Android Application version 3.4.1 is vulnerable to Code Injection. The application appears to evaluate user input as code (remote).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30083'>https://www.tenable.com/cve/CVE-2022-30083</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-27785</font><br/>[<b>披露时间</b>] 2022-07-30 00:15:00<br/>[<b>漏洞描述</b>] HCL Commerce's Remote Store server could allow a local attacker to obtain sensitive personal information. The vulnerability requires the victim to first perform a particular operation on the website.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-27785'>https://www.tenable.com/cve/CVE-2021-27785</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1391594</font><br/>[<b>披露时间</b>] 2022-07-20 08:45:21<br/>[<b>漏洞描述</b>] Weaver /mobile/plugin/Download.jsp sessionkey SQL注入漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1391594'>https://avd.aliyun.com/detail?id=AVD-2022-1391594</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
