@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-01 15:51:00 -->
+<!-- RELEASE TIME : 2022-08-01 17:03:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">4a20f5945db2e91263a2e1737736d035</td>
+       <td>CVE-2022-30699</td>
+       <td>2022-08-01 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>NLnet Labs Unbound, up to and including version 1.16.1, is vulnerable to a novel type of the "ghost domain names" attack. The vulnerability works by targeting an Unbound instance. Unbound is queried for a rogue domain name when the cached delegation information is about to expire. The rogue nameserver delays the response so that the cached delegation information is expired. Upon receiving the delayed answer containing the delegation information, Unbound overwrites the now expired entries. This action can be repeated when the delegation information is about to expire making the rogue delegation information ever-updating. From version 1.16.2 on, Unbound stores the start time for a query and uses that to decide if the cached delegation information can be overwritten.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30699">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8101f1e212522ac50823946ce944adb5</td>
+       <td>CVE-2022-30698</td>
+       <td>2022-08-01 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>NLnet Labs Unbound, up to and including version 1.16.1 is vulnerable to a novel type of the "ghost domain names" attack. The vulnerability works by targeting an Unbound instance. Unbound is queried for a subdomain of a rogue domain name. The rogue nameserver returns delegation information for the subdomain that updates Unbound's delegation cache. This action can be repeated before expiry of the delegation information by querying Unbound for a second level subdomain which the rogue nameserver provides new delegation information. Since Unbound is a child-centric resolver, the ever-updating child delegation information can keep a rogue domain name resolvable long after revocation. From version 1.16.2 on, Unbound checks the validity of parent delegation records before using cached delegation information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30698">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2405739238ff7da78d576843612e8a63</td>
+       <td>CVE-2022-2596</td>
+       <td>2022-08-01 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Denial of Service in GitHub repository node-fetch/node-fetch prior to 3.2.10.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2596">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">573b1472d01ce4c5453fa7fc1ee0a1e2</td>
+       <td>CVE-2022-2581</td>
+       <td>2022-08-01 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Out-of-bounds Read in GitHub repository vim/vim prior to 9.0.0104.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2581">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">805d6c4dce5ee152748528d4cc91cb68</td>
+       <td>CVE-2022-2580</td>
+       <td>2022-08-01 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0102.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2580">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4ac568c83e418abcae8f0184210752b5</td>
+       <td>CVE-2022-36343</td>
+       <td>2022-08-01 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Authenticated (author or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in ideasToCode Enable SVG, WebP & ICO Upload plugin <= 1.0.1 at WordPress.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36343">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b8c29264f7a158cb0a208b2aa9c609be</td>
+       <td>CVE-2022-36302</td>
+       <td>2022-08-01 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>File path manipulation vulnerability in BF-OS version 3.00 up to and including 3.83 allows an attacker to modify the file path to access different resources, which may contain sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36302">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c383168360c4f50cd2b613c3b37276c</td>
+       <td>CVE-2022-36301</td>
+       <td>2022-08-01 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>BF-OS version 3.x up to and including 3.83 do not enforce strong passwords which may allow a remote attacker to brute-force the device password.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36301">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38ec4743792a5f637fc561125a5de2b5</td>
+       <td>CVE-2022-26443</td>
+       <td>2022-08-01 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In wifi driver, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: GN20220420068; Issue ID: GN20220420068.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26443">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">484125a2d913ef420ee14e2d73265070</td>
+       <td>CVE-2022-26442</td>
+       <td>2022-08-01 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In wifi driver, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: GN20220420051; Issue ID: GN20220420051.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26442">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7d89470d1919d880b5be4d949ff5c486</td>
        <td>CVE-2022-26310</td>
        <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2591">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">23575b2b139656627cf028c06d4e5321</td>
-       <td>CVE-2022-33994</td>
-       <td>2022-07-30 20:15:00</td>
-       <td>The Gutenberg plugin through 13.7.3 for WordPress allows stored XSS by the Contributor role via an SVG document to the "Insert from URL" feature. NOTE: the XSS payload does not execute in the context of the WordPress instance's domain; however, analogous attempts by low-privileged users to reference SVG documents are blocked by some similar products, and this behavioral difference might have security relevance to some WordPress site administrators.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33994">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0c9bd7e5128516d4587878c42d4d8c34</td>
-       <td>CVE-2022-36336</td>
-       <td>2022-07-30 00:15:00</td>
-       <td>A link following vulnerability in the scanning function of Trend Micro Apex One and Worry-Free Business Security agents could allow a local attacker to escalate privileges on affected installations. The resolution for this issue has been deployed automatically via ActiveUpdate to customers in an updated Spyware pattern. Customers who are up-to-date on detection patterns are not required to take any additional steps to mitigate this issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36336">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">baaf5b74c1c132401f8461bc114e5392</td>
-       <td>CVE-2022-35234</td>
-       <td>2022-07-30 00:15:00</td>
-       <td>Trend Micro Security 2021 and 2022 (Consumer) is vulnerable to an Out-Of-Bounds Read Information Disclosure Vulnerability that could allow an attacker to read sensitive information from other memory locations and cause a crash on an affected machine.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35234">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a72beed9be4d53d82d96539acf85fd5a</td>
-       <td>CVE-2022-33158</td>
-       <td>2022-07-30 00:15:00</td>
-       <td>Trend Micro VPN Proxy Pro version 5.2.1026 and below contains a vulnerability involving some overly permissive folders in a key directory which could allow a local attacker to obtain privilege escalation on an affected system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33158">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ccd4d2f62a423efb0b8f7f48e60a2b59</td>
-       <td>CVE-2022-30083</td>
-       <td>2022-07-30 00:15:00</td>
-       <td>EllieGrid Android Application version 3.4.1 is vulnerable to Code Injection. The application appears to evaluate user input as code (remote).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30083">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8882c9986dc44ba363494cbdd93a7594</td>
-       <td>CVE-2021-27785</td>
-       <td>2022-07-30 00:15:00</td>
-       <td>HCL Commerce's Remote Store server could allow a local attacker to obtain sensitive personal information. The vulnerability requires the victim to first perform a particular operation on the website.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-27785">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">37965487c5937d022fcafd31467b9c67</td>
-       <td>CVE-2022-34531</td>
-       <td>2022-07-29 23:15:00</td>
-       <td>DedeCMS v5.7.95 was discovered to contain a remote code execution (RCE) vulnerability via the component mytag_ main.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34531">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">58d88186f8c376f5f0ab6afca217caa4</td>
-       <td>CVE-2022-34528</td>
-       <td>2022-07-29 23:15:00</td>
-       <td>D-Link DSL-3782 v1.03 and below was discovered to contain a stack overflow via the function getAttrValue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34528">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d598429b8eff803c9152e712c72ad553</td>
-       <td>CVE-2022-34527</td>
-       <td>2022-07-29 23:15:00</td>
-       <td>D-Link DSL-3782 v1.03 and below was discovered to contain a command injection vulnerability via the function byte_4C0160.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34527">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e373f32d7d870d0ea20039fd9c781fbd</td>
-       <td>CVE-2022-34526</td>
-       <td>2022-07-29 23:15:00</td>
-       <td>A stack overflow was discovered in the _TIFFVGetField function of Tiffsplit v4.4.0. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted TIFF file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34526">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,60 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">af26ad54d1c38bf94ab6b7f3e2bea8af</td>
+       <td>CVE-2021-3670</td>
+       <td>2022-08-01 17:02:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398565">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bbefddadcd63b2f5046a438a96659058</td>
+       <td>CVE-2022-34046</td>
+       <td>2022-08-01 17:02:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426315">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e896f2982acf7f976007cb3a031d517d</td>
+       <td>CVE-2022-34047</td>
+       <td>2022-08-01 17:02:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426316">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">507f868c31ee53f96481c1d55aed795c</td>
+       <td>CVE-2022-34048</td>
+       <td>2022-08-01 17:02:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426317">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">17f8f275280168a650d7bd8812084c26</td>
+       <td>VHN-427332</td>
+       <td>2022-08-01 17:02:48 <img src="imgs/new.gif" /></td>
+       <td>Packet Storm New Exploits For July, 2022...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427332">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fc66a5ab419f2b3138f59de6d3844958</td>
+       <td>VHN-427333</td>
+       <td>2022-08-01 17:02:48 <img src="imgs/new.gif" /></td>
+       <td>Backdoor.Win32.Destrukor.20 MVID-2022-0627...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-427333">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">c024c5b9f41c9cda963eaa27e355e3ff</td>
        <td>CVE-2021-0987</td>
@@ -747,60 +801,6 @@
        <td>PortlandLabs Concrete CMS跨站脚本漏洞（CNVD-2022-54306）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-421614">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eea38ced5c9d5f86ade1685bb8035137</td>
-       <td>CVE-2022-30120</td>
-       <td>2022-07-29 07:42:03</td>
-       <td>PortlandLabs Concrete CMS跨站脚本漏洞（CNVD-2022-54305）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-421615">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eb5b390607197c37e0131d2e4a0b8c55</td>
-       <td>CVE-2022-30818</td>
-       <td>2022-07-29 06:50:57</td>
-       <td>Wedding Management System SQL注入漏洞（CNVD-2022-54279）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422354">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">212f3d3f2800a0f4e5297afa37c829f3</td>
-       <td>CVE-2022-30819</td>
-       <td>2022-07-29 06:50:57</td>
-       <td>Wedding Management System任意文件上传漏洞（CNVD-2022-54291）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422355">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3d42393eb641fad56ec4434e4110e75f</td>
-       <td>CVE-2022-30820</td>
-       <td>2022-07-29 06:50:57</td>
-       <td>Wedding Management System任意文件上传漏洞（CNVD-2022-54294）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422356">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f1c7f93e564f89c6025ebd95ff407533</td>
-       <td>CVE-2022-30821</td>
-       <td>2022-07-29 06:50:57</td>
-       <td>Wedding Management System任意文件上传漏洞（CNVD-2022-54289）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422357">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d1f3b68716fe21efe6c8b910ba5d40ec</td>
-       <td>CVE-2022-30822</td>
-       <td>2022-07-29 06:50:57</td>
-       <td>Wedding Management System任意文件上传漏洞（CNVD-2022-54295）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422358">详情</a></td>
       </tr>
 
      </tbody>
