@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-01 19:40:21 -->
+<!-- RELEASE TIME : 2022-08-01 21:45:35 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5cb6b1fdec3684af620597c42f68dbe1</td>
+       <td>CVE-2022-31178</td>
+       <td>2022-08-01 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>eLabFTW is an electronic lab notebook manager for research teams. A vulnerability was discovered which allows a logged in user to read a template without being authorized to do so. This vulnerability has been patched in 4.3.4. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31178">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e82fea42baa5ec8b17cf0b44e4d0dc0</td>
+       <td>CVE-2022-31177</td>
+       <td>2022-08-01 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Flask-AppBuilder is an application development framework built on top of Flask python framework. In versions prior to 4.1.3 an authenticated Admin user could query other users by their salted and hashed passwords strings. These filters could be made by using partial hashed password strings. The response would not include the hashed passwords, but an attacker could infer partial password hashes and their respective users. This issue has been fixed in version 4.1.3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31177">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9649b049fe66c9160bbd4af1ab9d9b68</td>
+       <td>CVE-2022-31173</td>
+       <td>2022-08-01 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Juniper is a GraphQL server library for Rust. Affected versions of Juniper are vulnerable to uncontrolled recursion resulting in a program crash. This issue has been addressed in version 0.15.10. Users are advised to upgrade. Users unable to upgrade should limit the recursion depth manually.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31173">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">890153a68ae3118beb2938ad691e0014</td>
+       <td>CVE-2022-31155</td>
+       <td>2022-08-01 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sourcegraph is an opensource code search and navigation engine. In Sourcegraph versions before 3.41.0, it is possible for an attacker to delete other usersâ€™ saved searches due to a bug in the authorization check. The vulnerability does not allow the reading of other usersâ€™ saved searches, only overwriting them with attacker-controlled searches. The issue is patched in Sourcegraph version 3.41.0. There is no workaround for this issue and updating to a secure version is highly recommended.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31155">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ba7c300407638e661369eb740baef5cb</td>
+       <td>CVE-2022-31154</td>
+       <td>2022-08-01 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sourcegraph is an opensource code search and navigation engine. It is possible for an authenticated Sourcegraph user to edit the Code Monitors owned by any other Sourcegraph user. This includes being able to edit both the trigger and the action of the monitor in question. An attacker is not able to read contents of existing code monitors, only override the data. The issue is fixed in Sourcegraph 3.42. There are no workaround for the issue and patching is highly recommended.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31154">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ec7583f7260408d9ffe2d53f10e0595d</td>
        <td>CVE-2022-31148</td>
        <td>2022-08-01 17:15:00 <img src="imgs/new.gif" /></td>
@@ -301,6 +341,14 @@
        <td>2022-08-01 17:15:00 <img src="imgs/new.gif" /></td>
        <td>laminas-diactoros is a PHP package containing implementations of the PSR-7 HTTP message interfaces and PSR-17 HTTP message factory interfaces. Applications that use Diactoros, and are either not behind a proxy, or can be accessed via untrusted proxies, can potentially have the host, protocol, and/or port of a `Laminas\Diactoros\Uri` instance associated with the incoming server request modified to reflect values from `X-Forwarded-*` headers. Such changes can potentially lead to XSS attacks (if a fully-qualified URL is used in links) and/or URL poisoning. Since the `X-Forwarded-*` headers do have valid use cases, particularly in clustered environments using a load balancer, the library offers mitigation measures only in the v2 releases, as doing otherwise would break these use cases immediately. Users of v2 releases from 2.11.1 can provide an additional argument to `Laminas\Diactoros\ServerRequestFactory::fromGlobals()` in the form of a `Laminas\Diactoros\RequestFilter\RequestFilterInterface` instance, including the shipped `Laminas\Diactoros\RequestFilter\NoOpRequestFilter` implementation which ignores the `X-Forwarded-*` headers. Starting in version 3.0, the library will reverse behavior to use the `NoOpRequestFilter` by default, and require users to opt-in to `X-Forwarded-*` header usage via a configured `Laminas\Diactoros\RequestFilter\LegacyXForwardedHeaderFilter` instance. Users are advised to upgrade to version 2.11.1 or later to resolve this issue. Users unable to upgrade may configure web servers to reject `X-Forwarded-*` headers at the web server level.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31109">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f7c03d7f36cbd02324f9f0944485808e</td>
+       <td>CVE-2022-31148</td>
+       <td>2022-08-01 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Shopware is an open source e-commerce software. In versions from 5.7.0 a persistent cross site scripting (XSS) vulnerability exists in the customer module. Users are recommend to update to the current version 5.7.14. You can get the update to 5.7.14 regularly via the Auto-Updater or directly via the download overview. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31148">详情</a></td>
       </tr>
 
       <tr>
@@ -469,54 +517,6 @@
        <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
        <td>Pandora FMS v7.0NG.760 and below allows an improper authorization in User Management where any authenticated user with access to the User Management module could create, modify or delete any user with full admin privilege. The impact could lead to a vertical privilege escalation to access the privileges of a higher-level user or typically an admin user.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26310">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ee58213f948a20a3d5ad3b630595c0b0</td>
-       <td>CVE-2022-26309</td>
-       <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Pandora FMS v7.0NG.759 allows Cross-Site Request Forgery in Bulk operation (User operation) resulting in elevation of privilege to Administrator group.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26309">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">62230ea4d4bda3afa619c717a3cd6d5d</td>
-       <td>CVE-2022-26308</td>
-       <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Pandora FMS v7.0NG.760 and below allows an improper access control in Configuration (Credential store) where a user with the role of Operator (Write) could create, delete, view existing keys which are outside the intended role.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26308">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d028b5f39088dc7e60295478ad13186</td>
-       <td>CVE-2022-2370</td>
-       <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The YaySMTP WordPress plugin before 2.2.1 does not have capability check before displaying the Mailer Credentials in JS code for the settings, allowing any authenticated users, such as subscriber to retrieve them</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2370">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">717b7b0a77fe47abefe4227623f7dbf9</td>
-       <td>CVE-2022-2369</td>
-       <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The YaySMTP WordPress plugin before 2.2.1 does not have capability check in an AJAX action, allowing any logged in users, such as subscriber to view the Logs of the plugin</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2369">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">72164c4b84a39b72a31807209c9020d8</td>
-       <td>CVE-2022-2328</td>
-       <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Flexi Quote Rotator WordPress plugin through 0.9.4 does not sanitise and escape its settings, allowing high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2328">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44b7f958cd6703d672b82e9eb5b825fc</td>
-       <td>CVE-2022-2325</td>
-       <td>2022-08-01 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Invitation Based Registrations WordPress plugin through 2.2.84 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2325">详情</a></td>
       </tr>
 
      </tbody>
@@ -2508,6 +2508,14 @@
       </tr>
 
       <tr>
+       <td scope="row">4386bb89c480383ee036507996f1ca96</td>
+       <td>CVE-2022-24083</td>
+       <td>2022-07-25 17:15:08 </td>
+       <td>Password authentication bypass vulnerability for local accounts can be used to bypass local authentication checks.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24083">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">212b84d2f385c68e420fe6953e1a8188</td>
        <td>CVE-2022-35653</td>
        <td>2022-07-25 16:15:08 </td>
@@ -2596,6 +2604,14 @@
       </tr>
 
       <tr>
+       <td scope="row">799099ccd1cd9ebc02a9b5d61cfbc442</td>
+       <td>CVE-2022-24294</td>
+       <td>2022-07-24 18:15:09 </td>
+       <td>A regular expression used in Apache MXNet (incubating) is vulnerable to a potential denial-of-service by excessive resource consumption. The bug could be exploited when loading a model in Apache MXNet that has a specially crafted operator name that would cause the regular expression evaluation to use excessive resources to attempt a match. This issue affects Apache MXNet versions prior to 1.9.1.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24294">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">eb4939454688f2dc058725fc409581a3</td>
        <td>CVE-2022-1146</td>
        <td>2022-07-23 00:15:09 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-07-22 17:15:08 </td>
        <td>Multiple Authenticated (subscriber or higher user role) SQL Injection (SQLi) vulnerabilities in WooPlugins.co's Homepage Product Organizer for WooCommerce plugin &lt;= 1.1 at WordPress.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30998">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f42d7bf385c15128c7ef6497dba957c7</td>
-       <td>CVE-2022-29495</td>
-       <td>2022-07-22 17:15:08 </td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in Sygnoos Popup Builder plugin &lt;= 4.1.11 at WordPress allows an attacker to update plugin settings.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29495">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e39cf8841513118f08d52df5c28065fe</td>
-       <td>CVE-2022-27235</td>
-       <td>2022-07-22 17:15:08 </td>
-       <td>Multiple Broken Access Control vulnerabilities in Social Share Buttons by Supsystic plugin &lt;= 2.2.3 at WordPress.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27235">详情</a></td>
       </tr>
 
      </tbody>
