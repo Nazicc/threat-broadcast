@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-01 10:49:19 -->
+<!-- RELEASE TIME : 2022-08-01 13:25:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c6e99b1c72889ae22225895204f7e847</td>
+       <td>CVE-2022-36799</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>This issue exists to document that a security improvement in the way that Jira Server and Data Center use templates has been implemented. Affected versions of Atlassian Jira Server and Data Center allowed remote attackers with system administrator permissions to execute arbitrary code via Template Injection leading to Remote Code Execution (RCE) in the Email Templates feature. In this case the security improvement was to protect against using the XStream library to be able to execute arbitrary code in velocity templates. The affected versions are before version 8.13.19, from version 8.14.0 before 8.20.7, and from version 8.21.0 before 8.22.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36799">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec217a49ce8ec1d7e526d45e5e362aab</td>
+       <td>CVE-2022-35716</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM UrbanCode Deploy (UCD) 6.2.0.0 through 6.2.7.16, 7.0.0.0 through 7.0.5.11, 7.1.0.0 through 7.1.2.7, and 7.2.0.0 through 7.2.3.0 could allow an authenticated user to obtain sensitive information in some instances due to improper security checking. IBM X-Force ID: 231360.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35716">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e824890b517491277a26fcb50a236dbe</td>
+       <td>CVE-2022-34338</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Robotic Process Automation 21.0.0, 21.0.1, and 21.0.2 could disclose sensitive information due to improper privilege management for storage provider types. IBM X-Force ID: 229962.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34338">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">36e452346b4c3f3c47f018eb5f3568a8</td>
+       <td>CVE-2022-33169</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Robotic Process Automation 21.0.0, 21.0.1, and 21.0.2 is vulnerable to insufficiently protected credentials for users created via a bulk upload. IBM X-Force ID: 228888.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33169">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28be4b9966b8f9d0ffd37b40d6dee851</td>
+       <td>CVE-2022-32750</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM DataPower Gateway 10.0.2.0 through 10.0.4.0, 10.0.1.0 through 10.0.1.8, 10.5.0.0, and 2018.4.1.0 through 2018.4.1.21 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 228435.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32750">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8061a439a2c89e80fa9679b5cb183706</td>
+       <td>CVE-2022-31776</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM DataPower Gateway 10.0.2.0 through 10.0.4.0, 10.0.1.0 through 10.0.1.8, 10.5.0.0, and 2018.4.1.0 through 2018.4.1.21 is vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks. IBM X-Force ID: 228433.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31776">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4553a88cf4b8abef75c2448f336e996d</td>
+       <td>CVE-2022-31775</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM DataPower Gateway 10.0.2.0 through 10.0.4.0, 10.0.1.0 through 10.0.1.8, 10.5.0.0, and 2018.4.1.0 through 2018.4.1.21 is vulnerable to an XML External Entity Injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or consume memory resources. IBM X-Force ID: 228359.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31775">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">052ebe98af91f536a46386f41316f795</td>
+       <td>CVE-2022-31774</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM DataPower Gateway 10.0.2.0 through 10.0.4.0, 10.0.1.0 through 10.0.1.8, 10.5.0.0, and 2018.4.1.0 through 2018.4.1.21 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 228358.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31774">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6333998415d3d3477316f49df9796ff7</td>
+       <td>CVE-2022-30616</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Robotic Process Automation 21.0.0, 21.0.1, and 21.0.2 could allow a privileged user to elevate their privilege to platform administrator through manipulation of APIs. IBM X-Force ID: 227978.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30616">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d3f79efb872894dc824c24aa998db50</td>
+       <td>CVE-2022-2591</td>
+       <td>2022-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as critical has been found in TEM FLEX-1085 1.6.0. Affected is an unknown function of the file /sistema/flash/reboot. The manipulation leads to denial of service. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2591">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">23575b2b139656627cf028c06d4e5321</td>
        <td>CVE-2022-33994</td>
        <td>2022-07-30 20:15:00</td>
@@ -437,86 +517,6 @@
        <td>2022-07-29 19:15:00</td>
        <td>Access to external entities when parsing XML documents can lead to XML external entity (XXE) attacks. This flaw allows a remote attacker to potentially retrieve the content of arbitrary files by sending specially crafted HTTP requests.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2414">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6f819528aa2b856592ea884e0682a31f</td>
-       <td>CVE-2022-23004</td>
-       <td>2022-07-29 19:15:00</td>
-       <td>When computing a shared secret or point multiplication on the NIST P-256 curve using a public key with an X coordinate of zero, an error is returned from the library, and an invalid unreduced value is written to the output buffer. This may be leveraged by an attacker to cause an error scenario, resulting in a limited denial of service for an individual user. The scope of impact cannot extend to other components.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23004">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a7de7f4a35e60b255eb7b1e29e7b02f8</td>
-       <td>CVE-2022-23003</td>
-       <td>2022-07-29 19:15:00</td>
-       <td>When computing a shared secret or point multiplication on the NIST P-256 curve that results in an X coordinate of zero, the resulting output is not properly reduced modulo the P-256 field prime and is invalid. The resulting output may cause an error when used in other operations. This may be leveraged by an attacker to cause an error scenario or incorrect choice of session key in applications which use the library, resulting in a limited denial of service for an individual user. The scope of impact cannot extend to other components.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23003">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">43f1495b02512604685bcc6a5c348b77</td>
-       <td>CVE-2022-23002</td>
-       <td>2022-07-29 19:15:00</td>
-       <td>When compressing or decompressing a point on the NIST P-256 elliptic curve with an X coordinate of zero, the resulting output is not properly reduced modulo the P-256 field prime and is invalid. The resulting output will cause an error when used in other operations. This may be leveraged by an attacker to cause an error scenario in applications which use the library, resulting in a limited denial of service for an individual user. The scope of impact cannot extend to other components.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23002">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">83867c2dd1c271f3ceca0ab8e27f0f3d</td>
-       <td>CVE-2022-23001</td>
-       <td>2022-07-29 19:15:00</td>
-       <td>When compressing or decompressing elliptic curve points using the Sweet B library, an incorrect choice of sign bit is used. An attacker with user level privileges and no other user's assistance can exploit this vulnerability with only knowledge of the public key and the library. The resulting output may cause an error when used in other operations; for instance, verification of a valid signature under a decompressed public key may fail. This may be leveraged by an attacker to cause an error scenario in applications which use the library, resulting in a limited denial of service for an individual user. The scope of impact cannot extend to other components.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23001">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e9475fe1fc2f95b3a3e00d0458f01f7</td>
-       <td>CVE-2022-35632</td>
-       <td>2022-07-29 17:15:00</td>
-       <td>The Velociraptor GUI contains an editor suggestion feature that can display the description field of a VQL function, plugin or artifact. This field was not properly sanitized and can lead to cross-site scripting (XSS).This issue was resolved in Velociraptor 0.6.5-2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b89d2f1a36268492f893e39000553c3e</td>
-       <td>CVE-2022-35631</td>
-       <td>2022-07-29 17:15:00</td>
-       <td>On MacOS and Linux, it may be possible to perform a symlink attack by replacing this predictable file name with a symlink to another file and have the Velociraptor client overwrite the other file.This issue was resolved in Velociraptor 0.6.5-2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35631">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40380e6b5f361b2b9dd1b1297bf0e07c</td>
-       <td>CVE-2022-35630</td>
-       <td>2022-07-29 17:15:00</td>
-       <td>A cross-site scripting (XSS) issue in generating a collection report made it possible for malicious clients to inject JavaScript code into the static HTML file.This issue was resolved in Velociraptor 0.6.5-2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35630">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4b2ae7d85e25c65e46ed8005dc8caf10</td>
-       <td>CVE-2022-35629</td>
-       <td>2022-07-29 17:15:00</td>
-       <td>Due to a bug in the handling of the communication between the client and server, it was possible for one client, already registered with their own client ID, to send messages to the server claiming to come from another client ID.This issue was resolved in Velociraptor 0.6.5-2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35629">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1ead5717d3dfb0fc002a62cbae6d529d</td>
-       <td>CVE-2022-35632</td>
-       <td>2022-07-29 17:15:00</td>
-       <td>The Velociraptor GUI contains an editor suggestion feature that can display the description field of a VQL function, plugin or artifact. This field was not properly sanitized and can lead to cross-site scripting (XSS). This issue was resolved in Velociraptor 0.6.5-2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">873187b027a213e05740f4523e980ba2</td>
-       <td>CVE-2022-35631</td>
-       <td>2022-07-29 17:15:00</td>
-       <td>On MacOS and Linux, it may be possible to perform a symlink attack by replacing this predictable file name with a symlink to another file and have the Velociraptor client overwrite the other file. This issue was resolved in Velociraptor 0.6.5-2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35631">详情</a></td>
       </tr>
 
      </tbody>
@@ -1072,6 +1072,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">693a4b2277f3bd27d16e28b6ef74b719</td>
+       <td>CNNVD-202207-2804 (CVE-2022-36336)</td>
+       <td>2022-07-30 13:23:24</td>
+       <td>Trend Micro Micro Worry-Free Business Security和Trend Micro Apex One 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2804">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3fca9789ba85cf8f6ade3b4d4be2302e</td>
+       <td>CNNVD-202207-2805 (CVE-2022-33158)</td>
+       <td>2022-07-30 13:23:21</td>
+       <td>Trend Micro VPN Proxy Pro 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2805">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8e93441b729e35059ae0233e876d6597</td>
+       <td>CNNVD-202207-2806 (CVE-2021-27785)</td>
+       <td>2022-07-30 13:23:19</td>
+       <td>HCL Technologies HCL Commerce Remote Store server 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2806">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9e23c478199b405fa5866de1bc8f4427</td>
+       <td>CNNVD-202207-2807 (CVE-2022-33994)</td>
+       <td>2022-07-30 13:23:12</td>
+       <td>WordPress plugin Gutenberg 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2807">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0cb8bebbf028074bd145b43bbab23011</td>
+       <td>CNNVD-202207-2798 (CVE-2022-34496)</td>
+       <td>2022-07-29 13:23:40</td>
+       <td>Hiby Music Hiby R3 PRO firmware 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2798">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9432509c182c6ddaa9673d3144645392</td>
+       <td>CNNVD-202207-2799 (CVE-2022-36293)</td>
+       <td>2022-07-29 13:23:38</td>
+       <td>Nintendo Wi-Fi Network Adptor WAP-001 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2799">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aa5fc1cdc2ab980f12518be91096848d</td>
+       <td>CNNVD-202207-2800 (CVE-2022-36381)</td>
+       <td>2022-07-29 13:23:35</td>
+       <td>Nintendo Wi-Fi Network Adptor WAP-001 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2800">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7086d7ed5b0707eb67426b3074c6831e</td>
+       <td>CNNVD-202207-2801 (CVE-2022-25812)</td>
+       <td>2022-07-29 13:23:32</td>
+       <td>WordPress plugin Transposh WordPress Translation 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2801">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f5b7730bd87bd96095fe11fcf0025015</td>
+       <td>CNNVD-202207-2802 (CVE-2022-30083)</td>
+       <td>2022-07-29 13:23:29</td>
+       <td>EllieGrid Android Application 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2802">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ef57bb8af095de3e32d9a58dd1733cfe</td>
+       <td>CNNVD-202207-2803 (CVE-2022-2509)</td>
+       <td>2022-07-29 13:23:26</td>
+       <td>GnuTLS 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2803">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">cfbdc1f3db8e7d755b176153c009f12a</td>
        <td>CNNVD-202207-2645 (CVE-2021-41556)</td>
        <td>2022-07-28 13:22:30</td>
@@ -1229,86 +1309,6 @@
        <td>2022-07-27 13:21:56</td>
        <td>FeehiCMS 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2573">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7558446ce5d1d66756a949d6e5dfc668</td>
-       <td>CNNVD-202207-2472 (CVE-2022-30319)</td>
-       <td>2022-07-26 13:23:21</td>
-       <td>Honeywell Saia Burgess PG5 PCD 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2472">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2ad25e585806901d50eb64b3a213631c</td>
-       <td>CNNVD-202207-2473 (CVE-2022-27105)</td>
-       <td>2022-07-26 13:23:19</td>
-       <td>InMailX 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2473">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">388efd010914f959c13510966fbbeff2</td>
-       <td>CNNVD-202207-2474 (CVE-2022-29960)</td>
-       <td>2022-07-26 13:23:17</td>
-       <td>Emerson OpenBSI 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2474">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">38d56acdc847a08e368afd5a4f782336</td>
-       <td>CNNVD-202207-2475 (CVE-2022-1704)</td>
-       <td>2022-07-26 13:23:14</td>
-       <td>Inductive Automation Ignition 代码问题漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2475">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b5eb7bb9be47150edd0fdc45b72997e3</td>
-       <td>CNNVD-202207-2476 (CVE-2022-2043)</td>
-       <td>2022-07-26 13:23:12</td>
-       <td>MOXA NPort 5110 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2476">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">89a3b4e696b39844fea08c5e5506be30</td>
-       <td>CNNVD-202207-2477 (CVE-2021-33057)</td>
-       <td>2022-07-26 13:23:10</td>
-       <td>Tencent QQ 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2477">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bed585829c7aa334581a11333e47dbec</td>
-       <td>CNNVD-202207-2478 (CVE-2022-27812)</td>
-       <td>2022-07-26 13:23:08</td>
-       <td>Stormshield Network Security 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2478">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4183224edc3cef677ff00e20fde3079a</td>
-       <td>CNNVD-202207-2479 (CVE-2021-40180)</td>
-       <td>2022-07-26 13:23:05</td>
-       <td>Tencent WeChat 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2479">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">17369348cd96875d12f4d44ec8e3de2e</td>
-       <td>CNNVD-202207-2480 (CVE-2022-2044)</td>
-       <td>2022-07-26 13:23:03</td>
-       <td>MOXA NPort 5110 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2480">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a751f20c4430d09d3b5604870f07cdc3</td>
-       <td>CNNVD-202207-2481 (CVE-2022-36129)</td>
-       <td>2022-07-26 13:23:01</td>
-       <td>HashiCorp Vault 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202207-2481">详情</a></td>
       </tr>
 
      </tbody>
@@ -2500,6 +2500,22 @@
       </tr>
 
       <tr>
+       <td scope="row">212b84d2f385c68e420fe6953e1a8188</td>
+       <td>CVE-2022-35653</td>
+       <td>2022-07-25 16:15:08 </td>
+       <td>A reflected XSS issue was identified in the LTI module of Moodle. The vulnerability exists due to insufficient sanitization of user-supplied data in the LTI module. A remote attacker can trick the victim to follow a specially crafted link and execute arbitrary HTML and script code in user's browser in context of vulnerable website to steal potentially sensitive information, change appearance of the web page, can perform phishing and drive-by-download attacks. This vulnerability does not impact authenticated users.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35653">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">816ed42d92f15f40cb2e72aaa6bd7d24</td>
+       <td>CVE-2022-35651</td>
+       <td>2022-07-25 16:15:08 </td>
+       <td>A stored XSS and blind SSRF vulnerability was found in Moodle, occurs due to insufficient sanitization of user-supplied data in the SCORM track details. A remote attacker can trick the victim to follow a specially crafted link and execute arbitrary HTML and script code in user's browser in context of vulnerable website to steal potentially sensitive information, change appearance of the web page, can perform phishing and drive-by-download attacks.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35651">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8410406e47c3a17755801c2debcadace</td>
        <td>CVE-2022-1310</td>
        <td>2022-07-25 14:15:10 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-07-22 16:15:08 </td>
        <td>A Denial-of-Service vulnerability was discovered in the F-Secure Atlant and in certain WithSecure products while scanning fuzzed APK file it is possible that can crash the scanning engine.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28878">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec5ef9375767e075e866a3a7aa5a2510</td>
-       <td>CVE-2022-2470</td>
-       <td>2022-07-22 15:15:08 </td>
-       <td>Cross-site Scripting (XSS) - Reflected in GitHub repository microweber/microweber prior to 1.2.21.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2470">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ae21abff39dfe758ee1ea89ed7cf2259</td>
-       <td>CVE-2022-36131</td>
-       <td>2022-07-22 13:15:08 </td>
-       <td>The Better PDF Exporter add-on 10.0.0 for Atlassian Jira is prone to stored XSS via a crafted description to the PDF Templates overview page.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36131">详情</a></td>
       </tr>
 
      </tbody>
