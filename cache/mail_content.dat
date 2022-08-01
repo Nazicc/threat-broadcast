@@ -1,13 +1,19 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54473</font><br/>[<b>披露时间</b>] 2022-08-01 08:48:44<br/>[<b>漏洞描述</b>] Nginx LDAP代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54473'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54473</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-08-01 08:36:44<br/>[<b>漏洞描述</b>] 安全事件周报 (07.25-07.31)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=9095ee51659c618ed5bf16d2a9a07d9f'>https://cert.360.cn/warning/detail?id=9095ee51659c618ed5bf16d2a9a07d9f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54474 (CVE-2022-20192)</font><br/>[<b>披露时间</b>] 2022-08-01 09:43:33<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54474'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54474</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54475 (CVE-2021-1006)</font><br/>[<b>披露时间</b>] 2022-08-01 09:43:35<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54475'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54475</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54476 (CVE-2021-0989)</font><br/>[<b>披露时间</b>] 2022-08-01 09:43:37<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54476'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54476</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54477 (CVE-2021-0987)</font><br/>[<b>披露时间</b>] 2022-08-01 09:43:39<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54477'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54477</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54478 (CVE-2022-20216)</font><br/>[<b>披露时间</b>] 2022-08-01 09:43:42<br/>[<b>漏洞描述</b>] Google Android安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54478'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54478</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54479 (CVE-2022-20217)</font><br/>[<b>披露时间</b>] 2022-08-01 09:43:44<br/>[<b>漏洞描述</b>] Google Android存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54479'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54479</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-427311</font><br/>[<b>披露时间</b>] 2022-08-01 09:44:47<br/>[<b>漏洞描述</b>] Nginx LDAP代码执行漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-427311'>http://cve.scap.org.cn/vuln/VHN-427311</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
