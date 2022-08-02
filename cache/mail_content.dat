@@ -1,28 +1,33 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">14</font>条：</h3>
 <ul>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
     <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">5</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54639 (CVE-2021-39074)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:12<br/>[<b>漏洞描述</b>] IBM Security Guardium跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54639'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54639</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54640 (CVE-2022-31767)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:14<br/>[<b>漏洞描述</b>] IBM CICS TX Standard and Advanced操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54640'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54640</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54641 (CVE-2021-29768)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:16<br/>[<b>漏洞描述</b>] IBM Cognos Analytics信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54641'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54641</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54642 (CVE-2021-38945)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:19<br/>[<b>漏洞描述</b>] IBM Cognos Analytics文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54642'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54642</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54643 (CVE-2021-39047)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:21<br/>[<b>漏洞描述</b>] IBM Planning Analytics and Cognos Analytics跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54643'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54643</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54644 (CVE-2022-33953)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:23<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54644'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54644</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54645 (CVE-2022-22502)</font><br/>[<b>披露时间</b>] 2022-08-02 07:40:26<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54645'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54645</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38945</font><br/>[<b>披露时间</b>] 2022-08-02 07:41:19<br/>[<b>漏洞描述</b>] IBM Cognos Analytics文件上传漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-400526'>http://cve.scap.org.cn/vuln/VHN-400526</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39047</font><br/>[<b>披露时间</b>] 2022-08-02 07:41:19<br/>[<b>漏洞描述</b>] IBM Planning Analytics and Cognos Analytics跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-400633'>http://cve.scap.org.cn/vuln/VHN-400633</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22502</font><br/>[<b>披露时间</b>] 2022-08-02 07:41:19<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411071'>http://cve.scap.org.cn/vuln/VHN-411071</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31767</font><br/>[<b>披露时间</b>] 2022-08-02 07:41:19<br/>[<b>漏洞描述</b>] IBM CICS TX Standard and Advanced操作系统命令注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423617'>http://cve.scap.org.cn/vuln/VHN-423617</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33953</font><br/>[<b>披露时间</b>] 2022-08-02 07:41:19<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation信息泄露漏洞（CNVD-2022-54644）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426134'>http://cve.scap.org.cn/vuln/VHN-426134</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2022-1397744</font><br/>[<b>披露时间</b>] 2022-08-01 08:49:45<br/>[<b>漏洞描述</b>] Weaver e-Office ajax.php mobile_upload_save 任意文件上传漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-1397744'>https://avd.aliyun.com/detail?id=AVD-2022-1397744</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54730 (CVE-2022-27937)</font><br/>[<b>披露时间</b>] 2022-08-02 08:49:47<br/>[<b>漏洞描述</b>] Pexip Infinity资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54730'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54730</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54731 (CVE-2022-27936)</font><br/>[<b>披露时间</b>] 2022-08-02 08:49:49<br/>[<b>漏洞描述</b>] Pexip Infinity输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54731'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54731</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54732 (CVE-2022-27935)</font><br/>[<b>披露时间</b>] 2022-08-02 08:49:52<br/>[<b>漏洞描述</b>] Pexip Infinity输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54732'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54732</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54733 (CVE-2022-27934)</font><br/>[<b>披露时间</b>] 2022-08-02 08:49:54<br/>[<b>漏洞描述</b>] Pexip Infinity输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54733'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54733</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54734 (CVE-2022-27933)</font><br/>[<b>披露时间</b>] 2022-08-02 08:49:56<br/>[<b>漏洞描述</b>] Pexip Infinity输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54734'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54734</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54735 (CVE-2022-27932)</font><br/>[<b>披露时间</b>] 2022-08-02 08:49:58<br/>[<b>漏洞描述</b>] Pexip Infinity输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54735'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54735</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54736 (CVE-2022-25357)</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:01<br/>[<b>漏洞描述</b>] Pexip Infinity访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54736'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54736</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46005</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:36<br/>[<b>漏洞描述</b>] Sourcecodester Car Rental Management System跨站脚本漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-410723'>http://cve.scap.org.cn/vuln/VHN-410723</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29377</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:36<br/>[<b>漏洞描述</b>] Totolink A3600R缓冲区溢出漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420911'>http://cve.scap.org.cn/vuln/VHN-420911</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29639</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:36<br/>[<b>漏洞描述</b>] TotoLink A3100R命令注入漏洞（CNVD-2022-54652）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-421148'>http://cve.scap.org.cn/vuln/VHN-421148</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29646</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:36<br/>[<b>漏洞描述</b>] TotoLink A3100R访问控制错误漏洞（CNVD-2022-54651）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-421155'>http://cve.scap.org.cn/vuln/VHN-421155</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31966</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:36<br/>[<b>漏洞描述</b>] ChatBot App with Suggestion任意文件删除漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423849'>http://cve.scap.org.cn/vuln/VHN-423849</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31969</font><br/>[<b>披露时间</b>] 2022-08-02 08:50:36<br/>[<b>漏洞描述</b>] ChatBot App with Suggestion SQL注入漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423852'>http://cve.scap.org.cn/vuln/VHN-423852</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
