@@ -1,15 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36913</font><br/>[<b>披露时间</b>] 2022-07-27 15:15:11 <br/>[<b>漏洞描述</b>] Jenkins Openstack Heat Plugin 1.5 and earlier does not perform permission checks in methods implementing form validation, allowing attackers with Overall/Read permission to check for the existence of an attacker-specified file path on the Jenkins controller file system.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36913'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36913</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1477</font><br/>[<b>披露时间</b>] 2022-08-03 20:29:17<br/>[<b>漏洞描述</b>] Google Chromium 资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a4d2b353951442eb8c0643c1196b60f5'>https://redqueen.tj-un.com/IntelDetails.html?id=a4d2b353951442eb8c0643c1196b60f5</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1481</font><br/>[<b>披露时间</b>] 2022-08-03 20:29:12<br/>[<b>漏洞描述</b>] Google Chromium 资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fdaf9bb5df984a5aa89113de05cea007'>https://redqueen.tj-un.com/IntelDetails.html?id=fdaf9bb5df984a5aa89113de05cea007</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1484</font><br/>[<b>披露时间</b>] 2022-08-03 20:29:02<br/>[<b>漏洞描述</b>] Google Chromium 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=706474a4381b4530a0343e8ba137c87a'>https://redqueen.tj-un.com/IntelDetails.html?id=706474a4381b4530a0343e8ba137c87a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36917</font><br/>[<b>披露时间</b>] 2022-07-27 15:15:12 <br/>[<b>漏洞描述</b>] A missing permission check in Jenkins Google Cloud Backup Plugin 0.6 and earlier allows attackers with Overall/Read permission to request a manual backup.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36917'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36917</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36916</font><br/>[<b>披露时间</b>] 2022-07-27 15:15:12 <br/>[<b>漏洞描述</b>] A cross-site request forgery (CSRF) vulnerability in Jenkins Google Cloud Backup Plugin 0.6 and earlier allows attackers to request a manual backup.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36916'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36916</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
