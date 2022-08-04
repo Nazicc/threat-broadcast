@@ -1,38 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55142 (CVE-2022-20692)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:06<br/>[<b>漏洞描述</b>] Cisco IOS XE NETCONF Over SSH拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55142'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55142</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55143 (CVE-2022-20714)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:09<br/>[<b>漏洞描述</b>] Cisco IOS XR Lightspeed-Plus Line Cards拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55143'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55143</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55144 (CVE-2022-20679)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:11<br/>[<b>漏洞描述</b>] Cisco IOS XR IPSec拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55144'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55144</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55145 (CVE-2022-20682)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:13<br/>[<b>漏洞描述</b>] Cisco IOS XE Wireless Controller software拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55145'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55145</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55146 (CVE-2022-20758)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:16<br/>[<b>漏洞描述</b>] Cisco IOS XR BGP Ethernet VPN拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55146'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55146</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55147 (CVE-2022-20683)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:18<br/>[<b>漏洞描述</b>] Cisco IOS XE AVC-FNF拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55147'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55147</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-55148 (CVE-2022-20678)</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:20<br/>[<b>漏洞描述</b>] Cisco IOS XE AppNav-XE拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-55148'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-55148</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-32040</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] MongoDB缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-391953'>http://cve.scap.org.cn/vuln/VHN-391953</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20676</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XE权限提升漏洞（ CNVD-2022-55149）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405229'>http://cve.scap.org.cn/vuln/VHN-405229</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20678</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XE AppNav-XE拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405231'>http://cve.scap.org.cn/vuln/VHN-405231</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20679</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XR IPSec拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405232'>http://cve.scap.org.cn/vuln/VHN-405232</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20681</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XE权限提升漏洞（ CNVD-2022-55150）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405234'>http://cve.scap.org.cn/vuln/VHN-405234</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20682</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XE Wireless Controller software拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405235'>http://cve.scap.org.cn/vuln/VHN-405235</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20683</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XE AVC-FNF拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405236'>http://cve.scap.org.cn/vuln/VHN-405236</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20692</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XE NETCONF Over SSH拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405245'>http://cve.scap.org.cn/vuln/VHN-405245</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20714</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XR Lightspeed-Plus Line Cards拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405267'>http://cve.scap.org.cn/vuln/VHN-405267</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20758</font><br/>[<b>披露时间</b>] 2022-08-04 04:22:59<br/>[<b>漏洞描述</b>] Cisco IOS XR BGP Ethernet VPN拒绝服务漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405311'>http://cve.scap.org.cn/vuln/VHN-405311</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36948</font><br/>[<b>披露时间</b>] 2022-07-27 21:15:08 <br/>[<b>漏洞描述</b>] In Veritas NetBackup OpsCenter, a DOM XSS attack can occur. This affects 8.x through 8.3.0.2, 9.x through 9.0.0.1, 9.1.x through 9.1.0.1, and 10.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36948'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36948</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-0965</font><br/>[<b>披露时间</b>] 2022-08-04 05:13:31<br/>[<b>漏洞描述</b>] Google Android存在未明漏洞（ CNVD-2022-55157）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-373556'>http://cve.scap.org.cn/vuln/VHN-373556</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-22547</font><br/>[<b>披露时间</b>] 2022-08-04 05:13:31<br/>[<b>漏洞描述</b>] iot-device-sdk-embedded-c 安全漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-380984'>http://cve.scap.org.cn/vuln/VHN-380984</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-30751</font><br/>[<b>披露时间</b>] 2022-08-04 05:13:31<br/>[<b>漏洞描述</b>] Apple macOS Big Sur存在未明漏洞（CNVD-2022-55158）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-390484'>http://cve.scap.org.cn/vuln/VHN-390484</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
