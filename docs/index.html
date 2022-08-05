@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-04 23:43:07 -->
+<!-- RELEASE TIME : 2022-08-05 02:59:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a8b5b38d333e373058d88686e1866503</td>
+       <td>CVE-2022-37030</td>
+       <td>2022-08-04 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Weak permissions on the configuration file in the PAM module in Grommunio Gromox 0.5 through 1.x before 1.28 allow a local unprivileged user in the gromox group to have the PAM stack execute arbitrary code upon loading the Gromox PAM module.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37030">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">12517a6b3f3fd83cc5d82bd544e5f7a8</td>
+       <td>CVE-2022-35930</td>
+       <td>2022-08-04 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>PolicyController is a utility used to enforce supply chain policy in Kubernetes clusters. In versions prior to 0.2.1 PolicyController will report a false positive, resulting in an admission when it should not be admitted when there is at least one attestation with a valid signature and there are NO attestations of the type being verified (--type defaults to "custom"). An example image that can be used to test this is `ghcr.io/distroless/static@sha256:dd7614b5a12bc4d617b223c588b4e0c833402b8f4991fb5702ea83afad1986e2`. Users should upgrade to version 0.2.1 to resolve this issue. There are no workarounds for users unable to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35930">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">55a507b8c30497b875abf7677e78dd38</td>
+       <td>CVE-2022-31793</td>
+       <td>2022-08-04 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>do_request in request.c in muhttpd before 1.1.7 allows remote attackers to read arbitrary files by constructing a URL with a single character before a desired path on the filesystem. This occurs because the code skips over the first character when serving files. Arris NVG443, NVG599, NVG589, and NVG510 devices and Arris-derived BGW210 and BGW320 devices are affected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31793">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">41c2aff18515b65cc20fecbad830235e</td>
        <td>CVE-2022-35927</td>
        <td>2022-08-04 21:15:00 <img src="imgs/new.gif" /></td>
@@ -495,30 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2653">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">86b16857e489495e019a04916b16f3a1</td>
-       <td>CVE-2022-2652</td>
-       <td>2022-08-04 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Depending on the way the format strings in the card label are crafted it's possible to leak kernel stack memory. There is also the possibility for DoS due to the v4l2loopback kernel module crashing when providing the card label on request (reproduce e.g. with many %s modifiers in a row).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2652">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5a8a19aa7ab32d40b176ca5f44ffde16</td>
-       <td>CVE-2022-2651</td>
-       <td>2022-08-04 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Authentication Bypass by Primary Weakness in GitHub repository bookwyrm-social/bookwyrm prior to 0.4.5.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4024f8302380356a61b8d9c12f5a48dd</td>
-       <td>CVE-2022-2648</td>
-       <td>2022-08-04 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester Multi Language Hotel Management Software. It has been rated as critical. This issue affects some unknown processing. The manipulation of the argument room_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-205595.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2648">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,24 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">48ec8f714972ccd698f73e85ba69c352</td>
+       <td>CVE-2022-23674</td>
+       <td>2022-08-05 02:58:08 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager跨站脚本漏洞（CNVD-2022-55534）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">96dd888ed2f90939b132c8c9aef15e2d</td>
+       <td>CVE-2022-23675</td>
+       <td>2022-08-05 02:58:08 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager跨站脚本漏洞（CNVD-2022-55535）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412851">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">7e4f3f14ef24f6de86aa51603625a03b</td>
        <td>CVE-2021-21772</td>
@@ -680,7 +698,7 @@
       <tr>
        <td scope="row">29a982e6e2cb51bf8e3c8581edc5503e</td>
        <td>CVE-2021-23443</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>edge.js跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-381904">详情</a></td>
@@ -689,7 +707,7 @@
       <tr>
        <td scope="row">d39aec3e24a66a4154b2c0ea068b92b8</td>
        <td>CVE-2021-30741</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>Apple iPadOS 资源管理错误漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-390474">详情</a></td>
@@ -698,7 +716,7 @@
       <tr>
        <td scope="row">89a3baae28421e3217098cc672172abc</td>
        <td>CVE-2021-30786</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>Apple iOS和macOS Big Sur竞争条件问题漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-390519">详情</a></td>
@@ -707,7 +725,7 @@
       <tr>
        <td scope="row">e555927e85d52c8f3a7151d53f97bd7d</td>
        <td>CVE-2021-39876</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>GitLab CE/EE信息泄露漏洞（CNVD-2022-55068）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401293">详情</a></td>
@@ -716,7 +734,7 @@
       <tr>
        <td scope="row">1e25c8ae3832e23306af87b9d34998c5</td>
        <td>CVE-2021-43009</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>OpServices OpMon跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404061">详情</a></td>
@@ -725,7 +743,7 @@
       <tr>
        <td scope="row">f406c84676adf108b9c720fedfd6b9b0</td>
        <td>CVE-2021-44124</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>Hiby Music Hiby OS R3 Pro目录遍历漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406736">详情</a></td>
@@ -734,7 +752,7 @@
       <tr>
        <td scope="row">1bfc5c211d89395f1db476dcbf21e9cc</td>
        <td>CVE-2021-44794</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>Kronos Single Connect授权错误漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408111">详情</a></td>
@@ -743,7 +761,7 @@
       <tr>
        <td scope="row">6dad6d334f345b171da4299b1868df28</td>
        <td>CVE-2022-22948</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>VMware vCenter Server信息泄露漏洞（CNVD-2022-55066）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-411808">详情</a></td>
@@ -752,7 +770,7 @@
       <tr>
        <td scope="row">ee3cee2c81274a7bb55fba32f91ac20c</td>
        <td>CVE-2021-46433</td>
-       <td>2022-08-03 11:39:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 11:39:38</td>
        <td>fenom代码注入漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-413115">详情</a></td>
@@ -761,7 +779,7 @@
       <tr>
        <td scope="row">5e1e4b23c245899ce0cd409a690d1444</td>
        <td>CVE-2022-0333</td>
-       <td>2022-08-03 10:43:26 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 10:43:26</td>
        <td>Moodle访问控制错误漏洞（CNVD-2022-54953）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-413020">详情</a></td>
@@ -770,7 +788,7 @@
       <tr>
        <td scope="row">37c698b2e4a22342a46c0e0568e46a61</td>
        <td>CVE-2022-28133</td>
-       <td>2022-08-03 10:43:26 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 10:43:26</td>
        <td>Jenkins Bitbucket Server Integration Plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418933">详情</a></td>
@@ -779,28 +797,10 @@
       <tr>
        <td scope="row">951cbf9ee81ba637a90a30657cb5d1f0</td>
        <td>CVE-2022-28134</td>
-       <td>2022-08-03 10:43:26 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 10:43:26</td>
        <td>Jenkins Bitbucket Server Integration Plugin授权问题漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418934">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">63d3129af2accf7eaeb7a7ea82c7b100</td>
-       <td>CVE-2022-28135</td>
-       <td>2022-08-03 10:43:26 <img src="imgs/new.gif" /></td>
-       <td>Jenkins instant-messaging Plugin信息泄露漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418935">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7a77997ab19356093291dcb10aebea6d</td>
-       <td>CVE-2022-28136</td>
-       <td>2022-08-03 10:43:26 <img src="imgs/new.gif" /></td>
-       <td>Jenkins JiraTestResultReporter Plugin跨站请求伪造漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418936">详情</a></td>
       </tr>
 
      </tbody>
@@ -817,6 +817,62 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">859668f0903172745027f941ae784174</td>
+       <td>CNVD-2022-55534 (CVE-2022-23674)</td>
+       <td>2022-08-05 02:57:30 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55534">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">575a3a7ad0444f55c9a7793c43ff5e99</td>
+       <td>CNVD-2022-55533 (CVE-2022-23660)</td>
+       <td>2022-08-05 02:57:28 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager远程身份验证绕过漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55533">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b77b3831a06c721038195fa1d172b135</td>
+       <td>CNVD-2022-55532 (CVE-2022-23663)</td>
+       <td>2022-08-05 02:57:25 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager远程命令注入漏洞（ 	 CNVD-2022-55532）</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55532">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b25054e1680ea5ef3d7abed6becc75ca</td>
+       <td>CNVD-2022-55531 (CVE-2022-23664)</td>
+       <td>2022-08-05 02:57:23 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager远程命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55531">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9561df326616d2f0df6fe3f1bdd9614</td>
+       <td>CNVD-2022-55530 (CVE-2022-23662)</td>
+       <td>2022-08-05 02:57:21 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager远程命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55530">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">52091c6a86477c86137fbb7f7dee94f6</td>
+       <td>CNVD-2022-55527 (CVE-2022-23666)</td>
+       <td>2022-08-05 02:57:18 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager远程命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55527">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">559c739710ab443485b966a3160b3f4a</td>
+       <td>CNVD-2022-55526 (CVE-2022-23665)</td>
+       <td>2022-08-05 02:57:16 <img src="imgs/new.gif" /></td>
+       <td>Aruba ClearPass Policy Manager远程命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55526">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">8112ec781b6e5959be43ed300ab29f21</td>
        <td>CNVD-2022-55174 (CVE-2022-35241)</td>
@@ -988,7 +1044,7 @@
       <tr>
        <td scope="row">7dc53c289d0bf695b896036e82243cc8</td>
        <td>CNVD-2022-54896 (CVE-2021-39088)</td>
-       <td>2022-08-03 04:47:01 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 04:47:01</td>
        <td>IBM QRadar SIEM权限许可和访问控制问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54896">详情</a></td>
       </tr>
@@ -996,65 +1052,9 @@
       <tr>
        <td scope="row">a0697489a632564d4121808c02a29f47</td>
        <td>CNVD-2022-54893 (CVE-2022-36880)</td>
-       <td>2022-08-03 04:46:58 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 04:46:58</td>
        <td>Webmin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54893">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c7da662bc114e482710dafe34550e31c</td>
-       <td>CNVD-2022-54892 (CVE-2022-2549)</td>
-       <td>2022-08-03 04:46:56 <img src="imgs/new.gif" /></td>
-       <td>GPAC拒绝服务漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54892">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">41322749f4ce80cac17be1f9958183a0</td>
-       <td>CNVD-2022-54891 (CVE-2022-34971)</td>
-       <td>2022-08-03 04:46:53 <img src="imgs/new.gif" /></td>
-       <td>FeehiCMS任意文件上传漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54891">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2b90c0be2e25677d81325de07ba3e9a9</td>
-       <td>CNVD-2022-54888 (CVE-2022-35284)</td>
-       <td>2022-08-03 04:46:51 <img src="imgs/new.gif" /></td>
-       <td>IBM Security Verify Information Queue信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54888">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">93d21b36e255785395eec436d6fdbabe</td>
-       <td>CNVD-2022-54887 (CVE-2022-36879)</td>
-       <td>2022-08-03 04:46:49 <img src="imgs/new.gif" /></td>
-       <td>Linux kernel存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54887">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">42489a76a633d4614b2ba732806d5947</td>
-       <td>CNVD-2022-54886</td>
-       <td>2022-08-03 04:46:47 <img src="imgs/new.gif" /></td>
-       <td>华天动力OA系统任意文件上传漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54886">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">57752107fb1d962fd14872797d10a2f4</td>
-       <td>CNVD-2022-54646 (CVE-2019-4575)</td>
-       <td>2022-08-02 10:47:28</td>
-       <td>IBM Financial Transaction Manager for Digital Payments SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54646">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">62497d5d7b33d50fc34bfb01837b902f</td>
-       <td>CNVD-2022-54654 (CVE-2021-43661)</td>
-       <td>2022-08-02 10:47:22</td>
-       <td>TotoLink EX300_v2跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-54654">详情</a></td>
       </tr>
 
      </tbody>
@@ -1098,7 +1098,7 @@
       <tr>
        <td scope="row">a5e6da8027693f0ef75d433f92384b4f</td>
        <td>CNNVD-202208-2134 (CVE-2022-35158)</td>
-       <td>2022-08-03 13:14:44 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:44</td>
        <td>Tencent TscanCode tsclua 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2134">详情</a></td>
       </tr>
@@ -1106,7 +1106,7 @@
       <tr>
        <td scope="row">240fbf5fdb1acb290c030f7d38821ed0</td>
        <td>CNNVD-202208-2135 (CVE-2022-32543)</td>
-       <td>2022-08-03 13:14:42 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:42</td>
        <td>ESTsoft Alyac 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2135">详情</a></td>
       </tr>
@@ -1114,7 +1114,7 @@
       <tr>
        <td scope="row">c7b0ace7bbdd9c5b19f031de92337fb7</td>
        <td>CNNVD-202208-2136 (CVE-2022-35928)</td>
-       <td>2022-08-03 13:14:40 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:40</td>
        <td>Packetizer AES Crypt 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2136">详情</a></td>
       </tr>
@@ -1122,7 +1122,7 @@
       <tr>
        <td scope="row">d2d793be3ef4e7cfc9aecb8fd777b260</td>
        <td>CNNVD-202208-2137 (CVE-2022-27551)</td>
-       <td>2022-08-03 13:14:38 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:38</td>
        <td>HCL Technologies HCL Launch 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2137">详情</a></td>
       </tr>
@@ -1130,7 +1130,7 @@
       <tr>
        <td scope="row">8c82804dd6c8f6adca84c0620188abc4</td>
        <td>CNNVD-202208-2140 (CVE-2022-2603)</td>
-       <td>2022-08-03 13:14:36 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:36</td>
        <td>Google Chrome 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2140">详情</a></td>
       </tr>
@@ -1138,7 +1138,7 @@
       <tr>
        <td scope="row">c050e543a4ee99a761939d197fd02d4c</td>
        <td>CNNVD-202208-2141 (CVE-2022-20869)</td>
-       <td>2022-08-03 13:14:34 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:34</td>
        <td>Cisco BroadWorks Application 跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2141">详情</a></td>
       </tr>
@@ -1146,7 +1146,7 @@
       <tr>
        <td scope="row">181a91b8b473da52fb4d02eeca1d60ce</td>
        <td>CNNVD-202208-2142 (CVE-2022-29886)</td>
-       <td>2022-08-03 13:14:32 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:14:32</td>
        <td>ESTsoft Alyac 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202208-2142">详情</a></td>
       </tr>
@@ -1422,7 +1422,7 @@
       <tr>
        <td scope="row">f079805ef13ded4fc2b3c61a24fd8802</td>
        <td>CVE-2022-31656,CVE-2022-31657,CVE-2022-31658,CVE-2022-31659,CVE-2022-31660,CVE-2022-31661,CVE-2022-31662,CVE-2022-31663,CVE-2022-31664,CVE-2022-31665</td>
-       <td>2022-08-03 13:38:21 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 13:38:21</td>
        <td>VMware产品多个高危漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7197">详情</a></td>
       </tr>
@@ -1430,7 +1430,7 @@
       <tr>
        <td scope="row">3a5e4a2babe79ec654ed796f14e12650</td>
        <td>CVE-2022-36799</td>
-       <td>2022-08-03 10:07:08 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 10:07:08</td>
        <td>Atlassian Jira 模板注入漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7190">详情</a></td>
       </tr>
@@ -1922,7 +1922,7 @@
       <tr>
        <td scope="row">6180dfe1b98cda8ad940bcaebcc26306</td>
        <td>CVE-2022-1477</td>
-       <td>2022-08-03 20:29:17 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 20:29:17</td>
        <td>Google Chromium 资源管理错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a4d2b353951442eb8c0643c1196b60f5">详情</a></td>
       </tr>
@@ -1930,7 +1930,7 @@
       <tr>
        <td scope="row">5e1bd944fc8a0b02e7dea1e6d7ee3ad9</td>
        <td>CVE-2022-1481</td>
-       <td>2022-08-03 20:29:12 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 20:29:12</td>
        <td>Google Chromium 资源管理错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fdaf9bb5df984a5aa89113de05cea007">详情</a></td>
       </tr>
@@ -1938,7 +1938,7 @@
       <tr>
        <td scope="row">c493732566d85ebcd5a8a3770ef5c737</td>
        <td>CVE-2022-1484</td>
-       <td>2022-08-03 20:29:02 <img src="imgs/new.gif" /></td>
+       <td>2022-08-03 20:29:02</td>
        <td>Google Chromium 缓冲区错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=706474a4381b4530a0343e8ba137c87a">详情</a></td>
       </tr>
