@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-05 08:47:52 -->
+<!-- RELEASE TIME : 2022-08-05 11:42:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">57f15404f2b8dacae6b52c490ab1e8ed</td>
+       <td>CVE-2022-2626</td>
+       <td>2022-08-05 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incorrect Privilege Assignment in GitHub repository hestiacp/hestiacp prior to 1.6.6.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2626">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fa3b6e3a1fdfaeaad47bcdf29ad885ad</td>
+       <td>CVE-2022-37434</td>
+       <td>2022-08-05 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37434">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d48661fbfc225d5d0bd7b20480112576</td>
+       <td>CVE-2022-37431</td>
+       <td>2022-08-05 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Reflected Cross-site scripting (XSS) issue was discovered in dotCMS Core through 22.06. This occurs in the admin portal when the configuration has XSS_PROTECTION_ENABLED=false.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37431">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">755986dac97384c7fa6ca2edd2bee1b5</td>
+       <td>CVE-2022-37416</td>
+       <td>2022-08-05 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Ittiam libmpeg2 before 2022-07-27 uses memcpy with overlapping memory blocks in impeg2_mc_fullx_fully_8x8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37416">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5a3e6ef58a09a5f76fc58c737976ad30</td>
+       <td>CVE-2022-21186</td>
+       <td>2022-08-05 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package @acrontum/filesystem-template before 0.0.2 are vulnerable to Arbitrary Command Injection due to the fetchRepo API missing sanitization of the href field of external input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21186">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">528cd0d3f39702f4aed0ea65d136ba2c</td>
        <td>CVE-2022-37415</td>
        <td>2022-08-05 04:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-08-04 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Apache Hadoop's FileUtil.unTar(File, File) API does not escape the input file name before being passed to the shell. An attacker can inject arbitrary commands. This is only used in Hadoop 3.3 InMemoryAliasMap.completeBootstrapTransfer, which is only ever run by a local user. It has been used in Hadoop 2.x for yarn localization, which does enable remote code execution. It is used in Apache Spark, from the SQL command ADD ARCHIVE. As the ADD ARCHIVE command adds new binaries to the classpath, being able to execute shell scripts does not confer new permissions to the caller. SPARK-38305. "Check existence of file before untarring/zipping", which is included in 3.3.0, 3.1.4, 3.2.2, prevents shell commands being executed, regardless of which version of the hadoop libraries are in use. Users should upgrade to Apache Hadoop 2.10.2, 3.2.4, 3.3.3 or upper (including HADOOP-18136).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25168">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">56f6de4b8a6c744ec0148ff9c46f182b</td>
-       <td>CVE-2022-2656</td>
-       <td>2022-08-04 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as critical has been found in SourceCodester Multi Language Hotel Management Software. Affected is an unknown function. The manipulation of the argument email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-205596.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2656">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e6b86d002041f84435972ca005395165</td>
-       <td>CVE-2022-35216</td>
-       <td>2022-08-04 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>OMICARD EDM’s mail image relay function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to by-pass authentication and access arbitrary system files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35216">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ae4dd5639edb63a9a2ba2af0998f5c2f</td>
-       <td>CVE-2022-32965</td>
-       <td>2022-08-04 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>OMICARD EDM has a hard-coded machine key. An unauthenticated remote attacker can use the machine key to send serialized payload to the server to execute arbitrary code, manipulate system data and disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32965">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9f1a2621ddaa0356e0cda145bfac94aa</td>
-       <td>CVE-2022-32964</td>
-       <td>2022-08-04 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>OMICARD EDM’s API function has insufficient validation for user input. An unauthenticated remote attacker can inject arbitrary SQL commands to access, modify, delete database or disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32964">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d09fa2af592508c77de97bddd4f58e63</td>
-       <td>CVE-2022-32963</td>
-       <td>2022-08-04 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>OMICARD EDM’s mail file relay function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to by-pass authentication and access arbitrary system files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32963">详情</a></td>
       </tr>
 
      </tbody>
@@ -2666,6 +2666,15 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a01057290edb352ff81f91d3681b7088</td>
+       <td>CVE-2022-25168</td>
+       <td>2022-08-04 11:40:32 <img src="imgs/new.gif" /></td>
+       <td>Apache Hadoop FileUtil.unTar 命令注入漏洞（CVE-2022-25168）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-25168">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">101fff788fcd194c3572d9510e859480</td>
        <td>AVD-2022-1397744</td>
        <td>2022-08-01 08:49:45</td>
@@ -2924,15 +2933,6 @@
        <td>GeoServer TestWfsPost SSRF漏洞（CVE-2021-40822）	
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2021-40822">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9554570dcbd4dff9b5ae727f7e43c376</td>
-       <td>CVE-2022-24706</td>
-       <td>2022-04-26 04:24:18</td>
-       <td>Apache CouchDB epmd 远程代码执行漏洞（CVE-2022-24706）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-24706">详情</a></td>
       </tr>
 
      </tbody>
