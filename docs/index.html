@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-27 15:45:14 -->
+<!-- RELEASE TIME : 2022-08-27 22:42:34 -->
 <html lang="zh-cn">
 
  <head>
@@ -2452,6 +2452,30 @@
       </tr>
 
       <tr>
+       <td scope="row">e2e3e12eae9abb2040014031295d9a86</td>
+       <td>CVE-2022-34857</td>
+       <td>2022-08-22 15:15:16 </td>
+       <td>Reflected Cross-Site Scripting (XSS) vulnerability in smartypants SP Project &amp; Document Manager plugin &lt;= 4.59 at WordPress</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34857">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d14ea46b09a4e4b794e686cbea9ad609</td>
+       <td>CVE-2022-34776</td>
+       <td>2022-08-22 15:15:16 </td>
+       <td>Tabit - giftcard stealth. Several APIs on the web system display, without authorization, sensitive information such as health statements, previous bills in a specific restaurant, alcohol consumption and smoking habits. Each of the described APIs, has in its URL one or more MongoDB ID which is not so simple to enumerate. However, they each receive a 'tiny URL' in tabits domain, in the form of https://tbit.be/{suffix} with suffix being a 5 character long string containing numbers, lower and upper case letters. It is not so simple to enumerate them all, but really easy to find some that work and lead to a personal endpoint. Furthermore, the redirect URL disclosed the MongoDB IDs discussed above, and we could use them to query other endpoints disclosing more personal information.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34776">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a3d3793edf97ae5340e632e1f2d1e524</td>
+       <td>CVE-2022-34775</td>
+       <td>2022-08-22 15:15:16 </td>
+       <td>Tabit - Excessive data exposure. Another endpoint mapped by the tiny url, was one for reservation cancellation, containing the MongoDB ID of the reservation, and organization. This can be used to query the http://tgm-api.tabit.cloud/rsv/management/{reservationId}?organization={orgId} API which returns a lot of data regarding the reservation (OWASP: API3): Name, mail, phone number, the number of visits of the user to this specific restaurant, the money he spent there, the money he spent on alcohol, whether he left a deposit etc. This information can easily be used for a phishing attack.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34775">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">591350fe559d77fe21e8f9349aab999c</td>
        <td>CVE-2022-34916</td>
        <td>2022-08-21 09:15:33 </td>
@@ -2625,30 +2649,6 @@
        <td>2022-08-01 22:15:10 </td>
        <td>graphql-go (aka GraphQL for Go) through 0.8.0 has infinite recursion in the type definition parser.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37315">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ddc57c01d4070a641b348e47a9b80e91</td>
-       <td>CVE-2022-31148</td>
-       <td>2022-08-01 17:15:08 </td>
-       <td>Shopware is an open source e-commerce software. In versions from 5.7.0 a persistent cross site scripting (XSS) vulnerability exists in the customer module. Users are recommend to update to the current version 5.7.14. You can get the update to 5.7.14 regularly via the Auto-Updater or directly via the download overview. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31148">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">96298b1962d20099abea105aa4bce272</td>
-       <td>CVE-2022-26445</td>
-       <td>2022-08-01 14:15:09 </td>
-       <td>In wifi driver, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: GN20220420088; Issue ID: GN20220420088.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26445">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">200150436bb44406083edfaae8304e2d</td>
-       <td>CVE-2022-26444</td>
-       <td>2022-08-01 14:15:09 </td>
-       <td>In wifi driver, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: GN20220420075; Issue ID: GN20220420075.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26444">详情</a></td>
       </tr>
 
      </tbody>
