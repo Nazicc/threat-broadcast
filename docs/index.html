@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-30 03:23:06 -->
+<!-- RELEASE TIME : 2022-08-30 06:38:39 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1e782383dca411a3d7b0a0937bb68a6b</td>
+       <td>CVE-2022-24107</td>
+       <td>2022-08-30 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Xpdf prior to 4.04 lacked an integer overflow check in JPXStream.cc.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24107">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8213cfb6b8492401a66f820218d13f5c</td>
+       <td>CVE-2022-24106</td>
+       <td>2022-08-30 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Xpdf prior to 4.04, the DCT (JPEG) decoder was incorrectly allowing the 'interleaved' flag to be changed after the first scan of the image, leading to an unknown integer-related vulnerability in Stream.cc.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24106">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">86a488c721bf5b2ce25556919dde79c0</td>
+       <td>CVE-2022-38784</td>
+       <td>2022-08-30 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Poppler prior to and including 22.08.0 contains an integer overflow in the JBIG2 decoder (JBIG2Stream::readTextRegionSeg() in JBIGStream.cc). Processing a specially crafted PDF file or JBIG2 image could lead to a crash or the execution of arbitrary code. This is similar to the vulnerability described by CVE-2022-38171 in Xpdf.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38784">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e91bf54ca5627b41915fe424da20ee6b</td>
+       <td>CVE-2022-36714</td>
+       <td>2022-08-30 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Section parameter at /staff/lab.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36714">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">448e029df3ce1320bd0f562d33f13d33</td>
+       <td>CVE-2022-36713</td>
+       <td>2022-08-30 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the Section parameter at /librarian/lab.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36713">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a9462e3d7b80d242d0da835163a728d4</td>
+       <td>CVE-2022-36712</td>
+       <td>2022-08-30 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /staff/studentdetails.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36712">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">47467e86b138029134cae436f1b0cbce</td>
+       <td>CVE-2022-36711</td>
+       <td>2022-08-30 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /staff/bookdetails.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36711">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b6920b43bc032fa2455fdaf8bd730225</td>
+       <td>CVE-2022-36709</td>
+       <td>2022-08-30 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /staff/edit_book_details.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36709">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f8d3d73a7cfea1aa7cbaa0e366b856f2</td>
        <td>CVE-2022-38625</td>
        <td>2022-08-29 23:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-08-29 18:15:00 <img src="imgs/new.gif" /></td>
        <td>The Fluent Support WordPress plugin before 1.5.8 does not properly sanitise, validate and escape various parameters before using them in an SQL statement, leading to an SQL Injection vulnerability exploitable by high privilege users</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2559">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ffc85f7538a94b4f87428a83cf2550ce</td>
-       <td>CVE-2022-2556</td>
-       <td>2022-08-29 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Mailchimp for WooCommerce WordPress plugin before 2.7.2 has an AJAX action that allows high privilege users to perform a POST request on behalf of the server to the internal network/LAN, the body of the request is also appended to the response so it can be used to scan private network for example</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2556">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6d7be4a234a60b50a82e573e0ceda8d2</td>
-       <td>CVE-2022-2538</td>
-       <td>2022-08-29 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The WP Hide & Security Enhancer WordPress plugin before 1.8 does not escape a parameter before outputting it back in an attribute of a backend page, leading to a Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2538">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f22e55913c7579a14faaf25b0a47e7ac</td>
-       <td>CVE-2022-2537</td>
-       <td>2022-08-29 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The WooCommerce PDF Invoices & Packing Slips WordPress plugin before 3.0.1 does not sanitise and escape some parameters before outputting them back in an attributes of an admin page, leading to Reflected Cross-Site Scripting.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2537">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">45d40d4f4b7223e900eb15fa41186158</td>
-       <td>CVE-2022-2374</td>
-       <td>2022-08-29 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Simply Schedule Appointments WordPress plugin before 1.5.7.7 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2374">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">611f26e55cc948a970cacaaa4ec58355</td>
-       <td>CVE-2022-2373</td>
-       <td>2022-08-29 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Simply Schedule Appointments WordPress plugin before 1.5.7.7 is missing authorisation in a REST endpoint, allowing unauthenticated users to retrieve WordPress users details such as name and email address</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2373">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b7bfba337f3c43caa00c3495f32320bb</td>
-       <td>CVE-2022-36034</td>
-       <td>2022-08-29 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>nitrado.js is a type safe wrapper for the Nitrado API. Possible ReDoS with lib input of `{{` and with many repetitions of `{{|`. This issue has been patched in all versions above `0.2.5`. There are currently no known workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36034">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e2c48e0644cbbd49f7b1e0ac697fc5c</td>
-       <td>CVE-2022-36033</td>
-       <td>2022-08-29 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>jsoup is a Java HTML parser, built for HTML editing, cleaning, scraping, and cross-site scripting (XSS) safety. jsoup may incorrectly sanitize HTML including `javascript:` URL expressions, which could allow XSS attacks when a reader subsequently clicks that link. If the non-default `SafeList.preserveRelativeLinks` option is enabled, HTML including `javascript:` URLs that have been crafted with control characters will not be sanitized. If the site that this HTML is published on does not set a Content Security Policy, an XSS attack is then possible. This issue is patched in jsoup 1.15.3. Users should upgrade to this version. Additionally, as the unsanitized input may have been persisted, old content should be cleaned again using the updated version. To remediate this issue without immediately upgrading: - disable `SafeList.preserveRelativeLinks`, which will rewrite input URLs as absolute URLs - ensure an appropriate [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) is defined. (This should be used regardless of upgrading, as a defence-in-depth best practice.)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36033">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">95db5b493f8e0d247da16e8bdefdbf23</td>
-       <td>CVE-2022-27558</td>
-       <td>2022-08-29 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>HCL iNotes is susceptible to a Broken Password Strength Checks vulnerability. Custom password policies are not enforced on certain iNotes forms which could allow users to set weak passwords, leading to easier cracking.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27558">详情</a></td>
       </tr>
 
      </tbody>
