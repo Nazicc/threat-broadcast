@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-31 17:01:39 -->
+<!-- RELEASE TIME : 2022-08-31 17:44:35 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6621d87b88a7b4d0cbd387a17d07eba5</td>
+       <td>CVE-2022-36045</td>
+       <td>2022-08-31 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>NodeBB Forum Software is powered by Node.js and supports either Redis, MongoDB, or a PostgreSQL database. It utilizes web sockets for instant interactions and real-time notifications. `utils.generateUUID`, a helper function available in essentially all versions of NodeBB (as far back as v1.0.1 and potentially earlier) used a cryptographically insecure Pseudo-random number generator (`Math.random()`), which meant that a specially crafted script combined with multiple invocations of the password reset functionality could enable an attacker to correctly calculate the reset code for an account they do not have access to.This vulnerability impacts all installations of NodeBB. The vulnerability allows for an attacker to take over any account without the involvement of the victim, and as such, the remediation should be applied immediately (either via NodeBB upgrade or cherry-pick of the specific changeset. The vulnerability has been patched in version 2.x and 1.19.x. There is no known workaround, but the patch sets listed above will fully patch the vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36045">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7f13385f28d29b5ff79c84cde14317bb</td>
+       <td>CVE-2022-36035</td>
+       <td>2022-08-31 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Flux is a tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. Flux CLI allows users to deploy Flux components into a Kubernetes cluster via command-line. The vulnerability allows other applications to replace the Flux deployment information with arbitrary content which is deployed into the target Kubernetes cluster instead. The vulnerability is due to the improper handling of user-supplied input, which results in a path traversal that can be controlled by the attacker. Users sharing the same shell between other applications and the Flux CLI commands could be affected by this vulnerability. In some scenarios no errors may be presented, which may cause end users not to realize that something is amiss. A safe workaround is to execute Flux CLI in ephemeral and isolated shell environments, which can ensure no persistent values exist from previous processes. However, upgrading to the latest version of the CLI is still the recommended mitigation strategy.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36035">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4de05955a07861fff28514a494cd55c5</td>
        <td>CVE-2022-27911</td>
        <td>2022-08-31 10:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-08-30 15:15:00 <img src="imgs/new.gif" /></td>
        <td>WAVLINK WL-WN575A3 RPT75A3.V4300.201217 was discovered to contain a command injection vulnerability when operating the file adm.cgi. This vulnerability allows attackers to execute arbitrary commands via the username parameter.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37149">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66fab6e8a9aace119f2323cece630906</td>
-       <td>CVE-2022-3063</td>
-       <td>2022-08-30 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub repository nuxt/framework prior to -.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3063">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d1c9239777fb93b8c89dfdb6a1f35f0</td>
-       <td>CVE-2022-3063</td>
-       <td>2022-08-30 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This CVE has been rejected as it was incorrectly assigned. All references and descriptions in this candidate have been removed to prevent accidental usage.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3063">详情</a></td>
       </tr>
 
      </tbody>
