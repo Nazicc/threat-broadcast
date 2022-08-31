@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-31 08:51:49 -->
+<!-- RELEASE TIME : 2022-08-31 11:41:46 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1ff6d974a66aff9a77efa2561649ab61</td>
+       <td>CVE-2022-37023</td>
+       <td>2022-08-31 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Apache Geode versions prior to 1.15.0 are vulnerable to a deserialization of untrusted data flaw when using REST API on Java 8 or Java 11. Any user wishing to protect against deserialization attacks involving REST APIs should upgrade to Apache Geode 1.15 and follow the documentation for details on enabling "validate-serializable-objects=true" and specifying any user classes that may be serialized/deserialized with "serializable-object-filter". Enabling "validate-serializable-objects" may impact performance.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37023">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">99c1c832b4ec04af5e83cfb6239fa69d</td>
+       <td>CVE-2022-37022</td>
+       <td>2022-08-31 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Apache Geode versions up to 1.12.2 and 1.13.2 are vulnerable to a deserialization of untrusted data flaw when using JMX over RMI on Java 11. Any user wishing to protect against deserialization attacks involving JMX or RMI should upgrade to Apache Geode 1.15. Use of 1.15 on Java 11 will automatically protect JMX over RMI against deserialization attacks. This should have no impact on performance since it only affects JMX/RMI which Gfsh uses to communicate with the JMX Manager which is hosted on a Locator.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37022">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">be1b9e30bafab5c69e5fc957cf010702</td>
+       <td>CVE-2022-37021</td>
+       <td>2022-08-31 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Apache Geode versions up to 1.12.5, 1.13.4 and 1.14.0 are vulnerable to a deserialization of untrusted data flaw when using JMX over RMI on Java 8. Any user still on Java 8 who wishes to protect against deserialization attacks involving JMX or RMI should upgrade to Apache Geode 1.15 and Java 11. If upgrading to Java 11 is not possible, then upgrade to Apache Geode 1.15 and specify "--J=-Dgeode.enableGlobalSerialFilter=true" when starting any Locators or Servers. Follow the documentation for details on specifying any user classes that may be serialized/deserialized with the "serializable-object-filter" configuration option. Using a global serial filter will impact performance.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37021">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f9d36ac6e6f44b0cf993ffee8b64a07d</td>
+       <td>CVE-2022-39047</td>
+       <td>2022-08-31 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Freeciv before 2.6.7 and before 3.0.3 is prone to a buffer overflow vulnerability in the Modpack Installer utility's handling of the modpack URL.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39047">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2cd830fb5adf59a250589e0c93b53567</td>
+       <td>CVE-2022-39046</td>
+       <td>2022-08-31 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the GNU C Library (glibc) 2.36. When the syslog function is passed a crafted input string larger than 1024 bytes, it reads uninitialized memory from the heap and prints it to the target log file, potentially revealing a portion of the contents of the heap.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39046">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8144d55d6270fe10f58b1398c57f1ce1</td>
        <td>CVE-2022-36749</td>
        <td>2022-08-30 22:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-08-30 09:15:00 <img src="imgs/new.gif" /></td>
        <td>Stack-based Buffer Overflow in GitHub repository arnoldaldrin/binaries prior to 1.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3022">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6954a6c8e5e9d09d7c9fc5c200ba213f</td>
-       <td>CVE-2022-3022</td>
-       <td>2022-08-30 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This CVE has been rejected as it was incorrectly assigned. All references and descriptions in this candidate have been removed to prevent accidental usage.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3022">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">46c347343a165b90a512c15408b732df</td>
-       <td>CVE-2022-2330</td>
-       <td>2022-08-30 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Restriction of XML External Entity Reference vulnerability in DLP Endpoint for Windows prior to 11.9.100 and 11.6.600 allows a remote attacker to cause the DLP Agent to access a local service that the attacker wouldn't usually have access to via a carefully constructed XML file, which the DLP Agent doesn't parse correctly.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2330">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fd05984b3c911ffc3f47b16ba37fc413</td>
-       <td>CVE-2021-46837</td>
-       <td>2022-08-30 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>res_pjsip_t38 in Sangoma Asterisk 16.x before 16.16.2, 17.x before 17.9.3, and 18.x before 18.2.2, and Certified Asterisk before 16.8-cert7, allows an attacker to trigger a crash by sending an m=image line and zero port in a response to a T.38 re-invite initiated by Asterisk. This is a re-occurrence of the CVE-2019-15297 symptoms but not for exactly the same reason. The crash occurs because there is an append operation relative to the active topology, but this should instead be a replace operation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46837">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e13c42bd7b3da2ebbb1098f07065880</td>
-       <td>CVE-2022-39028</td>
-       <td>2022-08-30 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>telnetd in GNU Inetutils through 2.3, MIT krb5-appl through 1.0.3, and derivative works has a NULL pointer dereference via 0xff 0xf7 or 0xff 0xf8. In a typical installation, the telnetd application would crash but the telnet service would remain available through inetd. However, if the telnetd application has many crashes within a short time interval, the telnet service would become unavailable after inetd logs a "telnet/tcp server failing (looping), service terminated" error. NOTE: MIT krb5-appl is not supported upstream but is shipped by a few Linux distributions. The affected code was removed from the supported MIT Kerberos 5 (aka krb5) product many years ago, at version 1.8.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39028">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">868884af7f108051e5d1a6f84a423e1b</td>
-       <td>CVE-2022-38118</td>
-       <td>2022-08-30 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>OAKlouds Portal website’s Meeting Room has insufficient validation for user input. A remote attacker with general user privilege can perform SQL-injection to access, modify, delete database, perform system operations and disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38118">详情</a></td>
       </tr>
 
      </tbody>
@@ -874,6 +874,30 @@
       </tr>
 
       <tr>
+       <td scope="row">3e3078f61b936d8203989a3b7446e523</td>
+       <td>CNVD-2022-60670 (CVE-2022-31063)</td>
+       <td>2022-08-31 11:39:58 <img src="imgs/new.gif" /></td>
+       <td>Tuleap跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-60670">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3f8c92191058b0f825edb21cc9bb61f5</td>
+       <td>CNVD-2022-60145 (CVE-2014-125010)</td>
+       <td>2022-08-31 11:39:54 <img src="imgs/new.gif" /></td>
+       <td>FFmpeg decode_slice_header()函数拒绝服务漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-60145">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">223736c7d98fc78eb1b5de9a948f0c9d</td>
+       <td>CNVD-2022-60146 (CVE-2014-125009)</td>
+       <td>2022-08-31 11:39:49 <img src="imgs/new.gif" /></td>
+       <td>FFmpeg add_yblock()函数拒绝服务漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-60146">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c541467fda9c5ffd783c6dada7f9b9b6</td>
        <td>CNVD-2022-60680 (CVE-2022-36804)</td>
        <td>2022-08-31 06:07:57 <img src="imgs/new.gif" /></td>
@@ -1031,30 +1055,6 @@
        <td>2022-08-29 16:55:17</td>
        <td>TOTOLINK A720R存在硬编码漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-56033">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">42fff8d95f7c33ca1105d43305aaa535</td>
-       <td>CNVD-2022-56013</td>
-       <td>2022-08-29 16:55:15</td>
-       <td>上海商汤智能科技有限公司SenseLink智能物联平台存在弱口令漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-56013">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">898ef37a5d418e1c5d97d5c48cdd5faf</td>
-       <td>CNVD-2022-60123 (CVE-2022-23262)</td>
-       <td>2022-08-29 13:58:54</td>
-       <td>Microsoft Edge (Chromium-based) 权限提升漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-60123">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0247a81651e83969b0dc8c8ba9145c49</td>
-       <td>CNVD-2022-60122 (CVE-2022-26894)</td>
-       <td>2022-08-29 13:58:21</td>
-       <td>Microsoft Edge (Chromium-based) 权限提升漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-60122">详情</a></td>
       </tr>
 
      </tbody>
