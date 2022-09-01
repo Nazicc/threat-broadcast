@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-01 14:43:08 -->
+<!-- RELEASE TIME : 2022-09-01 17:01:23 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1761060a8be194506f37d88a55cf2dfb</td>
+       <td>CVE-2022-38790</td>
+       <td>2022-09-01 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Weave GitOps Enterprise before 0.9.0-rc.5 has a cross-site scripting (XSS) bug allowing a malicious user to inject a javascript: link in the UI. When clicked by a victim user, the script will execute with the victim's permission. The exposure appears in Weave GitOps Enterprise UI via a GitopsCluster dashboard link. An annotation can be added to a GitopsCluster custom resource.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38790">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7f937c3eb1e75bc069a25b1990539bd4</td>
+       <td>CVE-2022-36055</td>
+       <td>2022-09-01 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources. Fuzz testing, provided by the CNCF, identified input to functions in the _strvals_ package that can cause an out of memory panic. The _strvals_ package contains a parser that turns strings in to Go structures. The _strvals_ package converts these strings into structures Go can work with. Some string inputs can cause array data structures to be created causing an out of memory panic. Applications that use the _strvals_ package in the Helm SDK to parse user supplied input can suffer a Denial of Service when that input causes a panic that cannot be recovered from. The Helm Client will panic with input to `--set`, `--set-string`, and other value setting flags that causes an out of memory panic. Helm is not a long running service so the panic will not affect future uses of the Helm client. This issue has been resolved in 3.9.4. SDK users can validate strings supplied by users won't create large arrays causing significant memory usage before passing them to the _strvals_ functions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36055">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7dedbf7588be8ac7d0837dd93470e36f</td>
+       <td>CVE-2022-36054</td>
+       <td>2022-09-01 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. The 6LoWPAN implementation in the Contiki-NG operating system (file os/net/ipv6/sicslowpan.c) contains an input function that processes incoming packets and copies them into a packet buffer. Because of a missing length check in the input function, it is possible to write outside the packet buffer's boundary. The vulnerability can be exploited by anyone who has the possibility to send 6LoWPAN packets to a Contiki-NG system. In particular, the vulnerability is exposed when sending either of two types of 6LoWPAN packets: an unfragmented packet or the first fragment of a fragmented packet. If the packet is sufficiently large, a subsequent memory copy will cause an out-of-bounds write with data supplied by the attacker.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36054">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">40872803408b322a665df06c94794c35</td>
+       <td>CVE-2022-36053</td>
+       <td>2022-09-01 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. The low-power IPv6 network stack of Contiki-NG has a buffer module (os/net/ipv6/uipbuf.c) that processes IPv6 extension headers in incoming data packets. As part of this processing, the function uipbuf_get_next_header casts a pointer to a uip_ext_hdr structure into the packet buffer at different offsets where extension headers are expected to be found, and then reads from this structure. Because of a lack of bounds checking, the casting can be done so that the structure extends beyond the packet's end. Hence, with a carefully crafted packet, it is possible to cause the Contiki-NG system to read data outside the packet buffer. A patch that fixes the vulnerability is included in Contiki-NG 4.8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36053">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">47b10396ea6be19a2f7aea1c0c750c28</td>
+       <td>CVE-2022-36052</td>
+       <td>2022-09-01 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. The 6LoWPAN implementation in Contiki-NG may cast a UDP header structure at a certain offset in a packet buffer. The code does not check whether the packet buffer is large enough to fit a full UDP header structure from the offset where the casting is made. Hence, it is possible to cause an out-of-bounds read beyond the packet buffer. The problem affects anyone running devices with Contiki-NG versions previous to 4.8, and which may receive 6LoWPAN packets from external parties. The problem has been patched in Contiki-NG version 4.8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36052">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9c5d7deeecdb0a9e2c7f2c6f398d4cca</td>
        <td>CVE-2022-3072</td>
        <td>2022-09-01 08:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-08-31 19:15:00 <img src="imgs/new.gif" /></td>
        <td>In D-Link DIR-816 A2_v1.10CNB04.img the network can be initialized without authentication via /goform/wizard_end.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37128">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a3c972dbde0a2d81fd15d221c0afd907</td>
-       <td>CVE-2022-36046</td>
-       <td>2022-08-31 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Next.js is a React framework that can provide building blocks to create web applications. All of the following must be true to be affected by this CVE: Next.js version 12.2.3, Node.js version above v15.0.0 being used with strict `unhandledRejection` exiting AND using next start or a [custom server](https://nextjs.org/docs/advanced-features/custom-server). Deployments on Vercel ([vercel.com](https://vercel.com/)) are not affected along with similar environments where `next-server` isn't being shared across requests.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36046">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">65d5f9bbacbcad57449f0f1129172155</td>
-       <td>CVE-2022-38812</td>
-       <td>2022-08-31 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>AeroCMS 0.1.1 is vulnerable to SQL Injection via the author parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38812">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b53233e48ba846a3ac2b8625cf826366</td>
-       <td>CVE-2022-38153</td>
-       <td>2022-08-31 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in wolfSSL before 5.5.0 (when --enable-session-ticket is used); however, only version 5.3.0 is exploitable. Man-in-the-middle attackers or a malicious server can crash TLS 1.2 clients during a handshake. If an attacker injects a large ticket (more than 256 bytes) into a NewSessionTicket message in a TLS 1.2 handshake, and the client has a non-empty session cache, the session cache frees a pointer that points to unallocated memory, causing the client to crash with a "free(): invalid pointer" message. NOTE: It is likely that this is also exploitable during TLS 1.3 handshakes between a client and a malicious server. With TLS 1.3, it is not possible to exploit this as a man-in-the-middle.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38153">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9b181ba2aa2ff0ffe3bbc27b7b70cbe1</td>
-       <td>CVE-2022-37184</td>
-       <td>2022-08-31 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The application manage_website.php on Garage Management System 1.0 is vulnerable to Shell File Upload. The already authenticated malicious user, can upload a dangerous RCE or LCE exploit file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37184">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7ff42f0f4cba8cfd377b85561ebe2969</td>
-       <td>CVE-2022-37183</td>
-       <td>2022-08-31 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Piwigo 12.3.0 is vulnerable to Cross Site Scripting (XSS) via /search/1940/created-monthly-list.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37183">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,6 +2412,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">88463c4450e4bd938c651426c80932b0</td>
+       <td>CVE-2022-38571</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a buffer overflow in the function formSetGuideListItem.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38571">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">02e16aef920d059f99c34f34d007aa26</td>
+       <td>CVE-2022-38570</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a stack overflow in the function formDelPushedAd. This vulnerability allows attackers to cause a Denial of Service (DoS) via the adPushUID parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38570">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">07a08f51258fac1b0c597d58a55f6314</td>
+       <td>CVE-2022-38569</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a stack overflow in the function formDelAd.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38569">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fea70472fa7a6939919000a2df4d2a7d</td>
+       <td>CVE-2022-38568</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formSetFixTools. This vulnerability allows attackers to cause a Denial of Service (DoS) via the hostname parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38568">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d31575313d11dd94819dff6efcfd4f8</td>
+       <td>CVE-2022-38567</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a stack overflow vulnerability in the function formSetAdConfigInfo. This vulnerability allows attackers to cause a Denial of Service (DoS) via the authIPs parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38567">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">68bf468d6ae92b2a87f6966f5f14a8b5</td>
+       <td>CVE-2022-38566</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formEmailTest. This vulnerability allows attackers to cause a Denial of Service (DoS) via the mailname parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38566">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">64bc78f6572ce4667aedec3662c69a77</td>
+       <td>CVE-2022-38565</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formEmailTest. This vulnerability allows attackers to cause a Denial of Service (DoS) via the mailpwd parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38565">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">545a5e0f059af3d5d4c6487d26df9d15</td>
+       <td>CVE-2022-38564</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a buffer overflow vulnerability in the function formSetPicListItem. This vulnerability allows attackers to cause a Denial of Service (DoS) via the adItemUID parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38564">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7972c6a465a6d4cb57a4183df86b8e3c</td>
+       <td>CVE-2022-38563</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formSetFixTools. This vulnerability allows attackers to cause a Denial of Service (DoS) via the MACAddr parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38563">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c5e564769726881a9c62d7f082251b3a</td>
+       <td>CVE-2022-38562</td>
+       <td>2022-08-28 17:15:08 </td>
+       <td>Tenda M3 V1.0.0.12(4856) was discovered to contain a heap buffer overflow vulnerability in the function formSetFixTools. This vulnerability allows attackers to cause a Denial of Service (DoS) via the lan parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38562">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">93a0ea00735a9683fd410cdc5cea54a2</td>
        <td>CVE-2022-37151</td>
        <td>2022-08-26 13:15:08 </td>
@@ -2569,86 +2649,6 @@
        <td>2022-08-25 18:15:10 </td>
        <td>An HTTP response splitting vulnerability exists in the AM Gateway Challenge-Response dialog of WorkstationST (&lt;v07.09.15) and could allow an attacker to compromise a victim's browser/session. WorkstationST is only deployed in specific, controlled environments rendering attack complexity significantly higher than if the attack were conducted on the software in isolation. WorkstationST v07.09.15 can be found in ControlST v07.09.07 SP8 and greater.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37953">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">48e0ecb5a22c338d77ae7adb99e0f282</td>
-       <td>CVE-2022-37952</td>
-       <td>2022-08-25 18:15:10 </td>
-       <td>A reflected cross-site scripting (XSS) vulnerability exists in the iHistorian Data Display of WorkstationST (&lt;v07.09.15) could allow an attacker to compromise a victim's browser. WorkstationST is only deployed in specific, controlled environments rendering attack complexity significantly higher than if the attack were conducted on the software in isolation. WorkstationST v07.09.15 can be found in ControlST v07.09.07 SP8 and greater.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37952">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">396f5fcfe9bdfdce9f61a054d031e950</td>
-       <td>CVE-2022-37162</td>
-       <td>2022-08-25 17:15:08 </td>
-       <td>Claroline 13.5.7 and prior is vulnerable to Cross Site Scripting (XSS). An attacker can obtain javascript code execution by adding arbitrary javascript code in the 'Location' field of a calendar event.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37162">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d515879834979f9480bf2e22bccabf7</td>
-       <td>CVE-2022-37161</td>
-       <td>2022-08-25 17:15:08 </td>
-       <td>Claroline 13.5.7 and prior is vulnerable to Cross Site Scripting (XSS) via SVG file upload.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37161">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7dc614dd1bd3919f0ffdcd4c9b8859a2</td>
-       <td>CVE-2022-37160</td>
-       <td>2022-08-25 17:15:08 </td>
-       <td>Claroline 13.5.7 and prior allows an authenticated attacker to elevate privileges via the arbitrary creation of a privileged user. By combining the XSS vulnerability present in several upload forms and a javascript request to the present API, it is possible to trigger the creation of a user with administrative rights by opening an SVG file as an administrator user.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37160">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bf5e9f548c86d1f3b73e68835d7d568a</td>
-       <td>CVE-2022-37159</td>
-       <td>2022-08-25 17:15:08 </td>
-       <td>Claroline 13.5.7 and prior is vulnerable to Remote code execution via arbitrary file upload.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37159">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d3146043ccc266c3362d8ff89f28c0fe</td>
-       <td>CVE-2022-37158</td>
-       <td>2022-08-25 17:15:08 </td>
-       <td>RuoYi v3.8.3 has a Weak password vulnerability in the management system.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37158">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">03569f85f08b1bf7cdd9d4dc8dda7d1d</td>
-       <td>CVE-2022-37292</td>
-       <td>2022-08-25 16:15:08 </td>
-       <td>Tenda AX12 V22.03.01.21_CN is vulnerable to Buffer Overflow. This overflow is triggered in the sub_42FDE4 function, which satisfies the request of the upper-level interface function sub_430124, that is, handles the post request under /goform/SetIpMacBind.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37292">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de8e7e3529896ebded502ee50608f0e4</td>
-       <td>CVE-2022-37238</td>
-       <td>2022-08-25 16:15:08 </td>
-       <td>MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cross Site Scripting (XSS) via the currentRequest parameter.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37238">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e7353033df7d3de893b3dc439f09e3c9</td>
-       <td>CVE-2022-37820</td>
-       <td>2022-08-25 15:15:11 </td>
-       <td>Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the ddnsEn parameter in the function formSetSysToolDDNS.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37820">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e74aa284705c478f61aa73af4107cf51</td>
-       <td>CVE-2022-37819</td>
-       <td>2022-08-25 15:15:11 </td>
-       <td>Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the timezone parameter in the function fromSetSysTime.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37819">详情</a></td>
       </tr>
 
      </tbody>
