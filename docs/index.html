@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-01 06:06:08 -->
+<!-- RELEASE TIME : 2022-09-01 06:58:49 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">925d5111a43d887145e7b65b9c423dd6</td>
+       <td>CVE-2022-36676</td>
+       <td>2022-09-01 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Simple Task Scheduling System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /categories/view_category.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36676">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5f0b0a1415cc6ec1daf9fb771d2b67f4</td>
+       <td>CVE-2022-36675</td>
+       <td>2022-09-01 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Simple Task Scheduling System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /schedules/manage_schedule.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36675">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3c7f75f36f59b37003abe78c11426d1d</td>
+       <td>CVE-2022-36674</td>
+       <td>2022-09-01 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Simple Task Scheduling System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /schedules/view_schedule.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36674">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1549e9cd64ca30bfd067819354f13f41</td>
+       <td>CVE-2022-36672</td>
+       <td>2022-09-01 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Novel-Plus v3.6.2 was discovered to contain a hard-coded JWT key located in the project config file. This vulnerability allows attackers to create a custom user session.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36672">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b62e7897ac84a66de906376b7aa0513d</td>
+       <td>CVE-2022-36671</td>
+       <td>2022-09-01 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Novel-Plus v3.6.2 was discovered to contain an arbitrary file download vulnerability via the background file download API.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36671">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79aaebee9c6e71fc287c757ac7d51ee5</td>
+       <td>CVE-2022-36449</td>
+       <td>2022-09-01 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Arm Mali GPU Kernel Driver. A non-privileged user can make improper GPU processing operations to gain access to already freed memory, write a limited amount outside of buffer bounds, or to disclose details of memory mappings. This affects Midgard r4p0 through r32p0, Bifrost r0p0 through r38p0 and r39p0 before r38p1, and Valhall r19p0 through r38p0 and r39p0 before r38p1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36449">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">69dd0bcd5f3d14339d791952cdb3fdf5</td>
+       <td>CVE-2022-36130</td>
+       <td>2022-09-01 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Boundary up to 0.10.1 did not properly perform data integrity checks to ensure the resources were associated with the correct scopes, allowing potential privilege escalation for authorized users of another scope. Fixed in Boundary 0.10.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36130">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">929eb727ed48b498c59c84a45728b784</td>
        <td>CVE-2022-37130</td>
        <td>2022-08-31 23:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-08-31 18:15:00 <img src="imgs/new.gif" /></td>
        <td>Rengine v1.3.0 was discovered to contain a command injection vulnerability via the scan engine function.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36566">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ffc754a72026724e5ffbcbc6de97e7a8</td>
-       <td>CVE-2022-38152</td>
-       <td>2022-08-31 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in wolfSSL before 5.5.0. When a TLS 1.3 client connects to a wolfSSL server and SSL_clear is called on its session, the server crashes with a segmentation fault. This occurs in the second session, which is created through TLS session resumption and reuses the initial struct WOLFSSL. If the server reuses the previous session structure (struct WOLFSSL) by calling wolfSSL_clear(WOLFSSL* ssl) on it, the next received Client Hello (that resumes the previous session) crashes the server. Note that this bug is only triggered when resuming sessions using TLS session resumption. Only servers that use wolfSSL_clear instead of the recommended SSL_free; SSL_new sequence are affected. Furthermore, wolfSSL_clear is part of wolfSSL's compatibility layer and is not enabled by default. It is not part of wolfSSL's native API.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38152">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">561d811f4bc418cf5b98ac2cfb415017</td>
-       <td>CVE-2022-37122</td>
-       <td>2022-08-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Carel pCOWeb HVAC BACnet Gateway 2.1.0, Firmware: A2.1.0 - B2.1.0, Application Software: 2.15.4A Software v16 13020200 suffers from an unauthenticated arbitrary file disclosure vulnerability. Input passed through the 'file' GET parameter through the 'logdownload.cgi' Bash script is not properly verified before being used to download log files. This can be exploited to disclose the contents of arbitrary and sensitive files via directory traversal attacks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37122">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c9604cfc92afc1c485647b902076f6ed</td>
-       <td>CVE-2022-30318</td>
-       <td>2022-08-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Honeywell ControlEdge through R151.1 uses Hard-coded Credentials. According to FSCT-2022-0056, there is a Honeywell ControlEdge hardcoded credentials issue. The affected components are characterized as: SSH. The potential impact is: Remote code execution, manipulate configuration, denial of service. The Honeywell ControlEdge PLC and RTU product line exposes an SSH service on port 22/TCP. Login as root to this service is permitted and credentials for the root user are hardcoded without automatically changing them upon first commissioning. The credentials for the SSH service are hardcoded in the firmware. The credentials grant an attacker access to a root shell on the PLC/RTU, allowing for remote code execution, configuration manipulation and denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30318">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3ebb0d74323f9d2bd23857af51a799ca</td>
-       <td>CVE-2022-30317</td>
-       <td>2022-08-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Honeywell Experion LX through 2022-05-06 has Missing Authentication for a Critical Function. According to FSCT-2022-0055, there is a Honeywell Experion LX Control Data Access (CDA) EpicMo protocol with unauthenticated functionality issue. The affected components are characterized as: Honeywell Control Data Access (CDA) EpicMo (55565/TCP). The potential impact is: Firmware manipulation, Denial of service. The Honeywell Experion LX Distributed Control System (DCS) utilizes the Control Data Access (CDA) EpicMo protocol (55565/TCP) for device diagnostics and maintenance purposes. This protocol does not have any authentication features, allowing any attacker capable of communicating with the ports in question to invoke (a subset of) desired functionality. There is no authentication functionality on the protocol in question. An attacker capable of invoking the protocols' functionalities could issue firmware download commands potentially allowing for firmware manipulation and reboot devices causing denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30317">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f518f7e5ab6fdf1e71e711dea5108e17</td>
-       <td>CVE-2022-3028</td>
-       <td>2022-08-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A race condition was found in the Linux kernel's IP framework for transforming packets (XFRM subsystem) when multiple calls to xfrm_probe_algs occurred simultaneously. This flaw could allow a local attacker to potentially trigger an out-of-bounds write or leak kernel heap memory by performing an out-of-bounds read and copying it into a socket.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3028">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4aad82b200f2e7b336b587c0d1bec4d8</td>
-       <td>CVE-2022-2866</td>
-       <td>2022-08-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>FATEK FvDesigner version 1.5.103 and prior is vulnerable to an out-of-bounds write while processing project files. If a valid user is tricked into using maliciously crafted project files, an attacker could achieve arbitrary code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2866">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aca57f190c5082c96a5513cecbd48bf8</td>
-       <td>CVE-2022-28625</td>
-       <td>2022-08-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A local disclosure of sensitive information vulnerability was discovered in HPE OneView version(s): Prior to 7.0 or 6.60.01. A low privileged user could locally exploit this vulnerability to disclose sensitive information resulting in a complete loss of confidentiality, integrity, and availability. To exploit this vulnerability, HPE OneView must be configured with credential access to external repositories. HPE has provided a software update to resolve this vulnerability in HPE OneView.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28625">详情</a></td>
       </tr>
 
      </tbody>
@@ -2693,6 +2693,15 @@
       </tr>
 
       <tr>
+       <td scope="row">94aeed2a164a1c3a4eddee3826bf6f0d</td>
+       <td>CVE-2022-37023</td>
+       <td>2022-08-31 06:57:24 <img src="imgs/new.gif" /></td>
+       <td>Apache Geode REST APIs 反序列化漏洞（CVE-2022-37023）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-37023">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4f06ac33764665a9e79d864b98193d6b</td>
        <td>CVE-2022-2992</td>
        <td>2022-08-30 03:33:55</td>
@@ -2924,15 +2933,6 @@
        <td>用友GRP-U8 UploadFileData 任意文件上传漏洞
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-1395689">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">643189c8cbbf07cc0b9b8e22670c2a9e</td>
-       <td>AVD-2022-1395690</td>
-       <td>2022-07-27 09:41:45</td>
-       <td>Weaver e-cology VerifyQuickLogin 认证绕过漏洞
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-1395690">详情</a></td>
       </tr>
 
      </tbody>
