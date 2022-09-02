@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-02 22:44:25 -->
+<!-- RELEASE TIME : 2022-09-02 23:46:06 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">295d1a584af43246a5662b4f4c1c4d92</td>
+       <td>CVE-2022-36640</td>
+       <td>2022-09-02 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>influxData influxDB before v1.8.10 contains no authentication mechanism or controls, allowing unauthenticated attackers to execute arbitrary commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36640">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ac3e2110993c6525c07438d9bd1d773f</td>
+       <td>CVE-2022-36639</td>
+       <td>2022-09-02 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A stored cross-site scripting (XSS) vulnerability in /client.php of Garage Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36639">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ba4d2407afa6531cb53e6307c27da723</td>
+       <td>CVE-2022-36638</td>
+       <td>2022-09-02 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An access control issue in the component print.php of Garage Management System v1.0 allows unauthenticated attackers to access data for all existing orders.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36638">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f450472d39794c004e6f1b2c98af3b16</td>
+       <td>CVE-2022-31176</td>
+       <td>2022-09-02 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Grafana Image Renderer is a Grafana backend plugin that handles rendering of panels & dashboards to PNGs using a headless browser (Chromium/Chrome). An internal security review identified an unauthorized file disclosure vulnerability. It is possible for a malicious user to retrieve unauthorized files under some network conditions or via a fake datasource (if user has admin permissions in Grafana). All Grafana installations should be upgraded to version 3.6.1 as soon as possible. As a workaround it is possible to [disable HTTP remote rendering](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#plugingrafana-image-renderer).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31176">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0526e91a4f450e34bb654d3527a993b0</td>
+       <td>CVE-2022-35933</td>
+       <td>2022-09-02 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>This package is a PrestaShop module that allows users to post reviews and rate products. There is a vulnerability where the attacker could steal an administrator's cookie. The issue is fixed in version 5.0.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35933">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">462843aa2c37436a97c1b1c03357ffd7</td>
+       <td>CVE-2022-31196</td>
+       <td>2022-09-02 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Databasir is a database metadata management platform. Databasir <= 1.06 has Server-Side Request Forgery (SSRF) vulnerability. The SSRF is triggered by a sending a **single** HTTP POST request to create a databaseType. By supplying a `jdbcDriverFileUrl` that returns a non `200` response code, the url is executed, the response is logged (both in terminal and in database) and is included in the response. This would allow an attackers to obtain the real IP address and scan Intranet information. This issue was fixed in version 1.0.7.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31196">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4476e9c68596090e793c7d5c7473a179</td>
+       <td>CVE-2022-31152</td>
+       <td>2022-09-02 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Synapse is an open-source Matrix homeserver written and maintained by the Matrix.org Foundation. The Matrix specification specifies a list of [event authorization rules](https://spec.matrix.org/v1.2/rooms/v9/#authorization-rules) which must be checked when determining if an event should be accepted into a room. In versions of Synapse up to and including version 1.61.0, some of these rules are not correctly applied. An attacker could craft events which would be accepted by Synapse but not a spec-conformant server, potentially causing divergence in the room state between servers. Administrators of homeservers with federation enabled are advised to upgrade to version 1.62.0 or higher. Federation can be disabled by setting [`federation_domain_whitelist`](https://matrix-org.github.io/synapse/latest/usage/configuration/config_documentation.html#federation_domain_whitelist) to an empty list (`[]`) as a workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31152">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bd2a03dd1ff16551905968d0e41c7559</td>
        <td>CVE-2022-3065</td>
        <td>2022-09-02 19:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
        <td>In Apache OFBiz, versions 18.12.05 and earlier, an attacker acting as an anonymous user of the ecommerce plugin, can insert a malicious content in a message “Subject” field from the "Contact us" page. Then a party manager needs to list the communications in the party component to activate the SSTI. A RCE is then possible.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25813">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2bf984d710b621564434b05fe1a23223</td>
-       <td>CVE-2022-25371</td>
-       <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Apache OFBiz uses the Birt project plugin (https://eclipse.github.io/birt-website/) to create data visualizations and reports. By leveraging a bug in Birt (https://bugs.eclipse.org/bugs/show_bug.cgi?id=538142) it is possible to perform a remote code execution (RCE) attack in Apache OFBiz, release 18.12.05 and earlier.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25371">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a24f82ec5b749634e9056cc80d8e300b</td>
-       <td>CVE-2022-25370</td>
-       <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Apache OFBiz uses the Birt plugin (https://eclipse.github.io/birt-website/) to create data visualizations and reports. In Apache OFBiz release 18.12.05, and earlier versions, by leveraging a vulnerability in Birt (https://bugs.eclipse.org/bugs/show_bug.cgi?id=538142), an unauthenticated malicious user could perform a stored XSS attack in order to inject a malicious payload and execute it using the stored XSS.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25370">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4a04823c12beb082f8ffc0d2bea20328</td>
-       <td>CVE-2022-39194</td>
-       <td>2022-09-02 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in the MediaWiki through 1.38.2. The community configuration pages for the GrowthExperiments extension could cause a site to become unavailable due to insufficient validation when certain actions (including page moves) were performed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">26e996c762b196c8f0b122e0281c7047</td>
-       <td>CVE-2022-39190</td>
-       <td>2022-09-02 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in net/netfilter/nf_tables_api.c in the Linux kernel before 5.19.6. A denial of service can occur upon binding to an already bound chain.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39190">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">391d76700fc059ae0c9f1bb0cc0d678c</td>
-       <td>CVE-2022-39189</td>
-       <td>2022-09-02 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered the x86 KVM subsystem in the Linux kernel before 5.18.17. Unprivileged guest users can compromise the guest kernel because TLB flush operations are mishandled in certain KVM_VCPU_PREEMPTED situations.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39189">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b9c7c5c255c5c05e7bd074bff0257fb6</td>
-       <td>CVE-2022-39177</td>
-       <td>2022-09-02 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>BlueZ before 5.59 allows physically proximate attackers to cause a denial of service because malformed and invalid capabilities can be processed in profiles/audio/avdtp.c.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39177">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">435f9e0460de996364c2f57cd8ffa154</td>
-       <td>CVE-2022-39176</td>
-       <td>2022-09-02 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>BlueZ before 5.59 allows physically proximate attackers to obtain sensitive information because profiles/audio/avrcp.c does not validate params_len.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39176">详情</a></td>
       </tr>
 
      </tbody>
