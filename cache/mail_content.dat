@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-57541</font><br/>[<b>披露时间</b>] 2022-09-04 16:55:40<br/>[<b>漏洞描述</b>] 上海泛微网络科技股份有限公司泛微E-Weaver存在任意文件下载漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-57541'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-57541</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-57561</font><br/>[<b>披露时间</b>] 2022-09-04 16:55:42<br/>[<b>漏洞描述</b>] 亿赛通数据库审计系统存在任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-57561'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-57561</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2614</font><br/>[<b>披露时间</b>] 2022-08-12 20:15:09 <br/>[<b>漏洞描述</b>] Use after free in Sign-In Flow in Google Chrome prior to 104.0.5112.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2614'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2614</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
