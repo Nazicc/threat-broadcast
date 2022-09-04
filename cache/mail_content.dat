@@ -1,15 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61608 (CVE-2022-34742)</font><br/>[<b>披露时间</b>] 2022-09-04 06:48:23<br/>[<b>漏洞描述</b>] Huawei HarmonyOS信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61608'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61608</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61609 (CVE-2022-34736)</font><br/>[<b>披露时间</b>] 2022-09-04 06:48:26<br/>[<b>漏洞描述</b>] Huawei HarmonyOS空指针漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61609'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61609</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61610 (CVE-2022-27870)</font><br/>[<b>披露时间</b>] 2022-09-04 06:48:29<br/>[<b>漏洞描述</b>] Autodesk AutoCAD缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61610'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61610</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61611 (CVE-2022-27869)</font><br/>[<b>披露时间</b>] 2022-09-04 06:48:31<br/>[<b>漏洞描述</b>] Autodesk AutoCAD缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61611'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61611</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61612 (CVE-2022-27868)</font><br/>[<b>披露时间</b>] 2022-09-04 06:48:33<br/>[<b>漏洞描述</b>] Autodesk AutoCAD资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61612'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61612</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3118</font><br/>[<b>披露时间</b>] 2022-09-04 09:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Sourcecodehero ERP System Project. It has been rated as critical. This issue affects some unknown processing of the file /pages/processlogin.php. The manipulation of the argument user leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-207845 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3118'>https://www.tenable.com/cve/CVE-2022-3118</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36640</font><br/>[<b>披露时间</b>] 2022-09-02 21:15:00<br/>[<b>漏洞描述</b>] ** DISPUTED ** influxData influxDB before v1.8.10 contains no authentication mechanism or controls, allowing unauthenticated attackers to execute arbitrary commands. NOTE: the CVE ID assignment is disputed because the vendor's documentation states "If InfluxDB is being deployed on a publicly accessible endpoint, we strongly recommend authentication be enabled. Otherwise the data will be publicly available to any unauthenticated user. The default settings do NOT enable authentication and authorization."<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-36640'>https://www.tenable.com/cve/CVE-2022-36640</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
