@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-28398</font><br/>[<b>披露时间</b>] 2022-09-05 17:15:00<br/>[<b>漏洞描述</b>] A privileged attacker in GeoNetwork before 3.12.0 and 4.x before 4.0.4 can use the directory harvester before-script to execute arbitrary OS commands remotely on the hosting infrastructure. A User Administrator or Administrator account is required to perform this. This occurs in the runBeforeScript method in harvesters/src/main/java/org/fao/geonet/kernel/harvest/harvester/localfilesystem/LocalFilesystemHarvester.java. The earliest affected version is 3.4.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-28398'>https://www.tenable.com/cve/CVE-2021-28398</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39838</font><br/>[<b>披露时间</b>] 2022-09-05 16:15:00<br/>[<b>漏洞描述</b>] Systematic FIX Adapter (ALFAFX) 2.4.0.25 13/09/2017 allows remote file inclusion via a UNC share pathname, and also allows absolute path traversal to local pathnames.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39838'>https://www.tenable.com/cve/CVE-2022-39838</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31814</font><br/>[<b>披露时间</b>] 2022-09-05 16:15:00<br/>[<b>漏洞描述</b>] pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrary OS commands as root via shell metacharacters in the HTTP Host header. NOTE: 3.x is unaffected.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31814'>https://www.tenable.com/cve/CVE-2022-31814</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30331</font><br/>[<b>披露时间</b>] 2022-09-05 16:15:00<br/>[<b>漏洞描述</b>] ** DISPUTED ** The User-Defined Functions (UDF) feature in TigerGraph 3.6.0 allows installation of a query (in the GSQL query language) without proper validation. Consequently, an attacker can execute arbitrary C++ code. NOTE: the vendor's position is "GSQL was behaving as expected."<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30331'>https://www.tenable.com/cve/CVE-2022-30331</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38367</font><br/>[<b>披露时间</b>] 2022-09-05 18:15:00<br/>[<b>漏洞描述</b>] The Netic User Export add-on before 2.0.6 for Atlassian Jira does not perform authorization checks. This might allow an unauthenticated user to export all users from Jira by making an HTTP request to the affected endpoint.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-38367'>https://www.tenable.com/cve/CVE-2022-38367</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
