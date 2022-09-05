@@ -1,20 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-43444</font><br/>[<b>披露时间</b>] 2022-09-05 07:10:54<br/>[<b>漏洞描述</b>] 达梦数据交换平台存在逻辑缺陷漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-43444'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-43444</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-42450</font><br/>[<b>披露时间</b>] 2022-09-05 07:10:56<br/>[<b>漏洞描述</b>] 武汉达梦数据库股份有限公司DMETL5开发版存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-42450'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-42450</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-09-05 06:53:34<br/>[<b>漏洞描述</b>] 安全事件周报 (08.29-09.04)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=8c78896d6265cc0ff5e99999ab2d1155'>https://cert.360.cn/warning/detail?id=8c78896d6265cc0ff5e99999ab2d1155</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39830</font><br/>[<b>披露时间</b>] 2022-09-05 04:15:00<br/>[<b>漏洞描述</b>] sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_public_key_affine_coordinates, leading to a denial of service.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39830'>https://www.tenable.com/cve/CVE-2022-39830</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39829</font><br/>[<b>披露时间</b>] 2022-09-05 04:15:00<br/>[<b>漏洞描述</b>] There is a NULL pointer dereference in aes256_encrypt in Samsung mTower through 0.3.0 due to a missing check on the return value of EVP_CIPHER_CTX_new.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39829'>https://www.tenable.com/cve/CVE-2022-39829</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39828</font><br/>[<b>披露时间</b>] 2022-09-05 04:15:00<br/>[<b>漏洞描述</b>] sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_private_key, leading to a denial of service.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39828'>https://www.tenable.com/cve/CVE-2022-39828</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39824</font><br/>[<b>披露时间</b>] 2022-09-05 03:15:00<br/>[<b>漏洞描述</b>] Server-side JavaScript injection in Appsmith through 1.7.14 allows remote attackers to execute arbitrary JavaScript code from the server via the currentItem property of the list widget, e.g., to perform DoS attacks or achieve an information leak.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39824'>https://www.tenable.com/cve/CVE-2022-39824</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39196</font><br/>[<b>披露时间</b>] 2022-09-05 00:15:00<br/>[<b>漏洞描述</b>] Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39196'>https://www.tenable.com/cve/CVE-2022-39196</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3075</font><br/>[<b>披露时间</b>] 2022-09-05 08:27:05<br/>[<b>漏洞描述</b>] CVE-2022-3075：Google Chrome远程代码执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=efdb130a19974f3582f3495a0bb8aa8f'>https://cert.360.cn/warning/detail?id=efdb130a19974f3582f3495a0bb8aa8f</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
