@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38367</font><br/>[<b>披露时间</b>] 2022-09-05 18:15:00<br/>[<b>漏洞描述</b>] The Netic User Export add-on before 2.0.6 for Atlassian Jira does not perform authorization checks. This might allow an unauthenticated user to export all users from Jira by making an HTTP request to the affected endpoint.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-38367'>https://www.tenable.com/cve/CVE-2022-38367</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34747</font><br/>[<b>披露时间</b>] 2022-09-06 02:15:00<br/>[<b>漏洞描述</b>] A format string vulnerability in Zyxel NAS326 firmware versions prior to V5.21(AAZF.12)C0 could allow an attacker to achieve unauthorized remote code execution via a crafted UDP packet.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-34747'>https://www.tenable.com/cve/CVE-2022-34747</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
