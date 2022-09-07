@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-07 19:41:07 -->
+<!-- RELEASE TIME : 2022-09-07 20:48:26 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">69417d178598cfd1e854c28bf1fb34a4</td>
+       <td>CVE-2022-36069</td>
+       <td>2022-09-07 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Poetry is a dependency manager for Python. When handling dependencies that come from a Git repository instead of a registry, Poetry uses various commands, such as `git clone`. These commands are constructed using user input (e.g. the repository URL). When building the commands, Poetry correctly avoids Command Injection vulnerabilities by passing an array of arguments instead of a command string. However, there is the possibility that a user input starts with a dash (`-`) and is therefore treated as an optional argument instead of a positional one. This can lead to Code Execution because some of the commands have options that can be leveraged to run arbitrary executables. If a developer is exploited, the attacker could steal credentials or persist their access. If the exploit happens on a server, the attackers could use their access to attack other internal systems. Since this vulnerability requires a fair amount of user interaction, it is not as dangerous as a remotely exploitable one. However, it still puts developers at risk when dealing with untrusted files in a way they think is safe, because the exploit still works when the victim tries to make sure nothing can happen, e.g. by vetting any Git or Poetry config files that might be present in the directory. Versions 1.1.9 and 1.2.0b1 contain patches for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36069">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a168851ce71b443fe3094158f8499a1d</td>
        <td>CVE-2022-37780</td>
        <td>2022-09-07 17:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-09-06 23:15:00 <img src="imgs/new.gif" /></td>
        <td>Broken Access Control vulnerability in Alessio Caiazza's About Me plugin <= 1.0.12 at WordPress.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36387">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cdff0135e4b9db856864c1dc92c354d0</td>
-       <td>CVE-2022-35913</td>
-       <td>2022-09-06 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Samourai Wallet Stonewallx2 0.99.98e allows a denial of service via a P2P coinjoin. The attacker and victim must follow each other's paynym. Then, the victim must try to collaborate with the attacker for a Stonewallx2 transaction. Next, the attacker broadcasts a tx, spending the inputs used in Stonewallx2 before the victim can broadcast the collaborative transaction. The attacker does not signal opt in RBF, and uses the lowest fee rate. This would result in the victim being unable to perform Stonewallx2. (Note that the attacker could use multiple paynyms.)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35913">详情</a></td>
       </tr>
 
      </tbody>
@@ -2420,6 +2420,22 @@
       </tr>
 
       <tr>
+       <td scope="row">d6b7500a68284503aba1466fb85a2b9f</td>
+       <td>CVE-2022-39176</td>
+       <td>2022-09-02 04:15:11 </td>
+       <td>BlueZ before 5.59 allows physically proximate attackers to obtain sensitive information because profiles/audio/avrcp.c does not validate params_len.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39176">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">333eceec0d71ebed3816b800eca42a96</td>
+       <td>CVE-2022-39170</td>
+       <td>2022-09-02 03:15:07 </td>
+       <td>libdwarf 0.4.1 has a double free in _dwarf_exec_frame_instr in dwarf_frame.c.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39170">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ad4ef8698e0e5963adc629d6d6577e72</td>
        <td>CVE-2022-38128</td>
        <td>2022-09-01 21:15:10 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-08-29 21:15:09 </td>
        <td>Zoho ManageEngine OpManager, OpManager Plus, OpManager MSP, Network Configuration Manager, NetFlow Analyzer, and OpUtils before 125658, 126003, 126105, and 126120 allow authenticated users to make database changes that lead to remote code execution in the NMAP feature.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38772">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1a66862bff75bc65ddceb8070ca78bc3</td>
-       <td>CVE-2022-3035</td>
-       <td>2022-08-29 20:15:09 </td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository snipe/snipe-it prior to v6.0.11.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3035">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">714bca60b7570ed4372b0cf12ecf41bf</td>
-       <td>CVE-2022-27558</td>
-       <td>2022-08-29 16:15:08 </td>
-       <td>HCL iNotes is susceptible to a Broken Password Strength Checks vulnerability. Custom password policies are not enforced on certain iNotes forms which could allow users to set weak passwords, leading to easier cracking.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27558">详情</a></td>
       </tr>
 
      </tbody>
