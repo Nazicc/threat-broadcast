@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61912 (CVE-2022-36125)</font><br/>[<b>披露时间</b>] 2022-09-07 07:58:40<br/>[<b>漏洞描述</b>] Apache Avro拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61912'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61912</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2639</font><br/>[<b>披露时间</b>] 2022-09-07 07:44:05<br/>[<b>漏洞描述</b>] CVE-2022-2639：Linux Kernel openvswitch 模块权限提升漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=bff8bf20ad740b59ebd2313486ec5c9b'>https://cert.360.cn/warning/detail?id=bff8bf20ad740b59ebd2313486ec5c9b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34747</font><br/>[<b>披露时间</b>] 2022-09-07 08:26:37<br/>[<b>漏洞描述</b>] CVE-2022-34747：Zyxel NAS设备远程代码执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=2f636f3b129ac62e491ca2483fe07cd4'>https://cert.360.cn/warning/detail?id=2f636f3b129ac62e491ca2483fe07cd4</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
