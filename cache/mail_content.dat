@@ -1,16 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-61910 (CVE-2021-38868)</font><br/>[<b>披露时间</b>] 2022-09-07 14:09:20<br/>[<b>漏洞描述</b>] IBM Engineering Requirements Quality Assistant跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-61910'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-61910</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36600</font><br/>[<b>披露时间</b>] 2022-09-07 20:22:13<br/>[<b>漏洞描述</b>] BlogEngine 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=1fb14a41bafe4f5da17c71d81f311aff'>https://redqueen.tj-un.com/IntelDetails.html?id=1fb14a41bafe4f5da17c71d81f311aff</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1405</font><br/>[<b>披露时间</b>] 2022-09-07 20:21:50<br/>[<b>漏洞描述</b>] Delta Electronics CNCSoft 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ca3f7aa6c36f4c5bbfd928d6c8b2c00a'>https://redqueen.tj-un.com/IntelDetails.html?id=ca3f7aa6c36f4c5bbfd928d6c8b2c00a</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2896</font><br/>[<b>披露时间</b>] 2022-09-07 20:21:45<br/>[<b>漏洞描述</b>] Measuresoft ScadaPro Server and Client 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e8739421d49046a6a584dd54c8bddd2d'>https://redqueen.tj-un.com/IntelDetails.html?id=e8739421d49046a6a584dd54c8bddd2d</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39047</font><br/>[<b>披露时间</b>] 2022-09-07 20:21:30<br/>[<b>漏洞描述</b>] Freeciv 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fb8da69e2ed64c9183cb96df6fbc7be4'>https://redqueen.tj-un.com/IntelDetails.html?id=fb8da69e2ed64c9183cb96df6fbc7be4</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40023</font><br/>[<b>披露时间</b>] 2022-09-07 13:15:00<br/>[<b>漏洞描述</b>] Sqlalchemy mako before 1.2.2 is vulnerable to Regular expression Denial of Service when using the Lexer class to parse. This also affects babelplugin and linguaplugin.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40023'>https://www.tenable.com/cve/CVE-2022-40023</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37189</font><br/>[<b>披露时间</b>] 2022-09-07 13:15:00<br/>[<b>漏洞描述</b>] DDMAL MEI2Volpiano 0.8.2 is vulnerable to XML External Entity (XXE), leading to a Denial of Service. This occurs due to the usage of the unsafe 'xml.etree' library to parse untrusted XML input.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-37189'>https://www.tenable.com/cve/CVE-2022-37189</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
