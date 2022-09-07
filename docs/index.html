@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-07 09:46:13 -->
+<!-- RELEASE TIME : 2022-09-07 11:41:55 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">07220b1c0070fdbc24ffcdf8ccf2ded6</td>
+       <td>CVE-2022-31251</td>
+       <td>2022-09-07 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Incorrect Default Permissions vulnerability in the packaging of the slurm testsuite of openSUSE Factory allows local attackers with control over the slurm user to escalate to root. This issue affects: openSUSE Factory slurm versions prior to 22.05.2-3.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31251">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c565ab12aae790565c07c630e6aeea64</td>
+       <td>CVE-2022-31247</td>
+       <td>2022-09-07 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>An Improper Authorization vulnerability in SUSE Rancher, allows any user who has permissions to create/edit cluster role template bindings or project role template bindings (such as cluster-owner, manage cluster members, project-owner and manage project members) to gain owner permission in another project in the same cluster or in another project on a different downstream cluster. This issue affects: SUSE Rancher Rancher versions prior to 2.6.7; Rancher versions prior to 2.5.16.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31247">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6d12b74ca4b1d0f9e7a9aa8257794c3a</td>
+       <td>CVE-2022-21950</td>
+       <td>2022-09-07 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Improper Access Control vulnerability in the systemd service of cana in openSUSE Backports SLE-15-SP3, openSUSE Backports SLE-15-SP4 allows local users to hijack the UNIX domain socket This issue affects: openSUSE Backports SLE-15-SP3 canna versions prior to canna-3.7p3-bp153.2.3.1. openSUSE Backports SLE-15-SP4 canna versions prior to 3.7p3-bp154.3.3.1. openSUSE Factory was also affected. Instead of fixing the package it was deleted there.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-21950">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d01cdc00bccf05309aeb9ea63762be3d</td>
+       <td>CVE-2021-36783</td>
+       <td>2022-09-07 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Exposure of Sensitive Information to an Unauthorized Actor vulnerability in SUSE Rancher allows authenticated Cluster Owners, Cluster Members, Project Owners and Project Members to read credentials, passwords and API tokens that have been stored in cleartext and exposed via API endpoints. This issue affects: SUSE Rancher Rancher versions prior to 2.6.4; Rancher versions prior to 2.5.13.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-36783">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d70f8e5bc6a00c44b9715440c2369391</td>
+       <td>CVE-2021-36782</td>
+       <td>2022-09-07 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Cleartext Storage of Sensitive Information vulnerability in SUSE Rancher allows authenticated Cluster Owners, Cluster Members, Project Owners, Project Members and User Base to use the Kubernetes API to retrieve plaintext version of sensitive data. This issue affects: SUSE Rancher Rancher versions prior to 2.5.16; Rancher versions prior to 2.6.7.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-36782">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">cffa4f453f50cdf9fc57ef7f3ceee1e7</td>
        <td>CVE-2022-38530</td>
        <td>2022-09-06 23:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-09-06 19:15:00 <img src="imgs/new.gif" /></td>
        <td>CircuitVerse is an open-source platform which allows users to construct digital logic circuits online. A remote code execution (RCE) vulnerability in CircuitVerse allows authenticated attackers to execute arbitrary code via specially crafted JSON payloads. This issue may lead to Remote Code Execution (RCE). A patch is available in commit number 7b3023a99499a7675f10f2c1d9effdf10c35fb6e. There are currently no known workarounds.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36038">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9c4262fc01d2d801df627428faa33f9a</td>
-       <td>CVE-2022-36032</td>
-       <td>2022-09-06 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>ReactPHP HTTP is a streaming HTTP client and server implementation for ReactPHP. In ReactPHP's HTTP server component versions starting with 0.7.0 and prior to 1.7.0, when ReactPHP is processing incoming HTTP cookie values, the cookie names are url-decoded. This may lead to cookies with prefixes like `__Host-` and `__Secure-` confused with cookies that decode to such prefix, thus leading to an attacker being able to forge cookie which is supposed to be secure. This issue is fixed in ReactPHP HTTP version 1.7.0. As a workaround, Infrastructure or DevOps can place a reverse proxy in front of the ReactPHP HTTP server to filter out any unexpected `Cookie` request headers.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36032">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">033f5eb670c64196f3ebe3056671bcdc</td>
-       <td>CVE-2022-31792</td>
-       <td>2022-09-06 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stored cross-site scripting (XSS) vulnerability exists in the management web interface of WatchGuard Firebox and XTM appliances. A remote attacker can potentially execute arbitrary JavaScript code in the management web interface by sending crafted requests to exposed management ports. This is fixed in Fireware OS 12.8.1, 12.5.10, and 12.1.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31792">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bb7463f42418fd25cfffc6c0dacfd99e</td>
-       <td>CVE-2022-31791</td>
-       <td>2022-09-06 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>WatchGuard Firebox and XTM appliances allow a local attacker (that has already obtained shell access) to elevate their privileges and execute code with root permissions. This is fixed in Fireware OS 12.8.1, 12.5.10, and 12.1.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31791">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9069102d5bab718bda9af32901834f73</td>
-       <td>CVE-2022-31789</td>
-       <td>2022-09-06 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>An integer overflow in WatchGuard Firebox and XTM appliances allows an unauthenticated remote attacker to trigger a buffer overflow and potentially execute arbitrary code by sending a malicious request to exposed management ports. This is fixed in Fireware OS 12.8.1, 12.5.10, and 12.1.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31789">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f26240700eedcc5933e98e75344441e5</td>
-       <td>CVE-2020-21516</td>
-       <td>2022-09-06 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is an arbitrary file upload vulnerability in FeehiCMS 2.0.8 at the head image upload, that allows attackers to execute relevant PHP code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-21516">详情</a></td>
       </tr>
 
      </tbody>
