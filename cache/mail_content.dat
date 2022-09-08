@@ -1,12 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36923</font><br/>[<b>披露时间</b>] 2022-08-11 07:07:50<br/>[<b>漏洞描述</b>] Zoho ManageEngine OpManager getUserAPIKey 敏感信息泄漏漏洞（CVE-2022-36923）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-36923'>https://avd.aliyun.com/detail?id=AVD-2022-36923</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62219 (CVE-2022-3099)</font><br/>[<b>披露时间</b>] 2022-09-08 08:50:35<br/>[<b>漏洞描述</b>] Vim资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62219'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62219</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62220 (CVE-2022-36609)</font><br/>[<b>披露时间</b>] 2022-09-08 08:50:37<br/>[<b>漏洞描述</b>] Clinic&rsquo;s Patient Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62220'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62220</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62221 (CVE-2022-36055)</font><br/>[<b>披露时间</b>] 2022-09-08 08:50:39<br/>[<b>漏洞描述</b>] Helm资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62221'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62221</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62222 (CVE-2021-20468)</font><br/>[<b>披露时间</b>] 2022-09-08 08:50:42<br/>[<b>漏洞描述</b>] IBM Cognos Analytics存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62222'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62222</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62223 (CVE-2022-36583)</font><br/>[<b>披露时间</b>] 2022-09-08 08:50:44<br/>[<b>漏洞描述</b>] DedeCMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62223'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62223</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
