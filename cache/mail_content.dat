@@ -1,16 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20696</font><br/>[<b>披露时间</b>] 2022-09-09 13:38:08<br/>[<b>漏洞描述</b>] Cisco SD-WAN vManage Software 访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7496'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7496</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3759</font><br/>[<b>披露时间</b>] 2022-08-24 06:08:22<br/>[<b>漏洞描述</b>] linux linux_kernel 未加控制的资源消耗（资源穷尽）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2021-3759'>https://avd.aliyun.com/detail?id=AVD-2021-3759</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39842</font><br/>[<b>披露时间</b>] 2022-09-05 07:15:08 <br/>[<b>漏洞描述</b>] An issue was discovered in the Linux kernel before 5.19. In pxa3xx_gcu_write in drivers/video/fbdev/pxa3xx-gcu.c, the count parameter has a type conflict of size_t versus int, causing an integer overflow and bypassing the size check. After that, because it is used as the third argument to copy_from_user(), a heap overflow may occur.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39842'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39842</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40299</font><br/>[<b>披露时间</b>] 2022-09-09 01:15:00<br/>[<b>漏洞描述</b>] In Singular before 4.3.1, a predictable /tmp pathname is used (e.g., by sdb.cc), which allows local users to gain the privileges of other users via a procedure in a file under /tmp. NOTE: this CVE Record is about sdb.cc and similar files in the Singular interface that have predictable /tmp pathnames; this CVE Record is not about the lack of a safe temporary-file creation capability in the Singular language.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40299'>https://www.tenable.com/cve/CVE-2022-40299</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40297</font><br/>[<b>披露时间</b>] 2022-09-09 00:15:00<br/>[<b>漏洞描述</b>] UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40297'>https://www.tenable.com/cve/CVE-2022-40297</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
