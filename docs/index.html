@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-09 14:06:11 -->
+<!-- RELEASE TIME : 2022-09-09 14:47:48 -->
 <html lang="zh-cn">
 
  <head>
@@ -2444,6 +2444,22 @@
       </tr>
 
       <tr>
+       <td scope="row">f76f9e47c5914b1b554c4e109f97d1b5</td>
+       <td>CVE-2022-39832</td>
+       <td>2022-09-05 05:15:07 </td>
+       <td>An issue was discovered in PSPP 1.6.2. There is a heap-based buffer overflow at the function read_string in utilities/pspp-dump-sav.c, which allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39832">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3c28167b2616f7512cfe994a64e9aadf</td>
+       <td>CVE-2022-39831</td>
+       <td>2022-09-05 05:15:07 </td>
+       <td>An issue was discovered in PSPP 1.6.2. There is a heap-based buffer overflow at the function read_bytes_internal in utilities/pspp-dump-sav.c, which allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact. This issue is different from CVE-2018-20230.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39831">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9583a624eca6ed4e15da98bc5cc9102e</td>
        <td>CVE-2022-39830</td>
        <td>2022-09-05 04:15:08 </td>
@@ -2465,6 +2481,14 @@
        <td>2022-09-05 04:15:08 </td>
        <td>sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_private_key, leading to a denial of service.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39828">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">253a83475d090e80a66a7e834b18284e</td>
+       <td>CVE-2022-39196</td>
+       <td>2022-09-05 00:15:09 </td>
+       <td>Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39196">详情</a></td>
       </tr>
 
       <tr>
@@ -2625,30 +2649,6 @@
        <td>2022-08-31 06:15:08 </td>
        <td>Freeciv before 2.6.7 and before 3.0.3 is prone to a buffer overflow vulnerability in the Modpack Installer utility's handling of the modpack URL.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39047">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e155f0c84a91756034ba70f91eb81c7</td>
-       <td>CVE-2022-39046</td>
-       <td>2022-08-31 06:15:07 </td>
-       <td>An issue was discovered in the GNU C Library (glibc) 2.36. When the syslog function is passed a crafted input string larger than 1024 bytes, it reads uninitialized memory from the heap and prints it to the target log file, potentially revealing a portion of the contents of the heap.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39046">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">916b09316803b328806f88c6f3a45022</td>
-       <td>CVE-2022-36561</td>
-       <td>2022-08-30 21:15:09 </td>
-       <td>XPDF v4.0.4 was discovered to contain a segmentation violation via the component /xpdf/AcroForm.cc:538.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36561">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c4ae7861dc934dda0e6a5a08460329df</td>
-       <td>CVE-2022-3037</td>
-       <td>2022-08-30 21:15:09 </td>
-       <td>Use After Free in GitHub repository vim/vim prior to 9.0.0322.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3037">详情</a></td>
       </tr>
 
      </tbody>
