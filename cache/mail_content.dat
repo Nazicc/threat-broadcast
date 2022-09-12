@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40305</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:28<br/>[<b>漏洞描述</b>] CANTO CANTO Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c22318b6bb764e7fad6606646768ef11'>https://redqueen.tj-un.com/IntelDetails.html?id=c22318b6bb764e7fad6606646768ef11</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36860</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:25<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f9c7961654f141ca9ed41d571df24938'>https://redqueen.tj-un.com/IntelDetails.html?id=f9c7961654f141ca9ed41d571df24938</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38254</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:20<br/>[<b>漏洞描述</b>] Nagios XI 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e32c46a45dc342c18b05b9b128aaf117'>https://redqueen.tj-un.com/IntelDetails.html?id=e32c46a45dc342c18b05b9b128aaf117</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38250</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:16<br/>[<b>漏洞描述</b>] Nagios XI 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f4be209211444496a41161d6659828fa'>https://redqueen.tj-un.com/IntelDetails.html?id=f4be209211444496a41161d6659828fa</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36844</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:13<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f660fdecbd8c4209889a1f60224621a7'>https://redqueen.tj-un.com/IntelDetails.html?id=f660fdecbd8c4209889a1f60224621a7</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25310</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:07<br/>[<b>漏洞描述</b>] fribidi 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=26be5d2881ec4c4eb08dc5fee02cc7a6'>https://redqueen.tj-un.com/IntelDetails.html?id=26be5d2881ec4c4eb08dc5fee02cc7a6</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38251</font><br/>[<b>披露时间</b>] 2022-09-12 20:13:01<br/>[<b>漏洞描述</b>] Nagios XI 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=aef2e04098474362b0dcd80309931476'>https://redqueen.tj-un.com/IntelDetails.html?id=aef2e04098474362b0dcd80309931476</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38248</font><br/>[<b>披露时间</b>] 2022-09-12 20:12:56<br/>[<b>漏洞描述</b>] Nagios XI 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=de86d9b4b753475c85e836dc1beef69c'>https://redqueen.tj-un.com/IntelDetails.html?id=de86d9b4b753475c85e836dc1beef69c</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25309</font><br/>[<b>披露时间</b>] 2022-09-12 20:12:44<br/>[<b>漏洞描述</b>] fribidi 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a39b30fab82a4a37b6db213bbbfcdb56'>https://redqueen.tj-un.com/IntelDetails.html?id=a39b30fab82a4a37b6db213bbbfcdb56</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37835</font><br/>[<b>披露时间</b>] 2022-09-12 12:15:00<br/>[<b>漏洞描述</b>] Torguard VPN 4.8, has a vulnerability that allows an attacker to dump sensitive information, such as credentials and information about the server, without admin privileges.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-37835'>https://www.tenable.com/cve/CVE-2022-37835</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
