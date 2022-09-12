@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37835</font><br/>[<b>披露时间</b>] 2022-09-12 12:15:00<br/>[<b>漏洞描述</b>] Torguard VPN 4.8, has a vulnerability that allows an attacker to dump sensitive information, such as credentials and information about the server, without admin privileges.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-37835'>https://www.tenable.com/cve/CVE-2022-37835</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37797</font><br/>[<b>披露时间</b>] 2022-09-12 15:15:00<br/>[<b>漏洞描述</b>] In lighttpd 1.4.65, mod_wstunnel does not initialize a handler function pointer if an invalid HTTP request (websocket handshake) is received. It leads to null pointer dereference which crashes the server. It could be used by an external attacker to cause denial of service condition.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-37797'>https://www.tenable.com/cve/CVE-2022-37797</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37767</font><br/>[<b>披露时间</b>] 2022-09-12 14:15:00<br/>[<b>漏洞描述</b>] Pebble Templates 3.1.5 allows attackers to bypass a protection mechanism and implement arbitrary code execution with springbok<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-37767'>https://www.tenable.com/cve/CVE-2022-37767</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37734</font><br/>[<b>披露时间</b>] 2022-09-12 14:15:00<br/>[<b>漏洞描述</b>] graphql-java before19.0 is vulnerable to Denial of Service. An attacker send a malicious GraphQL query that consumes CPU resources.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-37734'>https://www.tenable.com/cve/CVE-2022-37734</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
