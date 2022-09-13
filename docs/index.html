@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-13 19:41:41 -->
+<!-- RELEASE TIME : 2022-09-13 20:46:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -2436,6 +2436,22 @@
       </tr>
 
       <tr>
+       <td scope="row">2d8a0b48a676ba6717cd7147fe81fd0b</td>
+       <td>CVE-2022-40281</td>
+       <td>2022-09-08 22:15:08 </td>
+       <td>An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). cyassl_connect_step2 in curl/vtls/cyassl.c has a missing X509_free after SSL_get_peer_certificate, leading to information disclosure.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40281">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3ee2be65b1fe696245c87d07d39e735c</td>
+       <td>CVE-2022-40280</td>
+       <td>2022-09-08 22:15:08 </td>
+       <td>An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). createDB in security/provisioning/src/provisioningdatabasemanager.c has a missing sqlite3_close after sqlite3_open_v2, leading to a denial of service.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40280">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d716ba005c16d7b34189a0e4e0b3c59e</td>
        <td>CVE-2022-38260</td>
        <td>2022-09-08 17:15:08 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-09-05 04:15:08 </td>
        <td>sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_private_key, leading to a denial of service.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39828">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a74d7c8b2a4059f6f0ea9e1ea7e6dbbc</td>
-       <td>CVE-2022-39824</td>
-       <td>2022-09-05 03:15:07 </td>
-       <td>Server-side JavaScript injection in Appsmith through 1.7.14 allows remote attackers to execute arbitrary JavaScript code from the server via the currentItem property of the list widget, e.g., to perform DoS attacks or achieve an information leak.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39824">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">253a83475d090e80a66a7e834b18284e</td>
-       <td>CVE-2022-39196</td>
-       <td>2022-09-05 00:15:09 </td>
-       <td>Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39196">详情</a></td>
       </tr>
 
      </tbody>
