@@ -1,11 +1,19 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">9</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-09-13 07:39:56<br/>[<b>漏洞描述</b>] 安全事件周报 (09.05-09.12)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=d0de983a1d91826aef8789b17d0146b3'>https://cert.360.cn/warning/detail?id=d0de983a1d91826aef8789b17d0146b3</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62756 (CVE-2021-31934)</font><br/>[<b>披露时间</b>] 2022-09-13 10:48:37<br/>[<b>漏洞描述</b>] Open-xchange OX App Suite跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62756'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62756</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62757 (CVE-2021-31935)</font><br/>[<b>披露时间</b>] 2022-09-13 10:48:45<br/>[<b>漏洞描述</b>] Open-xchange OX App Suite跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62757'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62757</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62750 (CVE-2021-23174)</font><br/>[<b>披露时间</b>] 2022-09-13 10:48:49<br/>[<b>漏洞描述</b>] WordPress Download Monitor plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62750'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62750</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62751 (CVE-2022-25600)</font><br/>[<b>披露时间</b>] 2022-09-13 10:48:53<br/>[<b>漏洞描述</b>] WordPress WP Google Map plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62751'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62751</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62752 (CVE-2022-25601)</font><br/>[<b>披露时间</b>] 2022-09-13 10:48:56<br/>[<b>漏洞描述</b>] WordPress Contact Form X plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62752'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62752</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62753 (CVE-2022-23979)</font><br/>[<b>披露时间</b>] 2022-09-13 10:48:59<br/>[<b>漏洞描述</b>] WordPress Ultimate Reviews plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62753'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62753</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62800 (CVE-2021-25118)</font><br/>[<b>披露时间</b>] 2022-09-13 10:49:02<br/>[<b>漏洞描述</b>] WordPress Yoast SEO plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62800'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62800</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62802 (CVE-2022-23982)</font><br/>[<b>披露时间</b>] 2022-09-13 10:49:06<br/>[<b>漏洞描述</b>] WordPress plugin Perfect Brands for WooCommerce信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62802'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62802</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-62805 (CVE-2021-4134)</font><br/>[<b>披露时间</b>] 2022-09-13 10:49:17<br/>[<b>漏洞描述</b>] WordPress plugin Fancy Product Designer SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-62805'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-62805</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
