@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36073</font><br/>[<b>披露时间</b>] 2022-09-15 20:25:41<br/>[<b>漏洞描述</b>] RubyGems 授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=13d27a7917c946f69e4ad9be6a668a28'>https://redqueen.tj-un.com/IntelDetails.html?id=13d27a7917c946f69e4ad9be6a668a28</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3152</font><br/>[<b>披露时间</b>] 2022-09-15 20:25:36<br/>[<b>漏洞描述</b>] PHPFusion 授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=3c2cf2deecec4cb69d3e850189b5400f'>https://redqueen.tj-un.com/IntelDetails.html?id=3c2cf2deecec4cb69d3e850189b5400f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38250</font><br/>[<b>披露时间</b>] 2022-09-15 20:25:31<br/>[<b>漏洞描述</b>] Nagios XI SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f4be209211444496a41161d6659828fa'>https://redqueen.tj-un.com/IntelDetails.html?id=f4be209211444496a41161d6659828fa</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36049</font><br/>[<b>披露时间</b>] 2022-09-15 20:25:26<br/>[<b>漏洞描述</b>] Flux2 资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=430660070926435aa77f19ee2d7881ce'>https://redqueen.tj-un.com/IntelDetails.html?id=430660070926435aa77f19ee2d7881ce</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36079</font><br/>[<b>披露时间</b>] 2022-09-15 20:25:16<br/>[<b>漏洞描述</b>] Parse Server 信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=932e9054fb2e401a9ccbf586578eda58'>https://redqueen.tj-un.com/IntelDetails.html?id=932e9054fb2e401a9ccbf586578eda58</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25309</font><br/>[<b>披露时间</b>] 2022-09-15 20:25:11<br/>[<b>漏洞描述</b>] fribidi 缓冲区错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a39b30fab82a4a37b6db213bbbfcdb56'>https://redqueen.tj-un.com/IntelDetails.html?id=a39b30fab82a4a37b6db213bbbfcdb56</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39846</font><br/>[<b>披露时间</b>] 2022-09-09 15:15:14 <br/>[<b>漏洞描述</b>] DLL hijacking vulnerability in Smart Switch PC prior to version 4.3.22083_3 allows attacker to execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39846'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39846</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
