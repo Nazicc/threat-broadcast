@@ -1,37 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">16</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63921 (CVE-2022-0794)</font><br/>[<b>披露时间</b>] 2022-09-19 10:51:32<br/>[<b>漏洞描述</b>] Google Chrome WebShare内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63921'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63921</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63922 (CVE-2022-0793)</font><br/>[<b>披露时间</b>] 2022-09-19 10:51:34<br/>[<b>漏洞描述</b>] Google Chrome Views代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63922'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63922</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63923 (CVE-2022-0808)</font><br/>[<b>披露时间</b>] 2022-09-19 10:51:36<br/>[<b>漏洞描述</b>] Google Chrome OS Shell内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63923'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63923</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63924 (CVE-2022-0791)</font><br/>[<b>披露时间</b>] 2022-09-19 10:51:38<br/>[<b>漏洞描述</b>] Google Chrome Omnibox代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63924'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63924</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63925 (CVE-2022-0797)</font><br/>[<b>披露时间</b>] 2022-09-19 10:51:41<br/>[<b>漏洞描述</b>] Google Chrome Mojo代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63925'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63925</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63926 (CVE-2022-0796)</font><br/>[<b>披露时间</b>] 2022-09-19 10:51:43<br/>[<b>漏洞描述</b>] Google Chrome Media内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63926'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63926</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0789</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome ANGLE缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416030'>http://cve.scap.org.cn/vuln/VHN-416030</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0790</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome Cast UI内存错误引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416031'>http://cve.scap.org.cn/vuln/VHN-416031</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0791</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome Omnibox代码执行漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416032'>http://cve.scap.org.cn/vuln/VHN-416032</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0793</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome Views代码执行漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416034'>http://cve.scap.org.cn/vuln/VHN-416034</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0794</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome WebShare内存错误引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416035'>http://cve.scap.org.cn/vuln/VHN-416035</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0796</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome Media内存错误引用漏洞（CNVD-2022-63926）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416037'>http://cve.scap.org.cn/vuln/VHN-416037</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0798</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome MediaStream内存错误引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416039'>http://cve.scap.org.cn/vuln/VHN-416039</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0800</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome Cast UI堆缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416041'>http://cve.scap.org.cn/vuln/VHN-416041</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0805</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome Browser Switcher内存错误引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416046'>http://cve.scap.org.cn/vuln/VHN-416046</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0808</font><br/>[<b>披露时间</b>] 2022-09-19 10:52:28<br/>[<b>漏洞描述</b>] Google Chrome OS Shell内存错误引用漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416049'>http://cve.scap.org.cn/vuln/VHN-416049</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-63929 (CVE-2022-0800)</font><br/>[<b>披露时间</b>] 2022-09-19 11:42:48<br/>[<b>漏洞描述</b>] Google Chrome Cast UI堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-63929'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-63929</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40778</font><br/>[<b>披露时间</b>] 2022-09-19 07:15:00<br/>[<b>漏洞描述</b>] A stored Cross-Site Scripting (XSS) vulnerability in OPSWAT MetaDefender ICAP Server before 4.13.0 allows attackers to execute arbitrary JavaScript or HTML because of the blocked page response.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40778'>https://www.tenable.com/cve/CVE-2022-40778</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
