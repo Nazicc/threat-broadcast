@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-22 05:06:48 -->
+<!-- RELEASE TIME : 2022-09-22 06:33:33 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d24eb2a3ceb7ded29814fc99521bb181</td>
+       <td>CVE-2022-40186</td>
+       <td>2022-09-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in HashiCorp Vault and Vault Enterprise before 1.11.3. A vulnerability in the Identity Engine was found where, in a deployment where an entity has multiple mount accessors with shared alias names, Vault may overwrite metadata to the wrong alias due to an issue with checking the proper alias assigned to an entity. This may allow for unintended access to key/value paths using that metadata in Vault.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40186">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ffbd30cdac6cf503523b3c22c146740f</td>
+       <td>CVE-2022-39197</td>
+       <td>2022-09-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Strike through 4.7 that allowed a remote attacker to execute HTML on the Cobalt Strike teamserver. To exploit the vulnerability, one must first inspect a Cobalt Strike payload, and then modify the username field in the payload (or create a new payload with the extracted information and then modify that username field to be malformed).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39197">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5465110fe666750f5ba7095c73cb50ce</td>
+       <td>CVE-2022-38512</td>
+       <td>2022-09-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Translation module in Liferay Portal v7.4.3.12 through v7.4.3.36, and Liferay DXP 7.4 update 8 through 36 does not check permissions before allowing a user to export a web content for translation, allowing attackers to download a web content page's XLIFF translation file via crafted URL.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38512">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c7bfd947f87bc3eaa6255ca522131e50</td>
+       <td>CVE-2022-28981</td>
+       <td>2022-09-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Path traversal vulnerability in the Hypermedia REST APIs module in Liferay Portal 7.4.0 through 7.4.2 allows remote attackers to access files outside of com.liferay.headless.discovery.web/META-INF/resources via the `parameter` parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28981">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9606eb037fe4ee7eeb0cd34f9df30e5a</td>
+       <td>CVE-2022-28980</td>
+       <td>2022-09-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple cross-site scripting (XSS) vulnerabilities in Liferay Portal v7.4.3.4 and Liferay DXP v7.4 GA allows attackers to execute arbitrary web scripts or HTML via parameters with the filter_ prefix.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28980">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d8d6d19181c64144ffd995efb8b9f07f</td>
+       <td>CVE-2022-28977</td>
+       <td>2022-09-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>HtmlUtil.escapeRedirect in Liferay Portal 7.3.1 through 7.4.2, and Liferay DXP 7.0 fix pack 91 through 101, 7.1 fix pack 17 through 25, 7.2 fix pack 5 through 14, and 7.3 before service pack 3 can be circumvented by using multiple forward slashes, which allows remote attackers to redirect users to arbitrary external URLs via the (1) 'redirect` parameter (2) `FORWARD_URL` parameter, and (3) others parameters that rely on HtmlUtil.escapeRedirect.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28977">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7e6fae00653dcc72f7a3c5214febf57d</td>
+       <td>CVE-2022-39975</td>
+       <td>2022-09-22 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Layout module in Liferay Portal v7.3.3 through v7.4.3.34, and Liferay DXP 7.3 before update 10, and 7.4 before update 35 does not check user permission before showing the preview of a "Content Page" type page, allowing attackers to view unpublished "Content Page" pages via URL manipulation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39975">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">91e1942d78224333eb9845e5809c376c</td>
+       <td>CVE-2022-35896</td>
+       <td>2022-09-22 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue SMM memory leak vulnerability in SMM driver (SMRAM was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. An attacker can dump SMRAM contents via the software SMI provided by the FvbServicesRuntimeDxe driver to read the contents of SMRAM, leading to information disclosure.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35896">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7763b5e9ec4a7aee0551cca665136070</td>
+       <td>CVE-2022-28982</td>
+       <td>2022-09-22 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability in Liferay Portal v7.3.3 through v7.4.2 and Liferay DXP v7.3 before service pack 3 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name of a tag.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28982">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ddae0165518475ca72d554cd1fdcb76a</td>
+       <td>CVE-2022-28979</td>
+       <td>2022-09-22 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Liferay Portal v7.1.0 through v7.4.2 and Liferay DXP v7.3 before service pack 3 was discovered to contain a cross-site scripting (XSS) vulnerability in the Portal Search module's Custom Facet widget. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Custom Parameter Name text field.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28979">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">18fc3eadbe796731bbc3b1b079e1617c</td>
        <td>CVE-2022-39224</td>
        <td>2022-09-21 23:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23948">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">ec8cd2c4b57851a08985b815b8fc605f</td>
-       <td>CVE-2022-40616</td>
-       <td>2022-09-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>IBM Maximo Asset Management 7.6.1.1, 7.6.1.2, and 7.6.1.3 could allow a user to bypass authentication and obtain sensitive information or perform tasks they should not have access to. IBM X-Force ID: 236311.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40616">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">003ab654bac950c465408888cb2885cd</td>
-       <td>CVE-2022-37027</td>
-       <td>2022-09-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Ahsay AhsayCBS 9.1.4.0 allows an authenticated system user to inject arbitrary Java JVM options. Administrators that can modify the Runtime Options in the web interface can inject Java Runtime Options. These take effect after a restart. For example, an attacker can enable JMX services and consequently achieve remote code execution as the system user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37027">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5976e94c5dcf6df8b6fdaee466411f2b</td>
-       <td>CVE-2022-3251</td>
-       <td>2022-09-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Sensitive Cookie in HTTPS Session Without 'Secure' Attribute in GitHub repository ikus060/minarca prior to 4.2.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3251">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5e0a8fe7fdd1f9f6aeba50f481a75775</td>
-       <td>CVE-2022-3250</td>
-       <td>2022-09-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Sensitive Cookie in HTTPS Session Without 'Secure' Attribute in GitHub repository ikus060/rdiffweb prior to 2.4.6.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3250">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3bc667dfe40e293f07a564e6910d71b5</td>
-       <td>CVE-2022-41255</td>
-       <td>2022-09-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins CONS3RT Plugin 1.0.0 and earlier stores Cons3rt API token unencrypted in job config.xml files on the Jenkins controller where it can be viewed by users with access to the Jenkins controller file system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41255">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc442fd8635676817dfaba3dfe08de7c</td>
-       <td>CVE-2022-41254</td>
-       <td>2022-09-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Missing permission checks in Jenkins CONS3RT Plugin 1.0.0 and earlier allow attackers with Overall/Read permission to connect to an attacker-specified HTTP server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41254">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5f979df8b2804461eda93e7bdad7c275</td>
-       <td>CVE-2022-41253</td>
-       <td>2022-09-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins CONS3RT Plugin 1.0.0 and earlier allows attackers to connect to an attacker-specified HTTP server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41253">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b405e85e0b2120a6f66dfc98bc643bfe</td>
-       <td>CVE-2022-41252</td>
-       <td>2022-09-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Missing permission checks in Jenkins CONS3RT Plugin 1.0.0 and earlier allows users with Overall/Read permission to enumerate credentials ID of credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41252">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c8dd8474669c4c3789c7a9c087596bf7</td>
-       <td>CVE-2022-41251</td>
-       <td>2022-09-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A missing permission check in Jenkins Apprenda Plugin 2.2.0 and earlier allows users with Overall/Read permission to enumerate credentials IDs of credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41251">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d7627dc927d8f5eabb62def1f43281af</td>
-       <td>CVE-2022-41250</td>
-       <td>2022-09-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A missing permission check in Jenkins SCM HttpClient Plugin 1.5 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified HTTP server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41250">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,60 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">439d6f5d9dd772d8339a31aea759de56</td>
+       <td>CVE-2021-40017</td>
+       <td>2022-09-22 06:33:19 <img src="imgs/new.gif" /></td>
+       <td>Huawei HarmonyOS缓冲区溢出漏洞（CNVD-2022-64981）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401418">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d9be91a34cbb2a93e9c04b5135d5b476</td>
+       <td>CVE-2022-31459</td>
+       <td>2022-09-22 06:33:19 <img src="imgs/new.gif" /></td>
+       <td>Owl Labs Meeting Owl信息泄露漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423180">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a273f629a5dd55d8f68cd83990915bc</td>
+       <td>CVE-2022-31460</td>
+       <td>2022-09-22 06:33:19 <img src="imgs/new.gif" /></td>
+       <td>Owl Labs Meeting Owl信任管理问题漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423181">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">566d1c3840e5c7008e994c945ffd6ae3</td>
+       <td>CVE-2022-31461</td>
+       <td>2022-09-22 06:33:19 <img src="imgs/new.gif" /></td>
+       <td>Owl Labs Meeting Owl授权问题漏洞（CNVD-2022-64972）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423182">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">019dbec22d52cae7ca30d3990bf95137</td>
+       <td>CVE-2022-31462</td>
+       <td>2022-09-22 06:33:19 <img src="imgs/new.gif" /></td>
+       <td>Owl Labs Meeting Owl信任管理问题漏洞（CNVD-2022-64973）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423183">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9fc67f3d0e79a27cce0c0542bc68ffb</td>
+       <td>CVE-2022-31463</td>
+       <td>2022-09-22 06:33:19 <img src="imgs/new.gif" /></td>
+       <td>Owl Labs Meeting Owl授权问题漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423184">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">0a972d2f98b715d683ca4a7d414a151c</td>
        <td>VHN-428946</td>
@@ -747,60 +801,6 @@
        <td>WordPress Photo Gallery plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419507">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e4be6a1e5a1e8913eb99a3b08ad0356b</td>
-       <td>CVE-2022-1424</td>
-       <td>2022-09-21 10:49:03 <img src="imgs/new.gif" /></td>
-       <td>WordPress theme Ask me plugin跨站请求伪造漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419537">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b64fc75436ae7e4e9a2f4d6ff90b7ae0</td>
-       <td>CVE-2022-1569</td>
-       <td>2022-09-21 10:49:03 <img src="imgs/new.gif" /></td>
-       <td>WordPress Forms by Pie Forms plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419682">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">679e802e9fff46f752ddea6258686662</td>
-       <td>CVE-2022-1647</td>
-       <td>2022-09-21 10:49:03 <img src="imgs/new.gif" /></td>
-       <td>WordPress FormCraft plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419760">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7aad51658232af3836f6dfa0f44f6544</td>
-       <td>CVE-2022-1673</td>
-       <td>2022-09-21 10:49:03 <img src="imgs/new.gif" /></td>
-       <td>WooCommerce Green Wallet Gateway WordPress plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419786">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6da3963db7a49bdc8348c360cc7e2c29</td>
-       <td>CVE-2021-44462</td>
-       <td>2022-09-20 08:59:13</td>
-       <td>Horner Automation Cscape EnvisionRV输入验证错误漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408737">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">98c155a97e3eb7a2e025837e55232a5e</td>
-       <td>CVE-2021-45024</td>
-       <td>2022-09-20 05:09:50</td>
-       <td>ASG technologies ASG-Zena Cross Platform...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-408408">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,11 +2412,91 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fe72d6f0eeab1ed3a28cffd7b8f0cbca</td>
+       <td>CVE-2022-40955</td>
+       <td>2022-09-20 14:15:09 </td>
+       <td>In versions of Apache InLong prior to 1.3.0, an attacker with sufficient privileges to specify MySQL JDBC connection URL parameters and to write arbitrary data to the MySQL database, could cause this data to be deserialized by Apache InLong, potentially leading to Remote Code Execution on the Apache InLong server. Users are advised to upgrade to Apache InLong 1.3.0 or newer.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40955">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">980b1e2c5b330173e033bcdc11b8b64f</td>
+       <td>CVE-2022-40980</td>
+       <td>2022-09-19 18:15:10 </td>
+       <td>A potential unathenticated file deletion vulnerabilty on Trend Micro Mobile Security for Enterprise 9.8 SP5 could allow an attacker with access to the Management Server to delete files. This issue was resolved in 9.8 SP5 Critical Patch 2.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40980">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">73c12d708ffcfa4871fd37b000094988</td>
+       <td>CVE-2022-40978</td>
+       <td>2022-09-19 16:15:12 </td>
+       <td>The installer of JetBrains IntelliJ IDEA before 2022.2.2 was vulnerable to EXE search order hijacking</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40978">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">90aae8c83e4491950ea97102a8e0471c</td>
+       <td>CVE-2022-40812</td>
+       <td>2022-09-19 16:15:12 </td>
+       <td>The d8s-pdfs for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-file-system package. The affected version is 0.1.0.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40812">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1072bb0478d884ddc97d94c5f84a8c0a</td>
+       <td>CVE-2022-40810</td>
+       <td>2022-09-19 16:15:12 </td>
+       <td>The d8s-ip-addresses for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40810">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">18d47369d91190a9b87cf528afd401c4</td>
+       <td>CVE-2022-40809</td>
+       <td>2022-09-19 16:15:12 </td>
+       <td>The d8s-dicts for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40809">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e3d7ac2580bf028e0e242746d74a55fa</td>
        <td>CVE-2022-37700</td>
        <td>2022-09-19 16:15:11 </td>
        <td>Zentao Demo15 is vulnerable to Directory Traversal. The impact is: obtain sensitive information (remote). The component is: URL : view-source:https://demo15.zentao.pm/user-login.html/zentao/index.php?mode=getconfig.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37700">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6c4aafa3380e58b15691f7fc04cc5380</td>
+       <td>CVE-2022-40811</td>
+       <td>2022-09-19 15:15:13 </td>
+       <td>The d8s-urls for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-file-system package. The affected version is 0.1.0.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40811">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9b8f0c43d3995830c7c6e1ea964ac93</td>
+       <td>CVE-2022-40808</td>
+       <td>2022-09-19 15:15:13 </td>
+       <td>The d8s-dates for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40808">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8ad65611ea12ad80e09bd8234524d625</td>
+       <td>CVE-2022-40807</td>
+       <td>2022-09-19 15:15:13 </td>
+       <td>The d8s-domains for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40807">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aadac324008b5ecd0cb54ec0dbd8d91f</td>
+       <td>CVE-2022-40806</td>
+       <td>2022-09-19 15:15:13 </td>
+       <td>The d8s-uuids for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40806">详情</a></td>
       </tr>
 
       <tr>
@@ -2569,86 +2649,6 @@
        <td>2022-09-16 21:15:09 </td>
        <td>TensorFlow is an open source platform for machine learning. If `FakeQuantWithMinMaxVars` is given `min` or `max` tensors of a nonzero rank, it results in a `CHECK` fail that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 785d67a78a1d533759fcd2f5e8d6ef778de849e0. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35971">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ca8272941cf5f20b78fe52807c52c842</td>
-       <td>CVE-2022-35970</td>
-       <td>2022-09-16 21:15:09 </td>
-       <td>TensorFlow is an open source platform for machine learning. If `QuantizedInstanceNorm` is given `x_min` or `x_max` tensors of a nonzero rank, it results in a segfault that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 785d67a78a1d533759fcd2f5e8d6ef778de849e0. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35970">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e67710251a9ea5bd46c15ae567a3b86</td>
-       <td>CVE-2022-35969</td>
-       <td>2022-09-16 21:15:09 </td>
-       <td>TensorFlow is an open source platform for machine learning. The implementation of `Conv2DBackpropInput` requires `input_sizes` to be 4-dimensional. Otherwise, it gives a `CHECK` failure which can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 50156d547b9a1da0144d7babe665cf690305b33c. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35969">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3fb52d0058b7919f6935bfba8caee9fb</td>
-       <td>CVE-2022-35968</td>
-       <td>2022-09-16 21:15:09 </td>
-       <td>TensorFlow is an open source platform for machine learning. The implementation of `AvgPoolGrad` does not fully validate the input `orig_input_shape`. This results in a `CHECK` failure which can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 3a6ac52664c6c095aa2b114e742b0aa17fdce78f. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35968">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a00c393cbce57a9d1bc6201cc54a2dc7</td>
-       <td>CVE-2022-35967</td>
-       <td>2022-09-16 21:15:09 </td>
-       <td>TensorFlow is an open source platform for machine learning. If `QuantizedAdd` is given `min_input` or `max_input` tensors of a nonzero rank, it results in a segfault that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 49b3824d83af706df0ad07e4e677d88659756d89. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35967">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f22ab35eba15caa587435d10507a9e26</td>
-       <td>CVE-2022-35966</td>
-       <td>2022-09-16 21:15:09 </td>
-       <td>TensorFlow is an open source platform for machine learning. If `QuantizedAvgPool` is given `min_input` or `max_input` tensors of a nonzero rank, it results in a segfault that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 7cdf9d4d2083b739ec81cfdace546b0c99f50622. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35966">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a81c7d4465b9e664de31f8c0a79d2558</td>
-       <td>CVE-2022-35965</td>
-       <td>2022-09-16 21:15:08 </td>
-       <td>TensorFlow is an open source platform for machine learning. If `LowerBound` or `UpperBound` is given an empty`sorted_inputs` input, it results in a `nullptr` dereference, leading to a segfault that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit bce3717eaef4f769019fd18e990464ca4a2efeea. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35965">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">184a03dfaab8260f100991ed6d40008f</td>
-       <td>CVE-2022-35964</td>
-       <td>2022-09-16 21:15:08 </td>
-       <td>TensorFlow is an open source platform for machine learning. The implementation of `BlockLSTMGradV2` does not fully validate its inputs. This results in a a segfault that can be used to trigger a denial of service attack. We have patched the issue in GitHub commit 2a458fc4866505be27c62f81474ecb2b870498fa. The fix will be included in TensorFlow 2.10.0. We will also cherrypick this commit on TensorFlow 2.9.1, TensorFlow 2.8.1, and TensorFlow 2.7.2, as these are also affected and still in supported range. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35964">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">220c2a3932d1f50f93e61a76a4aebb7c</td>
-       <td>CVE-2022-38978</td>
-       <td>2022-09-16 18:15:17 </td>
-       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect data confidentiality.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38978">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86b1ff9d49c89552187482a164e4c6f2</td>
-       <td>CVE-2022-38434</td>
-       <td>2022-09-16 18:15:17 </td>
-       <td>Adobe Photoshop versions 22.5.8 (and earlier) and 23.4.2 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38434">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">73f6b320dc0de5d59711037543fc93a4</td>
-       <td>CVE-2022-38433</td>
-       <td>2022-09-16 18:15:17 </td>
-       <td>Adobe Photoshop versions 22.5.8 (and earlier) and 23.4.2 (and earlier) are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.sue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38433">详情</a></td>
       </tr>
 
      </tbody>
