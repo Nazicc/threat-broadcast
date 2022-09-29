@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-29 14:52:27 -->
+<!-- RELEASE TIME : 2022-09-29 17:12:46 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">4d3c24147edfa8629fa4e8e2bb4e72cf</td>
+       <td>CVE-2022-39254</td>
+       <td>2022-09-29 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>matrix-nio is a Python Matrix client library, designed according to sans I/O principles. Prior to version 0.20, when a users requests a room key from their devices, the software correctly remember the request. Once they receive a forwarded room key, they accept it without checking who the room key came from. This allows homeservers to try to insert room keys of questionable validity, potentially mounting an impersonation attack. Version 0.20 fixes the issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39254">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bd0f288219e7c015ca2a828fee607eaf</td>
+       <td>CVE-2022-39252</td>
+       <td>2022-09-29 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>matrix-rust-sdk is an implementation of a Matrix client-server library in Rust, and matrix-sdk-crypto is the Matrix encryption library. Prior to version 0.6, when a user requests a room key from their devices, the software correctly remembers the request. When the user receives a forwarded room key, the software accepts it without checking who the room key came from. This allows homeservers to try to insert room keys of questionable validity, potentially mounting an impersonation attack. Version 0.6 fixes this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39252">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a30bb07e1a677f3f2374a85ff4f3661c</td>
+       <td>CVE-2022-38732</td>
+       <td>2022-09-29 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>SnapCenter versions prior to 4.7 shipped without Content Security Policy (CSP) implemented which could allow certain types of attacks that otherwise would be prevented.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38732">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">06e3957af05832d2e0e5aee0d64f2fa7</td>
+       <td>CVE-2022-40408</td>
+       <td>2022-09-29 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>FeehiCMS v2.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability via a crafted payload injected into the Comment box under the Single Page module.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40408">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3c17298860a14de356864df1b889d1bb</td>
+       <td>CVE-2022-40407</td>
+       <td>2022-09-29 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A zip slip vulnerability in the file upload function of Chamilo v1.11 allows attackers to execute arbitrary code via a crafted Zip file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40407">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7b5ccf142ebfddf87a99d589c1624db0</td>
        <td>CVE-2022-40890</td>
        <td>2022-09-29 13:15:00 <img src="imgs/new.gif" /></td>
@@ -300,6 +340,14 @@
        <td>CVE-2022-39250</td>
        <td>2022-09-29 13:15:00 <img src="imgs/new.gif" /></td>
        <td>Matrix JavaScript SDK is the Matrix Client-Server software development kit (SDK) for JavaScript. Prior to version 19.7.0, an attacker cooperating with a malicious homeserver could interfere with the verification flow between two users, injecting its own cross-signing user identity in place of one of the usersâ€™ identities. This would lead to the other device trusting/verifying the user identity under the control of the homeserver instead of the intended one. The vulnerability is a bug in the matrix-js-sdk, caused by checking and signing user identities and devices in two separate steps, and inadequately fixing the keys to be signed between those steps. Even though the attack is partly made possible due to the design decision of treating cross-signing user identities as Matrix devices on the server side (with their device ID set to the public part of the user identity key), no other examined implementations were vulnerable. Starting with version 19.7.0, the matrix-js-sdk has been modified to double check that the key signed is the one that was verified instead of just referencing the key by ID. An additional check has been made to report an error when one of the device ID matches a cross-signing key. As this attack requires coordination between a malicious homeserver and an attacker, those who trust their homeservers do not need a particular workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39250">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">01dccdb14b8cb84c1df8245abbc12ac8</td>
+       <td>CVE-2022-39250</td>
+       <td>2022-09-29 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Matrix JavaScript SDK is the Matrix Client-Server software development kit (SDK) for JavaScript. Prior to version 19.7.0, an attacker cooperating with a malicious homeserver could interfere with the verification flow between two users, injecting its own cross-signing user identity in place of one of the users’ identities. This would lead to the other device trusting/verifying the user identity under the control of the homeserver instead of the intended one. The vulnerability is a bug in the matrix-js-sdk, caused by checking and signing user identities and devices in two separate steps, and inadequately fixing the keys to be signed between those steps. Even though the attack is partly made possible due to the design decision of treating cross-signing user identities as Matrix devices on the server side (with their device ID set to the public part of the user identity key), no other examined implementations were vulnerable. Starting with version 19.7.0, the matrix-js-sdk has been modified to double check that the key signed is the one that was verified instead of just referencing the key by ID. An additional check has been made to report an error when one of the device ID matches a cross-signing key. As this attack requires coordination between a malicious homeserver and an attacker, those who trust their homeservers do not need a particular workaround.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39250">详情</a></td>
       </tr>
 
@@ -471,54 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40707">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">923375035fc201ae9cc6658321d05514</td>
-       <td>CVE-2022-39263</td>
-       <td>2022-09-28 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>`@next-auth/upstash-redis-adapter` is the Upstash Redis adapter for NextAuth.js, which provides authentication for Next.js. Applications that use `next-auth` Email Provider and `@next-auth/upstash-redis-adapter` before v3.0.2 are affected by this vulnerability. The Upstash Redis adapter implementation did not check for both the identifier (email) and the token, but only checking for the identifier when verifying the token in the email callback flow. An attacker who knows about the victim's email could easily sign in as the victim, given the attacker also knows about the verification token's expired duration. The vulnerability is patched in v3.0.2. A workaround is available. Using Advanced Initialization, developers can check the requests and compare the query's token and identifier before proceeding.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39263">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d3a85aeb121f51d89d2f15afe37b127d</td>
-       <td>CVE-2022-39257</td>
-       <td>2022-09-28 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Matrix iOS SDK allows developers to build iOS apps compatible with Matrix. Prior to version 0.23.19, an attacker cooperating with a malicious homeserver can construct messages appearing to have come from another person. Such messages will be marked with a grey shield on some platforms, but this may be missing in others. This attack is possible due to the matrix-ios-sdk implementing a too permissive key forwarding strategy. The default policy for accepting key forwards has been made more strict in the matrix-ios-sdk version 0.23.19. matrix-ios-sdk will now only accept forwarded keys in response to previously issued requests and only from own, verified devices. The SDK now sets a `trusted` flag on the decrypted message upon decryption, based on whether the key used to decrypt the message was received from a trusted source. Clients need to ensure that messages decrypted with a key with `trusted = false` are decorated appropriately (for example, by showing a warning for such messages). This attack requires coordination between a malicious home server and an attacker, so those who trust their home servers do not need a workaround.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39257">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2bd62bd83c2212f37cf73e9bdce4dc4b</td>
-       <td>CVE-2022-39255</td>
-       <td>2022-09-28 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Matrix iOS SDK allows developers to build iOS apps compatible with Matrix. Prior to version 0.23.19, an attacker cooperating with a malicious homeserver can construct messages that legitimately appear to have come from another person, without any indication such as a grey shield. Additionally, a sophisticated attacker cooperating with a malicious homeserver could employ this vulnerability to perform a targeted attack in order to send fake to-device messages appearing to originate from another user. This can allow, for example, to inject the key backup secret during a self-verification, to make a targeted device start using a malicious key backup spoofed by the homeserver. These attacks are possible due to a protocol confusion vulnerability that accepts to-device messages encrypted with Megolm instead of Olm. matrix-ios-sdk version 0.23.19 has been modified to only accept Olm-encrypted to-device messages. Out of caution, several other checks have been audited or added. This attack requires coordination between a malicious home server and an attacker, so those who trust their home servers do not need a workaround. To avoid malicious backup attacks, one should not verify one's new logins using emoji/QR verifications methods until patched.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39255">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">49ec9a4741c915faef48ad16d581d9f1</td>
-       <td>CVE-2021-27774</td>
-       <td>2022-09-22 21:15:00</td>
-       <td>User input included in error response, which could be used in a phishing attack.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-27774">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c803f04eaae29581be543a95e5839297</td>
-       <td>CVE-2022-37234</td>
-       <td>2022-09-22 20:15:00</td>
-       <td>Netgear Nighthawk AC1900 Smart WiFi Dual Band Gigabit Router R7000-V1.0.11.134_10.2.119 is vulnerable to Buffer Overflow via the wl binary in firmware. There is a stack overflow vulnerability caused by strncpy.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37234">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c43aad5b835fa93f3b6c75323d09d1be</td>
-       <td>CVE-2022-3274</td>
-       <td>2022-09-22 19:15:00</td>
-       <td>Cross-Site Request Forgery (CSRF) in GitHub repository ikus060/rdiffweb prior to 2.4.7.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3274">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,60 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">fb1c6b984ee757d4c6b07b8e387441cd</td>
+       <td>VHN-429005</td>
+       <td>2022-09-29 17:12:34 <img src="imgs/new.gif" /></td>
+       <td>Joomla AdsManager 3.2.0 SQL Injection...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429005">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">801595b88ade12158c0a8367dd1ba68c</td>
+       <td>VHN-429006</td>
+       <td>2022-09-29 17:12:34 <img src="imgs/new.gif" /></td>
+       <td>Bus Pass Management System 1.0 Cross Site Scripting...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429006">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2da1fb5715b2a1043f8d8f3fbb1ba788</td>
+       <td>VHN-429007</td>
+       <td>2022-09-29 17:12:34 <img src="imgs/new.gif" /></td>
+       <td>Online Examination System 1.0 SQL Injection...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429007">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c1e01bcaacd9ff54cfc7e1efd44af259</td>
+       <td>VHN-429008</td>
+       <td>2022-09-29 17:12:34 <img src="imgs/new.gif" /></td>
+       <td>Online Examination System 1.0 Cross Site Scripting...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429008">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">debd6a5efb03c4fb66738739ffa95049</td>
+       <td>CVE-2021-29899</td>
+       <td>2022-09-28 17:12:34 <img src="imgs/new.gif" /></td>
+       <td>IBM Engineering Requirements Quality Assistant拒绝服务漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-389527">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8b5f96537840905b5d5a735736116f3c</td>
+       <td>CVE-2022-22365</td>
+       <td>2022-09-28 17:12:34 <img src="imgs/new.gif" /></td>
+       <td>IBM WebSphere Application Server存在未明漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-410934">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">b752555f3416393847773dee14173c50</td>
        <td>VHN-429000</td>
@@ -749,60 +803,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419631">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">69fc6699514953849b183b08168f1bdc</td>
-       <td>CVE-2022-1519</td>
-       <td>2022-09-22 07:57:06</td>
-       <td>Illumina Local Run Manager文件上传漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e79242df38e6b8bdcf8d040b6d0567dd</td>
-       <td>CVE-2022-1521</td>
-       <td>2022-09-22 07:57:06</td>
-       <td>Illumina Local Run Manager访问控制错误漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419634">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f6f75585dd1a24726317de19cd750bcf</td>
-       <td>CVE-2022-1524</td>
-       <td>2022-09-22 07:57:06</td>
-       <td>Illumina Local Run Manager信息泄露漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419637">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b609ed0288ee896271cf2cf1b92b4849</td>
-       <td>CVE-2022-1666</td>
-       <td>2022-09-22 07:57:06</td>
-       <td>Secheron SEPCOS Control and Protection Relay信息泄露漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419779">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4bf2b5bd39b9990d82c8e450040d33bc</td>
-       <td>CVE-2022-1667</td>
-       <td>2022-09-22 07:57:06</td>
-       <td>Secheron SEPCOS Control and Protection Relay存在未明漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419780">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e732dd09bf1b296401352cc1fa34791</td>
-       <td>CVE-2022-1668</td>
-       <td>2022-09-22 07:57:06</td>
-       <td>Secheron SEPCOS Control and Protection Relay弱密码漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419781">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -817,6 +817,54 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">6d5f711d563782af4415e7780ef14a2d</td>
+       <td>CNVD-2022-66264 (CVE-2020-4876)</td>
+       <td>2022-09-30 17:12:20 <img src="imgs/new.gif" /></td>
+       <td>IBM Cognos Controller XML外部实体注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66264">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bce2b898cd42329e512560f7bfe5a061</td>
+       <td>CNVD-2022-66263 (CVE-2022-22322)</td>
+       <td>2022-09-30 17:12:18 <img src="imgs/new.gif" /></td>
+       <td>IBM InfoSphere Information Server跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66263">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8faa05dc66f6fc72185b0e441486a70c</td>
+       <td>CNVD-2022-66262 (CVE-2022-22427)</td>
+       <td>2022-09-30 17:12:15 <img src="imgs/new.gif" /></td>
+       <td>IBM InfoSphere Information Server跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66262">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">225e49f09f283ddd22fea62a81d835f8</td>
+       <td>CNVD-2022-66261 (CVE-2021-39020)</td>
+       <td>2022-09-30 17:12:13 <img src="imgs/new.gif" /></td>
+       <td>IBM Guardium Data Encryption信息泄漏漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66261">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b0d014fe18b8475fd0421f10c935196</td>
+       <td>CNVD-2022-66260 (CVE-2022-22325)</td>
+       <td>2022-09-30 17:12:11 <img src="imgs/new.gif" /></td>
+       <td>IBM MQ for HPE NonStop信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66260">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32e8289430c24811f76f1a25536f68d0</td>
+       <td>CNVD-2022-66258 (CVE-2022-22365)</td>
+       <td>2022-09-30 17:12:06 <img src="imgs/new.gif" /></td>
+       <td>IBM WebSphere Application Server存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66258">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">559029b8268ad4822f525098cd7e20d1</td>
        <td>CNVD-2022-66253 (CVE-2022-21768)</td>
@@ -879,6 +927,14 @@
        <td>2022-09-29 03:26:46 <img src="imgs/new.gif" /></td>
        <td>华天动力协同办公系统存在任意文件下载漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63196">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2475c5b5c0caa86b06bcbeb5ef43dda0</td>
+       <td>CNVD-2022-66259 (CVE-2020-4970)</td>
+       <td>2022-09-28 17:12:09 <img src="imgs/new.gif" /></td>
+       <td>IBM Security Identity Governance and Intelligence信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66259">详情</a></td>
       </tr>
 
       <tr>
@@ -999,62 +1055,6 @@
        <td>2022-09-22 05:05:47</td>
        <td>Adobe Bridge缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64968">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">923c2c9b8a252b3befe50d7e84f53ef7</td>
-       <td>CNVD-2022-64967 (CVE-2022-35700)</td>
-       <td>2022-09-22 05:05:44</td>
-       <td>Adobe Bridge缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64967">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fe2be85445bffd493d1ad5c10aab1b6f</td>
-       <td>CNVD-2022-64966 (CVE-2022-35701)</td>
-       <td>2022-09-22 05:05:42</td>
-       <td>Adobe Bridge缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64966">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ef32bd88da2b50183038ddc5f49b9ba</td>
-       <td>CNVD-2022-64965 (CVE-2022-35702)</td>
-       <td>2022-09-22 05:05:40</td>
-       <td>Adobe Bridge缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64965">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d0fd1066481e78b1e4f3b601026d2c99</td>
-       <td>CNVD-2022-64964 (CVE-2022-35705)</td>
-       <td>2022-09-22 05:05:37</td>
-       <td>Adobe Bridge缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64964">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0c691252102bbf8c590410be3113003f</td>
-       <td>CNVD-2022-64963 (CVE-2022-35703)</td>
-       <td>2022-09-22 05:05:35</td>
-       <td>Adobe Bridge缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64963">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0adcf62cdad1a918a08e8b6cc781bea</td>
-       <td>CNVD-2022-64962 (CVE-2022-38425)</td>
-       <td>2022-09-22 05:05:33</td>
-       <td>Adobe Bridge内存错误引用漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64962">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8c91412c4582edff5ae1c00fb7500fe</td>
-       <td>CNVD-2022-64241 (CVE-2022-1357)</td>
-       <td>2022-09-21 18:54:10</td>
-       <td>Cambium Networks cnMaestro操作系统命令注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64241">详情</a></td>
       </tr>
 
      </tbody>
@@ -2460,6 +2460,14 @@
       </tr>
 
       <tr>
+       <td scope="row">04daf50b153ac70e27c79f11878bbe0a</td>
+       <td>CVE-2022-41352</td>
+       <td>2022-09-26 02:15:10 </td>
+       <td>An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavisd via a cpio loophole (extraction to /opt/zimbra/jetty/webapps/zimbra/public) that can lead to incorrect access to any other user accounts. Zimbra recommends pax over cpio. Also, pax is in the prerequisites of Zimbra on Ubuntu; however, pax is no longer part of a default Red Hat installation after RHEL 6 (or CentOS 6). Once pax is installed, amavisd automatically prefers it over cpio.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41352">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b0e43dedab294324bfb632c6ea42e8d1</td>
        <td>CVE-2022-41343</td>
        <td>2022-09-25 19:15:09 </td>
@@ -2641,14 +2649,6 @@
        <td>2022-09-19 16:15:12 </td>
        <td>The d8s-ip-addresses for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40810">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">18d47369d91190a9b87cf528afd401c4</td>
-       <td>CVE-2022-40809</td>
-       <td>2022-09-19 16:15:12 </td>
-       <td>The d8s-dicts for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40809">详情</a></td>
       </tr>
 
      </tbody>
