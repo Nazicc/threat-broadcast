@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27546</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] HCL Technologies HCL iNotes跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70387'>http://www.nsfocus.net/vulndb/70387</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0336</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Samba AD DC默认权限错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70386'>http://www.nsfocus.net/vulndb/70386</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22897</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] PrestaShop SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70385'>http://www.nsfocus.net/vulndb/70385</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34668</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] NVIDIA NVFLARE不受信数据反序列化漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70384'>http://www.nsfocus.net/vulndb/70384</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36547</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Edoc-doctor-appointment-system跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70383'>http://www.nsfocus.net/vulndb/70383</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2915</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] SonicWall SMA100堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70382'>http://www.nsfocus.net/vulndb/70382</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0216</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] QEMU内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70381'>http://www.nsfocus.net/vulndb/70381</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25625</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Broadcom Symantec Privileged Access Management（PAM）信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70380'>http://www.nsfocus.net/vulndb/70380</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37318</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Archer Platform跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70379'>http://www.nsfocus.net/vulndb/70379</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32840</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Apple多款产品任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70378'>http://www.nsfocus.net/vulndb/70378</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32812</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Apple多款产品任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70377'>http://www.nsfocus.net/vulndb/70377</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2569</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] ARC Informatique PcVue信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70376'>http://www.nsfocus.net/vulndb/70376</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4209</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] GnuTLS空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70375'>http://www.nsfocus.net/vulndb/70375</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4155</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Red Hat Enterprise Linux信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70374'>http://www.nsfocus.net/vulndb/70374</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-0887</font><br/>[<b>披露时间</b>] 2022-09-29 11:46:12<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70373'>http://www.nsfocus.net/vulndb/70373</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3355</font><br/>[<b>披露时间</b>] 2022-09-29 10:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository inventree/inventree prior to 0.8.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3355'>https://www.tenable.com/cve/CVE-2022-3355</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
