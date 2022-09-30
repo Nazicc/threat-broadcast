@@ -1,14 +1,18 @@
 
 <h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40246</font><br/>[<b>披露时间</b>] 2022-09-20 18:15:10 <br/>[<b>漏洞描述</b>] A potential attacker can write one byte by arbitrary address at the time of the PEI phase (only during S3 resume boot mode) and influence the subsequent boot stages. This can lead to the mitigations bypassing, physical memory contents disclosure, discovery of any secrets from any Virtual Machines (VMs) and bypassing memory isolation and confidential computing boundaries. Additionally, an attacker can build a payload which can be injected into the SMRAM memory. This issue affects: Module name: SbPei SHA256: d827182e5f9b7a9ff0b9d3e232f7cfac43b5237e2681e11f005be627a49283a9 Module GUID: c1fbd624-27ea-40d1-aa48-94c3dc5c7e0d<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40246'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40246</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40215</font><br/>[<b>披露时间</b>] 2022-09-23 16:15:11 <br/>[<b>漏洞描述</b>] Multiple Authenticated Stored Cross-Site Scripting (XSS) vulnerabilities in Tabs plugin &lt;= 3.7.1 at WordPress.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40215'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40215</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40199</font><br/>[<b>披露时间</b>] 2022-09-27 23:15:16 <br/>[<b>漏洞描述</b>] Directory traversal vulnerability in EC-CUBE 3 series (EC-CUBE 3.0.0 to 3.0.18-p4 ) and EC-CUBE 4 series (EC-CUBE 4.0.0 to 4.1.2) allows a remote authenticated attacker with an administrative privilege to obtain the product's directory structure information.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40199'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40199</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40194</font><br/>[<b>披露时间</b>] 2022-09-23 16:15:11 <br/>[<b>漏洞描述</b>] Unauthenticated Sensitive Information Disclosure vulnerability in Customer Reviews for WooCommerce plugin &lt;= 5.3.5 at WordPress<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40194'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40194</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-66757</font><br/>[<b>披露时间</b>] 2022-09-30 07:21:05<br/>[<b>漏洞描述</b>] Microsoft Exchange Server远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-66757'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-66757</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429015</font><br/>[<b>披露时间</b>] 2022-09-30 07:22:20<br/>[<b>漏洞描述</b>] Microsoft Exchange Server远程代码执行漏洞（CNVD-2022-66757）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429015'>http://cve.scap.org.cn/vuln/VHN-429015</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429016</font><br/>[<b>披露时间</b>] 2022-09-30 07:22:20<br/>[<b>漏洞描述</b>] Microsoft Exchange Server服务端请求伪造漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429016'>http://cve.scap.org.cn/vuln/VHN-429016</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2778</font><br/>[<b>披露时间</b>] 2022-09-30 04:15:00<br/>[<b>漏洞描述</b>] In affected versions of Octopus Deploy it is possible to bypass rate limiting on login using null bytes.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2778'>https://www.tenable.com/cve/CVE-2022-2778</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
