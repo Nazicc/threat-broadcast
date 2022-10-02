@@ -1,30 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">9</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-64208</font><br/>[<b>披露时间</b>] 2022-10-02 17:03:07<br/>[<b>漏洞描述</b>] 零视技术(上海)有限公司H5S视频平台存在目录遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-64208'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-64208</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0850</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416074'>http://cve.scap.org.cn/vuln/VHN-416074</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429088</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] Packet Storm New Exploits For September, 2022...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429088'>http://cve.scap.org.cn/vuln/VHN-429088</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429089</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] ZKSecurity BIO 3.0.5.0_R Privilege Escalation...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429089'>http://cve.scap.org.cn/vuln/VHN-429089</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429090</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] ZKSecurity BIO 4.1.2 SQL Injection / Code Execution...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429090'>http://cve.scap.org.cn/vuln/VHN-429090</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429091</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] Centreon 22.04.0 Cross Site Scripting...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429091'>http://cve.scap.org.cn/vuln/VHN-429091</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429092</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] GuppY CMS 6.00.10 Shell Upload...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429092'>http://cve.scap.org.cn/vuln/VHN-429092</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429093</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] Joomla MyMuse 4.3.0 SQL Injection...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429093'>http://cve.scap.org.cn/vuln/VHN-429093</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429094</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] Joomla JS Jobs Pro 1.3.6 SQL Injection...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429094'>http://cve.scap.org.cn/vuln/VHN-429094</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429095</font><br/>[<b>披露时间</b>] 2022-10-01 17:04:02<br/>[<b>漏洞描述</b>] Joomla jMarket 5.15 Cross Site Scripting...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429095'>http://cve.scap.org.cn/vuln/VHN-429095</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38222</font><br/>[<b>披露时间</b>] 2022-09-29 03:15:15 <br/>[<b>漏洞描述</b>] There is a use-after-free issue in JBIG2Stream::close() located in JBIG2Stream.cc in Xpdf 4.04. It can be triggered by sending a crafted PDF file to (for example) the pdfimages binary. It allows an attacker to cause Denial of Service or possibly have unspecified other impact.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38222'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38222</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38178</font><br/>[<b>披露时间</b>] 2022-09-21 11:15:09 <br/>[<b>漏洞描述</b>] By spoofing the target resolver with responses that have a malformed EdDSA signature, an attacker can trigger a small memory leak. It is possible to gradually erode available memory to the point where named crashes for lack of resources.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38178'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38178</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38128</font><br/>[<b>披露时间</b>] 2022-09-01 21:15:10 <br/>[<b>漏洞描述</b>] An infinite loop may be triggered in display_debug_abbrev() function in binutils/dwarf.c while opening a crafted ELF, which may lead to denial of service by a local attacker.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38128'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38128</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38127</font><br/>[<b>披露时间</b>] 2022-09-01 21:15:10 <br/>[<b>漏洞描述</b>] A NULL pointer dereference in the read_and_display_attr_value() function in binutils/dwarf.c may lead to program crash when parsing corrupt DWARF data.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38127'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38127</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38126</font><br/>[<b>披露时间</b>] 2022-09-01 21:15:10 <br/>[<b>漏洞描述</b>] Assertion fail in the display_debug_names() function in binutils/dwarf.c may lead to program crash and denial of service.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38126'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38126</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38118</font><br/>[<b>披露时间</b>] 2022-08-30 05:15:08 <br/>[<b>漏洞描述</b>] OAKlouds Portal website&acirc;&euro;&trade;s Meeting Room has insufficient validation for user input. A remote attacker with general user privilege can perform SQL-injection to access, modify, delete database, perform system operations and disrupt service.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38118'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38118</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
