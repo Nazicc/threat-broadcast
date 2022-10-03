@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-03 19:44:52 -->
+<!-- RELEASE TIME : 2022-10-03 20:50:18 -->
 <html lang="zh-cn">
 
  <head>
@@ -2436,6 +2436,30 @@
       </tr>
 
       <tr>
+       <td scope="row">e1bc9f42de567403c60eb95548b013e8</td>
+       <td>CVE-2022-40710</td>
+       <td>2022-09-28 21:15:15 </td>
+       <td>A link following vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to escalate privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40710">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4d4ede270bc91400cd621a330af15296</td>
+       <td>CVE-2022-40709</td>
+       <td>2022-09-28 21:15:15 </td>
+       <td>An Out-of-bounds read vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to disclose sensitive information on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit these vulnerabilities. This vulnerability is similar to, but not identical to CVE-2022-40707 and 40708.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40709">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2ffffad1b842cc3babfd80aac5ffb4fa</td>
+       <td>CVE-2022-40708</td>
+       <td>2022-09-28 21:15:15 </td>
+       <td>An Out-of-bounds read vulnerability in Trend Micro Deep Security 20 and Cloud One - Workload Security Agent for Windows could allow a local attacker to disclose sensitive information on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit these vulnerabilities. This vulnerability is similar to, but not identical to CVE-2022-40707.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40708">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">cd5038a0d8eb98b51533b3272ecd6b03</td>
        <td>CVE-2022-3287</td>
        <td>2022-09-28 20:15:18 </td>
@@ -2588,6 +2612,22 @@
       </tr>
 
       <tr>
+       <td scope="row">ca1532ecc2bb7a8c0433aef202d9a108</td>
+       <td>CVE-2022-40817</td>
+       <td>2022-09-27 23:15:16 </td>
+       <td>Zammad 5.2.1 has a fine-grained permission model that allows to configure read-only access to tickets. However, agents were still wrongly able to perform some operations on such tickets, like adding and removing links, tags. and related answers. This issue has been fixed in 5.2.2.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40817">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6bfb2276d3f6e8bc073e69710730e729</td>
+       <td>CVE-2022-40816</td>
+       <td>2022-09-27 23:15:16 </td>
+       <td>Zammad 5.2.1 is vulnerable to Incorrect Access Control. Zammad's asset handling mechanism has logic to ensure that customer users are not able to see personal information of other users. This logic was not effective when used through a web socket connection, so that a logged-in attacker would be able to fetch personal data of other users by querying the Zammad API. This issue is fixed in , 5.2.2.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40816">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7ddfe747372f05cfd0b5c090f7c8fe16</td>
        <td>CVE-2022-3272</td>
        <td>2022-09-26 17:16:08 </td>
@@ -2596,59 +2636,19 @@
       </tr>
 
       <tr>
-       <td scope="row">e312c7b9b0ac2e23f9109e74e4c1f475</td>
-       <td>CVE-2022-39219</td>
-       <td>2022-09-26 14:15:10 </td>
-       <td>Bifrost is a middleware package which can synchronize MySQL/MariaDB binlog data to other types of databases. Versions 1.8.6-release and prior are vulnerable to authentication bypass when using HTTP basic authentication. This may allow group members who only have read permissions to write requests when they are normally forbidden from doing so. Version 1.8.7-release contains a patch. There are currently no known workarounds.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39219">详情</a></td>
+       <td scope="row">45d5d2736b79998b341bb9f369ef72bb</td>
+       <td>CVE-2022-40784</td>
+       <td>2022-09-26 16:15:14 </td>
+       <td>Unlimited strcpy on user input when setting a locale file leads to stack buffer overflow in mIPC camera firmware 5.3.1.2003161406.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40784">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">06e7ffc7137c88e854147eadf8aa22a7</td>
-       <td>CVE-2022-40925</td>
-       <td>2022-09-26 13:15:11 </td>
-       <td>Zoo Management System v1.0 has an arbitrary file upload vulnerability in the picture upload point of the &quot;save_event&quot; file of the &quot;Events&quot; module in the background management system.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40925">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e795ee956faef920831b3e2db24344a5</td>
-       <td>CVE-2022-40924</td>
-       <td>2022-09-26 13:15:11 </td>
-       <td>Zoo Management System v1.0 has an arbitrary file upload vulnerability in the picture upload point of the &quot;save_animal&quot; file of the &quot;Animals&quot; module in the background management system.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40924">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a97e699ce912bed7a5bb2e783eaf55b8</td>
-       <td>CVE-2022-41347</td>
-       <td>2022-09-26 02:15:10 </td>
-       <td>An issue was discovered in Zimbra Collaboration (ZCS) 8.8.x and 9.x (e.g., 8.8.15). The Sudo configuration permits the zimbra user to execute the NGINX binary as root with arbitrary parameters. As part of its intended functionality, NGINX can load a user-defined configuration file, which includes plugins in the form of .so files, which also execute as root.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41347">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">04daf50b153ac70e27c79f11878bbe0a</td>
-       <td>CVE-2022-41352</td>
-       <td>2022-09-26 02:15:10 </td>
-       <td>An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavisd via a cpio loophole (extraction to /opt/zimbra/jetty/webapps/zimbra/public) that can lead to incorrect access to any other user accounts. Zimbra recommends pax over cpio. Also, pax is in the prerequisites of Zimbra on Ubuntu; however, pax is no longer part of a default Red Hat installation after RHEL 6 (or CentOS 6). Once pax is installed, amavisd automatically prefers it over cpio.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41352">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b0e43dedab294324bfb632c6ea42e8d1</td>
-       <td>CVE-2022-41343</td>
-       <td>2022-09-25 19:15:09 </td>
-       <td>registerFont in FontMetrics.php in Dompdf before 2.0.1 allows remote file inclusion because a URI validation failure does not halt font registration, as demonstrated by a @font-face rule.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41343">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">090f44c5193e6d1635f5ac9257e9c16f</td>
-       <td>CVE-2022-41340</td>
-       <td>2022-09-24 19:15:08 </td>
-       <td>The secp256k1-js package before 1.1.0 for Node.js implements ECDSA without required r and s validation, leading to signature forgery.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41340">详情</a></td>
+       <td scope="row">95f4602c834b2fad9b9db0c798e02fe7</td>
+       <td>CVE-2022-40785</td>
+       <td>2022-09-26 15:15:27 </td>
+       <td>Unsanitized input when setting a locale file leads to shell injection in mIPC camera firmware 5.3.1.2003161406. This allows an attacker to gain remote code execution on cameras running the firmware when a victim logs into a specially crafted mobile app.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40785">详情</a></td>
       </tr>
 
      </tbody>
