@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41082</font><br/>[<b>披露时间</b>] 2022-09-30 18:18:55<br/>[<b>漏洞描述</b>] Microsoft Exchange Server 存在远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7582'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7582</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41604</font><br/>[<b>披露时间</b>] 2022-09-27 23:15:17 <br/>[<b>漏洞描述</b>] Check Point ZoneAlarm Extreme Security before 15.8.211.19229 allows local users to escalate privileges. This occurs because of weak permissions for the %PROGRAMDATA%\CheckPoint\ZoneAlarm\Data\Updates directory, and a self-protection driver bypass that allows creation of a junction directory. This can be leveraged to perform an arbitrary file move as NT AUTHORITY\SYSTEM.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41604'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41604</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41218</font><br/>[<b>披露时间</b>] 2022-09-21 07:15:08 <br/>[<b>漏洞描述</b>] In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is a use-after-free caused by refcount races, affecting dvb_demux_open and dvb_dmxdev_release.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41218'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41218</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
