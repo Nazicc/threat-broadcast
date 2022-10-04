@@ -1,13 +1,28 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">9</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-64951</font><br/>[<b>披露时间</b>] 2022-10-05 17:12:26<br/>[<b>漏洞描述</b>] 亿赛通电子文档安全管理系统存在多个漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-64951'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-64951</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41848</font><br/>[<b>披露时间</b>] 2022-09-30 06:15:11 <br/>[<b>漏洞描述</b>] drivers/char/pcmcia/synclink_cs.c in the Linux kernel through 5.19.12 has a race condition and resultant use-after-free if a physically proximate attacker removes a PCMCIA device while calling ioctl, aka a race condition between mgslpc_ioctl and mgslpc_detach.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41848'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41848</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1329</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] The Elementor Website Builder plugin for...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-419442'>http://cve.scap.org.cn/vuln/VHN-419442</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429109</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] WordPress WPvivid Backup Path Traversal...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429109'>http://cve.scap.org.cn/vuln/VHN-429109</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429110</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Ubuntu Security Notice USN-5651-2...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429110'>http://cve.scap.org.cn/vuln/VHN-429110</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429111</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6763-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429111'>http://cve.scap.org.cn/vuln/VHN-429111</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429112</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Ubuntu Security Notice USN-5651-1...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429112'>http://cve.scap.org.cn/vuln/VHN-429112</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429113</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Joomla RAXO All-Mode PRO 2.01 Cross Site Scripting...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429113'>http://cve.scap.org.cn/vuln/VHN-429113</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429114</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6764-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429114'>http://cve.scap.org.cn/vuln/VHN-429114</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429115</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Ubuntu Security Notice USN-5653-1...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429115'>http://cve.scap.org.cn/vuln/VHN-429115</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429116</font><br/>[<b>披露时间</b>] 2022-10-04 18:03:20<br/>[<b>漏洞描述</b>] Canteen Management 1.0-2022 SQL Injection...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429116'>http://cve.scap.org.cn/vuln/VHN-429116</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
