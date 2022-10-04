@@ -1,16 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15334</font><br/>[<b>披露时间</b>] 2022-10-04 20:31:39<br/>[<b>漏洞描述</b>] Zyxel CloudCNM SecuManager 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e36749bb517347d485a3dbf1ca6851a1'>https://redqueen.tj-un.com/IntelDetails.html?id=e36749bb517347d485a3dbf1ca6851a1</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15339</font><br/>[<b>披露时间</b>] 2022-10-04 20:31:34<br/>[<b>漏洞描述</b>] Zyxel CloudCNM SecuManager 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b0fdb75f7d2a42a5b3bff50ce333ad79'>https://redqueen.tj-un.com/IntelDetails.html?id=b0fdb75f7d2a42a5b3bff50ce333ad79</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15342</font><br/>[<b>披露时间</b>] 2022-10-04 20:31:24<br/>[<b>漏洞描述</b>] Zyxel CloudCNM SecuManager 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e0e320d625f14f5ab8301f93a9dae01f'>https://redqueen.tj-un.com/IntelDetails.html?id=e0e320d625f14f5ab8301f93a9dae01f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15329</font><br/>[<b>披露时间</b>] 2022-10-04 20:31:19<br/>[<b>漏洞描述</b>] Zyxel CloudCNM SecuManager 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=edc573d3ada04bc2997e6b208d8f528e'>https://redqueen.tj-un.com/IntelDetails.html?id=edc573d3ada04bc2997e6b208d8f528e</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15345</font><br/>[<b>披露时间</b>] 2022-10-04 20:31:14<br/>[<b>漏洞描述</b>] Zyxel CloudCNM SecuManager 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e25fa1a30055463d923839b285ff02bd'>https://redqueen.tj-un.com/IntelDetails.html?id=e25fa1a30055463d923839b285ff02bd</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-15332</font><br/>[<b>披露时间</b>] 2022-10-04 20:31:08<br/>[<b>漏洞描述</b>] Zyxel CloudCNM SecuManager 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=3469899f10f14275b35c4aa9df0946d7'>https://redqueen.tj-un.com/IntelDetails.html?id=3469899f10f14275b35c4aa9df0946d7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-64951</font><br/>[<b>披露时间</b>] 2022-10-05 17:12:26<br/>[<b>漏洞描述</b>] 亿赛通电子文档安全管理系统存在多个漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-64951'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-64951</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41848</font><br/>[<b>披露时间</b>] 2022-09-30 06:15:11 <br/>[<b>漏洞描述</b>] drivers/char/pcmcia/synclink_cs.c in the Linux kernel through 5.19.12 has a race condition and resultant use-after-free if a physically proximate attacker removes a PCMCIA device while calling ioctl, aka a race condition between mgslpc_ioctl and mgslpc_detach.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41848'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41848</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
