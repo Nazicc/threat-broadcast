@@ -1,14 +1,24 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36448</font><br/>[<b>披露时间</b>] 2022-10-05 20:28:27<br/>[<b>漏洞描述</b>] INSYDE INSYDEH2O Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0822b957efb44d6fa72ac2d19d6586ad'>https://redqueen.tj-un.com/IntelDetails.html?id=0822b957efb44d6fa72ac2d19d6586ad</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23716</font><br/>[<b>披露时间</b>] 2022-10-05 20:28:18<br/>[<b>漏洞描述</b>] ELASTIC ELASTIC_CLOUD_ENTERPRISE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7f72db5dba7e4561ae9ec5d192b65f81'>https://redqueen.tj-un.com/IntelDetails.html?id=7f72db5dba7e4561ae9ec5d192b65f81</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3215</font><br/>[<b>披露时间</b>] 2022-10-05 20:28:07<br/>[<b>漏洞描述</b>] APPLE SWIFTNIO Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c537acb66d52491c82726bf81dc0060f'>https://redqueen.tj-un.com/IntelDetails.html?id=c537acb66d52491c82726bf81dc0060f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42046</font><br/>[<b>披露时间</b>] 2022-10-05 20:27:56<br/>[<b>漏洞描述</b>] MediaWiki GlobalWatchlist 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2f03a2ae66ba4526a10dc0acc750806c'>https://redqueen.tj-un.com/IntelDetails.html?id=2f03a2ae66ba4526a10dc0acc750806c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42302</font><br/>[<b>披露时间</b>] 2022-10-03 15:15:20 <br/>[<b>漏洞描述</b>] An issue was discovered in Veritas NetBackup through 10.0 and related Veritas products. The NetBackup Primary server is vulnerable to a SQL Injection attack affecting the NBFSMCLIENT service.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42302'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42302</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429117</font><br/>[<b>披露时间</b>] 2022-10-05 17:28:37<br/>[<b>漏洞描述</b>] Remote Mouse 4.110 Remote Code Execution...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429117'>http://cve.scap.org.cn/vuln/VHN-429117</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429118</font><br/>[<b>披露时间</b>] 2022-10-05 17:28:37<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6777-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429118'>http://cve.scap.org.cn/vuln/VHN-429118</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429119</font><br/>[<b>披露时间</b>] 2022-10-05 17:28:37<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6780-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429119'>http://cve.scap.org.cn/vuln/VHN-429119</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429120</font><br/>[<b>披露时间</b>] 2022-10-05 17:28:37<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6779-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429120'>http://cve.scap.org.cn/vuln/VHN-429120</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429121</font><br/>[<b>披露时间</b>] 2022-10-05 17:28:37<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6778-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429121'>http://cve.scap.org.cn/vuln/VHN-429121</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429122</font><br/>[<b>披露时间</b>] 2022-10-05 17:28:37<br/>[<b>漏洞描述</b>] Red Hat Security Advisory 2022-6776-01...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429122'>http://cve.scap.org.cn/vuln/VHN-429122</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
