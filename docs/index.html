@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-07 21:50:19 -->
+<!-- RELEASE TIME : 2022-10-07 22:50:42 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">08cb179c354dbe87a6871aded7db4e4a</td>
+       <td>CVE-2022-41574</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An access-control vulnerability in Gradle Enterprise 2022.4 through 2022.3.1 allows remote attackers to prevent backups from occurring, and send emails with arbitrary text content to the configured installation-administrator contact address, via HTTP access to an accidentally exposed internal endpoint. This is fixed in 2022.3.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41574">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">07d7cb4257acab0149c1475d3930228d</td>
+       <td>CVE-2022-39291</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>ZoneMinder is a free, open source Closed-circuit television software application. Affected versions of zoneminder are subject to a vulnerability which allows users with "View" system permissions to inject new data into the logs stored by Zoneminder. This was observed through an HTTP POST request containing log information to the "/zm/index.php" endpoint. Submission is not rate controlled and could affect database performance and/or consume all storage resources. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39291">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9f90eae718a5c69071cf1f57787a4ae</td>
+       <td>CVE-2022-39290</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>ZoneMinder is a free, open source Closed-circuit television software application. In affected versions authenticated users can bypass CSRF keys by modifying the request supplied to the Zoneminder web application. These modifications include replacing HTTP POST with an HTTP GET and removing the CSRF key from the request. An attacker can take advantage of this by using an HTTP GET request to perform actions with no CSRF protection. This could allow an attacker to cause an authenticated user to perform unexpected actions on the web application. Users are advised to upgrade as soon as possible. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6478140ef49fe44ed1345bad678f0a65</td>
+       <td>CVE-2022-39289</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>ZoneMinder is a free, open source Closed-circuit television software application. In affected versions the ZoneMinder API Exposes Database Log contents to user without privileges, allows insertion, modification, deletion of logs without System Privileges. Users are advised yo upgrade as soon as possible. Users unable to upgrade should disable database logging.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39289">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">01ff6c6f17c6437d88f88cb3f247754c</td>
+       <td>CVE-2022-39285</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>ZoneMinder is a free, open source Closed-circuit television software application The file parameter is vulnerable to a cross site scripting vulnerability (XSS) by backing out of the current "tr" "td" brackets. This then allows a malicious user to provide code that will execute when a user views the specific log on the "view=log" page. This vulnerability allows an attacker to store code within the logs that will be executed when loaded by a legitimate user. These actions will be performed with the permission of the victim. This could lead to data loss and/or further exploitation including account takeover. This issue has been addressed in versions `1.36.27` and `1.37.24`. Users are advised to upgrade. Users unable to upgrade should disable database logging.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39285">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">947a2b6756ce8d99cb2560cc44216764</td>
+       <td>CVE-2022-3276</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Command injection is possible in the puppetlabs-mysql module prior to version 13.0.0. A malicious actor is able to exploit this vulnerability only if they are able to provide unsanitized input to the module. This condition is rare in most deployments of Puppet and Puppet Enterprise.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3276">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6c56bdc5259a01474b63289a50a1a621</td>
+       <td>CVE-2022-3275</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Command injection is possible in the puppetlabs-apt module prior to version 9.0.0. A malicious actor is able to exploit this vulnerability only if they are able to provide unsanitized input to the module. This condition is rare in most deployments of Puppet and Puppet Enterprise.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3275">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">53265f048c7f02c8b66178ba39cc5b1d</td>
+       <td>CVE-2022-31681</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>VMware ESXi contains a null-pointer deference vulnerability. A malicious actor with privileges within the VMX process only, may create a denial of service condition on the host.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31681">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a76f2178bd9ec277f64044d5119fe44</td>
+       <td>CVE-2022-31680</td>
+       <td>2022-10-07 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>The vCenter Server contains an unsafe deserialisation vulnerability in the PSC (Platform services controller). A malicious actor with admin access on vCenter server may exploit this issue to execute arbitrary code on the underlying operating system that hosts the vCenter Server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31680">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">14423bd76a6cd90b1b8f1c0873a21994</td>
+       <td>CVE-2022-39287</td>
+       <td>2022-10-07 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>tiny-csrf is a Node.js cross site request forgery (CSRF) protection middleware. In versions prior to 1.1.0 cookies were not encrypted and thus CSRF tokens were transmitted in the clear. This issue has been addressed in commit `8eead6d` and the patch with be included in version 1.1.0. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39287">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5e44e7c9867be891e39e22f1ef152252</td>
        <td>CVE-2022-42075</td>
        <td>2022-10-07 19:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Improper component protection vulnerability in Samsung Account prior to version 13.5.0 allows attackers to unauthorized logout.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39875">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">044ebd7aea937beaa453aa59bf474ccd</td>
-       <td>CVE-2022-39874</td>
-       <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Sensitive log information leakage vulnerability in Samsung Account prior to version 13.5.0 allows attackers to unauthorized logout.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39874">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">65bee5a5a52b0044fd43545952c87733</td>
-       <td>CVE-2022-39873</td>
-       <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper authorization vulnerability in Samsung Internet prior to version 18.0.4.14 allows physical attackers to add bookmarks in secret mode without user authentication.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39873">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e638bf1a4c6e5ccb9e057368aae17563</td>
-       <td>CVE-2022-39872</td>
-       <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper restriction of broadcasting Intent in ShareLive prior to version 13.2.03.5 leaks MAC address of the connected Bluetooth device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39872">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">26a4f35e0a7ae6f4024f8ae1a8be9844</td>
-       <td>CVE-2022-39871</td>
-       <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper access control vulnerability cloudNotificationManager.java in SmartThings prior to version 1.7.89.0 allows attackers to access sensitive information via implicit broadcasts.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39871">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a6f485e2cf40b485fa502a52c2b60566</td>
-       <td>CVE-2022-39870</td>
-       <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper access control vulnerability in cloudNotificationManager.java SmartThings prior to version 1.7.89.0 allows attackers to access sensitive information via PUSH_MESSAGE_RECEIVED broadcast.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39870">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f9d1309f4472874483b68a6f7ca28c8e</td>
-       <td>CVE-2022-39869</td>
-       <td>2022-10-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper access control vulnerability in cloudNotificationManager.java SmartThings prior to version 1.7.89.0 allows attackers to access sensitive information via REMOVE_PERSISTENT_BANNER broadcast.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39869">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7aefb3526c6a3c031c9db6982615caa2</td>
-       <td>CVE-2022-40872</td>
-       <td>2022-10-07 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>An SQL injection vulnerability issue was discovered in Sourcecodester Simple E-Learning System 1.0., in /vcs/classRoom.php?classCode=, classCode.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40872">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ffa361e5de07d471fe5e465fd20017e</td>
-       <td>CVE-2022-40835</td>
-       <td>2022-10-07 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>B.C. Institute of Technology CodeIgniter <=3.1.13 is vulnerable to SQL Injection via system\database\DB_query_builder.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40835">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">586f78bfb29d0ef6787c28bd0ca3a0ff</td>
-       <td>CVE-2022-40834</td>
-       <td>2022-10-07 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>B.C. Institute of Technology CodeIgniter <=3.1.13 is vulnerable to SQL Injection via system\database\DB_query_builder.php or_not_like() function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40834">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86f542d6a4f01a93e14d3bfb979cd781</td>
-       <td>CVE-2022-40833</td>
-       <td>2022-10-07 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>B.C. Institute of Technology CodeIgniter <=3.1.13 is vulnerable to SQL Injection via system\database\DB_query_builder.php or_where_in() function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40833">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,6 +2412,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b9f3b584728e1e9a95b12ce518a84982</td>
+       <td>CVE-2022-36774</td>
+       <td>2022-10-06 18:16:04  <img src="imgs/new.gif" /></td>
+       <td>IBM Robotic Process Automation 21.0.0, 21.0.1, and 21.0.2 is vulnerable to man in the middle attacks through manipulation of the client proxy configuration. IBM X-Force ID: 233575.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36774">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6dfcc01b3750278d2d5200928ef2c5bd</td>
        <td>CVE-2022-42308</td>
        <td>2022-10-03 15:15:22 </td>
@@ -2516,6 +2524,14 @@
       </tr>
 
       <tr>
+       <td scope="row">d0febfd94d90b66778a3d609b494b1e9</td>
+       <td>CVE-2022-36551</td>
+       <td>2022-10-03 12:15:09 </td>
+       <td>A Server Side Request Forgery (SSRF) in the Data Import module in Heartex - Label Studio Community Edition versions 1.5.0 and earlier allows an authenticated user to access arbitrary files on the system. Furthermore, self-registration is enabled by default in these versions of Label Studio enabling a remote attacker to create a new account and then exploit the SSRF.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36551">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">953ef40bb64874604e68e2491b405423</td>
        <td>CVE-2022-40886</td>
        <td>2022-10-03 02:15:14 </td>
@@ -2580,6 +2596,14 @@
       </tr>
 
       <tr>
+       <td scope="row">81a07ca1eec4c0a4ccc4ce16c1d469ae</td>
+       <td>CVE-2022-36961</td>
+       <td>2022-09-30 17:15:13 </td>
+       <td>A vulnerable component of Orion Platform was vulnerable to SQL Injection, an authenticated attacker could leverage this for privilege escalation or remote code execution.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36961">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7a29276ca67d1d7b3b9e02585bb08d35</td>
        <td>CVE-2022-41850</td>
        <td>2022-09-30 06:15:12 </td>
@@ -2625,30 +2649,6 @@
        <td>2022-09-30 05:15:11 </td>
        <td>An issue was discovered in Bento4 1.6.0-639. There ie excessive memory consumption in the function AP4_Array&lt;AP4_ElstEntry&gt;::EnsureCapacity in Core/Ap4Array.h.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41845">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f76ab7fa427dec678d921e70aec4a534</td>
-       <td>CVE-2022-41844</td>
-       <td>2022-09-30 05:15:11 </td>
-       <td>An issue was discovered in Xpdf 4.04. There is a crash in XRef::fetch(int, int, Object*, int) in xpdf/XRef.cc, a different vulnerability than CVE-2018-16369 and CVE-2019-16088.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41844">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e0e0c29f51588ebc9320a73285110ee</td>
-       <td>CVE-2022-41843</td>
-       <td>2022-09-30 05:15:11 </td>
-       <td>An issue was discovered in Xpdf 4.04. There is a crash in convertToType0 in fofi/FoFiType1C.cc, a different vulnerability than CVE-2022-38928.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41843">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b5cd32c12cd2339e7bca506a6eeda3a3</td>
-       <td>CVE-2022-41842</td>
-       <td>2022-09-30 05:15:11 </td>
-       <td>An issue was discovered in Xpdf 4.04. There is a crash in gfseek(_IO_FILE*, long, int) in goo/gfile.cc.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41842">详情</a></td>
       </tr>
 
      </tbody>
