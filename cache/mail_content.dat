@@ -1,13 +1,38 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40684</font><br/>[<b>披露时间</b>] 2022-10-08 14:28:15<br/>[<b>漏洞描述</b>] FortiOS 防火墙与 FortiProxy Web代理存在身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7587'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7587</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39281</font><br/>[<b>披露时间</b>] 2022-10-08 01:15:00<br/>[<b>漏洞描述</b>] fat_free_crm is a an open source, Ruby on Rails customer relationship management platform (CRM). In versions prior to 0.20.1 an authenticated user can perform a remote Denial of Service attack against Fat Free CRM via bucket access. The vulnerability has been patched in commit `c85a254` and will be available in release `0.20.1`. Users are advised to upgrade or to manually apply patch `c85a254`. There are no known workarounds for this issue.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39281'>https://www.tenable.com/cve/CVE-2022-39281</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67285 (CVE-2022-30745)</font><br/>[<b>披露时间</b>] 2022-10-08 08:53:59<br/>[<b>漏洞描述</b>] Samsung Quick Share访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67285'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67285</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67284 (CVE-2022-30730)</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:01<br/>[<b>漏洞描述</b>] Samsung Pass授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67284'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67284</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67283 (CVE-2022-30731)</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:03<br/>[<b>漏洞描述</b>] Samsung My Files访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67283'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67283</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67282 (CVE-2022-30727)</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:05<br/>[<b>漏洞描述</b>] Samsung mobile PersonaManagerService授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67282'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67282</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67281 (CVE-2022-30714)</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:07<br/>[<b>漏洞描述</b>] Samsung mobile SemIWCMonitor信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67281'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67281</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67280 (CVE-2022-30709)</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:10<br/>[<b>漏洞描述</b>] Samsung mobile SECRIL输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67280'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67280</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67279 (CVE-2022-30728)</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:12<br/>[<b>漏洞描述</b>] Samsung mobile ScanPool信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67279'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67279</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28794</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile low-battery dumpstate...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420328'>http://cve.scap.org.cn/vuln/VHN-420328</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30709</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile SECRIL输入验证错误漏洞（CNVD-2022-67280）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422525'>http://cve.scap.org.cn/vuln/VHN-422525</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30710</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile RemoteViews权限提升漏洞（CNVD-2022-67278）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422526'>http://cve.scap.org.cn/vuln/VHN-422526</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30714</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile SemIWCMonitor信息泄露漏洞（CNVD-2022-67281）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422530'>http://cve.scap.org.cn/vuln/VHN-422530</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30716</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile DisplayToast信息泄露漏洞（CNVD-2022-67286）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422532'>http://cve.scap.org.cn/vuln/VHN-422532</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30727</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile PersonaManagerService授权问题漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422543'>http://cve.scap.org.cn/vuln/VHN-422543</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30728</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung mobile ScanPool信息泄露漏洞（CNVD-2022-67279）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422544'>http://cve.scap.org.cn/vuln/VHN-422544</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30730</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung Pass授权问题漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422546'>http://cve.scap.org.cn/vuln/VHN-422546</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30731</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung My Files访问控制错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422547'>http://cve.scap.org.cn/vuln/VHN-422547</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30745</font><br/>[<b>披露时间</b>] 2022-10-08 08:54:43<br/>[<b>漏洞描述</b>] Samsung Quick Share访问控制错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422561'>http://cve.scap.org.cn/vuln/VHN-422561</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
