@@ -1,15 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3396</font><br/>[<b>披露时间</b>] 2022-10-09 20:45:46<br/>[<b>漏洞描述</b>] OMRON CX-PROGRAMMER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e270a80b9e2b456fbb3be6a2b49c4eeb'>https://redqueen.tj-un.com/IntelDetails.html?id=e270a80b9e2b456fbb3be6a2b49c4eeb</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3397</font><br/>[<b>披露时间</b>] 2022-10-09 20:45:42<br/>[<b>漏洞描述</b>] OMRON CX-PROGRAMMER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=4b9429aef9a94bc1b4a38dcc68052bb5'>https://redqueen.tj-un.com/IntelDetails.html?id=4b9429aef9a94bc1b4a38dcc68052bb5</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42307</font><br/>[<b>披露时间</b>] 2022-10-09 20:45:11<br/>[<b>漏洞描述</b>] VERITAS NETBACKUP Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=68aa9cf1a8aa4349bf2bdf33c5b4ad62'>https://redqueen.tj-un.com/IntelDetails.html?id=68aa9cf1a8aa4349bf2bdf33c5b4ad62</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42003</font><br/>[<b>披露时间</b>] 2022-10-09 20:45:05<br/>[<b>漏洞描述</b>] FasterXML jackson-databind 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7d404f66125d4412bab88c036c7cdce9'>https://redqueen.tj-un.com/IntelDetails.html?id=7d404f66125d4412bab88c036c7cdce9</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42004</font><br/>[<b>披露时间</b>] 2022-10-09 20:45:00<br/>[<b>漏洞描述</b>] FasterXML jackson-databind 代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b8b705abe7414607b7637813779b0773'>https://redqueen.tj-un.com/IntelDetails.html?id=b8b705abe7414607b7637813779b0773</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-67052</font><br/>[<b>披露时间</b>] 2022-10-10 17:03:19<br/>[<b>漏洞描述</b>] 达梦数据库管理系统存在二进制漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-67052'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-67052</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
