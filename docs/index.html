@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-10 09:53:15 -->
+<!-- RELEASE TIME : 2022-10-10 10:51:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f3854c792e39a045576fb7ed2123a138</td>
+       <td>CVE-2022-42725</td>
+       <td>2022-10-10 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>Warpinator through 1.2.14 allows access outside of an intended directory, as demonstrated by symbolic directory links.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42725">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6653e9c7c8a5e9daeb327e2303848dd7</td>
+       <td>CVE-2022-42724</td>
+       <td>2022-10-10 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>app/Controller/UsersController.php in MISP before 2.4.164 allows attackers to discover role names (this is information that only the site admin should have).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42724">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7fa264ea882afbcd7a99be703ff1c85e</td>
        <td>CVE-2022-42012</td>
        <td>2022-10-10 00:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-10-07 19:15:00</td>
        <td>Online Pet Shop We App v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /pet_shop/admin/?page=maintenance/manage_category.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41377">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1216780ea3e5e86952e4105871a7479a</td>
-       <td>CVE-2022-37896</td>
-       <td>2022-10-07 19:15:00</td>
-       <td>A vulnerability in the Aruba InstantOS and ArubaOS 10 web management interface could allow a remote attacker to conduct a reflected cross-site scripting (XSS) attack against a user of the interface. A successful exploit could allow an attacker to execute arbitrary script code in a victim’s browser in the context of the affected interface of Aruba InstantOS 6.4.x: 6.4.4.8-4.2.4.20 and below; Aruba InstantOS 6.5.x: 6.5.4.23 and below; Aruba InstantOS 8.6.x: 8.6.0.18 and below; Aruba InstantOS 8.7.x: 8.7.1.9 and below; Aruba InstantOS 8.10.x: 8.10.0.1 and below; ArubaOS 10.3.x: 10.3.1.0 and below; Aruba has released upgrades for Aruba InstantOS that address this security vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37896">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">18f495c1089eebddee1057488b26af68</td>
-       <td>CVE-2022-37895</td>
-       <td>2022-10-07 19:15:00</td>
-       <td>An unauthenticated Denial of Service (DoS) vulnerability exists in the handling of certain SSID strings by Aruba InstantOS and ArubaOS 10. Successful exploitation of this vulnerability results in the ability to interrupt the normal operation of the affected AP of Aruba InstantOS 6.4.x: 6.4.4.8-4.2.4.20 and below; Aruba InstantOS 6.5.x: 6.5.4.23 and below; Aruba InstantOS 8.6.x: 8.6.0.18 and below; Aruba InstantOS 8.7.x: 8.7.1.9 and below; Aruba InstantOS 8.10.x: 8.10.0.1 and below; ArubaOS 10.3.x: 10.3.1.0 and below; Aruba has released upgrades for Aruba InstantOS that address this security vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37895">详情</a></td>
       </tr>
 
      </tbody>
@@ -2436,6 +2436,14 @@
       </tr>
 
       <tr>
+       <td scope="row">e10c985ba881b82bb94b6efcb0df9351</td>
+       <td>CVE-2022-41515</td>
+       <td>2022-10-07 18:15:22 </td>
+       <td>Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/ajax.php?action=delete_payment.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41515">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8d6142b312d7efd7f96f830f46462872</td>
        <td>CVE-2022-39877</td>
        <td>2022-10-07 15:15:23 </td>
@@ -2548,6 +2556,14 @@
       </tr>
 
       <tr>
+       <td scope="row">7ec6a533da5885695f5c66be77aa2bbb</td>
+       <td>CVE-2022-41556</td>
+       <td>2022-10-06 18:17:03 </td>
+       <td>A resource leak in gw_backend.c in lighttpd 1.4.56 through 1.4.66 could lead to a denial of service (connection-slot exhaustion) after a large amount of anomalous TCP behavior by clients. It is related to RDHUP mishandling in certain HTTP/1.1 chunked situations. Use of mod_fastcgi is, for example, affected. This is fixed in 1.4.67.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41556">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7f362f625fa637d26fd64b5ddaa6a3bd</td>
        <td>CVE-2022-40158</td>
        <td>2022-10-06 18:16:24 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-10-03 15:15:22 </td>
        <td>An issue was discovered in Veritas NetBackup through 10.0.0.1 and related Veritas products. The NetBackup Primary server is vulnerable to an XML External Entity (XXE) Injection attack through the DiscoveryService service.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42307">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">29a2cc9d311b60aa4735218a417012bd</td>
-       <td>CVE-2022-42306</td>
-       <td>2022-10-03 15:15:22 </td>
-       <td>An issue was discovered in Veritas NetBackup through 8.2 and related Veritas products. An attacker with local access can send a crafted packet to pbx_exchange during registration and cause a NULL pointer exception, effectively crashing the pbx_exchange process.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42306">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3d945362433bbf74dd331c0bedac4e2d</td>
-       <td>CVE-2022-42305</td>
-       <td>2022-10-03 15:15:21 </td>
-       <td>An issue was discovered in Veritas NetBackup through 10.0.0.1 and related Veritas products. The NetBackup Primary server is vulnerable to a Path traversal attack through the DiscoveryService service.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42305">详情</a></td>
       </tr>
 
      </tbody>
