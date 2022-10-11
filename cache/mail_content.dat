@@ -1,18 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429216</font><br/>[<b>披露时间</b>] 2022-10-11 07:12:20<br/>[<b>漏洞描述</b>] vim diff_write_buffer函数缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429216'>http://cve.scap.org.cn/vuln/VHN-429216</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429217</font><br/>[<b>披露时间</b>] 2022-10-11 07:12:20<br/>[<b>漏洞描述</b>] Vim utf_ptr2char函数缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429217'>http://cve.scap.org.cn/vuln/VHN-429217</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40138</font><br/>[<b>披露时间</b>] 2022-10-11 02:15:00<br/>[<b>漏洞描述</b>] An integer conversion error in Hermes bytecode generation, prior to commit 6aa825e480d48127b480b08d13adf70033237097, could have been used to perform Out-Of-Bounds operations and subsequently execute arbitrary code. Note that this is only exploitable in cases where Hermes is used to execute untrusted JavaScript. Hence, most React Native applications are not affected.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40138'>https://www.tenable.com/cve/CVE-2022-40138</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35289</font><br/>[<b>披露时间</b>] 2022-10-11 02:15:00<br/>[<b>漏洞描述</b>] A write-what-where condition in hermes caused by an integer overflow, prior to commit 5b6255ae049fa4641791e47fad994e8e8c4da374 allows attackers to potentially execute arbitrary code via crafted JavaScript. Note that this is only exploitable if the application using Hermes permits evaluation of untrusted JavaScript. Hence, most React Native applications are not affected.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-35289'>https://www.tenable.com/cve/CVE-2022-35289</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32234</font><br/>[<b>披露时间</b>] 2022-10-11 01:15:00<br/>[<b>漏洞描述</b>] An out of bounds write in hermes, while handling large arrays, prior to commit 06eaec767e376bfdb883d912cb15e987ddf2bda1 allows attackers to potentially execute arbitrary code via crafted JavaScript. Note that this is only exploitable if the application using Hermes permits evaluation of untrusted JavaScript. Hence, most React Native applications are not affected.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32234'>https://www.tenable.com/cve/CVE-2022-32234</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40684</font><br/>[<b>披露时间</b>] 2022-10-11 08:49:33<br/>[<b>漏洞描述</b>] CVE-2022-40684：Fortinet多个产品身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=7cfafc52539040a07945b2e5322a4f2f'>https://cert.360.cn/warning/detail?id=7cfafc52539040a07945b2e5322a4f2f</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
