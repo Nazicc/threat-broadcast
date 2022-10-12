@@ -1,50 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">27</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41033,CVE-2022-38000,CVE-2022-37982,CVE-2022-37976,CVE-2022-38016,CVE-2022-37979,CVE-2022-38040,CVE-2022-38041,CVE-2022-41038,CVE-2022-38049</font><br/>[<b>披露时间</b>] 2022-10-12 16:36:57<br/>[<b>漏洞描述</b>] 微软 10月安全更新多个高危漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7604'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7604</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-10-12 08:10:48<br/>[<b>漏洞描述</b>] 2022-10 补丁日: 微软多个漏洞安全更新通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=d7e31244f752581bc60dbdbf4ad983a7'>https://cert.360.cn/warning/detail?id=d7e31244f752581bc60dbdbf4ad983a7</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40556</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] ASUS RT-AX56U缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-401884'>http://cve.scap.org.cn/vuln/VHN-401884</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45790</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] Metersphere任意文件上传漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-409409'>http://cve.scap.org.cn/vuln/VHN-409409</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22480</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] IBM QRadar SIEM信息泄露漏洞（CNVD-2022-68281）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411049'>http://cve.scap.org.cn/vuln/VHN-411049</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22503</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation点击劫持漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411072'>http://cve.scap.org.cn/vuln/VHN-411072</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429250</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] MyBB命令注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429250'>http://cve.scap.org.cn/vuln/VHN-429250</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429251</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation跨站脚本漏洞（CNVD-2022-68278）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429251'>http://cve.scap.org.cn/vuln/VHN-429251</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429252</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] Online Leave Management System SQL注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429252'>http://cve.scap.org.cn/vuln/VHN-429252</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429253</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] Simple E-Learning System SQL注入漏洞（CNVD-2022-68282）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429253'>http://cve.scap.org.cn/vuln/VHN-429253</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429254</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] NocoDB资源管理错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429254'>http://cve.scap.org.cn/vuln/VHN-429254</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429255</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:39<br/>[<b>漏洞描述</b>] Wedding Planner存在未明漏洞（CNVD-2022-68285）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429255'>http://cve.scap.org.cn/vuln/VHN-429255</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2034</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] WordPress Sensei LMS Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70675'>http://www.nsfocus.net/vulndb/70675</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-253</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] WordPress WooCommerce PDF Invoices &amp; Packing Slips Plugin跨站脚本漏洞（CVE-2022-253<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70674'>http://www.nsfocus.net/vulndb/70674</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35221</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] Teamplus Pro拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70673'>http://www.nsfocus.net/vulndb/70673</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23733</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] GitHub Enterprise Server跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70672'>http://www.nsfocus.net/vulndb/70672</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31321</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] Bolt输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70671'>http://www.nsfocus.net/vulndb/70671</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33955</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] IBM CICS TX操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70670'>http://www.nsfocus.net/vulndb/70670</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36301</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] Bosch BF-OS信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70669'>http://www.nsfocus.net/vulndb/70669</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2273</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] WordPress Simple Membership Plugin权限管理错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70668'>http://www.nsfocus.net/vulndb/70668</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2181</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] WordPress Advanced Reset Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70667'>http://www.nsfocus.net/vulndb/70667</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0598</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] WordPress Login with Phone Number Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70666'>http://www.nsfocus.net/vulndb/70666</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32750</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] IBM DataPower Gateway跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70665'>http://www.nsfocus.net/vulndb/70665</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22505</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70664'>http://www.nsfocus.net/vulndb/70664</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37129</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] D-Link DIR-816命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70663'>http://www.nsfocus.net/vulndb/70663</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36203</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] Doctor’s Appointment System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70662'>http://www.nsfocus.net/vulndb/70662</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34373</font><br/>[<b>披露时间</b>] 2022-10-12 09:53:40<br/>[<b>漏洞描述</b>] Dell Command Integration Suite for System Center路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70661'>http://www.nsfocus.net/vulndb/70661</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3458</font><br/>[<b>披露时间</b>] 2022-10-12 07:15:00<br/>[<b>漏洞描述</b>] A vulnerability has been found in SourceCodester Human Resource Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /employeeview.php of the component Image File Handler. The manipulation leads to unrestricted upload. The attack can be launched remotely. The associated identifier of this vulnerability is VDB-210559.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3458'>https://www.tenable.com/cve/CVE-2022-3458</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
