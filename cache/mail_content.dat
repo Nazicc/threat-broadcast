@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
     <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-68594 (CVE-2022-24122)</font><br/>[<b>披露时间</b>] 2022-10-13 07:54:18<br/>[<b>漏洞描述</b>] Linux kernel权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-68594'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-68594</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-68615 (CVE-2022-24448)</font><br/>[<b>披露时间</b>] 2022-10-13 08:56:20<br/>[<b>漏洞描述</b>] Linux kernel存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-68615'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-68615</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-24790</font><br/>[<b>披露时间</b>] 2022-10-13 08:57:11<br/>[<b>漏洞描述</b>] WordPress插件Contact Form Advanced Database安全绕过漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-383511'>http://cve.scap.org.cn/vuln/VHN-383511</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
