@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-15 04:59:49 -->
+<!-- RELEASE TIME : 2022-10-15 06:06:09 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c482c930df2bcfed40a51013edf78ee7</td>
+       <td>CVE-2022-42961</td>
+       <td>2022-10-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in wolfSSL before 5.5.0. A fault injection attack on RAM via Rowhammer leads to ECDSA key disclosure. Users performing signing operations with private ECC keys, such as in server-side TLS connections, might leak faulty ECC signatures. These signatures can be processed via an advanced technique for ECDSA key recovery. (In 5.5.0 and later, WOLFSSL_CHECK_SIG_FAULTS can be used to address the vulnerability.)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42961">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2de94a72dda7702c8f36ecb6bebfb190</td>
+       <td>CVE-2017-20149</td>
+       <td>2022-10-15 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Mikrotik RouterOS web server allows memory corruption in releases before Stable 6.38.5 and Long-term 6.37.5, aka Chimay-Red. A remote and unauthenticated user can trigger the vulnerability by sending a crafted HTTP request. An attacker can use this vulnerability to execute arbitrary code on the affected system, as exploited in the wild in mid-2017 and later.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20149">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5fbcbbbfccb546721c77007b9c7bd53d</td>
        <td>CVE-2022-41436</td>
        <td>2022-10-14 21:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-10-14 17:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability found in nss. By this security vulnerability, nss client auth crash without a user certificate in the database and this can lead us to a segmentation fault or crash.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3479">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86993371aca9ec1f3def9e9849cced2a</td>
-       <td>CVE-2022-42488</td>
-       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
-       <td>OpenHarmony-v3.1.2 and prior versions have a Missing permission validation vulnerability in param service of startup subsystem. An malicious application installed on the device could elevate its privileges to the root user, disable security features, or cause DoS by disabling particular services.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42488">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1db5778b86ea9255fcab89ad262a27e8</td>
-       <td>CVE-2022-42464</td>
-       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
-       <td>OpenHarmony-v3.1.2 and prior versions, 3.0.6 and prior versions have a Kernel memory pool override vulnerability in /dev/mmz_userdev device driver. The impact depends on the privileges of the attacker. The unprivileged process run on the device could disclose sensitive information including kernel pointer, which could be used in further attacks. The processes with system user UID run on the device would be able to mmap memory pools used by kernel and override them which could be used to gain kernel code execution on the device, gain root privileges, or cause device reboot.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42464">详情</a></td>
       </tr>
 
      </tbody>
