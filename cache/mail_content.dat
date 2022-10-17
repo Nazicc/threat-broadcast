@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-10-17 06:48:05<br/>[<b>漏洞描述</b>] 安全事件周报 (10.10-10.16)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=8a9f51e1d1bf8242fce30e9f3af3d562'>https://cert.360.cn/warning/detail?id=8a9f51e1d1bf8242fce30e9f3af3d562</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-69196 (CVE-2022-0617)</font><br/>[<b>披露时间</b>] 2022-10-17 08:06:13<br/>[<b>漏洞描述</b>] Linux kernel拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-69196'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-69196</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-69195 (CVE-2022-25258)</font><br/>[<b>披露时间</b>] 2022-10-17 08:06:16<br/>[<b>漏洞描述</b>] Linux kernel拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-69195'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-69195</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-69194 (CVE-2022-25265)</font><br/>[<b>披露时间</b>] 2022-10-17 08:06:18<br/>[<b>漏洞描述</b>] Linux kernel代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-69194'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-69194</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
