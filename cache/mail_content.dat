@@ -1,14 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39058</font><br/>[<b>披露时间</b>] 2022-10-18 06:15:00<br/>[<b>漏洞描述</b>] RAVA certification validation system has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to bypass authentication and access arbitrary system files.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39058'>https://www.tenable.com/cve/CVE-2022-39058</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39057</font><br/>[<b>披露时间</b>] 2022-10-18 06:15:00<br/>[<b>漏洞描述</b>] RAVA certificate validation system has insufficient filtering for special parameter of the web page input field. A remote attacker with administrator privilege can exploit this vulnerability to perform arbitrary system command and disrupt service.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39057'>https://www.tenable.com/cve/CVE-2022-39057</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39056</font><br/>[<b>披露时间</b>] 2022-10-18 06:15:00<br/>[<b>漏洞描述</b>] RAVA certificate validation system has insufficient validation for user input. An unauthenticated remote attacker can inject arbitrary SQL command to access, modify and delete database.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39056'>https://www.tenable.com/cve/CVE-2022-39056</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39055</font><br/>[<b>披露时间</b>] 2022-10-18 06:15:00<br/>[<b>漏洞描述</b>] RAVA certificate validation system has inadequate filtering for URL parameter. An unauthenticated remote attacker can perform SSRF attack to discover internal network topology base on query response.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-39055'>https://www.tenable.com/cve/CVE-2022-39055</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29892</font><br/>[<b>披露时间</b>] 2022-10-18 11:45:34<br/>[<b>漏洞描述</b>] Cybozu Garoon输入验证错误漏洞（CNVD-2022-69531）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-421394'>http://cve.scap.org.cn/vuln/VHN-421394</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
