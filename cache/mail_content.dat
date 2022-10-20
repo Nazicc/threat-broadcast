@@ -1,14 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">13</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">12</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70071 (CVE-2022-39198)</font><br/>[<b>披露时间</b>] 2022-10-20 08:58:23<br/>[<b>漏洞描述</b>] Apache Dubbo Hession反序列化漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70071'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70071</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70079 (CVE-2022-21500)</font><br/>[<b>披露时间</b>] 2022-10-20 08:58:37<br/>[<b>漏洞描述</b>] Oracle E-Business Suite访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70079'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70079</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-10-20 08:15:57<br/>[<b>漏洞描述</b>] 2022-10 补丁日: Oracle多个产品漏洞安全风险通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=46a25466ad88041c6bfaf08f81da484d'>https://cert.360.cn/warning/detail?id=46a25466ad88041c6bfaf08f81da484d</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429538</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:31<br/>[<b>漏洞描述</b>] Apache Dubbo Hession反序列化漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429538'>http://cve.scap.org.cn/vuln/VHN-429538</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2538</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] WordPress WP Hide &amp; Security Enhancer Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70950'>http://www.nsfocus.net/vulndb/70950</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1324</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] WordPress Event Timeline Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70949'>http://www.nsfocus.net/vulndb/70949</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2184</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] WordPress CAPTCHA 4WP Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70948'>http://www.nsfocus.net/vulndb/70948</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2278</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] WordPress Featured Image from URL（FIFU）Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70947'>http://www.nsfocus.net/vulndb/70947</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2370</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] WordPress YaySMTP Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70946'>http://www.nsfocus.net/vulndb/70946</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32893</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Apple多款产品越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70945'>http://www.nsfocus.net/vulndb/70945</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32834</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Apple多款产品信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70944'>http://www.nsfocus.net/vulndb/70944</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2961</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Linux Kernel内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70943'>http://www.nsfocus.net/vulndb/70943</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0168</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Linux Kernel拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70942'>http://www.nsfocus.net/vulndb/70942</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3864</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Linux Kernel访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70941'>http://www.nsfocus.net/vulndb/70941</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3028</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Linux Kernel竞争条件漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70940'>http://www.nsfocus.net/vulndb/70940</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1205</font><br/>[<b>披露时间</b>] 2022-10-20 09:54:32<br/>[<b>漏洞描述</b>] Linux Kernel空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/70939'>http://www.nsfocus.net/vulndb/70939</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
