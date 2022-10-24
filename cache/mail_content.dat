@@ -1,12 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70735 (CVE-2022-33697)</font><br/>[<b>披露时间</b>] 2022-10-24 10:58:53<br/>[<b>漏洞描述</b>] Samsung ImsCore信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70735'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70735</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70736 (CVE-2022-33695)</font><br/>[<b>披露时间</b>] 2022-10-24 10:58:55<br/>[<b>漏洞描述</b>] Samsung InputManagerService未授权访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70736'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70736</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34258</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Adobe Commerce和Magento Open Source跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71076'>http://www.nsfocus.net/vulndb/71076</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35677</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Adobe FrameMaker堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71075'>http://www.nsfocus.net/vulndb/71075</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35670</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Adobe Acrobat和Acrobat Reader内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71074'>http://www.nsfocus.net/vulndb/71074</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34263</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Adobe Illustrator内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71073'>http://www.nsfocus.net/vulndb/71073</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35697</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71072'>http://www.nsfocus.net/vulndb/71072</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32189</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Go拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71071'>http://www.nsfocus.net/vulndb/71071</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30580</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Go代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71070'>http://www.nsfocus.net/vulndb/71070</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2609</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Chrome内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71069'>http://www.nsfocus.net/vulndb/71069</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-0975</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71068'>http://www.nsfocus.net/vulndb/71068</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20248</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71067'>http://www.nsfocus.net/vulndb/71067</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20242</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71066'>http://www.nsfocus.net/vulndb/71066</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20276</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71065'>http://www.nsfocus.net/vulndb/71065</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20270</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71064'>http://www.nsfocus.net/vulndb/71064</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20257</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71063'>http://www.nsfocus.net/vulndb/71063</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20263</font><br/>[<b>披露时间</b>] 2022-10-24 11:47:52<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71062'>http://www.nsfocus.net/vulndb/71062</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
