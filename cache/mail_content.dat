@@ -1,34 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42889</font><br/>[<b>披露时间</b>] 2022-10-13 18:56:57<br/>[<b>漏洞描述</b>] Apache Commons Text 存在任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7610'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7610</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-10-24 06:15:13<br/>[<b>漏洞描述</b>] 安全事件周报 (10.17-10.23)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=964bb9bbee90840ebd192daa0a71006b'>https://cert.360.cn/warning/detail?id=964bb9bbee90840ebd192daa0a71006b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23021</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP代码问题漏洞（CNVD-2022-70627）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411892'>http://cve.scap.org.cn/vuln/VHN-411892</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23023</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP资源管理错误漏洞（CNVD-2022-70626）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411894'>http://cve.scap.org.cn/vuln/VHN-411894</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23024</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP AFM资源管理错误漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411895'>http://cve.scap.org.cn/vuln/VHN-411895</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23025</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP代码问题漏洞（CNVD-2022-70624）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411896'>http://cve.scap.org.cn/vuln/VHN-411896</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23026</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP代码问题漏洞（CNVD-2022-70623）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411897'>http://cve.scap.org.cn/vuln/VHN-411897</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23027</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP配置文件漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411898'>http://cve.scap.org.cn/vuln/VHN-411898</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23028</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP AFM存在未明漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411899'>http://cve.scap.org.cn/vuln/VHN-411899</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23029</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP FastL4配置文件漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411900'>http://cve.scap.org.cn/vuln/VHN-411900</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23030</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP资源管理错误漏洞（CNVD-2022-70619）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411901'>http://cve.scap.org.cn/vuln/VHN-411901</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23031</font><br/>[<b>披露时间</b>] 2022-10-24 07:32:40<br/>[<b>漏洞描述</b>] F5 BIG-IP XML外部实体注入漏洞（CNVD-2022-70618）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411902'>http://cve.scap.org.cn/vuln/VHN-411902</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70734 (CVE-2022-33686)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:30<br/>[<b>漏洞描述</b>] Samsung GsmAlarmManager信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70734'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70734</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70750 (CVE-2022-27840)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:32<br/>[<b>漏洞描述</b>] Samsung Recovery访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70750'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70750</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70733 (CVE-2022-30756)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:35<br/>[<b>漏洞描述</b>] Samsung Finder存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70733'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70733</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70732 (CVE-2022-33690)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:37<br/>[<b>漏洞描述</b>] Samsung Contacts Storage路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70732'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70732</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70747 (CVE-2022-30749)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:39<br/>[<b>漏洞描述</b>] Samsung SmartThings访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70747'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70747</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70731 (CVE-2022-33710)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:42<br/>[<b>漏洞描述</b>] Samsung Galaxy Store输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70731'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70731</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70748 (CVE-2022-30732)</font><br/>[<b>披露时间</b>] 2022-10-24 09:04:44<br/>[<b>漏洞描述</b>] Samsung Account信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70748'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70748</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
