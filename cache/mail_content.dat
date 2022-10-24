@@ -1,18 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70754 (CVE-2022-25823)</font><br/>[<b>披露时间</b>] 2022-10-24 09:57:51<br/>[<b>漏洞描述</b>] Samsung Galaxy Watch Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70754'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70754</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70758 (CVE-2022-24929)</font><br/>[<b>披露时间</b>] 2022-10-24 09:57:54<br/>[<b>漏洞描述</b>] Samsung AppLock授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70758'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70758</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70761 (CVE-2022-0595)</font><br/>[<b>披露时间</b>] 2022-10-24 09:57:56<br/>[<b>漏洞描述</b>] WordPress Drag and Drop Multiple File Upload plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70761'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70761</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22291</font><br/>[<b>披露时间</b>] 2022-10-24 09:58:37<br/>[<b>漏洞描述</b>] Samsung telephony信息泄露漏洞（CNVD-2022-70759）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-410628'>http://cve.scap.org.cn/vuln/VHN-410628</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22292</font><br/>[<b>披露时间</b>] 2022-10-24 09:58:37<br/>[<b>漏洞描述</b>] Samsung Telecom授权问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-410629'>http://cve.scap.org.cn/vuln/VHN-410629</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70735 (CVE-2022-33697)</font><br/>[<b>披露时间</b>] 2022-10-24 10:58:53<br/>[<b>漏洞描述</b>] Samsung ImsCore信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70735'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70735</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-70736 (CVE-2022-33695)</font><br/>[<b>披露时间</b>] 2022-10-24 10:58:55<br/>[<b>漏洞描述</b>] Samsung InputManagerService未授权访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-70736'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-70736</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
