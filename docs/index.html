@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-25 19:25:10 -->
+<!-- RELEASE TIME : 2022-10-25 20:52:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">bd6a13b11aabf4991dff846bda76537f</td>
+       <td>CVE-2022-39354</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>SputnikVM, also called evm, is a Rust implementation of Ethereum Virtual Machine. A custom stateful precompile can use the `is_static` parameter to determine if the call is executed in a static context (via `STATICCALL`), and thus decide if stateful operations should be done. Prior to version 0.36.0, the passed `is_static` parameter was incorrect -- it was only set to `true` if the call came from a direct `STATICCALL` opcode. However, once a static call context is entered, it should stay static. The issue only impacts custom precompiles that actually uses `is_static`. For those affected, the issue can lead to possible incorrect state transitions. Version 0.36.0 contains a patch. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39354">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">75904f867ddae4ddd5c25d7a83c882d7</td>
+       <td>CVE-2022-38181</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An Arm product family through 2022-08-12 mail GPU kernel driver allows non-privileged users to make improper GPU processing operations to gain access to already freed memory.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38181">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e0b1214536b633c27579fa373850e409</td>
+       <td>CVE-2022-38162</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Reflected cross-site scripting (XSS) vulnerabilities in WithSecure through 2022-08-10) exists within the F-Secure Policy Manager due to an unvalidated parameter in the endpoint, which allows remote attackers to provide a malicious input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38162">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ccbfc7542da2b0ade656b02c358aa525</td>
+       <td>CVE-2022-36452</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the web conferencing component of Mitel MiCollab through 9.5.0.101 could allow an unauthenticated attacker to upload malicious files. A successful exploit could allow an attacker to execute arbitrary code within the context of the application.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36452">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">614d4e6828ae10edbb7607ee2b2dd4a7</td>
+       <td>CVE-2022-31468</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>OX App Suite through 8.2 allows XSS via an attachment or OX Drive content when a client uses the len or off parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31468">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6896704d2ac8f9ef276a7a013964c1fb</td>
+       <td>CVE-2022-27913</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Joomla! 4.2.0 through 4.2.3. Inadequate filtering of potentially malicious user input leads to reflected XSS vulnerabilities in various components.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27913">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e0cbb86e89b5d891d293438b004d4115</td>
+       <td>CVE-2022-27912</td>
+       <td>2022-10-25 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Joomla! 4.0.0 through 4.2.3. Sites with publicly enabled debug mode exposed data of previous requests.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27912">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b2c975e91ce3dd71a7f20ef3ace94e0e</td>
+       <td>CVE-2022-36454</td>
+       <td>2022-10-25 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the MiCollab Client API of Mitel MiCollab through 9.5.0.101 could allow an authenticated attacker to modify their profile parameters due to improper authorization controls. A successful exploit could allow the authenticated attacker to impersonate another user's name.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36454">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aaab381ef6eb6f533561e357bfdbb0c0</td>
+       <td>CVE-2022-36453</td>
+       <td>2022-10-25 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the MiCollab Client API of Mitel MiCollab 9.1.3 through 9.5.0.101 could allow an authenticated attacker to modify their profile parameters due to improper authorization controls. A successful exploit could allow the authenticated attacker to control another extension number.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36453">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">da8487a34288c5d4122dfe455e6d938d</td>
+       <td>CVE-2022-36451</td>
+       <td>2022-10-25 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the MiCollab Client server component of Mitel MiCollab through 9.5.0.101 could allow an authenticated attacker to conduct a Server-Side Request Forgery (SSRF) attack due to insufficient restriction of URL parameters. A successful exploit could allow an attacker to leverage connections and permissions available to the host server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36451">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">acb6022b75cdaa0cac9f68a2e238213f</td>
        <td>CVE-2022-42890</td>
        <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-10-24 14:15:00 <img src="imgs/new.gif" /></td>
        <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Versions prior to 4.10.17, and prior to 5.2.8 on the 5.x branch, crash when a file download request is received with an invalid byte range, resulting in a Denial of Service. This issue has been patched in versions 4.10.17, and 5.2.8. There are no known workarounds.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39313">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">014a083ba5c4334c0ee07b3ee19508c5</td>
-       <td>CVE-2022-39272</td>
-       <td>2022-10-22 00:15:00</td>
-       <td>Flux is an open and extensible continuous delivery solution for Kubernetes. Versions prior to 0.35.0 are subject to a Denial of Service. Users that have permissions to change Fluxâ€™s objects, either through a Flux source or directly within a cluster, can provide invalid data to fields `.spec.interval` or `.spec.timeout` (and structured variations of these fields), causing the entire object type to stop being processed. This issue is patched in version 0.35.0. As a workaround, Admission controllers can be employed to restrict the values that can be used for fields `.spec.interval` and `.spec.timeout`, however upgrading to the latest versions is still the recommended mitigation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39272">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4bd5b101ae8b9e8c7c69bf7f8cf96b57</td>
-       <td>CVE-2022-39259</td>
-       <td>2022-10-21 23:15:00</td>
-       <td>jadx is a set of command line and GUI tools for producing Java source code from Android Dex and Apk files. versions prior to 1.4.5 are subject to a Denial of Service when opening zip files with HTML sequences. This issue has been patched in version 1.4.5. There are no known workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39259">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2735e884175e54fd9c90e44897b0df71</td>
-       <td>CVE-2022-23462</td>
-       <td>2022-10-21 22:15:00</td>
-       <td>IOWOW is a C utility library and persistent key/value storage engine. Versions 1.4.15 and prior contain a stack buffer overflow vulnerability that allows for Denial of Service (DOS) when it parses scientific notation numbers present in JSON. A patch for this issue is available at commit a79d31e4cff1d5a08f665574b29fd885897a28fd in the `master` branch of the repository. There are no workarounds other than applying the patch.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23462">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8924825224c3a9e9cd8c42ec8c23aea0</td>
-       <td>CVE-2022-3649</td>
-       <td>2022-10-21 20:15:00</td>
-       <td>A vulnerability was found in Linux Kernel. It has been classified as problematic. Affected is the function nilfs_new_inode of the file fs/nilfs2/inode.c of the component BPF. The manipulation leads to use after free. It is possible to launch the attack remotely. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-211992.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3649">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">817e131786a99f1d943e3fdb1001a140</td>
-       <td>CVE-2022-3647</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>A vulnerability, which was classified as problematic, was found in Redis. Affected is the function sigsegvHandler of the file debug.c of the component Crash Report. The manipulation leads to denial of service. The name of the patch is 0bf90d944313919eb8e63d3588bf63a367f020a3. It is recommended to apply a patch to fix this issue. VDB-211962 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3647">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e38ffa33d84ffd8ba3c06d811495d0c5</td>
-       <td>CVE-2022-3646</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>A vulnerability, which was classified as problematic, has been found in Linux Kernel. This issue affects the function nilfs_attach_log_writer of the file fs/nilfs2/segment.c of the component BPF. The manipulation leads to memory leak. The attack may be initiated remotely. It is recommended to apply a patch to fix this issue. The identifier VDB-211961 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3646">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eaf83cac6c35a851739ae1211703e959</td>
-       <td>CVE-2022-34439</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>Dell PowerScale OneFS, versions 8.2.0.x-9.4.0.x contain allocation of Resources Without Limits or Throttling vulnerability. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to denial of service and performance issue on that node.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34439">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8825eebab699404ac6a3498ea09e8848</td>
-       <td>CVE-2022-34438</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>Dell PowerScale OneFS, versions 8.2.x-9.4.0.x, contain a privilege context switching error. A local authenticated malicious user with high privileges could potentially exploit this vulnerability, leading to full system compromise. This impacts compliance mode clusters.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34438">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">00868c9cd4200d1ea61813ddd6bf46f3</td>
-       <td>CVE-2022-34437</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>Dell PowerScale OneFS, versions 8.2.2-9.3.0, contain an OS command injection vulnerability. A privileged local malicious user could potentially exploit this vulnerability, leading to a full system compromise. This impacts compliance mode clusters.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34437">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cc29c1addcff320e0d9cb1b4ca878926</td>
-       <td>CVE-2022-31239</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.19, 9.2.1.12, and 9.3.0.6, contain sensitive data in log files vulnerability. A privileged local user may potentially exploit this vulnerability, leading to disclosure of this sensitive data.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31239">详情</a></td>
       </tr>
 
      </tbody>
@@ -2436,6 +2436,14 @@
       </tr>
 
       <tr>
+       <td scope="row">613250ff90388dbaf51513dbb45bfc21</td>
+       <td>CVE-2022-38117</td>
+       <td>2022-10-24 14:15:50  <img src="imgs/new.gif" /></td>
+       <td>Juiker app hard-coded its AES key in the source code. A physical attacker, after getting the Android root privilege, can use the AES key to decrypt users&acirc;&euro;&trade; ciphertext and tamper with it.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38117">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2e20d905310077522ee1b47d4eeee9d2</td>
        <td>CVE-2022-42944</td>
        <td>2022-10-21 16:15:12 </td>
@@ -2452,6 +2460,14 @@
       </tr>
 
       <tr>
+       <td scope="row">9b201e084db634ff9a87fcdb0acda521</td>
+       <td>CVE-2022-38104</td>
+       <td>2022-10-21 16:15:10 </td>
+       <td>Auth. WordPress Options Change (siteurl, users_can_register, default_role, admin_email and new_admin_email) vulnerability in Biplob Adhikari's Accordions &acirc;&euro;&ldquo; Multiple Accordions or FAQs Builder plugin (versions &lt;= 2.0.3 on WordPress.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38104">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9d982655cdecc7f655e5feecb6013567</td>
        <td>CVE-2022-42206</td>
        <td>2022-10-21 13:15:09 </td>
@@ -2465,6 +2481,14 @@
        <td>2022-10-21 13:15:09 </td>
        <td>PHPGurukul Hospital Management System In PHP V 4.0 is vulnerable to Cross Site Scripting (XSS) via add-patient.php.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42205">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a08c60e4a05d592187a550ce2d644f8d</td>
+       <td>CVE-2022-38108</td>
+       <td>2022-10-20 21:15:10 </td>
+       <td>SolarWinds Platform was susceptible to the Deserialization of Untrusted Data. This vulnerability allows a remote adversary with Orion admin-level account access to SolarWinds Web Console to execute arbitrary commands.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38108">详情</a></td>
       </tr>
 
       <tr>
@@ -2524,6 +2548,14 @@
       </tr>
 
       <tr>
+       <td scope="row">c62ba1e97d63f628f55e8a4cc6f48689</td>
+       <td>CVE-2022-37598</td>
+       <td>2022-10-20 11:15:10 </td>
+       <td>Prototype pollution vulnerability in function DEFNODE in ast.js in mishoo UglifyJS 3.13.2 via the name variable in ast.js.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37598">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b23951d004226654a88f4b1a8afe57d8</td>
        <td>CVE-2022-41983</td>
        <td>2022-10-19 22:15:13 </td>
@@ -2572,6 +2604,14 @@
       </tr>
 
       <tr>
+       <td scope="row">fd8c6724d1c74ee79143f7f74d16138f</td>
+       <td>CVE-2022-38107</td>
+       <td>2022-10-19 22:15:12 </td>
+       <td>Sensitive information could be displayed when a detailed technical error message is posted. This information could disclose environmental details.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38107">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5a1da150f7ca4afed66ce55ede1f13f1</td>
        <td>CVE-2022-43023</td>
        <td>2022-10-19 18:15:14 </td>
@@ -2609,46 +2649,6 @@
        <td>2022-10-19 18:15:13 </td>
        <td>OpenCATS v0.9.6 was discovered to contain a remote code execution (RCE) vulnerability via the getDataGridPager's ajax functionality.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43019">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">df1e0f006a9450dd26496e9f9538c7a1</td>
-       <td>CVE-2022-43018</td>
-       <td>2022-10-19 18:15:13 </td>
-       <td>OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the email parameter in the Check Email function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43018">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0f7e9a96cdb94e91ec963e32358bc17</td>
-       <td>CVE-2022-43017</td>
-       <td>2022-10-19 18:15:13 </td>
-       <td>OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the indexFile component.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43017">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ca39dcc1e2ca4288c8d93f594f510776</td>
-       <td>CVE-2022-43016</td>
-       <td>2022-10-19 18:15:13 </td>
-       <td>OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the callback component.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43016">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">185e5e7bac658c468bbdef897d4af1b6</td>
-       <td>CVE-2022-43015</td>
-       <td>2022-10-19 18:15:13 </td>
-       <td>OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the entriesPerPage parameter.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43015">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">98a9e0016ca69d3bf635aa2cdbe3f1a7</td>
-       <td>CVE-2022-43014</td>
-       <td>2022-10-19 18:15:13 </td>
-       <td>OpenCATS v0.9.6 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the joborderID parameter.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43014">详情</a></td>
       </tr>
 
      </tbody>
