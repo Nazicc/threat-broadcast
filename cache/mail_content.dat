@@ -1,13 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34870</font><br/>[<b>披露时间</b>] 2022-10-25 12:44:05<br/>[<b>漏洞描述</b>] Apache Geode跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7651'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7651</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43680</font><br/>[<b>披露时间</b>] 2022-10-24 14:15:53 <br/>[<b>漏洞描述</b>] In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43680'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43680</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2075</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Octopus Deploy拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71094'>http://www.nsfocus.net/vulndb/71094</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26074</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Intel Server Platform Services（SPS）拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71093'>http://www.nsfocus.net/vulndb/71093</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21212</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Intel PROSet/Wireless WiFi Software输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71092'>http://www.nsfocus.net/vulndb/71092</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38493</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Rhonabwy拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71091'>http://www.nsfocus.net/vulndb/71091</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-32862</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] nbconvert跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71090'>http://www.nsfocus.net/vulndb/71090</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1251</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] WordPress Ask Me Theme跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71089'>http://www.nsfocus.net/vulndb/71089</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35516</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] DedeCMS代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71088'>http://www.nsfocus.net/vulndb/71088</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35975</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] GitOps Tools Extension for VSCode操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71087'>http://www.nsfocus.net/vulndb/71087</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-1373</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Softing Secure Integration Server目录遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71086'>http://www.nsfocus.net/vulndb/71086</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-30071</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] HestiaCP跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71085'>http://www.nsfocus.net/vulndb/71085</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4178</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Kubernetes不受信数据反序列化漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71084'>http://www.nsfocus.net/vulndb/71084</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2868</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] LibTIFF输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71083'>http://www.nsfocus.net/vulndb/71083</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4217</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] unzip空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71082'>http://www.nsfocus.net/vulndb/71082</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35602</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] InventoryManagementSystem SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71081'>http://www.nsfocus.net/vulndb/71081</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32793</font><br/>[<b>披露时间</b>] 2022-10-25 09:57:46<br/>[<b>漏洞描述</b>] Apple多款产品越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71080'>http://www.nsfocus.net/vulndb/71080</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
