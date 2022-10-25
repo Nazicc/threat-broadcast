@@ -1,24 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">5</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21625</font><br/>[<b>披露时间</b>] 2022-10-25 15:00:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-407238'>http://cve.scap.org.cn/vuln/VHN-407238</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21640</font><br/>[<b>披露时间</b>] 2022-10-25 15:00:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-407253'>http://cve.scap.org.cn/vuln/VHN-407253</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23816</font><br/>[<b>披露时间</b>] 2022-10-25 15:00:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413029'>http://cve.scap.org.cn/vuln/VHN-413029</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23825</font><br/>[<b>披露时间</b>] 2022-10-25 15:00:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-413038'>http://cve.scap.org.cn/vuln/VHN-413038</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25664</font><br/>[<b>披露时间</b>] 2022-10-25 20:37:01<br/>[<b>漏洞描述</b>] Google Pixel 信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=90f2b8cafd82471eba07872f34981622'>https://redqueen.tj-un.com/IntelDetails.html?id=90f2b8cafd82471eba07872f34981622</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25750</font><br/>[<b>披露时间</b>] 2022-10-25 20:36:50<br/>[<b>漏洞描述</b>] Qualcomm BTHOST 资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=71a66b985c774e0bad058b7d6a3bbf4b'>https://redqueen.tj-un.com/IntelDetails.html?id=71a66b985c774e0bad058b7d6a3bbf4b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-21020</font><br/>[<b>披露时间</b>] 2022-10-25 20:36:40<br/>[<b>漏洞描述</b>] Adobe Magento 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b7b5ce611cf843058867e1355670cb6f'>https://redqueen.tj-un.com/IntelDetails.html?id=b7b5ce611cf843058867e1355670cb6f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43033</font><br/>[<b>披露时间</b>] 2022-10-25 20:36:24<br/>[<b>漏洞描述</b>] Bento4 资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=070d0dff89ff4fffb034a8e693a0ff7e'>https://redqueen.tj-un.com/IntelDetails.html?id=070d0dff89ff4fffb034a8e693a0ff7e</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-21026</font><br/>[<b>披露时间</b>] 2022-10-25 20:36:14<br/>[<b>漏洞描述</b>] Adobe Magento 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ebdb756df01a4480a014399ee1b16e04'>https://redqueen.tj-un.com/IntelDetails.html?id=ebdb756df01a4480a014399ee1b16e04</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-69687</font><br/>[<b>披露时间</b>] 2022-10-26 17:31:30<br/>[<b>漏洞描述</b>] 网御防火墙系统存在弱口令漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-69687'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-69687</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43677</font><br/>[<b>披露时间</b>] 2022-10-24 14:15:53 <br/>[<b>漏洞描述</b>] In free5GC 3.2.1, a malformed NGAP message can crash the AMF and NGAP decoders via an index-out-of-range panic in aper.GetBitString.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43677'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43677</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
