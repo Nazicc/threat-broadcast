@@ -1,12 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43750</font><br/>[<b>披露时间</b>] 2022-10-26 04:15:00<br/>[<b>漏洞描述</b>] drivers/usb/mon/mon_bin.c in usbmon in the Linux kernel before 5.19.15 and 6.x before 6.0.1 allows a user-space client to corrupt the monitor's internal memory.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43750'>https://www.tenable.com/cve/CVE-2022-43750</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43747</font><br/>[<b>披露时间</b>] 2022-10-26 04:15:00<br/>[<b>漏洞描述</b>] baramundi Management Agent (bMA) in baramundi Management Suite (bMS) 2021 R1 and R2 and 2022 R1 allows remote code execution. This is fixed in 2022 R2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43747'>https://www.tenable.com/cve/CVE-2022-43747</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3437,CVE-2022-3592</font><br/>[<b>披露时间</b>] 2022-10-26 16:39:16<br/>[<b>漏洞描述</b>] Samba 存在多个漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7661'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7661</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40684</font><br/>[<b>披露时间</b>] 2022-10-14 08:49:31<br/>[<b>漏洞描述</b>] FortiOS 认证绕过与命令执行漏洞（CVE-2022-40684）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-40684'>https://avd.aliyun.com/detail?id=AVD-2022-40684</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38817</font><br/>[<b>披露时间</b>] 2022-10-03 08:49:31<br/>[<b>漏洞描述</b>] Dapr Dashboard 未授权访问漏洞（CVE-2022-38817）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-38817'>https://avd.aliyun.com/detail?id=AVD-2022-38817</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
