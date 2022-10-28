@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-28 20:45:53 -->
+<!-- RELEASE TIME : 2022-10-28 22:45:11 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c5aa7d204cf21954328b2f0b59c0b828</td>
+       <td>CVE-2022-43286</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nginx NJS v0.7.2 was discovered to contain a heap-use-after-free bug caused by illegal memory copy in the function njs_json_parse_iterator_call at njs_json.c.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43286">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0c2050bd6f26928cab9395619bd3866e</td>
+       <td>CVE-2022-43285</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nginx NJS v0.7.4 was discovered to contain a segmentation violation in njs_promise_reaction_job.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43285">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b7f0e0faefbe43ff5320adb3d59b1d07</td>
+       <td>CVE-2022-43284</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nginx NJS v0.7.2 to v0.7.4 was discovered to contain a segmentation violation via njs_scope_valid_value at njs_scope.h.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43284">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">df2dd01f52be6b0a39c1df66e3bf27ea</td>
+       <td>CVE-2022-43283</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>wasm2c v1.0.29 was discovered to contain an abort in CWriter::Write.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43283">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2b5e5cab166132a39d40c4816937c068</td>
+       <td>CVE-2022-43282</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>wasm-interp v1.0.29 was discovered to contain an out-of-bounds read via the component OnReturnCallIndirectExpr->GetReturnCallDropKeepCount.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43282">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e3ff3eb474e8eb57df8fa46cfe89b6e4</td>
+       <td>CVE-2022-43281</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>wasm-interp v1.0.29 was discovered to contain a heap overflow via the component std::vector<wabt::Type, std::allocator<wabt::Type>>::size() at /bits/stl_vector.h.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43281">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8f8a0e2eb341f3da6181a5b8f5b8f85c</td>
+       <td>CVE-2022-43280</td>
+       <td>2022-10-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>wasm-interp v1.0.29 was discovered to contain an out-of-bounds read via the component OnReturnCallExpr->GetReturnCallDropKeepCount.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43280">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">23429d0a96117ddbc0288787c2a4e9c5</td>
+       <td>CVE-2022-37621</td>
+       <td>2022-10-28 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Prototype pollution vulnerability in function resolveShims in resolve-shims.js in thlorenz browserify-shim 3.8.15 via the fullPath variable in resolve-shims.js.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37621">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">548c19a66f7d2c706b11431db3f70bca</td>
        <td>CVE-2022-3708</td>
        <td>2022-10-28 19:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-10-28 10:15:00 <img src="imgs/new.gif" /></td>
        <td>Using warp-cli command "add-trusted-ssid", a user was able to disconnect WARP client and bypass the "Lock WARP switch" feature resulting in Zero Trust policies not being enforced on an affected endpoint.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3512">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6549b1963fb35475687034f025975c13</td>
-       <td>CVE-2022-3337</td>
-       <td>2022-10-28 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>It was possible for a user to delete a VPN profile from WARP mobile client on iOS platform despite the Lock WARP switch https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/warp-settings/#lock-warp-switch feature being enabled on Zero Trust Platform. This led to bypassing policies and restrictions enforced for enrolled devices by the Zero Trust platform.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3337">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d38b1ef938112a8bc707a827249fce58</td>
-       <td>CVE-2022-3322</td>
-       <td>2022-10-28 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Lock Warp switch is a feature of Zero Trust platform which, when enabled, prevents users of enrolled devices from disabling WARP client. Due to insufficient policy verification by WARP iOS client, this feature could be bypassed by using the "Disable WARP" quick action.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3322">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea9bfb5090ca40d8c536ac9cdfe5c9ca</td>
-       <td>CVE-2022-3321</td>
-       <td>2022-10-28 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>It was possible to bypass Lock WARP switch feature https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/warp-settings/#lock-warp-switch on the WARP iOS mobile client by enabling both "Disable for cellular networks" and "Disable for Wi-Fi networks" switches at once in the application settings. Such configuration caused the WARP client to disconnect and allowed the user to bypass restrictions and policies enforced by the Zero Trust platform.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3321">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8c92d257651b879b42f73e215a373668</td>
-       <td>CVE-2022-3320</td>
-       <td>2022-10-28 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>It was possible to bypass policies configured for Zero Trust Secure Web Gateway by using warp-cli 'set-custom-endpoint' subcommand. Using this command with an unreachable endpoint caused the WARP Client to disconnect and allowed bypassing administrative restrictions on a Zero Trust enrolled endpoint.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3320">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d73de1876e49483181dbfeee59be7c65</td>
-       <td>CVE-2022-3735</td>
-       <td>2022-10-28 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in seccome Ehoney. It has been rated as critical. This issue affects some unknown processing of the file /api/public/signup. The manipulation leads to improper access controls. The identifier VDB-212417 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3735">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5563f464e61dccb664d5fdf16a2a21da</td>
-       <td>CVE-2022-3734</td>
-       <td>2022-10-28 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Redis. It has been declared as critical. This vulnerability affects unknown code in the library C:/Program Files/Redis/dbghelp.dll. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-212416.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3734">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b09093854a123d4336f1ac4a8a43f20b</td>
-       <td>CVE-2022-3733</td>
-       <td>2022-10-28 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester Web-Based Student Clearance System. It has been classified as critical. This affects an unknown part of the file Admin/edit-admin.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-212415.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3733">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0362ad28880fcf683dc4c97fc7a5e253</td>
-       <td>CVE-2022-3732</td>
-       <td>2022-10-28 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in seccome Ehoney and classified as critical. Affected by this issue is some unknown functionality of the file /api/v1/bait/set. The manipulation of the argument Payload leads to sql injection. The attack may be launched remotely. VDB-212414 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3732">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,6 +2412,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a839dda5f34ee96c395003390a09692b</td>
+       <td>CVE-2021-38729</td>
+       <td>2022-10-28 16:15:14  <img src="imgs/new.gif" /></td>
+       <td>SEMCMS SHOP v 1.1 is vulnerable to SQL Injection via Ant_Plist.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-38729">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">def702982cecc7ab045bccc5a38fafdd</td>
+       <td>CVE-2021-38728</td>
+       <td>2022-10-28 16:15:14  <img src="imgs/new.gif" /></td>
+       <td>SEMCMS SHOP v 1.1 is vulnerable to Cross Site Scripting (XSS) via Ant_M_Coup.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-38728">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">aef08de63c1e5d88eb69244e570bfb47</td>
        <td>CVE-2021-38737</td>
        <td>2022-10-28 15:15:14  <img src="imgs/new.gif" /></td>
@@ -2633,22 +2649,6 @@
        <td>2022-10-24 14:15:51 </td>
        <td>In Eclipse Openj9 before version 0.35.0, interface calls can be inlined without a runtime type check. Malicious bytecode could make use of this inlining to access or modify memory via an incompatible type.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3676">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">613250ff90388dbaf51513dbb45bfc21</td>
-       <td>CVE-2022-38117</td>
-       <td>2022-10-24 14:15:50 </td>
-       <td>Juiker app hard-coded its AES key in the source code. A physical attacker, after getting the Android root privilege, can use the AES key to decrypt users&acirc;&euro;&trade; ciphertext and tamper with it.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38117">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7043483cf7d8bafb3b6c902ad4c4a8c2</td>
-       <td>CVE-2022-36368</td>
-       <td>2022-10-24 14:15:50 </td>
-       <td>Multiple stored cross-site scripting vulnerabilities in the web user interface of IPFire versions prior to 2.27 allows a remote authenticated attacker with administrative privilege to inject an arbitrary script.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36368">详情</a></td>
       </tr>
 
      </tbody>
