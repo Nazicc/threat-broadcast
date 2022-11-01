@@ -1,11 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31690,CVE-2022-31692</font><br/>[<b>披露时间</b>] 2022-11-01 14:26:34<br/>[<b>漏洞描述</b>] Spring Security存在多个漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7686'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7686</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40295</font><br/>[<b>披露时间</b>] 2022-11-01 07:43:00<br/>[<b>漏洞描述</b>] PHP Point of Sale信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71424'>http://www.nsfocus.net/vulndb/71424</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40293</font><br/>[<b>披露时间</b>] 2022-11-01 07:43:00<br/>[<b>漏洞描述</b>] PHP Point of Sale会话固定漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71423'>http://www.nsfocus.net/vulndb/71423</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40296</font><br/>[<b>披露时间</b>] 2022-11-01 07:43:00<br/>[<b>漏洞描述</b>] PHP Point of Sale服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71422'>http://www.nsfocus.net/vulndb/71422</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40294</font><br/>[<b>披露时间</b>] 2022-11-01 07:43:00<br/>[<b>漏洞描述</b>] PHP Point of Sale CSV注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71421'>http://www.nsfocus.net/vulndb/71421</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40292</font><br/>[<b>披露时间</b>] 2022-11-01 07:43:00<br/>[<b>漏洞描述</b>] PHP Point of Sale用户名枚举漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71420'>http://www.nsfocus.net/vulndb/71420</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
