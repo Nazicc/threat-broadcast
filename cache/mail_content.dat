@@ -1,12 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41435</font><br/>[<b>披露时间</b>] 2022-11-03 12:15:00<br/>[<b>漏洞描述</b>] OpenWRT LuCI version git-22.140.66206-02913be was discovered to contain a stored cross-site scripting (XSS) vulnerability in the component /system/sshkeys.js. This vulnerability allows attackers to execute arbitrary web scripts or HTML via crafted public key comments.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-41435'>https://www.tenable.com/cve/CVE-2022-41435</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32287</font><br/>[<b>披露时间</b>] 2022-11-03 12:15:00<br/>[<b>漏洞描述</b>] A relative path traversal vulnerability in a FileUtil class used by the PEAR management component of Apache UIMA allows an attacker to create files outside the designated target directory using carefully crafted ZIP entry names. This issue affects Apache UIMA Apache UIMA version 3.3.0 and prior versions. Note that PEAR files should never be installed into an UIMA installation from untrusted sources because PEAR archives are executable plugins that will be able to perform any actions with the same privileges as the host Java Virtual Machine.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-32287'>https://www.tenable.com/cve/CVE-2022-32287</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38435</font><br/>[<b>披露时间</b>] 2022-11-03 21:58:50<br/>[<b>漏洞描述</b>] Adobe Illustrator 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=5395e103307d4e329d2f50f64a08b9ef'>https://redqueen.tj-un.com/IntelDetails.html?id=5395e103307d4e329d2f50f64a08b9ef</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20955</font><br/>[<b>披露时间</b>] 2022-11-03 21:58:49<br/>[<b>漏洞描述</b>] Cisco TelePresence Collaboration Endpoint Software和RoomOS Software 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=75833ad5c4634926b3ef9ee781c37239'>https://redqueen.tj-un.com/IntelDetails.html?id=75833ad5c4634926b3ef9ee781c37239</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36452</font><br/>[<b>披露时间</b>] 2022-11-03 21:48:05<br/>[<b>漏洞描述</b>] MITEL MICOLLAB Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d7cb48ff96054acb9db05706dceeb77e'>https://redqueen.tj-un.com/IntelDetails.html?id=d7cb48ff96054acb9db05706dceeb77e</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38196</font><br/>[<b>披露时间</b>] 2022-11-03 21:46:19<br/>[<b>漏洞描述</b>] ESRI ARCGIS_SERVER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e378e434c2ce4ca590b4f91f5b01f479'>https://redqueen.tj-un.com/IntelDetails.html?id=e378e434c2ce4ca590b4f91f5b01f479</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38200</font><br/>[<b>披露时间</b>] 2022-11-03 21:43:38<br/>[<b>漏洞描述</b>] ESRI ARCGIS_SERVER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=11f99207e38248f9aa27a8516f5bd652'>https://redqueen.tj-un.com/IntelDetails.html?id=11f99207e38248f9aa27a8516f5bd652</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
