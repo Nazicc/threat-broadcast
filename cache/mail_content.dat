@@ -1,15 +1,29 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42809</font><br/>[<b>披露时间</b>] 2022-11-01 20:15:23 <br/>[<b>漏洞描述</b>] The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13. Processing a maliciously crafted gcx file may lead to unexpected app termination or arbitrary code execution.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42809'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42809</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42808</font><br/>[<b>披露时间</b>] 2022-11-01 20:15:23 <br/>[<b>漏洞描述</b>] An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in tvOS 16.1, iOS 16.1 and iPadOS 16, macOS Ventura 13, watchOS 9.1. A remote user may be able to cause kernel code execution.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42808'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42808</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43571</font><br/>[<b>披露时间</b>] 2022-11-03 23:15:00<br/>[<b>漏洞描述</b>] In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated user can execute arbitrary code through the dashboard PDF generation component.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43571'>https://www.tenable.com/cve/CVE-2022-43571</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43561</font><br/>[<b>披露时间</b>] 2022-11-03 23:15:00<br/>[<b>漏洞描述</b>] In Splunk Enterprise versions below 8.1.12, 8.2.9, and 9.0.2, a remote user that holds the “power” Splunk role can store arbitrary scripts that can lead to persistent cross-site scripting (XSS). The vulnerability affects instances with Splunk Web enabled.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43561'>https://www.tenable.com/cve/CVE-2022-43561</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-73697 (CVE-2022-27846)</font><br/>[<b>披露时间</b>] 2022-11-04 04:25:34<br/>[<b>漏洞描述</b>] Wordpress插件Yooslider Yoo Slider跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-73697'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-73697</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-73691 (CVE-2022-34917)</font><br/>[<b>披露时间</b>] 2022-11-04 04:25:36<br/>[<b>漏洞描述</b>] Apache Kafka拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-73691'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-73691</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-73690 (CVE-2022-38648)</font><br/>[<b>披露时间</b>] 2022-11-04 04:25:38<br/>[<b>漏洞描述</b>] Apache XML Graphics Batik服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-73690'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-73690</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-73695 (CVE-2022-40604)</font><br/>[<b>披露时间</b>] 2022-11-04 04:25:41<br/>[<b>漏洞描述</b>] Apache Airflow信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-73695'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-73695</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-73696 (CVE-2020-9199)</font><br/>[<b>披露时间</b>] 2022-11-04 04:25:43<br/>[<b>漏洞描述</b>] Huawei多款产品命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-73696'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-73696</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-73689 (CVE-2022-40159)</font><br/>[<b>披露时间</b>] 2022-11-04 04:25:45<br/>[<b>漏洞描述</b>] Apache Commons JXPath缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-73689'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-73689</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429719</font><br/>[<b>披露时间</b>] 2022-11-04 04:26:02<br/>[<b>漏洞描述</b>] Apache XML Graphics Batik服务器端请求伪造漏洞（CNVD-2022-73690）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429719'>http://cve.scap.org.cn/vuln/VHN-429719</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429720</font><br/>[<b>披露时间</b>] 2022-11-04 04:26:02<br/>[<b>漏洞描述</b>] Apache Commons JXPath缓冲区溢出漏洞（CNVD-2022-73689）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429720'>http://cve.scap.org.cn/vuln/VHN-429720</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429721</font><br/>[<b>披露时间</b>] 2022-11-04 04:26:02<br/>[<b>漏洞描述</b>] Apache Commons JXPath缓冲区溢出漏洞（CNVD-2022-73687）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429721'>http://cve.scap.org.cn/vuln/VHN-429721</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429722</font><br/>[<b>披露时间</b>] 2022-11-04 04:26:02<br/>[<b>漏洞描述</b>] Apache Commons JXPath缓冲区溢出漏洞（CNVD-2022-73688）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429722'>http://cve.scap.org.cn/vuln/VHN-429722</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429723</font><br/>[<b>披露时间</b>] 2022-11-04 04:26:02<br/>[<b>漏洞描述</b>] Apache Commons Text远程代码执行漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429723'>http://cve.scap.org.cn/vuln/VHN-429723</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429724</font><br/>[<b>披露时间</b>] 2022-11-04 04:26:02<br/>[<b>漏洞描述</b>] Apache XML Graphics Batik服务器端请求伪造漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429724'>http://cve.scap.org.cn/vuln/VHN-429724</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
