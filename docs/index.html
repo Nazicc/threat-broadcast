@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-07 11:39:58 -->
+<!-- RELEASE TIME : 2022-11-07 13:22:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">288d82aedf8bfd249df8e1b31528bab7</td>
+       <td>CVE-2022-3558</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Import and export users and customers WordPress plugin before 1.20.5 does not properly escape data when exporting it via CSV files.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3558">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e4b0c17f5e59ec3d8331e777a37e3af8</td>
+       <td>CVE-2022-3537</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Role Based Pricing for WooCommerce WordPress plugin before 1.6.2 does not have authorisation and proper CSRF checks, and does not validate files to be uploaded, allowing any authenticated users like subscriber to upload arbitrary files, such as PHP</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3537">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">17a9b70a5ea0c74d0addea1d10310e2a</td>
+       <td>CVE-2022-3536</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Role Based Pricing for WooCommerce WordPress plugin before 1.6.3 does not have authorisation and proper CSRF checks, as well as does not validate path given via user input, allowing any authenticated users like subscriber to perform PHAR deserialization attacks when they can upload a file, and a suitable gadget chain is present on the blog</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3536">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">228af0628690ce6a248ec61c8b52177f</td>
+       <td>CVE-2022-3494</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Complianz WordPress plugin before 6.3.4, and Complianz Premium WordPress plugin before 6.3.6 allow a translators to inject arbitrary SQL through an unsanitized translation. SQL can be injected through an infected translation file, or by a user with a translator role through translation plugins such as Loco Translate or WPML.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3494">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7908f3da18657c2e7dbffc5b4740d764</td>
+       <td>CVE-2022-3489</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The WP Hide WordPress plugin through 0.0.2 does not have authorisation and CSRF checks in place when updating the custom_wpadmin_slug settings, allowing unauthenticated attackers to update it with a crafted request</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3489">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5fcd0aec74309ab5fce0891ff532682f</td>
+       <td>CVE-2022-3481</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The WooCommerce Dropshipping WordPress plugin before 4.4 does not properly sanitise and escape a parameter before using it in a SQL statement via a REST endpoint available to unauthenticated users, leading to a SQL injection</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3481">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d8fb5d610dee6099609cee85a24735ee</td>
+       <td>CVE-2022-3463</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Contact Form Plugin WordPress plugin before 4.3.13 does not validate and escape fields when exporting form entries as CSV, leading to a CSV injection</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3463">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6deab285aec66bd15ddaf9f23a6b208e</td>
+       <td>CVE-2022-3462</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Highlight Focus WordPress plugin through 1.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3462">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a3f1d74e38223168d4c7f04362b2ea1c</td>
+       <td>CVE-2022-3451</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Product Stock Manager WordPress plugin before 1.0.5 does not have authorisation and proper CSRF checks in multiple AJAX actions, allowing users with a role as low as subscriber to call them. One action in particular could allow to update arbitrary options</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3451">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">07d5c94ebccaf2cfaec0e8f00c809f85</td>
+       <td>CVE-2022-3418</td>
+       <td>2022-11-07 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Import any XML or CSV File to WordPress plugin before 3.6.9 is not properly filtering which file extensions are allowed to be imported on the server, which could allow administrators in multi-site WordPress installations to upload arbitrary files</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3418">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">21214de31cf6d36f910c270447aa44e8</td>
        <td>CVE-2022-44797</td>
        <td>2022-11-07 04:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-11-04 23:15:00</td>
        <td>In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated user can run risky commands using a more privileged user’s permissions to bypass SPL safeguards for risky commands https://docs.splunk.com/Documentation/SplunkCloud/latest/Security/SPLsafeguards in the Analytics Workspace. The vulnerability requires the attacker to phish the victim by tricking them into initiating a request within their browser. The attacker cannot exploit the vulnerability at will.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43566">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">30b9feaf3814fae7337ee2faa671c8a8</td>
-       <td>CVE-2022-43565</td>
-       <td>2022-11-04 23:15:00</td>
-       <td>In Splunk Enterprise versions below 8.2.9 and 8.1.12, the way that the ‘tstats command handles Javascript Object Notation (JSON) lets an attacker bypass SPL safeguards for risky commands https://docs.splunk.com/Documentation/SplunkCloud/latest/Security/SPLsafeguards . The vulnerability requires the attacker to phish the victim by tricking them into initiating a request within their browser.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43565">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6fbf415559603b3c4d554c08ede1059e</td>
-       <td>CVE-2022-43564</td>
-       <td>2022-11-04 23:15:00</td>
-       <td>In Splunk Enterprise versions below 8.1.12, 8.2.9, and 9.0.2, a remote user who can create search macros and schedule search reports can cause a denial of service through the use of specially crafted search macros.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43564">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6b7f0fe46b058b76fcb7d84676eafa33</td>
-       <td>CVE-2022-43563</td>
-       <td>2022-11-04 23:15:00</td>
-       <td>In Splunk Enterprise versions below 8.2.9 and 8.1.12, the way that the rex search command handles field names lets an attacker bypass SPL safeguards for risky commands https://docs.splunk.com/Documentation/SplunkCloud/latest/Security/SPLsafeguards . The vulnerability requires the attacker to phish the victim by tricking them into initiating a request within their browser. The attacker cannot exploit the vulnerability at will.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43563">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23e68eed80be5e19ff21034676702c24</td>
-       <td>CVE-2022-43562</td>
-       <td>2022-11-04 23:15:00</td>
-       <td>In Splunk Enterprise versions below 8.1.12, 8.2.9, and 9.0.2, Splunk Enterprise fails to properly validate and escape the Host header, which could let a remote authenticated user conduct various attacks against the system, including cross-site scripting and cache poisoning.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43562">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">89c72225a2564f4ad2015e017a688203</td>
-       <td>CVE-2022-38654</td>
-       <td>2022-11-04 21:15:00</td>
-       <td>HCL Domino is susceptible to an information disclosure vulnerability. In some scenarios, local calls made on the server to search the Domino directory will ignore xACL read restrictions. An authenticated attacker could leverage this vulnerability to access attributes from a user's person record.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38654">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9fe1b2c7a4204a4e1ec48d539e97ba76</td>
-       <td>CVE-2022-39344</td>
-       <td>2022-11-04 20:15:00</td>
-       <td>Azure RTOS USBX is a USB host, device, and on-the-go (OTG) embedded stack, that is fully integrated with Azure RTOS ThreadX. Prior to version 6.1.12, the USB DFU UPLOAD functionality may be utilized to introduce a buffer overflow resulting in overwrite of memory contents. In particular cases this may allow an attacker to bypass security features or execute arbitrary code. The implementation of `ux_device_class_dfu_control_request` function prevents buffer overflow during handling of DFU UPLOAD command when current state is `UX_SYSTEM_DFU_STATE_DFU_IDLE`. This issue has been patched, please upgrade to version 6.1.12. As a workaround, add the `UPLOAD_LENGTH` check in all possible states.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39344">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a4ba405820d9dbae8cf120798443fbd4</td>
-       <td>CVE-2022-38660</td>
-       <td>2022-11-04 20:15:00</td>
-       <td>HCL XPages applications are susceptible to a Cross Site Request Forgery (CSRF) vulnerability. An unauthenticated attacker could exploit this vulnerability to perform actions in the application on behalf of the logged in user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38660">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6899ec88788a7db8a0e9e1974cb68048</td>
-       <td>CVE-2022-43945</td>
-       <td>2022-11-04 19:15:00</td>
-       <td>The Linux kernel NFSD implementation prior to versions 5.19.17 and 6.0.2 are vulnerable to buffer overflow. NFSD tracks the number of pages held by each NFSD thread by combining the receive and send buffers of a remote procedure call (RPC) into a single array of pages. A client can force the send buffer to shrink by sending an RPC message over TCP with garbage data added at the end of the message. The RPC message with garbage data is still correctly formed according to the specification and is passed forward to handlers. Vulnerable code in NFSD is not expecting the oversized request and writes beyond the allocated buffer space. CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43945">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">71ed3f4c1da82be2db581ebee9332727</td>
-       <td>CVE-2022-40263</td>
-       <td>2022-11-04 19:15:00</td>
-       <td>BD Totalys MultiProcessor, versions 1.70 and earlier, contain hardcoded credentials. If exploited, threat actors may be able to access, modify or delete sensitive information, including electronic protected health information (ePHI), protected health information (PHI) and personally identifiable information (PII). Customers using BD Totalys MultiProcessor version 1.70 with Microsoft Windows 10 have additional operating system hardening configurations which increase the attack complexity required to exploit this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40263">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">afe2a23c157f12d437158bc84d13f823</td>
-       <td>CVE-2022-39387</td>
-       <td>2022-11-04 19:15:00</td>
-       <td>XWiki OIDC has various tools to manipulate OpenID Connect protocol in XWiki. Prior to version 1.29.1, even if a wiki has an OpenID provider configured through its xwiki.properties, it is possible to provide a third party provider its details through request parameters. One can then bypass the XWiki authentication altogether by specifying its own provider through the oidc.endpoint.* request parameters (or by using an XWiki-based OpenID provider with oidc.xwikiprovider. With the same approach, one could also provide a specific group mapping through oidc.groups.mapping that would make his user automatically part of the XWikiAdminGroup. This issue has been patched, please upgrade to 1.29.1. There is no workaround, an upgrade of the authenticator is required.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39387">详情</a></td>
       </tr>
 
      </tbody>
