@@ -1,14 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43359</font><br/>[<b>披露时间</b>] 2022-11-07 23:15:00<br/>[<b>漏洞描述</b>] Gifdec commit 1dcbae19363597314f6623010cc80abad4e47f7c was discovered to contain an out-of-bounds read in the function read_image_data. This vulnerability is triggered when parsing a crafted Gif file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43359'>https://www.tenable.com/cve/CVE-2022-43359</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43049</font><br/>[<b>披露时间</b>] 2022-11-07 22:15:00<br/>[<b>漏洞描述</b>] Canteen Management System Project v1.0 was discovered to contain a SQL injection vulnerability via the component /youthappam/add-food.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43049'>https://www.tenable.com/cve/CVE-2022-43049</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43046</font><br/>[<b>披露时间</b>] 2022-11-07 21:15:00<br/>[<b>漏洞描述</b>] Food Ordering Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /foms/place-order.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43046'>https://www.tenable.com/cve/CVE-2022-43046</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3872</font><br/>[<b>披露时间</b>] 2022-11-07 21:15:00<br/>[<b>漏洞描述</b>] An off-by-one read/write issue was found in the SDHCI device of QEMU. It occurs when reading/writing the Buffer Data Port Register in sdhci_read_dataport and sdhci_write_dataport, respectively, if data_count == block_size. A malicious guest could use this flaw to crash the QEMU process on the host, resulting in a denial of service condition.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3872'>https://www.tenable.com/cve/CVE-2022-3872</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43565</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise欺骗漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71770'>http://www.nsfocus.net/vulndb/71770</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43571</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71769'>http://www.nsfocus.net/vulndb/71769</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43562</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise主机标头注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71768'>http://www.nsfocus.net/vulndb/71768</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43563</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise欺骗漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71767'>http://www.nsfocus.net/vulndb/71767</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43564</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71766'>http://www.nsfocus.net/vulndb/71766</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43567</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71765'>http://www.nsfocus.net/vulndb/71765</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43561</font><br/>[<b>披露时间</b>] 2022-11-07 05:45:23<br/>[<b>漏洞描述</b>] Splunk Enterprise跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/71764'>http://www.nsfocus.net/vulndb/71764</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
