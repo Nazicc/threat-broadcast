@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-08 11:39:36 -->
+<!-- RELEASE TIME : 2022-11-08 13:21:06 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">30dc4b7253ff7e3b26de11f06d96cc67</td>
+       <td>CVE-2022-39352</td>
+       <td>2022-11-08 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenFGA is a high-performance authorization/permission engine inspired by Google Zanzibar. Versions prior to 0.2.5 are vulnerable to authorization bypass under certain conditions. You are affected by this vulnerability if you added a tuple with a wildcard (*) assigned to a tupleset relation (the right hand side of a â€˜fromâ€™ statement). This issue has been patched in version v0.2.5. This update is not backward compatible with any authorization model that uses wildcard on a tupleset relation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39352">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f2cdcea53bbc642c7632f37dfc01b5c9</td>
+       <td>CVE-2022-39343</td>
+       <td>2022-11-08 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Azure RTOS FileX is a FAT-compatible file system thatâ€™s fully integrated with Azure RTOS ThreadX. In versions before 6.2.0, the Fault Tolerant feature of Azure RTOS FileX includes integer under and overflows which may be exploited to achieve buffer overflow and modify memory contents. When a valid log file with correct ID and checksum is detected by the `_fx_fault_tolerant_enable` function an attempt to recover the previous failed write operation is taken by call of `_fx_fault_tolerant_apply_logs`. This function iterates through the log entries and performs required recovery operations. When properly crafted a log including entries of type `FX_FAULT_TOLERANT_DIR_LOG_TYPE` may be utilized to introduce unexpected behavior. This issue has been patched in version 6.2.0. A workaround to fix line 218 in fx_fault_tolerant_apply_logs.c is documented in the GHSA.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39343">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cb5bd4c1999c64bbff29bf084aa296d7</td>
+       <td>CVE-2022-36077</td>
+       <td>2022-11-08 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Electron framework enables writing cross-platform desktop applications using JavaScript, HTML and CSS. In versions prior to 21.0.0-beta.1, 20.0.1, 19.0.11, and 18.3.7, Electron is vulnerable to Exposure of Sensitive Information. When following a redirect, Electron delays a check for redirecting to file:// URLs from other schemes. The contents of the file is not available to the renderer following the redirect, but if the redirect target is a SMB URL such as `file://some.website.com/`, then in some cases, Windows will connect to that server and attempt NTLM authentication, which can include sending hashed credentials.This issue has been patched in versions: 21.0.0-beta.1, 20.0.1, 19.0.11, and 18.3.7. Users are recommended to upgrade to the latest stable version of Electron. If upgrading isn't possible, this issue can be addressed without upgrading by preventing redirects to file:// URLs in the `WebContents.on('will-redirect')` event, for all WebContents as a workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36077">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5eb32bce10dc9cd56db069c73c08c212</td>
+       <td>CVE-2020-35473</td>
+       <td>2022-11-08 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>An information leakage vulnerability in the Bluetooth Low Energy advertisement scan response in Bluetooth Core Specifications 4.0 through 5.2, and extended scan response in Bluetooth Core Specifications 5.0 through 5.2, may be used to identify devices using Resolvable Private Addressing (RPA) by their response or non-response to specific scan requests from remote addresses. RPAs that have been associated with a specific remote device may also be used to identify a peer in the same manner by using its reaction to an active scan request. This has also been called an allowlist-based side channel.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-35473">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a7ef9256bf10c3c41a2ed0fbf1e0fe3f</td>
        <td>CVE-2022-41434</td>
        <td>2022-11-08 01:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2022-11-07 15:15:00 <img src="imgs/new.gif" /></td>
        <td>The d8s-networking for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-json package. The affected version of d8s-htm is 0.1.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44050">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">771ce00b904f022c646e03bb40bcacfc</td>
-       <td>CVE-2022-44049</td>
-       <td>2022-11-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-python for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-grammars package. The affected version of d8s-htm is 0.1.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44049">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b14cc502233e950913a84c0b3b885578</td>
-       <td>CVE-2022-44048</td>
-       <td>2022-11-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-urls for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-domains package. The affected version of d8s-htm is 0.1.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44048">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4f8c4d1278878d1d31fcdb0a25c8ec9b</td>
-       <td>CVE-2022-37866</td>
-       <td>2022-11-07 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>When Apache Ivy downloads artifacts from a repository it stores them in the local file system based on a user-supplied "pattern" that may include placeholders for artifacts coordinates like the organisation, module or version. If said coordinates contain "../" sequences - which are valid characters for Ivy coordinates in general - it is possible the artifacts are stored outside of Ivy's local cache or repository or can overwrite different artifacts inside of the local cache. In order to exploit this vulnerability an attacker needs collaboration by the remote repository as Ivy will issue http requests containing ".." sequences and a "normal" repository will not interpret them as part of the artifact coordinates. Users of Apache Ivy 2.0.0 to 2.5.1 should upgrade to Ivy 2.5.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37866">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cff1b21af78ac72625e4d32ae4198576</td>
-       <td>CVE-2022-42956</td>
-       <td>2022-11-07 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The PassWork extension 5.0.9 for Chrome and other browsers allows an attacker to obtain the cleartext master password.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42956">详情</a></td>
       </tr>
 
      </tbody>
