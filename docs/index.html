@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-09 11:40:32 -->
+<!-- RELEASE TIME : 2022-11-09 13:25:42 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2bde33fefac0163257611ff31682def2</td>
+       <td>CVE-2022-45062</td>
+       <td>2022-11-09 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Xfce xfce4-settings before 4.16.4 and 4.17.x before 4.17.1, there is an argument injection vulnerability in xfce4-mime-helper.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45062">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">034937804e4575bdf2c332b869f67314</td>
+       <td>CVE-2022-45061</td>
+       <td>2022-11-09 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Python before 3.11.1. An unnecessary quadratic algorithm exists in one path when processing some inputs to the IDNA (RFC 3490) decoder, such that a crafted, unreasonably long name being presented to the decoder could lead to a CPU denial of service. Hostnames are often supplied by remote servers that could be controlled by a malicious actor; in such a scenario, they could trigger excessive CPU consumption on the client attempting to make use of an attacker-supplied supposed hostname. For example, the attack payload could be placed in the Location header of an HTTP response with status code 302. A fix is planned in 3.11.1, 3.10.9, 3.9.16, 3.8.16, and 3.7.16.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45061">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4aafa70813450634a49066d75f767295</td>
+       <td>CVE-2022-40797</td>
+       <td>2022-11-09 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Roxy Fileman 1.4.6 allows Remote Code Execution via a .phar upload, because the default FORBIDDEN_UPLOADS value in conf.json only blocks .php, .php4, and .php5 files. (Visiting any .phar file invokes the PHP interpreter in some realistic web-server configurations.)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40797">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5b5aca7295edfcaf1fa883f7f115858c</td>
+       <td>CVE-2022-45060</td>
+       <td>2022-11-09 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>An HTTP Request Forgery issue was discovered in Varnish Cache 5.x and 6.x before 6.0.11, 7.x before 7.1.2, and 7.2.x before 7.2.1. An attacker may introduce characters through HTTP/2 pseudo-headers that are invalid in the context of an HTTP/1 request line, causing the Varnish server to produce invalid HTTP/1 requests to the backend. This could, in turn, be used to exploit vulnerabilities in a server behind the Varnish server. Note: the 6.0.x LTS series (before 6.0.11) is affected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45060">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">97c029afc643eaeca58faef7c5b2ce25</td>
+       <td>CVE-2022-45059</td>
+       <td>2022-11-09 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Varnish Cache 7.x before 7.1.2 and 7.2.x before 7.2.1. A request smuggling attack can be performed on Varnish Cache servers by requesting that certain headers are made hop-by-hop, preventing the Varnish Cache servers from forwarding critical headers to the backend.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45059">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">903e9893f8aeea29a3bb5ebfb5d0bbc8</td>
        <td>CVE-2022-3890</td>
        <td>2022-11-09 04:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2022-11-08 19:15:00 <img src="imgs/new.gif" /></td>
        <td>Auth. (admin+) Cross-Site Scripting (XSS) vulnerability in Mantenimiento web plugin <= 0.13 on WordPress.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41980">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d9df44510404f3ee0a4a7570ab70f329</td>
-       <td>CVE-2022-41136</td>
-       <td>2022-11-08 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability leading to Stored Cross-Site Scripting (XSS) in Vladimir Anokhin's Shortcodes Ultimate plugin <= 5.12.0 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41136">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de628ffa8184543bddc0359c2b6cd6b0</td>
-       <td>CVE-2022-40632</td>
-       <td>2022-11-08 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in gVectors Team wpForo Forum plugin <= 2.0.5 on WordPress leading to topic deletion.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0793cdcd5e962e8dccb53b1467d6811c</td>
-       <td>CVE-2022-44556</td>
-       <td>2022-11-08 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Missing parameter type validation in the DRM module. Successful exploitation of this vulnerability may affect availability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44556">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9365c75ee5ba43c70e0cf34dbb79c005</td>
-       <td>CVE-2022-39069</td>
-       <td>2022-11-08 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is a SQL injection vulnerability in ZTE ZAIP-AIE. Due to lack of input verification by the server, an attacker could trigger an attack by building malicious requests. Exploitation of this vulnerability could cause the leakage of the current table content.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39069">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c64279eda65fa1a4609c55e72e3dbdf3</td>
-       <td>CVE-2021-40303</td>
-       <td>2022-11-08 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>perfex crm 1.10 is vulnerable to Cross Site Scripting (XSS) via /clients/profile.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40303">详情</a></td>
       </tr>
 
      </tbody>
