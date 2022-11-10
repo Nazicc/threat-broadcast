@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-10 14:08:00 -->
+<!-- RELEASE TIME : 2022-11-10 14:53:05 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">68b1bc6a93f4eaca4cc3c534488d51f7</td>
+       <td>CVE-2022-42787</td>
+       <td>2022-11-10 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple W&T products of the Comserver Series use a small number space for allocating sessions ids. An unathenticated remote attacker can brute force the session id and gets access to an account on the the device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42787">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">448cd688e1b4c0b37ebdf08674b4a11e</td>
+       <td>CVE-2022-42786</td>
+       <td>2022-11-10 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple W&T Products of the ComServer Series are prone to an XSS attack. An authenticated remote Attacker can execute arbitrary web scripts or HTML via a crafted payload injected into the title of the configuration webpage</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42786">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">342d7e8cbc21ccf410a9856dcc6f4f94</td>
+       <td>CVE-2022-45130</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Plesk Obsidian allows a CSRF attack, e.g., via the /api/v2/cli/commands REST API to change an Admin password. NOTE: Obsidian is a specific version of the Plesk product: version numbers were used through version 12, and then the convention was changed so that versions are identified by names ("Obsidian"), not numbers.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45130">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">65e2bd43d7344b9e21477b32e7bde6e8</td>
+       <td>CVE-2022-45129</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Payara before 2022-11-04, when deployed to the root context, allows attackers to visit META-INF and WEB-INF, a different vulnerability than CVE-2022-37422. This affects Payara Platform Community before 4.1.2.191.38, 5.x before 5.2022.4, and 6.x before 6.2022.1, and Payara Platform Enterprise before 5.45.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45129">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">33cc5673c964fbb618ba17292700ee39</td>
+       <td>CVE-2022-3867</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 event stream subscribers using a token with TTL receive updates until token garbage is collected. Fixed in 1.4.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3867">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5460e460b8eaff5fa62141876a6b289b</td>
+       <td>CVE-2022-3866</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 workload identity token can list non-sensitive metadata for paths under nomad/ that belong to other jobs in the same namespace. Fixed in 1.4.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3866">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d5abe841442ae2a1fec38932b42d5429</td>
+       <td>CVE-2022-39398</td>
+       <td>2022-11-10 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>tasklists is a tasklists plugin for GLPI (Kanban). Versions prior to 2.0.3 are vulnerable to Cross-site Scripting. Cross-site Scripting (XSS) - Create XSS in task content (when add it). This issue is patched in version 2.0.3. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39398">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">272525086f237b8c88c55756975195cf</td>
+       <td>CVE-2022-39396</td>
+       <td>2022-11-10 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Versions prior to 4.10.18, and prior to 5.3.1 on the 5.X branch, are vulnerable to Remote Code Execution via prototype pollution. An attacker can use this prototype pollution sink to trigger a remote code execution through the MongoDB BSON parser. This issue is patched in version 5.3.1 and in 4.10.18. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39396">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a1a0dcfd222f307256c4925bbf7b780b</td>
        <td>CVE-2022-39368</td>
        <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
@@ -455,70 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29888">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">fdec94da4b9c75fc1a3af3f0ed227c09</td>
-       <td>CVE-2022-29481</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console nvram functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted series of network requests can lead to disabling security features. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29481">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f3283c8123628fe3d0c02719b16282d</td>
-       <td>CVE-2022-28689</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console support functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28689">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">893f6652ca909f41c95e4b13c64d1f8d</td>
-       <td>CVE-2022-26023</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console verify functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted series of network requests can lead to disabling security features. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26023">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3bb1737ba4dee1c1b21e2a38a22caa4f</td>
-       <td>CVE-2022-25932</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The firmware of InHand Networks InRouter302 V3.5.45 introduces fixes for TALOS-2022-1472 and TALOS-2022-1474. The fixes are incomplete. An attacker can still perform, respectively, a privilege escalation and an information disclosure vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25932">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68502c169ee540183d7e37f6ddf5b179</td>
-       <td>CVE-2022-0031</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A local privilege escalation (PE) vulnerability in the Palo Alto Networks Cortex XSOAR engine software running on a Linux operating system allows a local attacker with shell access to the engine to execute programs with elevated privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0031">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13a253228270df0afcd9acbe0086b55c</td>
-       <td>CVE-2021-34579</td>
-       <td>2022-11-09 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Phoenix Contact: FL MGUARD DM version 1.12.0 and 1.13.0 access to the Apache web server being installed as part of the FL MGUARD DM on Microsoft Windows does not require login credentials even if configured during installation.Attackers with network access to the Apache web server can download and therefore read mGuard configuration profiles (“ATV profiles”). Such configuration profiles may contain sensitive information, e.g. private keys associated with IPsec VPN connections.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34579">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9aea6fac962c57c38d6766c1e8f084a3</td>
-       <td>CVE-2021-34577</td>
-       <td>2022-11-09 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>In the Kaden PICOFLUX AiR water meter an adversary can read the values through wireless M-Bus mode 5 with a hardcoded shared key while being adjacent to the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34577">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e82dbe923b5278c1e514aa8b266c27fa</td>
-       <td>CVE-2022-43488</td>
-       <td>2022-11-09 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in Advanced Dynamic Pricing for WooCommerce plugin <= 4.1.5 on WordPress leading to rule type migration.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43488">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,15 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">c8515f10759432b2189e6dbc35df11b9</td>
+       <td>VHN-429783</td>
+       <td>2022-11-10 14:52:58 <img src="imgs/new.gif" /></td>
+       <td>Chrome...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429783">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">741b5662c09529d5dbf380a7138ec4b9</td>
        <td>VHN-429774</td>
@@ -792,15 +801,6 @@
        <td>Red Hat Security Advisory 2022-7821-01...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429747">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d69347802961b548bde7d28f33144ebc</td>
-       <td>VHN-429748</td>
-       <td>2022-11-08 15:45:21</td>
-       <td>Red Hat Security Advisory 2022-7822-01...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429748">详情</a></td>
       </tr>
 
      </tbody>
