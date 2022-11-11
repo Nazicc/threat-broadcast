@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-11 07:40:41 -->
+<!-- RELEASE TIME : 2022-11-11 09:43:21 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">247504b663010e61604fe96b8860b7f6</td>
+       <td>CVE-2022-41892</td>
+       <td>2022-11-11 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Arches is a web platform for creating, managing, & visualizing geospatial data. Versions prior to 6.1.2, 6.2.1, and 7.1.2 are vulnerable to SQL Injection. With a carefully crafted web request, it's possible to execute certain unwanted sql statements against the database. This issue is fixed in version 7.12, 6.2.1, and 6.1.2. Users are recommended to upgrade as soon as possible. There are no workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41892">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">204101defc1db21a4b829c234109aefe</td>
+       <td>CVE-2022-41873</td>
+       <td>2022-11-11 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. Versions prior to 4.9 are vulnerable to an Out-of-bounds read. While processing the L2CAP protocol, the Bluetooth Low Energy stack of Contiki-NG needs to map an incoming channel ID to its metadata structure. While looking up the corresponding channel structure in get_channel_for_cid (in os/net/mac/ble/ble-l2cap.c), a bounds check is performed on the incoming channel ID, which is meant to ensure that the channel ID does not exceed the maximum number of supported channels.However, an integer truncation issue leads to only the lowest byte of the channel ID to be checked, which leads to an incomplete out-of-bounds check. A crafted channel ID leads to out-of-bounds memory to be read and written with attacker-controlled data. The vulnerability has been patched in the "develop" branch of Contiki-NG, and will be included in release 4.9. As a workaround, Users can apply the patch in Contiki-NG pull request 2081 on GitHub.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41873">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1b8ef4f6ac24a4ce8dbfc332b122e9d6</td>
        <td>CVE-2022-36938</td>
        <td>2022-11-11 00:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-11-10 01:15:00 <img src="imgs/new.gif" /></td>
        <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Versions prior to 4.10.18, and prior to 5.3.1 on the 5.X branch, are vulnerable to Remote Code Execution via prototype pollution. An attacker can use this prototype pollution sink to trigger a remote code execution through the MongoDB BSON parser. This issue is patched in version 5.3.1 and in 4.10.18. There are no known workarounds.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39396">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a1a0dcfd222f307256c4925bbf7b780b</td>
-       <td>CVE-2022-39368</td>
-       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Eclipse Californium is a Java implementation of RFC7252 - Constrained Application Protocol for IoT Cloud services. In versions prior to 3.7.0, and 2.7.4, Californium is vulnerable to a Denial of Service. Failing handshakes don't cleanup counters for throttling, causing the threshold to be reached without being released again. This results in permanently dropping records. The issue was reported for certificate based handshakes, but may also affect PSK based handshakes. It generally affects client and server as well. This issue is patched in version 3.7.0 and 2.7.4. There are no known workarounds. main: commit 726bac57659410da463dcf404b3e79a7312ac0b9 2.7.x: commit 5648a0c27c2c2667c98419254557a14bac2b1f3f</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39368">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">34823ac0799f69457e257e4f54a032d6</td>
-       <td>CVE-2022-3819</td>
-       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>An improper authorization issue in GitLab CE/EE affecting all versions from 15.0 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows a malicious users to set emojis on internal notes they don't have access to.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3819">详情</a></td>
       </tr>
 
      </tbody>
@@ -2158,6 +2158,126 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">82eae60ab0d26d6441a2c618e3a5c926</td>
+       <td>CVE-2022-39891</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Editor Lite堆溢出漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72067">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b1c99488123ee9378295a6564ad04047</td>
+       <td>CVE-2022-39892</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Pass访问控制错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72066">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d5f9eacfd39027d4693cbb40acaa81e1</td>
+       <td>CVE-2022-39893</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Galaxy Buds Pro Manager信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72065">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f69ab22cdf17ad8d79a535df033ba68</td>
+       <td>CVE-2022-39889</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Galaxy Watch4 Plugin访问控制错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72064">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f5054a16901ae73662b487e112c72e8b</td>
+       <td>CVE-2022-39890</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Billing授权错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72063">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">31503efca5c28b63305ff72838b0605f</td>
+       <td>CVE-2022-39879</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices授权错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72062">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e094700ecaeacda25ca5ba1157e6bbb4</td>
+       <td>CVE-2022-39880</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices输入验证错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72061">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f64cce6ec328fa6e1fcde75ee7106e30</td>
+       <td>CVE-2022-39881</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices输入验证错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72060">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0d33a2160c4f20e0614d0065a20f963a</td>
+       <td>CVE-2022-39882</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices堆溢出漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72059">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">629533c9a0d5d385f3125dbecb121488</td>
+       <td>CVE-2022-39883</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices授权错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72058">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e78f53b3c15bef10fd6acbd7fd6281c</td>
+       <td>CVE-2022-39884</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices访问控制错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72057">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ef512466becbd211444fd3502671c5d0</td>
+       <td>CVE-2022-39885</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices访问控制错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72056">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">61c5cbcc9d00b424b434c954ff73b28c</td>
+       <td>CVE-2022-39886</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices访问控制错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72055">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cbfdbd6d3c9986c0f84ee8208a4335d8</td>
+       <td>CVE-2022-39887</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Samsung Mobile Devices访问控制错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72054">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3e00cf84eeedcf2892c9341c8f6ec6cf</td>
+       <td>CVE-2022-44562</td>
+       <td>2022-11-11 09:43:13 <img src="imgs/new.gif" /></td>
+       <td>Huawei HarmonyOS权限提升漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72053">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a9fc16c6d1f5fc4e9e319b680ca7cc94</td>
        <td>CVE-2022-43119</td>
        <td>2022-11-10 09:43:32 <img src="imgs/new.gif" /></td>
@@ -2275,126 +2395,6 @@
        <td>2022-11-10 09:43:32 <img src="imgs/new.gif" /></td>
        <td>Google Chrome Custom Tabs实现不当漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71974">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2cc98fd1b7a5fe2776e87b45d48414db</td>
-       <td>CVE-2022-41212</td>
-       <td>2022-11-09 11:40:26</td>
-       <td>SAP NetWeaver ABAP Server and ABAP Platform存在未明漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71927">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3abd62b5679abe8589638cb2626d6c6f</td>
-       <td>CVE-2022-41214</td>
-       <td>2022-11-09 11:40:26</td>
-       <td>SAP NetWeaver ABAP Server and ABAP Platform存在未明漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71926">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b928d309cf9b5ec76c14a7e6a85be3b3</td>
-       <td>CVE-2022-41215</td>
-       <td>2022-11-09 11:40:26</td>
-       <td>SAP NetWeaver ABAP Server and ABAP Platform URL重定向漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71925">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6c5a4174ee23ebed8877b83bea74d479</td>
-       <td>CVE-2022-41258</td>
-       <td>2022-11-09 11:40:26</td>
-       <td>SAP Financial Consolidation URL重定向漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71924">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3eeba442f85e4ca230fe35f670be5211</td>
-       <td>CVE-2022-41259</td>
-       <td>2022-11-09 11:40:26</td>
-       <td>SAP SQL Anywhere拒绝服务漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71923">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e2ccc711694d4ec9537c4989ac46b71</td>
-       <td>CVE-2022-41260</td>
-       <td>2022-11-09 11:40:26</td>
-       <td>SAP Financial Consolidation URL重定向漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71922">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">51042fe5e8afcc58e4ac27983d7275a2</td>
-       <td>CVE-2022-23824</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>AMD CPU信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71921">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d7757465104ca49fc2800a4256ff620a</td>
-       <td>CVE-2022-39253</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>Git信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71920">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">754ecccc3358aba0b237403a61357edc</td>
-       <td>CVE-2022-3602</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>OpenSSL缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71919">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ac556424ee688bd5b9ad55064cef7bcc</td>
-       <td>CVE-2022-3786</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>OpenSSL缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71918">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9a3d7687f1bab6e2e5e7351d71959998</td>
-       <td>CVE-2022-39327</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>Microsoft Azure代码注入漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71917">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">69b157b88f86cfcdfe4a51540a698cba</td>
-       <td>CVE-2022-41128</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>Microsoft Windows Scripting Languages远程代码执行漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71916">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e5fefc0f6f646b746861f34aa2ce0903</td>
-       <td>CVE-2022-41054</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>Microsoft Windows Resilient File System (ReFS)权限提升漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71915">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">996bfb1ebb8cfb1e5275f335957bdad9</td>
-       <td>CVE-2022-38014</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>Microsoft Windows Subsystem for Linux (WSL2) Kernel权限提升漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71914">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ab588e988c4d95be2a3f4f810df0901e</td>
-       <td>CVE-2022-41092</td>
-       <td>2022-11-09 04:28:46</td>
-       <td>Microsoft Windows Win32k权限提升漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/71913">详情</a></td>
       </tr>
 
      </tbody>
@@ -2532,6 +2532,14 @@
       </tr>
 
       <tr>
+       <td scope="row">150f168f9677341db79864cd88e8f316</td>
+       <td>CVE-2022-41980</td>
+       <td>2022-11-08 19:15:16 </td>
+       <td>Auth. (admin+) Cross-Site Scripting (XSS) vulnerability in Mantenimiento web plugin &lt;= 0.13 on WordPress.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41980">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">30cf01df9bace49b121933bfb2669faf</td>
        <td>CVE-2022-44321</td>
        <td>2022-11-08 15:15:12 </td>
@@ -2643,14 +2651,6 @@
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43439">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">12f5c2a85ee8fc25bbff774a82b91595</td>
-       <td>CVE-2022-43398</td>
-       <td>2022-11-08 11:15:11 </td>
-       <td>A vulnerability has been identified in POWER METER SICAM Q100 (All versions &lt; V2.50), POWER METER SICAM Q100 (All versions &lt; V2.50). Affected devices do not renew the session cookie after login/logout and also accept user defined session cookies. An attacker could overwrite the stored session cookie of a user. After the victim logged in, the attacker is given access to the user's account through the activated session.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43398">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -2672,6 +2672,15 @@
        <td>Apache Commons BCEL 缓冲区错误漏洞（CVE-2022-42920）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-42920">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">634e26c5b85b2bd18d4eab97d1612dd5</td>
+       <td>CVE-2022-41039</td>
+       <td>2022-11-08 09:42:42</td>
+       <td>Microsoft Windows Point-to-Point Tunneling Protocol远程代码执行漏洞（CVE-2022-41039）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-41039">详情</a></td>
       </tr>
 
       <tr>
@@ -2924,15 +2933,6 @@
        <td>Apache Hadoop Yarn ZKConfigurationStore 反序列化代码执行漏洞（CVE-2021-25642）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2021-25642">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f06fa1349fb9806606f58c9f9b26ece1</td>
-       <td>CVE-2022-36804</td>
-       <td>2022-08-25 07:43:44</td>
-       <td>Bitbucket Server and Data Center 远程命令执行漏洞（CVE-2022-36804）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-36804">详情</a></td>
       </tr>
 
      </tbody>
