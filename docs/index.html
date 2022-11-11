@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-11 21:41:49 -->
+<!-- RELEASE TIME : 2022-11-11 23:44:00 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5d8306c491494547e3cf4472239c4a77</td>
+       <td>CVE-2022-41904</td>
+       <td>2022-11-11 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Element iOS is an iOS Matrix client provided by Element. It is based on MatrixSDK. Prior to version 1.9.7, events encrypted using Megolm for which trust could not be established did not get decorated accordingly (with warning shields). Therefore a malicious homeserver could inject messages into the room without the user being alerted that the messages were not sent by a verified group member, even if the user has previously verified all group members. This issue has been patched in Element iOS 1.9.7. There are currently no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41904">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e7ad2991baac90c6d7dc766a906e361d</td>
+       <td>CVE-2022-41882</td>
+       <td>2022-11-11 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Nextcloud Desktop Client is a tool to synchronize files from Nextcloud Server with your computer. In version 3.6.0, if a user received a malicious file share and has it synced locally or the virtual filesystem enabled and clicked a nc://open/ link it will open the default editor for the file type of the shared file, which on Windows can also sometimes mean that a file depending on the type, e.g. "vbs", is being executed. It is recommended that the Nextcloud Desktop client is upgraded to version 3.6.1. As a workaround, users can block the Nextcloud Desktop client 3.6.0 by setting the `minimum.supported.desktop.version` system config to `3.6.1` on the server, so new files designed to use this attack vector are not downloaded anymore. Already existing files can still be used. Another workaround would be to enforce shares to be accepted by setting the `sharing.force_share_accept` system config to `true` on the server, so new files designed to use this attack vector are not downloaded anymore. Already existing shares can still be abused.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41882">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0fe695cfa07506e44a573d4ab8d5242e</td>
+       <td>CVE-2022-37345</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authentication in BIOS firmware[A1] for some Intel(R) NUC Kits before version RY0386 may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37345">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3780ed32b744fa111096eed57149b6ea</td>
+       <td>CVE-2022-37334</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper initialization in BIOS firmware for some Intel(R) NUC 11 Pro Kits and Intel(R) NUC 11 Pro Boards before version TNTGL357.0064 may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37334">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e16aae93ddeca88ff6bc04678e180a71</td>
+       <td>CVE-2022-36789</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper access control in BIOS firmware for some Intel(R) NUC 10 Performance Kits and Intel(R) NUC 10 Performance Mini PCs before version FNCML357.0053 may allow a privileged user to potentially enable escalation of privilege via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36789">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bb4c05e42b8976281303cedd496646fe</td>
+       <td>CVE-2022-36400</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Path traversal in the installer software for some Intel(r) NUC Kit Wireless Adapter drivers for Windows 10 before version 22.40 may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36400">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">899cbc2cdf3dc0fd38074852f9c6b441</td>
+       <td>CVE-2022-36370</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authentication in BIOS firmware for some Intel(R) NUC Boards and Intel(R) NUC Kits before version MYi30060 may allow a privileged user to potentially enable escalation of privilege via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36370">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">65d9696283cedf5048ac346f79d84a9d</td>
+       <td>CVE-2022-36367</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incorrect default permissions in the Intel(R) Support Android application before version v22.02.28 may allow a privileged user to potentially enable information disclosure via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36367">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c34848d95a0fb57dd188d7ea55d30ff3</td>
+       <td>CVE-2022-33973</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper access control in the Intel(R) WAPI Security software for Windows 10/11 before version 22.2150.0.1 may allow an authenticated user to potentially enable information disclosure via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33973">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ac50bdc10d1b08ad61ede495b2daa020</td>
+       <td>CVE-2022-30297</td>
+       <td>2022-11-11 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-site scripting in the Intel(R) EMA software before version 1.8.0 may allow a privileged user to potentially enable escalation of privilege via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30297">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c2abdaae333759f89ad141378b7e5a2a</td>
        <td>CVE-2022-3945</td>
        <td>2022-11-11 12:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-11-10 16:15:00 <img src="imgs/new.gif" /></td>
        <td>xterm before 375 allows code execution via font ops, e.g., because an OSC 50 response may have Ctrl-g and therefore lead to command execution within the vi line-editing mode of Zsh. NOTE: font ops are not allowed in the xterm default configurations of some Linux distributions.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45063">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bfc0ce3e47ed6fe8912af41e2c6f4c20</td>
-       <td>CVE-2022-34666</td>
-       <td>2022-11-10 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>NVIDIA GPU Display Driver for Windows and Linux contains a vulnerability in the kernel mode layer, where a local user with basic capabilities can cause a null-pointer dereference, which may lead to denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34666">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7cdb3d4a9ea9575355d5354272745e29</td>
-       <td>CVE-2022-44089</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>ESPCMS P8.21120101 was discovered to contain a remote code execution (RCE) vulnerability in the component IS_GETCACHE.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44089">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">64cb2c2580c1d1fccfa449034556402a</td>
-       <td>CVE-2022-44088</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>ESPCMS P8.21120101 was discovered to contain a remote code execution (RCE) vulnerability in the component INPUT_ISDESCRIPTION.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44088">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4176b160de9e6823fb2b65745c6da32b</td>
-       <td>CVE-2022-44087</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>ESPCMS P8.21120101 was discovered to contain a remote code execution (RCE) vulnerability in the component UPFILE_PIC_ZOOM_HIGHT.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44087">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e8310764a1835c1f97dcad29882337db</td>
-       <td>CVE-2022-43754</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to embed Javascript code via /rhn/audit/scap/Search.do This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43754">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">54b5f75c38927d0030326a7730125ddd</td>
-       <td>CVE-2022-43753</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to read files available to the user running the process, typically tomcat. This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43753">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87e80e4bc5fba06d56edee6f4a62d2ee</td>
-       <td>CVE-2022-39038</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Agentflow BPM enterprise management system has improper authentication. A remote attacker with general user privilege can change the name of the user account to acquire arbitrary account privilege, and access, manipulate system or disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39038">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">730faaecee52d64edb61b5c4f126c3d7</td>
-       <td>CVE-2022-39037</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Agentflow BPM file download function has a path traversal vulnerability. An unauthenticated remote attacker can exploit this vulnerability to bypass authentication and download arbitrary system files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39037">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b84f1c5fa9ca20479b76e984aac67171</td>
-       <td>CVE-2022-39036</td>
-       <td>2022-11-10 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The file upload function of Agentflow BPM has insufficient filtering for special characters in URLs. An unauthenticated remote attacker can exploit this vulnerability to upload arbitrary file and execute arbitrary code to manipulate system or disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39036">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68b1bc6a93f4eaca4cc3c534488d51f7</td>
-       <td>CVE-2022-42787</td>
-       <td>2022-11-10 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple W&T products of the Comserver Series use a small number space for allocating sessions ids. An unathenticated remote attacker can brute force the session id and gets access to an account on the the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42787">详情</a></td>
       </tr>
 
      </tbody>
