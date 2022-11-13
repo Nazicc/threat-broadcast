@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-13 14:40:44 -->
+<!-- RELEASE TIME : 2022-11-13 16:55:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">130e37f5a3386a884afd303b69fd0b4b</td>
+       <td>CVE-2022-3978</td>
+       <td>2022-11-13 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, was found in NodeBB up to 2.5.7. This affects an unknown part of the file /register/abort. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. Upgrading to version 2.5.8 is able to address this issue. The name of the patch is 2f9d8c350e54543f608d3d4c8e1a49bbb6cdea38. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-213555.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3978">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d822e335c56a844e19917f3d004c8484</td>
+       <td>CVE-2022-3976</td>
+       <td>2022-11-13 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability has been found in MZ Automation libiec61850 up to 1.4 and classified as critical. This vulnerability affects unknown code of the file src/mms/iso_mms/client/mms_client_files.c of the component MMS File Services. The manipulation of the argument filename leads to path traversal. Upgrading to version 1.5 is able to address this issue. The name of the patch is 10622ba36bb3910c151348f1569f039ecdd8786f. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-213556.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3976">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5e398675394e7e0161d538cd054e0ee5</td>
        <td>CVE-2022-3975</td>
        <td>2022-11-13 10:15:00 <img src="imgs/new.gif" /></td>
@@ -317,6 +333,14 @@
        <td>2022-11-13 10:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability was found in matrix-appservice-irc up to 0.35.1. It has been declared as critical. This vulnerability affects unknown code of the file src/datastore/postgres/PgDataStore.ts. The manipulation of the argument roomIds leads to sql injection. Upgrading to version 0.36.0 is able to address this issue. The name of the patch is 179313a37f06b298150edba3e2b0e5a73c1415e7. It is recommended to upgrade the affected component. VDB-213550 is the identifier assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3971">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a624b3c2a9635200e8235fb46faa98e8</td>
+       <td>CVE-2022-3975</td>
+       <td>2022-11-13 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, has been found in NukeViet CMS. Affected by this issue is the function filterAttr of the file vendor/vinades/nukeviet/Core/Request.php of the component Data URL Handler. The manipulation of the argument attrSubSet leads to cross site scripting. The attack may be launched remotely. Upgrading to version 4.5 is able to address this issue. The name of the patch is 0b3197fad950bb3383e83039a8ee4c9509b3ce02. It is recommended to upgrade the affected component. VDB-213554 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3975">详情</a></td>
       </tr>
 
       <tr>
@@ -493,30 +517,6 @@
        <td>2022-11-11 19:15:00</td>
        <td>The Nextcloud Desktop Client is a tool to synchronize files from Nextcloud Server with your computer. In version 3.6.0, if a user received a malicious file share and has it synced locally or the virtual filesystem enabled and clicked a nc://open/ link it will open the default editor for the file type of the shared file, which on Windows can also sometimes mean that a file depending on the type, e.g. "vbs", is being executed. It is recommended that the Nextcloud Desktop client is upgraded to version 3.6.1. As a workaround, users can block the Nextcloud Desktop client 3.6.0 by setting the `minimum.supported.desktop.version` system config to `3.6.1` on the server, so new files designed to use this attack vector are not downloaded anymore. Already existing files can still be used. Another workaround would be to enforce shares to be accepted by setting the `sharing.force_share_accept` system config to `true` on the server, so new files designed to use this attack vector are not downloaded anymore. Already existing shares can still be abused.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41882">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3ccce8df1e83182f8ee7c2202ee615c2</td>
-       <td>CVE-2022-41906</td>
-       <td>2022-11-11 19:15:00</td>
-       <td>OpenSearch Notifications is a notifications plugin for OpenSearch that enables other plugins to send notifications via Email, Slack, Amazon Chime, Custom web-hook etc channels. A potential SSRF issue in OpenSearch Notifications Plugin 2.2.0 and below could allow an existing privileged user to enumerate listening services or interact with configured resources via HTTP requests exceeding the Notification plugin's intended scope. OpenSearch 2.2.1+ contains the fix for this issue. There are currently no recommended workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41906">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">600bec32a66ceeb4b733aa24251dbb71</td>
-       <td>CVE-2022-40750</td>
-       <td>2022-11-11 19:15:00</td>
-       <td>IBM WebSphere Application Server 8.5, and 9.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 236588.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40750">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">656f063bd4a6ffe9a48f5327c8973ccc</td>
-       <td>CVE-2022-38387</td>
-       <td>2022-11-11 19:15:00</td>
-       <td>IBM Cloud Pak for Security (CP4S) 1.10.0.0 through 1.10.2.0 could allow a remote authenticated attacker to execute arbitrary commands on the system by sending a specially crafted request. IBM X-Force ID: 233786.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38387">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">19b9f464af1ad0e2881f6c6463911eb1</td>
+       <td>CNVD-2022-72986</td>
+       <td>2022-11-14 16:54:32 <img src="imgs/new.gif" /></td>
+       <td>四川天邑康和通信股份有限公司TY-6201A存在信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-72986">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c9414249551738e5a159441ad2b49508</td>
+       <td>CNVD-2022-72985</td>
+       <td>2022-11-14 16:54:29 <img src="imgs/new.gif" /></td>
+       <td>四川天邑康和通信股份有限公司TY-6201A存在逻辑缺陷漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-72985">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ecb649d20f028027fc87103ccd256fea</td>
        <td>CNVD-2022-73067</td>
        <td>2022-11-13 16:54:32 <img src="imgs/new.gif" /></td>
@@ -1039,22 +1055,6 @@
        <td>2022-11-09 06:55:45</td>
        <td>Siemens POWER METER SICAM Q100输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-75539">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">690c4d1eb7b9de5af2337f5d1008de34</td>
-       <td>CNVD-2022-75538 (CVE-2022-43546)</td>
-       <td>2022-11-09 06:55:42</td>
-       <td>Siemens POWER METER SICAM Q100输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-75538">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5f60959dac02c0cb90b7927e2873a207</td>
-       <td>CNVD-2022-75537 (CVE-2022-43958)</td>
-       <td>2022-11-09 06:55:40</td>
-       <td>Siemens QMS Automotive信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-75537">详情</a></td>
       </tr>
 
      </tbody>
