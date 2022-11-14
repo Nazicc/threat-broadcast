@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31685,CVE-2022-31686,CVE-2022-31687,CVE-2022-31688</font><br/>[<b>披露时间</b>] 2022-11-14 17:29:53<br/>[<b>漏洞描述</b>] VMware Workspace ONE Assist多个安全漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7765'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7765</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35721</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] IBM Jazz for Service Management跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72087'>http://www.nsfocus.net/vulndb/72087</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40616</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] IBM Maximo Asset Management身份验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72086'>http://www.nsfocus.net/vulndb/72086</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41235</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Jenkins WildFly Deployer Plugin路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72085'>http://www.nsfocus.net/vulndb/72085</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41247</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Jenkins BigPanda Notifier Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72084'>http://www.nsfocus.net/vulndb/72084</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35963</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Google TensorFlow拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72083'>http://www.nsfocus.net/vulndb/72083</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35968</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Google TensorFlow拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72082'>http://www.nsfocus.net/vulndb/72082</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35974</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Google TensorFlow输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72081'>http://www.nsfocus.net/vulndb/72081</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32787</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72080'>http://www.nsfocus.net/vulndb/72080</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32847</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72079'>http://www.nsfocus.net/vulndb/72079</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32815</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72078'>http://www.nsfocus.net/vulndb/72078</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26700</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品内存破坏漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72077'>http://www.nsfocus.net/vulndb/72077</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32821</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品内存破坏漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72076'>http://www.nsfocus.net/vulndb/72076</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24280</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apache Pulsar Proxy输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72075'>http://www.nsfocus.net/vulndb/72075</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32831</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72074'>http://www.nsfocus.net/vulndb/72074</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32908</font><br/>[<b>披露时间</b>] 2022-11-14 11:40:10<br/>[<b>漏洞描述</b>] Apple多款产品内存破坏漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72073'>http://www.nsfocus.net/vulndb/72073</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
