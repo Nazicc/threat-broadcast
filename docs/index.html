@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-14 11:40:21 -->
+<!-- RELEASE TIME : 2022-11-14 13:27:56 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">31da6ef994f380a8b98329eabd97abe1</td>
+       <td>CVE-2022-40127</td>
+       <td>2022-11-14 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in Example Dags of Apache Airflow allows an attacker with UI access who can trigger DAGs, to execute arbitrary commands via manually provided run_id parameter. This issue affects Apache Airflow Apache Airflow versions prior to 2.4.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40127">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d970ce6c25a6e42651d165b1e10ec815</td>
+       <td>CVE-2022-27949</td>
+       <td>2022-11-14 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in UI of Apache Airflow allows an attacker to view unmasked secrets in rendered template values for tasks which were not executed (for example when they were depending on past and previous instances of the task failed). This issue affects Apache Airflow prior to 2.3.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27949">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0bf71477cf191237c5a72f5f1ae46352</td>
+       <td>CVE-2022-45184</td>
+       <td>2022-11-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Web Server in Ironman Software PowerShell Universal v3.x and v2.x allows for directory traversal outside of the configuration directory, which allows a remote attacker with administrator privilege to create, delete, update, and display files outside of the configuration directory via a crafted HTTP request to particular endpoints in the web server. Patched Versions are 3.5.3 and 3.4.7.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45184">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">db0a373576f361b4f99b1d6ed0ed6f03</td>
+       <td>CVE-2022-45183</td>
+       <td>2022-11-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Escalation of privileges in the Web Server in Ironman Software PowerShell Universal 2.x and 3.x allows an attacker with a valid app token to retrieve other app tokens by ID via an HTTP web request. Patched Versions are 3.5.3, 3.4.7, and 2.12.6.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45183">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9625a09f2f0746f69310457315cb6429</td>
+       <td>CVE-2022-37290</td>
+       <td>2022-11-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>GNOME Nautilus 42.2 allows a NULL pointer dereference and get_basename application crash via a pasted ZIP archive.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">81217f56b6a57b54568eac15b06f8869</td>
+       <td>CVE-2022-45199</td>
+       <td>2022-11-14 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pillow before 9.3.0 allows denial of service via SAMPLESPERPIXEL.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45199">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c214787a719fbd2c83479fd7352e876</td>
+       <td>CVE-2022-45198</td>
+       <td>2022-11-14 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45198">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a1601745a40b9e7ac00f004c93cc7df8</td>
+       <td>CVE-2022-31630</td>
+       <td>2022-11-14 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>In PHP versions prior to 7.4.33, 8.0.25 and 8.2.12, when using imageloadfont() function in gd extension, it is possible to supply a specially crafted font file, such as if the loaded font is used with imagechar() function, the read outside allocated buffer will be used. This can lead to crashes or disclosure of confidential information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31630">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7ce44e0b7531dadeafd5d1033e4df674</td>
        <td>CVE-2021-38828</td>
        <td>2022-11-14 02:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-11-12 05:15:00</td>
        <td>** UNSUPPORTED WHEN ASSIGNED ** A security filter misconfiguration exists in VMware Hyperic Server 5.8.6. Exploitation of this vulnerability enables a malicious party to bypass some authentication requirements when issuing requests to Hyperic Server. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9add81a7bb8364f4b5809e7000cbd825</td>
-       <td>CVE-2022-38650</td>
-       <td>2022-11-12 05:15:00</td>
-       <td>** UNSUPPORTED WHEN ASSIGNED ** A remote unauthenticated insecure deserialization vulnerability exists in VMware Hyperic Server 5.8.6. Exploitation of this vulnerability enables a malicious party to run arbitrary code or malware within Hyperic Server and the host operating system with the privileges of the Hyperic server process. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38650">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5dc32c3aef4259f96ffed0f3215c52dc</td>
-       <td>CVE-2022-43672</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection (in a different software component relative to CVE-2022-43671.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43672">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f69809561bfbf1db602b10293d077b34</td>
-       <td>CVE-2022-43671</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43671">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">106601c243b8f9cac0f3761d18f7957e</td>
-       <td>CVE-2022-41339</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>In Zoho ManageEngine Mobile Device Manager Plus before 10.1.2207.5, the User Administration module allows privilege escalation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41339">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eaac12b097479cecf8c826702134f549</td>
-       <td>CVE-2022-40773</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>Zoho ManageEngine ServiceDesk Plus MSP before 10609 and SupportCenter Plus before 11025 are vulnerable to privilege escalation. This allows users to obtain sensitive data during an export of requests from the list view.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40773">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e54b563021891599dc9027b7c518dba0</td>
-       <td>CVE-2022-45194</td>
-       <td>2022-11-12 00:15:00</td>
-       <td>CBRN-Analysis before 22 allows XXE attacks via am mws XML document, leading to NTLMv2-SSP hash disclosure.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fe0ee3acac7d332b076c9eca6a65eae8</td>
-       <td>CVE-2022-45193</td>
-       <td>2022-11-12 00:15:00</td>
-       <td>CBRN-Analysis before 22 has weak file permissions under Public Profile, leading to disclosure of file contents or privilege escalation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45193">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">249dcfaac5e2f1158ea622ed0335d004</td>
-       <td>CVE-2022-41905</td>
-       <td>2022-11-11 21:15:00</td>
-       <td>WsgiDAV is a generic and extendable WebDAV server based on WSGI. Implementations using this library with directory browsing enabled may be susceptible to Cross Site Scripting (XSS) attacks. This issue has been patched, users can upgrade to version 4.1.0. As a workaround, set `dir_browser.enable = False` in the configuration.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41905">详情</a></td>
       </tr>
 
      </tbody>
@@ -2158,6 +2158,126 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">08e2aa317dda6553d3b4d11b1a61ed73</td>
+       <td>CVE-2022-3976</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MZ Automation Libiec61850路径遍历漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72167">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">676a0ba0d98660e0533058c2b58684f6</td>
+       <td>CVE-2022-3978</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>NodeBB跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72166">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">02c035fa210d0f13bbe293961e6f9f04</td>
+       <td>CVE-2022-3965</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>LibTIFF整数溢出漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72165">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">197dbd3cb190ec646b8e34079d655349</td>
+       <td>CVE-2022-3968</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>Emlog跨站脚本漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72164">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e2fc2ac5997a4e7e52f5b253d0715c2f</td>
+       <td>CVE-2022-3967</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>Vesta Control Panel参数注入漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72163">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3b1dfc707e184116d26e2b2e1a831728</td>
+       <td>CVE-2022-32611</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets输入验证错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72162">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7e2c0fbafb94a87e73aec4914eb15d9f</td>
+       <td>CVE-2022-32612</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets竞争条件漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72161">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c52ecd830e2150ea129563ed4721d3b</td>
+       <td>CVE-2022-32613</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets竞争条件漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72160">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fc31d4f266f163d2f0aba3f02868add4</td>
+       <td>CVE-2022-32614</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets双重释放漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72159">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4f2e5f484f11f5048de14f56601dd8d1</td>
+       <td>CVE-2022-32615</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets输入验证错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72158">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e34024c7b460b62d97143c90658096ea</td>
+       <td>CVE-2022-32616</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets输入验证错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72157">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28584ecbe38ee09bdad8cbfdf95ced01</td>
+       <td>CVE-2022-32617</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets权限提升漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72156">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">91c07aacd7d43a709d59211cde0ee7f1</td>
+       <td>CVE-2022-32618</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets权限提升漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72155">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4cef0f8beb89474662cc0716f8cd1781</td>
+       <td>CVE-2022-32610</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets竞争条件漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72154">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3c7857d15984d88574b3d2aa1db39367</td>
+       <td>CVE-2022-32609</td>
+       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>MediaTek Chipsets竞争条件漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72153">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4e343e72b1aa0c641cbca7356c82967f</td>
        <td>CVE-2022-35721</td>
        <td>2022-11-14 11:40:10 <img src="imgs/new.gif" /></td>
@@ -2275,126 +2395,6 @@
        <td>2022-11-14 11:40:10 <img src="imgs/new.gif" /></td>
        <td>Apple多款产品内存破坏漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72073">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">82eae60ab0d26d6441a2c618e3a5c926</td>
-       <td>CVE-2022-39891</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Editor Lite堆溢出漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72067">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b1c99488123ee9378295a6564ad04047</td>
-       <td>CVE-2022-39892</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Pass访问控制错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72066">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d5f9eacfd39027d4693cbb40acaa81e1</td>
-       <td>CVE-2022-39893</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Galaxy Buds Pro Manager信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72065">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f69ab22cdf17ad8d79a535df033ba68</td>
-       <td>CVE-2022-39889</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Galaxy Watch4 Plugin访问控制错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72064">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f5054a16901ae73662b487e112c72e8b</td>
-       <td>CVE-2022-39890</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Billing授权错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72063">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">31503efca5c28b63305ff72838b0605f</td>
-       <td>CVE-2022-39879</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices授权错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72062">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e094700ecaeacda25ca5ba1157e6bbb4</td>
-       <td>CVE-2022-39880</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices输入验证错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72061">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f64cce6ec328fa6e1fcde75ee7106e30</td>
-       <td>CVE-2022-39881</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices输入验证错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72060">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d33a2160c4f20e0614d0065a20f963a</td>
-       <td>CVE-2022-39882</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices堆溢出漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72059">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">629533c9a0d5d385f3125dbecb121488</td>
-       <td>CVE-2022-39883</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices授权错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72058">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e78f53b3c15bef10fd6acbd7fd6281c</td>
-       <td>CVE-2022-39884</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices访问控制错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72057">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ef512466becbd211444fd3502671c5d0</td>
-       <td>CVE-2022-39885</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices访问控制错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72056">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">61c5cbcc9d00b424b434c954ff73b28c</td>
-       <td>CVE-2022-39886</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices访问控制错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72055">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cbfdbd6d3c9986c0f84ee8208a4335d8</td>
-       <td>CVE-2022-39887</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Samsung Mobile Devices访问控制错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72054">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e00cf84eeedcf2892c9341c8f6ec6cf</td>
-       <td>CVE-2022-44562</td>
-       <td>2022-11-11 09:43:13</td>
-       <td>Huawei HarmonyOS权限提升漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72053">详情</a></td>
       </tr>
 
      </tbody>
