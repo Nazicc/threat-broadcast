@@ -1,14 +1,41 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">18</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76625 (CVE-2022-28833)</font><br/>[<b>披露时间</b>] 2022-11-14 06:50:17<br/>[<b>漏洞描述</b>] Adobe InDesign代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76625'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76625</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76624 (CVE-2022-28831)</font><br/>[<b>披露时间</b>] 2022-11-14 06:50:19<br/>[<b>漏洞描述</b>] Adobe InDesign代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76624'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76624</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-11-14 06:35:04<br/>[<b>漏洞描述</b>] 安全事件周报 (11.07-11.13)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=acc9fb8d90b76d3ccf3b8bb9d0245f1a'>https://cert.360.cn/warning/detail?id=acc9fb8d90b76d3ccf3b8bb9d0245f1a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76633 (CVE-2022-30643)</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:13<br/>[<b>漏洞描述</b>] Adobe Illustrator越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76633'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76633</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76632 (CVE-2022-30637)</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:15<br/>[<b>漏洞描述</b>] Adobe Illustrator越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76632'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76632</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76630 (CVE-2022-30638)</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:18<br/>[<b>漏洞描述</b>] Adobe Illustrator输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76630'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76630</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76631 (CVE-2022-30669)</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:20<br/>[<b>漏洞描述</b>] Adobe Illustrator越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76631'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76631</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76629 (CVE-2022-30646)</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:22<br/>[<b>漏洞描述</b>] Adobe Illustrator代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76629'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76629</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27510</font><br/>[<b>披露时间</b>] 2022-11-14 07:34:10<br/>[<b>漏洞描述</b>] CVE-2022-27510：Citrix Gateway/ADC身份认证绕过漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=cddbb41b204d770007e4108537e58395'>https://cert.360.cn/warning/detail?id=cddbb41b204d770007e4108537e58395</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28831</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe InDesign代码执行漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420365'>http://cve.scap.org.cn/vuln/VHN-420365</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28833</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe InDesign代码执行漏洞（CNVD-2022-76625）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420367'>http://cve.scap.org.cn/vuln/VHN-420367</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28835</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe InCopy内存错误引用漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420369'>http://cve.scap.org.cn/vuln/VHN-420369</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28836</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe InCopy越界写入漏洞（CNVD-2022-76627）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420370'>http://cve.scap.org.cn/vuln/VHN-420370</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30637</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe Illustrator越界写入漏洞（CNVD-2022-76632）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422107'>http://cve.scap.org.cn/vuln/VHN-422107</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30638</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe Illustrator输入验证错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422108'>http://cve.scap.org.cn/vuln/VHN-422108</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30643</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe Illustrator越界写入漏洞（CNVD-2022-76633）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422113'>http://cve.scap.org.cn/vuln/VHN-422113</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30646</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe Illustrator代码执行漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422116'>http://cve.scap.org.cn/vuln/VHN-422116</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30669</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe Illustrator越界读取漏洞（CNVD-2022-76631）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422139'>http://cve.scap.org.cn/vuln/VHN-422139</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46816</font><br/>[<b>披露时间</b>] 2022-11-14 07:40:39<br/>[<b>漏洞描述</b>] Adobe Premiere Pro内存破坏漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-424833'>http://cve.scap.org.cn/vuln/VHN-424833</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38828</font><br/>[<b>披露时间</b>] 2022-11-14 02:15:00<br/>[<b>漏洞描述</b>] Xiongmai Camera XM-JPR2-LX V4.02.R12.A6420987.10002.147502.00000 is vulnerable to plain-text traffic sniffing.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-38828'>https://www.tenable.com/cve/CVE-2021-38828</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38827</font><br/>[<b>披露时间</b>] 2022-11-14 02:15:00<br/>[<b>漏洞描述</b>] Xiongmai Camera XM-JPR2-LX V4.02.R12.A6420987.10002.147502.00000 is vulnerable to account takeover.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-38827'>https://www.tenable.com/cve/CVE-2021-38827</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
