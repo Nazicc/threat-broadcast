@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3979</font><br/>[<b>披露时间</b>] 2022-11-13 23:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in NagVis up to 1.9.33 and classified as problematic. This issue affects the function checkAuthCookie of the file share/server/core/classes/CoreLogonMultisite.php. The manipulation of the argument hash leads to incorrect type conversion. The attack may be initiated remotely. Upgrading to version 1.9.34 is able to address this issue. The name of the patch is 7574fd8a2903282c2e0d1feef5c4876763db21d5. It is recommended to upgrade the affected component. The identifier VDB-213557 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3979'>https://www.tenable.com/cve/CVE-2022-3979</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76625 (CVE-2022-28833)</font><br/>[<b>披露时间</b>] 2022-11-14 06:50:17<br/>[<b>漏洞描述</b>] Adobe InDesign代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76625'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76625</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76624 (CVE-2022-28831)</font><br/>[<b>披露时间</b>] 2022-11-14 06:50:19<br/>[<b>漏洞描述</b>] Adobe InDesign代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76624'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76624</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-11-14 06:35:04<br/>[<b>漏洞描述</b>] 安全事件周报 (11.07-11.13)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=acc9fb8d90b76d3ccf3b8bb9d0245f1a'>https://cert.360.cn/warning/detail?id=acc9fb8d90b76d3ccf3b8bb9d0245f1a</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
