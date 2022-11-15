@@ -1,22 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25317</font><br/>[<b>披露时间</b>] 2022-11-15 08:47:30<br/>[<b>漏洞描述</b>] Cerebrate存在未明漏洞（CNVD-2022-77054）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415284'>http://cve.scap.org.cn/vuln/VHN-415284</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25318</font><br/>[<b>披露时间</b>] 2022-11-15 08:47:30<br/>[<b>漏洞描述</b>] Cerebrate存在未明漏洞（CNVD-2022-77055）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415285'>http://cve.scap.org.cn/vuln/VHN-415285</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25319</font><br/>[<b>披露时间</b>] 2022-11-15 08:47:30<br/>[<b>漏洞描述</b>] Cerebrate存在未明漏洞（CNVD-2022-77056）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415286'>http://cve.scap.org.cn/vuln/VHN-415286</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25320</font><br/>[<b>披露时间</b>] 2022-11-15 08:47:30<br/>[<b>漏洞描述</b>] Cerebrate存在未明漏洞（CNVD-2022-77057）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415287'>http://cve.scap.org.cn/vuln/VHN-415287</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25321</font><br/>[<b>披露时间</b>] 2022-11-15 08:47:30<br/>[<b>漏洞描述</b>] Cerebrate存在未明漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-415288'>http://cve.scap.org.cn/vuln/VHN-415288</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32363</font><br/>[<b>披露时间</b>] 2022-11-15 08:47:30<br/>[<b>漏洞描述</b>] Product Show Room Site SQL注入漏洞（CNVD-2022-77047）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-424381'>http://cve.scap.org.cn/vuln/VHN-424381</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40127</font><br/>[<b>披露时间</b>] 2022-11-15 09:41:00<br/>[<b>漏洞描述</b>] Apache Airflow < 2.4.0 example dag 远程代码执行漏洞（CVE-2022-40127）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-40127'>https://avd.aliyun.com/detail?id=AVD-2022-40127</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31479</font><br/>[<b>披露时间</b>] 2022-11-15 09:41:26<br/>[<b>漏洞描述</b>] Carrier LenelS2 HID Mercury access panels保护机制失效漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423228'>http://cve.scap.org.cn/vuln/VHN-423228</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
