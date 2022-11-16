@@ -1,32 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40127</font><br/>[<b>披露时间</b>] 2022-11-16 11:58:49<br/>[<b>漏洞描述</b>] Apache Airflow 存在代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7772'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7772</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22425</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] IBM InfoSphere Information Server CSV注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-410994'>http://cve.scap.org.cn/vuln/VHN-410994</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-22442</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] IBM InfoSphere Information...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-411011'>http://cve.scap.org.cn/vuln/VHN-411011</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30608</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] IBM InfoSphere Information Server跨站请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422078'>http://cve.scap.org.cn/vuln/VHN-422078</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30615</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] IBM InfoSphere Information...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422085'>http://cve.scap.org.cn/vuln/VHN-422085</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34339</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] IBM Cognos Analytics信息泄露漏洞（CNVD-2022-77510）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426643'>http://cve.scap.org.cn/vuln/VHN-426643</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429810</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] Linux kernel存在未明漏洞（CNVD-2022-77501）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429810'>http://cve.scap.org.cn/vuln/VHN-429810</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429811</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] Nextcloud存在未明漏洞（CNVD-2022-77502）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429811'>http://cve.scap.org.cn/vuln/VHN-429811</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429812</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] emlog存在跨站脚本漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429812'>http://cve.scap.org.cn/vuln/VHN-429812</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429813</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] FFmpeg存在未明漏洞（CNVD-2022-77504）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429813'>http://cve.scap.org.cn/vuln/VHN-429813</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429814</font><br/>[<b>披露时间</b>] 2022-11-16 04:50:58<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation信息泄露漏洞（CNVD-2022-77505）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429814'>http://cve.scap.org.cn/vuln/VHN-429814</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2166</font><br/>[<b>披露时间</b>] 2022-11-16 01:15:00<br/>[<b>漏洞描述</b>] Improper Restriction of Excessive Authentication Attempts in GitHub repository mastodon/mastodon prior to 4.0.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2166'>https://www.tenable.com/cve/CVE-2022-2166</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
