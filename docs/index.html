@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-15 23:42:47 -->
+<!-- RELEASE TIME : 2022-11-16 02:30:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">8c99d86ee570d5f7216e1bc9bdddf9bc</td>
        <td>CVE-2022-27510</td>
-       <td>2022-11-14 07:34:10 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:34:10</td>
        <td>CVE-2022-27510：Citrix Gateway/ADC身份认证绕过漏洞通告</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=cddbb41b204d770007e4108537e58395">详情</a></td>
       </tr>
@@ -36,7 +36,7 @@
       <tr>
        <td scope="row">68d7f15ea249630c9a95ff95be6610fa</td>
        <td></td>
-       <td>2022-11-14 06:35:04 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 06:35:04</td>
        <td>安全事件周报 (11.07-11.13)</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=acc9fb8d90b76d3ccf3b8bb9d0245f1a">详情</a></td>
       </tr>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">e015a04e7f2e95154bd27fab2a4a4669</td>
+       <td>CVE-2022-4006</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, has been found in WBCE CMS. Affected by this issue is the function increase_attempts of the file wbce/framework/class.login.php of the component Header Handler. The manipulation of the argument X-Forwarded-For leads to improper restriction of excessive authentication attempts. The attack may be launched remotely. The name of the patch is d394ba39a7bfeb31eda797b6195fd90ef74b2e75. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213716.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4006">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c36e024eeabd864d31d237c068a7e179</td>
+       <td>CVE-2022-30769</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Session fixation exists in ZoneMinder through 1.36.12 as an attacker can poison a session cookie to the next logged-in user.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30769">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">320f7c6ad35d3115df399de144bbc119</td>
+       <td>CVE-2022-30768</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Stored Cross Site Scripting (XSS) issue in ZoneMinder 1.36.12 allows an attacker to execute HTML or JavaScript code via the Username field when an Admin (or non-Admin users that can see other users logged into the platform) clicks on Logout. NOTE: this exists in later versions than CVE-2019-7348 and requires a different attack method.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30768">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a8a856a199d5731916a8c29807ebc51</td>
+       <td>CVE-2022-29279</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.17 Kernel 5.1: version 05.17.17 Kernel 5.2: version 05.27.17 Kernel 5.3: version 05.36.17 Kernel 5.4: version 05.44.17 Kernel 5.5: version 05.52.17 https://www.insyde.com/security-pledge/SA-2022062</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29279">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16181a8d83aef56cb82d18d5d85934ba</td>
+       <td>CVE-2022-29278</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incorrect pointer checks within the NvmExpressDxe driver can allow tampering with SMRAM and OS memory Incorrect pointer checks within the NvmExpressDxe driver can allow tampering with SMRAM and OS memory. This issue was discovered by Insyde during security review. Fixed in: Kernel 5.1: Version 05.17.23 Kernel 5.2: Version 05.27.23 Kernel 5.3: Version 05.36.23 Kernel 5.4: Version 05.44.23 Kernel 5.5: Version 05.52.23 https://www.insyde.com/security-pledge/SA-2022061</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29278">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">43abd021d865fd3fa9d0f55ed462d741</td>
+       <td>CVE-2022-29277</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incorrect pointer checks within the the FwBlockServiceSmm driver can allow arbitrary RAM modifications During review of the FwBlockServiceSmm driver, certain instances of SpiAccessLib could be tricked into writing 0xff to arbitrary system and SMRAM addresses. Fixed in: INTEL Purley-R: 05.21.51.0048 Whitley: 05.42.23.0066 Cedar Island: 05.42.11.0021 Eagle Stream: 05.44.25.0052 Greenlow/Greenlow-R(skylake/kabylake): Trunk Mehlow/Mehlow-R (CoffeeLake-S): Trunk Tatlow (RKL-S): Trunk Denverton: 05.10.12.0042 Snow Ridge: Trunk Graneville DE: 05.05.15.0038 Grangeville DE NS: 05.27.26.0023 Bakerville: 05.21.51.0026 Idaville: 05.44.27.0030 Whiskey Lake: Trunk Comet Lake-S: Trunk Tiger Lake H/UP3: 05.43.12.0052 Alder Lake: 05.44.23.0047 Gemini Lake: Not Affected Apollo Lake: Not Affected Elkhart Lake: 05.44.30.0018 AMD ROME: trunk MILAN: 05.36.10.0017 GENOA: 05.52.25.0006 Snowy Owl: Trunk R1000: 05.32.50.0018 R2000: 05.44.30.0005 V2000: Trunk V3000: 05.44.30.0007 Ryzen 5000: 05.44.30.0004 Embedded ROME: Trunk Embedded MILAN: Trunk Hygon Hygon #1/#2: 05.36.26.0016 Hygon #3: 05.44.26.0007 https://www.insyde.com/security-pledge/SA-2022060</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29277">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">327dfc43c26e91aec8198d28d104d236</td>
+       <td>CVE-2022-29276</td>
+       <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>SMI functions in AhciBusDxe use untrusted inputs leading to corruption of SMRAM. SMI functions in AhciBusDxe use untrusted inputs leading to corruption of SMRAM. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.18 Kernel 5.1: version 05.17.18 Kernel 5.2: version 05.27.18 Kernel 5.3: version 05.36.18 Kernel 5.4: version 05.44.18 Kernel 5.5: version 05.52.18 https://www.insyde.com/security-pledge/SA-2022059</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29276">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b33534d23e2cf33eb72ed9d2c266f140</td>
+       <td>CVE-2022-43279</td>
+       <td>2022-11-15 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>LimeSurvey v5.4.4 was discovered to contain a SQL injection vulnerability via the component /application/views/themeOptions/update.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43279">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d1cb7b4091d5b62e2519298bd59674ce</td>
+       <td>CVE-2022-43265</td>
+       <td>2022-11-15 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An arbitrary file upload vulnerability in the component /pages/save_user.php of Canteen Management System v1.0 allows attackers to execute arbitrary code via a crafted PHP file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43265">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">61d679da1d9b67b8a33b25538f82da05</td>
+       <td>CVE-2022-42785</td>
+       <td>2022-11-15 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple W&T products of the ComServer Series are prone to an authentication bypass. An unathenticated remote attacker, can log in without knowledge of the password by crafting a modified HTTP GET Request.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42785">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">668ba3196ee9d835ecd9cf5edb86ff1e</td>
        <td>CVE-2022-45401</td>
        <td>2022-11-15 20:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3895">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">03d5d8b782377f65e0e49fa5188a5da8</td>
-       <td>CVE-2022-3240</td>
-       <td>2022-11-15 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>The "Follow Me Plugin" plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 3.1.1. This is due to missing nonce validation on the FollowMeIgniteSocialMedia_options_page() function. This makes it possible for unauthenticated attackers to modify the plugin's settings and inject malicious JavaScript via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3240">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">77224e28f1793d5c06712d8a237809bf</td>
-       <td>CVE-2022-40309</td>
-       <td>2022-11-15 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Users with write permissions to a repository can delete arbitrary directories.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40309">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f6b1782e7c50f13a6f5f6289fd8154e9</td>
-       <td>CVE-2022-40308</td>
-       <td>2022-11-15 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>If anonymous read enabled, it's possible to read the database file directly without logging in.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40308">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">055ea7fcf94bb4e663c595607b79b89a</td>
-       <td>CVE-2022-3737</td>
-       <td>2022-11-15 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>In PHOENIX CONTACT Automationworx Software Suite up to version 1.89 memory can be read beyond the intended scope due to insufficient validation of input data. Availability, integrity, or confidentiality of an application programming workstation might be compromised by attacks using these vulnerabilities.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3737">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">32a47e1f3fe2f1dc662214a22c8eb46e</td>
-       <td>CVE-2022-3480</td>
-       <td>2022-11-15 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A remote, unauthenticated attacker could cause a denial-of-service of PHOENIX CONTACT FL MGUARD and TC MGUARD devices below version 8.9.0 by sending a larger number of unauthenticated HTTPS connections originating from different source IP’s. Configuring firewall limits for incoming connections cannot prevent the issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3480">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">097ad11a9aa9cea6e5eea2a59063f9bc</td>
-       <td>CVE-2022-3461</td>
-       <td>2022-11-15 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>In PHOENIX CONTACT Automationworx Software Suite up to version 1.89 manipulated PC Worx or Config+ files could lead to a heap buffer overflow and a read access violation. Availability, integrity, or confidentiality of an application programming workstation might be compromised by attacks using these vulnerabilities.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3461">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">876da7a40d198babd7909851c1574125</td>
-       <td>CVE-2022-33239</td>
-       <td>2022-11-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Transient DOS due to loop with unreachable exit condition in WLAN firmware while parsing IPV6 extension header. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33239">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d13c64cfbb3c33a6ca048a3b84493aae</td>
-       <td>CVE-2022-33237</td>
-       <td>2022-11-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Transient DOS due to buffer over-read in WLAN firmware while processing PPE threshold. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33237">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5a5eaac43d832750ff4593e626fb44a5</td>
-       <td>CVE-2022-33236</td>
-       <td>2022-11-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Transient DOS due to buffer over-read in WLAN firmware while parsing cipher suite info attributes. in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33236">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0235653c627c8ab093fee2f902f61364</td>
-       <td>CVE-2022-33234</td>
-       <td>2022-11-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Memory corruption in video due to configuration weakness. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33234">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -644,7 +644,7 @@
       <tr>
        <td scope="row">7a7779382afab348b8c969b44aac3e32</td>
        <td>CVE-2022-28831</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe InDesign代码执行漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420365">详情</a></td>
@@ -653,7 +653,7 @@
       <tr>
        <td scope="row">9f7b60970b2982fdd98ba773ff2f828a</td>
        <td>CVE-2022-28833</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe InDesign代码执行漏洞（CNVD-2022-76625）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420367">详情</a></td>
@@ -662,7 +662,7 @@
       <tr>
        <td scope="row">25dfa66792acca7ad2ec69c5c64b1dda</td>
        <td>CVE-2022-28835</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe InCopy内存错误引用漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420369">详情</a></td>
@@ -671,7 +671,7 @@
       <tr>
        <td scope="row">0f5758bc00bbdfc4e7a7347301b178e8</td>
        <td>CVE-2022-28836</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe InCopy越界写入漏洞（CNVD-2022-76627）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420370">详情</a></td>
@@ -680,7 +680,7 @@
       <tr>
        <td scope="row">945fefbaa76cbeb55ea7c2605ea6329d</td>
        <td>CVE-2022-30637</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe Illustrator越界写入漏洞（CNVD-2022-76632）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422107">详情</a></td>
@@ -689,7 +689,7 @@
       <tr>
        <td scope="row">2d025013e409b3bc9d832520cdbc4572</td>
        <td>CVE-2022-30638</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe Illustrator输入验证错误漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422108">详情</a></td>
@@ -698,7 +698,7 @@
       <tr>
        <td scope="row">89291a73edcf08c63bb0ae7469fad807</td>
        <td>CVE-2022-30643</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe Illustrator越界写入漏洞（CNVD-2022-76633）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422113">详情</a></td>
@@ -707,7 +707,7 @@
       <tr>
        <td scope="row">effe2c37530c5efb30ac8981bb2dbf81</td>
        <td>CVE-2022-30646</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe Illustrator代码执行漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422116">详情</a></td>
@@ -716,7 +716,7 @@
       <tr>
        <td scope="row">5dac26359c0aad7c1a770d5ff101934d</td>
        <td>CVE-2022-30669</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe Illustrator越界读取漏洞（CNVD-2022-76631）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422139">详情</a></td>
@@ -725,7 +725,7 @@
       <tr>
        <td scope="row">9e3483cf3c92b30662a3f6ea8b493e4f</td>
        <td>CVE-2021-46816</td>
-       <td>2022-11-14 07:40:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:39</td>
        <td>Adobe Premiere Pro内存破坏漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-424833">详情</a></td>
@@ -924,7 +924,7 @@
       <tr>
        <td scope="row">19b9f464af1ad0e2881f6c6463911eb1</td>
        <td>CNVD-2022-72986</td>
-       <td>2022-11-14 16:54:32 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 16:54:32</td>
        <td>四川天邑康和通信股份有限公司TY-6201A存在信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-72986">详情</a></td>
       </tr>
@@ -932,7 +932,7 @@
       <tr>
        <td scope="row">c9414249551738e5a159441ad2b49508</td>
        <td>CNVD-2022-72985</td>
-       <td>2022-11-14 16:54:29 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 16:54:29</td>
        <td>四川天邑康和通信股份有限公司TY-6201A存在逻辑缺陷漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-72985">详情</a></td>
       </tr>
@@ -940,7 +940,7 @@
       <tr>
        <td scope="row">d92c0db8ed38b538a185bdd6bef49bc4</td>
        <td>CNVD-2022-76628 (CVE-2021-46816)</td>
-       <td>2022-11-14 08:49:42 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 08:49:42</td>
        <td>Adobe Premiere Pro内存破坏漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76628">详情</a></td>
       </tr>
@@ -948,7 +948,7 @@
       <tr>
        <td scope="row">e3d3126adf247b0eaeef4873f020ce14</td>
        <td>CNVD-2022-76629 (CVE-2022-30646)</td>
-       <td>2022-11-14 07:40:22 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:22</td>
        <td>Adobe Illustrator代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76629">详情</a></td>
       </tr>
@@ -956,7 +956,7 @@
       <tr>
        <td scope="row">9931a26507e373f33501259a92030fb8</td>
        <td>CNVD-2022-76631 (CVE-2022-30669)</td>
-       <td>2022-11-14 07:40:20 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:20</td>
        <td>Adobe Illustrator越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76631">详情</a></td>
       </tr>
@@ -964,7 +964,7 @@
       <tr>
        <td scope="row">ddda4d524ea1bd6e650319668b8e7fbc</td>
        <td>CNVD-2022-76630 (CVE-2022-30638)</td>
-       <td>2022-11-14 07:40:18 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:18</td>
        <td>Adobe Illustrator输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76630">详情</a></td>
       </tr>
@@ -972,7 +972,7 @@
       <tr>
        <td scope="row">bd141e1e73806d8f594b59e1eb6ad8b6</td>
        <td>CNVD-2022-76632 (CVE-2022-30637)</td>
-       <td>2022-11-14 07:40:15 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:15</td>
        <td>Adobe Illustrator越界写入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76632">详情</a></td>
       </tr>
@@ -980,7 +980,7 @@
       <tr>
        <td scope="row">8a838c22669e3747e79566f1df7a24e7</td>
        <td>CNVD-2022-76633 (CVE-2022-30643)</td>
-       <td>2022-11-14 07:40:13 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 07:40:13</td>
        <td>Adobe Illustrator越界写入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76633">详情</a></td>
       </tr>
@@ -988,7 +988,7 @@
       <tr>
        <td scope="row">07af1fa117e948dc8e5757cc49bbccb0</td>
        <td>CNVD-2022-76624 (CVE-2022-28831)</td>
-       <td>2022-11-14 06:50:19 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 06:50:19</td>
        <td>Adobe InDesign代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76624">详情</a></td>
       </tr>
@@ -996,7 +996,7 @@
       <tr>
        <td scope="row">b85378313c86a289c86df2db9711112d</td>
        <td>CNVD-2022-76625 (CVE-2022-28833)</td>
-       <td>2022-11-14 06:50:17 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 06:50:17</td>
        <td>Adobe InDesign代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76625">详情</a></td>
       </tr>
@@ -1422,7 +1422,7 @@
       <tr>
        <td scope="row">3c23bf3fafceebe3b8b6c07facfda9bc</td>
        <td>CVE-2022-31685,CVE-2022-31686,CVE-2022-31687,CVE-2022-31688</td>
-       <td>2022-11-14 17:29:53 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 17:29:53</td>
        <td>VMware Workspace ONE Assist多个安全漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7765">详情</a></td>
       </tr>
@@ -1922,7 +1922,7 @@
       <tr>
        <td scope="row">d69a41be16eef55186348a496ae9565d</td>
        <td>CVE-2022-43119</td>
-       <td>2022-11-14 20:21:26 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 20:21:26</td>
        <td>CSPHERE CLANSPHERE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c788e20218e64d0a8f8e66828a17bebd">详情</a></td>
       </tr>
@@ -1930,7 +1930,7 @@
       <tr>
        <td scope="row">512e1e97679603c4ac951e7133cfe577</td>
        <td>CVE-2022-41125</td>
-       <td>2022-11-14 20:21:13 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 20:21:13</td>
        <td>MICROSOFT Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c95831448b204810baada3e748af31f5">详情</a></td>
       </tr>
@@ -1938,7 +1938,7 @@
       <tr>
        <td scope="row">2d00ad4ab1f18eb694a3e69aaca0da0e</td>
        <td>CVE-2022-27914</td>
-       <td>2022-11-14 20:20:56 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 20:20:56</td>
        <td>JOOMLA JOOMLA\! Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=226735dab7494a2295db725746749ed4">详情</a></td>
       </tr>
@@ -2280,7 +2280,7 @@
       <tr>
        <td scope="row">08e2aa317dda6553d3b4d11b1a61ed73</td>
        <td>CVE-2022-3976</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MZ Automation Libiec61850路径遍历漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72167">详情</a></td>
       </tr>
@@ -2288,7 +2288,7 @@
       <tr>
        <td scope="row">676a0ba0d98660e0533058c2b58684f6</td>
        <td>CVE-2022-3978</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>NodeBB跨站请求伪造漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72166">详情</a></td>
       </tr>
@@ -2296,7 +2296,7 @@
       <tr>
        <td scope="row">02c035fa210d0f13bbe293961e6f9f04</td>
        <td>CVE-2022-3965</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>LibTIFF整数溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72165">详情</a></td>
       </tr>
@@ -2304,7 +2304,7 @@
       <tr>
        <td scope="row">197dbd3cb190ec646b8e34079d655349</td>
        <td>CVE-2022-3968</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>Emlog跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72164">详情</a></td>
       </tr>
@@ -2312,7 +2312,7 @@
       <tr>
        <td scope="row">e2fc2ac5997a4e7e52f5b253d0715c2f</td>
        <td>CVE-2022-3967</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>Vesta Control Panel参数注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72163">详情</a></td>
       </tr>
@@ -2320,7 +2320,7 @@
       <tr>
        <td scope="row">3b1dfc707e184116d26e2b2e1a831728</td>
        <td>CVE-2022-32611</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72162">详情</a></td>
       </tr>
@@ -2328,7 +2328,7 @@
       <tr>
        <td scope="row">7e2c0fbafb94a87e73aec4914eb15d9f</td>
        <td>CVE-2022-32612</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets竞争条件漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72161">详情</a></td>
       </tr>
@@ -2336,7 +2336,7 @@
       <tr>
        <td scope="row">4c52ecd830e2150ea129563ed4721d3b</td>
        <td>CVE-2022-32613</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets竞争条件漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72160">详情</a></td>
       </tr>
@@ -2344,7 +2344,7 @@
       <tr>
        <td scope="row">fc31d4f266f163d2f0aba3f02868add4</td>
        <td>CVE-2022-32614</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets双重释放漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72159">详情</a></td>
       </tr>
@@ -2352,7 +2352,7 @@
       <tr>
        <td scope="row">4f2e5f484f11f5048de14f56601dd8d1</td>
        <td>CVE-2022-32615</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72158">详情</a></td>
       </tr>
@@ -2360,7 +2360,7 @@
       <tr>
        <td scope="row">e34024c7b460b62d97143c90658096ea</td>
        <td>CVE-2022-32616</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72157">详情</a></td>
       </tr>
@@ -2368,7 +2368,7 @@
       <tr>
        <td scope="row">28584ecbe38ee09bdad8cbfdf95ced01</td>
        <td>CVE-2022-32617</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72156">详情</a></td>
       </tr>
@@ -2376,7 +2376,7 @@
       <tr>
        <td scope="row">91c07aacd7d43a709d59211cde0ee7f1</td>
        <td>CVE-2022-32618</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72155">详情</a></td>
       </tr>
@@ -2384,7 +2384,7 @@
       <tr>
        <td scope="row">4cef0f8beb89474662cc0716f8cd1781</td>
        <td>CVE-2022-32610</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets竞争条件漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72154">详情</a></td>
       </tr>
@@ -2392,7 +2392,7 @@
       <tr>
        <td scope="row">3c7857d15984d88574b3d2aa1db39367</td>
        <td>CVE-2022-32609</td>
-       <td>2022-11-14 13:27:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-14 13:27:44</td>
        <td>MediaTek Chipsets竞争条件漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/72153">详情</a></td>
       </tr>
