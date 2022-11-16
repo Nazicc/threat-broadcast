@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-16 02:30:59 -->
+<!-- RELEASE TIME : 2022-11-16 03:37:13 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b9e0449cae1eb38a1b7dd998c9c75cc1</td>
+       <td>CVE-2022-41917</td>
+       <td>2022-11-16 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenSearch is a community-driven, open source fork of Elasticsearch and Kibana. OpenSearch allows users to specify a local file when defining text analyzers to process data for text analysis. An issue in the implementation of this feature allows certain specially crafted queries to return a response containing the first line of text from arbitrary files. The list of potentially impacted files is limited to text files with read permissions allowed in the Java Security Manager policy configuration. OpenSearch version 1.3.7 and 2.4.0 contain a fix for this issue. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41917">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d3160e8139cafa4de726066341821a6a</td>
+       <td>CVE-2022-3920</td>
+       <td>2022-11-16 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Consul and Consul Enterprise 1.13.0 up to 1.13.3 do not filter cluster filtering's imported nodes and services for HTTP or RPC endpoints used by the UI. Fixed in 1.14.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3920">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3032fc96a1f60c7514c2558af0ae16dc</td>
+       <td>CVE-2022-41918</td>
+       <td>2022-11-15 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenSearch is a community-driven, open source fork of Elasticsearch and Kibana. There is an issue with the implementation of fine-grained access control rules (document-level security, field-level security and field masking) where they are not correctly applied to the indices that back data streams potentially leading to incorrect access authorization. OpenSearch 1.3.7 and 2.4.0 contain a fix for this issue. Users are advised to update. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41918">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">984ba071f3365288c791a54a57e50187</td>
+       <td>CVE-2022-41916</td>
+       <td>2022-11-15 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos. Versions prior to 7.7.1 are vulnerable to a denial of service vulnerability in Heimdal's PKI certificate validation library, affecting the KDC (via PKINIT) and kinit (via PKINIT), as well as any third-party applications using Heimdal's libhx509. Users should upgrade to Heimdal 7.7.1 or 7.8. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41916">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bae51ff8f2816ea503186fdcc3df82aa</td>
+       <td>CVE-2021-4241</td>
+       <td>2022-11-15 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, was found in phpservermon. Affected is the function setUserLoggedIn of the file src/psm/Service/User.php. The manipulation leads to use of predictable algorithm in random number generator. The exploit has been disclosed to the public and may be used. The name of the patch is bb10a5f3c68527c58073258cb12446782d223bc3. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213744.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4241">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5fae5c000e6755b5a7883094162e72ce</td>
+       <td>CVE-2021-4240</td>
+       <td>2022-11-15 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, was found in phpservermon. This affects the function generatePasswordResetToken of the file src/psm/Service/User.php. The manipulation leads to use of predictable algorithm in random number generator. The exploit has been disclosed to the public and may be used. The name of the patch is 3daa804d5f56c55b3ae13bfac368bb84ec632193. It is recommended to apply a patch to fix this issue. The identifier VDB-213717 was assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4240">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e015a04e7f2e95154bd27fab2a4a4669</td>
        <td>CVE-2022-4006</td>
        <td>2022-11-15 22:15:00 <img src="imgs/new.gif" /></td>
@@ -469,54 +517,6 @@
        <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) vulnerability in BlueSpiceBookshelf extension of BlueSpice allows user with regular account and edit permissions to inject arbitrary HTML into the book navigation.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42001">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bf745f6e6dad1a13744abb3b96aa3576</td>
-       <td>CVE-2022-42000</td>
-       <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) vulnerability in BlueSpiceSocialProfile extension of BlueSpice allows user with comment permissions to inject arbitrary HTML into the comment section of a wikipage.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42000">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6b6aa5cea201fae543d3fe5ae9b71784</td>
-       <td>CVE-2022-41814</td>
-       <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) vulnerability in BlueSpiceFoundation extension of BlueSpice allows user with regular account and edit permissions to inject arbitrary HTML into the history view of a wikipage.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41814">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1768e5d0fffa2ad46cf44ed36ea94509</td>
-       <td>CVE-2022-41789</td>
-       <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) vulnerability in BlueSpiceDiscovery skin of BlueSpice allows logged in user with edit permissions to inject arbitrary HTML into the default page header of a wikipage.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41789">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a3d478a75fb1cf693c34f03384efe128</td>
-       <td>CVE-2022-41611</td>
-       <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) vulnerability in BlueSpiceDiscovery skin of BlueSpice allows user with admin privileges to inject arbitrary HTML into the main navigation of the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41611">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">315e4430e61febcb29366f227215b8f6</td>
-       <td>CVE-2022-3958</td>
-       <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) vulnerability in BlueSpiceUserSidebar extension of BlueSpice allows user with regular account and edit permissions to inject arbitrary HTML into the personal menu navigation of their own and other users. This allows for targeted attacks.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3958">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">50794fade8a1ca857140f02ee37875ec</td>
-       <td>CVE-2022-3895</td>
-       <td>2022-11-15 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Some UI elements of the Common User Interface Component are not properly sanitizing output and therefore prone to output arbitrary HTML (XSS).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3895">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">477a44f28f534872dcd5f13c6f258914</td>
+       <td>CNVD-2022-77507 (CVE-2022-30615)</td>
+       <td>2022-11-16 03:36:51 <img src="imgs/new.gif" /></td>
+       <td>IBM InfoSphere Information Server跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77507">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f743e0d2731a96aa95493146b663104f</td>
+       <td>CNVD-2022-77506 (CVE-2022-35642)</td>
+       <td>2022-11-16 03:36:49 <img src="imgs/new.gif" /></td>
+       <td>IBM InfoSphere Information Server跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77506">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">05fe6fa8e853d802c6cf8bf67bb619ca</td>
+       <td>CNVD-2022-77505 (CVE-2022-38710)</td>
+       <td>2022-11-16 03:36:47 <img src="imgs/new.gif" /></td>
+       <td>IBM Robotic Process Automation信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77505">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ceb47145c8d25dabd8aaf5c33431158c</td>
+       <td>CNVD-2022-77504 (CVE-2022-3965)</td>
+       <td>2022-11-16 03:36:45 <img src="imgs/new.gif" /></td>
+       <td>FFmpeg存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77504">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38587a2dc14ab91755f6c86b262b3054</td>
+       <td>CNVD-2022-77503 (CVE-2022-3968)</td>
+       <td>2022-11-16 03:36:43 <img src="imgs/new.gif" /></td>
+       <td>emlog存在跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77503">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c6f966067dfa69f7791a90eb56840f0</td>
+       <td>CNVD-2022-77502 (CVE-2022-41882)</td>
+       <td>2022-11-16 03:36:40 <img src="imgs/new.gif" /></td>
+       <td>Nextcloud存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77502">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e5b19dd6cc7c23ff3dc06d061e89d2a8</td>
+       <td>CNVD-2022-77501 (CVE-2022-3344)</td>
+       <td>2022-11-16 03:36:38 <img src="imgs/new.gif" /></td>
+       <td>Linux kernel存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77501">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1bde3ccbbe6bcd9354d0095d6140d83b</td>
        <td>CNVD-2022-76705 (CVE-2022-30952)</td>
        <td>2022-11-15 17:02:55 <img src="imgs/new.gif" /></td>
@@ -999,62 +1055,6 @@
        <td>2022-11-14 06:50:17</td>
        <td>Adobe InDesign代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76625">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ecb649d20f028027fc87103ccd256fea</td>
-       <td>CNVD-2022-73067</td>
-       <td>2022-11-13 16:54:32</td>
-       <td>北京星网锐捷网络技术有限公司EWEB网管系统存在文件下载漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-73067">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">37256295d3c267176a83aa4327d6403d</td>
-       <td>CNVD-2022-76515 (CVE-2022-3888)</td>
-       <td>2022-11-11 10:47:22</td>
-       <td>Google Chrome资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76515">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">58eefe60ba37dcef082d17c01d05e119</td>
-       <td>CNVD-2022-76514 (CVE-2022-3889)</td>
-       <td>2022-11-11 10:47:20</td>
-       <td>Google Chrome存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76514">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c4439e9f8f0a3e10b721c5a119676d59</td>
-       <td>CNVD-2022-76513 (CVE-2022-3890)</td>
-       <td>2022-11-11 10:47:18</td>
-       <td>Google Chrome缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76513">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">38366ebfb86d69c408a7d2f2cb999d93</td>
-       <td>CNVD-2022-76221 (CVE-2022-1390)</td>
-       <td>2022-11-11 04:09:20</td>
-       <td>WordPress plugin Admin Word Count Column任意文件读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76221">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d27bc6ec799d3ebeff32e0ff2637943</td>
-       <td>CNVD-2022-76220 (CVE-2022-0656)</td>
-       <td>2022-11-11 04:09:18</td>
-       <td>WordPress plugin Web To Print Shop : uDraw任意文件读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76220">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c33529fe642dd0d462621573d7306482</td>
-       <td>CNVD-2022-76219 (CVE-2022-1391)</td>
-       <td>2022-11-11 04:09:16</td>
-       <td>WordPress plugin Cab fare calcula文件包含漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-76219">详情</a></td>
       </tr>
 
      </tbody>
