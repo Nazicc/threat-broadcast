@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30768</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Micrium uC-HTTP堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72358'>http://www.nsfocus.net/vulndb/72358</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30768</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] ZoneMinder跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72357'>http://www.nsfocus.net/vulndb/72357</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41611</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72356'>http://www.nsfocus.net/vulndb/72356</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41789</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72355'>http://www.nsfocus.net/vulndb/72355</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41814</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72354'>http://www.nsfocus.net/vulndb/72354</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42000</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72353'>http://www.nsfocus.net/vulndb/72353</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42001</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72352'>http://www.nsfocus.net/vulndb/72352</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3893</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72351'>http://www.nsfocus.net/vulndb/72351</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3958</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] BlueSpice跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72350'>http://www.nsfocus.net/vulndb/72350</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45400</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Jenkins JAPEX Plugin XML外部实体注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72349'>http://www.nsfocus.net/vulndb/72349</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45401</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Jenkins Associated Files Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72348'>http://www.nsfocus.net/vulndb/72348</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45398</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Jenkins Cluster Statistics Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72347'>http://www.nsfocus.net/vulndb/72347</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45399</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Jenkins Cluster Statistics Plugin权限检查错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72346'>http://www.nsfocus.net/vulndb/72346</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45392</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Jenkins loader.io Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72345'>http://www.nsfocus.net/vulndb/72345</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45393</font><br/>[<b>披露时间</b>] 2022-11-16 09:41:44<br/>[<b>漏洞描述</b>] Jenkins Delete log Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72344'>http://www.nsfocus.net/vulndb/72344</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-77758</font><br/>[<b>披露时间</b>] 2022-11-16 10:42:42<br/>[<b>漏洞描述</b>] YAPI SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-77758'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-77758</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
