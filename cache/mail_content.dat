@@ -1,11 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2166</font><br/>[<b>披露时间</b>] 2022-11-16 01:15:00<br/>[<b>漏洞描述</b>] Improper Restriction of Excessive Authentication Attempts in GitHub repository mastodon/mastodon prior to 4.0.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2166'>https://www.tenable.com/cve/CVE-2022-2166</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38392</font><br/>[<b>披露时间</b>] 2022-11-16 08:48:15<br/>[<b>漏洞描述</b>] Boston Scientific ZOOM LATITUDE...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-400028'>http://cve.scap.org.cn/vuln/VHN-400028</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38394</font><br/>[<b>披露时间</b>] 2022-11-16 08:48:15<br/>[<b>漏洞描述</b>] Boston Scientific ZOOM LATITUDE...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-400029'>http://cve.scap.org.cn/vuln/VHN-400029</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38396</font><br/>[<b>披露时间</b>] 2022-11-16 08:48:15<br/>[<b>漏洞描述</b>] Boston Scientific ZOOM LATITUDE...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-400031'>http://cve.scap.org.cn/vuln/VHN-400031</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-38400</font><br/>[<b>披露时间</b>] 2022-11-16 08:48:15<br/>[<b>漏洞描述</b>] Boston Scientific ZOOM LATITUDE...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-400036'>http://cve.scap.org.cn/vuln/VHN-400036</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
