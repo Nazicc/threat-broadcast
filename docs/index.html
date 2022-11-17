@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-17 18:46:13 -->
+<!-- RELEASE TIME : 2022-11-17 19:38:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -2452,6 +2452,22 @@
       </tr>
 
       <tr>
+       <td scope="row">e71293e079cd430cf4e121519670d961</td>
+       <td>CVE-2022-45196</td>
+       <td>2022-11-12 20:15:09 </td>
+       <td>Hyperledger Fabric 2.3 allows attackers to cause a denial of service (orderer crash) by repeatedly sending a crafted channel tx with the same Channel name. NOTE: the official Fabric with Raft prevents exploitation via a locking mechanism and a check for names that already exist.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45196">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d6e77c657ac048d60a15abd23d6ccca2</td>
+       <td>CVE-2022-45195</td>
+       <td>2022-11-12 19:15:10 </td>
+       <td>SimpleXMQ before 3.4.0, as used in SimpleX Chat before 4.2, does not apply a key derivation function to intended data, which can interfere with forward secrecy and can have other impacts if there is a compromise of a single private key. This occurs in the X3DH key exchange for the double ratchet protocol.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45195">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">38cc084cdbdd3515f9362eae2f7c4f41</td>
        <td>CVE-2022-45188</td>
        <td>2022-11-12 05:15:12 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-11-09 21:15:18 </td>
        <td>There is a race condition vulnerability in SD upgrade mode. Successful exploitation of this vulnerability may affect data confidentiality.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44563">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cff5eb46095190093a1bb45fb8081a98</td>
-       <td>CVE-2022-44562</td>
-       <td>2022-11-09 21:15:18 </td>
-       <td>The system framework layer has a vulnerability of serialization/deserialization mismatch. Successful exploitation of this vulnerability may cause privilege escalation.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44562">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3580ea6a73163190be598839cb5c609</td>
-       <td>CVE-2022-44550</td>
-       <td>2022-11-09 21:15:18 </td>
-       <td>The graphics display module has a UAF vulnerability when traversing graphic layers. Successful exploitation of this vulnerability may affect system availability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44550">详情</a></td>
       </tr>
 
      </tbody>
