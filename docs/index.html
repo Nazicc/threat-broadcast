@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-17 07:38:20 -->
+<!-- RELEASE TIME : 2022-11-17 08:48:16 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">3d52f551305ba0610e49acfbf1d666db</td>
+       <td>CVE-2022-42985</td>
+       <td>2022-11-17 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The ScratchLogin extension through 1.1 for MediaWiki does not escape verification failure messages, which allows users with administrator privileges to perform cross-site scripting (XSS).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42985">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d25625a7804e35da1c30e3972431638</td>
+       <td>CVE-2022-42982</td>
+       <td>2022-11-17 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>BKG Professional NtripCaster 2.0.39 allows querying information over the UDP protocol without authentication. The NTRIP sourcetable is typically quite long (tens of kBs) and can be requested with a packet of only 30 bytes. This presents a vector that can be used for UDP amplification attacks. Normally, only authenticated streaming data will be provided over UDP and not the sourcetable.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42982">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8fbc710eae2490165015d07f19720b63</td>
+       <td>CVE-2022-42954</td>
+       <td>2022-11-17 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>Keyfactor EJBCA before 7.10.0 allows XSS.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42954">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">74444f34fa6fb17c2de3420bc07c08bc</td>
+       <td>CVE-2022-39834</td>
+       <td>2022-11-17 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>A stored XSS vulnerability was discovered in adminweb/ra/viewendentity.jsp in PrimeKey EJBCA through 7.9.0.2. A low-privilege user can store JavaScript in order to exploit a higher-privilege user.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39834">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ca546a0f1ce44b25189ee954a5b28ab3</td>
+       <td>CVE-2022-36432</td>
+       <td>2022-11-17 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Preview functionality in the Amasty Blog Pro 2.10.3 plugin for Magento 2 uses eval unsafely. This allows attackers to perform Cross-site Scripting attacks on admin panel users by manipulating the generated preview application response.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36432">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e6d18fb5661019874ef5d122c86fd43b</td>
+       <td>CVE-2022-42246</td>
+       <td>2022-11-17 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Doufox 0.0.4 contains a CSRF vulnerability that can add system administrator account.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42246">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">18639cf043e9b6cace0a379c47f41451</td>
+       <td>CVE-2022-42245</td>
+       <td>2022-11-17 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dreamer CMS 4.0.01 is vulnerable to SQL Injection.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42245">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8e80a84c13045505aea6f0979a54bd4f</td>
+       <td>CVE-2022-42187</td>
+       <td>2022-11-17 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Hustoj 22.09.22 has a XSS Vulnerability in /admin/problem_judge.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42187">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a5db87ff8ddfb05c11fd08e2fe8516a7</td>
+       <td>CVE-2022-40881</td>
+       <td>2022-11-17 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>SolarView Compact 6.00 was discovered to contain a command injection vulnerability via network_test.php</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40881">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4000f6442c0e1696ed3a9ad96e29ac9d</td>
        <td>CVE-2022-43782</td>
        <td>2022-11-17 00:15:00 <img src="imgs/new.gif" /></td>
@@ -445,78 +517,6 @@
        <td>2022-11-16 20:15:00 <img src="imgs/new.gif" /></td>
        <td>FreeRDP is a free remote desktop protocol library and clients. Affected versions of FreeRDP are missing path canonicalization and base path check for `drive` channel. A malicious server can trick a FreeRDP based client to read files outside the shared directory. This issue has been addressed in version 2.9.0 and all users are advised to upgrade. Users unable to upgrade should not use the `/drive`, `/drives` or `+home-drive` redirection switch.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39347">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cbe8a5075df34d9a93957e9a4b907c85</td>
-       <td>CVE-2022-39320</td>
-       <td>2022-11-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>FreeRDP is a free remote desktop protocol library and clients. Affected versions of FreeRDP may attempt integer addition on too narrow types leads to allocation of a buffer too small holding the data written. A malicious server can trick a FreeRDP based client to read out of bound data and send it back to the server. This issue has been addressed in version 2.9.0 and all users are advised to upgrade. Users unable to upgrade should not use the `/usb` redirection switch.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39320">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">02d2782a7fffa5c8747904ddca1b993e</td>
-       <td>CVE-2022-39316</td>
-       <td>2022-11-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>FreeRDP is a free remote desktop protocol library and clients. In affected versions there is an out of bound read in ZGFX decoder component of FreeRDP. A malicious server can trick a FreeRDP based client to read out of bound data and try to decode it likely resulting in a crash. This issue has been addressed in the 2.9.0 release. Users are advised to upgrade.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39316">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a657f6febb2cbef6f5126b8853718666</td>
-       <td>CVE-2022-34354</td>
-       <td>2022-11-16 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>IBM Sterling Partner Engagement Manager 2.0 allows encrypted storage of client data to be stored locally which can be read by another user on the system. IBM X-Force ID: 230424.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34354">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c83673a795c0a865f2939dbe7f11cc60</td>
-       <td>CVE-2022-44073</td>
-       <td>2022-11-16 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Zenario CMS 9.3.57186 is vulnerable to Cross Site Scripting (XSS) via svg,Users & Contacts.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44073">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6646723a786f529329dd0634c385dfca</td>
-       <td>CVE-2022-44071</td>
-       <td>2022-11-16 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Zenario CMS 9.3.57186 is is vulnerable to Cross Site Scripting (XSS) via profile.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44071">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">07358ed2b1178bf990321ecb01572fd0</td>
-       <td>CVE-2022-24036</td>
-       <td>2022-11-16 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Karmasis informatics solutions Infraskope Security Event Manager product has an unauthenticated access which could allow an unauthenticated attacker to modificate logs.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24036">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40ab1c515e56fb1a4d8d95c674556930</td>
-       <td>CVE-2022-45047</td>
-       <td>2022-11-16 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD <= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45047">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e3fd102c351e7df1d8787ef077a30241</td>
-       <td>CVE-2022-4015</td>
-       <td>2022-11-16 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as critical, was found in Sports Club Management System 119. This affects an unknown part of the file admin/make_payments.php. The manipulation of the argument m_id/plan leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-213789 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4015">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b717eab464da470be3297674a9836f43</td>
-       <td>CVE-2022-4014</td>
-       <td>2022-11-16 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as problematic, has been found in FeehiCMS. Affected by this issue is some unknown functionality of the component Post My Comment Tab. The manipulation leads to cross-site request forgery. The attack may be launched remotely. The identifier of this vulnerability is VDB-213788.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4014">详情</a></td>
       </tr>
 
      </tbody>
