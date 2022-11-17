@@ -1,19 +1,38 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0073</font><br/>[<b>披露时间</b>] 2022-10-28 09:40:43<br/>[<b>漏洞描述</b>] litespeedtech OpenLiteSpeed 命令执行漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-0073'>https://avd.aliyun.com/detail?id=AVD-2022-0073</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78027 (CVE-2022-23287)</font><br/>[<b>披露时间</b>] 2022-11-17 09:40:45<br/>[<b>漏洞描述</b>] Microsoft Windows ALPC权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78027'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78027</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78026 (CVE-2022-23282)</font><br/>[<b>披露时间</b>] 2022-11-17 09:40:47<br/>[<b>漏洞描述</b>] Microsoft Paint 3D远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78026'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78026</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-77996 (CVE-2022-24509)</font><br/>[<b>披露时间</b>] 2022-11-17 09:40:49<br/>[<b>漏洞描述</b>] Microsoft Office Visio远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-77996'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-77996</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-77995 (CVE-2022-24510)</font><br/>[<b>披露时间</b>] 2022-11-17 09:40:51<br/>[<b>漏洞描述</b>] Microsoft Office Visio远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-77995'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-77995</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-77994 (CVE-2022-24457)</font><br/>[<b>披露时间</b>] 2022-11-17 09:40:54<br/>[<b>漏洞描述</b>] Microsoft HEIF Image Extensions远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-77994'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-77994</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-77978 (CVE-2022-24463)</font><br/>[<b>披露时间</b>] 2022-11-17 09:40:56<br/>[<b>漏洞描述</b>] Microsoft Exchange Server欺骗漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-77978'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-77978</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78135 (CVE-2022-36776)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:41<br/>[<b>漏洞描述</b>] IBM Cloud Pak for Security存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78135'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78135</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78136 (CVE-2022-38387)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:44<br/>[<b>漏洞描述</b>] IBM Cloud Pak for Security存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78136'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78136</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78138 (CVE-2022-3966)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:46<br/>[<b>漏洞描述</b>] WordPress Plugin Ultimate Member存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78138'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78138</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78139 (CVE-2022-35637)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:48<br/>[<b>漏洞描述</b>] IBM DB2拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78139'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78139</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78140 (CVE-2022-44559)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:51<br/>[<b>漏洞描述</b>] Huawei HarmonyOS权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78140'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78140</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78142 (CVE-2022-20940)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:53<br/>[<b>漏洞描述</b>] Cisco Firepower Threat Defense信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78142'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78142</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78143 (CVE-2022-43320)</font><br/>[<b>披露时间</b>] 2022-11-17 10:42:55<br/>[<b>漏洞描述</b>] FeehiCMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78143'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78143</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20426</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android资源管理错误漏洞（CNVD-2022-78149）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404979'>http://cve.scap.org.cn/vuln/VHN-404979</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20446</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android缺少授权漏洞（CNVD-2022-78152）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-404999'>http://cve.scap.org.cn/vuln/VHN-404999</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20447</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android资源管理错误漏洞（CNVD-2022-78148）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405000'>http://cve.scap.org.cn/vuln/VHN-405000</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20451</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android缺少授权漏洞（CNVD-2022-78153）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405004'>http://cve.scap.org.cn/vuln/VHN-405004</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20453</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android路径遍历漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405006'>http://cve.scap.org.cn/vuln/VHN-405006</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20454</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android输入验证错误漏洞（CNVD-2022-78150）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405007'>http://cve.scap.org.cn/vuln/VHN-405007</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20457</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android输入验证错误漏洞（CNVD-2022-78151）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405010'>http://cve.scap.org.cn/vuln/VHN-405010</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20462</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Google Android缓冲区溢出漏洞（CNVD-2022-78147）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405015'>http://cve.scap.org.cn/vuln/VHN-405015</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20940</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Cisco Firepower Threat Defense信息泄露漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405493'>http://cve.scap.org.cn/vuln/VHN-405493</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20949</font><br/>[<b>披露时间</b>] 2022-11-17 10:43:09<br/>[<b>漏洞描述</b>] Cisco Firepower Threat Defense资源管理错误漏洞（CNVD-2022-78144）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-405502'>http://cve.scap.org.cn/vuln/VHN-405502</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
