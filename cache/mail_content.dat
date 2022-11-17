@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41800</font><br/>[<b>披露时间</b>] 2022-11-17 19:18:43<br/>[<b>漏洞描述</b>] BIG-IP 安全特性绕过漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7789'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7789</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41622</font><br/>[<b>披露时间</b>] 2022-11-17 19:16:45<br/>[<b>漏洞描述</b>] BIG-IP 和 BIG-IQ 跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7788'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7788</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45461</font><br/>[<b>披露时间</b>] 2022-11-17 08:15:00<br/>[<b>漏洞描述</b>] The Java Admin Console in Veritas NetBackup through 10.1 and related Veritas products on Linux and UNIX allows authenticated non-root users (that have been explicitly added to the auth.conf file) to execute arbitrary commands as root.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45461'>https://www.tenable.com/cve/CVE-2022-45461</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
