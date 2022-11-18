@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45136</font><br/>[<b>披露时间</b>] 2022-11-14 16:15:12 <br/>[<b>漏洞描述</b>] ** UNSUPPORTED WHEN ASSIGNED ** Apache Jena SDB 3.17.0 and earlier is vulnerable to a JDBC Deserialisation attack if the attacker is able to control the JDBC URL used or cause the underlying database server to return malicious data. The mySQL JDBC driver in particular is known to be vulnerable to this class of attack. As a result an application using Apache Jena SDB can be subject to RCE when connected to a malicious database server. Apache Jena SDB has been EOL since December 2020 and users should migrate to alternative options e.g. Apache Jena TDB 2.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45136'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45136</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44561</font><br/>[<b>披露时间</b>] 2022-11-09 21:15:18 <br/>[<b>漏洞描述</b>] The preset launcher module has a permission verification vulnerability. Successful exploitation of this vulnerability makes unauthorized apps add arbitrary widgets and shortcuts without interaction.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44561'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44561</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44560</font><br/>[<b>披露时间</b>] 2022-11-09 21:15:18 <br/>[<b>漏洞描述</b>] The launcher module has an Intent redirection vulnerability. Successful exploitation of this vulnerability may cause launcher module data to be modified.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44560'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44560</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43308</font><br/>[<b>披露时间</b>] 2022-11-18 04:15:00<br/>[<b>漏洞描述</b>] INTELBRAS SG 2404 MR 20180928-rel64938 allows authenticated attackers to arbitrarily create Administrator accounts via crafted user cookies.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43308'>https://www.tenable.com/cve/CVE-2022-43308</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
