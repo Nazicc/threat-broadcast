@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-21 11:38:52 -->
+<!-- RELEASE TIME : 2022-11-21 13:13:29 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2fb9cd19c9b9e93bea056362528a3b88</td>
+       <td>CVE-2022-45146</td>
+       <td>2022-11-21 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the FIPS Java API of Bouncy Castle BC-FJA before 1.0.2.4. Changes to the JVM garbage collector in Java 13 and later trigger an issue in the BC-FJA FIPS modules where it is possible for temporary keys used by the module to be zeroed out while still in use by the module, resulting in errors or potential information loss. NOTE: FIPS compliant users are unaffected because the FIPS certification is only for Java 7, 8, and 11.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45146">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f0d758fb55c05057cf19761516a3260</td>
+       <td>CVE-2022-3589</td>
+       <td>2022-11-21 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>An API Endpoint used by Miele's "AppWash" MobileApp in all versions was vulnerable to an authorization bypass. A low privileged, remote attacker would have been able to gain read and partial write access to other users data by modifying a small part of a HTTP request sent to the API. Reading or changing the password of another user was not possible, thus no impact to Availability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3589">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c899a4177cb1c6c049dbb909377cef7e</td>
+       <td>CVE-2022-4087</td>
+       <td>2022-11-21 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in iPXE. It has been declared as problematic. This vulnerability affects the function tls_new_ciphertext of the file src/net/tls.c of the component TLS. The manipulation of the argument pad_len leads to information exposure through discrepancy. The name of the patch is 186306d6199096b7a7c4b4574d4be8cdb8426729. It is recommended to apply a patch to fix this issue. VDB-214054 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4087">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">634ab2a10e7b67c8e1636aa5a3a1c581</td>
        <td>CVE-2022-4093</td>
        <td>2022-11-21 05:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2022-11-20 05:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) - Generic in GitHub repository librenms/librenms prior to 22.10.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3561">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d4f154aba7912f476c2b6ca6cd0a913</td>
-       <td>CVE-2022-3525</td>
-       <td>2022-11-20 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Deserialization of Untrusted Data in GitHub repository librenms/librenms prior to 22.10.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3525">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ac6432fc95648b482605b65278e360b</td>
-       <td>CVE-2022-3516</td>
-       <td>2022-11-20 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository librenms/librenms prior to 22.10.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3516">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">665f942b409105d354fa571de4bbd9fc</td>
-       <td>CVE-2022-4066</td>
-       <td>2022-11-19 19:15:00</td>
-       <td>A vulnerability was found in davidmoreno onion. It has been rated as problematic. Affected by this issue is the function onion_response_flush of the file src/onion/response.c of the component Log Handler. The manipulation leads to allocation of resources. The name of the patch is de8ea938342b36c28024fd8393ebc27b8442a161. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-214028.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4066">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9366afabf75834ec6b00eaaf2de24adf</td>
+       <td>CNVD-2022-78864 (CVE-2022-45378)</td>
+       <td>2022-11-21 13:13:02 <img src="imgs/new.gif" /></td>
+       <td>Apache SOAP身份验证错误漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78864">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6ffabc8b704dad0141492625e8c6500b</td>
+       <td>CNVD-2022-78869 (CVE-2022-38445)</td>
+       <td>2022-11-21 13:12:59 <img src="imgs/new.gif" /></td>
+       <td>Adobe Dimension内存错误引用漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78869">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c7c09af7250aaad99d22daaa3e0ff7c6</td>
+       <td>CNVD-2022-78867 (CVE-2022-38436)</td>
+       <td>2022-11-21 13:12:50 <img src="imgs/new.gif" /></td>
+       <td>Adobe Illustrator缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78867">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d470843250497a0f1456dd8cceab1ee7</td>
+       <td>CNVD-2022-78868 (CVE-2022-38441)</td>
+       <td>2022-11-21 13:12:48 <img src="imgs/new.gif" /></td>
+       <td>Adobe Dimension越界读取漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78868">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">74a8c1c3f62266290b82b570b42bb8ae</td>
        <td>CNVD-2022-78863 (CVE-2022-27949)</td>
        <td>2022-11-21 10:43:51 <img src="imgs/new.gif" /></td>
@@ -1023,38 +1055,6 @@
        <td>2022-11-17 10:42:44</td>
        <td>IBM Cloud Pak for Security存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78136">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d929a68af66edce9de03d2b1eea3e6b6</td>
-       <td>CNVD-2022-78135 (CVE-2022-36776)</td>
-       <td>2022-11-17 10:42:41</td>
-       <td>IBM Cloud Pak for Security存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78135">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec1fccf1c5120ee9c535021fc3818ee4</td>
-       <td>CNVD-2022-77978 (CVE-2022-24463)</td>
-       <td>2022-11-17 09:40:56</td>
-       <td>Microsoft Exchange Server欺骗漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77978">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f490e581135481eb7f1102801e804e75</td>
-       <td>CNVD-2022-77994 (CVE-2022-24457)</td>
-       <td>2022-11-17 09:40:54</td>
-       <td>Microsoft HEIF Image Extensions远程代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77994">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">faacbd8eff4cc5a36d5167a1d99036d7</td>
-       <td>CNVD-2022-77995 (CVE-2022-24510)</td>
-       <td>2022-11-17 09:40:51</td>
-       <td>Microsoft Office Visio远程代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77995">详情</a></td>
       </tr>
 
      </tbody>
