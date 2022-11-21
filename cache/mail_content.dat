@@ -1,11 +1,38 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4093</font><br/>[<b>披露时间</b>] 2022-11-21 05:15:00<br/>[<b>漏洞描述</b>] SQL injection attacks can result in unauthorized access to sensitive data, such as passwords, credit card details, or personal user information. Many high-profile data breaches in recent years have been the result of SQL injection attacks, leading to reputational damage and regulatory fines. In some cases, an attacker can obtain a persistent backdoor into an organization's systems, leading to a long-term compromise that can go unnoticed for an extended period. This affect 16.0.1 and 16.0.2 only. 16.0.0 or lower, and 16.0.3 or higher are not affected<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4093'>https://www.tenable.com/cve/CVE-2022-4093</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78857 (CVE-2022-39316)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:37<br/>[<b>漏洞描述</b>] FreeRDP缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78857'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78857</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78858 (CVE-2022-39320)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:39<br/>[<b>漏洞描述</b>] FreeRDP缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78858'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78858</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78859 (CVE-2022-39347)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:42<br/>[<b>漏洞描述</b>] FreeRDP路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78859'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78859</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78860 (CVE-2022-45402)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:44<br/>[<b>漏洞描述</b>] Apache Airflow输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78860'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78861 (CVE-2022-40309)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:46<br/>[<b>漏洞描述</b>] Apache Archiva存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78861'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78861</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78862 (CVE-2022-40127)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:49<br/>[<b>漏洞描述</b>] Apache Airflow代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78862'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78862</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-78863 (CVE-2022-27949)</font><br/>[<b>披露时间</b>] 2022-11-21 10:43:51<br/>[<b>漏洞描述</b>] Apache Airflow信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-78863'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-78863</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26884</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache DolphinScheduler路径遍历漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417537'>http://cve.scap.org.cn/vuln/VHN-417537</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27949</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache Airflow信息泄露漏洞（CNVD-2022-78863）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-418683'>http://cve.scap.org.cn/vuln/VHN-418683</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429863</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] FreeRDP缓冲区溢出漏洞（CNVD-2022-78857）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429863'>http://cve.scap.org.cn/vuln/VHN-429863</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429864</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] FreeRDP缓冲区溢出漏洞（CNVD-2022-78858）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429864'>http://cve.scap.org.cn/vuln/VHN-429864</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429865</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] FreeRDP路径遍历漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429865'>http://cve.scap.org.cn/vuln/VHN-429865</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429866</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache Airflow输入验证错误漏洞（CNVD-2022-78860）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429866'>http://cve.scap.org.cn/vuln/VHN-429866</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429867</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache Archiva存在未明漏洞（CNVD-2022-78861）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429867'>http://cve.scap.org.cn/vuln/VHN-429867</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429868</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache Airflow代码注入漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429868'>http://cve.scap.org.cn/vuln/VHN-429868</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429869</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache SOAP身份验证错误漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429869'>http://cve.scap.org.cn/vuln/VHN-429869</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429870</font><br/>[<b>披露时间</b>] 2022-11-21 10:44:06<br/>[<b>漏洞描述</b>] Apache DolphinScheduler路径遍历漏洞（CNVD-2022-78865）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429870'>http://cve.scap.org.cn/vuln/VHN-429870</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
