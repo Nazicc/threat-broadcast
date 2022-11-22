@@ -1,33 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-79416 (CVE-2022-28856)</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:08<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-79416'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-79416</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-79417 (CVE-2022-30672)</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:11<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-79417'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-79417</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28856</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79416）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-420390'>http://cve.scap.org.cn/vuln/VHN-420390</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30672</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79417）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422142'>http://cve.scap.org.cn/vuln/VHN-422142</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30673</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79420）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422143'>http://cve.scap.org.cn/vuln/VHN-422143</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30674</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79418）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422144'>http://cve.scap.org.cn/vuln/VHN-422144</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30675</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79419）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422145'>http://cve.scap.org.cn/vuln/VHN-422145</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30676</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79421）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422146'>http://cve.scap.org.cn/vuln/VHN-422146</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429885</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79424）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429885'>http://cve.scap.org.cn/vuln/VHN-429885</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429886</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞（CNVD-2022-79423）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429886'>http://cve.scap.org.cn/vuln/VHN-429886</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429887</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign堆缓冲区溢出漏洞（CNVD-2022-79422）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429887'>http://cve.scap.org.cn/vuln/VHN-429887</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429888</font><br/>[<b>披露时间</b>] 2022-11-22 10:43:36<br/>[<b>漏洞描述</b>] Adobe InDesign堆缓冲区溢出漏洞（CNVD-2022-79425）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429888'>http://cve.scap.org.cn/vuln/VHN-429888</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42831</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Apple多款产品竞争条件漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72726'>http://www.nsfocus.net/vulndb/72726</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42832</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Apple多款产品竞争条件漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72725'>http://www.nsfocus.net/vulndb/72725</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24936</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Silicon Labs Gecko Bootloader越界错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72724'>http://www.nsfocus.net/vulndb/72724</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3181</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] VTScada输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72723'>http://www.nsfocus.net/vulndb/72723</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3340</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Trellix IPS Manager XML外部实体注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72722'>http://www.nsfocus.net/vulndb/72722</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44796</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Object First存在未明漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72721'>http://www.nsfocus.net/vulndb/72721</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42990</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Food Ordering Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72720'>http://www.nsfocus.net/vulndb/72720</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41773</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Delta Electronics DIAEnergie SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72719'>http://www.nsfocus.net/vulndb/72719</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43143</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Beekeeper Studio跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72718'>http://www.nsfocus.net/vulndb/72718</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32407</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Softr跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72717'>http://www.nsfocus.net/vulndb/72717</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32774</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Foxit PDF Reader内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72716'>http://www.nsfocus.net/vulndb/72716</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37332</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Foxit PDF Reader内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72715'>http://www.nsfocus.net/vulndb/72715</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38097</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] Foxit PDF Reader内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72714'>http://www.nsfocus.net/vulndb/72714</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42055</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] GL.iNet GoodCloud IoT Device Management System命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72713'>http://www.nsfocus.net/vulndb/72713</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42054</font><br/>[<b>披露时间</b>] 2022-11-22 11:39:24<br/>[<b>漏洞描述</b>] GL.iNet GoodCloud IoT Device Management System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72712'>http://www.nsfocus.net/vulndb/72712</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
