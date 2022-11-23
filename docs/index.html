@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-22 22:41:43 -->
+<!-- RELEASE TIME : 2022-11-23 02:16:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">022d56e15a3185c7a008689752227abe</td>
        <td></td>
-       <td>2022-11-21 04:28:13 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 04:28:13</td>
        <td>安全事件周报 (11.14-11.20)</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=1214c386de967556929135fe0fc57a01">详情</a></td>
       </tr>
@@ -280,6 +280,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">59368ffad484b02c2b04043cb534de1b</td>
+       <td>CVE-2022-45536</td>
+       <td>2022-11-22 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>AeroCMS v0.0.1 was discovered to contain a SQL Injection vulnerability via the id parameter at \admin\post_comments.php. This vulnerability allows attackers to access database information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45536">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38bc984a669bb86c0a4000f742d475f7</td>
+       <td>CVE-2022-45535</td>
+       <td>2022-11-22 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>AeroCMS v0.0.1 was discovered to contain a SQL Injection vulnerability via the edit parameter at \admin\categories.php. This vulnerability allows attackers to access database information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45535">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">66f694991d8b1c7ad040de7e1c16e7a1</td>
+       <td>CVE-2022-45529</td>
+       <td>2022-11-22 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>AeroCMS v0.0.1 was discovered to contain a SQL Injection vulnerability via the post_category_id parameter at \admin\includes\edit_post.php. This vulnerability allows attackers to access database information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45529">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f84e4810bbbc72b254e22567b517e227</td>
+       <td>CVE-2022-45331</td>
+       <td>2022-11-22 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>AeroCMS v0.0.1 was discovered to contain a SQL Injection vulnerability via the p_id parameter at \post.php. This vulnerability allows attackers to access database information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45331">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c5a1f48908658c0423a1a7a1740b27f</td>
+       <td>CVE-2022-45330</td>
+       <td>2022-11-22 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>AeroCMS v0.0.1 was discovered to contain a SQL Injection vulnerability via the Category parameter at \category.php. This vulnerability allows attackers to access database information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45330">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fc02a5dfa0d512e1fb5d5ae031a60474</td>
+       <td>CVE-2022-39397</td>
+       <td>2022-11-22 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>aliyun-oss-client is a rust client for Alibaba Cloud OSS. Users of this library will be affected, the incoming secret will be disclosed unintentionally. This issue has been patched in version 0.8.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39397">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ec7bfeb03f1bb31c4a1c82c71f5e68a0</td>
        <td>CVE-2022-41919</td>
        <td>2022-11-22 20:15:00 <img src="imgs/new.gif" /></td>
@@ -301,6 +349,14 @@
        <td>2022-11-22 20:15:00 <img src="imgs/new.gif" /></td>
        <td>Emerson Electric's Proficy Machine Edition Version 9.00 and prior is vulnerable to CWE-434 Unrestricted Upload of File with Dangerous Type, and will upload any file written into the PLC logic folder to the connected PLC.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2791">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f1aac347c12e526bffdf90fa8275b4c4</td>
+       <td>CVE-2022-41919</td>
+       <td>2022-11-22 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Fastify is a web framework with minimal overhead and plugin architecture. The attacker can use the incorrect `Content-Type` to bypass the `Pre-Flight` checking of `fetch`. `fetch()` requests with Content-Type’s essence as "application/x-www-form-urlencoded", "multipart/form-data", or "text/plain", could potentially be used to invoke routes that only accepts `application/json` content type, thus bypassing any CORS protection, and therefore they could lead to a Cross-Site Request Forgery attack. This issue has been patched in version 4.10.2 and 3.29.4. As a workaround, implement Cross-Site Request Forgery protection using `@fastify/csrf'.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41919">详情</a></td>
       </tr>
 
       <tr>
@@ -463,62 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44184">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">f7891eb82dbe17b5ebe1548c26581d37</td>
-       <td>CVE-2022-44200</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.0.8, V1.3.1.64 is vulnerable to Buffer Overflow via parameters: stamode_dns1_pri and stamode_dns1_sec.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44200">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bd7b4609c5d028253a73cd2d202a5247</td>
-       <td>CVE-2022-44199</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.1.64 is vulnerable to Buffer Overflow via parameter openvpn_server_ip.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44199">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">03072ad3e80b30d0aad9d83ea87ae403</td>
-       <td>CVE-2022-44198</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.1.64 is vulnerable to Buffer Overflow via parameter openvpn_push1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44198">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec2983676252e5f4de714406b01493a1</td>
-       <td>CVE-2022-44197</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.0.8 is vulnerable to Buffer Overflow via parameter openvpn_server_ip.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44197">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1149b0ad90a1d9823bfee5f63f6426fb</td>
-       <td>CVE-2022-44196</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.0.8 is vulnerable to Buffer Overflow via parameter openvpn_push1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44196">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2f3ffacf4d94e108ce80c5865c08b9f8</td>
-       <td>CVE-2022-44194</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.0.8 is vulnerable to Buffer Overflow via parameters apmode_dns1_pri and apmode_dns1_sec.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a92f9f0bb4572a5fddb29fdc5121930b</td>
-       <td>CVE-2022-44193</td>
-       <td>2022-11-22 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Netgear R7000P V1.3.1.64 is vulnerable to Buffer Overflow in /usr/sbin/httpd via parameters: starthour, startminute , endhour, and endminute.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44193">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -644,7 +644,7 @@
       <tr>
        <td scope="row">652ff43c0a247cbc4018b7b4f1c9722b</td>
        <td>CVE-2021-0561</td>
-       <td>2022-11-21 17:42:11 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 17:42:11</td>
        <td>Google Android 安全漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373152">详情</a></td>
@@ -653,7 +653,7 @@
       <tr>
        <td scope="row">242cc93b685d14176b0dbd88c55c4a33</td>
        <td>CVE-2021-43258</td>
-       <td>2022-11-21 17:42:11 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 17:42:11</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404305">详情</a></td>
@@ -662,7 +662,7 @@
       <tr>
        <td scope="row">53ed3cf34d848f01ebcebae3b47f2930</td>
        <td>CVE-2022-26884</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache DolphinScheduler路径遍历漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-417537">详情</a></td>
@@ -671,7 +671,7 @@
       <tr>
        <td scope="row">f83bc18bb3c7630d390ab605b846a752</td>
        <td>CVE-2022-27949</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache Airflow信息泄露漏洞（CNVD-2022-78863）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418683">详情</a></td>
@@ -680,7 +680,7 @@
       <tr>
        <td scope="row">5901df262d0b0f5a08deb924e3f6444e</td>
        <td>VHN-429863</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>FreeRDP缓冲区溢出漏洞（CNVD-2022-78857）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429863">详情</a></td>
@@ -689,7 +689,7 @@
       <tr>
        <td scope="row">04d3464ff54f9d27f69d11778db0d89f</td>
        <td>VHN-429864</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>FreeRDP缓冲区溢出漏洞（CNVD-2022-78858）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429864">详情</a></td>
@@ -698,7 +698,7 @@
       <tr>
        <td scope="row">ffbd4eae61c756c76b59690a3c25664c</td>
        <td>VHN-429865</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>FreeRDP路径遍历漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429865">详情</a></td>
@@ -707,7 +707,7 @@
       <tr>
        <td scope="row">330612d0b2ec98f9e615e47727f3700a</td>
        <td>VHN-429866</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache Airflow输入验证错误漏洞（CNVD-2022-78860）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429866">详情</a></td>
@@ -716,7 +716,7 @@
       <tr>
        <td scope="row">69c57155e22c8a0a83ae22155fe56346</td>
        <td>VHN-429867</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache Archiva存在未明漏洞（CNVD-2022-78861）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429867">详情</a></td>
@@ -725,7 +725,7 @@
       <tr>
        <td scope="row">27db42475a30b642374a26c5de7a7682</td>
        <td>VHN-429868</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache Airflow代码注入漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429868">详情</a></td>
@@ -734,7 +734,7 @@
       <tr>
        <td scope="row">15c8ac0bd8db81094e7ac5b3e348b070</td>
        <td>VHN-429869</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache SOAP身份验证错误漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429869">详情</a></td>
@@ -743,7 +743,7 @@
       <tr>
        <td scope="row">c30bfe7086e78776bb8cf172da364625</td>
        <td>VHN-429870</td>
-       <td>2022-11-21 10:44:06 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:44:06</td>
        <td>Apache DolphinScheduler路径遍历漏洞（CNVD-2022-78865）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429870">详情</a></td>
@@ -948,7 +948,7 @@
       <tr>
        <td scope="row">9366afabf75834ec6b00eaaf2de24adf</td>
        <td>CNVD-2022-78864 (CVE-2022-45378)</td>
-       <td>2022-11-21 13:13:02 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 13:13:02</td>
        <td>Apache SOAP身份验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78864">详情</a></td>
       </tr>
@@ -956,7 +956,7 @@
       <tr>
        <td scope="row">6ffabc8b704dad0141492625e8c6500b</td>
        <td>CNVD-2022-78869 (CVE-2022-38445)</td>
-       <td>2022-11-21 13:12:59 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 13:12:59</td>
        <td>Adobe Dimension内存错误引用漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78869">详情</a></td>
       </tr>
@@ -964,7 +964,7 @@
       <tr>
        <td scope="row">c7c09af7250aaad99d22daaa3e0ff7c6</td>
        <td>CNVD-2022-78867 (CVE-2022-38436)</td>
-       <td>2022-11-21 13:12:50 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 13:12:50</td>
        <td>Adobe Illustrator缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78867">详情</a></td>
       </tr>
@@ -972,7 +972,7 @@
       <tr>
        <td scope="row">d470843250497a0f1456dd8cceab1ee7</td>
        <td>CNVD-2022-78868 (CVE-2022-38441)</td>
-       <td>2022-11-21 13:12:48 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 13:12:48</td>
        <td>Adobe Dimension越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78868">详情</a></td>
       </tr>
@@ -980,7 +980,7 @@
       <tr>
        <td scope="row">74a8c1c3f62266290b82b570b42bb8ae</td>
        <td>CNVD-2022-78863 (CVE-2022-27949)</td>
-       <td>2022-11-21 10:43:51 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:51</td>
        <td>Apache Airflow信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78863">详情</a></td>
       </tr>
@@ -988,7 +988,7 @@
       <tr>
        <td scope="row">772758480a974fde231f30dd5b4b7375</td>
        <td>CNVD-2022-78862 (CVE-2022-40127)</td>
-       <td>2022-11-21 10:43:49 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:49</td>
        <td>Apache Airflow代码注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78862">详情</a></td>
       </tr>
@@ -996,7 +996,7 @@
       <tr>
        <td scope="row">b772dee3d7fed51f0dcb7f88e966c713</td>
        <td>CNVD-2022-78861 (CVE-2022-40309)</td>
-       <td>2022-11-21 10:43:46 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:46</td>
        <td>Apache Archiva存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78861">详情</a></td>
       </tr>
@@ -1004,7 +1004,7 @@
       <tr>
        <td scope="row">1346d004b3d1240810bb52a759747f15</td>
        <td>CNVD-2022-78860 (CVE-2022-45402)</td>
-       <td>2022-11-21 10:43:44 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:44</td>
        <td>Apache Airflow输入验证错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78860">详情</a></td>
       </tr>
@@ -1012,7 +1012,7 @@
       <tr>
        <td scope="row">80a552f40ec3bdb38af60c9ceba93abf</td>
        <td>CNVD-2022-78859 (CVE-2022-39347)</td>
-       <td>2022-11-21 10:43:42 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:42</td>
        <td>FreeRDP路径遍历漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78859">详情</a></td>
       </tr>
@@ -1020,7 +1020,7 @@
       <tr>
        <td scope="row">485c5deadfc1cf882b00ac7d712ef40c</td>
        <td>CNVD-2022-78858 (CVE-2022-39320)</td>
-       <td>2022-11-21 10:43:39 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:39</td>
        <td>FreeRDP缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78858">详情</a></td>
       </tr>
@@ -1028,7 +1028,7 @@
       <tr>
        <td scope="row">292af10025402a4888f8f7cba302fc7b</td>
        <td>CNVD-2022-78857 (CVE-2022-39316)</td>
-       <td>2022-11-21 10:43:37 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:43:37</td>
        <td>FreeRDP缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78857">详情</a></td>
       </tr>
@@ -1430,7 +1430,7 @@
       <tr>
        <td scope="row">a0d8dec00d6d48f823518b611df1c410</td>
        <td>CVE-2022-43781</td>
-       <td>2022-11-21 10:17:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 10:17:36</td>
        <td>Bitbucket Server 和 Data Center存在命令注入漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7799">详情</a></td>
       </tr>
@@ -1954,7 +1954,7 @@
       <tr>
        <td scope="row">330adeba45c0ff1fac9a9e37e9b959f8</td>
        <td>CVE-2022-40751</td>
-       <td>2022-11-21 20:23:15 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:23:15</td>
        <td>IBM URBANCODE_DEPLOY Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=777030dc09f94f0e98f9bc3a05cff538">详情</a></td>
       </tr>
@@ -1962,7 +1962,7 @@
       <tr>
        <td scope="row">3f83083bc5da49686dc2da24e8187218</td>
        <td>CVE-2022-43447</td>
-       <td>2022-11-21 20:23:09 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:23:09</td>
        <td>DELTAWW DIAENERGIE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0b600037a4bd4f33a30f5ac3b101387b">详情</a></td>
       </tr>
@@ -1970,7 +1970,7 @@
       <tr>
        <td scope="row">742c4d85823d29f5cb7bbe804e293577</td>
        <td>CVE-2022-43506</td>
-       <td>2022-11-21 20:23:03 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:23:03</td>
        <td>DELTAWW DIAENERGIE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ea6a697e41db421a81b303da4f5f39d6">详情</a></td>
       </tr>
@@ -1978,7 +1978,7 @@
       <tr>
        <td scope="row">707b385886dd69f0062114d72a5055de</td>
        <td>CVE-2022-39347</td>
-       <td>2022-11-21 20:22:52 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:22:52</td>
        <td>FREERDP FREERDP Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=483031b55d25481dbce58fec0787c380">详情</a></td>
       </tr>
@@ -1986,7 +1986,7 @@
       <tr>
        <td scope="row">776af7f795e124095f98975bbebc8871</td>
        <td>CVE-2022-39319</td>
-       <td>2022-11-21 20:22:46 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:22:46</td>
        <td>FREERDP FREERDP Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7c6c62df12724d528d6e6fff0fb7c113">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">b1283bf80e6a61e84e63a9df7974e0fe</td>
        <td>CVE-2022-38390</td>
-       <td>2022-11-21 20:22:41 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:22:41</td>
        <td>IBM BUSINESS_AUTOMATION_WORKFLOW Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9c838a7eee9d4cc79043e6f9ad42c631">详情</a></td>
       </tr>
@@ -2002,7 +2002,7 @@
       <tr>
        <td scope="row">e24b37a4d605684ef5a0c03db6dc1a33</td>
        <td>CVE-2022-41775</td>
-       <td>2022-11-21 20:22:24 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:22:24</td>
        <td>DELTAWW DIAENERGIE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a9a8fa6d42cf4b79a7250ec4710adb99">详情</a></td>
       </tr>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">fe74878a85ca66692ad9c91a3f075de9</td>
        <td>CVE-2022-45380</td>
-       <td>2022-11-21 20:22:18 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 20:22:18</td>
        <td>JENKINS JUNIT Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c012f9052cdf4dd5b556aeabb2f2deda">详情</a></td>
       </tr>
@@ -2414,7 +2414,7 @@
       <tr>
        <td scope="row">dc8a15b96e01f37188f9bb30153eedf7</td>
        <td>CVE-2022-44169</td>
-       <td>2022-11-21 15:15:11  <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 15:15:11 </td>
        <td>Tenda AC15 V15.03.05.18 is vulnerable to Buffer Overflow via function formSetVirtualSer.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44169">详情</a></td>
       </tr>
@@ -2422,7 +2422,7 @@
       <tr>
        <td scope="row">f339da513cfe31998a18b9bc0c775abb</td>
        <td>CVE-2022-44168</td>
-       <td>2022-11-21 15:15:10  <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 15:15:10 </td>
        <td>Tenda AC15 V15.03.05.18 is vulnerable to Buffer Overflow via function fromSetRouteStatic..</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44168">详情</a></td>
       </tr>
@@ -2430,7 +2430,7 @@
       <tr>
        <td scope="row">4c1bf71c1af46be1798b7af1b5f4292c</td>
        <td>CVE-2022-44167</td>
-       <td>2022-11-21 15:15:10  <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 15:15:10 </td>
        <td>Tenda AC15 V15.03.05.18 is avulnerable to Buffer Overflow via function formSetPPTPServer.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44167">详情</a></td>
       </tr>
@@ -2668,7 +2668,7 @@
       <tr>
        <td scope="row">60910ec03f987cb9d48f1b8b53952745</td>
        <td>CVE-2022-43782</td>
-       <td>2022-11-21 03:34:47 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 03:34:47</td>
        <td>Atlassian Crowd and Crowd Data Center 权限绕过漏洞（CVE-2022-43782）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-43782">详情</a></td>
@@ -2677,7 +2677,7 @@
       <tr>
        <td scope="row">00d438bcc5a3c575f9170b51bcddbd76</td>
        <td>CVE-2022-43781</td>
-       <td>2022-11-21 02:29:00 <img src="imgs/new.gif" /></td>
+       <td>2022-11-21 02:29:00</td>
        <td>Bitbucket Server and Data Center 远程命令执行漏洞（CVE-2022-43781）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-43781">详情</a></td>
