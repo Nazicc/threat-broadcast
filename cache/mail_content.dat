@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-11-24 16:47:42<br/>[<b>漏洞描述</b>] Smartbi商业智能BI软件存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7841'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7841</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38100</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Contec Health CMS8000不受控制的资源消耗漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72806'>http://www.nsfocus.net/vulndb/72806</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39154</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Siemens Parasolid和Simcenter Femap越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72805'>http://www.nsfocus.net/vulndb/72805</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2575</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] WordPress WBW Currency Switcher for WooCommerce Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72804'>http://www.nsfocus.net/vulndb/72804</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35415</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] National Instruments System Configuration Manager输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72803'>http://www.nsfocus.net/vulndb/72803</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34002</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Assura Personnel Data Systems Vista 7路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72802'>http://www.nsfocus.net/vulndb/72802</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37260</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] steal拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72801'>http://www.nsfocus.net/vulndb/72801</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37861</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Tenhot TWS-100远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72800'>http://www.nsfocus.net/vulndb/72800</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3001</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Milesight Video Management Systems（VMS）输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72799'>http://www.nsfocus.net/vulndb/72799</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40023</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Huawei EMUI信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72798'>http://www.nsfocus.net/vulndb/72798</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40476</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Linux Kernel空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72797'>http://www.nsfocus.net/vulndb/72797</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30674</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72796'>http://www.nsfocus.net/vulndb/72796</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28855</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Adobe InDesign越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72795'>http://www.nsfocus.net/vulndb/72795</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36402</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] Linux Kernel整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72794'>http://www.nsfocus.net/vulndb/72794</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38844</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] EspoCRM CSV注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72793'>http://www.nsfocus.net/vulndb/72793</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40154</font><br/>[<b>披露时间</b>] 2022-11-24 11:38:08<br/>[<b>漏洞描述</b>] XStream越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/72792'>http://www.nsfocus.net/vulndb/72792</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
