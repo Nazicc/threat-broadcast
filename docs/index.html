@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-24 11:38:19 -->
+<!-- RELEASE TIME : 2022-11-24 13:05:09 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c54f7c808ae45e01ecd9bc606d9fcff2</td>
+       <td>CVE-2022-40977</td>
+       <td>2022-11-24 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A path traversal vulnerability was discovered in Pilz PASvisu Server before 1.12.0. An unauthenticated remote attacker could use a zipped, malicious configuration file to trigger arbitrary file writes ('zip-slip').</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40977">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c10275763ae54ee95241f1c5d4d91a0c</td>
+       <td>CVE-2022-40976</td>
+       <td>2022-11-24 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A path traversal vulnerability was discovered in multiple Pilz products. An unauthenticated local attacker could use a zipped, malicious configuration file to trigger arbitrary file writes ('zip-slip').</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40976">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f283d274d7af45fe3d62254cd569cae</td>
+       <td>CVE-2022-4089</td>
+       <td>2022-11-24 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in rickxy Stock Management System. It has been declared as problematic. This vulnerability affects unknown code of the file /pages/processlogin.php. The manipulation of the argument user leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-214324.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4089">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5ea863c3188ab9cfc01aa47c2b87d972</td>
+       <td>CVE-2022-4088</td>
+       <td>2022-11-24 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in rickxy Stock Management System and classified as critical. Affected by this issue is some unknown functionality of the file /pages/processlogin.php. The manipulation of the argument user/password leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-214322 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4088">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">afea4a1931bc72b2c5e8526263efd115</td>
+       <td>CVE-2022-40266</td>
+       <td>2022-11-24 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Input Validation vulnerability in Mitsubishi Electric GOT2000 Series GT27 model FTP server versions 01.39.000 and prior, Mitsubishi Electric GOT2000 Series GT25 model FTP server versions 01.39.000 and prior and Mitsubishi Electric GOT2000 Series GT23 model FTP server versions 01.39.000 and prior allows a remote authenticated attacker to cause a Denial of Service condition by sending specially crafted command.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40266">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5d3cc3596540908cfe40543ee3278577</td>
+       <td>CVE-2022-4136</td>
+       <td>2022-11-24 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Attackers can call any existing functions at will, control the target server to access, download, create files, delete files, etc. Access may make the server a dos server. Download, so that an attacker can download the PHP Trojan to the server. Creating and deleting will destroy normal services. More than ten IPs are using this service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4136">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1cb342ca399ab50f21fa55942afc1857</td>
+       <td>CVE-2022-44749</td>
+       <td>2022-11-24 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>A directory traversal vulnerability in the ZIP archive extraction routines of KNIME Analytics Platform 3.2.0 and above can result in arbitrary files being overwritten on the user's system. This vulnerability is also known as 'Zip-Slip'. An attacker can create a KNIME workflow that, when being opened by a user, can overwrite arbitrary files that the user has write access to. It's not necessary to execute the workflow, opening the workflow is sufficient. The user will notice that something is wrong because an error is being reported but only after the files have already been written. This can impact data integrity (file contents are changed) or cause errors in other software (vital files being corrupted). It can even lead to remote code execution if executable files are being replaced and subsequently executed by the user. In all cases the attacker has to know the location of files on the user's system, though.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44749">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">adf4ab4dfc171a387e2444eb935796af</td>
+       <td>CVE-2022-44748</td>
+       <td>2022-11-24 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>A directory traversal vulnerability in the ZIP archive extraction routines of KNIME Server since 4.3.0 can result in arbitrary files being overwritten on the server's file system. This vulnerability is also known as 'Zip-Slip'. An attacker can create a KNIME workflow that, when being uploaded, can overwrite arbitrary files that the operating system user running the KNIME Server process has write access to. The user must be authenticated and have permissions to upload files to KNIME Server. This can impact data integrity (file contents are changed) or cause errors in other software (vital files being corrupted). It can even lead to remote code execution if executable files are being replaced and subsequently executed by the KNIME Server process user. In all cases the attacker has to know the location of files on the server's file system, though. Note that users that have permissions to upload workflows usually also have permissions to run them on the KNIME Server and can therefore already execute arbitrary code in the context of the KNIME Executor's operating system user. There is no workaround to prevent this vulnerability from being exploited. Updates to fixed versions 4.13.6, 4.14.3, or 4.15.3 are advised.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44748">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6fa19a269557bebe87d8ec139fc10dcb</td>
        <td>CVE-2022-45873</td>
        <td>2022-11-23 23:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
        <td>`yiisoft/yii` before version 1.1.27 are vulnerable to Remote Code Execution (RCE) if the application calls `unserialize()` on arbitrary user input. This has been patched in 1.1.27.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41922">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9f8ad129298d18ccae79d30a188b2b5f</td>
-       <td>CVE-2022-40772</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Zoho ManageEngine ServiceDesk Plus versions 13010 and prior are vulnerable to a validation bypass that allows users to access sensitive data via the report module.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40772">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8f755f26329a1a720b9bc5751112b42</td>
-       <td>CVE-2022-40771</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Zoho ManageEngine ServiceDesk Plus versions 13010 and prior are vulnerable to an XML External Entity attack that leads to Information Disclosure.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40771">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fbca58f285ec2172a7cbd94484af977a</td>
-       <td>CVE-2022-40304</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in libxml2 before 2.10.3. Certain invalid XML entity definitions can corrupt a hash table key, potentially leading to subsequent logic errors. In one case, a double-free can be provoked.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40304">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5bbf6663123269fbb2db89781b4bc926</td>
-       <td>CVE-2022-39833</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>FileCloud Versions 20.2 and later allows remote attackers to potentially cause unauthorized remote code execution and access to reported API endpoints via a crafted HTTP request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39833">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dea7cd4e0a7a7b09aabb232c761d7ca0</td>
-       <td>CVE-2022-36111</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>immudb is a database with built-in cryptographic proof and verification. In versions prior to 1.4.1, a malicious immudb server can provide a falsified proof that will be accepted by the client SDK signing a falsified transaction replacing the genuine one. This situation can not be triggered by a genuine immudb server and requires the client to perform a specific list of verified operations resulting in acceptance of an invalid state value. This vulnerability only affects immudb client SDKs, the immudb server itself is not affected by this vulnerability. This issue has been patched in version 1.4.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36111">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">02ecad161f9c06b0c0b019d7f22e619e</td>
-       <td>CVE-2022-23740</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>CRITICAL: An improper neutralization of argument delimiters in a command vulnerability was identified in GitHub Enterprise Server that enabled remote code execution. To exploit this vulnerability, an attacker would need permission to create and build GitHub Pages using GitHub Actions. This vulnerability affected only version 3.7.0 of GitHub Enterprise Server and was fixed in version 3.7.1. This vulnerability was reported via the GitHub Bug Bounty program.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23740">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c4f4bdfa480e500a6727aebb00deea7e</td>
-       <td>CVE-2021-35284</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in function get_user in login_manager.php in rizalafani cms-php v1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-35284">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">25700e231a2c61933ea8d66dcc637351</td>
-       <td>CVE-2009-1143</td>
-       <td>2022-11-23 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can bypass intended access restrictions on mounting shares via a symlink attack that leverages a realpath race condition in mount.vmhgfs (aka hgfsmounter).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2009-1143">详情</a></td>
       </tr>
 
      </tbody>
