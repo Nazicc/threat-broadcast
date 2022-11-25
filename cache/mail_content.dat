@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4141</font><br/>[<b>披露时间</b>] 2022-11-25 14:15:00<br/>[<b>漏洞描述</b>] The target's backtrace indicates that libc has detected a heap error or that the target was executing a heap function when it stopped. This could be due to heap corruption, passing a bad pointer to a heap function such as free(), etc. Since heap errors might include buffer overflows, use-after-free situations, etc. they are generally considered exploitable.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4141'>https://www.tenable.com/cve/CVE-2022-4141</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-75876</font><br/>[<b>披露时间</b>] 2022-11-26 16:50:19<br/>[<b>漏洞描述</b>] TOTOLINK A7000R存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-75876'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-75876</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
