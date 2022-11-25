@@ -1,21 +1,16 @@
 
 <h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429947</font><br/>[<b>披露时间</b>] 2022-11-25 13:01:57<br/>[<b>漏洞描述</b>] NETGEAR R7000P缓冲区溢出漏洞（CNVD-2022-81488）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429947'>http://cve.scap.org.cn/vuln/VHN-429947</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429948</font><br/>[<b>披露时间</b>] 2022-11-25 13:01:57<br/>[<b>漏洞描述</b>] NETGEAR R7000P缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429948'>http://cve.scap.org.cn/vuln/VHN-429948</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429949</font><br/>[<b>披露时间</b>] 2022-11-25 13:01:57<br/>[<b>漏洞描述</b>] D-Link DIR-823G操作系统命令注入漏洞（CNVD-2022-81490）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429949'>http://cve.scap.org.cn/vuln/VHN-429949</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429950</font><br/>[<b>披露时间</b>] 2022-11-25 13:01:57<br/>[<b>漏洞描述</b>] D-Link DIR-823G命令执行漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429950'>http://cve.scap.org.cn/vuln/VHN-429950</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4091</font><br/>[<b>披露时间</b>] 2022-11-25 08:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in SourceCodester Canteen Management System. It has been classified as problematic. This affects the function query of the file food.php. The manipulation of the argument product_name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-214359.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4091'>https://www.tenable.com/cve/CVE-2022-4091</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36133</font><br/>[<b>披露时间</b>] 2022-11-25 06:15:00<br/>[<b>漏洞描述</b>] The WebConfig functionality of Epson TM-C3500 and TM-C7500 devices with firmware version WAM31500 allows authentication bypass.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-36133'>https://www.tenable.com/cve/CVE-2022-36133</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41894</font><br/>[<b>披露时间</b>] 2022-11-25 20:25:11<br/>[<b>漏洞描述</b>] GOOGLE TENSORFLOW Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=212eba1557f6470ba2749f351a361953'>https://redqueen.tj-un.com/IntelDetails.html?id=212eba1557f6470ba2749f351a361953</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41890</font><br/>[<b>披露时间</b>] 2022-11-25 20:25:05<br/>[<b>漏洞描述</b>] GOOGLE TENSORFLOW Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=69f9d5c9496a4adcb9ae332a82e55cf3'>https://redqueen.tj-un.com/IntelDetails.html?id=69f9d5c9496a4adcb9ae332a82e55cf3</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20428</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:48<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=27b1591f0ee8417aa88204880adff81b'>https://redqueen.tj-un.com/IntelDetails.html?id=27b1591f0ee8417aa88204880adff81b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20460</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:37<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bb968d8dc4234268a6eaa48c8876a5c7'>https://redqueen.tj-un.com/IntelDetails.html?id=bb968d8dc4234268a6eaa48c8876a5c7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45071</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:31<br/>[<b>漏洞描述</b>] WPML WPML Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=528fd9374095403080431d4331b78a6a'>https://redqueen.tj-un.com/IntelDetails.html?id=528fd9374095403080431d4331b78a6a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28766</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:19<br/>[<b>漏洞描述</b>] ZOOM Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f498efdf875d43709469930d1d7d1c01'>https://redqueen.tj-un.com/IntelDetails.html?id=f498efdf875d43709469930d1d7d1c01</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
