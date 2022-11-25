@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41894</font><br/>[<b>披露时间</b>] 2022-11-25 20:25:11<br/>[<b>漏洞描述</b>] GOOGLE TENSORFLOW Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=212eba1557f6470ba2749f351a361953'>https://redqueen.tj-un.com/IntelDetails.html?id=212eba1557f6470ba2749f351a361953</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41890</font><br/>[<b>披露时间</b>] 2022-11-25 20:25:05<br/>[<b>漏洞描述</b>] GOOGLE TENSORFLOW Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=69f9d5c9496a4adcb9ae332a82e55cf3'>https://redqueen.tj-un.com/IntelDetails.html?id=69f9d5c9496a4adcb9ae332a82e55cf3</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20428</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:48<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=27b1591f0ee8417aa88204880adff81b'>https://redqueen.tj-un.com/IntelDetails.html?id=27b1591f0ee8417aa88204880adff81b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20460</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:37<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bb968d8dc4234268a6eaa48c8876a5c7'>https://redqueen.tj-un.com/IntelDetails.html?id=bb968d8dc4234268a6eaa48c8876a5c7</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45071</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:31<br/>[<b>漏洞描述</b>] WPML WPML Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=528fd9374095403080431d4331b78a6a'>https://redqueen.tj-un.com/IntelDetails.html?id=528fd9374095403080431d4331b78a6a</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28766</font><br/>[<b>披露时间</b>] 2022-11-25 20:24:19<br/>[<b>漏洞描述</b>] ZOOM Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f498efdf875d43709469930d1d7d1c01'>https://redqueen.tj-un.com/IntelDetails.html?id=f498efdf875d43709469930d1d7d1c01</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4141</font><br/>[<b>披露时间</b>] 2022-11-25 14:15:00<br/>[<b>漏洞描述</b>] The target's backtrace indicates that libc has detected a heap error or that the target was executing a heap function when it stopped. This could be due to heap corruption, passing a bad pointer to a heap function such as free(), etc. Since heap errors might include buffer overflows, use-after-free situations, etc. they are generally considered exploitable.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4141'>https://www.tenable.com/cve/CVE-2022-4141</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++

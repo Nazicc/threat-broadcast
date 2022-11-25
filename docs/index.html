@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-25 14:41:57 -->
+<!-- RELEASE TIME : 2022-11-25 15:40:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">52983ad5007f4d78e3b6aae683f11ca7</td>
+       <td>CVE-2022-4141</td>
+       <td>2022-11-25 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>The target's backtrace indicates that libc has detected a heap error or that the target was executing a heap function when it stopped. This could be due to heap corruption, passing a bad pointer to a heap function such as free(), etc. Since heap errors might include buffer overflows, use-after-free situations, etc. they are generally considered exploitable.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4141">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0ac152d45ff24ad4fa003d4870e4ed4b</td>
        <td>CVE-2022-4091</td>
        <td>2022-11-25 08:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-11-23 23:15:00</td>
        <td>systemd 250 and 251 allows local users to achieve a systemd-coredump deadlock by triggering a crash that has a long backtrace. This occurs in parse_elf_object in shared/elf-util.c. The exploitation methodology is to crash a binary calling the same function recursively, and put it in a deeply nested directory to make its backtrace large enough to cause the deadlock. This must be done 16 times when MaxConnections=16 is set for the systemd/units/systemd-coredump.socket file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45873">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13357974d898a8b6717d8bd907ba33ee</td>
-       <td>CVE-2022-45872</td>
-       <td>2022-11-23 22:15:00</td>
-       <td>iTerm2 before 3.4.18 mishandles a DECRQSS response.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45872">详情</a></td>
       </tr>
 
      </tbody>
