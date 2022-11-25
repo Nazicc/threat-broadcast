@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-25 06:45:31 -->
+<!-- RELEASE TIME : 2022-11-25 07:38:10 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">250a8c734a6f7e34376db8fd7ea8ffa3</td>
+       <td>CVE-2022-40282</td>
+       <td>2022-11-25 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The web server of Hirschmann BAT-C2 before 09.13.01.00R04 allows authenticated command injection. This allows an authenticated attacker to pass commands to the shell of the system because the dir parameter of the FsCreateDir Ajax function is not sufficiently sanitized. The vendor's ID is BSECV-2022-21.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40282">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ebfca81c8476b04a91bdacf0f583d70c</td>
+       <td>CVE-2022-2721</td>
+       <td>2022-11-25 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>In affected versions of Octopus Server it is possible for target discovery to print certain values marked as sensitive to log files in plaint-text in when verbose logging is enabled.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2721">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">20930a84e12ae2fe8a5930a647a0f443</td>
+       <td>CVE-2022-45888</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/char/xillybus/xillyusb.c has a race condition and use-after-free during physical removal of a USB device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45888">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0db8002f0643b7358cf06edfdead1cd6</td>
+       <td>CVE-2022-45887</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/usb/ttusb-dec/ttusb_dec.c has a memory leak because of the lack of a dvb_frontend_detach call.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45887">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5a4c7434ef39ffb54d5c9a24759f8582</td>
+       <td>CVE-2022-45886</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/dvb-core/dvb_net.c has a .disconnect versus dvb_device_open race condition that leads to a use-after-free.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45886">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1e33ecbd5ee214f259f393b8e8cf88a6</td>
+       <td>CVE-2022-45885</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/dvb-core/dvb_frontend.c has a race condition that can cause a use-after-free when a device is disconnected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45885">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f3d7ee26fa74c8f59314772a7ef26717</td>
+       <td>CVE-2022-45884</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/dvb-core/dvbdev.c has a use-after-free, related to dvb_register_device dynamically allocating fops.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45884">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4a2ef3cc8fba58406a1c7601babc284</td>
+       <td>CVE-2022-4135</td>
+       <td>2022-11-25 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Heap buffer overflow in GPU in Google Chrome prior to 107.0.5304.121 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4135">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d03c455a02074f0e336417a5ab991fad</td>
        <td>CVE-2022-29833</td>
        <td>2022-11-25 00:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-11-23 21:15:00</td>
        <td>A cross-site scripting (XSS) vulnerability in the Url parameter in /login.php of EyouCMS v1.6.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45280">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b0ddf24c6ab391752b425333944a1963</td>
-       <td>CVE-2022-45278</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>Jizhicms v2.3.3 was discovered to contain a SQL injection vulnerability via the /index.php/admins/Fields/get_fields.html component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45278">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e0544e55cfaeaa275eb74c4cb501d42</td>
-       <td>CVE-2022-45276</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>An issue in the /index/user/user_edit.html component of YJCMS v1.0.9 allows unauthenticated attackers to obtain the Administrator account password.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45276">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7c38ba5c9e9402fed5d518be634867a7</td>
-       <td>CVE-2022-44789</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>A logical issue in O_getOwnPropertyDescriptor() in Artifex MuJS 1.0.0 through 1.3.1 allows an attacker to achieve Remote Code Execution through memory corruption, via the loading of a crafted JavaScript file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44789">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fcf32f81cd919a4223b086a44fe44500</td>
-       <td>CVE-2022-44120</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>dedecmdv6 6.1.9 is vulnerable to SQL Injection. via sys_sql_query.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44120">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e038666df292d688630a9eedbdf720b7</td>
-       <td>CVE-2022-44118</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>dedecmdv6 v6.1.9 is vulnerable to Remote Code Execution (RCE) via file_manage_control.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44118">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fbf0f733da31325311258233894dbba3</td>
-       <td>CVE-2022-44117</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>Boa 0.94.14rc21 is vulnerable to SQL Injection via username.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44117">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bac5464a6d2db66621104f79636cf97f</td>
-       <td>CVE-2022-43196</td>
-       <td>2022-11-23 21:15:00</td>
-       <td>dedecmdv6 v6.1.9 is vulnerable to Arbitrary file deletion via file_manage_control.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43196">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2be908f675077ffcf69719decd6e83ed</td>
-       <td>CVE-2022-45866</td>
-       <td>2022-11-23 20:15:00</td>
-       <td>qpress before PierreLvx/qpress 20220819 and before version 11.3, as used in Percona XtraBackup and other products, allows directory traversal via ../ in a .qp file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45866">详情</a></td>
       </tr>
 
      </tbody>
@@ -2666,6 +2666,15 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">62ca372c3ac40c921b0873237684728a</td>
+       <td>CVE-2022-44087</td>
+       <td>2022-11-21 07:37:28</td>
+       <td>EARCLINK ESPCMS 远程代码执行漏洞（CVE-2022-44087）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-44087">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">60910ec03f987cb9d48f1b8b53952745</td>
        <td>CVE-2022-43782</td>
        <td>2022-11-21 03:34:47</td>
@@ -2681,6 +2690,15 @@
        <td>Bitbucket Server and Data Center 远程命令执行漏洞（CVE-2022-43781）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-43781">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a6c3c1a1c840df2c6c3449644605cd4c</td>
+       <td>CVE-2022-44088</td>
+       <td>2022-11-17 07:37:28</td>
+       <td>EARCLINK ESPCMS 远程代码执行漏洞（CVE-2022-44088）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-44088">详情</a></td>
       </tr>
 
       <tr>
@@ -2915,24 +2933,6 @@
        <td>OneDev 认证绕过致远程代码执行漏洞（CVE-2022-39205）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-39205">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e57c978c0b59853a13a626cf611f4c98</td>
-       <td>CVE-2022-36098</td>
-       <td>2022-09-09 05:05:31</td>
-       <td>XWiki Platform xwiki-platform-mentions-ui 表达式注入漏洞（CVE-2022-36098）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-36098">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e4ae4e4bd8028c0ad1e6a57fa838f43b</td>
-       <td>CVE-2022-36092</td>
-       <td>2022-09-09 05:05:31</td>
-       <td>XWiki Platform xwiki-platform-oldcore 认证授权绕过漏洞（CVE-2022-36092）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-36092">详情</a></td>
       </tr>
 
      </tbody>
