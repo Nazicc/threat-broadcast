@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-24999</font><br/>[<b>披露时间</b>] 2022-11-26 22:15:00<br/>[<b>漏洞描述</b>] qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has "deps: qs@6.9.7" in its release description, is not vulnerable).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-24999'>https://www.tenable.com/cve/CVE-2022-24999</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45369</font><br/>[<b>披露时间</b>] 2022-11-18 23:15:30 <br/>[<b>漏洞描述</b>] Auth. (subscriber+) Broken Access Control vulnerability in Plugin for Google Reviews plugin &lt;= 2.2.2 on WordPress.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45369'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45369</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
