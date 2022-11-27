@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45016</font><br/>[<b>披露时间</b>] 2022-11-27 20:17:12<br/>[<b>漏洞描述</b>] WBCE WBCE_CMS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e263850f5b454d469c5e1248a29c0089'>https://redqueen.tj-un.com/IntelDetails.html?id=e263850f5b454d469c5e1248a29c0089</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38755</font><br/>[<b>披露时间</b>] 2022-11-27 20:17:01<br/>[<b>漏洞描述</b>] MICROFOCUS FILR Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=dde96418be8749d5bc52b7b107413548'>https://redqueen.tj-un.com/IntelDetails.html?id=dde96418be8749d5bc52b7b107413548</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45013</font><br/>[<b>披露时间</b>] 2022-11-27 20:16:50<br/>[<b>漏洞描述</b>] WBCE WBCE_CMS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=84b091532c5640ad95a8ce6d73ad4262'>https://redqueen.tj-un.com/IntelDetails.html?id=84b091532c5640ad95a8ce6d73ad4262</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45471</font><br/>[<b>披露时间</b>] 2022-11-27 20:16:39<br/>[<b>漏洞描述</b>] JETBRAINS HUB Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=4a81119c3b6c4673ba36acf24143804c'>https://redqueen.tj-un.com/IntelDetails.html?id=4a81119c3b6c4673ba36acf24143804c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-76062</font><br/>[<b>披露时间</b>] 2022-11-28 16:48:33<br/>[<b>漏洞描述</b>] 启明星辰信息技术集团股份有限公司天清汉马USG存在弱口令漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-76062'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-76062</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
