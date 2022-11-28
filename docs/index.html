@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-28 11:38:25 -->
+<!-- RELEASE TIME : 2022-11-28 13:03:15 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">30e6dcfc042ce311715b41cdbcab9225</td>
+       <td>CVE-2022-45939</td>
+       <td>2022-11-28 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>GNU Emacs through 28.2 allows attackers to execute commands via shell metacharacters in the name of a source-code file, because lib-src/etags.c uses the system C library function in its implementation of the ctags program. For example, a victim may use the "ctags *" command (suggested in the ctags documentation) in a situation where the current working directory has contents that depend on untrusted input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45939">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d6ea0ad4ff66948f1b0955065612c912</td>
        <td>CVE-2022-45934</td>
        <td>2022-11-27 04:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-11-25 18:15:00</td>
        <td>Frappe version 14.10.0 allows an external attacker to remotely obtain arbitrary local files. This is possible because the application does not correctly validate the information injected by the user in the import_file parameter.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41712">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">34f5c5291a3a9a4ee227f867b46b5ddc</td>
-       <td>CVE-2022-41706</td>
-       <td>2022-11-25 18:15:00</td>
-       <td>Browsershot version 3.57.2 allows an external attacker to remotely obtain arbitrary local files. This is possible because the application does not validate the URL protocol passed to the Browsershot::url method.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41706">详情</a></td>
       </tr>
 
      </tbody>
