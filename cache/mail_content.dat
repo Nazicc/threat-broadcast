@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45939</font><br/>[<b>披露时间</b>] 2022-11-28 06:15:00<br/>[<b>漏洞描述</b>] GNU Emacs through 28.2 allows attackers to execute commands via shell metacharacters in the name of a source-code file, because lib-src/etags.c uses the system C library function in its implementation of the ctags program. For example, a victim may use the "ctags *" command (suggested in the ctags documentation) in a situation where the current working directory has contents that depend on untrusted input.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45939'>https://www.tenable.com/cve/CVE-2022-45939</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44196</font><br/>[<b>披露时间</b>] 2022-11-28 20:11:46<br/>[<b>漏洞描述</b>] NETGEAR R7000P_FIRMWARE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e71a78882bda4cd9b3e3288f5ffb0c0c'>https://redqueen.tj-un.com/IntelDetails.html?id=e71a78882bda4cd9b3e3288f5ffb0c0c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44199</font><br/>[<b>披露时间</b>] 2022-11-28 20:11:28<br/>[<b>漏洞描述</b>] NETGEAR R7000P_FIRMWARE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ca8c788f13584b55af59404601c44f87'>https://redqueen.tj-un.com/IntelDetails.html?id=ca8c788f13584b55af59404601c44f87</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41952</font><br/>[<b>披露时间</b>] 2022-11-28 20:11:16<br/>[<b>漏洞描述</b>] MATRIX SYNAPSE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=cb8b17c51e5b433ebaaf3921cfba83b8'>https://redqueen.tj-un.com/IntelDetails.html?id=cb8b17c51e5b433ebaaf3921cfba83b8</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
