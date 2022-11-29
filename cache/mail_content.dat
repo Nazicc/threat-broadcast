@@ -1,24 +1,22 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://ti.qianxin.com/advisory/">奇安信</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-11-24 16:47:42<br/>[<b>漏洞描述</b>] Smartbi商业智能BI软件 BusinessThemeServiceStub.js.stub 存在代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7841'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7841</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82634 (CVE-2022-31039)</font><br/>[<b>披露时间</b>] 2022-11-29 08:43:54<br/>[<b>漏洞描述</b>] BigBlueButton存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82634'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82634</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82644 (CVE-2017-20025)</font><br/>[<b>披露时间</b>] 2022-11-29 08:43:57<br/>[<b>漏洞描述</b>] Solar-Log GmbH存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82644'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82644</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82635 (CVE-2022-26497)</font><br/>[<b>披露时间</b>] 2022-11-29 08:43:59<br/>[<b>漏洞描述</b>] BigBlueButton跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82635'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82635</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82636 (CVE-2022-29234)</font><br/>[<b>披露时间</b>] 2022-11-29 08:44:01<br/>[<b>漏洞描述</b>] BigBlueButton授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82636'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82636</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82637 (CVE-2022-29233)</font><br/>[<b>披露时间</b>] 2022-11-29 08:44:04<br/>[<b>漏洞描述</b>] BigBlueButton授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82637'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82637</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34721</font><br/>[<b>披露时间</b>] 2022-11-29 08:16:23<br/>[<b>漏洞描述</b>] CVE-2022-34721：Windows IKE协议扩展远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=a92e2b4e0c3a580ec6ffcc1e30a11925'>https://cert.360.cn/warning/detail?id=a92e2b4e0c3a580ec6ffcc1e30a11925</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26497</font><br/>[<b>披露时间</b>] 2022-11-29 08:44:18<br/>[<b>漏洞描述</b>] BigBlueButton跨站脚本漏洞（CNVD-2022-82635）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417184'>http://cve.scap.org.cn/vuln/VHN-417184</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 奇安信<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] yt<br/>[<b>漏洞描述</b>] QiAnXinTI-SV-2020-0009 Microsoft Windows Type 1字体处理远程代码执行漏洞（ADV200006）通告<br/>[<b>相关链接</b>] <a href='wt'>wt</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82657 (CVE-2022-31133)</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:25<br/>[<b>漏洞描述</b>] HumHub跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82657'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82657</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82658 (CVE-2017-20026)</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:32<br/>[<b>漏洞描述</b>] HumHub跨站脚本漏洞安全漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82658'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82658</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82659 (CVE-2017-20027)</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:35<br/>[<b>漏洞描述</b>] HumHub跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82659'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82659</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30784</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:49<br/>[<b>漏洞描述</b>] Tuxera NTFS-3G存在未明漏洞（CNVD-2022-82650）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422322'>http://cve.scap.org.cn/vuln/VHN-422322</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30785</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:49<br/>[<b>漏洞描述</b>] Tuxera NTFS-3G代码注入漏洞（CNVD-2022-82648）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422323'>http://cve.scap.org.cn/vuln/VHN-422323</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30788</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:49<br/>[<b>漏洞描述</b>] Tuxera NTFS-3G缓冲区溢出漏洞（CNVD-2022-82646）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422326'>http://cve.scap.org.cn/vuln/VHN-422326</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30789</font><br/>[<b>披露时间</b>] 2022-11-29 09:39:49<br/>[<b>漏洞描述</b>] Tuxera NTFS-3G缓冲区溢出漏洞（CNVD-2022-82645）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422327'>http://cve.scap.org.cn/vuln/VHN-422327</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
