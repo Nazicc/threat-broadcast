@@ -1,17 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82256 (CVE-2021-42867)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:14<br/>[<b>漏洞描述</b>] HTMLy跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82256'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82256</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82257 (CVE-2021-42946)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:16<br/>[<b>漏洞描述</b>] HTMLy跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82257'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82257</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82258 (CVE-2022-27816)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:18<br/>[<b>漏洞描述</b>] SWHKD拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82258'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82258</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82259 (CVE-2022-24132)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:21<br/>[<b>漏洞描述</b>] PHPSHE拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82259'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82259</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82260 (CVE-2022-1177)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:23<br/>[<b>漏洞描述</b>] OpenEMR信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82260'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82260</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82261 (CVE-2022-23427)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:25<br/>[<b>漏洞描述</b>] Samsung SettingsReceiver PendingIntent劫持漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82261'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82261</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-82262 (CVE-2021-25114)</font><br/>[<b>披露时间</b>] 2022-11-30 16:51:27<br/>[<b>漏洞描述</b>] Wordpress Plugin Paid Memberships Pro SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-82262'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-82262</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30974</font><br/>[<b>披露时间</b>] 2022-11-29 17:38:28<br/>[<b>漏洞描述</b>] compile in regexp.c in Artifex MuJS through 1.2.0......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-422641'>http://cve.scap.org.cn/vuln/VHN-422641</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
