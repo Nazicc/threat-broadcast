@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-30 22:41:03 -->
+<!-- RELEASE TIME : 2022-12-01 02:27:06 -->
 <html lang="zh-cn">
 
  <head>
@@ -36,7 +36,7 @@
       <tr>
        <td scope="row">c2db08eeadf3aee68605a7ef55df86c0</td>
        <td>CVE-2022-34721</td>
-       <td>2022-11-29 08:16:23 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:16:23</td>
        <td>CVE-2022-34721：Windows IKE协议扩展远程代码执行漏洞</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=a92e2b4e0c3a580ec6ffcc1e30a11925">详情</a></td>
       </tr>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c704d61f3b721d49e332c3aedb9f38d3</td>
+       <td>CVE-2022-40204</td>
+       <td>2022-12-01 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability exists in all current versions of Digital Alert Systems DASDEC software via the Host Header in undisclosed pages after login.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40204">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec685b714fd899a998d27efd38f97290</td>
+       <td>CVE-2022-46162</td>
+       <td>2022-11-30 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>discourse-bbcode is the official BBCode plugin for Discourse. Prior to commit 91478f5, CSS injection can occur when rendering content generated with the discourse-bccode plugin. This vulnerability only affects sites which have the discourse-bbcode plugin installed and enabled. This issue is patched in commit 91478f5. As a workaround, ensure that the Content Security Policy is enabled and monitor any posts that contain bbcode.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46162">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">be8b98721631f6009f844783f8a442ce</td>
+       <td>CVE-2019-18265</td>
+       <td>2022-11-30 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Digital Alert Systems’ DASDEC software prior to version 4.1 contains a cross-site scripting (XSS) vulnerability that allows remote attackers to inject arbitrary web script or HTML via the SSH username, username field of the login page, or via the HTTP host header. The injected content is stored in logs and rendered when viewed in the web application.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2019-18265">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2ca40668231a389632ecc2bb18ff2bfb</td>
+       <td>CVE-2022-46156</td>
+       <td>2022-11-30 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Synthetic Monitoring Agent for Grafana's Synthetic Monitoring application provides probe functionality and executes network checks for monitoring remote targets. Users running the Synthetic Monitoring agent prior to version 0.12.0 in their local network are impacted. The authentication token used to communicate with the Synthetic Monitoring API is exposed through a debugging endpoint. This token can be used to retrieve the Synthetic Monitoring checks created by the user and assigned to the agent identified with that token. The Synthetic Monitoring API will reject connections from already-connected agents, so access to the token does not guarantee access to the checks. Version 0.12.0 contains a fix. Users are advised to rotate the agent tokens. After upgrading to version v0.12.0 or later, it's recommended that users of distribution packages review the configuration stored in `/etc/synthetic-monitoring/synthetic-monitoring-agent.conf`, specifically the `API_TOKEN` variable which has been renamed to `SM_AGENT_API_TOKEN`. As a workaround for previous versions, it's recommended that users review the agent settings and set the HTTP listening address in a manner that limits the exposure, for example, localhost or a non-routed network, by using the command line parameter `-listen-address`, e.g. `-listen-address localhost:4050`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46156">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2e3195020c34baecd1e347b4c8aa80dc</td>
        <td>CVE-2022-23746</td>
        <td>2022-11-30 19:15:00 <img src="imgs/new.gif" /></td>
@@ -487,38 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4222">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">e75a79e41e1b65050dfd2d1763b4fc8d</td>
-       <td>CVE-2022-46338</td>
-       <td>2022-11-30 06:15:00 <img src="imgs/new.gif" /></td>
-       <td>g810-led 0.4.2, a LED configuration tool for Logitech Gx10 keyboards, contained a udev rule to make supported device nodes world-readable and writable, allowing any process on the system to read traffic from keyboards, including sensitive data.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46338">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">052147923c1df5a853275d3e3c50bbf6</td>
-       <td>CVE-2022-45869</td>
-       <td>2022-11-30 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>A race condition in the x86 KVM subsystem in the Linux kernel through 6.1-rc6 allows guest OS users to cause a denial of service (host OS crash or host OS memory corruption) when nested virtualisation and the TDP MMU are enabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45869">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6a6a85502449121ddcd401cfdc67472d</td>
-       <td>CVE-2022-44097</td>
-       <td>2022-11-30 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Book Store Management System v1.0 was discovered to contain hardcoded credentials which allows attackers to escalate privileges and access the admin panel.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44097">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e95ff919e5b5178faf4d316ecc404c75</td>
-       <td>CVE-2022-44096</td>
-       <td>2022-11-30 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Sanitization Management System v1.0 was discovered to contain hardcoded credentials which allows attackers to escalate privileges and access the admin panel.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44096">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -626,7 +626,7 @@
       <tr>
        <td scope="row">93086ef90c0936fa9178f524352b682e</td>
        <td>CVE-2022-30974</td>
-       <td>2022-11-29 17:38:28 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 17:38:28</td>
        <td>compile in regexp.c in Artifex MuJS through 1.2.0......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422641">详情</a></td>
@@ -635,7 +635,7 @@
       <tr>
        <td scope="row">258106f37e8edb08fd3cf23dbf675d32</td>
        <td>CVE-2021-43825</td>
-       <td>2022-11-29 10:42:04 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 10:42:04</td>
        <td>Envoy资源管理错误漏洞（CNVD-2022-82669）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-406450">详情</a></td>
@@ -644,7 +644,7 @@
       <tr>
        <td scope="row">8d7a84e9193399a12891dff5da2ca476</td>
        <td>CVE-2022-24865</td>
-       <td>2022-11-29 10:42:04 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 10:42:04</td>
        <td>HumHub存在未明漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-414684">详情</a></td>
@@ -653,7 +653,7 @@
       <tr>
        <td scope="row">87d2e27672157d7d3423e5afc1c62540</td>
        <td>CVE-2022-30784</td>
-       <td>2022-11-29 09:39:49 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:49</td>
        <td>Tuxera NTFS-3G存在未明漏洞（CNVD-2022-82650）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422322">详情</a></td>
@@ -662,7 +662,7 @@
       <tr>
        <td scope="row">abc330a20568f9e382907593f500e01d</td>
        <td>CVE-2022-30785</td>
-       <td>2022-11-29 09:39:49 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:49</td>
        <td>Tuxera NTFS-3G代码注入漏洞（CNVD-2022-82648）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422323">详情</a></td>
@@ -671,7 +671,7 @@
       <tr>
        <td scope="row">3c9fc01786e67d2238af52973bf405f1</td>
        <td>CVE-2022-30788</td>
-       <td>2022-11-29 09:39:49 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:49</td>
        <td>Tuxera NTFS-3G缓冲区溢出漏洞（CNVD-2022-82646）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422326">详情</a></td>
@@ -680,7 +680,7 @@
       <tr>
        <td scope="row">c8e66cd39c00f585886bedebd2649ada</td>
        <td>CVE-2022-30789</td>
-       <td>2022-11-29 09:39:49 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:49</td>
        <td>Tuxera NTFS-3G缓冲区溢出漏洞（CNVD-2022-82645）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422327">详情</a></td>
@@ -689,7 +689,7 @@
       <tr>
        <td scope="row">9534746e117ba1da66ca35b685c81a3b</td>
        <td>CVE-2022-26497</td>
-       <td>2022-11-29 08:44:18 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:44:18</td>
        <td>BigBlueButton跨站脚本漏洞（CNVD-2022-82635）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-417184">详情</a></td>
@@ -698,7 +698,7 @@
       <tr>
        <td scope="row">1ab72c43170f2300925677859faaaa3c</td>
        <td>CVE-2022-22686</td>
-       <td>2022-11-29 04:45:05 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 04:45:05</td>
        <td>Synology Calendar跨站请求伪造漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-411351">详情</a></td>
@@ -707,7 +707,7 @@
       <tr>
        <td scope="row">6f39d2f93490ef6456b69ecb85320a85</td>
        <td>CVE-2022-20741</td>
-       <td>2022-11-29 03:46:19 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 03:46:19</td>
        <td>Cisco Secure Network Analytics跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405294">详情</a></td>
@@ -826,6 +826,54 @@
       </tr>
 
       <tr>
+       <td scope="row">78b488b84ffb8cafb75418d9c003bccb</td>
+       <td>CNVD-2022-83583 (CVE-2022-31773)</td>
+       <td>2022-12-01 02:26:40 <img src="imgs/new.gif" /></td>
+       <td>IBM DataPower Gateway跨站点请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83583">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d7ab54230844919bd97a8c4018b38a48</td>
+       <td>CNVD-2022-83582 (CVE-2022-34336)</td>
+       <td>2022-12-01 02:26:38 <img src="imgs/new.gif" /></td>
+       <td>IBM WebSphere Application Server跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83582">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">68a639cc0ca9611ccfd3d409854a3c40</td>
+       <td>CNVD-2022-83581 (CVE-2022-36768)</td>
+       <td>2022-12-01 02:26:36 <img src="imgs/new.gif" /></td>
+       <td>IBM AIX命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83581">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">073bc60d434f9bc932dc148a441765cd</td>
+       <td>CNVD-2022-83580 (CVE-2022-34320)</td>
+       <td>2022-12-01 02:26:31 <img src="imgs/new.gif" /></td>
+       <td>IBM CICS TX加密问题漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83580">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1cfff7ca302bdd4ce985d9ed41705654</td>
+       <td>CNVD-2022-83579 (CVE-2022-34319)</td>
+       <td>2022-12-01 02:26:29 <img src="imgs/new.gif" /></td>
+       <td>IBM CICS TX加密问题漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83579">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">54847d680e166397be9bcb79cdc5c127</td>
+       <td>CNVD-2022-83578 (CVE-2022-34313)</td>
+       <td>2022-12-01 02:26:27 <img src="imgs/new.gif" /></td>
+       <td>IBM CICS TX信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83578">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">aa9e8fc7ee6e192c23b1bc38e07e0c25</td>
        <td>CNVD-2022-82262 (CVE-2021-25114)</td>
        <td>2022-11-30 16:51:27 <img src="imgs/new.gif" /></td>
@@ -940,7 +988,7 @@
       <tr>
        <td scope="row">78c68d21883b833d1cbca2760310bf2a</td>
        <td>CNVD-2022-82659 (CVE-2017-20027)</td>
-       <td>2022-11-29 09:39:35 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:35</td>
        <td>HumHub跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82659">详情</a></td>
       </tr>
@@ -948,7 +996,7 @@
       <tr>
        <td scope="row">8f2eebfd193b12e2dc81402bb114a0b6</td>
        <td>CNVD-2022-82658 (CVE-2017-20026)</td>
-       <td>2022-11-29 09:39:32 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:32</td>
        <td>HumHub跨站脚本漏洞安全漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82658">详情</a></td>
       </tr>
@@ -956,7 +1004,7 @@
       <tr>
        <td scope="row">44f4fe33288b230052b96b943e2b1f91</td>
        <td>CNVD-2022-82657 (CVE-2022-31133)</td>
-       <td>2022-11-29 09:39:25 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 09:39:25</td>
        <td>HumHub跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82657">详情</a></td>
       </tr>
@@ -964,7 +1012,7 @@
       <tr>
        <td scope="row">0f3cde32da6fb9b383b59ee572003e3b</td>
        <td>CNVD-2022-82637 (CVE-2022-29233)</td>
-       <td>2022-11-29 08:44:04 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:44:04</td>
        <td>BigBlueButton授权问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82637">详情</a></td>
       </tr>
@@ -972,7 +1020,7 @@
       <tr>
        <td scope="row">fd3fd3d8b2948119840d2826505b0041</td>
        <td>CNVD-2022-82636 (CVE-2022-29234)</td>
-       <td>2022-11-29 08:44:01 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:44:01</td>
        <td>BigBlueButton授权问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82636">详情</a></td>
       </tr>
@@ -980,7 +1028,7 @@
       <tr>
        <td scope="row">e507d7800c7147951614065f181a9eae</td>
        <td>CNVD-2022-82635 (CVE-2022-26497)</td>
-       <td>2022-11-29 08:43:59 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:43:59</td>
        <td>BigBlueButton跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82635">详情</a></td>
       </tr>
@@ -988,7 +1036,7 @@
       <tr>
        <td scope="row">71cb774b61a7edba21d6ededbdd9b7fd</td>
        <td>CNVD-2022-82644 (CVE-2017-20025)</td>
-       <td>2022-11-29 08:43:57 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:43:57</td>
        <td>Solar-Log GmbH存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82644">详情</a></td>
       </tr>
@@ -996,7 +1044,7 @@
       <tr>
        <td scope="row">ffc06ce705e28d6e8aa40f39ff1b8930</td>
        <td>CNVD-2022-82634 (CVE-2022-31039)</td>
-       <td>2022-11-29 08:43:54 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 08:43:54</td>
        <td>BigBlueButton存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82634">详情</a></td>
       </tr>
@@ -1004,57 +1052,9 @@
       <tr>
        <td scope="row">4950a5d0527b8b14f6b7dd6b9a38d563</td>
        <td>CNVD-2022-82572 (CVE-2022-22686)</td>
-       <td>2022-11-29 03:45:51 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 03:45:51</td>
        <td>Synology Calendar跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82572">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f785ca6ef34016ca62785e39242309d6</td>
-       <td>CNVD-2022-82573 (CVE-2022-22683)</td>
-       <td>2022-11-29 03:45:48 <img src="imgs/new.gif" /></td>
-       <td>Synology Media Server缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82573">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e4b8f1c4eaf1e3175f3eb014c171787</td>
-       <td>CNVD-2022-82254 (CVE-2022-26947)</td>
-       <td>2022-11-29 03:07:33 <img src="imgs/new.gif" /></td>
-       <td>RSA Archer跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82254">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14a7272d52b75072bf4568e1e8d15dfd</td>
-       <td>CNVD-2022-82253 (CVE-2019-4059)</td>
-       <td>2022-11-29 03:07:31 <img src="imgs/new.gif" /></td>
-       <td>IBM Rational ClearCase GIT connector信任管理问题漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82253">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">362d9bfc159c307e4ee82f67db8a0ae3</td>
-       <td>CNVD-2022-82252 (CVE-2022-26546)</td>
-       <td>2022-11-29 03:07:29 <img src="imgs/new.gif" /></td>
-       <td>Hospital Management System未授权访问漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82252">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9259a9932a6c864c6905b200d469e150</td>
-       <td>CNVD-2022-82269 (CVE-2022-26565)</td>
-       <td>2022-11-29 03:07:27 <img src="imgs/new.gif" /></td>
-       <td>Totaljs跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82269">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">deab13acfdceff8cc5f1125631e88e6b</td>
-       <td>CNVD-2022-82268 (CVE-2022-27248)</td>
-       <td>2022-11-29 03:07:24 <img src="imgs/new.gif" /></td>
-       <td>IdeaRe SpA IdeaRE RefTree路径遍历漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-82268">详情</a></td>
       </tr>
 
      </tbody>
@@ -1930,7 +1930,7 @@
       <tr>
        <td scope="row">ca3fbe2a01075c5fe92ff6be9460a932</td>
        <td>CVE-2022-44193</td>
-       <td>2022-11-29 20:11:32 <img src="imgs/new.gif" /></td>
+       <td>2022-11-29 20:11:32</td>
        <td>NETGEAR R7000P_FIRMWARE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=b96875e703f84d27bcdf3070d61118c7">详情</a></td>
       </tr>
