@@ -1,16 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-0699</font><br/>[<b>披露时间</b>] 2022-12-01 03:52:25<br/>[<b>漏洞描述</b>] Google Pixel缓冲区溢出漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-373290'>http://cve.scap.org.cn/vuln/VHN-373290</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33684</font><br/>[<b>披露时间</b>] 2022-12-01 03:52:25<br/>[<b>漏洞描述</b>] Apache Pulsar信任管理问题漏洞（CNVD-2022-83591）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-425824'>http://cve.scap.org.cn/vuln/VHN-425824</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429992</font><br/>[<b>披露时间</b>] 2022-12-01 03:52:25<br/>[<b>漏洞描述</b>] Apache Airflow操作系统命令注入漏洞（CNVD-2022-83588）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429992'>http://cve.scap.org.cn/vuln/VHN-429992</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45640</font><br/>[<b>披露时间</b>] 2022-12-01 05:15:00<br/>[<b>漏洞描述</b>] Tenda Tenda AC6V1.0 V15.03.05.19 is affected by buffer overflow. Causes a denial of service (local).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45640'>https://www.tenable.com/cve/CVE-2022-45640</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45045</font><br/>[<b>披露时间</b>] 2022-12-01 05:15:00<br/>[<b>漏洞描述</b>] Multiple Xiongmai NVR devices, including MBD6304T V4.02.R11.00000117.10001.131900.00000 and NBD6808T-PL V4.02.R11.C7431119.12001.130000.00000, allow authenticated users to execute arbitrary commands as root, as exploited in the wild starting in approximately 2019. A remote and authenticated attacker, possibly using the default admin:tlJwpbo6 credentials, can connect to port 34567 and execute arbitrary operating system commands via a crafted JSON file during an upgrade request. Since at least 2021, Xiongmai has applied patches to prevent attackers from using this mechanism to execute telnetd.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45045'>https://www.tenable.com/cve/CVE-2022-45045</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44262</font><br/>[<b>披露时间</b>] 2022-12-01 05:15:00<br/>[<b>漏洞描述</b>] ff4j 1.8.1 is vulnerable to Remote Code Execution (RCE).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-44262'>https://www.tenable.com/cve/CVE-2022-44262</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40849</font><br/>[<b>披露时间</b>] 2022-12-01 05:15:00<br/>[<b>漏洞描述</b>] ThinkCMF version 6.0.7 is affected by Stored Cross-Site Scripting (XSS). An attacker who successfully exploited this vulnerability could inject a Persistent XSS payload in the Slideshow Management section that execute arbitrary JavaScript code on the client side, e.g., to steal the administrator's PHP session token (PHPSESSID).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40849'>https://www.tenable.com/cve/CVE-2022-40849</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40489</font><br/>[<b>披露时间</b>] 2022-12-01 05:15:00<br/>[<b>漏洞描述</b>] ThinkCMF version 6.0.7 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows a Super Administrator user to be injected into administrative users.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40489'>https://www.tenable.com/cve/CVE-2022-40489</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
