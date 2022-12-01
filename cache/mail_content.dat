@@ -1,32 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45205</font><br/>[<b>披露时间</b>] 2022-11-29 03:24:58<br/>[<b>漏洞描述</b>] JeecgBoot Jeecg-Boot SQL注入漏洞（CVE-2022-45205）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-45205'>https://avd.aliyun.com/detail?id=AVD-2022-45205</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-83588 (CVE-2022-41131)</font><br/>[<b>披露时间</b>] 2022-12-01 03:24:59<br/>[<b>漏洞描述</b>] Apache Airflow操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-83588'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-83588</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-83589 (CVE-2022-40189)</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:02<br/>[<b>漏洞描述</b>] Apache Airflow操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-83589'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-83589</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-83590 (CVE-2022-45470)</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:04<br/>[<b>漏洞描述</b>] Apache Hama路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-83590'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-83590</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-83591 (CVE-2022-33684)</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:13<br/>[<b>漏洞描述</b>] Apache Pulsar信任管理问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-83591'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-83591</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31773</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM DataPower Gateway跨站点请求伪造漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423623'>http://cve.scap.org.cn/vuln/VHN-423623</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34313</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM CICS TX信息泄露漏洞（CNVD-2022-83578）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426617'>http://cve.scap.org.cn/vuln/VHN-426617</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34319</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM CICS TX加密问题漏洞（CNVD-2022-83579）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426623'>http://cve.scap.org.cn/vuln/VHN-426623</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34320</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM CICS TX加密问题漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426624'>http://cve.scap.org.cn/vuln/VHN-426624</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34336</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM WebSphere Application Server跨站脚本漏洞（CNVD-2022-83582）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426640'>http://cve.scap.org.cn/vuln/VHN-426640</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34358</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM i跨站脚本漏洞（CNVD-2022-83587）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426674'>http://cve.scap.org.cn/vuln/VHN-426674</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429991</font><br/>[<b>披露时间</b>] 2022-12-01 03:25:27<br/>[<b>漏洞描述</b>] IBM AIX命令注入漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429991'>http://cve.scap.org.cn/vuln/VHN-429991</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-0699</font><br/>[<b>披露时间</b>] 2022-12-01 03:52:25<br/>[<b>漏洞描述</b>] Google Pixel缓冲区溢出漏洞
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-373290'>http://cve.scap.org.cn/vuln/VHN-373290</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33684</font><br/>[<b>披露时间</b>] 2022-12-01 03:52:25<br/>[<b>漏洞描述</b>] Apache Pulsar信任管理问题漏洞（CNVD-2022-83591）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-425824'>http://cve.scap.org.cn/vuln/VHN-425824</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-429992</font><br/>[<b>披露时间</b>] 2022-12-01 03:52:25<br/>[<b>漏洞描述</b>] Apache Airflow操作系统命令注入漏洞（CNVD-2022-83588）
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-429992'>http://cve.scap.org.cn/vuln/VHN-429992</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
