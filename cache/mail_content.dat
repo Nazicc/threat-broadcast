@@ -1,14 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3735</font><br/>[<b>披露时间</b>] 2022-12-02 11:37:34<br/>[<b>漏洞描述</b>] QEMU拒绝服务漏洞（CNVD-2022-84158）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-399177'>http://cve.scap.org.cn/vuln/VHN-399177</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3750</font><br/>[<b>披露时间</b>] 2022-12-02 11:37:34<br/>[<b>漏洞描述</b>] QEMU资源管理错误漏洞（CNVD-2022-84160）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-399275'>http://cve.scap.org.cn/vuln/VHN-399275</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29832</font><br/>[<b>披露时间</b>] 2022-12-02 20:12:24<br/>[<b>漏洞描述</b>] MITSUBISHIELECTRIC GX_WORKS3 Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=56c2fd85884f4f929aa64e9a93d9b53d'>https://redqueen.tj-un.com/IntelDetails.html?id=56c2fd85884f4f929aa64e9a93d9b53d</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45885</font><br/>[<b>披露时间</b>] 2022-12-02 20:12:11<br/>[<b>漏洞描述</b>] LINUX LINUX_KERNEL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e28320a9e5ad4e978d9786045d2f6203'>https://redqueen.tj-un.com/IntelDetails.html?id=e28320a9e5ad4e978d9786045d2f6203</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45888</font><br/>[<b>披露时间</b>] 2022-12-02 20:12:05<br/>[<b>漏洞描述</b>] LINUX LINUX_KERNEL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b894fd7e8680413c8af6cc793bced7b9'>https://redqueen.tj-un.com/IntelDetails.html?id=b894fd7e8680413c8af6cc793bced7b9</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2808</font><br/>[<b>披露时间</b>] 2022-12-02 12:15:00<br/>[<b>漏洞描述</b>] Algan YazÄ±lÄ±m Prens Student Information System product has an authenticated Insecure Direct Object Reference (IDOR) vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2808'>https://www.tenable.com/cve/CVE-2022-2808</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2807</font><br/>[<b>披露时间</b>] 2022-12-02 12:15:00<br/>[<b>漏洞描述</b>] Algan YazÄ±lÄ±m Prens Student Information System product has an unauthenticated SQL Injection vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2807'>https://www.tenable.com/cve/CVE-2022-2807</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
