@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-84554 (CVE-2022-46146)</font><br/>[<b>披露时间</b>] 2022-12-05 16:46:12<br/>[<b>漏洞描述</b>] prometheus exporter_toolkit存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-84554'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-84554</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-84555 (CVE-2022-36433)</font><br/>[<b>披露时间</b>] 2022-12-05 16:46:14<br/>[<b>漏洞描述</b>] Amasty Blog Pro  for Magento 2跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-84555'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-84555</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40772</font><br/>[<b>披露时间</b>] 2022-11-23 18:15:12 <br/>[<b>漏洞描述</b>] Zoho ManageEngine ServiceDesk Plus versions 13010 and prior are vulnerable to a validation bypass that allows users to access sensitive data via the report module.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40772'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40772</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40771</font><br/>[<b>披露时间</b>] 2022-11-23 18:15:12 <br/>[<b>漏洞描述</b>] Zoho ManageEngine ServiceDesk Plus versions 13010 and prior are vulnerable to an XML External Entity attack that leads to Information Disclosure.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40771'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40771</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
