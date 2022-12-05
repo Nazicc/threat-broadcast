@@ -1,22 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-430023</font><br/>[<b>披露时间</b>] 2022-12-05 14:38:20<br/>[<b>漏洞描述</b>] Apache Tapestry远程代码执行漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-430023'>http://cve.scap.org.cn/vuln/VHN-430023</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3711</font><br/>[<b>披露时间</b>] 2022-12-05 20:21:44<br/>[<b>漏洞描述</b>] SOPHOS XG_FIREWALL_FIRMWARE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=9f4ea81947654ea0a17e8521a8cc4c36'>https://redqueen.tj-un.com/IntelDetails.html?id=9f4ea81947654ea0a17e8521a8cc4c36</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3710</font><br/>[<b>披露时间</b>] 2022-12-05 20:21:39<br/>[<b>漏洞描述</b>] SOPHOS XG_FIREWALL_FIRMWARE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=9fbe3de7768e4744ab92d963aa2965ce'>https://redqueen.tj-un.com/IntelDetails.html?id=9fbe3de7768e4744ab92d963aa2965ce</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46152</font><br/>[<b>披露时间</b>] 2022-12-05 20:21:33<br/>[<b>漏洞描述</b>] OP-TEE OP-TEE_OS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2b0a30c390ef40e9bb5083db8f9ecb3d'>https://redqueen.tj-un.com/IntelDetails.html?id=2b0a30c390ef40e9bb5083db8f9ecb3d</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3383</font><br/>[<b>披露时间</b>] 2022-12-05 20:21:08<br/>[<b>漏洞描述</b>] ULTIMATEMEMBER ULTIMATE_MEMBER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e8637cc0b0f94a839a80a1f3792fb685'>https://redqueen.tj-un.com/IntelDetails.html?id=e8637cc0b0f94a839a80a1f3792fb685</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3709</font><br/>[<b>披露时间</b>] 2022-12-05 20:21:03<br/>[<b>漏洞描述</b>] SOPHOS XG_FIREWALL_FIRMWARE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b05b526f8e5147379e7eff7103fb40eb'>https://redqueen.tj-un.com/IntelDetails.html?id=b05b526f8e5147379e7eff7103fb40eb</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4175</font><br/>[<b>披露时间</b>] 2022-12-05 20:20:51<br/>[<b>漏洞描述</b>] GOOGLE CHROME Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0b673a3063d84cedb0e14c4698dce31b'>https://redqueen.tj-un.com/IntelDetails.html?id=0b673a3063d84cedb0e14c4698dce31b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45824</font><br/>[<b>披露时间</b>] 2022-12-05 12:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in Advanced Booking Calendar plugin <= 1.7.1 on WordPress.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45824'>https://www.tenable.com/cve/CVE-2022-45824</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45822</font><br/>[<b>披露时间</b>] 2022-12-05 11:15:00<br/>[<b>漏洞描述</b>] Unauth. SQL Injection (SQLi) vulnerability in Advanced Booking Calendar plugin <= 1.7.1 on WordPress.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45822'>https://www.tenable.com/cve/CVE-2022-45822</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45204</font><br/>[<b>披露时间</b>] 2022-11-29 04:15:11 <br/>[<b>漏洞描述</b>] GPAC v2.1-DEV-rev428-gcb8ae46c8-master was discovered to contain a memory leak via the function dimC_box_read at isomedia/box_code_3gpp.c.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45204'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45204</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45202</font><br/>[<b>披露时间</b>] 2022-11-29 04:15:11 <br/>[<b>漏洞描述</b>] GPAC v2.1-DEV-rev428-gcb8ae46c8-master was discovered to contain a stack overflow via the function dimC_box_read at isomedia/box_code_3gpp.c.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45202'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45202</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
