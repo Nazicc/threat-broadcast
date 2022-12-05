@@ -1,26 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">8</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26792</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Microsoft Windows Print Spooler权限提升漏洞（CNVD-2022-84605）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417459'>http://cve.scap.org.cn/vuln/VHN-417459</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26818</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Microsoft Windows DNS Server远程代码执行漏洞（CNVD-2022-84606）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417485'>http://cve.scap.org.cn/vuln/VHN-417485</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26819</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Microsoft Windows DNS Server远程代码执行漏洞（CNVD-2022-84607）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417486'>http://cve.scap.org.cn/vuln/VHN-417486</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26820</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Microsoft Windows DNS Server远程代码执行漏洞（CNVD-2022-84608）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417487'>http://cve.scap.org.cn/vuln/VHN-417487</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26821</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Microsoft Windows DNS Server远程代码执行漏洞（CNVD-2022-84609）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417488'>http://cve.scap.org.cn/vuln/VHN-417488</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-26822</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Microsoft Windows DNS Server远程代码执行漏洞（CNVD-2022-84610）
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-417489'>http://cve.scap.org.cn/vuln/VHN-417489</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-430021</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] 深圳英飞拓科技股份有限公司VH121-A2存在弱口令漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-430021'>http://cve.scap.org.cn/vuln/VHN-430021</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-430022</font><br/>[<b>披露时间</b>] 2022-12-05 08:42:31<br/>[<b>漏洞描述</b>] Infinova HD Network Mini Dome存在弱口令漏洞
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-430022'>http://cve.scap.org.cn/vuln/VHN-430022</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-84611 (CVE-2020-35168)</font><br/>[<b>披露时间</b>] 2022-12-05 09:37:51<br/>[<b>漏洞描述</b>] Dell BSAFE Crypto-C Micro Edition and Dell BSAFE Micro Edition Suite存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-84611'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-84611</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-84612 (CVE-2020-35169)</font><br/>[<b>披露时间</b>] 2022-12-05 09:37:53<br/>[<b>漏洞描述</b>] Dell BSAFE Crypto-C Micro Edition and Dell BSAFE Micro Edition Suite输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-84612'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-84612</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-84613 (CVE-2020-35167)</font><br/>[<b>披露时间</b>] 2022-12-05 09:37:56<br/>[<b>漏洞描述</b>] Dell BSAFE Crypto-C Micro Edition and Dell BSAFE Micro Edition Suite存在未明漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-84613'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-84613</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
