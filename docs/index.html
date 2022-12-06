@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-06 06:42:38 -->
+<!-- RELEASE TIME : 2022-12-06 07:38:19 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f2e56168e41036a1e895442ef0cacfcf</td>
+       <td>CVE-2022-25912</td>
+       <td>2022-12-06 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package simple-git before 3.15.0 are vulnerable to Remote Code Execution (RCE) when enabling the ext transport protocol, which makes it exploitable via clone() method.This vulnerability exists due to an incomplete fix of [CVE-2022-24066](https://security.snyk.io/vuln/SNYK-JS-SIMPLEGIT-2434306).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25912">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ccb59153c6e02c764e7c8b013c2c64a2</td>
+       <td>CVE-2022-24439</td>
+       <td>2022-12-06 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package gitpython are vulnerable to Remote Code Execution (RCE) due to improper user input validation, which makes it possible to inject a maliciously crafted remote URL into the clone command. Exploiting this vulnerability is possible because the library makes external calls to git without sufficient sanitization of input arguments.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24439">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e38c60940df105deaa32e8276d92ab97</td>
+       <td>CVE-2022-40603</td>
+       <td>2022-12-06 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability in the CGI program of Zyxel ZyWALL/USG series firmware versions 4.30 through 4.72, VPN series firmware versions 4.30 through 5.31, USG FLEX series firmware versions 4.50 through 5.31, and ATP series firmware versions 4.32 through 5.31, which could allow an attacker to trick a user into visiting a crafted URL with the XSS payload. Then, the attacker could gain access to some browser-based information if the malicious script is executed on the victim’s browser.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40603">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">755937e3fd9c07f9d7bf0fec868556f1</td>
+       <td>CVE-2022-34881</td>
+       <td>2022-12-06 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Generation of Error Message Containing Sensitive Information vulnerability in Hitachi JP1/Automatic Operation allows local users to gain sensitive information. This issue affects JP1/Automatic Operation: from 10-00 through 10-54-03, from 11-00 before 11-51-09, from 12-00 before 12-60-01.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34881">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">36770b3904407f6b549ca52ca35e334c</td>
+       <td>CVE-2022-46151</td>
+       <td>2022-12-06 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Querybook is an open source data querying UI. In affected versions user provided data is not escaped in the error field of the auth callback url in `querybook/server/app/auth/oauth_auth.py` and `querybook/server/app/auth/okta_auth.py`. This may allow attackers to perform reflected cross site scripting (XSS) if Content Security Policy (CSP) is not enabled or `unsafe-inline` is allowed. Users are advised to upgrade to the latest, patched version of querybook (version 3.14.2 or greater). Users unable to upgrade may enable CSP and not allow unsafe-inline or manually escape query parameters in a reverse proxy.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46151">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">36d5e1abbdc55fe2a69c9fc65b2b35e5</td>
        <td>CVE-2022-45283</td>
        <td>2022-12-06 00:15:00 <img src="imgs/new.gif" /></td>
@@ -479,46 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43515">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">6c6e770390f4c97c67f3cb8fd70e9904</td>
-       <td>CVE-2022-4293</td>
-       <td>2022-12-05 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Floating Point Comparison with Incorrect Operator in GitHub repository vim/vim prior to 9.0.0804.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4293">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">25d594434b60f89d11c0ca1b5fa0f4f3</td>
-       <td>CVE-2022-4292</td>
-       <td>2022-12-05 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use After Free in GitHub repository vim/vim prior to 9.0.0882.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4292">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d59efdfcafa9bdd83cd058464485e2e3</td>
-       <td>CVE-2022-3926</td>
-       <td>2022-12-05 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>The WP OAuth Server (OAuth Authentication) WordPress plugin before 3.4.2 does not have CSRF check when regenerating secrets, which could allow attackers to make logged in admins regenerate the secret of an arbitrary client given they know the client ID</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3926">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd9de1e2bb8c2ebdca516ac65c6c68dc</td>
-       <td>CVE-2022-3909</td>
-       <td>2022-12-05 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Add Comments WordPress plugin through 1.0.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3909">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8985c4439aaeccc240e37069780410a</td>
-       <td>CVE-2022-3907</td>
-       <td>2022-12-05 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Clerk WordPress plugin before 4.0.0 is affected by time-based attacks in the validation function for all API requests due to the usage of comparison operators to verify API keys against the ones stored in the site options.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3907">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,24 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">6ef0846f1c0f91be0eb21d8a2c16593b</td>
+       <td>CVE-2022-24417</td>
+       <td>2022-12-06 07:38:09 <img src="imgs/new.gif" /></td>
+       <td>Dell BIOS输入验证错误漏洞（CNVD-2022-85079）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-414164">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5d90115f906c3416c61f0bb8f0e9ec3</td>
+       <td>CVE-2022-24418</td>
+       <td>2022-12-06 07:38:09 <img src="imgs/new.gif" /></td>
+       <td>Dell BIOS输入验证错误漏洞（CNVD-2022-85080）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-414165">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">413d362a307062ba3bc2afeef6aab2e6</td>
        <td>CVE-2021-34055</td>
@@ -785,24 +803,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-425824">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">46c9f87e2dd0d0d716d1a6585e996433</td>
-       <td>VHN-429992</td>
-       <td>2022-12-01 03:52:25</td>
-       <td>Apache Airflow操作系统命令注入漏洞（CNVD-2022-83588）
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429992">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">143db0dcf88fe87677d001f72a936509</td>
-       <td>CVE-2022-31773</td>
-       <td>2022-12-01 03:25:27</td>
-       <td>IBM DataPower Gateway跨站点请求伪造漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-423623">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -817,6 +817,62 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">8bf47d4ae750bf8e0f90685864ae64dd</td>
+       <td>CNVD-2022-85084 (CVE-2022-3656)</td>
+       <td>2022-12-06 07:37:55 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome安全绕过漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85084">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">06b8cef36dafeec0a2bf2ebed23b3211</td>
+       <td>CNVD-2022-85085 (CVE-2022-3655)</td>
+       <td>2022-12-06 07:37:53 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome Media Galleries缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85085">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">872579d5eb6098b4812062beab9bd098</td>
+       <td>CNVD-2022-85086 (CVE-2022-3654)</td>
+       <td>2022-12-06 07:37:51 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome Layout代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85086">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e7288244212cc36401270596f3de86ee</td>
+       <td>CNVD-2022-85087 (CVE-2022-3653)</td>
+       <td>2022-12-06 07:37:48 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome Vulkan缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85087">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">95aaeeaaa3ba7d2ffc30d340a0366387</td>
+       <td>CNVD-2022-85088 (CVE-2022-3652)</td>
+       <td>2022-12-06 07:37:46 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome V8代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85088">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a588804ac3127a55cb67d5ed488f86bd</td>
+       <td>CNVD-2022-85089 (CVE-2022-3661)</td>
+       <td>2022-12-06 07:37:44 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome安全绕过漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85089">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c47758da46f90c938034590fb384230e</td>
+       <td>CNVD-2022-85090 (CVE-2022-3659)</td>
+       <td>2022-12-06 07:37:41 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome Accessibility代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85090">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">23fd946460d12f78323004cce0bac5d5</td>
        <td>CNVD-2022-84555 (CVE-2022-36433)</td>
@@ -999,62 +1055,6 @@
        <td>2022-12-03 16:47:31</td>
        <td>uatech Badaso远程命令执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84288">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d7d2ac3b5f0aa582e89bcc1b08426f7a</td>
-       <td>CNVD-2022-84156 (CVE-2022-4172)</td>
-       <td>2022-12-02 10:39:54</td>
-       <td>QEMU缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84156">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">32c7cfbbfcb55465e5a6d5bacc2c9033</td>
-       <td>CNVD-2022-84130 (CVE-2022-44048)</td>
-       <td>2022-12-02 09:38:11</td>
-       <td>Democritus Project d8s-urls代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84130">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23901bd27625a27254069564b9e34d21</td>
-       <td>CNVD-2022-84129 (CVE-2022-44049)</td>
-       <td>2022-12-02 09:38:09</td>
-       <td>Democritus Project d8s-python代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84129">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">062b39dbc18a5d75dd7233c3f6f42f4b</td>
-       <td>CNVD-2022-84128 (CVE-2022-44050)</td>
-       <td>2022-12-02 09:38:06</td>
-       <td>Democritus Project d8s-networking代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84128">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3de4ec06f0631c032d0e7d8b414ce21e</td>
-       <td>CNVD-2022-84127 (CVE-2022-44051)</td>
-       <td>2022-12-02 09:38:04</td>
-       <td>Democritus Project d8s-stats代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84127">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">665d7035ab023d2d06fcea1cf165ee19</td>
-       <td>CNVD-2022-84126 (CVE-2022-44052)</td>
-       <td>2022-12-02 09:38:01</td>
-       <td>Democritus Project d8s-dates代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84126">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2654c5716ca09440f338348e30566b2a</td>
-       <td>CNVD-2022-84125 (CVE-2022-44053)</td>
-       <td>2022-12-02 09:37:59</td>
-       <td>Democritus Project d8s-networking代码执行漏洞（CNVD-2022-84125</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84125">详情</a></td>
       </tr>
 
      </tbody>
