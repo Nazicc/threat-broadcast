@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-85765 (CVE-2022-20341)</font><br/>[<b>披露时间</b>] 2022-12-08 08:41:45<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-85765'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-85765</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-85764 (CVE-2022-20308)</font><br/>[<b>披露时间</b>] 2022-12-08 08:41:47<br/>[<b>漏洞描述</b>] Google Android拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-85764'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-85764</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23476</font><br/>[<b>披露时间</b>] 2022-12-08 08:42:01<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412650'>http://cve.scap.org.cn/vuln/VHN-412650</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23492</font><br/>[<b>披露时间</b>] 2022-12-08 08:42:01<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412666'>http://cve.scap.org.cn/vuln/VHN-412666</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-85766 (CVE-2022-20327)</font><br/>[<b>披露时间</b>] 2022-12-08 09:39:00<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-85766'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-85766</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
