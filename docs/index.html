@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-08 21:38:14 -->
+<!-- RELEASE TIME : 2022-12-08 22:38:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">540cd165ac965eeb3a2ca10955a41e4b</td>
+       <td>CVE-2022-44938</td>
+       <td>2022-12-08 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Weak reset token generation in SeedDMS v6.0.20 and v5.1.7 allows attackers to execute a full account takeover via a brute force attack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44938">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a858e8f4700f80ae227932b6093d53c9</td>
+       <td>CVE-2022-41717</td>
+       <td>2022-12-08 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41717">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3fa6b4b414338890eedb9f49b4700f69</td>
+       <td>CVE-2022-4366</td>
+       <td>2022-12-08 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Exposure of Sensitive System Information to an Unauthorized Control Sphere in GitHub repository lirantal/daloradius prior to master branch.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4366">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2312ae0e6733b93409d9a087946a3cd2</td>
        <td>CVE-2022-46831</td>
        <td>2022-12-08 18:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2022-12-08 08:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability was found in y_project RuoYi-Cloud. It has been rated as problematic. Affected by this issue is some unknown functionality of the component JSON Handler. The manipulation leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-215108.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4348">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f79b1983548370a42d10b5b2fb21c83e</td>
-       <td>CVE-2022-4347</td>
-       <td>2022-12-08 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in xiandafu beetl-bbs. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file WebUtils.java. The manipulation of the argument user leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-215107.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4347">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e11d07b559816ed296c63763eba696c</td>
-       <td>CVE-2022-46792</td>
-       <td>2022-12-08 06:15:00 <img src="imgs/new.gif" /></td>
-       <td>Hasura GraphQL Engine before 2.15.2 mishandles row-level authorization in the Update Many API for Postgres backends. The fixed versions are 2.10.2, 2.11.3, 2.12.1, 2.13.2, 2.14.1, and 2.15.2. (Versions before 2.10.0 are unaffected.)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46792">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c50bc72cf8cc2fea9a61f426ae636c39</td>
-       <td>CVE-2022-23476</td>
-       <td>2022-12-08 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nokogiri is an open source XML and HTML library for the Ruby programming language. Nokogiri `1.13.8` and `1.13.9` fail to check the return value from `xmlTextReaderExpand` in the method `Nokogiri::XML::Reader#attribute_hash`. This can lead to a null pointer exception when invalid markup is being parsed. For applications using `XML::Reader` to parse untrusted inputs, this may potentially be a vector for a denial of service attack. Users are advised to upgrade to Nokogiri `>= 1.13.10`. Users may be able to search their code for calls to either `XML::Reader#attributes` or `XML::Reader#attribute_hash` to determine if they are affected.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23476">详情</a></td>
       </tr>
 
      </tbody>
