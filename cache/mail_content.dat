@@ -1,27 +1,23 @@
 
-<h3>发现最新漏洞情报<font color="red">16</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42782</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73650'>http://www.nsfocus.net/vulndb/73650</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39130</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset缓冲区越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73649'>http://www.nsfocus.net/vulndb/73649</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39129</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73648'>http://www.nsfocus.net/vulndb/73648</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42764</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73647'>http://www.nsfocus.net/vulndb/73647</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42765</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73646'>http://www.nsfocus.net/vulndb/73646</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42779</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset缓冲区越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73645'>http://www.nsfocus.net/vulndb/73645</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42763</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73644'>http://www.nsfocus.net/vulndb/73644</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42777</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73643'>http://www.nsfocus.net/vulndb/73643</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42778</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73642'>http://www.nsfocus.net/vulndb/73642</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42781</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset缓冲区越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73641'>http://www.nsfocus.net/vulndb/73641</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42776</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73640'>http://www.nsfocus.net/vulndb/73640</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42774</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset缓冲区越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73639'>http://www.nsfocus.net/vulndb/73639</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42762</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset缓冲区越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73638'>http://www.nsfocus.net/vulndb/73638</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42780</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset缓冲区越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73637'>http://www.nsfocus.net/vulndb/73637</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42767</font><br/>[<b>披露时间</b>] 2022-12-09 07:37:49<br/>[<b>漏洞描述</b>] UNISOC Chipset整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73636'>http://www.nsfocus.net/vulndb/73636</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33187</font><br/>[<b>披露时间</b>] 2022-12-09 02:15:00<br/>[<b>漏洞描述</b>] Brocade SANnav before v2.2.1 logs usernames and encoded passwords in debug-enabled logs. The vulnerability could allow an attacker with admin privilege to read sensitive information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-33187'>https://www.tenable.com/cve/CVE-2022-33187</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39056</font><br/>[<b>披露时间</b>] 2022-10-18 08:41:17<br/>[<b>漏洞描述</b>] Changing Information Technology RAVA Certificate Validation System SQL注入漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-39056'>https://avd.aliyun.com/detail?id=AVD-2022-39056</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40055</font><br/>[<b>披露时间</b>] 2022-10-18 08:41:17<br/>[<b>漏洞描述</b>] GX Group GPON ONT Titanium 2122A权限提升漏洞（CVE-2022-40055）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-40055'>https://avd.aliyun.com/detail?id=AVD-2022-40055</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42237</font><br/>[<b>披露时间</b>] 2022-10-17 08:41:17<br/>[<b>漏洞描述</b>] Merchandise Online Store SQL注入漏洞（CVE-2022-42237）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-42237'>https://avd.aliyun.com/detail?id=AVD-2022-42237</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41475</font><br/>[<b>披露时间</b>] 2022-10-13 08:41:17<br/>[<b>漏洞描述</b>] RPCMS跨站请求伪造漏洞（CVE-2022-41475）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-41475'>https://avd.aliyun.com/detail?id=AVD-2022-41475</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38138</font><br/>[<b>披露时间</b>] 2022-10-12 08:41:17<br/>[<b>漏洞描述</b>] Triangle Microworks IEC多款产品拒绝服务漏洞（CVE-2022-38138）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-38138'>https://avd.aliyun.com/detail?id=AVD-2022-38138</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33187</font><br/>[<b>披露时间</b>] 2022-12-09 08:41:49<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-425306'>http://cve.scap.org.cn/vuln/VHN-425306</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
