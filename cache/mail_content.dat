@@ -1,12 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23510</font><br/>[<b>披露时间</b>] 2022-12-09 23:15:00<br/>[<b>漏洞描述</b>] cube-js is a headless business intelligence platform. In version 0.31.23 all authenticated Cube clients could bypass SQL row-level security and run arbitrary SQL via the newly introduced /v1/sql-runner endpoint. This issue has been resolved in version 0.31.24. Users are advised to either upgrade to 0.31.24 or to downgrade to 0.31.22. There are no known workarounds for this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23510'>https://www.tenable.com/cve/CVE-2022-23510</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23497</font><br/>[<b>披露时间</b>] 2022-12-09 23:15:00<br/>[<b>漏洞描述</b>] FreshRSS is a free, self-hostable RSS aggregator. User configuration files can be accessed by a remote user. In addition to user preferences, such configurations contain hashed passwords (brypt with cost 9, salted) of FreshRSS Web interface. If the API is used, the configuration might contain a hashed password (brypt with cost 9, salted) of the GReader API, and a hashed password (MD5 salted) of the Fever API. Users should update to version 1.20.2 or edge. Users unable to upgrade can apply the patch manually or delete the file `./FreshRSS/p/ext.php`.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23497'>https://www.tenable.com/cve/CVE-2022-23497</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-447540</font><br/>[<b>披露时间</b>] 2022-12-10 04:42:38<br/>[<b>漏洞描述</b>] Spitfire CMS 1.0.475 PHP Object Injection...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447540'>http://cve.scap.org.cn/vuln/VHN-447540</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-447541</font><br/>[<b>披露时间</b>] 2022-12-10 04:42:38<br/>[<b>漏洞描述</b>] Senayan Library Management System 9.1.0 SQL...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447541'>http://cve.scap.org.cn/vuln/VHN-447541</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-447542</font><br/>[<b>披露时间</b>] 2022-12-10 04:42:38<br/>[<b>漏洞描述</b>] Senayan Library Management System 9.0.0 SQL...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447542'>http://cve.scap.org.cn/vuln/VHN-447542</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-447543</font><br/>[<b>披露时间</b>] 2022-12-10 04:42:38<br/>[<b>漏洞描述</b>] Senayan Library Management System 9.0.0 Cross...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447543'>http://cve.scap.org.cn/vuln/VHN-447543</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-447544</font><br/>[<b>披露时间</b>] 2022-12-10 04:42:38<br/>[<b>漏洞描述</b>] Senayan Library Management System 9.4.0 Cross...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447544'>http://cve.scap.org.cn/vuln/VHN-447544</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23497</font><br/>[<b>披露时间</b>] 2022-12-09 04:42:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412671'>http://cve.scap.org.cn/vuln/VHN-412671</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23510</font><br/>[<b>披露时间</b>] 2022-12-09 04:42:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412684'>http://cve.scap.org.cn/vuln/VHN-412684</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34297</font><br/>[<b>披露时间</b>] 2022-12-09 04:42:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426601'>http://cve.scap.org.cn/vuln/VHN-426601</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45292</font><br/>[<b>披露时间</b>] 2022-12-09 04:42:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442928'>http://cve.scap.org.cn/vuln/VHN-442928</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44790</font><br/>[<b>披露时间</b>] 2022-12-09 04:42:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442322'>http://cve.scap.org.cn/vuln/VHN-442322</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
