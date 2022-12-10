@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23485</font><br/>[<b>披露时间</b>] 2022-12-10 08:41:03<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412659'>http://cve.scap.org.cn/vuln/VHN-412659</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23485</font><br/>[<b>披露时间</b>] 2022-12-10 01:15:00<br/>[<b>漏洞描述</b>] Sentry is an error tracking and performance monitoring platform. In versions of the sentry python library prior to 22.11.0 an attacker with a known valid invite link could manipulate a cookie to allow the same invite link to be reused on multiple accounts when joining an organization. As a result an attacker with a valid invite link can create multiple users and join an organization they may not have been originally invited to. This issue was patched in version 22.11.0. Sentry SaaS customers do not need to take action. Self-hosted Sentry installs on systems which can not upgrade can disable the invite functionality until they are ready to deploy the patched version by editing their `sentry.conf.py` file (usually located at `~/.sentry/`).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23485'>https://www.tenable.com/cve/CVE-2022-23485</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-12-09 18:33:16<br/>[<b>漏洞描述</b>] ThinkPHP 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7895'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7895</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
