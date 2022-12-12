@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-86539 (CVE-2021-25495)</font><br/>[<b>披露时间</b>] 2022-12-09 09:38:28<br/>[<b>漏洞描述</b>] Samsung Notes libSPenBase缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-86539'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-86539</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-86557 (CVE-2021-24576)</font><br/>[<b>披露时间</b>] 2022-12-12 10:40:36<br/>[<b>漏洞描述</b>] WordPress Easy Accordion plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-86557'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-86557</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-86556 (CVE-2021-24690)</font><br/>[<b>披露时间</b>] 2022-12-12 10:40:39<br/>[<b>漏洞描述</b>] WordPress Chained Quiz plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-86556'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-86556</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-86555 (CVE-2021-24691)</font><br/>[<b>披露时间</b>] 2022-12-12 10:40:41<br/>[<b>漏洞描述</b>] WordPress Quiz And Survey Master plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-86555'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-86555</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-86554 (CVE-2021-24712)</font><br/>[<b>披露时间</b>] 2022-12-12 10:40:43<br/>[<b>漏洞描述</b>] WordPress Appointment Hour Booking plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-86554'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-86554</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-86553 (CVE-2021-24719)</font><br/>[<b>披露时间</b>] 2022-12-12 10:40:45<br/>[<b>漏洞描述</b>] WordPress Enfold Enfold theme跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-86553'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-86553</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-12-12 10:02:23<br/>[<b>漏洞描述</b>] 安全事件周报 (12.05-12.11)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=1b4e26066ab67264566db263905f1358'>https://cert.360.cn/warning/detail?id=1b4e26066ab67264566db263905f1358</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
