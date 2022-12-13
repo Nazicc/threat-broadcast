@@ -1,16 +1,32 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">9</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87165 (CVE-2022-34218)</font><br/>[<b>披露时间</b>] 2022-12-13 07:37:19<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87165'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87165</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87164 (CVE-2022-35664)</font><br/>[<b>披露时间</b>] 2022-12-13 07:37:21<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87164'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87164</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87163 (CVE-2022-30686)</font><br/>[<b>披露时间</b>] 2022-12-13 07:37:24<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87163'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87163</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87162 (CVE-2022-30684)</font><br/>[<b>披露时间</b>] 2022-12-13 07:37:27<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87162'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87162</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87161 (CVE-2022-28244)</font><br/>[<b>披露时间</b>] 2022-12-13 07:37:29<br/>[<b>漏洞描述</b>] 多款Adobe产品信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87161'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87161</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87160 (CVE-2022-28267)</font><br/>[<b>披露时间</b>] 2022-12-13 07:37:31<br/>[<b>漏洞描述</b>] 多款Adobe产品越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87160'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87160</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87169 (CVE-2022-35676)</font><br/>[<b>披露时间</b>] 2022-12-13 08:41:50<br/>[<b>漏洞描述</b>] Adobe FrameMaker堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87169'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87169</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87168 (CVE-2022-35677)</font><br/>[<b>披露时间</b>] 2022-12-13 08:41:52<br/>[<b>漏洞描述</b>] Adobe FrameMaker堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87168'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87168</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87167 (CVE-2022-34228)</font><br/>[<b>披露时间</b>] 2022-12-13 08:41:54<br/>[<b>漏洞描述</b>] 多款Adobe产品未初始化指针访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87167'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87167</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41272</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437366'>http://cve.scap.org.cn/vuln/VHN-437366</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41273</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437367'>http://cve.scap.org.cn/vuln/VHN-437367</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41274</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437368'>http://cve.scap.org.cn/vuln/VHN-437368</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41275</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437369'>http://cve.scap.org.cn/vuln/VHN-437369</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41264</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437352'>http://cve.scap.org.cn/vuln/VHN-437352</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41266</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437355'>http://cve.scap.org.cn/vuln/VHN-437355</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41267</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437357'>http://cve.scap.org.cn/vuln/VHN-437357</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41268</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437359'>http://cve.scap.org.cn/vuln/VHN-437359</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41271</font><br/>[<b>披露时间</b>] 2022-12-13 08:42:07<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437365'>http://cve.scap.org.cn/vuln/VHN-437365</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
