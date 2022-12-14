@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3092</font><br/>[<b>披露时间</b>] 2022-12-14 20:26:41<br/>[<b>漏洞描述</b>] GE CIMPLICITY Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8bc3279bf1eb43f391ef6b4f2c666c71'>https://redqueen.tj-un.com/IntelDetails.html?id=8bc3279bf1eb43f391ef6b4f2c666c71</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4494</font><br/>[<b>披露时间</b>] 2022-12-14 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, has been found in bspkrs MCPMappingViewer. Affected by this issue is the function extractZip of the file src/main/java/bspkrs/mmv/RemoteZipHandler.java of the component ZIP File Handler. The manipulation leads to path traversal. The attack may be launched remotely. The name of the patch is 6e602746c96b4756c271d080dae7d22ad804a1bd. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-215804.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4494'>https://www.tenable.com/cve/CVE-2022-4494</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4493</font><br/>[<b>披露时间</b>] 2022-12-14 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was found in scifio. Affected by this vulnerability is the function downloadAndUnpackResource of the file src/test/java/io/scif/util/DefaultSampleFilesService.java of the component ZIP File Handler. The manipulation leads to path traversal. The attack can be launched remotely. The name of the patch is fcb0dbca0ec72b22fe0c9ddc8abc9cb188a0ff31. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-215803.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4493'>https://www.tenable.com/cve/CVE-2022-4493</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45498</font><br/>[<b>披露时间</b>] 2022-12-08 16:15:13 <br/>[<b>漏洞描述</b>] An issue in the component tpi_systool_handle(0) (/goform/SysToolReboot) of Tenda W6-S v1.0.0.4(510) allows unauthenticated attackers to arbitrarily reboot the device.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45498'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45498</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
