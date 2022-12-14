@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-14 18:42:09 -->
+<!-- RELEASE TIME : 2022-12-14 20:39:05 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">656418465e13d67c12470167aec76800</td>
+       <td>CVE-2022-46443</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>mesinkasir Bangresto 1.0 is vulnberable to SQL Injection via the itemqty%5B%5D parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46443">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fa93cb0a0152be5b0b60671e5977ed81</td>
+       <td>CVE-2022-46256</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A path traversal vulnerability was identified in GitHub Enterprise Server that allowed remote code execution when building a GitHub Pages site. To exploit this vulnerability, an attacker would need permission to create and build a GitHub Pages site on the instance. This vulnerability was fixed in versions 3.3.17, 3.4.12, 3.5.9, 3.6.5 and 3.7.2. This vulnerability was reported via the GitHub Bug Bounty program.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46256">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">764ea34ec507b57f01d5644d1e021bcd</td>
+       <td>CVE-2022-46255</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>An improper limitation of a pathname to a restricted directory vulnerability was identified in GitHub Enterprise Server that enabled remote code execution. A check was added within Pages to ensure the working directory is clean before unpacking new content to prevent an arbitrary file overwrite bug. This vulnerability affected only version 3.7.0 of GitHub Enterprise Server and was fixed in version 3.7.1. This vulnerability was reported via the GitHub Bug Bounty program.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46255">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">af06e9dcaa44bbc06078260232148cf9</td>
+       <td>CVE-2022-46072</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Helmet Store Showroom v1.0 vulnerable to unauthenticated SQL Injection.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46072">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">57b4d2c7b91d47ed10cdd04071c77be8</td>
+       <td>CVE-2022-46071</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is SQL Injection vulnerability at Helmet Store Showroom v1.0 Login Page. This vulnerability can be exploited to bypass admin access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46071">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8f97ac9a515d89df261017f72df50c0b</td>
+       <td>CVE-2022-44910</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Binbloom 2.0 was discovered to contain a heap buffer overflow via the read_pointer function at /binbloom-master/src/helpers.c.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44910">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c258f498b26147209cccc7403a2bc08</td>
+       <td>CVE-2022-23527</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>mod_auth_openidc is an OpenID Certified™ authentication and authorization module for the Apache 2.x HTTP server. Versions prior to 2.4.12.2 are vulnerable to Open Redirect. When providing a logout parameter to the redirect URI, the existing code in oidc_validate_redirect_url() does not properly check for URLs that start with /\t, leading to an open redirect. This issue has been patched in version 2.4.12.2. Users unable to upgrade can mitigate the issue by configuring mod_auth_openidc to only allow redirection when the destination matches a given regular expression with OIDCRedirectURLsAllowed.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23527">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1b87018d88148bccb8a7e39a731eca8c</td>
+       <td>CVE-2022-23520</td>
+       <td>2022-12-14 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. Prior to version 1.4.4, there is a possible XSS vulnerability with certain configurations of Rails::Html::Sanitizer due to an incomplete fix of CVE-2022-32209. Rails::Html::Sanitizer may allow an attacker to inject content if the application developer has overridden the sanitizer's allowed tags to allow both "select" and "style" elements. Code is only impacted if allowed tags are being overridden. This issue is patched in version 1.4.4. All users overriding the allowed tags to include both "select" and "style" should either upgrade or use this workaround: Remove either "select" or "style" from the overridden allowed tags. NOTE: Code is _not_ impacted if allowed tags are overridden using either the :tags option to the Action View helper method sanitize or the :tags option to the instance method SafeListSanitizer#sanitize.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23520">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8c5d75186d2001fa9f1a6e5fc4e4941e</td>
+       <td>CVE-2022-46127</td>
+       <td>2022-12-14 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Helmet Store Showroom Site v1.0 is vulnerable to SQL Injection via /hss/classes/Master.php?f=delete_product.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46127">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c621af35978769847327412fa8bc15a8</td>
+       <td>CVE-2022-46126</td>
+       <td>2022-12-14 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Helmet Store Showroom Site v1.0 is vulnerable to SQL Injection via /hss/admin/brands/manage_brand.php?id=.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46126">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8fe31b2413ddc813609a4390b8c7ecb1</td>
        <td>CVE-2022-46997</td>
        <td>2022-12-14 15:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23501">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">c453abb1bcb447a76e872c62e322cedd</td>
-       <td>CVE-2022-23500</td>
-       <td>2022-12-14 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>TYPO3 is an open source PHP based web content management system. In versions prior to 9.5.38, 10.4.33, 11.5.20, and 12.1.1, requesting invalid or non-existing resources via HTTP triggers the page error handler, which again could retrieve content to be shown as an error message from another page. This leads to a scenario in which the application is calling itself recursively - amplifying the impact of the initial attack until the limits of the web server are exceeded. This vulnerability is very similar, but not identical, to the one described in CVE-2021-21359. This issue is patched in versions 9.5.38 ELTS, 10.4.33, 11.5.20 or 12.1.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23500">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">56cb064ba451f8a32936fc02bd637234</td>
-       <td>CVE-2022-4440</td>
-       <td>2022-12-14 06:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use after free in Profiles in Google Chrome prior to 108.0.5359.124 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4440">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5f9033ef4250d7664018a14d5ed36913</td>
-       <td>CVE-2022-4439</td>
-       <td>2022-12-14 06:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use after free in Aura in Google Chrome on Windows prior to 108.0.5359.124 allowed a remote attacker who convinced the user to engage in specific UI interactions to potentially exploit heap corruption via specific UI interactions. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4439">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">70dcc45dff692d5030fabb1e1530c34c</td>
-       <td>CVE-2022-24377</td>
-       <td>2022-12-14 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>The package cycle-import-check before 1.3.2 are vulnerable to Command Injection via the writeFileToTmpDirAndOpenIt  function due to improper user-input sanitization.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24377">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aa7231af1eac0c75eeb8af4e8a149ecd</td>
-       <td>CVE-2020-9420</td>
-       <td>2022-12-14 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>The login password of the web administrative dashboard in Arcadyan Wifi routers VRV9506JAC23 is sent in cleartext, allowing an attacker to sniff and intercept traffic to learn the administrative credentials to the router.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-9420">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4a41daf706bbd8f2e01d53f8780423de</td>
-       <td>CVE-2020-9419</td>
-       <td>2022-12-14 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple stored cross-site scripting (XSS) vulnerabilities in Arcadyan Wifi routers VRV9506JAC23 allow remote attackers to inject arbitrary web script or HTML via the hostName and domain_name parameters present in the LAN configuration section of the administrative dashboard.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-9419">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40220f498f4556149877bb1c07e1f923</td>
-       <td>CVE-2022-42141</td>
-       <td>2022-12-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Delta Electronics DX-2100-L1-CN 2.42 is vulnerable to Cross Site Scripting (XSS) via lform/urlfilter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42141">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f6ba8c6b072cb9a2c61dd8f0fecdeda9</td>
-       <td>CVE-2022-42140</td>
-       <td>2022-12-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Delta Electronics DX-2100-L1-CN 2.42 is vulnerable to Command Injection via lform/net_diagnose.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42140">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5e96b922c877fd4e656d8c0274bb65f6</td>
-       <td>CVE-2022-42139</td>
-       <td>2022-12-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Delta Electronics DVW-W02W2-E2 1.5.0.10 is vulnerable to Command Injection via Crafted URL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42139">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97096782cf7a7b212c522fea522b4221</td>
-       <td>CVE-2022-40264</td>
-       <td>2022-12-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in ICONICS/Mitsubishi Electric GENESIS64 versions 10.96 to 10.97.2 allows an unauthenticated attacker to create, tamper with or destroy arbitrary files by getting a legitimate user import a project package file crafted by the attacker.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40264">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">4a1cad8c485d7110fbddbf98170bc636</td>
+       <td>CVE-2022-23520</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412694">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2520912c0ce64846d368d0071853a5cb</td>
+       <td>CVE-2022-23527</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412701">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e0616d388fa6e6be229a2ffdb45991e6</td>
+       <td>CVE-2022-44910</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-442481">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dff3198dc22948fb6727d4e8bdcd9445</td>
+       <td>CVE-2022-46071</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443970">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e9eccbf04fa4b5412312247e115dc76</td>
+       <td>CVE-2022-46072</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443971">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d21894e4fb3672928e05bd78f987a1ba</td>
+       <td>CVE-2022-46255</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444216">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5772fa02e27e6b0fb050bb395bfec642</td>
+       <td>CVE-2022-46256</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444217">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a1d0a5c0a7496f4d7e8ed781238b81d</td>
+       <td>CVE-2022-46443</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444440">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3b5c7cb4620ad2de34a6bf8f0e78a8ed</td>
+       <td>CVE-2022-23517</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412691">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b007b470f92124ea024aa2c43e1ab6a9</td>
+       <td>CVE-2022-23518</td>
+       <td>2022-12-14 20:38:53 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412692">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">693f9fc55d8b21a9b271a8edf0f67540</td>
        <td>CVE-2022-23512</td>
@@ -711,96 +801,6 @@
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447926">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">52975d395ba5f0a1cc868bc1ed594222</td>
-       <td>CVE-2022-24377</td>
-       <td>2022-12-14 08:42:38 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416217">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dfc541a91709655355080285ae49acae</td>
-       <td>CVE-2020-9419</td>
-       <td>2022-12-14 08:42:38 <img src="imgs/new.gif" /></td>
-       <td>该漏洞编号已预留给漏洞申报者
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-187544">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b00c116890c49ad6a24cd7915e79c729</td>
-       <td>CVE-2020-9420</td>
-       <td>2022-12-14 08:42:38 <img src="imgs/new.gif" /></td>
-       <td>该漏洞编号已预留给漏洞申报者
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-187545">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e6b840586cb82e564475e582ad3de68c</td>
-       <td>CVE-2022-37155</td>
-       <td>2022-12-14 04:43:12 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-433044">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8a73e3d60339ba66168ebb8e67a8716c</td>
-       <td>CVE-2022-40264</td>
-       <td>2022-12-14 04:43:12 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-436070">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">539acc205900da8503c0f45fba82d57d</td>
-       <td>CVE-2022-42139</td>
-       <td>2022-12-14 04:43:12 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-438598">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8394ccc694dc58bd7af8b57fda3834b0</td>
-       <td>CVE-2022-42140</td>
-       <td>2022-12-14 04:43:12 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-438600">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c94b4b57884cb81abfddfd2044c5592f</td>
-       <td>CVE-2022-42141</td>
-       <td>2022-12-14 04:43:12 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-438602">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aaeb775e1c03bd5d92d94a964f252fd9</td>
-       <td>CVE-2022-45028</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-442621">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5e41c7f18812d110eee093b075d5ed41</td>
-       <td>CVE-2022-4456</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448125">详情</a></td>
       </tr>
 
      </tbody>
@@ -2588,11 +2588,27 @@
       </tr>
 
       <tr>
+       <td scope="row">405f1c7f3311360bcdf71421546774f9</td>
+       <td>CVE-2022-41299</td>
+       <td>2022-12-09 19:15:13 </td>
+       <td>IBM Cloud Transformation Advisor 2.0.1 through 3.3.1 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 237214.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41299">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bcfd72ff50e58578b8ff86f984a3755d</td>
        <td>CVE-2022-4336</td>
        <td>2022-12-09 18:15:20 </td>
        <td>In BAOTA linux panel there exists a stored xss vulnerability attackers can use to obtain sensitive information via the log analysis feature.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4336">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">49a5a6cb8a5471fa3c493667fab26bff</td>
+       <td>CVE-2022-4170</td>
+       <td>2022-12-09 18:15:20 </td>
+       <td>The rxvt-unicode package is vulnerable to a remote code execution, in the Perl background extension, when an attacker can control the data written to the user's terminal and certain options are set.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4170">详情</a></td>
       </tr>
 
       <tr>
@@ -2609,6 +2625,14 @@
        <td>2022-12-08 20:15:10 </td>
        <td>Weak reset token generation in SeedDMS v6.0.20 and v5.1.7 allows attackers to execute a full account takeover via a brute force attack.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44938">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d7c5035f18ed7be85e525b4e59371694</td>
+       <td>CVE-2022-41717</td>
+       <td>2022-12-08 20:15:10 </td>
+       <td>An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41717">详情</a></td>
       </tr>
 
       <tr>
@@ -2633,30 +2657,6 @@
        <td>2022-12-08 18:15:10 </td>
        <td>In JetBrains JetBrains Gateway before 2022.3 a client could connect without a valid token if the host consented.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46829">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4c11ae49c9615b1d198fa81975beda63</td>
-       <td>CVE-2022-46828</td>
-       <td>2022-12-08 18:15:10 </td>
-       <td>In JetBrains IntelliJ IDEA before 2022.3 a DYLIB injection on macOS was possible.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46828">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b2bbfeaad4405ce1117762d41f1a3f6f</td>
-       <td>CVE-2022-46827</td>
-       <td>2022-12-08 18:15:10 </td>
-       <td>In JetBrains IntelliJ IDEA before 2022.3 an XXE attack leading to SSRF via requests to custom plugin repositories was possible.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46827">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8dcd3fc7ef880cd7c583c1c2fc8fe3fa</td>
-       <td>CVE-2022-46826</td>
-       <td>2022-12-08 18:15:10 </td>
-       <td>In JetBrains IntelliJ IDEA before 2022.3 the built-in web server allowed an arbitrary file to be read by exploiting a path traversal vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46826">详情</a></td>
       </tr>
 
      </tbody>
