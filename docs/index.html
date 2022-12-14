@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-14 15:40:23 -->
+<!-- RELEASE TIME : 2022-12-14 16:49:38 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6e96f573805b70260049c3fa28938d30</td>
+       <td>CVE-2022-23516</td>
+       <td>2022-12-14 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri. Loofah >= 2.2.0, < 2.19.1 uses recursion for sanitizing CDATA sections, making it susceptible to stack exhaustion and raising a SystemStackError exception. This may lead to a denial of service through CPU resource consumption. This issue is patched in version 2.19.1. Users who are unable to upgrade may be able to mitigate this vulnerability by limiting the length of the strings that are sanitized.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23516">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">57c78e0923a8e72d3d74ea54950caf8b</td>
+       <td>CVE-2022-23515</td>
+       <td>2022-12-14 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri. Loofah >= 2.1.0, < 2.19.1 is vulnerable to cross-site scripting via the image/svg+xml media type in data URIs. This issue is patched in version 2.19.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23515">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bf0aca3cf992bea5afd679d8abb39355</td>
+       <td>CVE-2022-23514</td>
+       <td>2022-12-14 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri. Loofah < 2.19.1 contains an inefficient regular expression that is susceptible to excessive backtracking when attempting to sanitize certain SVG attributes. This may lead to a denial of service through CPU resource consumption. This issue is patched in version 2.19.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23514">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">21b028d58d4fc4bba13be0d0ddf29e7e</td>
+       <td>CVE-2022-23512</td>
+       <td>2022-12-14 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>MeterSphere is a one-stop open source continuous testing platform. Versions prior to 2.4.1 are vulnerable to Path Injection in ApiTestCaseService::deleteBodyFiles which takes a user-controlled string id and passes it to ApiTestCaseService, which uses the user-provided value (testId) in new File(BODY_FILE_DIR + "/" + testId), being deleted later by file.delete(). By adding some camouflage parameters to the url, an attacker can target files on the server. The vulnerability has been fixed in v2.4.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23512">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">aa86312c6446c734969953950e4ccfa8</td>
        <td>CVE-2022-4494</td>
        <td>2022-12-14 12:15:00 <img src="imgs/new.gif" /></td>
@@ -487,38 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47213">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">d991fbdbee9b0594d0f2d3741f48c21e</td>
-       <td>CVE-2022-47212</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Office Graphics Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-26804, CVE-2022-26805, CVE-2022-26806, CVE-2022-44692, CVE-2022-47211, CVE-2022-47213.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47212">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0b3d67e01fa6bb103841a2f2c6585387</td>
-       <td>CVE-2022-47211</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Office Graphics Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-26804, CVE-2022-26805, CVE-2022-26806, CVE-2022-44692, CVE-2022-47212, CVE-2022-47213.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47211">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1e0c6fbfa8fc161286fc38d8278c1f8c</td>
-       <td>CVE-2022-45005</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>IP-COM EW9 V15.11.0.14(9732) was discovered to contain a command injection vulnerability in the cmd_get_ping_output function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45005">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">162e49b2dde30ae99406257932275af4</td>
-       <td>CVE-2022-44713</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Outlook for Mac Spoofing Vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44713">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">693f9fc55d8b21a9b271a8edf0f67540</td>
+       <td>CVE-2022-23512</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412686">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a895986aa5ab1d8ed7abbbd171514add</td>
+       <td>CVE-2022-23514</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412688">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2b1757419121a295700f2917bf8c44f2</td>
+       <td>CVE-2022-23515</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412689">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">43976806efc5df50887d97bab66130cc</td>
+       <td>CVE-2022-23516</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412690">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ba210ebdd2abe2fa5960a89ab3f2bb98</td>
+       <td>CVE-2022-4493</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as critical was...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448170">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">62d062cf8d67e423cbd32d997666c8c3</td>
+       <td>CVE-2022-4494</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448171">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e0c6a9824517c4f6acea777bf9b9237</td>
+       <td>CVE-2022-34271</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in import module of Apache Atlas......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426575">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">00e33321c294b3918b31ffe381f32412</td>
+       <td>CVE-2022-3073</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>Quanos "SCHEMA ST4" example web templates in...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-430729">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">299e8486b5c527bbd867de21bc90fc3b</td>
+       <td>CVE-2022-3590</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>WordPress is affected by an unauthenticated...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-432141">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f861c1da6cd6f94932e012a96b50b6ae</td>
+       <td>CVE-2022-23500</td>
+       <td>2022-12-14 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 is an open source PHP based web......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412674">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">fbda54fd860c145a9cc4fb8d81247d00</td>
        <td>CVE-2022-34271</td>
@@ -713,96 +803,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448125">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">1244b21f1e456d09c705c08e4b50d2f2</td>
-       <td>CVE-2022-4455</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448126">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a6c9f015fe571ca0c8f8c00659977806</td>
-       <td>CVE-2022-4454</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448127">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">951ecb497f782c6058a20d463507d7e7</td>
-       <td>CVE-2019-25078</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448128">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d301315d45ade1babee0bdd39868e30d</td>
-       <td>CVE-2022-27518</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418152">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dd3d5deb0feb3dddf538c6cbc01e1117</td>
-       <td>CVE-2022-46062</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443953">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e39a9b3d88e6e733ac30c0fef4b086f</td>
-       <td>CVE-2022-46364</td>
-       <td>2022-12-13 21:38:17 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444337">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1d2be2973a460644ce837623e18f892b</td>
-       <td>CVE-2021-0934</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>Google Android 安全漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-373525">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0b5cc62f2c59a5b83d147ee7c017bf70</td>
-       <td>CVE-2021-39617</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401041">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d53cc57376fbbdfea731c7c2800b5e7a</td>
-       <td>CVE-2021-39660</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401084">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9ac0f9c487853f093338a51373cc117a</td>
-       <td>CVE-2021-40365</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401722">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -817,6 +817,46 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">f1f81273a81c532959e59bcafa52d474</td>
+       <td>CNVD-2022-87615 (CVE-2022-41517)</td>
+       <td>2022-12-15 16:49:10 <img src="imgs/new.gif" /></td>
+       <td>TOTOLINK NR1800X setLanguageCfg方法缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-87615">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c5574b6401256b203c88532b500a0566</td>
+       <td>CNVD-2022-87614 (CVE-2022-41521)</td>
+       <td>2022-12-15 16:49:07 <img src="imgs/new.gif" /></td>
+       <td>TOTOLINK NR1800X setIpPortFilterRules方法缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-87614">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">643951a3082185830d75e11d3adfc355</td>
+       <td>CNVD-2022-87613 (CVE-2022-40895)</td>
+       <td>2022-12-15 16:49:05 <img src="imgs/new.gif" /></td>
+       <td>Nedi Consulting Nedi用户枚举漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-87613">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">753a24aae689266a3d4c12790b5c38ce</td>
+       <td>CNVD-2022-87612 (CVE-2022-41853)</td>
+       <td>2022-12-15 16:49:03 <img src="imgs/new.gif" /></td>
+       <td>HSQLDB代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-87612">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7f237678b7e3697955ff139a45a45286</td>
+       <td>CNVD-2022-83556</td>
+       <td>2022-12-15 16:49:01 <img src="imgs/new.gif" /></td>
+       <td>组态王存在拒绝服务漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-83556">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">b4ed12913eb62a06af405e484e0a14f2</td>
        <td>CNVD-2022-87353 (CVE-2022-3220)</td>
@@ -1015,46 +1055,6 @@
        <td>2022-12-12 10:40:36</td>
        <td>WordPress Easy Accordion plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-86557">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">06c4200e3684d13f46c3ccd5b302b0f2</td>
-       <td>CNVD-2022-86552 (CVE-2021-24720)</td>
-       <td>2022-12-12 06:43:51</td>
-       <td>WordPress GeoDirectory Business Director plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-86552">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b6d501137760a94668b75e3bc5221c12</td>
-       <td>CNVD-2022-86551 (CVE-2021-24737)</td>
-       <td>2022-12-12 06:43:47</td>
-       <td>WordPress wpDiscuz plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-86551">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05e22fd4ef3d4c20e45d3e04b0b6aa4c</td>
-       <td>CNVD-2022-86550 (CVE-2021-24577)</td>
-       <td>2022-12-12 06:43:44</td>
-       <td>WordPress Coming soon and Maintenance plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-86550">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bb8f9bc9a2227111db896212a52ba475</td>
-       <td>CNVD-2022-86549 (CVE-2021-24546)</td>
-       <td>2022-12-12 06:43:42</td>
-       <td>WordPress Gutenberg Block Editor Toolkit-EditorsKit plugin代码注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-86549">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d398537188fdd13abbed936e0b37505c</td>
-       <td>CNVD-2022-86548 (CVE-2021-24651)</td>
-       <td>2022-12-12 06:43:40</td>
-       <td>WordPress  Poll Maker plugin SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-86548">详情</a></td>
       </tr>
 
      </tbody>
