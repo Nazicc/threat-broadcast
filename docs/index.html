@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-14 11:38:03 -->
+<!-- RELEASE TIME : 2022-12-14 12:59:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">91f308d513c7624f0d6a08ff3bb61ccc</td>
+       <td>CVE-2022-3590</td>
+       <td>2022-12-14 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>WordPress is affected by an unauthenticated blind SSRF in the pingback feature. Because of a TOCTOU race condition between the validation checks and the HTTP request, attackers can reach internal hosts that are explicitly forbidden.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3590">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">605a0cba1b0973aef9399387f5923af8</td>
+       <td>CVE-2022-34271</td>
+       <td>2022-12-14 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in import module of Apache Atlas allows an authenticated user to write to web server filesystem. This issue affects Apache Atlas versions from 0.8.4 to 2.2.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34271">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4fde9fd8ea5907a393f3a404821e0649</td>
+       <td>CVE-2022-3073</td>
+       <td>2022-12-14 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>Quanos "SCHEMA ST4" example web templates in version Bootstrap 2019 v2/2021 v1/2022 v1/2022 SP1 v1 or below are prone to JavaScript injection allowing a remote attacker to hijack existing sessions to e.g. other web services in the same environment or execute scripts in the users browser environment. The affected script is '*-schema.js'.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3073">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">31418bd872099a0ad2aa87bb9dcba895</td>
+       <td>CVE-2022-23504</td>
+       <td>2022-12-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 is an open source PHP based web content management system. Versions prior to 9.5.38, 10.4.33, 11.5.20, and 12.1.1 are subject to Sensitive Information Disclosure. Due to the lack of handling user-submitted YAML placeholder expressions in the site configuration backend module, attackers could expose sensitive internal information, such as system configuration or HTTP request messages of other website visitors. A valid backend user account having administrator privileges is needed to exploit this vulnerability. This issue has been patched in versions 9.5.38 ELTS, 10.4.33, 11.5.20, 12.1.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23504">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7352bff285be5e1e0c461f36abfd49fa</td>
+       <td>CVE-2022-23503</td>
+       <td>2022-12-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 is an open source PHP based web content management system. Versions prior to 8.7.49, 9.5.38, 10.4.33, 11.5.20, and 12.1.1 are vulnerable to Code Injection. Due to the lack of separating user-submitted data from the internal configuration in the Form Designer backend module, it is possible to inject code instructions to be processed and executed via TypoScript as PHP code. The existence of individual TypoScript instructions for a particular form item and a valid backend user account with access to the form module are needed to exploit this vulnerability. This issue is patched in versions 8.7.49 ELTS, 9.5.38 ELTS, 10.4.33, 11.5.20, 12.1.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23503">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">794069f0c1d5cab4d327d2a3361415af</td>
+       <td>CVE-2022-23502</td>
+       <td>2022-12-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 is an open source PHP based web content management system. In versions prior to 10.4.33, 11.5.20, and 12.1.1, When users reset their password using the corresponding password recovery functionality, existing sessions for that particular user account were not revoked. This applied to both frontend user sessions and backend user sessions. This issue is patched in versions 10.4.33, 11.5.20, 12.1.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23502">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">73c8002a5212ea5e3425afb78b54bb92</td>
+       <td>CVE-2022-23501</td>
+       <td>2022-12-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 is an open source PHP based web content management system. In versions prior to 8.7.49, 9.5.38, 10.4.33, 11.5.20, and 12.1.1 TYPO3 is vulnerable to Improper Authentication. Restricting frontend login to specific users, organized in different storage folders (partitions), can be bypassed. A potential attacker might use this ambiguity in usernames to get access to a different account - however, credentials must be known to the adversary. This issue is patched in versions 8.7.49 ELTS, 9.5.38 ELTS, 10.4.33, 11.5.20, 12.1.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23501">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c453abb1bcb447a76e872c62e322cedd</td>
+       <td>CVE-2022-23500</td>
+       <td>2022-12-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 is an open source PHP based web content management system. In versions prior to 9.5.38, 10.4.33, 11.5.20, and 12.1.1, requesting invalid or non-existing resources via HTTP triggers the page error handler, which again could retrieve content to be shown as an error message from another page. This leads to a scenario in which the application is calling itself recursively - amplifying the impact of the initial attack until the limits of the web server are exceeded. This vulnerability is very similar, but not identical, to the one described in CVE-2021-21359. This issue is patched in versions 9.5.38 ELTS, 10.4.33, 11.5.20 or 12.1.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23500">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">56cb064ba451f8a32936fc02bd637234</td>
+       <td>CVE-2022-4440</td>
+       <td>2022-12-14 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Use after free in Profiles in Google Chrome prior to 108.0.5359.124 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4440">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5f9033ef4250d7664018a14d5ed36913</td>
+       <td>CVE-2022-4439</td>
+       <td>2022-12-14 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Use after free in Aura in Google Chrome on Windows prior to 108.0.5359.124 allowed a remote attacker who convinced the user to engage in specific UI interactions to potentially exploit heap corruption via specific UI interactions. (Chromium security severity: High)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4439">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">70dcc45dff692d5030fabb1e1530c34c</td>
        <td>CVE-2022-24377</td>
        <td>2022-12-14 05:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44708">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">fc0c2773cc7361fd3de40ebb1654ac55</td>
-       <td>CVE-2022-44707</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Windows Kernel Denial of Service Vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44707">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5f85c9960a5512114ccbdf1705edfdd9</td>
-       <td>CVE-2022-44704</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Windows Sysmon Elevation of Privilege Vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44704">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e87574bb1c2f825f24fde17194892e5</td>
-       <td>CVE-2022-44702</td>
-       <td>2022-12-13 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Windows Terminal Remote Code Execution Vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44702">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f1aa08277a3507503765dec4d0c2772b</td>
-       <td>CVE-2022-45028</td>
-       <td>2022-12-13 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site scripting (XSS) vulnerability in Arris NVG443B 9.3.0h3d36 allows attackers to execute arbitrary web scripts or HTML via a crafted POST request sent to /cgi-bin/logs.ha.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45028">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">12dda3a7f4795d4e8038df0eba569b2a</td>
-       <td>CVE-2022-4456</td>
-       <td>2022-12-13 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been found in falling-fruit and classified as problematic. This vulnerability affects unknown code. The manipulation leads to cross site scripting. The attack can be initiated remotely. The name of the patch is 15adb8e1ea1f1c3e3d152fc266071f621ef0c621. It is recommended to apply a patch to fix this issue. VDB-215446 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4456">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bd2f9f710de7169b8ed96cbf696ce5cf</td>
-       <td>CVE-2022-4455</td>
-       <td>2022-12-13 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as problematic, was found in sproctor php-calendar. This affects an unknown part of the file index.php. The manipulation of the argument $_SERVER['PHP_SELF'] leads to cross site scripting. It is possible to initiate the attack remotely. The name of the patch is a2941109b42201c19733127ced763e270a357809. It is recommended to apply a patch to fix this issue. The identifier VDB-215445 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4455">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c4332609ac8c1548b29cf69347185e1</td>
-       <td>CVE-2022-4454</td>
-       <td>2022-12-13 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as critical, has been found in m0ver bible-online. Affected by this issue is the function query of the file src/main/java/custom/application/search.java of the component Search Handler. The manipulation leads to sql injection. The name of the patch is 6ef0aabfb2d4ccd53fcaa9707781303af357410e. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-215444.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4454">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e99520d9fc4869fab8eca46b629d4655</td>
-       <td>CVE-2019-25078</td>
-       <td>2022-12-13 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as problematic was found in pacparser up to 1.3.x. Affected by this vulnerability is the function pacparser_find_proxy of the file src/pacparser.c. The manipulation of the argument url leads to buffer overflow. Attacking locally is a requirement. Upgrading to version 1.4.0 is able to address this issue. The name of the patch is 853e8f45607cb07b877ffd270c63dbcdd5201ad9. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-215443.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2019-25078">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">84834bade175d8b176ff22a0a33faa17</td>
-       <td>CVE-2022-46364</td>
-       <td>2022-12-13 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A SSRF vulnerability in parsing the href attribute of XOP:Include in MTOM requests in versions of Apache CXF before 3.5.5 and 3.4.10 allows an attacker to perform SSRF style attacks on webservices that take at least one parameter of any type.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46364">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">664be2170dc8c2d136e68d3765ef7d87</td>
-       <td>CVE-2022-46062</td>
-       <td>2022-12-13 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Gym Management System v0.0.1 is vulnerable to Cross Site Request Forgery (CSRF).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46062">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">fbda54fd860c145a9cc4fb8d81247d00</td>
+       <td>CVE-2022-34271</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426575">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9f55313ddef5f61082a505bdebf3730</td>
+       <td>CVE-2022-3073</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-430729">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">57b1462ecb38e6ce8358452beb1e6233</td>
+       <td>CVE-2022-3590</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-432141">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7fbb75be6c666a8b0638383ae46a8604</td>
+       <td>CVE-2022-23500</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412674">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9ce49bebfaeaa4e091390fbec3d94fd7</td>
+       <td>CVE-2022-23501</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412675">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f01ac2ed70557b08e00b411dd2e1249f</td>
+       <td>CVE-2022-23502</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412676">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5976040fa609bac15fccab23d1a4c85</td>
+       <td>CVE-2022-23503</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412677">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f53db4f8476b1b379f9b9c2b7d171499</td>
+       <td>CVE-2022-23504</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412678">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f9ba534a533e42786a390bab694d7a21</td>
+       <td>CVE-2022-4436</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447925">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6a05e982d96890ef43bb2e233e40c322</td>
+       <td>CVE-2022-4437</td>
+       <td>2022-12-14 12:59:37 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447926">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">52975d395ba5f0a1cc868bc1ed594222</td>
        <td>CVE-2022-24377</td>
@@ -711,96 +801,6 @@
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401722">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9f34e15cc80896ca52500a65486c484b</td>
-       <td>CVE-2022-20240</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404793">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2aefb6c52c533f8aa7fc492d2498117b</td>
-       <td>CVE-2022-20411</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404964">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc01f381fa442559b26eac9d0fc74297</td>
-       <td>CVE-2022-20442</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404995">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14f2e4a75585c206c0028985fd37d4af</td>
-       <td>CVE-2022-20444</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404997">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c39044dcf987b568fec8717e7909f407</td>
-       <td>CVE-2022-20449</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405002">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b115100d7926318988247191db4727d</td>
-       <td>CVE-2022-20466</td>
-       <td>2022-12-13 20:38:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405019">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d70be409647618fda864d81dfd50885a</td>
-       <td>CVE-2022-38124</td>
-       <td>2022-12-13 16:49:47 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-433966">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5dad6183bd7814b96673c678eb22fa97</td>
-       <td>CVE-2022-46047</td>
-       <td>2022-12-13 16:49:47 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443933">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6372e6dd2b277fb445576e47ac41b64b</td>
-       <td>CVE-2022-46058</td>
-       <td>2022-12-13 16:49:47 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443945">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">90fa1f192dcb910fc30bb3e548b5923d</td>
-       <td>CVE-2022-46061</td>
-       <td>2022-12-13 16:49:47 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443951">详情</a></td>
       </tr>
 
      </tbody>
