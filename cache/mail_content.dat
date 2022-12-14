@@ -1,24 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2022-12-14 03:50:13<br/>[<b>漏洞描述</b>] 2022-12 补丁日: 微软多个漏洞安全更新通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=935419ecdd8829b62e8133ee16c2daf6'>https://cert.360.cn/warning/detail?id=935419ecdd8829b62e8133ee16c2daf6</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37155</font><br/>[<b>披露时间</b>] 2022-12-14 04:43:12<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-433044'>http://cve.scap.org.cn/vuln/VHN-433044</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40264</font><br/>[<b>披露时间</b>] 2022-12-14 04:43:12<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-436070'>http://cve.scap.org.cn/vuln/VHN-436070</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42139</font><br/>[<b>披露时间</b>] 2022-12-14 04:43:12<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-438598'>http://cve.scap.org.cn/vuln/VHN-438598</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42140</font><br/>[<b>披露时间</b>] 2022-12-14 04:43:12<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-438600'>http://cve.scap.org.cn/vuln/VHN-438600</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42141</font><br/>[<b>披露时间</b>] 2022-12-14 04:43:12<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-438602'>http://cve.scap.org.cn/vuln/VHN-438602</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44874</font><br/>[<b>披露时间</b>] 2022-12-13 04:43:12<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442435'>http://cve.scap.org.cn/vuln/VHN-442435</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27518</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:16<br/>[<b>漏洞描述</b>] Citrix ADC和Citrix Gateway远程代码执行漏洞（CVE-2022-27518）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-27518'>https://avd.aliyun.com/detail?id=AVD-2022-27518</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42475</font><br/>[<b>披露时间</b>] 2022-12-13 05:37:16<br/>[<b>漏洞描述</b>] Fortinet FortiOS sslvpnd 远程代码执行漏洞（CVE-2022-42475）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-42475'>https://avd.aliyun.com/detail?id=AVD-2022-42475</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4194</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Accessibility内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73865'>http://www.nsfocus.net/vulndb/73865</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4184</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Autofill策略执行不当漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73864'>http://www.nsfocus.net/vulndb/73864</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4183</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Popup Blocker策略执行不当漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73863'>http://www.nsfocus.net/vulndb/73863</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4186</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Downloads输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73862'>http://www.nsfocus.net/vulndb/73862</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4189</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome DevTools策略执行不当漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73861'>http://www.nsfocus.net/vulndb/73861</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4188</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome CORS输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73860'>http://www.nsfocus.net/vulndb/73860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4185</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Navigation实现不当漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73859'>http://www.nsfocus.net/vulndb/73859</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4187</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome DevTools策略执行不当漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73858'>http://www.nsfocus.net/vulndb/73858</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4177</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Extensions内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73857'>http://www.nsfocus.net/vulndb/73857</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4175</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Camera Capture内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73856'>http://www.nsfocus.net/vulndb/73856</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4178</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Mojo内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73855'>http://www.nsfocus.net/vulndb/73855</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4182</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Fenced Frames实现不当漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73854'>http://www.nsfocus.net/vulndb/73854</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4179</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Audio内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73853'>http://www.nsfocus.net/vulndb/73853</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4174</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome V8类型混淆漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73852'>http://www.nsfocus.net/vulndb/73852</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4180</font><br/>[<b>披露时间</b>] 2022-12-14 05:37:45<br/>[<b>漏洞描述</b>] Google Chrome Mojo内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/73851'>http://www.nsfocus.net/vulndb/73851</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
