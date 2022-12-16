@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-16 15:39:00 -->
+<!-- RELEASE TIME : 2022-12-16 16:46:18 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6db8921626a4bf5db6a4c09560b3b749</td>
+       <td>CVE-2022-4555</td>
+       <td>2022-12-16 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>The WP Shamsi plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the deactivate() function hooked via init() in versions up to, and including, 4.1.0. This makes it possible for unauthenticated attackers to deactivate arbitrary plugins on the site. This can be used to deactivate security plugins that aids in exploiting other vulnerabilities.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4555">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">713a63646556600ee43fd57c5a0bb56c</td>
+       <td>CVE-2022-41963</td>
+       <td>2022-12-16 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>BigBlueButton is an open source web conferencing system. Versions prior to 2.4.3 contain a whiteboard grace period that exists to handle delayed messages, but this grace period could be used by attackers to take actions in the few seconds after their access is revoked. The attacker must be a meeting participant. This issue is patched in version 2.4.3 an version 2.5-alpha-1</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41963">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">718132be949d449ee2307e03e2dd5d65</td>
+       <td>CVE-2022-36223</td>
+       <td>2022-12-16 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Emby Server 4.6.7.0, the playlist name field is vulnerable to XSS stored where it is possible to steal the administrator access token and flip or steal the media server administrator account.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36223">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">93d0c58acb8e2cc16f31a43be79a5252</td>
+       <td>CVE-2022-46870</td>
+       <td>2022-12-16 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache Zeppelin allows logged-in users to execute arbitrary javascript in other users' browsers. This issue affects Apache Zeppelin before 0.8.2. Users are recommended to upgrade to a supported version of Zeppelin.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46870">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">be8c01c02ca6d55f91e4a7f555a22eae</td>
+       <td>CVE-2022-41962</td>
+       <td>2022-12-16 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>BigBlueButton is an open source web conferencing system. Versions prior to 2.4-rc-6, and 2.5-alpha-1 contain Incorrect Authorization for setting emoji status. A user with moderator rights can use the clear status feature to set any emoji status for other users. Moderators should only be able to set none as the status of other users. This issue is patched in 2.4-rc-6 and 2.5-alpha-1There are no workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41962">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">db88f6d8239e4b8c5ffc20c73aad0a8e</td>
+       <td>CVE-2022-41961</td>
+       <td>2022-12-16 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>BigBlueButton is an open source web conferencing system. Versions prior to 2.4-rc-6 are subject to Ineffective user bans. The attacker could register multiple users, and join the meeting with one of them. When that user is banned, they could still join the meeting with the remaining registered users from the same extId. This issue has been fixed by improving permissions such that banning a user removes all users related to their extId, including registered users that have not joined the meeting. This issue is patched in versions 2.4-rc-6 and 2.5-alpha-1. There are no workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41961">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f43386438fa947e1d2ef9864662d1ef</td>
+       <td>CVE-2021-28655</td>
+       <td>2022-12-16 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The improper Input Validation vulnerability in "”Move folder to Trash” feature of Apache Zeppelin allows an attacker to delete the arbitrary files. This issue affects Apache Zeppelin Apache Zeppelin version 0.9.0 and prior versions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-28655">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d472bfee071da808411f262c38eccc20</td>
        <td>CVE-2022-41960</td>
        <td>2022-12-16 00:15:00 <img src="imgs/new.gif" /></td>
@@ -463,62 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46700">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">e4a79b98482cefb1d56ad9a8e46f080f</td>
-       <td>CVE-2022-46699</td>
-       <td>2022-12-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A memory corruption issue was addressed with improved state management. This issue is fixed in Safari 16.2, tvOS 16.2, macOS Ventura 13.1, iOS 16.2 and iPadOS 16.2, watchOS 9.2. Processing maliciously crafted web content may lead to arbitrary code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46699">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ad6b08b63a2648e8c1244f637d535670</td>
-       <td>CVE-2022-46698</td>
-       <td>2022-12-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A logic issue was addressed with improved checks. This issue is fixed in Safari 16.2, tvOS 16.2, iCloud for Windows 14.1, macOS Ventura 13.1, iOS 16.2 and iPadOS 16.2, watchOS 9.2. Processing maliciously crafted web content may disclose sensitive user information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46698">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">06790caa6f9e552eeadcf9e8a752ded3</td>
-       <td>CVE-2022-46697</td>
-       <td>2022-12-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in macOS Ventura 13.1. An app may be able to execute arbitrary code with kernel privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46697">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">00fb1f2b26e070dc0f49ffdf30ecd7b5</td>
-       <td>CVE-2022-32763</td>
-       <td>2022-12-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site scripting (xss) sanitization vulnerability bypass exists in the SanitizeHtml functionality of Lansweeper lansweeper 10.1.1.0. A specially-crafted HTTP request can lead to arbitrary Javascript code injection. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32763">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bb19e5a2dd56e97e0f51acfd888ef048</td>
-       <td>CVE-2022-32573</td>
-       <td>2022-12-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A directory traversal vulnerability exists in the AssetActions.aspx addDoc functionality of Lansweeper lansweeper 10.1.1.0. A specially-crafted HTTP request can lead to arbitrary file upload. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32573">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13eaf10f40da7adff29091217dd9514a</td>
-       <td>CVE-2022-29517</td>
-       <td>2022-12-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A directory traversal vulnerability exists in the HelpdeskActions.aspx edittemplate functionality of Lansweeper lansweeper 10.1.1.0. A specially-crafted HTTP request can lead to arbitrary file upload. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29517">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">94c8d9cd25c8c86b48207d8b495b7cc8</td>
-       <td>CVE-2022-29511</td>
-       <td>2022-12-15 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A directory traversal vulnerability exists in the KnowledgebasePageActions.aspx ImportArticles functionality of Lansweeper lansweeper 10.1.1.0. A specially-crafted HTTP request can lead to arbitrary file read. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29511">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,15 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">c7db12c46f06e8f7874e1201355c2fc4</td>
+       <td>CVE-2022-41960</td>
+       <td>2022-12-16 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>BigBlueButton is an open source web...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-438335">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">2f9a313c2b61bde02ad6b62ee84b61e6</td>
        <td>CVE-2022-41960</td>
@@ -633,6 +642,87 @@
       </tr>
 
       <tr>
+       <td scope="row">72a199368b5f09bd563fc8f4d97aa1cc</td>
+       <td>CVE-2022-40004</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>Cross Site Scripting (XSS) vulnerability in...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-435804">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1e9d38700b76e21087fe6630797fcb54</td>
+       <td>CVE-2022-45338</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>An arbitrary file upload vulnerability in the...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-442995">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0d403604a3cca779c0ab1ac2be5b367a</td>
+       <td>CVE-2022-45969</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>Alist v3.4.0 is vulnerable to Directory...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443822">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">511536694080dd97884b9e902a9fe025</td>
+       <td>CVE-2022-46392</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Mbed TLS before......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444371">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">51b7c154ff01c169b122c60e7b4e492c</td>
+       <td>CVE-2022-46393</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Mbed TLS before......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444372">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b44347f119c67f10e0ec2adb96179e0a</td>
+       <td>CVE-2022-46631</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>TOTOlink A7100RU V7.4cu.2313_B20191024 was...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444713">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8a8086db6fab82609730f71884b2f0e8</td>
+       <td>CVE-2022-46634</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>TOTOlink A7100RU V7.4cu.2313_B20191024 was...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444718">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ba1e84ae4bb545575e15a8c57d5fef6a</td>
+       <td>CVE-2022-4527</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in collective.task...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448443">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0095158a3d5a044f37ada347fd32e516</td>
+       <td>CVE-2022-4526</td>
+       <td>2022-12-15 16:46:09 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in django-photologue...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448444">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">952f498ee8ba78f1e7dc2fea77bf247e</td>
        <td>CVE-2022-27498</td>
        <td>2022-12-15 13:01:02 <img src="imgs/new.gif" /></td>
@@ -713,96 +803,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448305">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">5e5ff78cb311e3b5a968826f6b7feb94</td>
-       <td>CVE-2022-4504</td>
-       <td>2022-12-15 08:42:54 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448306">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3c021090ee3bebc2c907fcfe15cf18fd</td>
-       <td>CVE-2022-4503</td>
-       <td>2022-12-15 08:42:54 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448307">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ffa513e2899527d8b8f39a2299a39bc0</td>
-       <td>CVE-2022-4502</td>
-       <td>2022-12-15 08:42:54 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448308">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bd725f0c09bc22b037d592cae2d46485</td>
-       <td>CVE-2022-40004</td>
-       <td>2022-12-15 04:40:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-435804">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">17daddb3c7b8a6fd0e2db6cef9768a5a</td>
-       <td>CVE-2022-45338</td>
-       <td>2022-12-15 04:40:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-442995">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea814241614d17e3908f21378bd28281</td>
-       <td>CVE-2022-45969</td>
-       <td>2022-12-15 04:40:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443822">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">81017daa8f2bd2cc9e75137c6b401ed0</td>
-       <td>CVE-2022-46392</td>
-       <td>2022-12-15 04:40:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444371">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f703e2fc81d3d7549731dd34031e9652</td>
-       <td>CVE-2022-46393</td>
-       <td>2022-12-15 04:40:43 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444372">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a7823614473a7670649661ad0adf040d</td>
-       <td>CVE-2022-46631</td>
-       <td>2022-12-15 01:52:41 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444713">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f5adaab961a5a2b3ede97a13a234dcd2</td>
-       <td>CVE-2022-46634</td>
-       <td>2022-12-15 01:52:41 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444718">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -817,6 +817,14 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">d42ad08c04764b0c307c1ab621140475</td>
+       <td>CNVD-2022-84009</td>
+       <td>2022-12-17 16:45:41 <img src="imgs/new.gif" /></td>
+       <td>用友GRP-U8行政事业内控管理软件（新政府会计制度专版）存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-84009">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">7911cd5db325025c342d4c9386352eec</td>
        <td>CNVD-2022-87929 (CVE-2022-3448)</td>
@@ -1047,14 +1055,6 @@
        <td>2022-12-15 04:43:13 <img src="imgs/new.gif" /></td>
        <td>Microsoft SharePoint Server欺骗漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-87652">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97b752314295ba426ee272ec09d6e40e</td>
-       <td>CNVD-2022-87645 (CVE-2022-42442)</td>
-       <td>2022-12-15 03:02:53 <img src="imgs/new.gif" /></td>
-       <td>IBM Robotic Process Automation资源暴露于错误范围漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-87645">详情</a></td>
       </tr>
 
      </tbody>
