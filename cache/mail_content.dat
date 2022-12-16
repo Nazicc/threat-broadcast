@@ -1,12 +1,26 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46166</font><br/>[<b>披露时间</b>] 2022-12-10 07:37:13<br/>[<b>漏洞描述</b>] Spring Boot Admins integrated notifier support SpEL远程代码执行（CVE-2022-46166）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-46166'>https://avd.aliyun.com/detail?id=AVD-2022-46166</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46364,CVE-2022-46363</font><br/>[<b>披露时间</b>] 2022-12-16 16:37:52<br/>[<b>漏洞描述</b>] Apache CXF存在多个漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7907'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7907</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25918</font><br/>[<b>披露时间</b>] 2022-10-27 08:39:03<br/>[<b>漏洞描述</b>] Shescape拒绝服务漏洞（CVE-2022-25918）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-25918'>https://avd.aliyun.com/detail?id=AVD-2022-25918</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-26728</font><br/>[<b>披露时间</b>] 2022-10-24 08:39:03<br/>[<b>漏洞描述</b>] Lanner IAC-AST2500A堆栈缓冲区溢出漏洞（CVE-2021-26728）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2021-26728'>https://avd.aliyun.com/detail?id=AVD-2021-26728</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41415</font><br/>[<b>披露时间</b>] 2022-10-19 08:39:03<br/>[<b>漏洞描述</b>] Acer Altos W2000h-W570h F4越界写入漏洞（CVE-2022-41415）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-41415'>https://avd.aliyun.com/detail?id=AVD-2022-41415</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87977 (CVE-2022-46349)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:05<br/>[<b>漏洞描述</b>] Siemens Parasolid越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87977'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87977</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87978 (CVE-2022-46347)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:07<br/>[<b>漏洞描述</b>] Siemens Parasolid越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87978'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87978</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87979 (CVE-2022-46346)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:09<br/>[<b>漏洞描述</b>] Siemens Parasolid越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87979'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87979</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87980 (CVE-2022-46345)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:11<br/>[<b>漏洞描述</b>] Siemens Parasolid越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87980'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87980</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87981 (CVE-2022-44731)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:14<br/>[<b>漏洞描述</b>] Siemens SIMATIC WinCC OA Ultralight Client参数注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87981'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87981</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87982 (CVE-2021-44695)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:16<br/>[<b>漏洞描述</b>] Siemens Industrial产品拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87982'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87982</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-87983 (CVE-2021-44694)</font><br/>[<b>披露时间</b>] 2022-12-16 08:39:18<br/>[<b>漏洞描述</b>] Siemens Industrial产品拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-87983'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-87983</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
