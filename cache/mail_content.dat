@@ -1,13 +1,16 @@
 
 <h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23531</font><br/>[<b>披露时间</b>] 2022-12-17 00:15:00<br/>[<b>漏洞描述</b>] GuardDog is a CLI tool to identify malicious PyPI packages. Versions prior to 0.1.5 are vulnerable to Relative Path Traversal when scanning a specially-crafted local PyPI package. Running GuardDog against a specially-crafted package can allow an attacker to write an arbitrary file on the machine where GuardDog is executed due to a path traversal vulnerability when extracting the .tar.gz file of the package being scanned, which exists by design in the tarfile.TarFile.extractall function. This issue is patched in version 0.1.5.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23531'>https://www.tenable.com/cve/CVE-2022-23531</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38756</font><br/>[<b>披露时间</b>] 2022-12-16 23:15:00<br/>[<b>漏洞描述</b>] A vulnerability has been identified in Micro Focus GroupWise Web in versions prior to 18.4.2. The GW Web component makes a request to the Post Office Agent that contains sensitive information in the query parameters that could be logged by any intervening HTTP proxies.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-38756'>https://www.tenable.com/cve/CVE-2022-38756</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23530</font><br/>[<b>披露时间</b>] 2022-12-16 23:15:00<br/>[<b>漏洞描述</b>] GuardDog is a CLI tool to identify malicious PyPI packages. Versions prior to v0.1.8 are vulnerable to arbitrary file write when scanning a specially-crafted remote PyPI package. Extracting files using shutil.unpack_archive() from a potentially malicious tarball without validating that the destination file path is within the intended destination directory can cause files outside the destination directory to be overwritten. This issue is patched in version 0.1.8. Potential workarounds include using a safer module, like zipfile, and validating the location of the extracted files and discarding those with malicious paths.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23530'>https://www.tenable.com/cve/CVE-2022-23530</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23531</font><br/>[<b>披露时间</b>] 2022-12-17 04:40:23<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412705'>http://cve.scap.org.cn/vuln/VHN-412705</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23530</font><br/>[<b>披露时间</b>] 2022-12-16 04:40:23<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412704'>http://cve.scap.org.cn/vuln/VHN-412704</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38756</font><br/>[<b>披露时间</b>] 2022-12-16 04:40:23<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434530'>http://cve.scap.org.cn/vuln/VHN-434530</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
