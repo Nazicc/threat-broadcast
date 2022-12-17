@@ -1,12 +1,14 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4572</font><br/>[<b>披露时间</b>] 2022-12-17 02:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, has been found in UBI Reader up to 0.8.0. Affected by this issue is the function ubireader_extract_files of the file ubireader/ubifs/output.py of the component UBIFS File Handler. The manipulation leads to path traversal. The attack may be launched remotely. Upgrading to version 0.8.5 is able to address this issue. The name of the patch is d5d68e6b1b9f7070c29df5f67fc060f579ae9139. It is recommended to upgrade the affected component. VDB-216146 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4572'>https://www.tenable.com/cve/CVE-2022-4572</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23488</font><br/>[<b>披露时间</b>] 2022-12-17 01:15:00<br/>[<b>漏洞描述</b>] BigBlueButton is an open source web conferencing system. Versions prior to 2.4-rc-6 are vulnerable to Insertion of Sensitive Information Into Sent Data. The moderators-only webcams lock setting is not enforced on the backend, which allows an attacker to subscribe to viewers' webcams, even when the lock setting is applied. (The required streamId was being sent to all users even with lock setting applied). This issue is fixed in version 2.4-rc-6. There are no workarounds.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-23488'>https://www.tenable.com/cve/CVE-2022-23488</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4572</font><br/>[<b>披露时间</b>] 2022-12-17 08:38:55<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448514'>http://cve.scap.org.cn/vuln/VHN-448514</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23488</font><br/>[<b>披露时间</b>] 2022-12-17 08:38:55<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412662'>http://cve.scap.org.cn/vuln/VHN-412662</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
