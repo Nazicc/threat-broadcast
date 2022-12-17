@@ -1,14 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4567</font><br/>[<b>披露时间</b>] 2022-12-17 12:52:30<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448515'>http://cve.scap.org.cn/vuln/VHN-448515</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4567</font><br/>[<b>披露时间</b>] 2022-12-17 06:15:00<br/>[<b>漏洞描述</b>] Improper Access Control in GitHub repository openemr/openemr prior to 7.0.0.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4567'>https://www.tenable.com/cve/CVE-2022-4567</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39660</font><br/>[<b>披露时间</b>] 2022-12-17 20:30:32<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a6cd2f86853e476298b9da7d8ff6a727'>https://redqueen.tj-un.com/IntelDetails.html?id=a6cd2f86853e476298b9da7d8ff6a727</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39617</font><br/>[<b>披露时间</b>] 2022-12-17 20:30:26<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=aaca97cd757c4c3ab3c533f7d99663af'>https://redqueen.tj-un.com/IntelDetails.html?id=aaca97cd757c4c3ab3c533f7d99663af</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20444</font><br/>[<b>披露时间</b>] 2022-12-17 20:30:21<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=70f91ad0c6c7462f8733bf5b435eef56'>https://redqueen.tj-un.com/IntelDetails.html?id=70f91ad0c6c7462f8733bf5b435eef56</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20442</font><br/>[<b>披露时间</b>] 2022-12-17 20:30:15<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=dd8354d70e304f86a714d6da462f9f1c'>https://redqueen.tj-un.com/IntelDetails.html?id=dd8354d70e304f86a714d6da462f9f1c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20468</font><br/>[<b>披露时间</b>] 2022-12-17 20:30:09<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=54b0f23489a74d4a8e5cbea018b94eb4'>https://redqueen.tj-un.com/IntelDetails.html?id=54b0f23489a74d4a8e5cbea018b94eb4</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20469</font><br/>[<b>披露时间</b>] 2022-12-17 20:30:02<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=29bc987ba42b486d8ead20fbae0558fb'>https://redqueen.tj-un.com/IntelDetails.html?id=29bc987ba42b486d8ead20fbae0558fb</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20471</font><br/>[<b>披露时间</b>] 2022-12-17 20:29:56<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7e03b32315034a10b3e986c7ea05f2e7'>https://redqueen.tj-un.com/IntelDetails.html?id=7e03b32315034a10b3e986c7ea05f2e7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20470</font><br/>[<b>披露时间</b>] 2022-12-17 20:29:50<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=dc08d54647b24acb8c8ebf419f2dca5b'>https://redqueen.tj-un.com/IntelDetails.html?id=dc08d54647b24acb8c8ebf419f2dca5b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-20474</font><br/>[<b>披露时间</b>] 2022-12-17 20:29:45<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=5058b29faa65491488e8b3bb60bd802c'>https://redqueen.tj-un.com/IntelDetails.html?id=5058b29faa65491488e8b3bb60bd802c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-0934</font><br/>[<b>披露时间</b>] 2022-12-17 20:29:39<br/>[<b>漏洞描述</b>] Google Android 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=dcee93a4fb3249328fe73fc272f8684b'>https://redqueen.tj-un.com/IntelDetails.html?id=dcee93a4fb3249328fe73fc272f8684b</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
