@@ -1,33 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33268</font><br/>[<b>披露时间</b>] 2022-12-13 16:15:21 <br/>[<b>漏洞描述</b>] Information disclosure due to buffer over-read in Bluetooth HOST while pairing and connecting A2DP. in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33268'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33268</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33238</font><br/>[<b>披露时间</b>] 2022-12-13 16:15:21 <br/>[<b>漏洞描述</b>] Transient DOS due to loop with unreachable exit condition in WLAN while processing an incoming FTM frames. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33238'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33238</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4605</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448638'>http://cve.scap.org.cn/vuln/VHN-448638</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4606</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] PHP Remote File Inclusion in GitHub repository...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448639'>http://cve.scap.org.cn/vuln/VHN-448639</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4248</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability was found in kapetan dns up......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448626'>http://cve.scap.org.cn/vuln/VHN-448626</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4595</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic has...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448628'>http://cve.scap.org.cn/vuln/VHN-448628</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4596</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448629'>http://cve.scap.org.cn/vuln/VHN-448629</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4597</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448630'>http://cve.scap.org.cn/vuln/VHN-448630</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4598</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability has been found in Shoplazza...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448631'>http://cve.scap.org.cn/vuln/VHN-448631</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4599</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability was found in Shoplazza...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448632'>http://cve.scap.org.cn/vuln/VHN-448632</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4600</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability was found in Shoplazza...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448633'>http://cve.scap.org.cn/vuln/VHN-448633</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4601</font><br/>[<b>披露时间</b>] 2022-12-18 17:37:34<br/>[<b>漏洞描述</b>] A vulnerability was found in Shoplazza...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448634'>http://cve.scap.org.cn/vuln/VHN-448634</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4249</font><br/>[<b>披露时间</b>] 2022-12-18 15:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in xml-conduit. It has been classified as problematic. Affected is an unknown function of the file xml-conduit/src/Text/XML/Stream/Parse.hs of the component DOCTYPE Entity Expansion Handler. The manipulation leads to infinite loop. It is possible to launch the attack remotely. Upgrading to version 1.9.1.0 is able to address this issue. The name of the patch is 4be1021791dcdee8b164d239433a2043dc0939ea. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-216204.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-4249'>https://www.tenable.com/cve/CVE-2021-4249</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36617</font><br/>[<b>披露时间</b>] 2022-12-18 15:15:00<br/>[<b>漏洞描述</b>] ** DISPUTED ** A vulnerability was found in ewxrjk sftpserver. It has been declared as problematic. Affected by this vulnerability is the function sftp_parse_path of the file parse.c. The manipulation leads to uninitialized pointer. The real existence of this vulnerability is still doubted at the moment. The name of the patch is bf4032f34832ee11d79aa60a226cc018e7ec5eed. It is recommended to apply a patch to fix this issue. The identifier VDB-216205 was assigned to this vulnerability. NOTE: In some deployment models this would be a vulnerability. README specifically warns about avoiding such deployment models.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-36617'>https://www.tenable.com/cve/CVE-2020-36617</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
