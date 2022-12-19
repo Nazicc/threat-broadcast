@@ -1,24 +1,23 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41993</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-438389'>http://cve.scap.org.cn/vuln/VHN-438389</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43443</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440486'>http://cve.scap.org.cn/vuln/VHN-440486</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43466</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440516'>http://cve.scap.org.cn/vuln/VHN-440516</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43486</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440542'>http://cve.scap.org.cn/vuln/VHN-440542</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44456</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-441809'>http://cve.scap.org.cn/vuln/VHN-441809</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46287</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-444259'>http://cve.scap.org.cn/vuln/VHN-444259</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46288</font><br/>[<b>披露时间</b>] 2022-12-19 08:40:31<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-444260'>http://cve.scap.org.cn/vuln/VHN-444260</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4427</font><br/>[<b>披露时间</b>] 2022-12-19 12:57:05<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447916'>http://cve.scap.org.cn/vuln/VHN-447916</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47549</font><br/>[<b>披露时间</b>] 2022-12-19 12:57:05<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449050'>http://cve.scap.org.cn/vuln/VHN-449050</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47547</font><br/>[<b>披露时间</b>] 2022-12-19 12:57:05<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449051'>http://cve.scap.org.cn/vuln/VHN-449051</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2016-20018</font><br/>[<b>披露时间</b>] 2022-12-19 12:57:05<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449052'>http://cve.scap.org.cn/vuln/VHN-449052</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47549</font><br/>[<b>披露时间</b>] 2022-12-19 09:15:00<br/>[<b>漏洞描述</b>] An unprotected memory-access operation in optee_os in TrustedFirmware Open Portable Trusted Execution Environment (OP-TEE) before 3.20 allows a physically proximate adversary to bypass signature verification and install malicious trusted applications via electromagnetic fault injections.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-47549'>https://www.tenable.com/cve/CVE-2022-47549</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47547</font><br/>[<b>披露时间</b>] 2022-12-19 09:15:00<br/>[<b>漏洞描述</b>] GossipSub 1.1, as used for Ethereum 2.0, allows a peer to maintain a positive score (and thus not be pruned from the network) even though it continuously misbehaves by never forwarding topic messages.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-47547'>https://www.tenable.com/cve/CVE-2022-47547</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4427</font><br/>[<b>披露时间</b>] 2022-12-19 09:15:00<br/>[<b>漏洞描述</b>] Improper Input Validation vulnerability in OTRS AG OTRS, OTRS AG ((OTRS)) Community Edition allows SQL Injection via TicketSearch Webservice This issue affects OTRS: from 7.0.1 before 7.0.40 Patch 1, from 8.0.1 before 8.0.28 Patch 1; ((OTRS)) Community Edition: from 6.0.1 through 6.0.34.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4427'>https://www.tenable.com/cve/CVE-2022-4427</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2016-20018</font><br/>[<b>披露时间</b>] 2022-12-19 09:15:00<br/>[<b>漏洞描述</b>] Knex Knex.js through 2.3.0 has a limited SQL injection vulnerability that can be exploited to ignore the WHERE clause of a SQL query.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2016-20018'>https://www.tenable.com/cve/CVE-2016-20018</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
