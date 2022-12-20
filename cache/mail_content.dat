@@ -1,15 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3112</font><br/>[<b>披露时间</b>] 2022-12-20 20:28:00<br/>[<b>漏洞描述</b>] LINUX LINUX_KERNEL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=4186b1427213404997c0b8567ba07727'>https://redqueen.tj-un.com/IntelDetails.html?id=4186b1427213404997c0b8567ba07727</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3111</font><br/>[<b>披露时间</b>] 2022-12-20 20:27:54<br/>[<b>漏洞描述</b>] LINUX LINUX_KERNEL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fa40fc45061543b9a16e2298b3b0d469'>https://redqueen.tj-un.com/IntelDetails.html?id=fa40fc45061543b9a16e2298b3b0d469</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3115</font><br/>[<b>披露时间</b>] 2022-12-20 20:27:42<br/>[<b>漏洞描述</b>] LINUX LINUX_KERNEL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=23a4d75efbe24ff28f1b2da540677d3c'>https://redqueen.tj-un.com/IntelDetails.html?id=23a4d75efbe24ff28f1b2da540677d3c</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46421</font><br/>[<b>披露时间</b>] 2022-12-20 11:15:00<br/>[<b>漏洞描述</b>] Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache Software Foundation Apache Airflow Hive Provider.This issue affects Apache Airflow Hive Provider: before 5.0.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-46421'>https://www.tenable.com/cve/CVE-2022-46421</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-84587</font><br/>[<b>披露时间</b>] 2022-12-21 16:47:24<br/>[<b>漏洞描述</b>] 浙江大华技术股份有限公司智能物联综合管理平台存在弱口令漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-84587'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-84587</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45942</font><br/>[<b>披露时间</b>] 2022-12-20 16:47:51<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-443786'>http://cve.scap.org.cn/vuln/VHN-443786</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46421</font><br/>[<b>披露时间</b>] 2022-12-20 16:47:51<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-444410'>http://cve.scap.org.cn/vuln/VHN-444410</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>VHN-449100</font><br/>[<b>披露时间</b>] 2022-12-20 16:47:51<br/>[<b>漏洞描述</b>] Senayan Library Management System 9.2.1 SQL...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449100'>http://cve.scap.org.cn/vuln/VHN-449100</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45942</font><br/>[<b>披露时间</b>] 2022-12-20 14:15:00<br/>[<b>漏洞描述</b>] A Remote Code Execution (RCE) vulnerability was found in includes/baijiacms/common.inc.php in baijiacms v4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45942'>https://www.tenable.com/cve/CVE-2022-45942</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
