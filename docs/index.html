@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-21 23:38:06 -->
+<!-- RELEASE TIME : 2022-12-22 01:55:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">72e07ecf273e56c0462edca591572d0b</td>
+       <td>CVE-2022-3189</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where a specially crafted PHP script could use parameters from a HTTP request to create a URL capable of changing the host parameter. The changed host parameter in the HTTP could point to another host that will send a request to the host or IP specified in the changed host parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3189">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">acc87fd65fa7aa9cabc522dc43eade59</td>
+       <td>CVE-2022-3188</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where unauthenticated users could open PHP index pages without authentication and download the history file from the device; the history file includes the latest actions completed by specific users.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3188">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f298d2663b47df34ff2b0cc7211409d5</td>
+       <td>CVE-2022-3187</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where certain PHP pages only validate when a valid connection is established with the database. However, these PHP pages do not verify the validity of a user. Attackers could leverage this lack of verification to read the state of outlets.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3187">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">597ff34a85c7506e5200564cef76b0f3</td>
+       <td>CVE-2022-3186</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where the affected product allows an attacker to access the device’s main management page from the cloud. This feature enables users to remotely connect devices, however, the current implementation permits users to access other device's information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3186">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">056505547120fa5b8b66fea72f17d429</td>
+       <td>CVE-2022-3185</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where the affected product exposes sensitive data concerning the device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3185">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4a6ccb1d8c2bff323903f8fde6911b5f</td>
+       <td>CVE-2022-3184</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where the device’s existing firmware allows unauthenticated users to access an old PHP page vulnerable to directory traversal, which may allow a user to write a file to the webroot directory.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3184">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c2c951d625b6fd9c302da0182239615e</td>
+       <td>CVE-2022-3183</td>
+       <td>2022-12-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dataprobe iBoot-PDU FW versions prior to 1.42.06162022 contain a vulnerability where a specific function does not sanitize the input provided by the user, which may expose the affected to an OS command injection vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3183">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6ad8b1a75df159ef17ac93742a4eb66c</td>
        <td>CVE-2022-4643</td>
        <td>2022-12-21 22:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-12-21 17:15:00 <img src="imgs/new.gif" /></td>
        <td>Isode M-Vault 16.0v0 through 17.x before 17.0v24 can crash upon an LDAP v1 bind request.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47581">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">84e8615506e00cadabdec4020b190a9d</td>
-       <td>CVE-2022-44756</td>
-       <td>2022-12-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Insights for Vulnerability Remediation (IVR) is vulnerable to improper input validation. This may lead to information disclosure. This requires privileged access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44756">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">027732f40cac0032fe4b82f04ec1f951</td>
-       <td>CVE-2022-4287</td>
-       <td>2022-12-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Authentication bypass in local application lock feature in Devolutions Remote Desktop Manager 2022.3.26 and earlier on Windows allows malicious user to access the application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4287">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a08282ad7ebd317818f223553d2545e6</td>
-       <td>CVE-2022-42454</td>
-       <td>2022-12-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Insights for Vulnerability Remediation (IVR) is vulnerable to man-in-the-middle attacks that may lead to information disclosure. This requires privileged network access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42454">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9511bf6fe424508c07d72ac00dd5c3cc</td>
-       <td>CVE-2022-38655</td>
-       <td>2022-12-21 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>BigFix WebUI non-master operators are missing controls that prevent them from being able to modify the relevance of fixlets or to deploy fixlets from the BES Support external site.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38655">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d6d91fa28f04d50c9bcdf230bcf0d013</td>
-       <td>CVE-2022-40145</td>
-       <td>2022-12-21 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>This vulnerable is about a potential code injection when an attacker has control of the target LDAP server using in the JDBC JNDI URL. The function jaas.modules.src.main.java.porg.apache.karaf.jass.modules.jdbc.JDBCUtils#doCreateDatasource use InitialContext.lookup(jndiName) without filtering. An user can modify `options.put(JDBCUtils.DATASOURCE, "osgi:" + DataSource.class.getName());` to `options.put(JDBCUtils.DATASOURCE,"jndi:rmi://x.x.x.x:xxxx/Command");` in JdbcLoginModuleTest#setup. This is vulnerable to a remote code execution (RCE) attack when a configuration uses a JNDI LDAP data source URI when an attacker has control of the target LDAP server.This issue affects all versions of Apache Karaf up to 4.4.1 and 4.3.7. We encourage the users to upgrade to Apache Karaf at least 4.4.2 or 4.3.8</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40145">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">00b159e003152fb2717c2afddede3e7a</td>
-       <td>CVE-2022-38065</td>
-       <td>2022-12-21 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A privilege escalation vulnerability exists in the oslo.privsep functionality of OpenStack git master 05194e7618 and prior. Overly permissive functionality within tools leveraging this library within a container can lead increased privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38065">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ecfcef69935be788877e581aa6e0a033</td>
-       <td>CVE-2022-38060</td>
-       <td>2022-12-21 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A privilege escalation vulnerability exists in the sudo functionality of OpenStack Kolla git master 05194e7618. A misconfiguration in /etc/sudoers within a container can lead to increased privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38060">详情</a></td>
       </tr>
 
      </tbody>
@@ -759,48 +759,48 @@
       </tr>
 
       <tr>
-       <td scope="row">0ca135b9ec584b9772d3ea41edff4c31</td>
-       <td>CVE-2022-46076</td>
-       <td>2022-12-20 21:38:05 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443977">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8f02f8ed525618593c6352ddb9224aa5</td>
-       <td>CVE-2022-46020</td>
-       <td>2022-12-20 21:38:05 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443903">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">71b12945a01ecbb4fdc43103c28d9150</td>
-       <td>CVE-2022-4619</td>
-       <td>2022-12-20 21:38:05 <img src="imgs/new.gif" /></td>
+       <td scope="row">bc8431f6172852c427074545b32a8109</td>
+       <td>CVE-2022-4643</td>
+       <td>2022-12-21 01:55:37 <img src="imgs/new.gif" /></td>
        <td>Untitled vulnerability
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449180">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449528">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">a27cb53f341fc84008804d0737a23ed5</td>
-       <td>CVE-2022-40624</td>
-       <td>2022-12-20 21:38:05 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
+       <td scope="row">2dbc223a6b8a24fd2c57d8f9152bbb32</td>
+       <td>CVE-2022-4642</td>
+       <td>2022-12-21 01:55:37 <img src="imgs/new.gif" /></td>
+       <td>Untitled vulnerability
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-436443">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449529">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">a5bd4033276ebc4e2a08ddf5dbc7e3db</td>
-       <td>CVE-2022-44643</td>
-       <td>2022-12-20 21:38:05 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
+       <td scope="row">239af741d5c67c46bccb18d25c0ffb4a</td>
+       <td>CVE-2022-4641</td>
+       <td>2022-12-21 01:55:37 <img src="imgs/new.gif" /></td>
+       <td>Untitled vulnerability
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-442073">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449530">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">65866977d116477100b17f575b79b500</td>
+       <td>CVE-2022-4640</td>
+       <td>2022-12-21 01:55:37 <img src="imgs/new.gif" /></td>
+       <td>Untitled vulnerability
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449531">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7449f1075bdad009785013ef8e40c6b3</td>
+       <td>CVE-2022-4639</td>
+       <td>2022-12-21 01:55:37 <img src="imgs/new.gif" /></td>
+       <td>Untitled vulnerability
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449532">详情</a></td>
       </tr>
 
      </tbody>
@@ -1986,7 +1986,7 @@
       <tr>
        <td scope="row">dd3b77bd40a4f2943a8214b2b128a123</td>
        <td>CVE-2022-3112</td>
-       <td>2022-12-20 20:28:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 20:28:00</td>
        <td>LINUX LINUX_KERNEL Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4186b1427213404997c0b8567ba07727">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">5c0cee14f6e9abbc747c81828fbcca70</td>
        <td>CVE-2022-3111</td>
-       <td>2022-12-20 20:27:54 <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 20:27:54</td>
        <td>LINUX LINUX_KERNEL Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fa40fc45061543b9a16e2298b3b0d469">详情</a></td>
       </tr>
@@ -2002,7 +2002,7 @@
       <tr>
        <td scope="row">8a335f247b1efcb49337bdf7899dc2bf</td>
        <td>CVE-2022-3115</td>
-       <td>2022-12-20 20:27:42 <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 20:27:42</td>
        <td>LINUX LINUX_KERNEL Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=23a4d75efbe24ff28f1b2da540677d3c">详情</a></td>
       </tr>
@@ -2422,7 +2422,7 @@
       <tr>
        <td scope="row">36a9a9449d2f6a378800f80a17a1f646</td>
        <td>CVE-2022-46549</td>
-       <td>2022-12-20 15:15:12  <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 15:15:12 </td>
        <td>Tenda F1203 V2.0.1.6 was discovered to contain a buffer overflow via the deviceId parameter at /goform/saveParentControlInfo.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46549">详情</a></td>
       </tr>
@@ -2430,7 +2430,7 @@
       <tr>
        <td scope="row">f89caf1d868b466f84d8ecbfe65b3e92</td>
        <td>CVE-2022-46548</td>
-       <td>2022-12-20 15:15:12  <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 15:15:12 </td>
        <td>Tenda F1203 V2.0.1.6 was discovered to contain a buffer overflow via the page parameter at /goform/DhcpListClient.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46548">详情</a></td>
       </tr>
@@ -2438,7 +2438,7 @@
       <tr>
        <td scope="row">acf3308724a57cfcf7f215974e76f21e</td>
        <td>CVE-2022-46547</td>
-       <td>2022-12-20 15:15:12  <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 15:15:12 </td>
        <td>Tenda F1203 V2.0.1.6 was discovered to contain a buffer overflow via the page parameter at /goform/VirtualSer.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46547">详情</a></td>
       </tr>
@@ -2446,9 +2446,25 @@
       <tr>
        <td scope="row">ee6d81c92a4e014398618ae5fb45c11c</td>
        <td>CVE-2022-46546</td>
-       <td>2022-12-20 15:15:12  <img src="imgs/new.gif" /></td>
+       <td>2022-12-20 15:15:12 </td>
        <td>Tenda F1203 V2.0.1.6 was discovered to contain a buffer overflow via the entrys parameter at /goform/RouteStatic.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46546">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7a92b4a1cf17d3e87848eacf632602bf</td>
+       <td>CVE-2022-46545</td>
+       <td>2022-12-20 15:15:12 </td>
+       <td>Tenda F1203 V2.0.1.6 was discovered to contain a buffer overflow via the page parameter at /goform/NatStaticSetting.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46545">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28663c8b105e25aa3e2385f76dde12d6</td>
+       <td>CVE-2022-46544</td>
+       <td>2022-12-20 15:15:12 </td>
+       <td>Tenda F1203 V2.0.1.6 was discovered to contain a buffer overflow via the cmdinput parameter at /goform/exeCommand.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46544">详情</a></td>
       </tr>
 
       <tr>
@@ -2457,6 +2473,22 @@
        <td>2022-12-16 15:15:09 </td>
        <td>Password recovery vulnerability in SICK SIM2000ST Partnumber 2086502 with firmware version &lt;1.13.4 allows an unprivileged remote attacker to gain access to the userlevel defined as RecoverableUserLevel by invocating the password recovery mechanism method. This leads to an increase in their privileges on the system and thereby affecting the confidentiality integrity and availability of the system. An attacker can expect repeatable success by exploiting the vulnerability. The recommended solution is to update the firmware to a version &gt;= 1.13.4 as soon as possible (available in SICK Support Portal).</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-47377">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">905c786a757bf78457b8d09064bd893e</td>
+       <td>CVE-2022-46393</td>
+       <td>2022-12-15 23:15:10 </td>
+       <td>An issue was discovered in Mbed TLS before 2.28.2 and 3.x before 3.3.0. There is a potential heap-based buffer overflow and heap-based buffer over-read in DTLS if MBEDTLS_SSL_DTLS_CONNECTION_ID is enabled and MBEDTLS_SSL_CID_IN_LEN_MAX &gt; 2 * MBEDTLS_SSL_CID_OUT_LEN_MAX.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46393">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4185f1de2b75d01ae49693364549f4db</td>
+       <td>CVE-2022-46392</td>
+       <td>2022-12-15 23:15:10 </td>
+       <td>An issue was discovered in Mbed TLS before 2.28.2 and 3.x before 3.3.0. An adversary with access to precise enough information about memory accesses (typically, an untrusted operating system attacking a secure enclave) can recover an RSA private key after observing the victim performing a single private-key operation, if the window size (MBEDTLS_MPI_WINDOW_SIZE) used for the exponentiation is 3 or smaller.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46392">详情</a></td>
       </tr>
 
       <tr>
@@ -2625,38 +2657,6 @@
        <td>2022-12-15 19:15:25 </td>
        <td>A cross-site scripting (XSS) vulnerability in Expense Tracker 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Chat text field.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45033">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23b5a6b8d1c5af60213dd461dac5ed53</td>
-       <td>CVE-2021-36573</td>
-       <td>2022-12-15 19:15:15 </td>
-       <td>File Upload vulnerability in Feehi CMS thru 2.1.1 allows attackers to run arbitrary code via crafted image upload.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-36573">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8790a2a1fa95e022736c06b0f2f7fe7f</td>
-       <td>CVE-2022-4506</td>
-       <td>2022-12-15 01:15:11 </td>
-       <td>Unrestricted Upload of File with Dangerous Type in GitHub repository openemr/openemr prior to 7.0.0.2.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4506">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40cb39e8fcea7d75e903257435b0c626</td>
-       <td>CVE-2022-4505</td>
-       <td>2022-12-15 01:15:11 </td>
-       <td>Improper Access Control in GitHub repository openemr/openemr prior to 7.0.0.2.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4505">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7dff0550871a28ceb7b1f8ba3868031f</td>
-       <td>CVE-2022-4504</td>
-       <td>2022-12-15 01:15:11 </td>
-       <td>Improper Input Validation in GitHub repository openemr/openemr prior to 7.0.0.2.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4504">详情</a></td>
       </tr>
 
      </tbody>
