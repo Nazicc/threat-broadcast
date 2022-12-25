@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-24 23:38:08 -->
+<!-- RELEASE TIME : 2022-12-25 01:58:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9474afbb5723d9eabc8abb85f7b75cdf</td>
+       <td>CVE-2022-47949</td>
+       <td>2022-12-24 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Nintendo NetworkBuffer class, as used in Animal Crossing: New Horizons before 2.0.6 and other products, allows remote attackers to execute arbitrary code via a large UDP packet that causes a buffer overflow, aka ENLBufferPwn. The victim must join a game session with the attacker. Other affected products include Mario Kart 7 before 1.2, Mario Kart 8, Mario Kart 8 Deluxe before 2.1.0, ARMS before 5.4.1, Splatoon, Splatoon 2 before 5.5.1, Splatoon 3 before late 2022, Super Mario Maker 2 before 3.0.2, and Nintendo Switch Sports before late 2022.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47949">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b968bff98d04c5f81055578270da9c48</td>
+       <td>CVE-2022-47934</td>
+       <td>2022-12-24 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Brave Browser before 1.43.88 allowed a remote attacker to cause a denial of service in private and guest windows via a crafted HTML file that mentions an ipfs:// or ipns:// URL. This is caused by an incomplete fix for CVE-2022-47932 and CVE-2022-47934.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47934">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f6e651d02ae926eb988f8a916612b7a</td>
+       <td>CVE-2022-47933</td>
+       <td>2022-12-24 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Brave Browser before 1.42.51 allowed a remote attacker to cause a denial of service via a crafted HTML file that references the IPFS scheme. This vulnerability is caused by an uncaught exception in the function ipfs::OnBeforeURLRequest_IPFSRedirectWork() in ipfs_redirect_network_delegate_helper.cc.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47933">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e60cd7ccb2ca084c04f7df34475cdcc</td>
+       <td>CVE-2022-47932</td>
+       <td>2022-12-24 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Brave Browser before 1.43.34 allowed a remote attacker to cause a denial of service via a crafted HTML file that mentions an ipfs:// or ipns:// URL. This vulnerability is caused by an incomplete fix for CVE-2022-47933.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47932">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e15ddcc252f5ba4da4e0314899d900dc</td>
        <td>CVE-2022-46175</td>
        <td>2022-12-24 04:15:00 <img src="imgs/new.gif" /></td>
@@ -322,7 +354,7 @@
       <tr>
        <td scope="row">de84a420f7e1fc89570fea09622f662f</td>
        <td>CVE-2022-47633</td>
-       <td>2022-12-23 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 23:15:00</td>
        <td>An image signature validation bypass vulnerability in Kyverno 1.8.3 and 1.8.4 allows a malicious image registry (or a man-in-the-middle attacker) to inject unsigned arbitrary container images into a protected Kubernetes cluster. This is fixed in 1.8.5. This has been fixed in 1.8.5 and mitigations are available for impacted releases.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47633">详情</a></td>
       </tr>
@@ -330,7 +362,7 @@
       <tr>
        <td scope="row">261b34364941c7630c65ac7dc54d431c</td>
        <td>CVE-2022-40011</td>
-       <td>2022-12-23 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 23:15:00</td>
        <td>Cross Site Scripting (XSS) vulnerability in typora through 1.38 allows remote attackers to run arbitrary code via export from editor.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40011">详情</a></td>
       </tr>
@@ -338,7 +370,7 @@
       <tr>
        <td scope="row">ad0eb7f9854c57e08eb45ba88b4bfc7a</td>
        <td>CVE-2022-47946</td>
-       <td>2022-12-23 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 22:15:00</td>
        <td>An issue was discovered in the Linux kernel 5.10.x before 5.10.155. A use-after-free in io_sqpoll_wait_sq in fs/io_uring.c allows an attacker to crash the kernel, resulting in denial of service. finish_wait can be skipped. An attack can occur in some situations by forking a process and then quickly terminating it. NOTE: later kernel versions, such as the 5.15 longterm series, substantially changed the implementation of io_sqpoll_wait_sq.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47946">详情</a></td>
       </tr>
@@ -346,7 +378,7 @@
       <tr>
        <td scope="row">984c037f2b1958db8376ed9578308076</td>
        <td>CVE-2022-28229</td>
-       <td>2022-12-23 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 22:15:00</td>
        <td>The hash functionality in userver before 42059b6319661583b3080cab9b595d4f8ac48128 allows attackers to cause a denial of service via crafted HTTP request, involving collisions.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28229">详情</a></td>
       </tr>
@@ -354,7 +386,7 @@
       <tr>
        <td scope="row">070934ac1c0486c0b6a4bf3d4010cfcd</td>
        <td>CVE-2022-28228</td>
-       <td>2022-12-23 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 22:15:00</td>
        <td>Out-of-bounds read was discovered in YDB server. An attacker could construct a query with insert statement that would allow him to read sensitive information from other memory locations or cause a crash.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28228">详情</a></td>
       </tr>
@@ -362,7 +394,7 @@
       <tr>
        <td scope="row">74f2ce701d483ccd96fc7ffb11949958</td>
        <td>CVE-2022-47945</td>
-       <td>2022-12-23 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:15:00</td>
        <td>ThinkPHP Framework before 6.0.14 allows local file inclusion via the lang parameter when the language pack feature is enabled (lang_switch_on=true). An unauthenticated and remote attacker can exploit this to execute arbitrary operating system commands, as demonstrated by including pearcmd.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47945">详情</a></td>
       </tr>
@@ -370,7 +402,7 @@
       <tr>
        <td scope="row">f1866fc5c0cbc18b5906b3d74ba99b82</td>
        <td>CVE-2022-4692</td>
-       <td>2022-12-23 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:15:00</td>
        <td>Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.9.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4692">详情</a></td>
       </tr>
@@ -378,7 +410,7 @@
       <tr>
        <td scope="row">984203969780856e1dac6636f6879fb4</td>
        <td>CVE-2022-43849</td>
-       <td>2022-12-23 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:15:00</td>
        <td>IBM AIX 7.1, 7.2, 7.3, and VIOS 3.1could allow a non-privileged local user to exploit a vulnerability in the AIX pfcdd kernel extension to cause a denial of service. IBM X-Force ID: 239170.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43849">详情</a></td>
       </tr>
@@ -386,7 +418,7 @@
       <tr>
        <td scope="row">dc494f4c0fdf0b87302c722a0041c1c7</td>
        <td>CVE-2022-43848</td>
-       <td>2022-12-23 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:15:00</td>
        <td>IBM AIX 7.1, 7.2, 7.3, and VIOS 3.1 could allow a non-privileged local user to exploit a vulnerability in the AIX perfstat kernel extension to cause a denial of service. IBM X-Force ID: 239169.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43848">详情</a></td>
       </tr>
@@ -394,7 +426,7 @@
       <tr>
        <td scope="row">e2889760b9c3005d7e7e411eda82c3b5</td>
        <td>CVE-2022-41290</td>
-       <td>2022-12-23 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:15:00</td>
        <td>IBM AIX 7.1, 7.2, 7.3, and VIOS 3.1 could allow a non-privileged local user to exploit a vulnerability in the rm_rlcache_file command to obtain root privileges. IBM X-Force ID: 236690.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41290">详情</a></td>
       </tr>
@@ -402,7 +434,7 @@
       <tr>
        <td scope="row">461c893f5bc1145558c771e3b6724abb</td>
        <td>CVE-2022-39164</td>
-       <td>2022-12-23 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:15:00</td>
        <td>IBM AIX 7.1, 7.2, 7.3, and VIOS 3.1could allow a non-privileged local user to exploit a vulnerability in the AIX kernel to cause a denial of service. IBM X-Force ID: 235181.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39164">详情</a></td>
       </tr>
@@ -410,7 +442,7 @@
       <tr>
        <td scope="row">4e74e48bec654aec17bf08a3778124b2</td>
        <td>CVE-2022-46570</td>
-       <td>2022-12-23 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 19:15:00</td>
        <td>D-Link DIR-882 DIR882A1_FW130B06 was discovered to contain a stack overflow via the Password parameter in the SetWan3Settings module.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46570">详情</a></td>
       </tr>
@@ -418,7 +450,7 @@
       <tr>
        <td scope="row">d75530b087fc4267fc6887113f5e08f5</td>
        <td>CVE-2022-46569</td>
-       <td>2022-12-23 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 19:15:00</td>
        <td>D-Link DIR-882 DIR882A1_FW130B06 was discovered to contain a stack overflow via the Key parameter in the SetWLanRadioSecurity module.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46569">详情</a></td>
       </tr>
@@ -426,7 +458,7 @@
       <tr>
        <td scope="row">9d85c1968fb3d1f6551e963f8a53c51f</td>
        <td>CVE-2022-46568</td>
-       <td>2022-12-23 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 19:15:00</td>
        <td>D-Link DIR-882 DIR882A1_FW130B06 was discovered to contain a stack overflow via the AccountPassword parameter in the SetSysEmailSettings module.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46568">详情</a></td>
       </tr>
@@ -434,7 +466,7 @@
       <tr>
        <td scope="row">4fb276a708e2ee8ef16114db40572513</td>
        <td>CVE-2022-46566</td>
-       <td>2022-12-23 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 19:15:00</td>
        <td>D-Link DIR-882 DIR882A1_FW130B06 was discovered to contain a stack overflow via the Password parameter in the SetQuickVPNSettings module.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46566">详情</a></td>
       </tr>
@@ -442,7 +474,7 @@
       <tr>
        <td scope="row">e5f00b9631fc98c03d7126e7f7ab030d</td>
        <td>CVE-2022-46563</td>
-       <td>2022-12-23 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 19:15:00</td>
        <td>D-Link DIR-882 DIR882A1_FW130B06 was discovered to contain a stack overflow via the Password parameter in the SetDynamicDNSSettings module.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46563">详情</a></td>
       </tr>
@@ -450,7 +482,7 @@
       <tr>
        <td scope="row">04fedbaabd448c556f45fd5797c6530b</td>
        <td>CVE-2022-47943</td>
-       <td>2022-12-23 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 17:15:00</td>
        <td>An issue was discovered in ksmbd in the Linux kernel before 5.19.2. There is an out-of-bounds read and OOPS for SMB2_WRITE, when there is a large length in the zero DataOffset case.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47943">详情</a></td>
       </tr>
@@ -458,7 +490,7 @@
       <tr>
        <td scope="row">0489c960fbc93e042fd185f8909fcd14</td>
        <td>CVE-2022-47942</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:15:00</td>
        <td>An issue was discovered in ksmbd in the Linux kernel before 5.19.2. There is a heap-based buffer overflow in set_ntacl_dacl, related to use of SMB2_QUERY_INFO_HE after a malformed SMB2_SET_INFO_HE command.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47942">详情</a></td>
       </tr>
@@ -466,7 +498,7 @@
       <tr>
        <td scope="row">7d1fb065b596a2cd7f3b03aa19412355</td>
        <td>CVE-2022-47941</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:15:00</td>
        <td>An issue was discovered in ksmbd in the Linux kernel before 5.19.2. fs/ksmbd/smb2pdu.c omits a kfree call in certain smb2_handle_negotiate error conditions, aka a memory leak.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47941">详情</a></td>
       </tr>
@@ -474,7 +506,7 @@
       <tr>
        <td scope="row">8826104e8c7e6700542b155f8f2b1531</td>
        <td>CVE-2022-47940</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:15:00</td>
        <td>An issue was discovered in ksmbd in the Linux kernel before 5.18.18. fs/ksmbd/smb2pdu.c lacks length validation in the non-padding case in smb2_write.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47940">详情</a></td>
       </tr>
@@ -482,41 +514,9 @@
       <tr>
        <td scope="row">d7d55cf8ca26e4c1ed394efcd1e66e68</td>
        <td>CVE-2022-47939</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:15:00</td>
        <td>An issue was discovered in ksmbd in the Linux kernel before 5.19.2. fs/ksmbd/smb2pdu.c has a use-after-free and OOPS for SMB2_TREE_DISCONNECT.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47939">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68ff49a10e80063490d0a3e41555e134</td>
-       <td>CVE-2022-47938</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in ksmbd in the Linux kernel before 5.19.2. fs/ksmbd/smb2misc.c has an out-of-bounds read and OOPS for SMB2_TREE_CONNNECT.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47938">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f38b7a9911383070b560b7d18661d11</td>
-       <td>CVE-2022-4698</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>The ProfilePress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several form fields in versions up to, and including, 4.5.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4698">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">33f9e55e55379b91578421f49b334cb7</td>
-       <td>CVE-2022-4697</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>The ProfilePress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘wp_user_cover_default_image_url’ parameter in versions up to, and including, 4.5.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4697">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97f8eacd849c1f21b015543dfd058db2</td>
-       <td>CVE-2022-38757</td>
-       <td>2022-12-23 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Micro Focus ZENworks 2020 Update 3a and prior versions. This vulnerability allows administrators with rights to perform actions (e.g., install a bundle) on a set of managed devices, to be able to exercise these rights on managed devices in the ZENworks zone but which are outside the scope of the administrator. This vulnerability does not result in the administrators gaining additional rights on the managed devices, either in the scope or outside the scope of the administrator.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38757">详情</a></td>
       </tr>
 
      </tbody>
@@ -606,9 +606,36 @@
       </tr>
 
       <tr>
+       <td scope="row">9ad003995c8759d51e319195496d68fe</td>
+       <td>CVE-2022-47932</td>
+       <td>2022-12-24 01:58:36 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449669">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">55020484116ca3dde8ba3f3fe0e8ee84</td>
+       <td>CVE-2022-47933</td>
+       <td>2022-12-24 01:58:36 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449670">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5d690b0e147ba9486ba4153ed48567c9</td>
+       <td>CVE-2022-47934</td>
+       <td>2022-12-24 01:58:36 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449671">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">149ff2c7c45b33e4357137920d810231</td>
        <td>CVE-2022-40011</td>
-       <td>2022-12-23 21:37:48 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:48</td>
        <td>Cross Site Scripting (XSS) vulnerability in...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-435810">详情</a></td>
@@ -617,7 +644,7 @@
       <tr>
        <td scope="row">b0c5bf9dcddba30647432dd2df99852e</td>
        <td>CVE-2022-47633</td>
-       <td>2022-12-23 21:37:48 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:48</td>
        <td>An image signature validation bypass...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449247">详情</a></td>
@@ -626,7 +653,7 @@
       <tr>
        <td scope="row">56981c53222f74022c2a5617d2226473</td>
        <td>CVE-2022-28228</td>
-       <td>2022-12-23 21:37:48 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:48</td>
        <td>Out-of-bounds read was discovered in YDB...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419080">详情</a></td>
@@ -635,7 +662,7 @@
       <tr>
        <td scope="row">486f05a0a6c49d52bf3365b49e503ec7</td>
        <td>CVE-2022-28229</td>
-       <td>2022-12-23 21:37:48 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:48</td>
        <td>The hash functionality in userver before...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-419081">详情</a></td>
@@ -644,7 +671,7 @@
       <tr>
        <td scope="row">5518340724ed0dc19ac595dea3ae62ef</td>
        <td>CVE-2022-47946</td>
-       <td>2022-12-23 21:37:48 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:48</td>
        <td>An issue was discovered in the Linux kernel......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449681">详情</a></td>
@@ -653,7 +680,7 @@
       <tr>
        <td scope="row">1d9baaf8c267147fe12b6f4a51908472</td>
        <td>CVE-2022-47943</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>An issue was discovered in ksmbd in the......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449680">详情</a></td>
@@ -662,7 +689,7 @@
       <tr>
        <td scope="row">c88c8b422cffb3a30b201fef2630e018</td>
        <td>CVE-2022-38757</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>A vulnerability has been identified in Micro...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-434531">详情</a></td>
@@ -671,7 +698,7 @@
       <tr>
        <td scope="row">9643f0675ec2c37d7c3cc09f37378add</td>
        <td>CVE-2022-4697</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>The ProfilePress plugin for WordPress is...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449658">详情</a></td>
@@ -680,7 +707,7 @@
       <tr>
        <td scope="row">3e5747cfab86032cca553d805856b9ba</td>
        <td>CVE-2022-4698</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>The ProfilePress plugin for WordPress is...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449659">详情</a></td>
@@ -689,7 +716,7 @@
       <tr>
        <td scope="row">0d8d271ae4d874ee525c2594ceaf82a4</td>
        <td>CVE-2022-47938</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>An issue was discovered in ksmbd in the......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449675">详情</a></td>
@@ -698,7 +725,7 @@
       <tr>
        <td scope="row">fccf6ff4d0cb949dfb578e1ab9c41864</td>
        <td>CVE-2022-47939</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>An issue was discovered in ksmbd in the......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449676">详情</a></td>
@@ -707,7 +734,7 @@
       <tr>
        <td scope="row">c8c5c2b2d4295be593f4538d2532f585</td>
        <td>CVE-2022-47940</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>An issue was discovered in ksmbd in the......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449677">详情</a></td>
@@ -716,7 +743,7 @@
       <tr>
        <td scope="row">70ea29b572aa909a711d8573c20def60</td>
        <td>CVE-2022-47941</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>An issue was discovered in ksmbd in the......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449678">详情</a></td>
@@ -725,7 +752,7 @@
       <tr>
        <td scope="row">693c287b666b8aab5a7d34a2c1316b17</td>
        <td>CVE-2022-47942</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>An issue was discovered in ksmbd in the......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449679">详情</a></td>
@@ -734,7 +761,7 @@
       <tr>
        <td scope="row">abcb778a0a0ce6dfd0ba022be9261ca0</td>
        <td>CVE-2022-23547</td>
-       <td>2022-12-23 21:37:45 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 21:37:45</td>
        <td>PJSIP is a free and open source multimedia......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412721">详情</a></td>
@@ -743,7 +770,7 @@
       <tr>
        <td scope="row">f8ed653fe35f8d54ef9ed81d529d7024</td>
        <td>CVE-2022-46171</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:45:25</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-444086">详情</a></td>
@@ -752,7 +779,7 @@
       <tr>
        <td scope="row">4103f28dbd74ddf7bdec6c60a62af1f6</td>
        <td>CVE-2022-47524</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:45:25</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449067">详情</a></td>
@@ -761,7 +788,7 @@
       <tr>
        <td scope="row">0f77a23b0b6356f42f2067721b3c6b35</td>
        <td>CVE-2022-4690</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:45:25</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449614">详情</a></td>
@@ -770,37 +797,10 @@
       <tr>
        <td scope="row">c2e6434a257a8666e05cde21fb4203d6</td>
        <td>CVE-2022-4689</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:45:25</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449615">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d28424347f678bee02146037195f73c2</td>
-       <td>CVE-2022-4688</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449616">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">956a7e60a547f1328f963e37af77c83d</td>
-       <td>CVE-2022-4687</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449617">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b88d34fe0550bf6b87352e4668735e05</td>
-       <td>CVE-2022-4686</td>
-       <td>2022-12-23 16:45:25 <img src="imgs/new.gif" /></td>
-       <td>Untitled vulnerability
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449618">详情</a></td>
       </tr>
 
      </tbody>
@@ -828,7 +828,7 @@
       <tr>
        <td scope="row">5a403d2e028e200b7c53522731296fc1</td>
        <td>CNVD-2022-85750</td>
-       <td>2022-12-23 16:46:32 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:46:32</td>
        <td>北京久幺幺科技有限公司戏鲸app存在敏感信息硬编码漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85750">详情</a></td>
       </tr>
@@ -836,7 +836,7 @@
       <tr>
        <td scope="row">32bde67e82e6442d3969c51fd31628de</td>
        <td>CNVD-2022-85748</td>
-       <td>2022-12-23 16:46:30 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:46:30</td>
        <td>北京久幺幺科技有限公司戏鲸app存在拒绝服务漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85748">详情</a></td>
       </tr>
@@ -844,7 +844,7 @@
       <tr>
        <td scope="row">d8d129c4c926afe20630ae82ef1fa013</td>
        <td>CNVD-2022-85618</td>
-       <td>2022-12-23 16:46:27 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 16:46:27</td>
        <td>华天动力OA系统存在SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85618">详情</a></td>
       </tr>
@@ -852,7 +852,7 @@
       <tr>
        <td scope="row">cb500df6eb442108f5ba869011f05896</td>
        <td>CNVD-2022-89608 (CVE-2022-41080)</td>
-       <td>2022-12-23 09:37:42 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 09:37:42</td>
        <td>Microsoft Exchange Server权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-89608">详情</a></td>
       </tr>
@@ -860,7 +860,7 @@
       <tr>
        <td scope="row">71ccc6eed8bd9f8bd038dae410019c36</td>
        <td>CNVD-2022-89513 (CVE-2022-41288)</td>
-       <td>2022-12-23 02:51:13 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 02:51:13</td>
        <td>Siemens Teamcenter Visualization和JT2Go文件分析漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-89513">详情</a></td>
       </tr>
@@ -868,7 +868,7 @@
       <tr>
        <td scope="row">87eb5fbf0e171d0768cc4a0ccda6b7f4</td>
        <td>CNVD-2022-89530 (CVE-2022-45484)</td>
-       <td>2022-12-23 02:51:11 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 02:51:11</td>
        <td>Siemens Teamcenter Visualization和JT2Go越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-89530">详情</a></td>
       </tr>
@@ -876,7 +876,7 @@
       <tr>
        <td scope="row">4996c534b70849caf0d4051a148df655</td>
        <td>CNVD-2022-88814 (CVE-2022-23461)</td>
-       <td>2022-12-23 01:55:06 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 01:55:06</td>
        <td>Jodit Editor跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-88814">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">4d25f0a46986048ec0acebdf310d1c60</td>
        <td>CVE-2021-28655</td>
-       <td>2022-12-23 20:26:47 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:47</td>
        <td>APACHE ZEPPELIN Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9327a4da618f4bc882c217f3de09ff3d">详情</a></td>
       </tr>
@@ -2002,7 +2002,7 @@
       <tr>
        <td scope="row">d2607b13c85c6a503cefa38f7623edc8</td>
        <td>CVE-2022-46870</td>
-       <td>2022-12-23 20:26:41 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:41</td>
        <td>APACHE ZEPPELIN Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7e00edc6db074fe1a5e0a7a117c7e07f">详情</a></td>
       </tr>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">d1766553cd7b3d4e336aa7e2022113a0</td>
        <td>CVE-2022-20561</td>
-       <td>2022-12-23 20:26:35 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:35</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=6f557510089b4b3cb1f434fc24c2320a">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">9f512ec2dcb7c38acec444dab416d3c1</td>
        <td>CVE-2022-3109</td>
-       <td>2022-12-23 20:26:30 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:30</td>
        <td>FFMPEG FFMPEG Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=d1a5ca4d27a748bea65c4f71f9ac3c2a">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">b6b9d25d74451743cf9d8eb0518e2c77</td>
        <td>CVE-2022-20563</td>
-       <td>2022-12-23 20:26:24 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:24</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ca489153f09f4981bee1d0d0373ba8ae">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">4ded3de05b42c425e05c51c8d7cdf064</td>
        <td>CVE-2022-20560</td>
-       <td>2022-12-23 20:26:18 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:18</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a81f33395d804c4baf58778ab721e2f0">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">147db039c959d7918abd60d1da0a4f88</td>
        <td>CVE-2022-20568</td>
-       <td>2022-12-23 20:26:12 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:12</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ebbd01cc550640a6a790b014cee93c99">详情</a></td>
       </tr>
@@ -2050,7 +2050,7 @@
       <tr>
        <td scope="row">f0996fcc2b9d7b7932236c5f89028589</td>
        <td>CVE-2022-20564</td>
-       <td>2022-12-23 20:26:06 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:06</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=075e487dfe784ff0b640fb922d680856">详情</a></td>
       </tr>
@@ -2058,7 +2058,7 @@
       <tr>
        <td scope="row">ccc4c4bb060dde6dcda6e662aacf3d47</td>
        <td>CVE-2022-20585</td>
-       <td>2022-12-23 20:26:00 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:26:00</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=04eeaaf3b7784e788356042bb6edc691">详情</a></td>
       </tr>
@@ -2066,7 +2066,7 @@
       <tr>
        <td scope="row">e17e2e54fc323b8b82a4be6441235359</td>
        <td>CVE-2022-20570</td>
-       <td>2022-12-23 20:25:55 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 20:25:55</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=20c88535dc124b179bdaeee6221c8a94">详情</a></td>
       </tr>
@@ -2168,7 +2168,7 @@
       <tr>
        <td scope="row">7cbfc3006bd0f9ecaf04bab2a3dae8c8</td>
        <td>CVE-2022-46540</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74359">详情</a></td>
       </tr>
@@ -2176,7 +2176,7 @@
       <tr>
        <td scope="row">b8bea6bd91848bf3a30a779bf101d744</td>
        <td>CVE-2022-46541</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74358">详情</a></td>
       </tr>
@@ -2184,7 +2184,7 @@
       <tr>
        <td scope="row">fb1363c7ad35146ce9f70c1e37f29792</td>
        <td>CVE-2022-46538</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203命令注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74357">详情</a></td>
       </tr>
@@ -2192,7 +2192,7 @@
       <tr>
        <td scope="row">3ca8ae71404192186fe37ff138b8e8ea</td>
        <td>CVE-2022-46542</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74356">详情</a></td>
       </tr>
@@ -2200,7 +2200,7 @@
       <tr>
        <td scope="row">b3fd0c2dd8a1bf8237f95ce432aef512</td>
        <td>CVE-2022-46544</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74355">详情</a></td>
       </tr>
@@ -2208,7 +2208,7 @@
       <tr>
        <td scope="row">a947b723a939269295f1fc7b4e663555</td>
        <td>CVE-2022-46545</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74354">详情</a></td>
       </tr>
@@ -2216,7 +2216,7 @@
       <tr>
        <td scope="row">b7b65eb93e59b33e1f30a5811f3d0a2c</td>
        <td>CVE-2022-46546</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74353">详情</a></td>
       </tr>
@@ -2224,7 +2224,7 @@
       <tr>
        <td scope="row">c423699ad1f73553066e337a794df22b</td>
        <td>CVE-2022-46547</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74352">详情</a></td>
       </tr>
@@ -2232,7 +2232,7 @@
       <tr>
        <td scope="row">622f9dd7a9772b49b243211c1e6e2e8c</td>
        <td>CVE-2022-46549</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74351">详情</a></td>
       </tr>
@@ -2240,7 +2240,7 @@
       <tr>
        <td scope="row">abe4e330b102e80a37b91c07aa4a7c25</td>
        <td>CVE-2022-46550</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74350">详情</a></td>
       </tr>
@@ -2248,7 +2248,7 @@
       <tr>
        <td scope="row">cc69fd0ff79ee68da15edb4c22e1ddee</td>
        <td>CVE-2022-46530</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74349">详情</a></td>
       </tr>
@@ -2256,7 +2256,7 @@
       <tr>
        <td scope="row">c04a1d46a38769a95124e81e58519260</td>
        <td>CVE-2022-46531</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Tenda F1203缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74348">详情</a></td>
       </tr>
@@ -2264,7 +2264,7 @@
       <tr>
        <td scope="row">960c57a4c1bbfa9dd4b3f9b3b24856ec</td>
        <td>CVE-2022-40841</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>NdkAdvancedCustomizationFields跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74347">详情</a></td>
       </tr>
@@ -2272,7 +2272,7 @@
       <tr>
        <td scope="row">0aed193ab4b5aa85b76f833fcd303c8e</td>
        <td>CVE-2022-46282</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>Omron CX-Drive内存错误引用漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74346">详情</a></td>
       </tr>
@@ -2280,7 +2280,7 @@
       <tr>
        <td scope="row">d149bc32f412856c022379a68715b127</td>
        <td>CVE-2022-44449</td>
-       <td>2022-12-23 07:37:36 <img src="imgs/new.gif" /></td>
+       <td>2022-12-23 07:37:36</td>
        <td>ZenPhoto跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74345">详情</a></td>
       </tr>
@@ -2564,6 +2564,14 @@
       </tr>
 
       <tr>
+       <td scope="row">2449145ffaf6894da3e4d8d78f0f04fc</td>
+       <td>CVE-2022-44752</td>
+       <td>2022-12-19 11:15:10 </td>
+       <td>IBM Domino is susceptible to a stack based buffer overflow vulnerability in wp6sr.dll in Micro Focus KeyView. This could allow a remote unauthenticated attacker to crash the application or execute arbitrary code via a crafted WordPerfect file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44752">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5a3bc73d4d9390b05102d00791746bf5</td>
        <td>CVE-2022-46287</td>
        <td>2022-12-19 03:15:10 </td>
@@ -2649,14 +2657,6 @@
        <td>2022-12-18 05:15:11 </td>
        <td>An issue was discovered in the libsofia-sip fork in drachtio-server before 0.8.20. It allows remote attackers to cause a denial of service (daemon crash) via a crafted UDP message that leads to a failure of the libsofia-sip-ua/tport/tport.c self assertion.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-47516">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a66dbded34be6fcd88c49a8ea36a05b5</td>
-       <td>CVE-2022-47515</td>
-       <td>2022-12-18 05:15:11 </td>
-       <td>An issue was discovered in drachtio-server before 0.8.20. It allows remote attackers to cause a denial of service (daemon crash) via a long message in a TCP request that leads to std::length_error.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-47515">详情</a></td>
       </tr>
 
      </tbody>
