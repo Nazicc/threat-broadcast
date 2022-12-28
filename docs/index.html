@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-28 10:38:43 -->
+<!-- RELEASE TIME : 2022-12-28 11:37:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">28dc372944d3b05157ad209fdf14bb58</td>
+       <td>CVE-2018-25050</td>
+       <td>2022-12-28 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, has been found in Harvest Chosen up to 1.8.6. Affected by this issue is the function AbstractChosen of the file coffee/lib/abstract-chosen.coffee. The manipulation of the argument group_label leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.8.7 is able to address this issue. The name of the patch is 77fd031d541e77510268d1041ed37798fdd1017e. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-216956.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-25050">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">540ac93c9a2c95a2a5ac23ce835717be</td>
+       <td>CVE-2021-4293</td>
+       <td>2022-12-28 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>** UNSUPPPORTED WHEN ASSIGNED **** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as problematic has been found in gnuboard youngcart5 up to 5.4.5.1. Affected is an unknown function of the file adm/menu_list_update.php. The manipulation of the argument me_link leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 5.4.5.2 is able to address this issue. The name of the patch is 70daa537adfa47b87af12d85f1e698fff01785ff. It is recommended to upgrade the affected component. VDB-216954 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4293">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79b2d9ac7d311646d7914c3c13b23f9a</td>
+       <td>CVE-2019-25092</td>
+       <td>2022-12-28 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic was found in Nakiami Mellivora up to 2.1.x. Affected by this vulnerability is the function print_user_ip_log of the file include/layout/user.inc.php of the component Admin Panel. The manipulation of the argument $entry['ip'] leads to cross site scripting. The attack can be launched remotely. Upgrading to version 2.2.0 is able to address this issue. The name of the patch is e0b6965f8dde608a3d2621617c05695eb406cbb9. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-216955.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2019-25092">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9804bd68d3ab4a69b4933403337189b3</td>
+       <td>CVE-2022-46179</td>
+       <td>2022-12-28 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>LiuOS is a small Python project meant to imitate the functions of a regular operating system. Version 0.1.0 and prior of LiuOS allow an attacker to set the GITHUB_ACTIONS environment variable to anything other than null or true and skip authentication checks. This issue is patched in the latest commit (c658b4f3e57258acf5f6207a90c2f2169698ae22) by requiring the var to be set to true, causing a test script to run instead of being able to login. A potential workaround is to check for the GITHUB_ACTIONS environment variable and set it to "" (no quotes) to null the variable and force credential checks.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46179">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a0bcf7d8e2543e0bce084fa7221898e6</td>
+       <td>CVE-2022-46174</td>
+       <td>2022-12-28 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>efs-utils is a set of Utilities for Amazon Elastic File System (EFS). A potential race condition issue exists within the Amazon EFS mount helper in efs-utils versions v1.34.3 and below. When using TLS to mount file systems, the mount helper allocates a local port for stunnel to receive NFS connections prior to applying the TLS tunnel. In affected versions, concurrent mount operations can allocate the same local port, leading to either failed mount operations or an inappropriate mapping from an EFS customer’s local mount points to that customer’s EFS file systems. This issue is patched in version v1.34.4. There is no recommended work around. We recommend affected users update the installed version of efs-utils to v1.34.4 or later.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46174">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">affe21165cf2a9200a4c9637e42b1a39</td>
+       <td>CVE-2022-46173</td>
+       <td>2022-12-28 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Elrond-GO is a go implementation for the Elrond Network protocol. Versions prior to 1.3.50 are subject to a processing issue where nodes are affected when trying to process a cross-shard relayed transaction with a smart contract deploy transaction data. The problem was a bad correlation between the transaction caches and the processing component. If the above-mentioned transaction was sent with more gas than required, the smart contract result (SCR transaction) that should have returned the leftover gas, would have been wrongly added to a cache that the processing unit did not consider. The node stopped notarizing metachain blocks. The fix was actually to extend the SCR transaction search in all other caches if it wasn't found in the correct (expected) sharded-cache. There are no known workarounds at this time. This issue has been patched in version 1.3.50.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46173">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6423c40ffe40b7046c80ddef817d2cdd</td>
+       <td>CVE-2022-46172</td>
+       <td>2022-12-28 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>authentik is an open-source Identity provider focused on flexibility and versatility. In versions prior to 2022.10.4, and 2022.11.4, any authenticated user can create an arbitrary number of accounts through the default flows. This would circumvent any policy in a situation where it is undesirable for users to create new accounts by themselves. This may also affect other applications as these new basic accounts would exist throughout the SSO infrastructure. By default the newly created accounts cannot be logged into as no password reset exists by default. However password resets are likely to be enabled by most installations. This vulnerability pertains to the user context used in the default-user-settings-flow, /api/v3/flows/instances/default-user-settings-flow/execute/. This issue has been fixed in versions 2022.10.4 and 2022.11.4.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46172">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4cc1f30f061291cd6488a96971ce7e08</td>
        <td>CVE-2022-3347</td>
        <td>2022-12-28 03:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-12-27 22:15:00 <img src="imgs/new.gif" /></td>
        <td>The Noise protocol implementation suffers from weakened cryptographic security after encrypting 2^64 messages, and a potential denial of service attack. After 2^64 (~18.4 quintillion) messages are encrypted with the Encrypt function, the nonce counter will wrap around, causing multiple messages to be encrypted with the same key and nonce. In a separate issue, the Decrypt function increments the nonce state even when it fails to decrypt a message. If an attacker can provide an invalid input to the Decrypt function, this will cause the nonce state to desynchronize between the peers, resulting in a failure to encrypt all subsequent messages.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4239">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ac9058422767dd447dbe7c74c48e1299</td>
-       <td>CVE-2021-4238</td>
-       <td>2022-12-27 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Randomly-generated alphanumeric strings contain significantly less entropy than expected. The RandomAlphaNumeric and CryptoRandomAlphaNumeric functions always return strings containing at least one digit from 0 to 9. This significantly reduces the amount of entropy in short strings generated by these functions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4238">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6a98e75ae001ed9352f6fccd6d248a5f</td>
-       <td>CVE-2021-4236</td>
-       <td>2022-12-27 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Web Sockets do not execute any AuthenticateMethod methods which may be set, leading to a nil pointer dereference if the returned UserData pointer is assumed to be non-nil, or authentication bypass. This issue only affects WebSockets with an AuthenticateMethod hook. Request handlers that do not explicitly use WebSockets are not vulnerable.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4236">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5933d6c7d046ae2a8dff2ecf7783ead2</td>
-       <td>CVE-2022-3156</td>
-       <td>2022-12-27 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A remote code execution vulnerability exists in Rockwell Automation Studio 5000 Logix Emulate software. Users are granted elevated permissions on certain product services when the software is installed. Due to this misconfiguration, a malicious user could potentially achieve remote code execution on the targeted software.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3156">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">74338883e56f81f96ef7f61abb1147e5</td>
-       <td>CVE-2022-47968</td>
-       <td>2022-12-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Heimdall Application Dashboard through 2.5.4 allows reflected XSS via "Application name" to the "Add application" page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47968">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5a25633456f93f63dfc758be2f875760</td>
-       <td>CVE-2022-45434</td>
-       <td>2022-12-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Some Dahua software products have a vulnerability of unauthenticated un-throttled ICMP requests on remote DSS Server. After bypassing the firewall access control policy, by sending a specific crafted packet to the vulnerable interface, an attacker could exploit the victim server to launch ICMP request attack to the designated target host.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45434">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aa20a3381b94ef06e3bfe0de737aca9e</td>
-       <td>CVE-2022-45433</td>
-       <td>2022-12-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Some Dahua software products have a vulnerability of unauthenticated traceroute host from remote DSS Server. After bypassing the firewall access control policy, by sending a specific crafted packet to the vulnerable interface, an attacker could get the traceroute results.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45433">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e32410b356b530d98e4d4760abdedcc3</td>
-       <td>CVE-2022-45432</td>
-       <td>2022-12-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Some Dahua software products have a vulnerability of unauthenticated search for devices. After bypassing the firewall access control policy, by sending a specific crafted packet to the vulnerable interface, an attacker could unauthenticated search for devices in range of IPs from remote DSS Server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45432">详情</a></td>
       </tr>
 
      </tbody>
@@ -826,6 +826,22 @@
       </tr>
 
       <tr>
+       <td scope="row">b70cda856f335d43688f1170fc3643f4</td>
+       <td>CNVD-2022-91161 (CVE-2022-28108)</td>
+       <td>2022-12-28 11:37:24 <img src="imgs/new.gif" /></td>
+       <td>Selenium Server跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-91161">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e0f9a1bdf12198ab01bf218cbf789c09</td>
+       <td>CNVD-2022-91160 (CVE-2022-29712)</td>
+       <td>2022-12-28 11:37:22 <img src="imgs/new.gif" /></td>
+       <td>LibreNMS命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-91160">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">51b925cec9cb9bbcd917a9d120b2e7cf</td>
        <td>CNVD-2022-91131 (CVE-2022-43887)</td>
        <td>2022-12-28 10:38:19 <img src="imgs/new.gif" /></td>
@@ -1039,22 +1055,6 @@
        <td>2022-12-26 05:37:14</td>
        <td>Siemens SICAM PAS/PQS敏感信息明文传输漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-89759">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14d60aed1046af5454cda38f763525c4</td>
-       <td>CNVD-2022-89758 (CVE-2022-43517)</td>
-       <td>2022-12-26 04:40:33</td>
-       <td>Siemens Simcenter STAR-CCM+权限提升漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-89758">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">12af310fe252f8083c16a5979a4303d3</td>
-       <td>CNVD-2022-89757 (CVE-2022-46348)</td>
-       <td>2022-12-26 04:40:31</td>
-       <td>Siemens Parasolid越界写入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-89757">详情</a></td>
       </tr>
 
      </tbody>
