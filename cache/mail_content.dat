@@ -1,35 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45347</font><br/>[<b>披露时间</b>] 2022-12-22 08:40:01<br/>[<b>漏洞描述</b>] Apache ShardingSphere身份认证绕过漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-45347'>https://avd.aliyun.com/detail?id=AVD-2022-45347</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-01-03 07:53:35<br/>[<b>漏洞描述</b>] 安全事件周报 (12.26-01.01)<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=f1e968dc710f269bfec9e475f48b177b'>https://cert.360.cn/warning/detail?id=f1e968dc710f269bfec9e475f48b177b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43931</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-441097'>http://cve.scap.org.cn/vuln/VHN-441097</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39039</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434809'>http://cve.scap.org.cn/vuln/VHN-434809</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39040</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434811'>http://cve.scap.org.cn/vuln/VHN-434811</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39041</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434812'>http://cve.scap.org.cn/vuln/VHN-434812</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39042</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434813'>http://cve.scap.org.cn/vuln/VHN-434813</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40740</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-436553'>http://cve.scap.org.cn/vuln/VHN-436553</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43436</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440476'>http://cve.scap.org.cn/vuln/VHN-440476</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43437</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440478'>http://cve.scap.org.cn/vuln/VHN-440478</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43438</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440479'>http://cve.scap.org.cn/vuln/VHN-440479</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46304</font><br/>[<b>披露时间</b>] 2023-01-03 08:40:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-444274'>http://cve.scap.org.cn/vuln/VHN-444274</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2022-54117</font><br/>[<b>披露时间</b>] 2023-01-03 09:37:25<br/>[<b>漏洞描述</b>] 上海金电网安科技有限公司金电网安可信运维管理系统存在逻辑缺陷漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2022-54117'>https://www.cnvd.org.cn/flaw/show/CNVD-2022-54117</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
