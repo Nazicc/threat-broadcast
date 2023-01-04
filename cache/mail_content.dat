@@ -1,14 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43396</font><br/>[<b>披露时间</b>] 2023-01-04 08:20:44<br/>[<b>漏洞描述</b>] CVE-2022-43396/44621：Apache Kylin命令注入漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=b0bac5d36169527ab63b3ea3bc257582'>https://cert.360.cn/warning/detail?id=b0bac5d36169527ab63b3ea3bc257582</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46081</font><br/>[<b>披露时间</b>] 2023-01-04 08:41:08<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-443985'>http://cve.scap.org.cn/vuln/VHN-443985</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3096</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] WordPress WP Total Hacks Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74713'>http://www.nsfocus.net/vulndb/74713</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3440</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] WordPress Rock Convert Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74712'>http://www.nsfocus.net/vulndb/74712</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40190</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] SAUTER Controls moduWeb跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74711'>http://www.nsfocus.net/vulndb/74711</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36605</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Hitachi多款产品默认权限错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74710'>http://www.nsfocus.net/vulndb/74710</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25885</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] MuhammaraJS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74709'>http://www.nsfocus.net/vulndb/74709</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39369</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] phpCAS信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74708'>http://www.nsfocus.net/vulndb/74708</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3809</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Axiomatic Bento4拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74707'>http://www.nsfocus.net/vulndb/74707</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43670</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Apache Sling CMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74706'>http://www.nsfocus.net/vulndb/74706</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41662</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Siemens JT2Go和Teamcenter Visualization越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74705'>http://www.nsfocus.net/vulndb/74705</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43050</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Online Tours &amp; Travels Management System任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74704'>http://www.nsfocus.net/vulndb/74704</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42205</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Dell ELAN Miniport Touchpad Windows Driver拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74703'>http://www.nsfocus.net/vulndb/74703</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40284</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Tuxera NTFS-3G缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74702'>http://www.nsfocus.net/vulndb/74702</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27894</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] Palantir Foundry Blobster跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74701'>http://www.nsfocus.net/vulndb/74701</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40131</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] WordPress a3rev Software Page View Count Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74700'>http://www.nsfocus.net/vulndb/74700</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-12930</font><br/>[<b>披露时间</b>] 2023-01-04 09:38:26<br/>[<b>漏洞描述</b>] AMD Secure Processor（ASP）权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/74699'>http://www.nsfocus.net/vulndb/74699</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
