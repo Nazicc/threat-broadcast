@@ -1,17 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00804 (CVE-2022-43381)</font><br/>[<b>披露时间</b>] 2023-01-05 02:53:50<br/>[<b>漏洞描述</b>] IBM AIX拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00804'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00804</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00805 (CVE-2022-41290)</font><br/>[<b>披露时间</b>] 2023-01-05 02:53:53<br/>[<b>漏洞描述</b>] IBM AIX权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00805'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00805</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00806 (CVE-2022-43380)</font><br/>[<b>披露时间</b>] 2023-01-05 02:53:55<br/>[<b>漏洞描述</b>] IBM AIX拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00806'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00806</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00807 (CVE-2022-40233)</font><br/>[<b>披露时间</b>] 2023-01-05 02:53:57<br/>[<b>漏洞描述</b>] IBM AIX拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00807'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00807</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00808 (CVE-2022-39164)</font><br/>[<b>披露时间</b>] 2023-01-05 02:54:00<br/>[<b>漏洞描述</b>] IBM AIX拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00808'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00808</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00809 (CVE-2022-39165)</font><br/>[<b>披露时间</b>] 2023-01-05 02:54:02<br/>[<b>漏洞描述</b>] IBM AIX拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00809'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00809</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-00810 (CVE-2022-43849)</font><br/>[<b>披露时间</b>] 2023-01-05 02:54:05<br/>[<b>漏洞描述</b>] IBM AIX拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-00810'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-00810</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4876</font><br/>[<b>披露时间</b>] 2023-01-04 04:41:46<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450513'>http://cve.scap.org.cn/vuln/VHN-450513</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
