@@ -1,23 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25923</font><br/>[<b>披露时间</b>] 2023-01-06 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416714'>http://cve.scap.org.cn/vuln/VHN-416714</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42979</font><br/>[<b>披露时间</b>] 2023-01-06 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-439828'>http://cve.scap.org.cn/vuln/VHN-439828</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40049</font><br/>[<b>披露时间</b>] 2023-01-06 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-435850'>http://cve.scap.org.cn/vuln/VHN-435850</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44870</font><br/>[<b>披露时间</b>] 2023-01-06 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442431'>http://cve.scap.org.cn/vuln/VHN-442431</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25923</font><br/>[<b>披露时间</b>] 2023-01-06 05:15:00<br/>[<b>漏洞描述</b>] Versions of the package exec-local-bin before 1.2.0 are vulnerable to Command Injection via the theProcess() functionality due to improper user-input sanitization.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-25923'>https://www.tenable.com/cve/CVE-2022-25923</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42979</font><br/>[<b>披露时间</b>] 2023-01-06 04:15:00<br/>[<b>漏洞描述</b>] Information disclosure due to an insecure hostname validation in the RYDE application 5.8.43 for Android and iOS allows attackers to take over an account via a deep link.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-42979'>https://www.tenable.com/cve/CVE-2022-42979</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44870</font><br/>[<b>披露时间</b>] 2023-01-06 03:15:00<br/>[<b>漏洞描述</b>] A reflected cross-site scripting (XSS) vulnerability in maccms10 v2022.1000.3032 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name parameter under the AD Management module.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-44870'>https://www.tenable.com/cve/CVE-2022-44870</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40049</font><br/>[<b>披露时间</b>] 2023-01-06 03:15:00<br/>[<b>漏洞描述</b>] SQL injection vulnerability in sourcecodester Theme Park Ticketing System 1.0 allows remote attackers to view sensitive information via the id parameter to the /tpts/manage_user.php page.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-40049'>https://www.tenable.com/cve/CVE-2022-40049</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39947</font><br/>[<b>披露时间</b>] 2023-01-06 09:32:00<br/>[<b>漏洞描述</b>] CVE-2022-39947/35845：Fortinet 命令注入漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=ea9f052a93adc66020337968b3c1f9dc'>https://cert.360.cn/warning/detail?id=ea9f052a93adc66020337968b3c1f9dc</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
