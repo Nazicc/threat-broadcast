@@ -1,11 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4755</font><br/>[<b>披露时间</b>] 2022-12-27 10:15:11 <br/>[<b>漏洞描述</b>] A vulnerability was found in FlatPress and classified as problematic. This issue affects the function main of the file fp-plugins/mediamanager/panels/panel.mediamanager.file.php of the component Media Manager Plugin. The manipulation of the argument mm-newgallery-name leads to cross site scripting. The attack may be initiated remotely. The name of the patch is d3f329496536dc99f9707f2f295d571d65a496f5. It is recommended to apply a patch to fix this issue. The identifier VDB-216869 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4755'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4755</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4306</font><br/>[<b>披露时间</b>] 2023-01-07 20:38:02<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450859'>http://cve.scap.org.cn/vuln/VHN-450859</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2015-10027</font><br/>[<b>披露时间</b>] 2023-01-07 20:38:02<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450860'>http://cve.scap.org.cn/vuln/VHN-450860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2014-125062</font><br/>[<b>披露时间</b>] 2023-01-07 20:38:02<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450861'>http://cve.scap.org.cn/vuln/VHN-450861</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4306</font><br/>[<b>披露时间</b>] 2023-01-07 17:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic has been found in cronvel terminal-kit up to 2.1.7. Affected is an unknown function. The manipulation leads to inefficient regular expression complexity. Upgrading to version 2.1.8 is able to address this issue. The name of the patch is a2e446cc3927b559d0281683feb9b821e83b758c. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-217620.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-4306'>https://www.tenable.com/cve/CVE-2021-4306</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2015-10027</font><br/>[<b>披露时间</b>] 2023-01-07 17:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, has been found in hydrian TTRSS-Auth-LDAP. Affected by this issue is some unknown functionality of the component Username Handler. The manipulation leads to ldap injection. Upgrading to version 2.0b1 is able to address this issue. The name of the patch is a7f7a5a82d9202a5c40d606a5c519ba61b224eb8. It is recommended to upgrade the affected component. VDB-217622 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2015-10027'>https://www.tenable.com/cve/CVE-2015-10027</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2014-125062</font><br/>[<b>披露时间</b>] 2023-01-07 17:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was found in ananich bitstorm. Affected by this vulnerability is an unknown functionality of the file announce.php. The manipulation of the argument event leads to sql injection. The name of the patch is ea8da92f94cdb78ee7831e1f7af6258473ab396a. It is recommended to apply a patch to fix this issue. The identifier VDB-217621 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2014-125062'>https://www.tenable.com/cve/CVE-2014-125062</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
