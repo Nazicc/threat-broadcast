@@ -1,22 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23509</font><br/>[<b>披露时间</b>] 2023-01-09 16:54:29<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412683'>http://cve.scap.org.cn/vuln/VHN-412683</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22472</font><br/>[<b>披露时间</b>] 2023-01-09 16:54:29<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450228'>http://cve.scap.org.cn/vuln/VHN-450228</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23508</font><br/>[<b>披露时间</b>] 2023-01-09 16:54:29<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412682'>http://cve.scap.org.cn/vuln/VHN-412682</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4311</font><br/>[<b>披露时间</b>] 2023-01-09 16:54:29<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450917'>http://cve.scap.org.cn/vuln/VHN-450917</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2196</font><br/>[<b>披露时间</b>] 2023-01-09 16:54:29<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426786'>http://cve.scap.org.cn/vuln/VHN-426786</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46769</font><br/>[<b>披露时间</b>] 2023-01-09 16:54:29<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447449'>http://cve.scap.org.cn/vuln/VHN-447449</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22477</font><br/>[<b>披露时间</b>] 2023-01-09 15:15:00<br/>[<b>漏洞描述</b>] Mercurius is a GraphQL adapter for Fastify. Any users of Mercurius until version 10.5.0 are subjected to a denial of service attack by sending a malformed packet over WebSocket to `/graphql`. This issue was patched in #940. As a workaround, users can disable subscriptions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22477'>https://www.tenable.com/cve/CVE-2023-22477</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22473</font><br/>[<b>披露时间</b>] 2023-01-09 15:15:00<br/>[<b>漏洞描述</b>] Talk-Android enables users to have video & audio calls through Nextcloud on Android. Due to passcode bypass, an attacker is able to access the user's Nextcloud files and view conversations. To exploit this the attacker needs to have physical access to the target's device. There are currently no known workarounds available. It is recommended that the Nextcloud Talk Android app is upgraded to 15.0.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22473'>https://www.tenable.com/cve/CVE-2023-22473</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
