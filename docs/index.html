@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-10 06:42:13 -->
+<!-- RELEASE TIME : 2023-01-10 08:41:14 -->
 <html lang="zh-cn">
 
  <head>
@@ -304,6 +304,46 @@
       </tr>
 
       <tr>
+       <td scope="row">b8e67039e6b044867c5e370dd0b5793f</td>
+       <td>CVE-2023-22320</td>
+       <td>2023-01-10 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenAM Web Policy Agent (OpenAM Consortium Edition) provided by OpenAM Consortium parses URLs improperly, leading to a path traversal vulnerability(CWE-22). Furthermore, a crafted URL may be evaluated incorrectly.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22320">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fbb6544a4803d87d48d1feae9f0e48f8</td>
+       <td>CVE-2023-0023</td>
+       <td>2023-01-10 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>In SAP Bank Account Management (Manage Banks) application, when a user clicks a smart link to navigate to another app, personal data is shown directly in the URL. They might get captured in log files, bookmarks, and so on disclosing sensitive data of the application.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0023">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38b33f96af56660b8f820ef684dea975</td>
+       <td>CVE-2023-0018</td>
+       <td>2023-01-10 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Due to improper input sanitization of user-controlled input in SAP BusinessObjects Business Intelligence Platform CMC application - versions 420, and 430, an attacker with basic user-level privileges can modify/upload crystal reports containing a malicious payload. Once these reports are viewable, anyone who opens those reports would be susceptible to stored XSS attacks. As a result of the attack, information maintained in the victim's web browser can be read, modified, and sent to the attacker.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0018">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">45d967d5914bcd348c4c0b15dd433686</td>
+       <td>CVE-2023-0017</td>
+       <td>2023-01-10 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An unauthenticated attacker in SAP NetWeaver AS for Java - version 7.50, due to improper access control, can attach to an open interface and make use of an open naming and directory API to access services which can be used to perform unauthorized operations affecting users and data on the current system. This could allow the attacker to have full read access to user data, make modifications to user data, and make services within the system unavailable.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0017">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79508c3b24176907b55ba758e16fe70e</td>
+       <td>CVE-2023-0015</td>
+       <td>2023-01-10 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>In SAP BusinessObjects Business Intelligence Platform (Web Intelligence user interface) - version 420, some calls return json with wrong content type in the header of the response. As a result, a custom application that calls directly the jsp of Web Intelligence DHTML may be vulnerable to XSS attacks. On successful exploitation an attacker can cause limited impact on confidentiality and integrity of the application.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0015">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">640b16454680f5480a5e9b018708b7d2</td>
        <td>CVE-2023-0013</td>
        <td>2023-01-10 03:15:00 <img src="imgs/new.gif" /></td>
@@ -479,46 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46258">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">acfc033a44328b2f67f009401da0812b</td>
-       <td>CVE-2023-22477</td>
-       <td>2023-01-09 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Mercurius is a GraphQL adapter for Fastify. Any users of Mercurius until version 10.5.0 are subjected to a denial of service attack by sending a malformed packet over WebSocket to `/graphql`. This issue was patched in #940. As a workaround, users can disable subscriptions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22477">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">919c43a6a6a1120f25c4eb824d5ba01c</td>
-       <td>CVE-2023-22473</td>
-       <td>2023-01-09 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Talk-Android enables users to have video & audio calls through Nextcloud on Android. Due to passcode bypass, an attacker is able to access the user's Nextcloud files and view conversations. To exploit this the attacker needs to have physical access to the target's device. There are currently no known workarounds available. It is recommended that the Nextcloud Talk Android app is upgraded to 15.0.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22473">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ac33002b7e078aedb80db835a3568077</td>
-       <td>CVE-2023-22472</td>
-       <td>2023-01-09 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud. It is possible to make a user send any POST request with an arbitrary body given they click on a malicious deep link on a Windows computer. (e.g. in an email, chat link, etc). There are currently no known workarounds. It is recommended that the Nextcloud Desktop client is upgraded to 3.6.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22472">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d73ca4c92abbe0d3df68471f3939a33f</td>
-       <td>CVE-2022-23509</td>
-       <td>2023-01-09 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Weave GitOps is a simple open source developer platform for people who want cloud native applications, without needing Kubernetes expertise. GitOps run has a local S3 bucket which it uses for synchronizing files that are later applied against a Kubernetes cluster. The communication between GitOps Run and the local S3 bucket is not encrypted. This allows privileged users or process to tap the local traffic to gain information permitting access to the s3 bucket. From that point, it would be possible to alter the bucket content, resulting in changes in the Kubernetes cluster's resources. There are no known workaround(s) for this vulnerability. This vulnerability has been fixed by commits ce2bbff and babd915. Users should upgrade to Weave GitOps version >= v0.12.0 released on 08/12/2022.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23509">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b705962239ad773a887d609da00c14cf</td>
-       <td>CVE-2022-23508</td>
-       <td>2023-01-09 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Weave GitOps is a simple open source developer platform for people who want cloud native applications, without needing Kubernetes expertise. A vulnerability in GitOps run could allow a local user or process to alter a Kubernetes cluster's resources. GitOps run has a local S3 bucket which it uses for synchronizing files that are later applied against a Kubernetes cluster. Its endpoint had no security controls to block unauthorized access, therefore allowing local users (and processes) on the same machine to see and alter the bucket content. By leveraging this vulnerability, an attacker could pick a workload of their choosing and inject it into the S3 bucket, which resulted in the successful deployment in the target cluster, without the need to provide any credentials to either the S3 bucket nor the target Kubernetes cluster. There are no known workarounds for this issue, please upgrade. This vulnerability has been fixed by commits 75268c4 and 966823b. Users should upgrade to Weave GitOps version >= v0.12.0 released on 08/12/2022. ### Workarounds There is no workaround for this vulnerability. ### References Disclosed by Paulo Gomes, Senior Software Engineer, Weaveworks. ### For more information If you have any questions or comments about this advisory: - Open an issue in [Weave GitOps repository](https://github.com/weaveworks/weave-gitops) - Email us at [support@weave.works](mailto:support@weave.works)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23508">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">be519cdc49add9c4f683e0458b3d2d20</td>
+       <td>CVE-2023-0014</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448502">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7e1fbaa78f3fb9d51f4c38e3ce9e3f99</td>
+       <td>CVE-2023-0015</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448503">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">53c9d0ce9f5dc58974220f73e4f235a3</td>
+       <td>CVE-2023-0016</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448504">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d820856c28d972f6a821b61de5c6c68f</td>
+       <td>CVE-2023-0017</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449510">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">090d52c0661545a409da6b1fc058d699</td>
+       <td>CVE-2023-0018</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449511">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7394f6cbfe30817f47432142abd89a73</td>
+       <td>CVE-2023-0022</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449605">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fbf7cfa58f8cc7241877610193d4e7a6</td>
+       <td>CVE-2023-0023</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449606">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a8775f5a2cfcacc3917119f9ba15f957</td>
+       <td>CVE-2023-22320</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449930">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">63506da12b40f893d58bccf563da05e9</td>
+       <td>CVE-2023-0012</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448500">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bfdf81ac3347d26408a37cd323ede5a8</td>
+       <td>CVE-2023-0013</td>
+       <td>2023-01-10 08:41:05 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448501">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">802350c25f91cef93aad64ceb7c1ac8e</td>
        <td>CVE-2022-46258</td>
@@ -713,96 +803,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416531">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">b379d3c9afbb5c86b3953167a024b81d</td>
-       <td>CVE-2022-25716</td>
-       <td>2023-01-09 12:58:49 <img src="imgs/new.gif" /></td>
-       <td>Memory corruption in Multimedia Framework due...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416532">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a93d422b6c688445d5245f9a83b79650</td>
-       <td>CVE-2022-25890</td>
-       <td>2023-01-09 08:42:00 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416683">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e9b264661fb61d64bcf61b14d50293f8</td>
-       <td>CVE-2022-43662</td>
-       <td>2023-01-09 08:42:00 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-440780">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">82d7f549e6e57963eacce9b7b70b1a1e</td>
-       <td>CVE-2022-45126</td>
-       <td>2023-01-09 08:42:00 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-442713">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c3e6d61311eff43d679b56eb98bff8c</td>
-       <td>CVE-2023-0035</td>
-       <td>2023-01-09 08:42:00 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450437">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">22405ef69d53a13093dbdd7f0b2da119</td>
-       <td>CVE-2023-0036</td>
-       <td>2023-01-09 08:42:00 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450438">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bfc8492c8c0f4bfbcc02c397ca27186d</td>
-       <td>CVE-2022-3343</td>
-       <td>2023-01-09 04:41:13 <img src="imgs/new.gif" /></td>
-       <td>The WPQA Builder WordPress plugin before 5.9.3...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-430964">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3ce02163661a0ada2909d79f105fc3c7</td>
-       <td>CVE-2022-3416</td>
-       <td>2023-01-09 04:41:13 <img src="imgs/new.gif" /></td>
-       <td>The WPtouch WordPress plugin before 4.3.45...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-431060">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8aedc4c19c4d5f4c8561afa0a20f1cd0</td>
-       <td>CVE-2022-3417</td>
-       <td>2023-01-09 04:41:13 <img src="imgs/new.gif" /></td>
-       <td>The WPtouch WordPress plugin before 4.3.45...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-431061">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cae543f55efa61c9a2f67ff79cfb7a23</td>
-       <td>CVE-2022-3679</td>
-       <td>2023-01-09 04:41:13 <img src="imgs/new.gif" /></td>
-       <td>The Starter Templates by Kadence WP WordPress...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-432740">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -817,6 +817,14 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">3ef28f30e10ae41a291f285871a25276</td>
+       <td>CNVD-2023-01829 (CVE-2022-41076)</td>
+       <td>2023-01-10 08:40:37 <img src="imgs/new.gif" /></td>
+       <td>Microsoft PowerShell远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-01829">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">1c4cc62c3efe60d2be73b9ae55056354</td>
        <td>CNVD-2023-01792 (CVE-2022-43601)</td>
@@ -1047,14 +1055,6 @@
        <td>2023-01-05 02:54:02</td>
        <td>IBM AIX拒绝服务漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-00809">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8e39779b8b7275be011926bc97fda05e</td>
-       <td>CNVD-2023-00808 (CVE-2022-39164)</td>
-       <td>2023-01-05 02:54:00</td>
-       <td>IBM AIX拒绝服务漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-00808">详情</a></td>
       </tr>
 
      </tbody>
@@ -1484,6 +1484,30 @@
       </tr>
 
       <tr>
+       <td scope="row">86203d2499729765c8dc55bc863d8ceb</td>
+       <td></td>
+       <td>2023-01-04 14:21:28</td>
+       <td>泛微 E-office getSelectList_Crm 存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7947">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">59453e825b38bdf1c0373459b1202220</td>
+       <td></td>
+       <td>2023-01-04 14:21:01</td>
+       <td>泛微 E-office json_common.php 存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7946">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">59ac0aff06d7279323b49ed73a6da5ff</td>
+       <td></td>
+       <td>2023-01-04 14:20:33</td>
+       <td>用友 NC soapRequest.ajax 存在代码执行漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7944">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f1950100a1182fabd5db2b7253e71916</td>
        <td>CVE-2022-43931</td>
        <td>2023-01-04 14:03:47</td>
@@ -1649,30 +1673,6 @@
        <td>2022-11-24 16:47:42</td>
        <td>Smartbi商业智能BI软件存在命令执行漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7841">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7d2b49918e8933ab8c11aa04f2373c05</td>
-       <td></td>
-       <td>2022-11-24 16:47:42</td>
-       <td>Smartbi商业智能BI软件 BusinessThemeServiceStub.js.stub 存在代码执行漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7841">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d10d79f8f7fabb650f749da27a612d70</td>
-       <td>CVE-2022-40189</td>
-       <td>2022-11-22 16:03:26</td>
-       <td>Apache Airlfow Pig Provider命令注入漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7812">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a0d8dec00d6d48f823518b611df1c410</td>
-       <td>CVE-2022-43781</td>
-       <td>2022-11-21 10:17:36</td>
-       <td>Bitbucket Server 和 Data Center存在命令注入漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7799">详情</a></td>
       </tr>
 
      </tbody>
@@ -2174,6 +2174,126 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">3a76d0b80434c2cb03a9a7480a6556e3</td>
+       <td>CVE-2021-46853</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Alpine拒绝服务漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74923">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0d39d65ead2fdc6210d75a8ef76056f4</td>
+       <td>CVE-2022-27586</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>SICK SIM1004 Partnumber信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74922">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">018e3cbf1198e661ecfc647286b80f5b</td>
+       <td>CVE-2022-3821</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Systemd拒绝服务漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74921">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e133859359598a3b544b0a0e2225429c</td>
+       <td>CVE-2022-43958</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Siemens Quality Management System（QMS） Automotive信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74920">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aae46e5464698899f5347e79dc9406c0</td>
+       <td>CVE-2022-31630</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>PHP越界读取漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74919">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6c3a77f308158b8155bc14a11371df35</td>
+       <td>CVE-2022-34666</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>NVIDIA GPU Display Driver空指针解引用漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74918">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2a44460098553456eeefc88723a5a0c2</td>
+       <td>CVE-2022-3461</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>PHOENIX CONTACT Automationworx Software Suite堆缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74917">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f921075d83f3842b7d3ec2f8ec1dc123</td>
+       <td>CVE-2022-43310</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Foxit Reader不受控制的搜索路径元素漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74916">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4ea71b05658ef7a25ea7bd22dfbe2bf1</td>
+       <td>CVE-2022-20840</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Cisco Firepower Management Center（FMC）跨站脚本漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74915">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1bc8ce9880cd7338a7a1226970df5f62</td>
+       <td>CVE-2022-30515</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>ZKTeco BioTime信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74914">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">781cb5e1d62a578feabf66a5ee211582</td>
+       <td>CVE-2022-33321</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Mitsubishi Electric Consumer Electronics多款产品信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74913">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">437b370f6d5843511a56f8342b4d6bfc</td>
+       <td>CVE-2022-42442</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>IBM Robotic Process Automation for Cloud Pak信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74912">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32e599d8a8fc64c21473eb47a37ce137</td>
+       <td>CVE-2021-26360</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>AMD Secure Processor（ASP）任意代码执行漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74911">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aa7e33757a01f7a45daf9b6edd37272d</td>
+       <td>CVE-2022-34822</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>NEC Expresscluster X和CLUSTERPRO X路径遍历漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74910">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79b1cf8c57573d0450b5b549a0e4de97</td>
+       <td>CVE-2022-42132</td>
+       <td>2023-01-10 08:41:06 <img src="imgs/new.gif" /></td>
+       <td>Liferay Portal和Liferay DXP信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74909">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8637447be2dd130790be35affa8f1430</td>
        <td>CVE-2022-45995</td>
        <td>2023-01-06 10:39:18</td>
@@ -2291,126 +2411,6 @@
        <td>2023-01-06 10:39:18</td>
        <td>Aruba EdgeConnect Enterprise Orchestrator会话管理漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74845">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b68145c9fa8c2737dd57e7fd3e2a5f15</td>
-       <td>CVE-2022-3096</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>WordPress WP Total Hacks Plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74713">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">651c4b0d6b3a48e90642b92775868edb</td>
-       <td>CVE-2022-3440</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>WordPress Rock Convert Plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74712">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">756822f890c7ee922fdf27265f03c543</td>
-       <td>CVE-2022-40190</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>SAUTER Controls moduWeb跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74711">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">81f3c33f12f7f6dff6e237b0c71bd3ab</td>
-       <td>CVE-2020-36605</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Hitachi多款产品默认权限错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74710">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05e1f543ca3c638321a8ffffe9c75e10</td>
-       <td>CVE-2022-25885</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>MuhammaraJS拒绝服务漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74709">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f158a1ad99ea893b5a165f17b47e156a</td>
-       <td>CVE-2022-39369</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>phpCAS信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74708">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">37f6de026c6023eb8ae495ab7886326d</td>
-       <td>CVE-2022-3809</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Axiomatic Bento4拒绝服务漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74707">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3420503d5c0f8f40190b3876b4c06915</td>
-       <td>CVE-2022-43670</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Apache Sling CMS跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74706">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">df225b19ea4a7547496ae41b1058e9ee</td>
-       <td>CVE-2022-41662</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Siemens JT2Go和Teamcenter Visualization越界读取漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74705">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c42d765823d8b8da20ee3eaebe6c5e34</td>
-       <td>CVE-2022-43050</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Online Tours &amp; Travels Management System任意文件上传漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74704">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a54192099288d93cecdc636162470bfa</td>
-       <td>CVE-2021-42205</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Dell ELAN Miniport Touchpad Windows Driver拒绝服务漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74703">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1de8b4fbdbf6b4611610e06fe83d9b9c</td>
-       <td>CVE-2022-40284</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Tuxera NTFS-3G缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74702">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b2c4b97f2f7f30a90ff36b3294621caf</td>
-       <td>CVE-2022-27894</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>Palantir Foundry Blobster跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74701">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cbb496c722be822b162c5afe025f53cf</td>
-       <td>CVE-2022-40131</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>WordPress a3rev Software Page View Count Plugin跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74700">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">afb86a0ffe78788fc494e4df94e9f19b</td>
-       <td>CVE-2020-12930</td>
-       <td>2023-01-04 09:38:26</td>
-       <td>AMD Secure Processor（ASP）权限提升漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/74699">详情</a></td>
       </tr>
 
      </tbody>
