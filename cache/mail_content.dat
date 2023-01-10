@@ -1,15 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4857</font><br/>[<b>披露时间</b>] 2022-12-30 10:15:10 <br/>[<b>漏洞描述</b>] A vulnerability was found in Modbus Tools Modbus Poll up to 9.10.0 and classified as critical. Affected by this issue is some unknown functionality of the file mbpoll.exe of the component mbp File Handler. The manipulation leads to buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-217022 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4857'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4857</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46610</font><br/>[<b>披露时间</b>] 2023-01-10 14:15:00<br/>[<b>漏洞描述</b>] 72crm v9 was discovered to contain an arbitrary file upload vulnerability via the avatar upload function. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-46610'>https://www.tenable.com/cve/CVE-2022-46610</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4422</font><br/>[<b>披露时间</b>] 2023-01-10 14:15:00<br/>[<b>漏洞描述</b>] This issue affects:Bulutses Bilgi Teknolojileri LTD. ÅžTÄ°. BULUTDESK CALLCENTERversions prior to 3.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4422'>https://www.tenable.com/cve/CVE-2022-4422</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3792</font><br/>[<b>披露时间</b>] 2023-01-10 14:15:00<br/>[<b>漏洞描述</b>] This issue affects: Terminal Operating System versions before 5.0.13<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3792'>https://www.tenable.com/cve/CVE-2022-3792</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3792</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-433754'>http://cve.scap.org.cn/vuln/VHN-433754</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46610</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-444676'>http://cve.scap.org.cn/vuln/VHN-444676</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4422</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447911'>http://cve.scap.org.cn/vuln/VHN-447911</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38773</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434543'>http://cve.scap.org.cn/vuln/VHN-434543</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43513</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440567'>http://cve.scap.org.cn/vuln/VHN-440567</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43514</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440569'>http://cve.scap.org.cn/vuln/VHN-440569</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45092</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442687'>http://cve.scap.org.cn/vuln/VHN-442687</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45093</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442688'>http://cve.scap.org.cn/vuln/VHN-442688</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45094</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442689'>http://cve.scap.org.cn/vuln/VHN-442689</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46823</font><br/>[<b>披露时间</b>] 2023-01-10 16:52:32<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447501'>http://cve.scap.org.cn/vuln/VHN-447501</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
