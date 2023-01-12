@@ -1,14 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1651310</font><br/>[<b>披露时间</b>] 2023-01-06 10:41:29<br/>[<b>漏洞描述</b>] 禅道项⽬管理系统权限绕过与命令执行漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1651310'>https://avd.aliyun.com/detail?id=AVD-2023-1651310</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21752</font><br/>[<b>披露时间</b>] 2023-01-12 08:45:47<br/>[<b>漏洞描述</b>] CVE-2023-21752：Windows Backup Service权限提升漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=a03d9f175f1fe37ffaf00519e080833c'>https://cert.360.cn/warning/detail?id=a03d9f175f1fe37ffaf00519e080833c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46689</font><br/>[<b>披露时间</b>] 2022-12-15 19:15:26 <br/>[<b>漏洞描述</b>] A race condition was addressed with additional validation. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46689'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46689</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4663</font><br/>[<b>披露时间</b>] 2023-01-03 14:15:10 <br/>[<b>漏洞描述</b>] The Members Import plugin for WordPress is vulnerable to Self Cross-Site Scripting via the user_login parameter in an imported CSV file in versions up to, and including, 1.4.2 due to insufficient input sanitization and output escaping. This makes it possible for attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a site's administrator into uploading a CSV file with the malicious payload.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4663'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4663</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46490</font><br/>[<b>披露时间</b>] 2023-01-05 15:15:10 <br/>[<b>漏洞描述</b>] GPAC version 2.1-DEV-rev505-gb9577e6ad-master was discovered to contain a memory leak via the afrt_box_read function at box_code_adobe.c.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46490'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46490</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
