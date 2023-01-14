@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0299</font><br/>[<b>披露时间</b>] 2023-01-14 15:15:00<br/>[<b>漏洞描述</b>] Improper Input Validation in GitHub repository publify/publify prior to 9.2.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0299'>https://www.tenable.com/cve/CVE-2023-0299</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-29824</font><br/>[<b>披露时间</b>] 2022-05-03 03:15:06 <br/>[<b>漏洞描述</b>] In libxml2 before 2.9.14, several buffer handling functions in buf.c (xmlBuf*) and tree.c (xmlBuffer*) don't check for integer overflows. This can result in out-of-bounds memory writes. Exploitation requires a victim to open a crafted, multi-gigabyte XML file. Other software using libxml2's buffer functions, for example libxslt through 1.1.35, is affected as well.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29824'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29824</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2967</font><br/>[<b>披露时间</b>] 2023-01-03 22:15:11 <br/>[<b>漏洞描述</b>] Prosys OPC UA Simulation Server version prior to v5.3.0-64 and UA Modbus Server versions 1.4.18-5 and prior do not sufficiently protect credentials, which could allow an attacker to obtain user credentials and gain access to system data.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2967'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2967</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
