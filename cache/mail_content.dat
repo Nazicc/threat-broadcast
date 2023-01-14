@@ -1,30 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41721</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] A request smuggling attack is possible when using......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437998'>http://cve.scap.org.cn/vuln/VHN-437998</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46093</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Hospital Management System v1.0 is vulnerable...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-444005'>http://cve.scap.org.cn/vuln/VHN-444005</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36204</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Under some circumstances an Insufficiently...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-398114'>http://cve.scap.org.cn/vuln/VHN-398114</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42136</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Authenticated mail users, under specific...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-438592'>http://cve.scap.org.cn/vuln/VHN-438592</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45299</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] An issue in the IpFile argument of rust-lang......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-442938'>http://cve.scap.org.cn/vuln/VHN-442938</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21594</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Adobe InCopy versions 18.0 (and earlier), 17.4...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447131'>http://cve.scap.org.cn/vuln/VHN-447131</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21595</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Adobe InCopy versions 18.0 (and earlier), 17.4...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447132'>http://cve.scap.org.cn/vuln/VHN-447132</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21596</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Adobe InCopy versions 18.0 (and earlier), 17.4...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447134'>http://cve.scap.org.cn/vuln/VHN-447134</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21597</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Adobe InCopy versions 18.0 (and earlier), 17.4...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447136'>http://cve.scap.org.cn/vuln/VHN-447136</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21598</font><br/>[<b>披露时间</b>] 2023-01-13 05:37:32<br/>[<b>漏洞描述</b>] Adobe InCopy versions 18.0 (and earlier), 17.4...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447138'>http://cve.scap.org.cn/vuln/VHN-447138</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32637</font><br/>[<b>披露时间</b>] 2023-01-03 21:15:11 <br/>[<b>漏洞描述</b>] In hevc decoder, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07491374; Issue ID: ALPS07491374.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32637'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32637</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32636</font><br/>[<b>披露时间</b>] 2023-01-03 21:15:11 <br/>[<b>漏洞描述</b>] In keyinstall, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07510064; Issue ID: ALPS07510064.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32636'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32636</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
