@@ -1,42 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">20</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">9</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-03046 (CVE-2023-0210)</font><br/>[<b>披露时间</b>] 2023-01-16 01:59:52<br/>[<b>漏洞描述</b>] Linux kernel ksmbd模块缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-03046'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-03046</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0314</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451970'>http://cve.scap.org.cn/vuln/VHN-451970</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0313</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451971'>http://cve.scap.org.cn/vuln/VHN-451971</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0312</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451972'>http://cve.scap.org.cn/vuln/VHN-451972</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0311</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451973'>http://cve.scap.org.cn/vuln/VHN-451973</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0310</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451974'>http://cve.scap.org.cn/vuln/VHN-451974</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0309</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451975'>http://cve.scap.org.cn/vuln/VHN-451975</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0308</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451976'>http://cve.scap.org.cn/vuln/VHN-451976</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0307</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451977'>http://cve.scap.org.cn/vuln/VHN-451977</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0306</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451978'>http://cve.scap.org.cn/vuln/VHN-451978</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2018-25075</font><br/>[<b>披露时间</b>] 2023-01-15 02:00:19<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-03047 (CVE-2019-25095)</font><br/>[<b>披露时间</b>] 2023-01-13 04:41:11<br/>[<b>漏洞描述</b>] LdapCherry跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-03047'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-03047</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-03048 (CVE-2023-0018)</font><br/>[<b>披露时间</b>] 2023-01-13 04:41:13<br/>[<b>漏洞描述</b>] SAP BusinessObjects Business Intelligence Platform CMC application跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-03048'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-03048</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-03049 (CVE-2023-0015)</font><br/>[<b>披露时间</b>] 2023-01-13 04:41:16<br/>[<b>漏洞描述</b>] SAP BusinessObjects Business Intelligence Platform跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-03049'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-03049</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-03050 (CVE-2023-0012)</font><br/>[<b>披露时间</b>] 2023-01-13 04:41:18<br/>[<b>漏洞描述</b>] SAP Host Agent访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-03050'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-03050</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2018-25075</font><br/>[<b>披露时间</b>] 2023-01-15 04:41:31<br/>[<b>漏洞描述</b>] A vulnerability classified as critical has...
                     <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451962'>http://cve.scap.org.cn/vuln/VHN-451962</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0314</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0314'>https://www.tenable.com/cve/CVE-2023-0314</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0313</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0313'>https://www.tenable.com/cve/CVE-2023-0313</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0312</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0312'>https://www.tenable.com/cve/CVE-2023-0312</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0311</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Improper Authentication in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0311'>https://www.tenable.com/cve/CVE-2023-0311</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0310</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0310'>https://www.tenable.com/cve/CVE-2023-0310</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0309</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0309'>https://www.tenable.com/cve/CVE-2023-0309</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0308</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0308'>https://www.tenable.com/cve/CVE-2023-0308</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0307</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Weak Password Requirements in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0307'>https://www.tenable.com/cve/CVE-2023-0307</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0306</font><br/>[<b>披露时间</b>] 2023-01-15 22:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0306'>https://www.tenable.com/cve/CVE-2023-0306</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
