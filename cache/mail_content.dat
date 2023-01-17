@@ -1,20 +1,29 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3087</font><br/>[<b>披露时间</b>] 2023-01-17 05:37:41<br/>[<b>漏洞描述</b>] Fuji Electric Tellus Lite V-Simulator versions...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-430742'>http://cve.scap.org.cn/vuln/VHN-430742</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0327</font><br/>[<b>披露时间</b>] 2023-01-16 05:37:41<br/>[<b>漏洞描述</b>] A vulnerability was found in saemorris...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452000'>http://cve.scap.org.cn/vuln/VHN-452000</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2658</font><br/>[<b>披露时间</b>] 2023-01-16 05:37:41<br/>[<b>漏洞描述</b>] The WP Spell Check WordPress plugin before 9.13......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-430438'>http://cve.scap.org.cn/vuln/VHN-430438</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3904</font><br/>[<b>披露时间</b>] 2023-01-16 05:37:41<br/>[<b>漏洞描述</b>] The MonsterInsights WordPress plugin before...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-434810'>http://cve.scap.org.cn/vuln/VHN-434810</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4060</font><br/>[<b>披露时间</b>] 2023-01-16 05:37:41<br/>[<b>漏洞描述</b>] The User Post Gallery WordPress plugin through...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-436419'>http://cve.scap.org.cn/vuln/VHN-436419</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30544</font><br/>[<b>披露时间</b>] 2023-01-17 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-430708'>http://cve.scap.org.cn/vuln/VHN-430708</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42462</font><br/>[<b>披露时间</b>] 2023-01-17 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-439093'>http://cve.scap.org.cn/vuln/VHN-439093</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43462</font><br/>[<b>披露时间</b>] 2023-01-17 08:41:30<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440511'>http://cve.scap.org.cn/vuln/VHN-440511</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45439</font><br/>[<b>披露时间</b>] 2023-01-17 08:41:30<br/>[<b>漏洞描述</b>] A pair of spare WiFi credentials is stored......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-443162'>http://cve.scap.org.cn/vuln/VHN-443162</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45440</font><br/>[<b>披露时间</b>] 2023-01-17 08:41:30<br/>[<b>漏洞描述</b>] A vulnerability exists in the FTP server of......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-443163'>http://cve.scap.org.cn/vuln/VHN-443163</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36611</font><br/>[<b>披露时间</b>] 2023-01-17 08:41:30<br/>[<b>漏洞描述</b>] Incorrect Default Permissions vulnerability in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447907'>http://cve.scap.org.cn/vuln/VHN-447907</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43462</font><br/>[<b>披露时间</b>] 2023-01-17 05:15:00<br/>[<b>漏洞描述</b>] Auth. SQL Injection (SQLi) vulnerability in Adeel Ahmed's IP Blacklist Cloud plugin <= 5.00 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43462'>https://www.tenable.com/cve/CVE-2022-43462</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42462</font><br/>[<b>披露时间</b>] 2023-01-17 05:15:00<br/>[<b>漏洞描述</b>] Auth. Stored Cross-Site Scripting (XSS) vulnerability in Adeel Ahmed's IP Blacklist Cloud plugin <= 5.00 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-42462'>https://www.tenable.com/cve/CVE-2022-42462</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30544</font><br/>[<b>披露时间</b>] 2023-01-17 05:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) in MiKa's OSM – OpenStreetMap plugin <= 6.0.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-30544'>https://www.tenable.com/cve/CVE-2022-30544</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45440</font><br/>[<b>披露时间</b>] 2023-01-17 02:15:00<br/>[<b>漏洞描述</b>] A vulnerability exists in the FTP server of the Zyxel AX7501-B0 firmware prior to V5.17(ABPC.3)C0, which processes symbolic links on external storage media. A local authenticated attacker with administrator privileges could abuse this vulnerability to access the root file system by creating a symbolic link on external storage media, such as a USB flash drive, and then logging into the FTP server on a vulnerable device.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45440'>https://www.tenable.com/cve/CVE-2022-45440</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45439</font><br/>[<b>披露时间</b>] 2023-01-17 02:15:00<br/>[<b>漏洞描述</b>] A pair of spare WiFi credentials is stored in the configuration file of the Zyxel AX7501-B0 firmware prior to V5.17(ABPC.3)C0 in cleartext. An unauthenticated attacker could use the credentials to access the WLAN service if the configuration file has been retrieved from the device by leveraging another known vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45439'>https://www.tenable.com/cve/CVE-2022-45439</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36611</font><br/>[<b>披露时间</b>] 2023-01-17 02:15:00<br/>[<b>漏洞描述</b>] Incorrect Default Permissions vulnerability in Hitachi Tuning Manager on Linux (Hitachi Tuning Manager server, Hitachi Tuning Manager - Agent for RAID, Hitachi Tuning Manager - Agent for NAS, Hitachi Tuning Manager - Agent for SAN Switch components) allows local users to read and write specific files.This issue affects Hitachi Tuning Manager: before 8.8.5-00.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-36611'>https://www.tenable.com/cve/CVE-2020-36611</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
