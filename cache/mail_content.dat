@@ -1,30 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39429</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] Vulnerability in the Java VM component of Oracle......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-435181'>http://cve.scap.org.cn/vuln/VHN-435181</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38469</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] An unauthorized user with network access and the......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448452'>http://cve.scap.org.cn/vuln/VHN-448452</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43494</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] An unauthorized user could be able to read......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448453'>http://cve.scap.org.cn/vuln/VHN-448453</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46331</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] An unauthorized user could possibly delete any...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448486'>http://cve.scap.org.cn/vuln/VHN-448486</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46660</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] An unauthorized user could alter or write files......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448487'>http://cve.scap.org.cn/vuln/VHN-448487</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46732</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] Even if the authentication fails for local...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448488'>http://cve.scap.org.cn/vuln/VHN-448488</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21824</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] Vulnerability in the Oracle Communications BRM...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448641'>http://cve.scap.org.cn/vuln/VHN-448641</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21825</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] Vulnerability in the Oracle iSupplier Portal...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448642'>http://cve.scap.org.cn/vuln/VHN-448642</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21826</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] Vulnerability in the Oracle Hospitality...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448643'>http://cve.scap.org.cn/vuln/VHN-448643</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21827</font><br/>[<b>披露时间</b>] 2023-01-18 05:37:48<br/>[<b>漏洞描述</b>] Vulnerability in the Oracle Database Data...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448644'>http://cve.scap.org.cn/vuln/VHN-448644</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21839</font><br/>[<b>披露时间</b>] 2023-01-18 13:58:48<br/>[<b>漏洞描述</b>] Weblogic远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7973'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7973</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
