@@ -1,33 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">13</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-33959</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-394127'>http://cve.scap.org.cn/vuln/VHN-394127</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41417</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437576'>http://cve.scap.org.cn/vuln/VHN-437576</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-22007</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] 该漏洞编号已预留给漏洞申报者
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-175642'>http://cve.scap.org.cn/vuln/VHN-175642</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36630</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-398495'>http://cve.scap.org.cn/vuln/VHN-398495</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34399</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426715'>http://cve.scap.org.cn/vuln/VHN-426715</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34435</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426751'>http://cve.scap.org.cn/vuln/VHN-426751</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34436</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426752'>http://cve.scap.org.cn/vuln/VHN-426752</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34457</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426773'>http://cve.scap.org.cn/vuln/VHN-426773</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0214</font><br/>[<b>披露时间</b>] 2023-01-18 16:47:26<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451185'>http://cve.scap.org.cn/vuln/VHN-451185</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41417</font><br/>[<b>披露时间</b>] 2023-01-18 14:15:00<br/>[<b>漏洞描述</b>] BlogEngine.NET v3.3.8.0 allows an attacker to create any folder with "files" prefix under ~/App_Data/.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-41417'>https://www.tenable.com/cve/CVE-2022-41417</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-33959</font><br/>[<b>披露时间</b>] 2023-01-18 14:15:00<br/>[<b>漏洞描述</b>] Plex media server 1.21 and before is vulnerable to ddos reflection attack via plex service.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-33959'>https://www.tenable.com/cve/CVE-2021-33959</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-36630</font><br/>[<b>披露时间</b>] 2023-01-18 13:15:00<br/>[<b>漏洞描述</b>] DDOS reflection amplification vulnerability in eAut module of Ruckus Wireless SmartZone controller that allows remote attackers to perform DOS attacks via crafted request.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-36630'>https://www.tenable.com/cve/CVE-2021-36630</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-22007</font><br/>[<b>披露时间</b>] 2023-01-18 13:15:00<br/>[<b>漏洞描述</b>] OS Command Injection vulnerability in OKER G955V1 v1.03.02.20161128, allows physical attackers to interrupt the boot sequence and execute arbitrary commands with root privileges.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-22007'>https://www.tenable.com/cve/CVE-2020-22007</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22963</font><br/>[<b>披露时间</b>] 2023-01-11 06:15:08 <br/>[<b>漏洞描述</b>] The personnummer implementation before 3.0.3 for Dart mishandles numbers in which the last four digits match the ^000[0-9]$ regular expression.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22963'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22963</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
