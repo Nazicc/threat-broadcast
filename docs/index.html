@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-18 23:38:31 -->
+<!-- RELEASE TIME : 2023-01-19 02:08:31 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">4208fa511ff172ebf734affdd050796e</td>
        <td>CVE-2023-22602</td>
-       <td>2023-01-17 09:31:42 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 09:31:42</td>
        <td>CVE-2023-22602：Apache Shiro身份认证绕过漏洞通告</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=e8afbbf9124804e0c81b82126b0c5c00">详情</a></td>
       </tr>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">33a345443e47c691f9e775c178bc7b2d</td>
+       <td>CVE-2022-3085</td>
+       <td>2023-01-19 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Fuji Electric Tellus Lite V-Simulator versions 4.0.12.0 and prior are vulnerable to a stack-based buffer overflow which may allow an attacker to execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3085">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f2762e9b1967096af1ae384b74017f96</td>
+       <td>CVE-2023-0290</td>
+       <td>2023-01-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Rapid7 Velociraptor did not properly sanitize the client ID parameter to the CreateCollection API, allowing a directory traversal in where the collection task could be written. It was possible to provide a client id of "../clients/server" to schedule the collection for the server (as a server artifact), but only require privileges to schedule collections on the client. Normally, to schedule an artifact on the server, the COLLECT_SERVER permission is required. This permission is normally only granted to "administrator" role. Due to this issue, it is sufficient to have the COLLECT_CLIENT privilege, which is normally granted to the "investigator" role. To exploit this vulnerability, the attacker must already have a Velociraptor user account at least "investigator" level, and be able to authenticate to the GUI and issue an API call to the backend. Typically, most users deploy Velociraptor with limited access to a trusted group, and most users will already be administrators within the GUI. This issue affects Velociraptor versions before 0.6.7-5. Version 0.6.7-5, released January 16, 2023, fixes the issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">86a195dba89007a10e3fd13e83d0c230</td>
+       <td>CVE-2023-0164</td>
+       <td>2023-01-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>OrangeScrum version 2.0.11 allows an authenticated external attacker to execute arbitrary commands on the server. This is possible because the application injects an attacker-controlled parameter into a system function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0164">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a7f02bde8abb1ecacfa0a60404cc2aec</td>
+       <td>CVE-2022-45927</td>
+       <td>2023-01-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in OpenText Content Suite Platform 22.1 (16.2.19.1803). The Java application server can be used to bypass the authentication of the QDS endpoints of the Content Server. These endpoints can be used to create objects and execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45927">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4ab762eb9fd48f30590e76dc6e77a9e7</td>
+       <td>CVE-2022-45923</td>
+       <td>2023-01-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in OpenText Content Suite Platform 22.1 (16.2.19.1803). The Common Gateway Interface (CGI) program cs.exe allows an attacker to increase/decrease an arbitrary memory address by 1 and trigger a call to a method of a vftable with a vftable pointer value chosen by the attacker.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45923">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ece289cd208e3f14d0db8117569cb2da</td>
+       <td>CVE-2022-4235</td>
+       <td>2023-01-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>RushBet version 2022.23.1-b490616d allows a remote attacker to steal customer accounts via use of a malicious application. This is possible because the application exposes an activity and does not properly validate the data it receives.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4235">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a020a0eb0a0f733891ebb4f83bfe41fb</td>
+       <td>CVE-2023-0242</td>
+       <td>2023-01-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Rapid7 Velociraptor allows users to be created with different privileges on the server. Administrators are generally allowed to run any command on the server including writing arbitrary files. However, lower privilege users are generally forbidden from writing or modifying files on the server. The VQL copy() function applies permission checks for reading files but does not check for permission to write files. This allows a low privilege user (usually, users with the Velociraptor "investigator" role) to overwrite files on the server, including Velociraptor configuration files. To exploit this vulnerability, the attacker must already have a Velociraptor user account at a low privilege level (at least "analyst") and be able to log into the GUI and create a notebook where they can run the VQL query invoking the copy() VQL function. Typically, most users deploy Velociraptor with limited access to a trusted group (most users will be administrators within the GUI). This vulnerability is associated with program files https://github.Com/Velocidex/velociraptor/blob/master/vql/filesystem/copy.go https://github.Com/Velocidex/velociraptor/blob/master/vql/filesystem/copy.go and program routines copy(). This issue affects Velociraptor versions before 0.6.7-5. Version 0.6.7-5, released January 16, 2023, fixes the issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0242">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7930df2b00c4d77a86095bb656f99a58</td>
+       <td>CVE-2022-45928</td>
+       <td>2023-01-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A remote OScript execution issue was discovered in OpenText Content Suite Platform 22.1 (16.2.19.1803). Multiple endpoints allow the user to pass the parameter htmlFile, which is included in the HTML output rendering pipeline of a request. Because the Content Server evaluates and executes Oscript code in HTML files, it is possible for an attacker to execute Oscript code. The Oscript scripting language allows the attacker (for example) to manipulate files on the filesystem, create new network connections, or execute OS commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45928">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">175e6d7748eb404b288a4b84c514ed3c</td>
+       <td>CVE-2022-45926</td>
+       <td>2023-01-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in OpenText Content Suite Platform 22.1 (16.2.19.1803). The endpoint notify.localizeEmailTemplate allows a low-privilege user to evaluate webreports.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45926">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e336d03ab76e5f536155141407786442</td>
+       <td>CVE-2022-45925</td>
+       <td>2023-01-18 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in OpenText Content Suite Platform 22.1 (16.2.19.1803). The action xmlexport accepts the parameter requestContext. If this parameter is present, the response includes most of the HTTP headers sent to the server and some of the CGI variables like remote_adde and server_name, which is an information disclosure.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45925">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4863e8c3573a68a935f6d0895c7a6777</td>
        <td>CVE-2023-22863</td>
        <td>2023-01-18 19:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-01-18 16:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability was found in AlexRed contentmap. It has been rated as critical. Affected by this issue is the function Load of the file contentmap.php. The manipulation of the argument contentid leads to sql injection. The name of the patch is dd265d23ff4abac97422835002c6a47f45ae2a66. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218492.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20173">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">af9a171c79153053f3e5b145aa17d573</td>
-       <td>CVE-2012-10006</td>
-       <td>2023-01-18 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as critical has been found in ale7714 sigeprosi. This affects an unknown part. The manipulation leads to sql injection. The name of the patch is 5291886f6c992316407c376145d331169c55f25b. It is recommended to apply a patch to fix this issue. The identifier VDB-218493 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2012-10006">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">32388114f3aff9f8b11cf6293d87e607</td>
-       <td>CVE-2011-10001</td>
-       <td>2023-01-18 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in iamdroppy phoenixcf. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file content/2-Community/articles.cfm. The manipulation leads to sql injection. The name of the patch is d156faf8bc36cd49c3b10d3697ef14167ad451d8. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218491.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2011-10001">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fcac155e53a37e901d58b36f3af598db</td>
-       <td>CVE-2023-0385</td>
-       <td>2023-01-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Custom 404 Pro plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 3.7.1. This is due to missing or incorrect nonce validation on the custom_404_pro_admin_init function. This makes it possible for unauthenticated attackers to delete logs, via forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0385">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f1d2d808f1198fc45f6cd2a146f25834</td>
-       <td>CVE-2022-47881</td>
-       <td>2023-01-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Foxit PDF Reader and PDF Editor 11.2.1.53537 and earlier has an Out-of-Bounds Read vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47881">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b166cfc957d1da0a6dc24d8a056813cf</td>
-       <td>CVE-2022-45103</td>
-       <td>2023-01-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Dell Unisphere for PowerMax vApp, VASA Provider vApp, and Solution Enabler vApp version 9.2.3.x contain an information disclosure vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to read arbitrary files on the underlying file system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45103">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bb54bafa3083599883bc5684eb3e317e</td>
-       <td>CVE-2017-20172</td>
-       <td>2023-01-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in ridhoq soundslike. It has been classified as critical. Affected is the function get_song_relations of the file app/api/songs.py. The manipulation leads to sql injection. The name of the patch is 90bb4fb667d9253d497b619b9adaac83bf0ce0f8. It is recommended to apply a patch to fix this issue. VDB-218490 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20172">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7bc9c68b7b1e72f0a41d93b0d53580da</td>
-       <td>CVE-2022-41417</td>
-       <td>2023-01-18 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>BlogEngine.NET v3.3.8.0 allows an attacker to create any folder with "files" prefix under ~/App_Data/.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41417">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a86ff9fc635948f7bf21f11c4cae5857</td>
-       <td>CVE-2021-33959</td>
-       <td>2023-01-18 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Plex media server 1.21 and before is vulnerable to ddos reflection attack via plex service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33959">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a784babe86828cdaa4a6f8884ad163ef</td>
-       <td>CVE-2021-36630</td>
-       <td>2023-01-18 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>DDOS reflection amplification vulnerability in eAut module of Ruckus Wireless SmartZone controller that allows remote attackers to perform DOS attacks via crafted request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-36630">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0f3585dd7872a1bb3aaa06e38275d1a7</td>
-       <td>CVE-2020-22007</td>
-       <td>2023-01-18 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>OS Command Injection vulnerability in OKER G955V1 v1.03.02.20161128, allows physical attackers to interrupt the boot sequence and execute arbitrary commands with root privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-22007">详情</a></td>
       </tr>
 
      </tbody>
@@ -908,7 +908,7 @@
       <tr>
        <td scope="row">c6e166770c1d30a17e4ba4ff7aa1b0f1</td>
        <td>CNVD-2023-01216</td>
-       <td>2023-01-17 16:45:32 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 16:45:32</td>
        <td>云南滇约出行科技有限公司滇约出行app存在逻辑缺陷漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-01216">详情</a></td>
       </tr>
@@ -916,7 +916,7 @@
       <tr>
        <td scope="row">c97700985903cc53bfda06de90f75035</td>
        <td>CNVD-2023-03557 (CVE-2022-46463)</td>
-       <td>2023-01-17 10:38:00 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 10:38:00</td>
        <td>VMware Harbor未授权访问漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03557">详情</a></td>
       </tr>
@@ -1454,7 +1454,7 @@
       <tr>
        <td scope="row">9a39b02fe6aef9e05f774d3bf81a78f8</td>
        <td>CVE-2023-22602</td>
-       <td>2023-01-17 09:11:26 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 09:11:26</td>
        <td>Apache Shiro身份认证绕过漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7972">详情</a></td>
       </tr>
@@ -1970,7 +1970,7 @@
       <tr>
        <td scope="row">826037017948027d4ff1ce3e53d1e50e</td>
        <td>CVE-2022-3417</td>
-       <td>2023-01-17 20:38:21 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 20:38:21</td>
        <td>BRAVENEWCODE WPTOUCH Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=18da7a06adb2489fa584d2bc16950d57">详情</a></td>
       </tr>
@@ -1978,7 +1978,7 @@
       <tr>
        <td scope="row">4fd904aa42a099c942ed3b9e93a1aa03</td>
        <td>CVE-2023-22909</td>
-       <td>2023-01-17 20:38:06 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 20:38:06</td>
        <td>MEDIAWIKI MEDIAWIKI Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8c4ea2c3f5114ccdaede14580b6321ac">详情</a></td>
       </tr>
@@ -1986,7 +1986,7 @@
       <tr>
        <td scope="row">ea5d001533db75c0b4c5ad4a1d5acefb</td>
        <td>CVE-2022-25715</td>
-       <td>2023-01-17 20:37:55 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 20:37:55</td>
        <td>QUALCOMM Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8ca6ba1bf5de4b3ba6335414fd7360f7">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">fdf86280ac34136447b4cfb9374c786f</td>
        <td>CVE-2022-25721</td>
-       <td>2023-01-17 20:37:38 <img src="imgs/new.gif" /></td>
+       <td>2023-01-17 20:37:38</td>
        <td>QUALCOMM Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=48b42d5530d9481eb7615ae2df600cd4">详情</a></td>
       </tr>
