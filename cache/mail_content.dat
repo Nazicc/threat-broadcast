@@ -1,29 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22741</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450732'>http://cve.scap.org.cn/vuln/VHN-450732</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0126</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450961'>http://cve.scap.org.cn/vuln/VHN-450961</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46887</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447578'>http://cve.scap.org.cn/vuln/VHN-447578</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46888</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447579'>http://cve.scap.org.cn/vuln/VHN-447579</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46889</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447580'>http://cve.scap.org.cn/vuln/VHN-447580</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46890</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447581'>http://cve.scap.org.cn/vuln/VHN-447581</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47766</font><br/>[<b>披露时间</b>] 2023-01-19 02:06:09<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449379'>http://cve.scap.org.cn/vuln/VHN-449379</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22745</font><br/>[<b>披露时间</b>] 2023-01-19 23:15:00<br/>[<b>漏洞描述</b>] tpm2-tss is an open source software implementation of the Trusted Computing Group (TCG) Trusted Platform Module (TPM) 2 Software Stack (TSS2). In affected versions `Tss2_RC_SetHandler` and `Tss2_RC_Decode` both index into `layer_handler` with an 8 bit layer number, but the array only has `TPM2_ERROR_TSS2_RC_LAYER_COUNT` entries, so trying to add a handler for higher-numbered layers or decode a response code with such a layer number reads/writes past the end of the buffer. This Buffer overrun, could result in arbitrary code execution. An example attack would be a MiTM bus attack that returns 0xFFFFFFFF for the RC. Given the common use case of TPM modules an attacker must have local access to the target machine with local system privileges which allows access to the TPM system. Usually TPM access requires administrative privilege.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22745'>https://www.tenable.com/cve/CVE-2023-22745</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46476</font><br/>[<b>披露时间</b>] 2023-01-19 23:15:00<br/>[<b>漏洞描述</b>] D-Link DIR-859 A1 1.05 was discovered to contain a command injection vulnerability via the service= variable in the soapcgi_main function.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-46476'>https://www.tenable.com/cve/CVE-2022-46476</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31901</font><br/>[<b>披露时间</b>] 2023-01-19 23:15:00<br/>[<b>漏洞描述</b>] Buffer overflow in function Notepad_plus::addHotSpot in Notepad++ v8.4.3 and earlier allows attackers to crash the application via two crafted files.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31901'>https://www.tenable.com/cve/CVE-2022-31901</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22741</font><br/>[<b>披露时间</b>] 2023-01-19 22:15:00<br/>[<b>漏洞描述</b>] Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. In affected versions Sofia-SIP **lacks both message length and attributes length checks** when it handles STUN packets, leading to controllable heap-over-flow. For example, in stun_parse_attribute(), after we get the attribute's type and length value, the length will be used directly to copy from the heap, regardless of the message's left size. Since network users control the overflowed length, and the data is written to heap chunks later, attackers may achieve remote code execution by heap grooming or other exploitation methods. The bug was introduced 16 years ago in sofia-sip 1.12.4 (plus some patches through 12/21/2006) to in tree libs with git-svn-id: http://svn.freeswitch.org/svn/freeswitch/trunk@3774 d0543943-73ff-0310-b7d9-9358b9ac24b2. Users are advised to upgrade. There are no known workarounds for this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22741'>https://www.tenable.com/cve/CVE-2023-22741</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-10692</font><br/>[<b>披露时间</b>] 2023-01-19 04:42:02<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE N...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-163196'>http://cve.scap.org.cn/vuln/VHN-163196</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-10694</font><br/>[<b>披露时间</b>] 2023-01-19 04:42:02<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE N...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-163198'>http://cve.scap.org.cn/vuln/VHN-163198</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-10764</font><br/>[<b>披露时间</b>] 2023-01-19 04:42:02<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE N...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-163275'>http://cve.scap.org.cn/vuln/VHN-163275</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
