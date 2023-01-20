@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-19 22:38:14 -->
+<!-- RELEASE TIME : 2023-01-20 02:06:21 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d9d61ab9a7bcf871a6b5c4fd92321b6d</td>
+       <td>CVE-2023-22745</td>
+       <td>2023-01-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>tpm2-tss is an open source software implementation of the Trusted Computing Group (TCG) Trusted Platform Module (TPM) 2 Software Stack (TSS2). In affected versions `Tss2_RC_SetHandler` and `Tss2_RC_Decode` both index into `layer_handler` with an 8 bit layer number, but the array only has `TPM2_ERROR_TSS2_RC_LAYER_COUNT` entries, so trying to add a handler for higher-numbered layers or decode a response code with such a layer number reads/writes past the end of the buffer. This Buffer overrun, could result in arbitrary code execution. An example attack would be a MiTM bus attack that returns 0xFFFFFFFF for the RC. Given the common use case of TPM modules an attacker must have local access to the target machine with local system privileges which allows access to the TPM system. Usually TPM access requires administrative privilege.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22745">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bd261db885cf92c38821ed5335abe43d</td>
+       <td>CVE-2022-46476</td>
+       <td>2023-01-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>D-Link DIR-859 A1 1.05 was discovered to contain a command injection vulnerability via the service= variable in the soapcgi_main function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46476">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f68fc8b16450228d73b75afc8b4d1808</td>
+       <td>CVE-2022-31901</td>
+       <td>2023-01-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Buffer overflow in function Notepad_plus::addHotSpot in Notepad++ v8.4.3 and earlier allows attackers to crash the application via two crafted files.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31901">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c50d718380c39982b6bc02ef49eafe6e</td>
+       <td>CVE-2023-22741</td>
+       <td>2023-01-19 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. In affected versions Sofia-SIP **lacks both message length and attributes length checks** when it handles STUN packets, leading to controllable heap-over-flow. For example, in stun_parse_attribute(), after we get the attribute's type and length value, the length will be used directly to copy from the heap, regardless of the message's left size. Since network users control the overflowed length, and the data is written to heap chunks later, attackers may achieve remote code execution by heap grooming or other exploitation methods. The bug was introduced 16 years ago in sofia-sip 1.12.4 (plus some patches through 12/21/2006) to in tree libs with git-svn-id: http://svn.freeswitch.org/svn/freeswitch/trunk@3774 d0543943-73ff-0310-b7d9-9358b9ac24b2. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22741">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1ac676bdebdc9c4a69983e163dce748e</td>
        <td>CVE-2023-0126</td>
        <td>2023-01-19 20:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-01-19 10:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability has been found in Anant Labs google-enterprise-connector-dctm up to 3.2.3 and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation of the argument username/domain leads to sql injection. The name of the patch is 6fba04f18ab7764002a1da308e7cd9712b501cb7. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218911.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2014-125083">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">17b2a1b31fc49a75c64998b2ed6ee92e</td>
-       <td>CVE-2013-10014</td>
-       <td>2023-01-19 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as critical has been found in oktora24 2moons. Affected is an unknown function. The manipulation leads to sql injection. The name of the patch is 1b09cf7672eb85b5b0c8a4de321f7a4ad87b09a7. It is recommended to apply a patch to fix this issue. VDB-218898 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2013-10014">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a032c30b1f968ec153305fd73ecf4d6c</td>
-       <td>CVE-2023-0398</td>
-       <td>2023-01-19 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) in GitHub repository modoboa/modoboa prior to 2.0.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0398">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e068bfbaa220074911e488ad8d0bf519</td>
-       <td>CVE-2022-4892</td>
-       <td>2023-01-19 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in MyCMS. It has been classified as problematic. This affects the function build_view of the file lib/gener/view.php of the component Visitors Module. The manipulation of the argument original/converted leads to cross site scripting. It is possible to initiate the attack remotely. The name of the patch is d64fcba4882a50e21cdbec3eb4a080cb694d26ee. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218895.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4892">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fd229d62daa18675473e08d1173f28ee</td>
-       <td>CVE-2017-20174</td>
-       <td>2023-01-19 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in bastianallgeier Kirby Webmentions Plugin and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to injection. The attack may be launched remotely. The name of the patch is 55bedea78ae9af916a9a41497bd9996417851502. It is recommended to apply a patch to fix this issue. VDB-218894 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20174">详情</a></td>
       </tr>
 
      </tbody>
@@ -741,66 +741,66 @@
       </tr>
 
       <tr>
-       <td scope="row">f8a5bcbdc1f05e2f7b474d0788745918</td>
-       <td>CVE-2022-45613</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
+       <td scope="row">d3d999723a04275c4f7db5099be74679</td>
+       <td>CVE-2023-22741</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443416">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450732">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">aec119710f00bf480f6d16624a64667a</td>
-       <td>CVE-2023-21601</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
+       <td scope="row">b1126f87c118583409adec69b69f66db</td>
+       <td>CVE-2023-0126</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447143">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450961">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">e6c8cc7d6b2a901f4c1a887049977f45</td>
-       <td>CVE-2023-21603</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
+       <td scope="row">2b072eb6ed2294f19b5669e4c5e490a9</td>
+       <td>CVE-2022-46887</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447147">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447578">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">18332f01c36857c320933c7bbc147f17</td>
-       <td>CVE-2022-47966</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
+       <td scope="row">2aae39dfb69ab86a87120a16488e4103</td>
+       <td>CVE-2022-46888</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449798">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447579">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">9ba083550d6a498bdd0abf9097a8a88d</td>
-       <td>CVE-2022-3100</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
-       <td>OpenStack barbican 安全漏洞
+       <td scope="row">120aef6bb8dcb8607f7c5e907ceb3522</td>
+       <td>CVE-2022-46889</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429036">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447580">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">c5749b8adc6c95a0a6c53e9a54040b3f</td>
-       <td>CVE-2022-47950</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
+       <td scope="row">48109df29fc4f61a31c1e5db5208a206</td>
+       <td>CVE-2022-46890</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449727">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447581">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">22c74e241c7a025e024912e0e1a56c93</td>
-       <td>CVE-2023-22809</td>
-       <td>2023-01-18 20:38:15 <img src="imgs/new.gif" /></td>
+       <td scope="row">e8bf9086565fd17870f58d9a221b7608</td>
+       <td>CVE-2022-47766</td>
+       <td>2023-01-19 02:06:09 <img src="imgs/new.gif" /></td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450800">详情</a></td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449379">详情</a></td>
       </tr>
 
      </tbody>
@@ -940,7 +940,7 @@
       <tr>
        <td scope="row">e5a3a21102d546fac4934bcb2cecc709</td>
        <td>CNVD-2023-03931 (CVE-2022-42891)</td>
-       <td>2023-01-18 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:38:07</td>
        <td>Siemens syngo Dynamics存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03931">详情</a></td>
       </tr>
@@ -948,7 +948,7 @@
       <tr>
        <td scope="row">16b0015afc0f279f8e739d8992458c85</td>
        <td>CNVD-2023-03930 (CVE-2022-42733)</td>
-       <td>2023-01-18 09:38:05 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:38:05</td>
        <td>Siemens syngo Dynamics存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03930">详情</a></td>
       </tr>
@@ -956,7 +956,7 @@
       <tr>
        <td scope="row">7846a1dc57dca2c9c669e367659f4d62</td>
        <td>CNVD-2023-03929 (CVE-2022-42734)</td>
-       <td>2023-01-18 09:38:02 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:38:02</td>
        <td>Siemens syngo Dynamics存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03929">详情</a></td>
       </tr>
@@ -964,7 +964,7 @@
       <tr>
        <td scope="row">50957742544d0ac14550b8d09186bbed</td>
        <td>CNVD-2023-03928 (CVE-2022-42732)</td>
-       <td>2023-01-18 09:38:00 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:38:00</td>
        <td>Siemens syngo Dynamics存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03928">详情</a></td>
       </tr>
@@ -972,7 +972,7 @@
       <tr>
        <td scope="row">a2f497e720a22d8cd852415a272f10dd</td>
        <td>CNVD-2023-03936 (CVE-2022-41910)</td>
-       <td>2023-01-18 09:37:58 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:37:58</td>
        <td>Google TensorFlow缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03936">详情</a></td>
       </tr>
@@ -980,7 +980,7 @@
       <tr>
        <td scope="row">d53194f0fb8c4ff442eb17b9a3a46be7</td>
        <td>CNVD-2023-03935 (CVE-2022-41902)</td>
-       <td>2023-01-18 09:37:55 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:37:55</td>
        <td>Google TensorFlow缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03935">详情</a></td>
       </tr>
@@ -988,7 +988,7 @@
       <tr>
        <td scope="row">10bbb30296441b66553dc5fb84f09b35</td>
        <td>CNVD-2023-03922 (CVE-2022-40743)</td>
-       <td>2023-01-18 09:37:53 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 09:37:53</td>
        <td>Apache Traffic Server跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03922">详情</a></td>
       </tr>
@@ -996,7 +996,7 @@
       <tr>
        <td scope="row">0997ed9525d9fe765920e92da0272158</td>
        <td>CNVD-2023-03921 (CVE-2022-29158)</td>
-       <td>2023-01-18 08:41:24 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 08:41:24</td>
        <td>Apache OFBiz存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03921">详情</a></td>
       </tr>
@@ -1004,7 +1004,7 @@
       <tr>
        <td scope="row">16689a8b3ff124d5c222ac05a0f590c3</td>
        <td>CNVD-2023-03920 (CVE-2022-29063)</td>
-       <td>2023-01-18 08:41:21 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 08:41:21</td>
        <td>Apache OFBiz代码问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03920">详情</a></td>
       </tr>
@@ -1012,7 +1012,7 @@
       <tr>
        <td scope="row">be6d62cb0b07ce9a2d588d34d756440f</td>
        <td>CNVD-2023-03919 (CVE-2022-25813)</td>
-       <td>2023-01-18 08:41:19 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 08:41:19</td>
        <td>Apache OFBiz代码注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03919">详情</a></td>
       </tr>
@@ -1020,7 +1020,7 @@
       <tr>
        <td scope="row">a8b2ff436050a116f59d101d3ed0b7f2</td>
        <td>CNVD-2023-03918 (CVE-2022-25371)</td>
-       <td>2023-01-18 08:41:17 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 08:41:17</td>
        <td>Apache OFBiz代码注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-03918">详情</a></td>
       </tr>
@@ -1446,7 +1446,7 @@
       <tr>
        <td scope="row">1f76b831fbb93a6673d9061457b4ca4e</td>
        <td>CVE-2023-21839</td>
-       <td>2023-01-18 13:58:48 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 13:58:48</td>
        <td>Weblogic远程代码执行漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7973">详情</a></td>
       </tr>
@@ -1938,7 +1938,7 @@
       <tr>
        <td scope="row">83e0bba345739ccbe9632bc7161f29c3</td>
        <td>CVE-2023-0132</td>
-       <td>2023-01-18 20:48:15 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 20:48:15</td>
        <td>GOOGLE CHROME Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=94e0fe3df6d04febaa02d2366f364258">详情</a></td>
       </tr>
@@ -1946,7 +1946,7 @@
       <tr>
        <td scope="row">ea34fd69ca9d3f3f2e7c88b04aa3f14a</td>
        <td>CVE-2022-43514</td>
-       <td>2023-01-18 20:47:52 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 20:47:52</td>
        <td>SIEMENS AUTOMATION_LICENSE_MANAGER Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=efb67e476eef427ab7aeefa1216d8b78">详情</a></td>
       </tr>
@@ -1954,7 +1954,7 @@
       <tr>
        <td scope="row">1ad459ad77bf2734a791660ca0e55745</td>
        <td>CVE-2023-0140</td>
-       <td>2023-01-18 20:47:45 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 20:47:45</td>
        <td>GOOGLE CHROME Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5d41ef8e0d3f4e4e96502fbe1580e2d7">详情</a></td>
       </tr>
@@ -1962,7 +1962,7 @@
       <tr>
        <td scope="row">62f4e2902adf4c45f8d69216db81bb05</td>
        <td>CVE-2022-4338</td>
-       <td>2023-01-18 20:47:32 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 20:47:32</td>
        <td>OPENVSWITCH OPENVSWITCH Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2d0f1a97facf401497a63053c3bf0023">详情</a></td>
       </tr>
@@ -1970,7 +1970,7 @@
       <tr>
        <td scope="row">a07c845d540178a402a1f645a46fa143</td>
        <td>CVE-2023-0135</td>
-       <td>2023-01-18 20:47:25 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 20:47:25</td>
        <td>GOOGLE CHROME Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=63e1da75c0c94ff48b755ea0c727e906">详情</a></td>
       </tr>
@@ -2692,7 +2692,7 @@
       <tr>
        <td scope="row">e4a37cce270f6022eeac9e202c862bba</td>
        <td>CVE-2023-21839</td>
-       <td>2023-01-18 02:59:26 <img src="imgs/new.gif" /></td>
+       <td>2023-01-18 02:59:26</td>
        <td>Oracle WebLogic 身份验证绕过漏洞（CVE-2023-21839）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2023-21839">详情</a></td>
