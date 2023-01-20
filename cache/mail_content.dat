@@ -1,15 +1,22 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22373</font><br/>[<b>披露时间</b>] 2023-01-20 03:15:00<br/>[<b>漏洞描述</b>] Cross-site scripting vulnerability in CONPROSYS HMI System (CHS) Ver.3.4.5 and earlier allows a remote authenticated attacker to inject an arbitrary script and obtain the sensitive information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22373'>https://www.tenable.com/cve/CVE-2023-22373</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22339</font><br/>[<b>披露时间</b>] 2023-01-20 03:15:00<br/>[<b>漏洞描述</b>] Improper access control vulnerability in CONPROSYS HMI System (CHS) Ver.3.4.5 and earlier allows a remote unauthenticated attacker to bypass access restriction and obtain the server certificate including the private key of the product.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22339'>https://www.tenable.com/cve/CVE-2023-22339</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22334</font><br/>[<b>披露时间</b>] 2023-01-20 03:15:00<br/>[<b>漏洞描述</b>] Use of password hash instead of password for authentication vulnerability in CONPROSYS HMI System (CHS) Ver.3.4.5 and earlier allows a remote authenticated attacker to obtain user credentials information via a man-in-the-middle attack.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22334'>https://www.tenable.com/cve/CVE-2023-22334</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22331</font><br/>[<b>披露时间</b>] 2023-01-20 03:15:00<br/>[<b>漏洞描述</b>] Use of default credentials vulnerability in CONPROSYS HMI System (CHS) Ver.3.4.5 and earlier allows a remote unauthenticated attacker to alter user credentials information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22331'>https://www.tenable.com/cve/CVE-2023-22331</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0410</font><br/>[<b>披露时间</b>] 2023-01-20 01:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Generic in GitHub repository builderio/qwik prior to 0.1.0-beta5.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0410'>https://www.tenable.com/cve/CVE-2023-0410</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-27782</font><br/>[<b>披露时间</b>] 2023-01-20 08:41:49<br/>[<b>漏洞描述</b>] HCL BigFix Mobile / Modern Client Management...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-387096'>http://cve.scap.org.cn/vuln/VHN-387096</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22331</font><br/>[<b>披露时间</b>] 2023-01-20 08:41:49<br/>[<b>漏洞描述</b>] Use of default credentials vulnerability in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449514'>http://cve.scap.org.cn/vuln/VHN-449514</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22334</font><br/>[<b>披露时间</b>] 2023-01-20 08:41:49<br/>[<b>漏洞描述</b>] Use of password hash instead of password for......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449515'>http://cve.scap.org.cn/vuln/VHN-449515</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22339</font><br/>[<b>披露时间</b>] 2023-01-20 08:41:49<br/>[<b>漏洞描述</b>] Improper access control vulnerability in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449516'>http://cve.scap.org.cn/vuln/VHN-449516</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22373</font><br/>[<b>披露时间</b>] 2023-01-20 08:41:49<br/>[<b>漏洞描述</b>] Cross-site scripting vulnerability in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449517'>http://cve.scap.org.cn/vuln/VHN-449517</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0410</font><br/>[<b>披露时间</b>] 2023-01-20 08:41:49<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Generic in GitHub...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452431'>http://cve.scap.org.cn/vuln/VHN-452431</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
