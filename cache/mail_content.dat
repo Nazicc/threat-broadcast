@@ -1,11 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22742</font><br/>[<b>披露时间</b>] 2023-01-20 23:15:00<br/>[<b>漏洞描述</b>] libgit2 is a cross-platform, linkable library implementation of Git. When using an SSH remote with the optional libssh2 backend, libgit2 does not perform certificate checking by default. Prior versions of libgit2 require the caller to set the `certificate_check` field of libgit2's `git_remote_callbacks` structure - if a certificate check callback is not set, libgit2 does not perform any certificate checking. This means that by default - without configuring a certificate check callback, clients will not perform validation on the server SSH keys and may be subject to a man-in-the-middle attack. Users are encouraged to upgrade to v1.4.5 or v1.5.1. Users unable to upgrade should ensure that all relevant certificates are manually checked.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22742'>https://www.tenable.com/cve/CVE-2023-22742</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-25502</font><br/>[<b>披露时间</b>] 2023-01-20 04:41:01<br/>[<b>漏洞描述</b>] Cybereason EDR version 19.1.282 and above,...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-179487'>http://cve.scap.org.cn/vuln/VHN-179487</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
