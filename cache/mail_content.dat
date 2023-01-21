@@ -1,15 +1,20 @@
 
 <h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24042</font><br/>[<b>披露时间</b>] 2023-01-21 02:15:00<br/>[<b>漏洞描述</b>] A race condition in LightFTP through 2.2 allows an attacker to achieve path traversal via a malformed FTP request. A handler thread can use an overwritten context->FileName.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24042'>https://www.tenable.com/cve/CVE-2023-24042</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24040</font><br/>[<b>披露时间</b>] 2023-01-21 02:15:00<br/>[<b>漏洞描述</b>] ** UNSUPPORTED WHEN ASSIGNED ** dtprintinfo in Common Desktop Environment 1.6 has a bug in the parser of lpstat (an invoked external command) during listing of the names of available printers. This allows low-privileged local users to inject arbitrary printer names via the $HOME/.printers file. This injection allows those users to manipulate the control flow and disclose memory contents on Solaris 10 systems. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24040'>https://www.tenable.com/cve/CVE-2023-24040</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24039</font><br/>[<b>披露时间</b>] 2023-01-21 02:15:00<br/>[<b>漏洞描述</b>] ** UNSUPPORTED WHEN ASSIGNED ** A stack-based buffer overflow in ParseColors in libXm in Common Desktop Environment 1.6 can be exploited by local low-privileged users via the dtprintinfo setuid binary to escalate their privileges to root on Solaris 10 systems. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24039'>https://www.tenable.com/cve/CVE-2023-24039</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24038</font><br/>[<b>披露时间</b>] 2023-01-21 01:15:00<br/>[<b>漏洞描述</b>] The HTML-StripScripts module through 1.06 for Perl allows _hss_attval_style ReDoS because of catastrophic backtracking for HTML content with certain style attributes.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24038'>https://www.tenable.com/cve/CVE-2023-24038</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36655</font><br/>[<b>披露时间</b>] 2023-01-21 01:15:00<br/>[<b>漏洞描述</b>] Yii Yii2 Gii before 2.2.2 allows remote attackers to execute arbitrary code via the Generator.php messageCategory field. The attacker can embed arbitrary PHP code into the model file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-36655'>https://www.tenable.com/cve/CVE-2020-36655</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24039</font><br/>[<b>披露时间</b>] 2023-01-21 08:39:41<br/>[<b>漏洞描述</b>] ** UNSUPPORTED WHEN ASSIGNED ** A stack-based...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452632'>http://cve.scap.org.cn/vuln/VHN-452632</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24040</font><br/>[<b>披露时间</b>] 2023-01-21 08:39:41<br/>[<b>漏洞描述</b>] ** UNSUPPORTED WHEN ASSIGNED ** dtprintinfo in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452633'>http://cve.scap.org.cn/vuln/VHN-452633</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24042</font><br/>[<b>披露时间</b>] 2023-01-21 08:39:41<br/>[<b>漏洞描述</b>] A race condition in LightFTP through 2.2 allows......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452635'>http://cve.scap.org.cn/vuln/VHN-452635</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36655</font><br/>[<b>披露时间</b>] 2023-01-21 08:39:41<br/>[<b>漏洞描述</b>] Yii Yii2 Gii before 2.2.2 allows remote attackers......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452542'>http://cve.scap.org.cn/vuln/VHN-452542</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24038</font><br/>[<b>披露时间</b>] 2023-01-21 08:39:41<br/>[<b>漏洞描述</b>] The HTML-StripScripts module through 1.06 for...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452631'>http://cve.scap.org.cn/vuln/VHN-452631</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
