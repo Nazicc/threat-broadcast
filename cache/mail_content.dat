@@ -1,24 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24055</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:43<br/>[<b>漏洞描述</b>] ** DISPUTED ** KeePass through 2.53 (in a......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452650'>http://cve.scap.org.cn/vuln/VHN-452650</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24056</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:43<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452651'>http://cve.scap.org.cn/vuln/VHN-452651</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24044</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:43<br/>[<b>漏洞描述</b>] A Host Header Injection issue on the Login......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452637'>http://cve.scap.org.cn/vuln/VHN-452637</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0434</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:43<br/>[<b>漏洞描述</b>] Improper Input Validation in GitHub repository...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452648'>http://cve.scap.org.cn/vuln/VHN-452648</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22617</font><br/>[<b>披露时间</b>] 2023-01-21 09:37:43<br/>[<b>漏洞描述</b>] A remote attacker might be able to cause......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450506'>http://cve.scap.org.cn/vuln/VHN-450506</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0433</font><br/>[<b>披露时间</b>] 2023-01-21 09:37:43<br/>[<b>漏洞描述</b>] Heap-based Buffer Overflow in GitHub...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452647'>http://cve.scap.org.cn/vuln/VHN-452647</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22884</font><br/>[<b>披露时间</b>] 2023-01-21 09:37:43<br/>[<b>漏洞描述</b>] Improper Neutralization of Special Elements...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450991'>http://cve.scap.org.cn/vuln/VHN-450991</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4428</font><br/>[<b>披露时间</b>] 2023-01-11 17:15:09 <br/>[<b>漏洞描述</b>] support_uri parameter in the WARP client local settings file (mdm.xml) lacked proper validation which allowed for privilege escalation and launching an arbitrary executable on the local machine upon clicking on the &quot;Send feedback&quot; option. An attacker with access to the local file system could use a crafted XML config file pointing to a malicious file or set a local path to the executable using Cloudflare Zero Trust Dashboard (for Zero Trust enrolled clients).<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4428'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4428</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4415</font><br/>[<b>披露时间</b>] 2023-01-11 15:15:09 <br/>[<b>漏洞描述</b>] A vulnerability was found in systemd. This security flaw can cause a local information leak due to systemd-coredump not respecting the fs.suid_dumpable kernel setting.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4415'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4415</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24059</font><br/>[<b>披露时间</b>] 2023-01-22 12:54:06<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452652'>http://cve.scap.org.cn/vuln/VHN-452652</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24058</font><br/>[<b>披露时间</b>] 2023-01-22 12:54:06<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452653'>http://cve.scap.org.cn/vuln/VHN-452653</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24059</font><br/>[<b>披露时间</b>] 2023-01-22 07:15:00<br/>[<b>漏洞描述</b>] Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24059'>https://www.tenable.com/cve/CVE-2023-24059</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24058</font><br/>[<b>披露时间</b>] 2023-01-22 06:15:00<br/>[<b>漏洞描述</b>] Booked Scheduler 2.5.5 allows authenticated users to create and schedule events for any other user via a modified userId value to reservation_save.php. NOTE: 2.5.5 is a version from 2014.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24058'>https://www.tenable.com/cve/CVE-2023-24058</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
