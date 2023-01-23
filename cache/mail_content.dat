@@ -1,23 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-02755</font><br/>[<b>披露时间</b>] 2023-01-24 16:46:31<br/>[<b>漏洞描述</b>] 用友GRP-U8存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-02755'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-02755</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0440</font><br/>[<b>披露时间</b>] 2023-01-23 16:47:02<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452669'>http://cve.scap.org.cn/vuln/VHN-452669</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0438</font><br/>[<b>披露时间</b>] 2023-01-23 16:47:02<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452670'>http://cve.scap.org.cn/vuln/VHN-452670</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31631</font><br/>[<b>披露时间</b>] 2023-01-23 16:47:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423435'>http://cve.scap.org.cn/vuln/VHN-423435</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23597</font><br/>[<b>披露时间</b>] 2023-01-23 16:47:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452036'>http://cve.scap.org.cn/vuln/VHN-452036</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0440</font><br/>[<b>披露时间</b>] 2023-01-23 14:15:00<br/>[<b>漏洞描述</b>] Exposure of Sensitive Information to an Unauthorized Actor in GitHub repository healthchecks/healthchecks prior to v2.6.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0440'>https://www.tenable.com/cve/CVE-2023-0440</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0438</font><br/>[<b>披露时间</b>] 2023-01-23 14:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) in GitHub repository modoboa/modoboa prior to 2.0.4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0438'>https://www.tenable.com/cve/CVE-2023-0438</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23457</font><br/>[<b>披露时间</b>] 2023-01-12 19:15:24 <br/>[<b>漏洞描述</b>] A Segmentation fault was found in UPX in PackLinuxElf64::invert_pt_dynamic() in p_lx_elf.cpp. An attacker with a crafted input file allows invalid memory address access that could lead to a denial of service.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23457'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23457</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23456</font><br/>[<b>披露时间</b>] 2023-01-12 19:15:24 <br/>[<b>漏洞描述</b>] A heap-based buffer overflow issue was discovered in UPX in PackTmt::pack() in p_tmt.cpp file. The flow allows an attacker to cause a denial of service (abort) via a crafted file.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23456'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23456</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22958</font><br/>[<b>披露时间</b>] 2023-01-11 03:15:10 <br/>[<b>漏洞描述</b>] The Syracom Secure Login plugin before 3.1.1.0 for Jira may allow spoofing of 2FA PIN validation via the plugins/servlet/twofactor/public/pinvalidation target parameter.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22958'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22958</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22947</font><br/>[<b>披露时间</b>] 2023-01-11 02:15:11 <br/>[<b>漏洞描述</b>] ** DISPUTED ** Insecure folder permissions in the Windows installation path of Shibboleth Service Provider (SP) before 3.4.1 allow an unprivileged local attacker to escalate privileges to SYSTEM via DLL planting in the service executable's folder. This occurs because the installation goes under C:\opt (rather than C:\Program Files) by default. NOTE: the vendor disputes the significance of this report, stating that &quot;We consider the ACLs a best effort thing&quot; and &quot;it was a documentation mistake.&quot;<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22947'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22947</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
