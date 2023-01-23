@@ -1,14 +1,26 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">8</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24070</font><br/>[<b>披露时间</b>] 2023-01-23 05:15:00<br/>[<b>漏洞描述</b>] app/View/AuthKeys/authkey_display.ctp in MISP through 2.4.167 has an XSS in authkey add via a Referer field.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24070'>https://www.tenable.com/cve/CVE-2023-24070</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23314</font><br/>[<b>披露时间</b>] 2023-01-23 05:15:00<br/>[<b>漏洞描述</b>] An arbitrary file upload vulnerability in the /api/upload component of zdir v3.2.0 allows attackers to execute arbitrary code via a crafted .ssh file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23314'>https://www.tenable.com/cve/CVE-2023-23314</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46959</font><br/>[<b>披露时间</b>] 2023-01-23 05:15:00<br/>[<b>漏洞描述</b>] An issue in the component /admin/backups/work-dir of Sonic v1.0.4 allows attackers to execute a directory traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-46959'>https://www.tenable.com/cve/CVE-2022-46959</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48281</font><br/>[<b>披露时间</b>] 2023-01-23 03:15:00<br/>[<b>漏洞描述</b>] processCropSelections in tools/tiffcrop.c in LibTIFF through 4.5.0 has a heap-based buffer overflow (e.g., "WRITE of size 307203") via a crafted TIFF image.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-48281'>https://www.tenable.com/cve/CVE-2022-48281</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46959</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447677'>http://cve.scap.org.cn/vuln/VHN-447677</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23314</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451571'>http://cve.scap.org.cn/vuln/VHN-451571</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24070</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452668'>http://cve.scap.org.cn/vuln/VHN-452668</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48281</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] processCropSelections in tools/tiffcrop.c in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452656'>http://cve.scap.org.cn/vuln/VHN-452656</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0435</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] Excessive Attack Surface in GitHub repository...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452654'>http://cve.scap.org.cn/vuln/VHN-452654</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24059</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] Grand Theft Auto V for PC allows attackers......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452652'>http://cve.scap.org.cn/vuln/VHN-452652</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24058</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] Booked Scheduler 2.5.5 allows authenticated...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452653'>http://cve.scap.org.cn/vuln/VHN-452653</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24056</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] In pkgconf through 1.9.3, variable duplication...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452651'>http://cve.scap.org.cn/vuln/VHN-452651</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
