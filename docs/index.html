@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-23 18:41:02 -->
+<!-- RELEASE TIME : 2023-01-23 19:38:00 -->
 <html lang="zh-cn">
 
  <head>
@@ -2556,6 +2556,14 @@
       </tr>
 
       <tr>
+       <td scope="row">1ae74d6d26803d37f4f6fbf3ff890078</td>
+       <td>CVE-2023-22402</td>
+       <td>2023-01-13 00:15:10 </td>
+       <td>A Use After Free vulnerability in the kernel of Juniper Networks Junos OS Evolved allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS). In a Non Stop Routing (NSR) scenario, an unexpected kernel restart might be observed if &quot;bgp auto-discovery&quot; is enabled and if there is a BGP neighbor flap of auto-discovery sessions for any reason. This is a race condition which is outside of an attackers direct control and it depends on system internal timing whether this issue occurs. This issue affects Juniper Networks Junos OS Evolved: 21.3 versions prior to 21.3R3-EVO; 21.4 versions prior to 21.4R2-EVO; 22.1 versions prior to 22.1R2-EVO; 22.2 versions prior to 22.2R1-S1-EVO, 22.2R2-EVO.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22402">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e22178ffb93ea3cb130d503e31180ec9</td>
        <td>CVE-2022-46623</td>
        <td>2023-01-12 22:15:09 </td>
@@ -2665,14 +2673,6 @@
        <td>2023-01-12 07:15:08 </td>
        <td>cbq_classify in net/sched/sch_cbq.c in the Linux kernel through 6.1.4 allows attackers to cause a denial of service (slab-out-of-bounds read) because of type confusion (non-negative numbers can sometimes indicate a TC_ACT_SHOT condition rather than valid classification results).</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23454">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e057c074c11347bc1ef8e58a154479f6</td>
-       <td>CVE-2022-3870</td>
-       <td>2023-01-12 04:15:08 </td>
-       <td>An issue has been discovered in GitLab CE/EE affecting all versions starting from 10.0 before 15.5.7, all versions starting from 15.6 before 15.6.4, all versions starting from 15.7 before 15.7.2. GitLab allows unauthenticated users to download user avatars using the victim's user ID, on private instances that restrict public level visibility.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3870">详情</a></td>
       </tr>
 
      </tbody>
