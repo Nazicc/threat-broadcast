@@ -1,26 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">8</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46959</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447677'>http://cve.scap.org.cn/vuln/VHN-447677</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23314</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451571'>http://cve.scap.org.cn/vuln/VHN-451571</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24070</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452668'>http://cve.scap.org.cn/vuln/VHN-452668</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48281</font><br/>[<b>披露时间</b>] 2023-01-23 09:37:47<br/>[<b>漏洞描述</b>] processCropSelections in tools/tiffcrop.c in...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452656'>http://cve.scap.org.cn/vuln/VHN-452656</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0435</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] Excessive Attack Surface in GitHub repository...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452654'>http://cve.scap.org.cn/vuln/VHN-452654</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24059</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] Grand Theft Auto V for PC allows attackers......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452652'>http://cve.scap.org.cn/vuln/VHN-452652</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24058</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] Booked Scheduler 2.5.5 allows authenticated...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452653'>http://cve.scap.org.cn/vuln/VHN-452653</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24056</font><br/>[<b>披露时间</b>] 2023-01-22 09:37:47<br/>[<b>漏洞描述</b>] In pkgconf through 1.9.3, variable duplication...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452651'>http://cve.scap.org.cn/vuln/VHN-452651</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24068</font><br/>[<b>披露时间</b>] 2023-01-23 12:59:01<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452666'>http://cve.scap.org.cn/vuln/VHN-452666</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24069</font><br/>[<b>披露时间</b>] 2023-01-23 12:59:01<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452667'>http://cve.scap.org.cn/vuln/VHN-452667</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24069</font><br/>[<b>披露时间</b>] 2023-01-23 07:15:00<br/>[<b>漏洞描述</b>] Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively cleared. In some cases, even after a self-initiated file deletion, an attacker can still recover the file if it was previously replied to in a conversation. (Local filesystem access is needed by the attacker.)<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24069'>https://www.tenable.com/cve/CVE-2023-24069</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24068</font><br/>[<b>披露时间</b>] 2023-01-23 07:15:00<br/>[<b>漏洞描述</b>] Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate modifications of existing cached files, resulting in an attacker's ability to insert malicious code into pre-existing attachments or replace them completely. A threat actor can forward the existing attachment in the corresponding conversation to external groups, and the name and size of the file will not change, allowing the malware to masquerade as another file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24068'>https://www.tenable.com/cve/CVE-2023-24068</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-23 09:37:57 -->
+<!-- RELEASE TIME : 2023-01-23 12:59:14 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">3f85ef8e149fa1111f47dacd0495efcc</td>
+       <td>CVE-2023-24069</td>
+       <td>2023-01-23 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively cleared. In some cases, even after a self-initiated file deletion, an attacker can still recover the file if it was previously replied to in a conversation. (Local filesystem access is needed by the attacker.)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24069">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">41ec54f1e857809beda3b7311552f0ea</td>
+       <td>CVE-2023-24068</td>
+       <td>2023-01-23 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate modifications of existing cached files, resulting in an attacker's ability to insert malicious code into pre-existing attachments or replace them completely. A threat actor can forward the existing attachment in the corresponding conversation to external groups, and the name and size of the file will not change, allowing the malware to masquerade as another file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24068">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f44e21997afd4fb060e282ca04e6bf19</td>
        <td>CVE-2023-24070</td>
        <td>2023-01-23 05:15:00 <img src="imgs/new.gif" /></td>
@@ -503,22 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23607">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">2c63744586881dab851fee1c68016957</td>
-       <td>CVE-2021-33642</td>
-       <td>2023-01-20 21:15:00</td>
-       <td>When a file is processed, an infinite loop occurs in next_inline() of the more_curly() function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33642">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2ad3ae467178586631afbe13ab3781dc</td>
-       <td>CVE-2021-33641</td>
-       <td>2023-01-20 21:15:00</td>
-       <td>When processing files, malloc stores the data of the current line. When processing comments, malloc incorrectly accesses the released memory (use after free).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33641">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,24 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">2f82648539bb09ba97d725a584be1c6c</td>
+       <td>CVE-2023-24068</td>
+       <td>2023-01-23 12:59:01 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-452666">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7919f1ec54fe5df4a47af6ad6adb6db8</td>
+       <td>CVE-2023-24069</td>
+       <td>2023-01-23 12:59:01 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-452667">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">916e129cb2497a8bdf21a812dab0ec7e</td>
        <td>CVE-2022-46959</td>
@@ -783,24 +801,6 @@
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-433954">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9823c46c5d421f3b7fd5b65a7543a6ef</td>
-       <td>CVE-2023-22910</td>
-       <td>2023-01-20 20:38:04</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-451071">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d04e4091aa981fc229263c28ff6f24a</td>
-       <td>CVE-2023-22912</td>
-       <td>2023-01-20 20:38:04</td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-451072">详情</a></td>
       </tr>
 
      </tbody>
