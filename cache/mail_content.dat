@@ -1,28 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">9</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45639</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] OS Command injection vulnerability in...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-443446'>http://cve.scap.org.cn/vuln/VHN-443446</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22485</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] cmark-gfm is GitHub's fork of cmark, a CommonMark......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450241'>http://cve.scap.org.cn/vuln/VHN-450241</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23331</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] Amano Xoffice parking solutions 7.1.3879 is...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-451588'>http://cve.scap.org.cn/vuln/VHN-451588</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21719</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Security...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448239'>http://cve.scap.org.cn/vuln/VHN-448239</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21775</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Remote Code...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448561'>http://cve.scap.org.cn/vuln/VHN-448561</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21795</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Elevation of...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448581'>http://cve.scap.org.cn/vuln/VHN-448581</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21796</font><br/>[<b>披露时间</b>] 2023-01-24 09:38:02<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Elevation of...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448582'>http://cve.scap.org.cn/vuln/VHN-448582</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22483</font><br/>[<b>披露时间</b>] 2023-01-23 09:38:02<br/>[<b>漏洞描述</b>] cmark-gfm is GitHub's fork of cmark, a CommonMark......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450239'>http://cve.scap.org.cn/vuln/VHN-450239</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22484</font><br/>[<b>披露时间</b>] 2023-01-23 09:38:02<br/>[<b>漏洞描述</b>] cmark-gfm is GitHub's fork of cmark, a CommonMark......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450240'>http://cve.scap.org.cn/vuln/VHN-450240</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4554</font><br/>[<b>披露时间</b>] 2023-01-24 12:58:15<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-448483'>http://cve.scap.org.cn/vuln/VHN-448483</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4554</font><br/>[<b>披露时间</b>] 2023-01-24 09:15:00<br/>[<b>漏洞描述</b>] B2B Customer Ordering System developed by ID Software Project and Consultancy Services before version 1.0.0.347 has an authenticated Reflected XSS vulnerability. This has been fixed in the version 1.0.0.347.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4554'>https://www.tenable.com/cve/CVE-2022-4554</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
