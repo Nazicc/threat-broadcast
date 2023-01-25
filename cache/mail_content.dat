@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23637</font><br/>[<b>披露时间</b>] 2023-01-17 21:15:17 <br/>[<b>漏洞描述</b>] IMPatienT before 1.5.2 allows stored XSS via onmouseover in certain text fields within a PATCH /modify_onto request to the ontology builder. This may allow attackers to steal Protected Health Information.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23637'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23637</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23590</font><br/>[<b>披露时间</b>] 2023-01-15 05:15:09 <br/>[<b>漏洞描述</b>] Mercedes-Benz XENTRY Retail Data Storage 7.8.1 allows remote attackers to cause a denial of service (device restart) via an unauthenticated API request. The attacker must be on the same network as the device.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23590'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23590</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23589</font><br/>[<b>披露时间</b>] 2023-01-14 01:15:15 <br/>[<b>漏洞描述</b>] The SafeSocks option in Tor before 0.4.7.13 has a logic error in which the unsafe SOCKS4 protocol can be used but not the safe SOCKS4a protocol, aka TROVE-2022-002.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23589'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23589</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0396</font><br/>[<b>披露时间</b>] 2023-01-25 02:02:00<br/>[<b>漏洞描述</b>] A malicious / defective bluetooth controller can cause buffer overreads in the most functions that process HCI command responses.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0396'>https://www.tenable.com/cve/CVE-2023-0396</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3806</font><br/>[<b>披露时间</b>] 2023-01-25 02:01:00<br/>[<b>漏洞描述</b>] Inconsistent handling of error cases in bluetooth hci may lead to a double free condition of a network buffer.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3806'>https://www.tenable.com/cve/CVE-2022-3806</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
