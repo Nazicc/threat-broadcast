@@ -1,17 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04622 (CVE-2022-0230)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:31<br/>[<b>漏洞描述</b>] WordPress Better WordPress Google XML Sitemaps plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04622'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04622</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04623 (CVE-2022-0161)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:33<br/>[<b>漏洞描述</b>] WordPress ARI Fancy Lightbox plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04623'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04623</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04624 (CVE-2022-0399)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:35<br/>[<b>漏洞描述</b>] WordPress Advanced Product Labels for WooCommerce plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04624'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04624</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04625 (CVE-2021-33851)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:37<br/>[<b>漏洞描述</b>] WordPress Customize Login Image Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04625'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04625</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04626 (CVE-2021-25093)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:40<br/>[<b>漏洞描述</b>] WordPress Link Library plugin任意链接删除漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04626'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04626</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04627 (CVE-2021-25039)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:42<br/>[<b>漏洞描述</b>] WordPress Multisite Content Copier/Updater  plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04627'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04627</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-04628 (CVE-2021-25038)</font><br/>[<b>披露时间</b>] 2023-01-28 08:39:44<br/>[<b>漏洞描述</b>] WordPress Multisite Content Copier/Updater plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-04628'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-04628</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23628</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Metabase is an open source data analytics...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452067'>http://cve.scap.org.cn/vuln/VHN-452067</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23629</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Metabase is an open source data analytics...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452068'>http://cve.scap.org.cn/vuln/VHN-452068</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22737</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] wire-server provides back end services for...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450728'>http://cve.scap.org.cn/vuln/VHN-450728</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23616</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Discourse is an open-source discussion...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452055'>http://cve.scap.org.cn/vuln/VHN-452055</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23617</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] OpenMage LTS is an e-commerce platform....
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452056'>http://cve.scap.org.cn/vuln/VHN-452056</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23620</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Discourse is an open-source discussion...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452059'>http://cve.scap.org.cn/vuln/VHN-452059</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23621</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Discourse is an open-source discussion...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452060'>http://cve.scap.org.cn/vuln/VHN-452060</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23624</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Discourse is an open-source discussion...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452063'>http://cve.scap.org.cn/vuln/VHN-452063</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23627</font><br/>[<b>披露时间</b>] 2023-01-28 09:37:43<br/>[<b>漏洞描述</b>] Sanitize is an allowlist-based HTML and CSS...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452066'>http://cve.scap.org.cn/vuln/VHN-452066</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-23552</font><br/>[<b>披露时间</b>] 2023-01-27 09:37:43<br/>[<b>漏洞描述</b>] Grafana is an open-source platform for...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-412726'>http://cve.scap.org.cn/vuln/VHN-412726</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
