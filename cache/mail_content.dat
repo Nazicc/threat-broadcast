@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05034 (CVE-2022-0147)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:07<br/>[<b>漏洞描述</b>] WordPress Cookie Information | Free GDPR Consent Solution plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05034'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05034</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05035 (CVE-2022-0248)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:09<br/>[<b>漏洞描述</b>] WordPress Contact Form Submissions plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05035'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05035</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05036 (CVE-2022-0658)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:12<br/>[<b>漏洞描述</b>] WordPress CommonsBooking plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05036'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05036</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05037 (CVE-2021-24982)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:14<br/>[<b>漏洞描述</b>] WordPress Child Theme Generator plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05037'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05037</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05038 (CVE-2021-24952)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:16<br/>[<b>漏洞描述</b>] WordPress Conversios.io plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05038'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05038</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05039 (CVE-2021-24824)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:18<br/>[<b>漏洞描述</b>] WordPress Custom Content Shortcode plugin未授权访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05039'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05039</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05040 (CVE-2022-0193)</font><br/>[<b>披露时间</b>] 2023-01-29 07:37:21<br/>[<b>漏洞描述</b>] WordPress Complianz plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05040'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05040</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31704</font><br/>[<b>披露时间</b>] 2023-01-29 16:23:07<br/>[<b>漏洞描述</b>] VMware vRealize Log Insight 访问控制不当漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7974'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7974</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
