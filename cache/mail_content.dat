@@ -1,14 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0572</font><br/>[<b>披露时间</b>] 2023-01-29 04:40:56<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453364'>http://cve.scap.org.cn/vuln/VHN-453364</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46873</font><br/>[<b>披露时间</b>] 2023-01-29 04:40:56<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453365'>http://cve.scap.org.cn/vuln/VHN-453365</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05217 (CVE-2022-45438)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:17<br/>[<b>漏洞描述</b>] Apache Superset访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05217'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05217</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05218 (CVE-2022-43719)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:19<br/>[<b>漏洞描述</b>] Apache Superset跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05218'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05218</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05219 (CVE-2022-43718)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:22<br/>[<b>漏洞描述</b>] Apache Superset跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05219'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05219</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05220 (CVE-2022-43717)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:24<br/>[<b>漏洞描述</b>] Apache Superset跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05220'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05220</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05221 (CVE-2022-45787)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:26<br/>[<b>漏洞描述</b>] Apache James授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05221'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05221</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05222 (CVE-2022-45935)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:29<br/>[<b>漏洞描述</b>] Apache James信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05222'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05222</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-05223 (CVE-2022-45875)</font><br/>[<b>披露时间</b>] 2023-01-30 05:37:31<br/>[<b>漏洞描述</b>] Apache DolphinScheduler输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-05223'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-05223</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
