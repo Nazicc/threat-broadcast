@@ -1,12 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23924</font><br/>[<b>披露时间</b>] 2023-02-01 03:38:07<br/>[<b>漏洞描述</b>] Dompdf SVG URI 代码执行漏洞（CVE-2023-23924）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-23924'>https://avd.aliyun.com/detail?id=AVD-2023-23924</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25012</font><br/>[<b>披露时间</b>] 2023-02-02 04:41:42<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453828'>http://cve.scap.org.cn/vuln/VHN-453828</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37034</font><br/>[<b>披露时间</b>] 2023-02-01 04:41:42<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-432970'>http://cve.scap.org.cn/vuln/VHN-432970</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0599</font><br/>[<b>披露时间</b>] 2023-02-01 04:41:42<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453654'>http://cve.scap.org.cn/vuln/VHN-453654</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
