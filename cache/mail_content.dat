@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06423</font><br/>[<b>披露时间</b>] 2023-02-06 16:43:23<br/>[<b>漏洞描述</b>] 浙江大华技术股份有限公司车载监控平台存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06423'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06423</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2017-20175</font><br/>[<b>披露时间</b>] 2023-02-05 20:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic has been found in DaSchTour matomo-mediawiki-extension up to 2.4.2. This affects an unknown part of the file Piwik.hooks.php of the component Username Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.4.3 is able to address this issue. The name of the patch is 681324e4f518a8af4bd1f93867074c728eb9923d. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220203.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2017-20175'>https://www.tenable.com/cve/CVE-2017-20175</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
