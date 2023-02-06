@@ -1,13 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25136</font><br/>[<b>披露时间</b>] 2023-02-06 16:38:42<br/>[<b>漏洞描述</b>] OpenSSH 双重释放漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7990'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7990</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22501</font><br/>[<b>披露时间</b>] 2023-02-06 08:39:15<br/>[<b>漏洞描述</b>] CVE-2023-22501：Jira Service Management Server/Data Center 身份验证漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=c214a8b1304cadf5b0bc47f6a08e51c1'>https://cert.360.cn/warning/detail?id=c214a8b1304cadf5b0bc47f6a08e51c1</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06534 (CVE-2022-0634)</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:32<br/>[<b>漏洞描述</b>] WordPress plugin ThirstyAffiliates Affiliate Link Manager 授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06534'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06534</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06535 (CVE-2022-0693)</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:34<br/>[<b>漏洞描述</b>] WordPress plugin Master Elements SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06535'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06535</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06536 (CVE-2021-24953)</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:36<br/>[<b>漏洞描述</b>] WordPress Advanced iFrame plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06536'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06536</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06537 (CVE-2021-24825)</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:39<br/>[<b>漏洞描述</b>] WordPress plugin Custom Content Shortcode访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06537'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06537</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06538 (CVE-2020-36510)</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:41<br/>[<b>漏洞描述</b>] WordPress 15Zine跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06538'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06538</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-06539 (CVE-2021-25081)</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:43<br/>[<b>漏洞描述</b>] WordPress Google Maps plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-06539'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-06539</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25853</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:57<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416648'>http://cve.scap.org.cn/vuln/VHN-416648</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25855</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:57<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-416650'>http://cve.scap.org.cn/vuln/VHN-416650</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2014-125086</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:57<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454110'>http://cve.scap.org.cn/vuln/VHN-454110</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2017-20176</font><br/>[<b>披露时间</b>] 2023-02-06 09:37:57<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454112'>http://cve.scap.org.cn/vuln/VHN-454112</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
