@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-07 04:41:34 -->
+<!-- RELEASE TIME : 2023-02-07 07:37:55 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8beff655de1e84a1bed33f42ceed337a</td>
+       <td>CVE-2022-42291</td>
+       <td>2023-02-07 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>NVIDIA GeForce Experience contains a vulnerability in the installer, where a user installing the NVIDIA GeForce Experience software may inadvertently delete data from a linked location, which may lead to data tampering. An attacker does not have explicit control over the exploitation of this vulnerability, which requires the user to explicitly launch the installer from the compromised directory.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42291">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eabacfaff30b88e667649dc8cd4aedb7</td>
+       <td>CVE-2022-31611</td>
+       <td>2023-02-07 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>NVIDIA GeForce Experience contains an uncontrolled search path vulnerability in all its client installers, where an attacker with user level privileges may cause the installer to load an arbitrary DLL when the installer is launched. A successful exploit of this vulnerability could lead to escalation of privileges and code execution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31611">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">89c9134b646c94f0b3d52a0735134a3e</td>
+       <td>CVE-2022-45854</td>
+       <td>2023-02-07 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>An improper check for unusual conditions in Zyxel NWA110AX firmware verisons prior to 6.50(ABTG.0)C0, which could allow a LAN attacker to cause a temporary denial-of-service (DoS) by sending crafted VLAN frames if the MAC address of the vulnerable AP were intercepted by the attacker.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45854">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">66319cb192dcebeeb03ec96520cb1f8d</td>
+       <td>CVE-2022-45441</td>
+       <td>2023-02-07 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability in Zyxel NBG-418N v2 firmware versions prior to V1.00(AARP.13)C0, which could allow an attacker to store malicious scripts in the Logs page of the GUI on a vulnerable device. A successful XSS attack could force an authenticated user to execute the stored malicious scripts and then result in a denial-of-service (DoS) condition when the user visits the Logs page of the GUI on the device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45441">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">efcfe5d5f178e9c7fd5a36929d072688</td>
+       <td>CVE-2022-38547</td>
+       <td>2023-02-07 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>A post-authentication command injection vulnerability in the CLI command of Zyxel ZyWALL/USG series firmware versions 4.20 through 4.72, VPN series firmware versions 4.30 through 5.32, USG FLEX series firmware versions 4.50 through 5.32, and ATP series firmware versions 4.32 through 5.32, which could allow an authenticated attacker with administrator privileges to execute OS commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38547">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5bd4561a6012d3a24b36899b1a3174c</td>
+       <td>CVE-2023-24827</td>
+       <td>2023-02-07 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>syft is a a CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems. A password disclosure flaw was found in Syft versions v0.69.0 and v0.69.1. This flaw leaks the password stored in the SYFT_ATTEST_PASSWORD environment variable. The `SYFT_ATTEST_PASSWORD` environment variable is for the `syft attest` command to generate attested SBOMs for the given container image. This environment variable is used to decrypt the private key (provided with `syft attest --key <path-to-key-file>`) during the signing process while generating an SBOM attestation. This vulnerability affects users running syft that have the `SYFT_ATTEST_PASSWORD` environment variable set with credentials (regardless of if the attest command is being used or not). Users that do not have the environment variable `SYFT_ATTEST_PASSWORD` set are not affected by this issue. The credentials are leaked in two ways: in the syft logs when `-vv` or `-vvv` are used in the syft command (which is any log level >= `DEBUG`) and in the attestation or SBOM only when the `syft-json` format is used. Note that as of v0.69.0 any generated attestations by the `syft attest` command are uploaded to the OCI registry (if you have write access to that registry) in the same way `cosign attach` is done. This means that any attestations generated for the affected versions of syft when the `SYFT_ATTEST_PASSWORD` environment variable was set would leak credentials in the attestation payload uploaded to the OCI registry. This issue has been patched in commit `9995950c70` and has been released as v0.70.0. There are no workarounds for this vulnerability. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24827">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">753f0f34a802f47c6e6e0147e0b14c4c</td>
+       <td>CVE-2023-24808</td>
+       <td>2023-02-07 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>PDFio is a C library for reading and writing PDF files. In versions prior to 1.1.0 a denial of service (DOS) vulnerability exists in the pdfio parser. Crafted pdf files can cause the program to run at 100% utilization and never terminate. The pdf which causes this crash found in testing is about 28kb in size and was discovered via fuzzing. Anyone who uses this library either as a standalone binary or as a library can be DOSed when attempting to parse this type of file. Web servers or other automated processes which rely on this code to turn pdf submissions into plaintext can be DOSed when an attacker uploads the pdf. Please see the linked GHSA for an example pdf. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24808">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">af1da8f5983e3b7d7371dfc749bf8c14</td>
        <td>CVE-2023-23849</td>
        <td>2023-02-06 23:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-02-06 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Raffle Draw System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at save_ticket.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24200">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6a98866aa9b3ea8e946aa42b9232d9ff</td>
-       <td>CVE-2023-24199</td>
-       <td>2023-02-06 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Raffle Draw System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at delete_ticket.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24199">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e175e770fa26d2c493ff590a0d824c02</td>
-       <td>CVE-2023-24198</td>
-       <td>2023-02-06 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Raffle Draw System v1.0 was discovered to contain multiple SQL injection vulnerabilities at save_winner.php via the ticket_id and draw parameters.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24198">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c862ebacd2d250d8c654a41018094756</td>
-       <td>CVE-2023-24197</td>
-       <td>2023-02-06 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Online Food Ordering System v2 was discovered to contain a SQL injection vulnerability via the id parameter at view_order.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24197">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">74a76fcaaf8ba7fa60a436aafe091df2</td>
-       <td>CVE-2023-24195</td>
-       <td>2023-02-06 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Online Food Ordering System v2 was discovered to contain a cross-site scripting (XSS) vulnerability via the page parameter in index.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24195">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e87327cf00ceb80253ea9fa9902a42b</td>
-       <td>CVE-2023-24194</td>
-       <td>2023-02-06 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Online Food Ordering System v2 was discovered to contain a cross-site scripting (XSS) vulnerability via the page parameter in navbar.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2a41a5ef817b28a03040bf9a486b0e8c</td>
-       <td>CVE-2022-25855</td>
-       <td>2023-02-06 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>All versions of the package create-choo-app3 are vulnerable to Command Injection via the devInstall function due to improper user-input sanitization.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25855">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ff2d22cf4ba2ad0178837d3bccb07cd</td>
-       <td>CVE-2022-25853</td>
-       <td>2023-02-06 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>All versions of the package semver-tags are vulnerable to Command Injection via the getGitTagsRemote function due to improper input sanitization.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25853">详情</a></td>
       </tr>
 
      </tbody>
@@ -2436,6 +2436,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8910b183da88ddb96f4b54336d2eea65</td>
+       <td>CVE-2022-4699</td>
+       <td>2023-01-30 21:15:11 </td>
+       <td>The MediaElement.js WordPress plugin through 4.2.8 does not validate and escape some of its shortcode attributes before outputting them back in the page, which could allow users with a role as low as contributor to perform Stored Cross-Site Scripting attacks which could be used against high-privilege users such as admins.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4699">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7223f1f7bebc8828a323492fa043e3e8</td>
+       <td>CVE-2022-4680</td>
+       <td>2023-01-30 21:15:11 </td>
+       <td>The Revive Old Posts WordPress plugin before 9.0.11 unserializes user input provided via the settings, which could allow high privilege users such as admin to perform PHP Object Injection when a suitable gadget is present.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4680">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cbe2b68e0a9d4ab6c5b303347f575256</td>
+       <td>CVE-2022-46968</td>
+       <td>2023-01-27 22:15:08 </td>
+       <td>A stored cross-site scripting (XSS) vulnerability in /index.php?page=help of Revenue Collection System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into sent messages.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46968">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">30bd7df4399c9dbfbb5516fb31e0cc5b</td>
+       <td>CVE-2022-46967</td>
+       <td>2023-01-26 23:15:14 </td>
+       <td>An access control issue in Revenue Collection System v1.0 allows unauthenticated attackers to view the contents of /admin/DBbackup/ directory.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46967">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">81b5e96df512345bc84196fc04d8edc4</td>
+       <td>CVE-2022-46966</td>
+       <td>2023-01-26 23:15:10 </td>
+       <td>Revenue Collection System v1.0 was discovered to contain a SQL injection vulnerability at step1.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-46966">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b6a865f0692c074e33e8e1d2f8168535</td>
        <td>CVE-2022-41020</td>
        <td>2023-01-26 22:15:21 </td>
@@ -2633,46 +2673,6 @@
        <td>2023-01-26 22:15:15 </td>
        <td>A directory traversal vulnerability exists in the httpd delfile.cgi functionality of Siretta QUARTZ-GOLD G5.0.1.5-210720-141020. A specially-crafted HTTP request can lead to arbitrary file deletion. An attacker can send an HTTP request to trigger this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40701">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">74505c23d8de631dab3180bdbd67ebba</td>
-       <td>CVE-2022-40222</td>
-       <td>2023-01-26 22:15:15 </td>
-       <td>An OS command injection vulnerability exists in the m2m DELETE_FILE cmd functionality of Siretta QUARTZ-GOLD G5.0.1.5-210720-141020. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a network request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40222">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">51b7e4d1fe26ac4215130ac86c201cdb</td>
-       <td>CVE-2022-40220</td>
-       <td>2023-01-26 22:15:15 </td>
-       <td>An OS command injection vulnerability exists in the httpd txt/restore.cgi functionality of Siretta QUARTZ-GOLD G5.0.1.5-210720-141020. A specially-crafted network request can lead to arbitrary command execution. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40220">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0a3353517956e24c59a4796ca43829f8</td>
-       <td>CVE-2022-39045</td>
-       <td>2023-01-26 22:15:14 </td>
-       <td>A file write vulnerability exists in the httpd upload.cgi functionality of Siretta QUARTZ-GOLD G5.0.1.5-210720-141020. A specially-crafted HTTP request can lead to arbitrary file upload. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39045">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e18b62ec9acc7c2605dd978a3567378</td>
-       <td>CVE-2022-4092</td>
-       <td>2023-01-26 21:18:06 </td>
-       <td>An issue has been discovered in GitLab EE affecting all versions starting from 15.6 before 15.6.1. It was possible to create a malicious README page due to improper neutralisation of user supplied input.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4092">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">10b61b9437646a0c008b3bc9feae8a36</td>
-       <td>CVE-2022-4054</td>
-       <td>2023-01-26 21:18:06 </td>
-       <td>An issue has been discovered in GitLab affecting all versions starting from 9.3 before 15.4.6, all versions starting from 15.5 before 15.5.5, all versions starting from 15.6 before 15.6.1. It was possible for a project maintainer to leak a webhook secret token by changing the webhook URL to an endpoint that allows them to capture request headers.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4054">详情</a></td>
       </tr>
 
      </tbody>
