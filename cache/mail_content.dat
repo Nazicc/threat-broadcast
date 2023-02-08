@@ -1,33 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25194</font><br/>[<b>披露时间</b>] 2023-02-08 08:41:57<br/>[<b>漏洞描述</b>] Apache Kafka 远程代码执行漏洞（CVE-2023-25194）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-25194'>https://avd.aliyun.com/detail?id=AVD-2023-25194</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0739</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454524'>http://cve.scap.org.cn/vuln/VHN-454524</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0684</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454288'>http://cve.scap.org.cn/vuln/VHN-454288</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0685</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454289'>http://cve.scap.org.cn/vuln/VHN-454289</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0726</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454525'>http://cve.scap.org.cn/vuln/VHN-454525</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0725</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454526'>http://cve.scap.org.cn/vuln/VHN-454526</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0724</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454527'>http://cve.scap.org.cn/vuln/VHN-454527</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0722</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454528'>http://cve.scap.org.cn/vuln/VHN-454528</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0720</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454529'>http://cve.scap.org.cn/vuln/VHN-454529</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0717</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454530'>http://cve.scap.org.cn/vuln/VHN-454530</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0716</font><br/>[<b>披露时间</b>] 2023-02-08 08:42:25<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454531'>http://cve.scap.org.cn/vuln/VHN-454531</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4144</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] QEMU越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75431'>http://www.nsfocus.net/vulndb/75431</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41944</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Discourse信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75430'>http://www.nsfocus.net/vulndb/75430</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32966</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Realtek RTL8111FP-CG Firmware拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75429'>http://www.nsfocus.net/vulndb/75429</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36193</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] School Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75428'>http://www.nsfocus.net/vulndb/75428</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28607</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] ISIC信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75427'>http://www.nsfocus.net/vulndb/75427</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4246</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Kakao PotPlayer拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75426'>http://www.nsfocus.net/vulndb/75426</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45562</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Telos Alliance Omnia MPX Node默认权限错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75425'>http://www.nsfocus.net/vulndb/75425</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42705</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Asterisk内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75424'>http://www.nsfocus.net/vulndb/75424</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41910</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Google TensorFlow越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75423'>http://www.nsfocus.net/vulndb/75423</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34881</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Hitachi JP1/Automatic Operation信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75422'>http://www.nsfocus.net/vulndb/75422</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38337</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Mobatek MobaXterm硬编码凭据漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75421'>http://www.nsfocus.net/vulndb/75421</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46169</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Cacti命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75420'>http://www.nsfocus.net/vulndb/75420</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46742</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] PaddlePaddle代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75419'>http://www.nsfocus.net/vulndb/75419</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44620</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] UNIMO Technology UDR-JA1604/UDR-JA1608/UDR-JA1616身份验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75418'>http://www.nsfocus.net/vulndb/75418</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45217</font><br/>[<b>披露时间</b>] 2023-02-08 09:39:58<br/>[<b>漏洞描述</b>] Book Store Management System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75417'>http://www.nsfocus.net/vulndb/75417</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
