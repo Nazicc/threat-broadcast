@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-09 19:38:03 -->
+<!-- RELEASE TIME : 2023-02-09 20:38:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5ff117dc48b9bf559f07ed080112b7ec</td>
+       <td>CVE-2023-24815</td>
+       <td>2023-02-09 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Vert.x-Web is a set of building blocks for building web applications in the java programming language. When running vertx web applications that serve files using `StaticHandler` on Windows Operating Systems and Windows File Systems, if the mount point is a wildcard (`*`) then an attacker can exfiltrate any class path resource. When computing the relative path to locate the resource, in case of wildcards, the code: `return "/" + rest;` from `Utils.java` returns the user input (without validation) as the segment to lookup. Even though checks are performed to avoid escaping the sandbox, given that the input was not sanitized `\` are not properly handled and an attacker can build a path that is valid within the classpath. This issue only affects users deploying in windows environments and upgrading is the advised remediation path. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24815">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2a44c69a8127200536fde69a077630e8</td>
+       <td>CVE-2023-22609</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22609">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ebfd4f2b681199c9aaa889f345de2975</td>
+       <td>CVE-2023-22607</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22607">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">22aba02c3f75a8c9b54da823ea7d0a4b</td>
+       <td>CVE-2023-22606</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22606">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a9143aa0bf32ea25ccfd128b12fb4ddd</td>
+       <td>CVE-2023-22605</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22605">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c399e52c34b44a9179ec248f5582e305</td>
+       <td>CVE-2023-22604</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22604">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ebd830a2d3d3d5d93e57f41ed4db8b85</td>
+       <td>CVE-2023-22603</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22603">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6be48498aa777af985f3527156d11dc0</td>
+       <td>CVE-2023-0745</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Relative Path Traversal vulnerability in YugaByte, Inc. Yugabyte Managed (PlatformReplicationManager.Java modules) allows Path Traversal. This vulnerability is associated with program files PlatformReplicationManager.Java. This issue affects Yugabyte Managed: from 2.0 through 2.13.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0745">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e106c2caf35fb90c41487dd99c1370cc</td>
+       <td>CVE-2023-0575</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>External Control of Critical State Data, Improper Control of Generation of Code ('Code Injection') vulnerability in YugaByte, Inc. Yugabyte DB on Windows, Linux, MacOS, iOS (DevopsBase.Java:execCommand, TableManager.Java:runCommand modules) allows API Manipulation, Privilege Abuse. This vulnerability is associated with program files backup.Py. This issue affects Yugabyte DB: Lesser then 2.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0575">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">404d45ce6e4a7270bfc664990b87be8b</td>
+       <td>CVE-2022-48302</td>
+       <td>2023-02-09 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>The AMS module has a vulnerability of lacking permission verification in APIs.Successful exploitation of this vulnerability may affect data confidentiality.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48302">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">60e38bf9c5e0b662e209c68d6805842e</td>
        <td>CVE-2023-0624</td>
        <td>2023-02-09 16:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25164">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">29286b44026b3184ca7c889e517cc455</td>
-       <td>CVE-2023-25151</td>
-       <td>2023-02-08 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>opentelemetry-go-contrib is a collection of extensions for OpenTelemetry-Go. The v0.38.0 release of `go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp` uses the `httpconv.ServerRequest` function to annotate metric measurements for the `http.server.request_content_length`, `http.server.response_content_length`, and `http.server.duration` instruments. The `ServerRequest` function sets the `http.target` attribute value to be the whole request URI (including the query string)[^1]. The metric instruments do not "forget" previous measurement attributes when `cumulative` temporality is used, this means the cardinality of the measurements allocated is directly correlated with the unique URIs handled. If the query string is constantly random, this will result in a constant increase in memory allocation that can be used in a denial-of-service attack. This issue has been addressed in version 0.39.0. Users are advised to upgrade. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25151">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4a1fc5288238a16124eadbd3291a0bdb</td>
-       <td>CVE-2023-25150</td>
-       <td>2023-02-08 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nextcloud office/richdocuments is an office suit for the nextcloud server platform. In affected versions the Collabora integration can be tricked to provide access to any file without proper permission validation. As a result any user with access to Collabora can obtain the content of other users files. It is recommended that the Nextcloud Office App (Collabora Integration) is updated to 7.0.2 (Nextcloud 25), 6.3.2 (Nextcloud 24), 5.0.10 (Nextcloud 23), 4.2.9 (Nextcloud 21-22), or 3.8.7 (Nextcloud 15-20). There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25150">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f787631c9a4103b73a663f2521ae73b</td>
-       <td>CVE-2023-0751</td>
-       <td>2023-02-08 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>When GELI reads a key file from standard input, it does not reuse the key file to initialize multiple providers at once resulting in the second and subsequent devices silently using a NULL key as the user key file. If a user only uses a key file without a user passphrase, the master key is encrypted with an empty key file allowing trivial recovery of the master key.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0751">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9b56eff69fd8e16fea3ac37509f01197</td>
-       <td>CVE-2023-0401</td>
-       <td>2023-02-08 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>A NULL pointer can be dereferenced when signatures are being verified on PKCS7 signed or signedAndEnveloped data. In case the hash algorithm used for the signature is known to the OpenSSL library but the implementation of the hash algorithm is not available the digest initialization will fail. There is a missing check for the return value from the initialization function which later leads to invalid usage of the digest API most likely leading to a crash. The unavailability of an algorithm can be caused by using FIPS enabled configuration of providers or more commonly by not loading the legacy provider. PKCS7 data is processed by the SMIME library calls and also by the time stamp (TS) library calls. The TLS implementation in OpenSSL does not call these functions however third party applications would be affected if they call these functions to verify signatures on untrusted data.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0401">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8a1958196712c59faaa51b253250b2f9</td>
-       <td>CVE-2023-0286</td>
-       <td>2023-02-08 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0286">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9c34694a09b29bba78e1aaae636aaa62</td>
-       <td>CVE-2023-0217</td>
-       <td>2023-02-08 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>An invalid pointer dereference on read can be triggered when an application tries to check a malformed DSA public key by the EVP_PKEY_public_check() function. This will most likely lead to an application crash. This function can be called on public keys supplied from untrusted sources which could allow an attacker to cause a denial of service attack. The TLS implementation in OpenSSL does not call this function but applications might call the function if there are additional security requirements imposed by standards such as FIPS 140-3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0217">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7062c2d22c73d9200d277d894eebbc4b</td>
-       <td>CVE-2023-0003</td>
-       <td>2023-02-08 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A file disclosure vulnerability in the Palo Alto Networks Cortex XSOAR server software enables an authenticated user with access to the web interface to read local files from the server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0003">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f3eebb54b0b8bd0c82e7bd01196f9183</td>
-       <td>CVE-2023-0002</td>
-       <td>2023-02-08 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A problem with a protection mechanism in the Palo Alto Networks Cortex XDR agent on Windows devices allows a local user to execute privileged cytool commands that disable or uninstall the agent.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0002">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a63d621a32897e94ae387cb49a53690e</td>
-       <td>CVE-2023-0001</td>
-       <td>2023-02-08 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An information exposure vulnerability in the Palo Alto Networks Cortex XDR agent on Windows devices allows a local system administrator to disclose the admin password for the agent in cleartext, which bad actors can then use to execute privileged cytool commands that disable or uninstall the agent.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0001">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3926e5bf9ea52f22f4720520505bd6ab</td>
-       <td>CVE-2023-0748</td>
-       <td>2023-02-08 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Open Redirect in GitHub repository btcpayserver/btcpayserver prior to 1.7.6.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0748">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">3511d088c7a4f28c2050bf3ff453d1de</td>
+       <td>CVE-2023-24815</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453619">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">19ec97a24cf1d9db0ae87a021ddddfbd</td>
+       <td>CVE-2021-41064</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-402329">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a2d4a36f89cb296b62ae03a9afd40571</td>
+       <td>CVE-2021-42792</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-403845">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b7f0715e93ee4585fe0b165df19f0fbb</td>
+       <td>CVE-2021-42793</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-403846">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">63653ffc5394aa0f5ad003f718360e6c</td>
+       <td>CVE-2022-30564</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-422040">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d4d0cdd4eb3da69a292cd339f67f9302</td>
+       <td>CVE-2023-22603</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450492">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0892231408c972347cee78378806d5d8</td>
+       <td>CVE-2023-22604</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450493">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a60877a29ef9610ba3c79407b7890fda</td>
+       <td>CVE-2023-22605</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450494">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">57f2dc998d6e2efa872beefba20458d2</td>
+       <td>CVE-2023-22606</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450495">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dfe9c8d15913bc210f29dd4eb076bfaf</td>
+       <td>CVE-2023-22607</td>
+       <td>2023-02-09 20:38:48 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450496">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">8982d762f3a6211c2b14698a05e74890</td>
        <td>CVE-2023-0760</td>
@@ -711,96 +801,6 @@
        <td>An issue was discovered in the rollback feature......
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-434547">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3a99619f12be211dd990b696feedf16</td>
-       <td>CVE-2022-38778</td>
-       <td>2023-02-08 13:01:05 <img src="imgs/new.gif" /></td>
-       <td>A flaw (CVE-2022-38900) was discovered in one of......
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-434548">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3418a598af251cfb71f5ead96f5a46e3</td>
-       <td>CVE-2022-45982</td>
-       <td>2023-02-08 13:01:05 <img src="imgs/new.gif" /></td>
-       <td>thinkphp 6.0.0~6.0.13 and 6.1.0~6.1.1 contains...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443837">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">96ec67b5563d3633a1b18ed975138a96</td>
-       <td>CVE-2022-47648</td>
-       <td>2023-02-08 13:01:05 <img src="imgs/new.gif" /></td>
-       <td>Bosch Security Systems B420 firmware...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-449261">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">81ad554ce51c54fdb2202b78c339450f</td>
-       <td>CVE-2023-25163</td>
-       <td>2023-02-08 13:01:05 <img src="imgs/new.gif" /></td>
-       <td>Argo CD is a declarative, GitOps continuous...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454088">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">52b4fcf606c495795b5a2baad2ee5b32</td>
-       <td>CVE-2022-2094</td>
-       <td>2023-02-08 12:59:18 <img src="imgs/new.gif" /></td>
-       <td>The Yellow Yard Searchbar WordPress plugin...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426002">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68f4f6b328b6a5eefdb10f8a2f50b3bb</td>
-       <td>CVE-2022-43761</td>
-       <td>2023-02-08 12:59:18 <img src="imgs/new.gif" /></td>
-       <td>Missing authentication when creating and...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-440898">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">da6ee96094a1c5a5d75385a399f8582b</td>
-       <td>CVE-2023-0740</td>
-       <td>2023-02-08 12:59:18 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454549">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f68403121a75362527a6798d307ae565</td>
-       <td>CVE-2023-0741</td>
-       <td>2023-02-08 12:59:18 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - DOM in GitHub...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454550">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86a72cf3c2c5dd544bf598ea220ca986</td>
-       <td>CVE-2023-0742</td>
-       <td>2023-02-08 12:59:18 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454551">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4aa27d1ecc806ab47e0936c17b6b3ec8</td>
-       <td>CVE-2023-0743</td>
-       <td>2023-02-08 12:59:18 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454552">详情</a></td>
       </tr>
 
      </tbody>
