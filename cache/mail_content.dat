@@ -1,19 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0760</font><br/>[<b>披露时间</b>] 2023-02-09 16:48:46<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454638'>http://cve.scap.org.cn/vuln/VHN-454638</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0759</font><br/>[<b>披露时间</b>] 2023-02-09 16:48:46<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454639'>http://cve.scap.org.cn/vuln/VHN-454639</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0758</font><br/>[<b>披露时间</b>] 2023-02-09 16:48:46<br/>[<b>漏洞描述</b>] Untitled vulnerability
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454640'>http://cve.scap.org.cn/vuln/VHN-454640</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0760</font><br/>[<b>披露时间</b>] 2023-02-09 14:15:00<br/>[<b>漏洞描述</b>] Heap-based Buffer Overflow in GitHub repository gpac/gpac prior to V2.1.0-DEV.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0760'>https://www.tenable.com/cve/CVE-2023-0760</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0759</font><br/>[<b>披露时间</b>] 2023-02-09 14:15:00<br/>[<b>漏洞描述</b>] Privilege Chaining in GitHub repository cockpit-hq/cockpit prior to 2.3.8.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0759'>https://www.tenable.com/cve/CVE-2023-0759</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0624</font><br/>[<b>披露时间</b>] 2023-02-09 16:15:00<br/>[<b>漏洞描述</b>] OrangeScrum version 2.0.11 allows an external attacker to obtain arbitrary user accounts from the application. This is possible because the application returns malicious user input in the response with the content-type set to text/html.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0624'>https://www.tenable.com/cve/CVE-2023-0624</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22953</font><br/>[<b>披露时间</b>] 2023-02-09 15:15:00<br/>[<b>漏洞描述</b>] In ExpressionEngine before 7.2.6, remote code execution can be achieved by an authenticated Control Panel user.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22953'>https://www.tenable.com/cve/CVE-2023-22953</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0574</font><br/>[<b>披露时间</b>] 2023-02-09 15:15:00<br/>[<b>漏洞描述</b>] Server-Side Request Forgery (SSRF), Improperly Controlled Modification of Dynamically-Determined Object Attributes, Improper Restriction of Excessive Authentication Attempts vulnerability in YugaByte, Inc. Yugabyte Managed allows Accessing Functionality Not Properly Constrained by ACLs, Communication Channel Manipulation, Authentication Abuse.This issue affects Yugabyte Managed: from 2.0 through 2.13.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0574'>https://www.tenable.com/cve/CVE-2023-0574</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
