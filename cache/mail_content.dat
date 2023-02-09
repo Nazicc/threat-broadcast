@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25194</font><br/>[<b>披露时间</b>] 2023-02-09 10:19:42<br/>[<b>漏洞描述</b>] Apache Kafka 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7993'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7993</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25194</font><br/>[<b>披露时间</b>] 2023-02-08 03:01:07<br/>[<b>漏洞描述</b>] Apache Kafka Connect 远程代码执行漏洞（CVE-2023-25194）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-25194'>https://avd.aliyun.com/detail?id=AVD-2023-25194</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25168</font><br/>[<b>披露时间</b>] 2023-02-09 00:16:00<br/>[<b>漏洞描述</b>] Wings is Pterodactyl's server control plane. This vulnerability can be used to delete files and directories recursively on the host system. This vulnerability can be combined with `GHSA-p8r3-83r8-jwj5` to overwrite files on the host system. In order to use this exploit, an attacker must have an existing "server" allocated and controlled by Wings. This vulnerability has been resolved in version `v1.11.4` of Wings, and has been back-ported to the 1.7 release series in `v1.7.4`. Anyone running `v1.11.x` should upgrade to `v1.11.4` and anyone running `v1.7.x` should upgrade to `v1.7.4`. There are no known workarounds for this issue.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25168'>https://www.tenable.com/cve/CVE-2023-25168</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0251</font><br/>[<b>披露时间</b>] 2023-02-08 23:15:00<br/>[<b>漏洞描述</b>] Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to a buffer overflow through improper restrictions of operations within memory, which could allow an attacker to remotely execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0251'>https://www.tenable.com/cve/CVE-2023-0251</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0250</font><br/>[<b>披露时间</b>] 2023-02-08 23:15:00<br/>[<b>漏洞描述</b>] Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to a stack-based buffer overflow, which could allow an attacker to remotely execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0250'>https://www.tenable.com/cve/CVE-2023-0250</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0249</font><br/>[<b>披露时间</b>] 2023-02-08 23:15:00<br/>[<b>漏洞描述</b>] Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to out-of-bounds write, which may allow an attacker to remotely execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0249'>https://www.tenable.com/cve/CVE-2023-0249</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46903</font><br/>[<b>披露时间</b>] 2023-02-09 03:40:09<br/>[<b>漏洞描述</b>] WebSoft HCM跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/75504'>http://www.nsfocus.net/vulndb/75504</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
