@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-09 02:06:27 -->
+<!-- RELEASE TIME : 2023-02-09 03:01:53 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f763791bd847c6e00349bd2c5d062e14</td>
+       <td>CVE-2023-25168</td>
+       <td>2023-02-09 00:16:00 <img src="imgs/new.gif" /></td>
+       <td>Wings is Pterodactyl's server control plane. This vulnerability can be used to delete files and directories recursively on the host system. This vulnerability can be combined with `GHSA-p8r3-83r8-jwj5` to overwrite files on the host system. In order to use this exploit, an attacker must have an existing "server" allocated and controlled by Wings. This vulnerability has been resolved in version `v1.11.4` of Wings, and has been back-ported to the 1.7 release series in `v1.7.4`. Anyone running `v1.11.x` should upgrade to `v1.11.4` and anyone running `v1.7.x` should upgrade to `v1.7.4`. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25168">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f7ff978094af68e127f3d7922b5b35b</td>
+       <td>CVE-2023-0251</td>
+       <td>2023-02-08 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to a buffer overflow through improper restrictions of operations within memory, which could allow an attacker to remotely execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0251">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d698e21fe1444e4da564ca7087ea4b06</td>
+       <td>CVE-2023-0250</td>
+       <td>2023-02-08 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to a stack-based buffer overflow, which could allow an attacker to remotely execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0250">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">67ebff1dc703baad3f3a2182ac69a779</td>
+       <td>CVE-2023-0249</td>
+       <td>2023-02-08 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to out-of-bounds write, which may allow an attacker to remotely execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0249">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7bb164b2dde72001655fdcf13538c1e3</td>
        <td>CVE-2023-25163</td>
        <td>2023-02-08 21:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-02-08 10:15:00 <img src="imgs/new.gif" /></td>
        <td>Missing authentication when creating and managing the B&R APROL database in versions < R 4.2-07 allows reading and changing the system configuration.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43761">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b237fb5acaa91fc7a53239b25eca717b</td>
-       <td>CVE-2022-2094</td>
-       <td>2023-02-08 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Yellow Yard Searchbar WordPress plugin before 2.8.2 does not escape some URL parameters before outputting them back to the user, leading to Reflected Cross-Site Scripting</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2094">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9c405f9778f0dcc2d7a684d03f6aeb46</td>
-       <td>CVE-2023-0744</td>
-       <td>2023-02-08 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Access Control in GitHub repository answerdev/answer prior to 1.0.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0744">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4247c76e023b949970d40ca3d5c9f07</td>
-       <td>CVE-2023-0743</td>
-       <td>2023-02-08 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub repository answerdev/answer prior to 1.0.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0743">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a2d34e10f66d1769391d12319df464dc</td>
-       <td>CVE-2023-0742</td>
-       <td>2023-02-08 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository answerdev/answer prior to 1.0.4.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0742">详情</a></td>
       </tr>
 
      </tbody>
@@ -1444,6 +1444,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">4b89dc29896c65e8d282493766bf52bd</td>
+       <td>CVE-2023-25194</td>
+       <td>2023-02-09 10:19:42 <img src="imgs/new.gif" /></td>
+       <td>Apache Kafka 远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7993">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2032a24c3df7ff14225b0d57ec8d449e</td>
        <td>CVE-2023-23477</td>
        <td>2023-02-08 18:35:07 <img src="imgs/new.gif" /></td>
@@ -1673,14 +1681,6 @@
        <td>2022-12-29 11:40:58</td>
        <td>XStream 拒绝服务漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7935">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">07cd6edd193dbfcd997aed5e2710d338</td>
-       <td>CVE-2022-45347</td>
-       <td>2022-12-26 18:12:12</td>
-       <td>Apache ShardingSphere身份认证绕过漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7927">详情</a></td>
       </tr>
 
      </tbody>
@@ -2708,6 +2708,15 @@
       </tr>
 
       <tr>
+       <td scope="row">534e9f7b6ec3809adcaf63d4ceca86de</td>
+       <td>CVE-2023-25194</td>
+       <td>2023-02-08 03:01:07 <img src="imgs/new.gif" /></td>
+       <td>Apache Kafka Connect 远程代码执行漏洞（CVE-2023-25194）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2023-25194">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9f0c569d30455ce4e57082015c292bf5</td>
        <td>CVE-2022-47986</td>
        <td>2023-02-03 06:41:27</td>
@@ -2948,15 +2957,6 @@
        <td>Boa SQL注入漏洞（CVE-2022-44117）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-44117">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">752231c1bb3eeab7fac577e9ef01213b</td>
-       <td>CVE-2022-45536</td>
-       <td>2022-11-23 10:42:05</td>
-       <td>AeroCMS SQL注入漏洞（CVE-2022-45536）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-45536">详情</a></td>
       </tr>
 
      </tbody>
