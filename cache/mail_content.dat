@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07578 (CVE-2022-4012)</font><br/>[<b>披露时间</b>] 2023-02-09 09:38:03<br/>[<b>漏洞描述</b>] Hospital Management Center SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07578'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07578</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07676 (CVE-2022-37708)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:31<br/>[<b>漏洞描述</b>] Docker授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07676'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07676</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07677 (CVE-2023-24956)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:33<br/>[<b>漏洞描述</b>] Forget Heart Message Box SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07677'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07677</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07678 (CVE-2021-39089)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:36<br/>[<b>漏洞描述</b>] IBM Cloud Pak for Security信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07678'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07678</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07679 (CVE-2022-20464)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:38<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07679'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07679</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07675 (CVE-2021-39660)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:41<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07675'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07675</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07664 (CVE-2022-20438)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:43<br/>[<b>漏洞描述</b>] Google Android拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07664'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07664</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-07647 (CVE-2022-20491)</font><br/>[<b>披露时间</b>] 2023-02-09 10:39:45<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-07647'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-07647</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
