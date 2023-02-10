@@ -1,14 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08051 (CVE-2023-0679)</font><br/>[<b>披露时间</b>] 2023-02-10 10:40:57<br/>[<b>漏洞描述</b>] Canteen Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08051'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08051</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08089 (CVE-2023-24241)</font><br/>[<b>披露时间</b>] 2023-02-10 10:41:00<br/>[<b>漏洞描述</b>] Forget Heart Message Box SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08089'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08089</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08088 (CVE-2023-20924)</font><br/>[<b>披露时间</b>] 2023-02-10 10:41:04<br/>[<b>漏洞描述</b>] Google Android授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08088'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08088</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08070 (CVE-2023-0251)</font><br/>[<b>披露时间</b>] 2023-02-10 10:41:07<br/>[<b>漏洞描述</b>] Delta Electronics DIAScreen缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08070'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08070</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43550</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A command injection vulnerability exists in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440616'>http://cve.scap.org.cn/vuln/VHN-440616</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43552</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A use after free vulnerability exists in curl......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440619'>http://cve.scap.org.cn/vuln/VHN-440619</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44566</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A denial of service vulnerability present in...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-441960'>http://cve.scap.org.cn/vuln/VHN-441960</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44570</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A denial of service vulnerability in the Range......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-441966'>http://cve.scap.org.cn/vuln/VHN-441966</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44571</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] There is a denial of service vulnerability in......
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-441968'>http://cve.scap.org.cn/vuln/VHN-441968</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44572</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A denial of service vulnerability in the...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-441970'>http://cve.scap.org.cn/vuln/VHN-441970</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22792</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A regular expression based DoS vulnerability...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450783'>http://cve.scap.org.cn/vuln/VHN-450783</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22794</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A vulnerability in ActiveRecord &lt;6.0.6.1,...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450785'>http://cve.scap.org.cn/vuln/VHN-450785</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22795</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A regular expression based DoS vulnerability...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450786'>http://cve.scap.org.cn/vuln/VHN-450786</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22796</font><br/>[<b>披露时间</b>] 2023-02-09 12:59:53<br/>[<b>漏洞描述</b>] A regular expression based DoS vulnerability...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450787'>http://cve.scap.org.cn/vuln/VHN-450787</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
