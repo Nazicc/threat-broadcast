@@ -1,32 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0780</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Improper Restriction of Rendered UI Layers or...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454733'>http://cve.scap.org.cn/vuln/VHN-454733</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34384</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell SupportAssist Client Consumer (version...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426700'>http://cve.scap.org.cn/vuln/VHN-426700</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34385</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] SupportAssist for Home PCs (version 3.11.4 and...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426701'>http://cve.scap.org.cn/vuln/VHN-426701</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34386</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell SupportAssist for Home PCs (version...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426702'>http://cve.scap.org.cn/vuln/VHN-426702</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34387</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell SupportAssist for Home PCs (version...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426703'>http://cve.scap.org.cn/vuln/VHN-426703</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34388</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell SupportAssist for Home PCs (version...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426704'>http://cve.scap.org.cn/vuln/VHN-426704</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34389</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell SupportAssist contains a rate limit...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426705'>http://cve.scap.org.cn/vuln/VHN-426705</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34392</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] SupportAssist for Home PCs (versions 3.11.4...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426708'>http://cve.scap.org.cn/vuln/VHN-426708</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34404</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell System Update, version 2.0.0 and earlier,...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426720'>http://cve.scap.org.cn/vuln/VHN-426720</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-34444</font><br/>[<b>披露时间</b>] 2023-02-11 16:44:45<br/>[<b>漏洞描述</b>] Dell PowerScale OneFS, versions 9.2.0.x...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-426760'>http://cve.scap.org.cn/vuln/VHN-426760</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0781</font><br/>[<b>披露时间</b>] 2023-02-11 13:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-220624.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0781'>https://www.tenable.com/cve/CVE-2023-0781</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0611</font><br/>[<b>披露时间</b>] 2023-02-01 14:15:09 <br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, has been found in TRENDnet TEW-652BRP 3.04B01. This issue affects some unknown processing of the file get_set.ccp of the component Web Management Interface. The manipulation leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-219935.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0611'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0611</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
