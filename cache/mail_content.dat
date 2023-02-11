@@ -1,13 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0783</font><br/>[<b>披露时间</b>] 2023-02-11 18:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in EcShop 4.1.5. It has been classified as critical. This affects an unknown part of the file /ecshop/admin/template.php of the component PHP File Handler. The manipulation leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-220641 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0783'>https://www.tenable.com/cve/CVE-2023-0783</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0782</font><br/>[<b>披露时间</b>] 2023-02-11 18:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Tenda AC23 16.03.07.45 and classified as critical. Affected by this issue is the function formSetSysToolDDNS/formGetSysToolDDNS of the file /bin/httpd. The manipulation leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-220640.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0782'>https://www.tenable.com/cve/CVE-2023-0782</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0127</font><br/>[<b>披露时间</b>] 2023-02-11 18:15:00<br/>[<b>漏洞描述</b>] A command injection vulnerability in the firmware_update command, in the device's restricted telnet interface, allows an authenticated attacker to execute arbitrary commands as root.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0127'>https://www.tenable.com/cve/CVE-2023-0127</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0127</font><br/>[<b>披露时间</b>] 2023-02-11 21:37:49<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-450962'>http://cve.scap.org.cn/vuln/VHN-450962</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0783</font><br/>[<b>披露时间</b>] 2023-02-11 21:37:49<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454737'>http://cve.scap.org.cn/vuln/VHN-454737</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0782</font><br/>[<b>披露时间</b>] 2023-02-11 21:37:49<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454738'>http://cve.scap.org.cn/vuln/VHN-454738</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0781</font><br/>[<b>披露时间</b>] 2023-02-11 21:37:49<br/>[<b>漏洞描述</b>] A vulnerability was found in SourceCodester...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454734'>http://cve.scap.org.cn/vuln/VHN-454734</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
