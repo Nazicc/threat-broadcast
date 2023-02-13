@@ -1,12 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2019-25103</font><br/>[<b>披露时间</b>] 2023-02-12 20:38:11<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454726'>http://cve.scap.org.cn/vuln/VHN-454726</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0680</font><br/>[<b>披露时间</b>] 2023-02-12 02:07:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454284'>http://cve.scap.org.cn/vuln/VHN-454284</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36661</font><br/>[<b>披露时间</b>] 2023-02-12 02:07:38<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454741'>http://cve.scap.org.cn/vuln/VHN-454741</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0680</font><br/>[<b>披露时间</b>] 2023-02-12 21:15:00<br/>[<b>漏洞描述</b>] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate is unused by its CNA. Notes: none.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0680'>https://www.tenable.com/cve/CVE-2023-0680</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36661</font><br/>[<b>披露时间</b>] 2023-02-12 21:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Kong lua-multipart 0.5.8-1. It has been declared as problematic. This vulnerability affects the function is_header of the file src/multipart.lua. The manipulation leads to inefficient regular expression complexity. Upgrading to version 0.5.9-1 is able to address this issue. The name of the patch is d632e5df43a2928fd537784a99a79dec288bf01b. It is recommended to upgrade the affected component. VDB-220642 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-36661'>https://www.tenable.com/cve/CVE-2020-36661</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++

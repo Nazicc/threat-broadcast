@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-12 20:38:24 -->
+<!-- RELEASE TIME : 2023-02-13 02:07:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">43db982fe469c40d40a024f3965f3238</td>
+       <td>CVE-2023-0680</td>
+       <td>2023-02-12 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate is unused by its CNA. Notes: none.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0680">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">53bbae8ff543d91e684e2cd30a7ecd9a</td>
+       <td>CVE-2020-36661</td>
+       <td>2023-02-12 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in Kong lua-multipart 0.5.8-1. It has been declared as problematic. This vulnerability affects the function is_header of the file src/multipart.lua. The manipulation leads to inefficient regular expression complexity. Upgrading to version 0.5.9-1 is able to address this issue. The name of the patch is d632e5df43a2928fd537784a99a79dec288bf01b. It is recommended to upgrade the affected component. VDB-220642 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-36661">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d1b1566b424028493a369b44a3f01e32</td>
        <td>CVE-2019-25103</td>
        <td>2023-02-12 15:15:00 <img src="imgs/new.gif" /></td>
@@ -466,7 +482,7 @@
       <tr>
        <td scope="row">a6dd63548b055e9887ba59acc4098972</td>
        <td>CVE-2023-0783</td>
-       <td>2023-02-11 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 18:15:00</td>
        <td>A vulnerability was found in EcShop 4.1.5. It has been classified as critical. This affects an unknown part of the file /ecshop/admin/template.php of the component PHP File Handler. The manipulation leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-220641 was assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0783">详情</a></td>
       </tr>
@@ -474,7 +490,7 @@
       <tr>
        <td scope="row">6da5f5efb3cf59f6e1f2ec9a746bd5da</td>
        <td>CVE-2023-0782</td>
-       <td>2023-02-11 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 18:15:00</td>
        <td>A vulnerability was found in Tenda AC23 16.03.07.45 and classified as critical. Affected by this issue is the function formSetSysToolDDNS/formGetSysToolDDNS of the file /bin/httpd. The manipulation leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-220640.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0782">详情</a></td>
       </tr>
@@ -482,7 +498,7 @@
       <tr>
        <td scope="row">278a33fcfdf5841f48e33011cf47ee0e</td>
        <td>CVE-2023-0127</td>
-       <td>2023-02-11 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 18:15:00</td>
        <td>A command injection vulnerability in the firmware_update command, in the device's restricted telnet interface, allows an authenticated attacker to execute arbitrary commands as root.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0127">详情</a></td>
       </tr>
@@ -490,7 +506,7 @@
       <tr>
        <td scope="row">1468a804f469c82775313519478f1137</td>
        <td>CVE-2023-0781</td>
-       <td>2023-02-11 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 13:15:00</td>
        <td>A vulnerability was found in SourceCodester Canteen Management System 1.0. It has been declared as critical. This vulnerability affects the function query of the file removeOrder.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-220624.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0781">详情</a></td>
       </tr>
@@ -498,25 +514,9 @@
       <tr>
        <td scope="row">3fb49cb91ad7253a907eeb611e5aafb5</td>
        <td>CVE-2023-0780</td>
-       <td>2023-02-11 02:20:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 02:20:00</td>
        <td>Improper Restriction of Rendered UI Layers or Frames in GitHub repository cockpit-hq/cockpit prior to 2.3.9-dev.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0780">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c35d2e312c17b161c21ba40c14311030</td>
-       <td>CVE-2023-25562</td>
-       <td>2023-02-11 01:23:00 <img src="imgs/new.gif" /></td>
-       <td>DataHub is an open-source metadata platform. In versions of DataHub prior to 0.8.45 Session cookies are only cleared on new sign-in events and not on logout events. Any authentication checks using the `AuthUtils.hasValidSessionCookie()` method could be bypassed by using a cookie from a logged out session, as a result any logged out session cookie may be accepted as valid and therefore lead to an authentication bypass to the system. Users are advised to upgrade. There are no known workarounds for this issue. This vulnerability was discovered and reported by the GitHub Security lab and is tracked as GHSL-2022-083.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25562">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68b0d67a63cb8674903060031ed32ad8</td>
-       <td>CVE-2023-25561</td>
-       <td>2023-02-11 01:23:00 <img src="imgs/new.gif" /></td>
-       <td>DataHub is an open-source metadata platform. In the event a system is using Java Authentication and Authorization Service (JAAS) authentication and that system is given a configuration which contains an error, the authentication for the system will fail open and allow an attacker to login using any username and password. The reason for this is that while an error is thrown in the `authenticateJaasUser` method it is swallowed without propagating the error. As a result of this issue unauthenticated users may gain access to the system. Users are advised to upgrade. There are no known workarounds for this issue. This vulnerability was discovered and reported by the GitHub Security lab and is tracked as GHSL-2022-081.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25561">详情</a></td>
       </tr>
 
      </tbody>
@@ -741,9 +741,27 @@
       </tr>
 
       <tr>
+       <td scope="row">9ff3485c763e4cb6bd616db4ea4e3b7f</td>
+       <td>CVE-2023-0680</td>
+       <td>2023-02-12 02:07:38 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454284">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1bd8f9f159987d3d47291d0ffb34cc1b</td>
+       <td>CVE-2020-36661</td>
+       <td>2023-02-12 02:07:38 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454741">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d8d60a9e41241b52309e3d0c3b3ee389</td>
        <td>CVE-2023-0127</td>
-       <td>2023-02-11 21:37:49 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 21:37:49</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-450962">详情</a></td>
@@ -752,7 +770,7 @@
       <tr>
        <td scope="row">41f9728c212e4b59cf8dbd724196f4e8</td>
        <td>CVE-2023-0783</td>
-       <td>2023-02-11 21:37:49 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 21:37:49</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454737">详情</a></td>
@@ -761,7 +779,7 @@
       <tr>
        <td scope="row">44f933ee9fb34fa33bddb6a0c5b54d29</td>
        <td>CVE-2023-0782</td>
-       <td>2023-02-11 21:37:49 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 21:37:49</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454738">详情</a></td>
@@ -770,7 +788,7 @@
       <tr>
        <td scope="row">0c412d175b27f0f9d8f7414d630e5a86</td>
        <td>CVE-2023-0781</td>
-       <td>2023-02-11 21:37:49 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 21:37:49</td>
        <td>A vulnerability was found in SourceCodester...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454734">详情</a></td>
@@ -779,28 +797,10 @@
       <tr>
        <td scope="row">a1d376ea42c349215ab39f8e212712fc</td>
        <td>CVE-2023-0780</td>
-       <td>2023-02-11 16:44:45 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 16:44:45</td>
        <td>Improper Restriction of Rendered UI Layers or...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454733">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">244c0ad43d9c6ce2fad4abbe91466844</td>
-       <td>CVE-2022-34384</td>
-       <td>2023-02-11 16:44:45 <img src="imgs/new.gif" /></td>
-       <td>Dell SupportAssist Client Consumer (version...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426700">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3057feaf4d56063f1a0756b55063806b</td>
-       <td>CVE-2022-34385</td>
-       <td>2023-02-11 16:44:45 <img src="imgs/new.gif" /></td>
-       <td>SupportAssist for Home PCs (version 3.11.4 and...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-426701">详情</a></td>
       </tr>
 
      </tbody>
@@ -1962,7 +1962,7 @@
       <tr>
        <td scope="row">37fca4f7823034dd39a59bc14a3e37fa</td>
        <td>CVE-2023-0609</td>
-       <td>2023-02-11 20:33:56 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:56</td>
        <td>WALLABAG WALLABAG Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c5d48f4a69c6452bb6f90a6f9b079441">详情</a></td>
       </tr>
@@ -1970,7 +1970,7 @@
       <tr>
        <td scope="row">c131ccd50fe4f2fb4e3a3f6e400c4ef0</td>
        <td>CVE-2023-23692</td>
-       <td>2023-02-11 20:33:50 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:50</td>
        <td>DELL EMC_DATA_DOMAIN_OS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7ff0c2383356430787bca99feaaed264">详情</a></td>
       </tr>
@@ -1978,7 +1978,7 @@
       <tr>
        <td scope="row">481b54400f34f5c32c9e72d6d6d753df</td>
        <td>CVE-2023-0611</td>
-       <td>2023-02-11 20:33:43 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:43</td>
        <td>TRENDNET TEW-652BRP_FIRMWARE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2ca74e11ff394345810a918ea39a525c">详情</a></td>
       </tr>
@@ -1986,7 +1986,7 @@
       <tr>
        <td scope="row">2f9477c0bdbb42dc9a56da4fe5a55711</td>
        <td>CVE-2022-22486</td>
-       <td>2023-02-11 20:33:38 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:38</td>
        <td>IBM TIVOLI_WORKLOAD_SCHEDULER Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=998efb452e28436c8dd9bca34b5be4f1">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">632a492fc14b2923e1c698b771bc34ea</td>
        <td>CVE-2023-22575</td>
-       <td>2023-02-11 20:33:32 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:32</td>
        <td>DELL EMC_POWERSCALE_ONEFS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ff7aa0444ef34ae0a3c02ef093bd668d">详情</a></td>
       </tr>
@@ -2002,7 +2002,7 @@
       <tr>
        <td scope="row">684bd85b0e95136317bc41f84cacbeab</td>
        <td>CVE-2023-0610</td>
-       <td>2023-02-11 20:33:26 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:26</td>
        <td>WALLABAG WALLABAG Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ce3c0511ad8f47e1a73f0f2dfd44ee56">详情</a></td>
       </tr>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">757fe8a18456825b4dd0ef23687a02f1</td>
        <td>CVE-2023-23076</td>
-       <td>2023-02-11 20:33:19 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:19</td>
        <td>ZOHOCORP MANAGEENGINE_SUPPORTCENTER_PLUS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=88c321e58a2c418b8614fb37a0c67007">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">d84418202e7ea19f8eb029be5068dc57</td>
        <td>CVE-2023-22573</td>
-       <td>2023-02-11 20:33:13 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:13</td>
        <td>DELL EMC_POWERSCALE_ONEFS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fe1b042e633a40a495b9aff68d4c7c8a">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">5b4fb440245c3d78107bfe708374a278</td>
        <td>CVE-2023-23750</td>
-       <td>2023-02-11 20:33:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:07</td>
        <td>JOOMLA JOOMLA\! Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5659a0ec07684621bc198bd1dad09f90">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">b8377ff36a9d03476677ace75a8ade43</td>
        <td>CVE-2023-0618</td>
-       <td>2023-02-11 20:33:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-11 20:33:00</td>
        <td>TRENDNET TEW-652BRP_FIRMWARE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=34551fb5c4af40a2bd3230033e8fcd8f">详情</a></td>
       </tr>
