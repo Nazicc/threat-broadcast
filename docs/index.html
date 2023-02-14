@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-14 21:38:14 -->
+<!-- RELEASE TIME : 2023-02-14 23:38:29 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7c09575c2713582d3ffe0fd41edea610</td>
+       <td>CVE-2023-25577</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Werkzeug is a comprehensive WSGI web application library. Prior to version 2.2.3, Werkzeug's multipart form data parser will parse an unlimited number of parts, including file parts. Parts can be a small amount of bytes, but each requires CPU time to parse and may use more memory as Python data. If a request can be made to an endpoint that accesses `request.data`, `request.form`, `request.files`, or `request.get_data(parse_form_data=False)`, it can cause unexpectedly high resource usage. This allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. Unlimited file parts can use up memory and file handles. If many concurrent requests are sent continuously, this can exhaust or kill all available workers. Version 2.2.3 contains a patch for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25577">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8930fab2d46496bb7683663de9fd1403</td>
+       <td>CVE-2023-23946</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Git, a revision control system, is vulnerable to path traversal prior to versions 2.39.2, 2.38.4, 2.37.6, 2.36.5, 2.35.7, 2.34.7, 2.33.7, 2.32.6, 2.31.7, and 2.30.8. By feeding a crafted input to `git apply`, a path outside the working tree can be overwritten as the user who is running `git apply`. A fix has been prepared and will appear in v2.39.2, v2.38.4, v2.37.6, v2.36.5, v2.35.7, v2.34.7, v2.33.7, v2.32.6, v2.31.7, and v2.30.8. As a workaround, use `git apply --stat` to inspect a patch before applying; avoid applying one that creates a symbolic link and then creates a file beyond the symbolic link.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23946">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">83bd53d32faee60555acaa79a159ff6c</td>
+       <td>CVE-2023-23934</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Werkzeug is a comprehensive WSGI web application library. Browsers may allow "nameless" cookies that look like `=value` instead of `key=value`. A vulnerable browser may allow a compromised application on an adjacent subdomain to exploit this to set a cookie like `=__Host-test=bad` for another subdomain. Werkzeug prior to 2.2.3 will parse the cookie `=__Host-test=bad` as __Host-test=bad`. If a Werkzeug application is running next to a vulnerable or malicious subdomain which sets such a cookie using a vulnerable browser, the Werkzeug application will see the bad cookie value but the valid cookie key. The issue is fixed in Werkzeug 2.2.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23934">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7884b5089d4fb34764493402aa33fb94</td>
+       <td>CVE-2023-23390</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>3D Builder Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23390">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">558037cc20a105180d44fb790798e7f3</td>
+       <td>CVE-2023-23382</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Azure Machine Learning Compute Instance Information Disclosure Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23382">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e263c3dd5cce19d9f827c8385966ee6</td>
+       <td>CVE-2023-23379</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Defender for IoT Elevation of Privilege Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23379">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e724fca534ff465e237d8910eb75edc3</td>
+       <td>CVE-2023-23378</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Print 3D Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23378">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d17c17573b170e3eae1a99f5561e3939</td>
+       <td>CVE-2023-23377</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>3D Builder Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23377">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d26db58da4761f6e1c999a0700091e6c</td>
+       <td>CVE-2023-23376</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Windows Common Log File System Driver Elevation of Privilege Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23376">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">67e6caa1ebd78d67a8443bd6fa7e1b84</td>
+       <td>CVE-2023-23374</td>
+       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23374">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7db1e632b7a765542e5deb3e247da314</td>
        <td>CVE-2023-25571</td>
        <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-02-14 13:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 1.5.17.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0827">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5fae230e6f618305c8524a9d7c96d727</td>
-       <td>CVE-2023-25065</td>
-       <td>2023-02-14 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in ShapedPlugin WP Tabs – Responsive Tabs Plugin for WordPress plugin <= 2.1.14 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25065">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0541d96f2a92da2a94018a845f69ad1e</td>
-       <td>CVE-2023-24382</td>
-       <td>2023-02-14 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in Photon WP Material Design Icons for Page Builders plugin <= 1.4.2 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24382">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a20e231c30a599d80a556c4f7997ff08</td>
-       <td>CVE-2023-24377</td>
-       <td>2023-02-14 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in Ecwid Ecommerce Ecwid Ecommerce Shopping Cart plugin <= 6.11.3 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24377">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">39c89f9db41cffb0b1023da3e85e0b90</td>
-       <td>CVE-2022-46862</td>
-       <td>2023-02-14 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in ExpressTech Quiz And Survey Master – Best Quiz, Exam and Survey Plugin for WordPress plugin <= 8.0.7 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46862">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e61c7a5e37c6215992fbbd1de436eb0b</td>
-       <td>CVE-2023-25140</td>
-       <td>2023-02-14 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Parasolid V34.0 (All versions < V34.0.254), Parasolid V34.1 (All versions < V34.1.242), Parasolid V35.0 (All versions < V35.0.170), Parasolid V35.1 (All versions < V35.1.150), Solid Edge SE2022 (All versions < V2210Update12). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25140">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">553c44809550260e41e4a55295091f4b</td>
-       <td>CVE-2023-24996</td>
-       <td>2023-02-14 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Tecnomatix Plant Simulation (All versions < V2201.0006). The affected application contains an out of bounds write past the end of an allocated buffer while parsing a specially crafted SPP file. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-19818)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24996">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f45b97de28b121332e2f6f52342c9e89</td>
-       <td>CVE-2023-24995</td>
-       <td>2023-02-14 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Tecnomatix Plant Simulation (All versions < V2201.0006). The affected application contains an out of bounds write past the end of an allocated buffer while parsing a specially crafted SPP file. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-19817)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24995">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4e2943758e69c1d5a11163bb486498f1</td>
-       <td>CVE-2023-24994</td>
-       <td>2023-02-14 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Tecnomatix Plant Simulation (All versions < V2201.0006). The affected application contains an out of bounds write past the end of an allocated buffer while parsing a specially crafted SPP file. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-19816)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24994">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fa44cd40886ad85f78f0a226a258a8dd</td>
-       <td>CVE-2023-24993</td>
-       <td>2023-02-14 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Tecnomatix Plant Simulation (All versions < V2201.0006). The affected application contains an out of bounds write past the end of an allocated buffer while parsing a specially crafted SPP file. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-19815)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24993">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8ed26aeacb134320227573d8251f43a3</td>
-       <td>CVE-2023-24992</td>
-       <td>2023-02-14 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been identified in Tecnomatix Plant Simulation (All versions < V2201.0006). The affected application contains an out of bounds write past the end of an allocated buffer while parsing a specially crafted SPP file. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-19814)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24992">详情</a></td>
       </tr>
 
      </tbody>
@@ -2436,6 +2436,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9f4d4bd9c87b47df15168cf2ccb5476d</td>
+       <td>CVE-2023-0776</td>
+       <td>2023-02-11 01:23:26 </td>
+       <td>Baicells Nova 436Q, Nova 430E, Nova 430I, and Neutrino 430 LTE TDD eNodeB devices with firmware through QRTB 2.12.7 are vulnerable to remote shell code exploitation via HTTP command injections. Commands are executed using pre-login execution and executed with root permissions. The following methods below have been tested and validated by a 3rd party analyst and has been confirmed exploitable special thanks to Rustam Amin for providing the steps to reproduce.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0776">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1d2867a4310f6119c4e988950d0f200e</td>
+       <td>CVE-2023-0726</td>
+       <td>2023-02-08 02:15:08 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_edit_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0726">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5d77c2f60fe8055291c0dc8b33b2a5cb</td>
+       <td>CVE-2023-0725</td>
+       <td>2023-02-08 02:15:08 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_clone_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0725">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b1f3c9d6ab24f27e0221f01a628a05c2</td>
+       <td>CVE-2023-0724</td>
+       <td>2023-02-08 02:15:08 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_add_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0724">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6da3ce9bfa26b1b149de5bef0016a46c</td>
+       <td>CVE-2023-0730</td>
+       <td>2023-02-07 23:15:09 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_save_folder_order function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0730">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c24c270079e0664da2144a7383456684</td>
+       <td>CVE-2023-0727</td>
+       <td>2023-02-07 23:15:09 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_delete_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0727">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5c48ba9c14083c13c95d805477b420ce</td>
+       <td>CVE-2023-0723</td>
+       <td>2023-02-07 23:15:09 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_move_object function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0723">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">27298f93a3ce4b24f06253070c20e343</td>
+       <td>CVE-2023-0728</td>
+       <td>2023-02-07 22:15:11 </td>
+       <td>The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_save_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0728">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2f2ae72bcbefcde9e1eb5fa1a167c673</td>
+       <td>CVE-2023-20604</td>
+       <td>2023-02-06 20:15:14 </td>
+       <td>In ged, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07494067; Issue ID: ALPS07494067.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-20604">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d988752fdc1b75e8409d3c76ee05ecc9</td>
+       <td>CVE-2023-20602</td>
+       <td>2023-02-06 20:15:14 </td>
+       <td>In ged, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07494107; Issue ID: ALPS07494107.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-20602">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bbc58223aa6b0b317d4461ba8f742594</td>
        <td>CVE-2023-24192</td>
        <td>2023-02-06 15:15:10 </td>
@@ -2593,86 +2673,6 @@
        <td>2023-02-03 16:15:12 </td>
        <td>TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the NetDiagTracertHop parameter in the setNetworkDiag function.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24143">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd3b4b4294f4aa0153e4e8f5f75c2db3</td>
-       <td>CVE-2023-24142</td>
-       <td>2023-02-03 16:15:12 </td>
-       <td>TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the NetDiagPingSize parameter in the setNetworkDiag function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24142">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0dc4b113d2b8f0f14697de7d3a7a8685</td>
-       <td>CVE-2023-24139</td>
-       <td>2023-02-03 16:15:11 </td>
-       <td>TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the NetDiagHost parameter in the setNetworkDiag function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24139">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d946218c5eb4df7a3ec6fb24c9d74dc0</td>
-       <td>CVE-2023-24138</td>
-       <td>2023-02-03 16:15:11 </td>
-       <td>TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the host_time parameter in the NTPSyncWithHost function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24138">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">38e8064e5f31f4b97ce80f231bb8338f</td>
-       <td>CVE-2023-24141</td>
-       <td>2023-02-03 16:15:11 </td>
-       <td>TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the NetDiagPingTimeOut parameter in the setNetworkDiag function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24141">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c2712afb7c4a8bc671c9b944e5b44bf7</td>
-       <td>CVE-2023-24140</td>
-       <td>2023-02-03 16:15:11 </td>
-       <td>TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the NetDiagPingNum parameter in the setNetworkDiag function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24140">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e7f1f1e1f76f468ff0cc185ae750845b</td>
-       <td>CVE-2023-25139</td>
-       <td>2023-02-03 06:15:09 </td>
-       <td>sprintf in the GNU C Library (glibc) 2.37 has a buffer overflow (out-of-bounds write) in some situations with a correct buffer size. This is unrelated to CWE-676. It may write beyond the bounds of the destination buffer when attempting to write a padded, thousands-separated string representation of a number, if the buffer is allocated the exact size required to represent that number as a string. For example, 1,234,567 (with padding to 13) overflows by two bytes.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25139">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">39ad768d771c39dc49e9ed3ea816444f</td>
-       <td>CVE-2023-25136</td>
-       <td>2023-02-03 06:15:09 </td>
-       <td>OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be triggered by an unauthenticated attacker in the default configuration. One third-party report states &quot;remote code execution is theoretically possible.&quot;</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25136">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ab36e77a4054f61a11942cb8761d03e0</td>
-       <td>CVE-2023-25136</td>
-       <td>2023-02-03 06:15:09 </td>
-       <td>OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25136">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9b4f99ce0167b626678721be277a509f</td>
-       <td>CVE-2023-25135</td>
-       <td>2023-02-03 05:15:10 </td>
-       <td>vBulletin before 5.6.9 PL1 allows an unauthenticated remote attacker to execute arbitrary code via a crafted HTTP request that triggers deserialization. This occurs because verify_serialized checks that a value is serialized by calling unserialize and then checking for errors. The fixed versions are 5.6.7 PL1, 5.6.8 PL1, and 5.6.9 PL1.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25135">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">267598acaaf03e1fa2e203d1e26ba170</td>
-       <td>CVE-2023-24613</td>
-       <td>2023-02-03 02:15:07 </td>
-       <td>The user interface of Array Networks AG Series and vxAG through 9.4.0.470 could allow a remote attacker to use the gdb tool to overwrite the backend function call stack after accessing the system with administrator privileges. A successful exploit could leverage this vulnerability in the backend binary file that handles the user interface to a cause denial of service attack. This is fixed in AG 9.4.0.481.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24613">详情</a></td>
       </tr>
 
      </tbody>
