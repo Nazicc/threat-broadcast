@@ -1,30 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25149</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454074'>http://cve.scap.org.cn/vuln/VHN-454074</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25141</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454066'>http://cve.scap.org.cn/vuln/VHN-454066</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0827</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454892'>http://cve.scap.org.cn/vuln/VHN-454892</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46862</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF)...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-447530'>http://cve.scap.org.cn/vuln/VHN-447530</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24377</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF)...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453011'>http://cve.scap.org.cn/vuln/VHN-453011</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24382</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF)...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453016'>http://cve.scap.org.cn/vuln/VHN-453016</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25065</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF)...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453970'>http://cve.scap.org.cn/vuln/VHN-453970</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31808</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] A vulnerability has been identified in SiPass...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-423677'>http://cve.scap.org.cn/vuln/VHN-423677</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35868</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] A vulnerability has been identified in TIA...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-432113'>http://cve.scap.org.cn/vuln/VHN-432113</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47936</font><br/>[<b>披露时间</b>] 2023-02-14 16:49:11<br/>[<b>漏洞描述</b>] A vulnerability has been identified in JT Open......
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449673'>http://cve.scap.org.cn/vuln/VHN-449673</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25149</font><br/>[<b>披露时间</b>] 2023-02-14 14:15:00<br/>[<b>漏洞描述</b>] TimescaleDB, an open-source time-series SQL database, has a privilege escalation vulnerability in versions 2.8.0 through 2.9.2. During installation, TimescaleDB creates a telemetry job that is runs as the installation user. The queries run as part of the telemetry data collection were not run with a locked down `search_path`, allowing malicious users to create functions that would be executed by the telemetry job, leading to privilege escalation. In order to be able to take advantage of this vulnerability, a user would need to be able to create objects in a database and then get a superuser to install TimescaleDB into their database. When TimescaleDB is installed as trusted extension, non-superusers can install the extension without help from a superuser. Version 2.9.3 fixes this issue. As a mitigation, the `search_path` of the user running the telemetry job can be locked down to not include schemas writable by other users. The vulnerability is not exploitable on instances in Timescale Cloud and Managed Service for TimescaleDB due to additional security provisions in place on those platforms.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25149'>https://www.tenable.com/cve/CVE-2023-25149</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25141</font><br/>[<b>披露时间</b>] 2023-02-14 13:15:00<br/>[<b>漏洞描述</b>] Apache Sling JCR Base < 3.1.12 has a critical injection vulnerability when running on old JDK versions (JDK 1.8.191 or earlier) through utility functions in RepositoryAccessor. The functions getRepository and getRepositoryFromURL allow an application to access data stored in a remote location via JDNI and RMI. Users of Apache Sling JCR Base are recommended to upgrade to Apache Sling JCR Base 3.1.12 or later, or to run on a more recent JDK.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25141'>https://www.tenable.com/cve/CVE-2023-25141</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0827</font><br/>[<b>披露时间</b>] 2023-02-14 13:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 1.5.17.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0827'>https://www.tenable.com/cve/CVE-2023-0827</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
