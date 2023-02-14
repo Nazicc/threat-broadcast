@@ -1,36 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08776 (CVE-2022-3998)</font><br/>[<b>披露时间</b>] 2023-02-14 08:42:45<br/>[<b>漏洞描述</b>] MonikaBrzica scm SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08776'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08776</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08773 (CVE-2022-3941)</font><br/>[<b>披露时间</b>] 2023-02-14 08:42:47<br/>[<b>漏洞描述</b>] WordPress Zoho Activity Log输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08773'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08773</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08771 (CVE-2022-31772)</font><br/>[<b>披露时间</b>] 2023-02-14 08:42:49<br/>[<b>漏洞描述</b>] IBM MQ输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08771'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08771</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08774 (CVE-2022-43222)</font><br/>[<b>披露时间</b>] 2023-02-14 08:42:52<br/>[<b>漏洞描述</b>] Open5GS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08774'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08774</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08775 (CVE-2022-43221)</font><br/>[<b>披露时间</b>] 2023-02-14 08:42:54<br/>[<b>漏洞描述</b>] Open5GS拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08775'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08775</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0019</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449512'>http://cve.scap.org.cn/vuln/VHN-449512</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0020</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449513'>http://cve.scap.org.cn/vuln/VHN-449513</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0024</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449607'>http://cve.scap.org.cn/vuln/VHN-449607</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0025</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-449608'>http://cve.scap.org.cn/vuln/VHN-449608</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23851</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452405'>http://cve.scap.org.cn/vuln/VHN-452405</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23852</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452406'>http://cve.scap.org.cn/vuln/VHN-452406</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23853</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452407'>http://cve.scap.org.cn/vuln/VHN-452407</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23854</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452408'>http://cve.scap.org.cn/vuln/VHN-452408</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23855</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452409'>http://cve.scap.org.cn/vuln/VHN-452409</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23856</font><br/>[<b>披露时间</b>] 2023-02-14 08:44:02<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-452410'>http://cve.scap.org.cn/vuln/VHN-452410</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25758</font><br/>[<b>披露时间</b>] 2023-02-14 13:02:55<br/>[<b>漏洞描述</b>] Untitled vulnerability
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454878'>http://cve.scap.org.cn/vuln/VHN-454878</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43469</font><br/>[<b>披露时间</b>] 2023-02-14 13:02:55<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-440520'>http://cve.scap.org.cn/vuln/VHN-440520</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25066</font><br/>[<b>披露时间</b>] 2023-02-14 13:02:55<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
+                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453971'>http://cve.scap.org.cn/vuln/VHN-453971</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25758</font><br/>[<b>披露时间</b>] 2023-02-14 07:15:00<br/>[<b>漏洞描述</b>] Onekey Touch devices through 4.0.0 and Onekey Mini devices through 2.10.0 allow man-in-the-middle attackers to obtain the seed phase. The man-in-the-middle access can only be obtained after disassembling a device (i.e., here, "man-in-the-middle" does not refer to the attacker's position on an IP network). NOTE: the vendor states that "our hardware team has updated the security patch without anyone being affected."<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25758'>https://www.tenable.com/cve/CVE-2023-25758</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25066</font><br/>[<b>披露时间</b>] 2023-02-14 06:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in FolioVision FV Flowplayer Video Player plugin <= 7.5.30.7212 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25066'>https://www.tenable.com/cve/CVE-2023-25066</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43469</font><br/>[<b>披露时间</b>] 2023-02-14 06:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in Orchestrated Corona Virus (COVID-19) Banner & Live Data plugin <= 1.7.0.6 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-43469'>https://www.tenable.com/cve/CVE-2022-43469</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
