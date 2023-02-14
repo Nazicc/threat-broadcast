@@ -1,30 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3411</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-431048'>http://cve.scap.org.cn/vuln/VHN-431048</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3759</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-433453'>http://cve.scap.org.cn/vuln/VHN-433453</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4138</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-437541'>http://cve.scap.org.cn/vuln/VHN-437541</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0518</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-453243'>http://cve.scap.org.cn/vuln/VHN-453243</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0795</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454796'>http://cve.scap.org.cn/vuln/VHN-454796</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0796</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454797'>http://cve.scap.org.cn/vuln/VHN-454797</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0797</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454798'>http://cve.scap.org.cn/vuln/VHN-454798</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0798</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454799'>http://cve.scap.org.cn/vuln/VHN-454799</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0799</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454800'>http://cve.scap.org.cn/vuln/VHN-454800</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0800</font><br/>[<b>披露时间</b>] 2023-02-13 04:43:17<br/>[<b>漏洞描述</b>] RESERVED CVE CANDIDATE NUMBER...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-454801'>http://cve.scap.org.cn/vuln/VHN-454801</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08751 (CVE-2022-38418)</font><br/>[<b>披露时间</b>] 2023-02-14 06:42:52<br/>[<b>漏洞描述</b>] Adobe ColdFusion路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08751'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08751</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08752 (CVE-2022-35712)</font><br/>[<b>披露时间</b>] 2023-02-14 06:42:54<br/>[<b>漏洞描述</b>] Adobe ColdFusion缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08752'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08752</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08753 (CVE-2022-38423)</font><br/>[<b>披露时间</b>] 2023-02-14 06:42:56<br/>[<b>漏洞描述</b>] Adobe ColdFusion路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08753'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08753</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08754 (CVE-2022-38424)</font><br/>[<b>披露时间</b>] 2023-02-14 06:42:59<br/>[<b>漏洞描述</b>] Adobe ColdFusion路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08754'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08754</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08755 (CVE-2022-38420)</font><br/>[<b>披露时间</b>] 2023-02-14 06:43:01<br/>[<b>漏洞描述</b>] Adobe ColdFusion信任管理问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08755'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08755</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08756 (CVE-2022-42341)</font><br/>[<b>披露时间</b>] 2023-02-14 06:43:03<br/>[<b>漏洞描述</b>] Adobe ColdFusion XML外部实体注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08756'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08756</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-08757 (CVE-2022-38419)</font><br/>[<b>披露时间</b>] 2023-02-14 06:43:06<br/>[<b>漏洞描述</b>] Adobe ColdFusion XML外部实体注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-08757'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-08757</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25136</font><br/>[<b>披露时间</b>] 2023-02-03 06:15:09 <br/>[<b>漏洞描述</b>] OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25136'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25136</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24574</font><br/>[<b>披露时间</b>] 2023-02-02 21:22:49 <br/>[<b>漏洞描述</b>] Dell Enterprise SONiC OS, 3.5.3, 4.0.0, 4.0.1, 4.0.2, contains an &quot;Uncontrolled Resource Consumption vulnerability&quot; in authentication component. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to uncontrolled resource consumption by creating permanent home directories for unauthenticated users.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24574'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24574</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
