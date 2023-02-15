@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-15 04:42:08 -->
+<!-- RELEASE TIME : 2023-02-15 06:42:29 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">90fcfc57164e66cbf24487743687a11d</td>
+       <td>CVE-2022-25978</td>
+       <td>2023-02-15 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of the package github.com/usememos/memos/server are vulnerable to Cross-site Scripting (XSS) due to insufficient checks on external resources, which allows malicious actors to introduce links starting with a javascript: scheme.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25978">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">47c2c0da0ba0dd7001fccba599101d53</td>
+       <td>CVE-2023-25011</td>
+       <td>2023-02-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>PC settings tool Ver10.1.26.0 and earlier, PC settings tool Ver11.0.22.0 and earlier allows a attacker to write to the registry as administrator privileges with standard user privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25011">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">49e4fe04e918f865223bfbcffe28b3b3</td>
+       <td>CVE-2022-47373</td>
+       <td>2023-02-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Reflected Cross Site Scripting in Search Functionality of Module Library in Pandora FMS Console v766 and lower. This vulnerability arises on the forget password functionality in which parameter username does not proper input validation/sanitization thus results in executing malicious JavaScript payload.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47373">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fe6a326ab317367ad864140ed0bca55c</td>
+       <td>CVE-2022-47372</td>
+       <td>2023-02-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Stored cross-site scripting vulnerability in the Create event section in Pandora FMS Console v766 and lower. An attacker typically exploits this vulnerability by injecting XSS payloads on popular pages of a site or passing a link to a victim, tricking them into viewing the page that contains the stored XSS payload.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47372">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8174fb6b6c5d1f5ae227c2cfb18c1e00</td>
+       <td>CVE-2022-45437</td>
+       <td>2023-02-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Artica PFMS Pandora FMS v765 on all allows Cross-Site Scripting (XSS). A user with edition privileges can create a Payload in the reporting dashboard module. An admin user can observe the Payload without interaction and attacker can get information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45437">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">112922ce255b3fb824d6b91c2dade577</td>
+       <td>CVE-2022-45436</td>
+       <td>2023-02-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Artica PFMS Pandora FMS v765 on all platforms, allows Cross-Site Scripting (XSS). As a manager privilege user , create a network map containing name as xss payload. Once created, admin user must click on the edit network maps and XSS payload will be executed, which could be used for stealing admin users cookie value.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45436">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f63c07f32bdf5833eca5ba97c4cfe6c5</td>
+       <td>CVE-2023-20949</td>
+       <td>2023-02-15 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>In s2mpg11_pmic_probe of s2mpg11-regulator.c, there is a possible out of bounds read due to a heap buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-259323133References: N/A</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20949">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79a05ba0a6e0a68241960dadf44df365</td>
+       <td>CVE-2023-20927</td>
+       <td>2023-02-15 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>In permissions of AndroidManifest.xml, there is a possible way to grant signature permissions due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-244216503</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20927">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f453c9e3ab6ea4f60d55e772f2fd7164</td>
+       <td>CVE-2022-32953</td>
+       <td>2023-02-15 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. DMA attacks on the SdHostDriver buffer used by SMM and non-SMM code could cause TOCTOU race-condition issues that could lead to corruption of SMRAM and escalation of privileges. This attack can be mitigated by using IOMMU protection for the ACPI runtime memory used for the command buffer. This attack can be mitigated by copying the link data to SMRAM before checking it and verifying that all pointers are within the buffer.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32953">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">82aef91e4fc856bb4f7450f439ed80f5</td>
+       <td>CVE-2022-32476</td>
+       <td>2023-02-15 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. DMA attacks on the AhciBusDxe shared buffer used by SMM and non-SMM code could cause TOCTOU race-condition issues that could lead to corruption of SMRAM and escalation of privileges. This attack can be mitigated using IOMMU protection for the ACPI runtime memory used for the command buffer. This attack can be mitigated by copying the firmware block services data to SMRAM before checking it.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32476">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">fc2726c67902de4e9f406e47c7f80cea</td>
        <td>CVE-2022-29557</td>
        <td>2023-02-15 00:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
        <td>Windows Common Log File System Driver Elevation of Privilege Vulnerability</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23376">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">67e6caa1ebd78d67a8443bd6fa7e1b84</td>
-       <td>CVE-2023-23374</td>
-       <td>2023-02-14 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23374">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7db1e632b7a765542e5deb3e247da314</td>
-       <td>CVE-2023-25571</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Backstage is an open platform for building developer portals. `@backstage/catalog-model` prior to version 1.2.0, `@backstage/core-components` prior to 0.12.4, and `@backstage/plugin-catalog-backend` prior to 1.7.2 are affected by a cross-site scripting vulnerability. This vulnerability allows a malicious actor with access to add or modify content in an instance of the Backstage software catalog to inject script URLs in the entities stored in the catalog. If users of the catalog then click on said URLs, that can lead to an XSS attack. This vulnerability has been patched in both the frontend and backend implementations. The default `Link` component from `@backstage/core-components` version 1.2.0 and greater will now reject `javascript:` URLs, and there is a global override of `window.open` to do the same. In addition, the catalog model v0.12.4 and greater as well as the catalog backend v1.7.2 and greater now has additional validation built in that prevents `javascript:` URLs in known annotations. As a workaround, the general practice of limiting access to modifying catalog content and requiring code reviews greatly help mitigate this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25571">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7360b26161da40b4446eb6f4b7981562</td>
-       <td>CVE-2023-25567</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>GSS-NTLMSSP, a mechglue plugin for the GSSAPI library that implements NTLM authentication, has an out-of-bounds read when decoding target information prior to version 1.2.0. The length of the `av_pair` is not checked properly for two of the elements which can trigger an out-of-bound read. The out-of-bounds read can be triggered via the main `gss_accept_sec_context` entry point and could cause a denial-of-service if the memory is unmapped. The issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25567">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cb8d64f665ee539b40fcf43dfa3b8fdc</td>
-       <td>CVE-2023-25566</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, a memory leak can be triggered when parsing usernames which can trigger a denial-of-service. The domain portion of a username may be overridden causing an allocated memory area the size of the domain name to be leaked. An attacker can leak memory via the main `gss_accept_sec_context` entry point, potentially causing a denial-of-service. This issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25566">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fe6a55fb37b68dfa368760dfd15e2707</td>
-       <td>CVE-2023-25565</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, an incorrect free when decoding target information can trigger a denial of service. The error condition incorrectly assumes the `cb` and `sh` buffers contain a copy of the data that needs to be freed. However, that is not the case. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point. This will likely trigger an assertion failure in `free`, causing a denial-of-service. This issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25565">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3985bbdab99848e59ee4efa755bb05ed</td>
-       <td>CVE-2023-25564</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, memory corruption can be triggered when decoding UTF16 strings. The variable `outlen` was not initialized and could cause writing a zero to an arbitrary place in memory if `ntlm_str_convert()` were to fail, which would leave `outlen` uninitialized. This can lead to a denial of service if the write hits unmapped memory or randomly corrupts a byte in the application memory space. This vulnerability can trigger an out-of-bounds write, leading to memory corruption. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point. This issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25564">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">59611b7db7424875c412373c46e9adba</td>
-       <td>CVE-2023-25563</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, multiple out-of-bounds reads when decoding NTLM fields can trigger a denial of service. A 32-bit integer overflow condition can lead to incorrect checks of consistency of length of internal buffers. Although most applications will error out before accepting a singe input buffer of 4GB in length this could theoretically happen. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point if the application allows tokens greater than 4GB in length. This can lead to a large, up to 65KB, out-of-bounds read which could cause a denial-of-service if it reads from unmapped memory. Version 1.2.0 contains a patch for the out-of-bounds reads.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25563">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">70b0ba1a03d3607ff18851d98b7bb104</td>
-       <td>CVE-2023-22943</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Splunk Add-on Builder (AoB) versions below 4.1.2 and the Splunk CloudConnect SDK versions below 3.1.3, requests to third-party APIs through the REST API Modular Input incorrectly revert to using HTTP to connect after a failure to connect over HTTPS occurs. The vulnerability affects AoB and apps that AoB generates when using the REST API Modular Input functionality through its user interface. The vulnerability also potentially affects third-party apps and add-ons that call the *cloudconnectlib.splunktacollectorlib.cloud_connect_mod_input* Python class directly.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22943">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd1c953afb8c8b7b9fd87deccd3c2dbe</td>
-       <td>CVE-2023-22942</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, a cross-site request forgery in the Splunk Secure Gateway (SSG) app in the ‘kvstore_client’ REST endpoint lets a potential attacker update SSG [App Key Value Store (KV store)](https://docs.splunk.com/Documentation/Splunk/latest/Admin/AboutKVstore) collections using an HTTP GET request. SSG is a Splunk-built app that comes with Splunk Enterprise. The vulnerability affects instances with SSG and Splunk Web enabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22942">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c549ff07a05eff3c7334a6a038f37bc8</td>
-       <td>CVE-2023-22941</td>
-       <td>2023-02-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted ‘INGEST_EVAL’ parameter in a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) crashes the Splunk daemon (splunkd).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22941">详情</a></td>
       </tr>
 
      </tbody>
@@ -2564,6 +2564,30 @@
       </tr>
 
       <tr>
+       <td scope="row">6a4c6883e0c901e23c01719e4bae4a44</td>
+       <td>CVE-2023-24827</td>
+       <td>2023-02-07 01:15:09 </td>
+       <td>syft is a a CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems. A password disclosure flaw was found in Syft versions v0.69.0 and v0.69.1. This flaw leaks the password stored in the SYFT_ATTEST_PASSWORD environment variable. The `SYFT_ATTEST_PASSWORD` environment variable is for the `syft attest` command to generate attested SBOMs for the given container image. This environment variable is used to decrypt the private key (provided with `syft attest --key &lt;path-to-key-file&gt;`) during the signing process while generating an SBOM attestation. This vulnerability affects users running syft that have the `SYFT_ATTEST_PASSWORD` environment variable set with credentials (regardless of if the attest command is being used or not). Users that do not have the environment variable `SYFT_ATTEST_PASSWORD` set are not affected by this issue. The credentials are leaked in two ways: in the syft logs when `-vv` or `-vvv` are used in the syft command (which is any log level &gt;= `DEBUG`) and in the attestation or SBOM only when the `syft-json` format is used. Note that as of v0.69.0 any generated attestations by the `syft attest` command are uploaded to the OCI registry (if you have write access to that registry) in the same way `cosign attach` is done. This means that any attestations generated for the affected versions of syft when the `SYFT_ATTEST_PASSWORD` environment variable was set would leak credentials in the attestation payload uploaded to the OCI registry. This issue has been patched in commit `9995950c70` and has been released as v0.70.0. There are no workarounds for this vulnerability. Users are advised to upgrade.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24827">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3667c8a8aba0a5bd33844df2c4f58030</td>
+       <td>CVE-2023-24808</td>
+       <td>2023-02-07 01:15:09 </td>
+       <td>PDFio is a C library for reading and writing PDF files. In versions prior to 1.1.0 a denial of service (DOS) vulnerability exists in the pdfio parser. Crafted pdf files can cause the program to run at 100% utilization and never terminate. The pdf which causes this crash found in testing is about 28kb in size and was discovered via fuzzing. Anyone who uses this library either as a standalone binary or as a library can be DOSed when attempting to parse this type of file. Web servers or other automated processes which rely on this code to turn pdf submissions into plaintext can be DOSed when an attacker uploads the pdf. Please see the linked GHSA for an example pdf. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24808">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6434ddcda484bbd5d47e04d33c34b92b</td>
+       <td>CVE-2023-25016</td>
+       <td>2023-02-06 21:15:09 </td>
+       <td>Couchbase Server before 6.6.6, 7.x before 7.0.5, and 7.1.x before 7.1.2 exposes Sensitive Information to an Unauthorized Actor.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25016">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2f2ae72bcbefcde9e1eb5fa1a167c673</td>
        <td>CVE-2023-20604</td>
        <td>2023-02-06 20:15:14 </td>
@@ -2593,6 +2617,14 @@
        <td>2023-02-06 19:15:10 </td>
        <td>A vulnerability was found in GNU C Library 2.38. It has been declared as critical. This vulnerability affects the function __monstartup of the file gmon.c of the component Call Graph Monitor. The manipulation leads to buffer overflow. It is recommended to apply a patch to fix this issue. VDB-220246 is the identifier assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0687">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">518eb865f2b9ec38019c05b7e93fc712</td>
+       <td>CVE-2023-24276</td>
+       <td>2023-02-06 15:15:11 </td>
+       <td>TOTOlink A7100RU(V7.4cu.2313_B20191024) was discovered to contain a command injection vulnerability via the country parameter at setting/delStaticDhcpRules.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24276">详情</a></td>
       </tr>
 
       <tr>
@@ -2641,38 +2673,6 @@
        <td>2023-02-03 18:15:16 </td>
        <td>Buffer OverFlow Vulnerability in MojoJson v1.2.3 allows an attacker to execute arbitrary code via the SkipString function.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23086">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e59c7b1fce051d7132060eba8b446d02</td>
-       <td>CVE-2023-24157</td>
-       <td>2023-02-03 16:15:15 </td>
-       <td>A command injection vulnerability in the serverIp parameter in the function updateWifiInfo of TOTOLINK T8 V4.1.5cu allows attackers to execute arbitrary commands via a crafted MQTT packet.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24157">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c7c3dff2d174d55dfbfd8d3f2be137df</td>
-       <td>CVE-2023-24156</td>
-       <td>2023-02-03 16:15:14 </td>
-       <td>A command injection vulnerability in the ip parameter in the function recvSlaveUpgstatus of TOTOLINK T8 V4.1.5cu allows attackers to execute arbitrary commands via a crafted MQTT packet.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24156">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a8c389c3827d7c6eda9156c5d1e303d2</td>
-       <td>CVE-2023-24155</td>
-       <td>2023-02-03 16:15:14 </td>
-       <td>TOTOLINK T8 V4.1.5cu was discovered to contain a hard code password for the telnet service which is stored in the component /web_cste/cgi-bin/product.ini.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24155">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1992832b17d0d89e5d08ddf7494148a9</td>
-       <td>CVE-2023-24154</td>
-       <td>2023-02-03 16:15:14 </td>
-       <td>TOTOLINK T8 V4.1.5cu was discovered to contain a command injection vulnerability via the slaveIpList parameter in the function setUpgradeFW.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24154">详情</a></td>
       </tr>
 
      </tbody>
