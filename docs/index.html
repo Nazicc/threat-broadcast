@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-16 19:38:05 -->
+<!-- RELEASE TIME : 2023-02-16 21:38:19 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">95c09ff3c13a8b58b8bedcf3fbb7a089</td>
+       <td>CVE-2023-24807</td>
+       <td>2023-02-16 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Undici is an HTTP/1.1 client for Node.js. Prior to version 5.19.1, the `Headers.set()` and `Headers.append()` methods are vulnerable to Regular Expression Denial of Service (ReDoS) attacks when untrusted values are passed into the functions. This is due to the inefficient regular expression used to normalize the values in the `headerValueNormalize()` utility function. This vulnerability was patched in v5.19.1. No known workarounds are available.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24807">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">772b2f3d2c36773863effd37e305de74</td>
+       <td>CVE-2023-24485</td>
+       <td>2023-02-16 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Vulnerabilities have been identified that, collectively, allow a standard Windows user to perform operations as SYSTEM on the computer running Citrix Workspace app.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24485">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7919b711c64d229d480651ea920b8fc1</td>
+       <td>CVE-2023-24484</td>
+       <td>2023-02-16 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A malicious user can cause log files to be written to a directory that they do not have permission to write to.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24484">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d26b2b5742e20129aa5c2c7a72a5763</td>
+       <td>CVE-2023-24483</td>
+       <td>2023-02-16 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability has been identified that, if exploited, could result in a local user elevating their privilege level to NT AUTHORITY\SYSTEM on a Citrix Virtual Apps and Desktops Windows VDA.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24483">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3892899196cc299a90f7b36bf5852aae</td>
+       <td>CVE-2023-23947</td>
+       <td>2023-02-16 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All Argo CD versions starting with 2.3.0-rc1 and prior to 2.3.17, 2.4.23 2.5.11, and 2.6.2 are vulnerable to an improper authorization bug which allows users who have the ability to update at least one cluster secret to update any cluster secret. The attacker could use this access to escalate privileges (potentially controlling Kubernetes resources) or to break Argo CD functionality (by preventing connections to external clusters). A patch for this vulnerability has been released in Argo CD versions 2.6.2, 2.5.11, 2.4.23, and 2.3.17. Two workarounds are available. Either modify the RBAC configuration to completely revoke all `clusters, update` access, or use the `destinations` and `clusterResourceWhitelist` fields to apply similar restrictions as the `namespaces` and `clusterResources` fields.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23947">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">33a61ee1204359fd13eaaca056efe083</td>
+       <td>CVE-2023-23936</td>
+       <td>2023-02-16 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Undici is an HTTP/1.1 client for Node.js. Starting with version 2.0.0 and prior to version 5.19.1, the undici library does not protect `host` HTTP header from CRLF injection vulnerabilities. This issue is patched in Undici v5.19.1. As a workaround, sanitize the `headers.host` string before passing to undici.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23936">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a5e5c0a6219f6a2d28d0ad022ca41748</td>
+       <td>CVE-2023-23752</td>
+       <td>2023-02-16 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23752">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">419229ef1d3965e9ef1839871f0ae38f</td>
        <td>CVE-2023-23926</td>
        <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
@@ -463,62 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38868">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">17775f2148203e9514519ed7664f2d7f</td>
-       <td>CVE-2022-38867</td>
-       <td>2023-02-15 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in rttys versions 4.0.0, 4.0.1, and 4.0.2 in api.go, allows attackers to execute arbitrary code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38867">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">970f125f804d7cbb2d7534e780917789</td>
-       <td>CVE-2021-38239</td>
-       <td>2023-02-15 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in dataease before 1.2.0, allows attackers to gain sensitive information via the orders parameter to /api/sys_msg/list/1/10.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-38239">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9b769e5ac8010cd56a0dffb51e5b564a</td>
-       <td>CVE-2021-34117</td>
-       <td>2023-02-15 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in SEO Panel 4.9.0 in api/user.api.php in function getUserName in the username parameter, allows attackers to gain sensitive information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34117">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">485561c793b19f3e834c64ef890d32ad</td>
-       <td>CVE-2021-33925</td>
-       <td>2023-02-15 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in nitinparashar30 cms-corephp through commit bdabe52ef282846823bda102728a35506d0ec8f9 (May 19, 2021) allows unauthenticated attackers to gain escilated privledges via a crafted login.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33925">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a48399cab55145318eb47605ec6198b6</td>
-       <td>CVE-2023-24499</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Butterfly Button plugin may leave traces of its use on user's device. Since it is used for reporting domestic problems, this may lead to spouse knowing about its use.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24499">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44a54e7bebf5f557492d59388dfc5314</td>
-       <td>CVE-2023-24498</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>An uspecified endpoint in the web server of the switch does not properly authenticate the user identity, and may allow downloading a config page with the password to the switch in clear text.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24498">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">341ab21b6d1b0a2e94bfb6802f61dbb1</td>
-       <td>CVE-2023-23850</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A missing permission check in Synopsys Jenkins Coverity Plugin 3.0.2 and earlier allows attackers with Overall/Read permission to enumerate credentials IDs of credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23850">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,96 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">c931239131b0bfa34877e8909010709c</td>
+       <td>CVE-2023-23936</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-452498">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">575ebec8d401342b12e338e1c9519c33</td>
+       <td>CVE-2023-23947</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-452509">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">462761789f8cfcd2929b0d7b1c4eb1ae</td>
+       <td>CVE-2023-24483</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453148">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">64d325e3e932a1ac6f79d70f9ab474df</td>
+       <td>CVE-2023-24484</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453149">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">da5a358bc5ad63a97c46aab026535852</td>
+       <td>CVE-2023-24485</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453150">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">36d2497bb71a0e7d894854410532275a</td>
+       <td>CVE-2023-24807</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453611">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">81fe51d1262d6105091c92da6aae42d3</td>
+       <td>CVE-2023-23752</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-452227">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4785cab389250dd401d9ac53b41ece77</td>
+       <td>CVE-2021-40555</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-401883">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e2fd45eb43cc8f2863cb1ffc1e67fda</td>
+       <td>CVE-2022-27890</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418611">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6d18023a366d40881a1ab654cc235713</td>
+       <td>CVE-2022-27891</td>
+       <td>2023-02-16 21:38:07 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418612">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">6d85e760f27153ebb88bedbfada99d01</td>
        <td>CVE-2023-0860</td>
@@ -711,96 +801,6 @@
        <td>All versions of the package...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-416762">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">54d00303f55a985f16a526815a7b8694</td>
-       <td>CVE-2022-45436</td>
-       <td>2023-02-15 16:49:34 <img src="imgs/new.gif" /></td>
-       <td>Improper Neutralization of Input During Web...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443159">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7a76abefabc374638af6b18eba51c262</td>
-       <td>CVE-2022-45437</td>
-       <td>2023-02-15 16:49:34 <img src="imgs/new.gif" /></td>
-       <td>Improper Neutralization of Input During Web...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-443160">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">852122e1a0b9a3b759e08c7ca7e37a96</td>
-       <td>CVE-2022-47372</td>
-       <td>2023-02-15 16:49:34 <img src="imgs/new.gif" /></td>
-       <td>Stored cross-site scripting vulnerability in...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448122">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">39d4c0636c0799c65412145666f338d7</td>
-       <td>CVE-2022-47373</td>
-       <td>2023-02-15 16:49:34 <img src="imgs/new.gif" /></td>
-       <td>Reflected Cross Site Scripting in Search...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-448123">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d086297ca220389e9ff3f85b5fe6967e</td>
-       <td>CVE-2023-25011</td>
-       <td>2023-02-15 16:49:34 <img src="imgs/new.gif" /></td>
-       <td>PC settings tool Ver10.1.26.0 and earlier, PC...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453886">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a04bb140a2373d9113fb529907b079f8</td>
-       <td>CVE-2022-32470</td>
-       <td>2023-02-15 16:49:34 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Insyde InsydeH2O with......
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-424485">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">34c14c0cfebcc266b418f75cac667562</td>
-       <td>CVE-2020-19825</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>Cross Site Scripting (XSS) vulnerability...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-173242">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">610430ea2d0ff52baed662760d369472</td>
-       <td>CVE-2020-21119</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in Kliqqi-CM...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-174665">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0319f836230b96fabb828d59f01a34ad</td>
-       <td>CVE-2020-21120</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in file home...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-174667">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6e35e32ec62a488076a76788da4c8bb0</td>
-       <td>CVE-2021-33304</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>Double Free vulnerability in virtualsquare...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-393345">详情</a></td>
       </tr>
 
      </tbody>
