@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-16 16:49:04 -->
+<!-- RELEASE TIME : 2023-02-16 18:42:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">419229ef1d3965e9ef1839871f0ae38f</td>
+       <td>CVE-2023-23926</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>APOC (Awesome Procedures on Cypher) is an add-on library for Neo4j. An XML External Entity (XXE) vulnerability found in the apoc.import.graphml procedure of APOC core plugin prior to version 5.5.0 in Neo4j graph database. XML External Entity (XXE) injection occurs when the XML parser allows external entities to be resolved. The XML parser used by the apoc.import.graphml procedure was not configured in a secure way and therefore allowed this. External entities can be used to read local files, send HTTP requests, and perform denial-of-service attacks on the application. Abusing the XXE vulnerability enabled assessors to read local files remotely. Although with the level of privileges assessors had this was limited to one-line files. With the ability to write to the database, any file could have been read. Additionally, assessors noted, with local testing, the server could be crashed by passing in improperly formatted XML. The minimum version containing a patch for this vulnerability is 5.5.0. Those who cannot upgrade the library can control the allowlist of the procedures that can be used in your system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23926">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5774733ab68d2841c8002ad817f8e51d</td>
+       <td>CVE-2023-23558</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Eternal Terminal 6.2.1, TelemetryService uses fixed paths in /tmp. For example, a local attacker can create /tmp/.sentry-native-etserver with mode 0777 before the etserver process is started. The attacker can choose to read sensitive information from that file, or modify the information in that file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23558">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">555911d531ce86e6a75d773001fa6061</td>
+       <td>CVE-2022-48308</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>It was discovered that the sls-logging was not verifying hostnames in TLS certificates due to a misuse of the javax.net.ssl.SSLSocketFactory API. A malicious attacker in a privileged network position could abuse this to perform a man-in-the-middle attack. A successful man-in-the-middle attack would allow them to intercept, read, or modify network communications to and from the affected service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48308">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ccb73e405227c999809373d84427b2b3</td>
+       <td>CVE-2022-48307</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>It was discovered that the Magritte-ftp was not verifying hostnames in TLS certificates due to a misuse of the javax.net.ssl.SSLSocketFactory API. A malicious attacker in a privileged network position could abuse this to perform a man-in-the-middle attack. A successful man-in-the-middle attack would allow them to intercept, read, or modify network communications to and from the affected service. In the case of a successful man in the middle attack on magritte-ftp, an attacker would be able to read and modify network traffic such as authentication tokens or raw data entering a Palantir Foundry stack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48307">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9303293dbf57f5ec6ec078369aa79cbe</td>
+       <td>CVE-2022-48306</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Validation of Certificate with Host Mismatch vulnerability in Gotham Chat IRC helper of Palantir Gotham allows A malicious attacker in a privileged network position could abuse this to perform a man-in-the-middle attack. A successful man-in-the-middle attack would allow them to intercept, read, or modify network communications to and from the affected service. This issue affects: Palantir Palantir Gotham Chat IRC helper versions prior to 30221005.210011.9242.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48306">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cbbc4bc7a812555417ba31a70a98c39e</td>
+       <td>CVE-2022-27897</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Palantir Gotham versions prior to 3.22.11.2 included an unauthenticated endpoint that would load portions of maliciously crafted zip files to memory. An attacker could repeatedly upload a malicious zip file, which would allow them to exhaust memory resources on the dispatch server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27897">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">63246241fcc8ca11060bf482917eb8a5</td>
+       <td>CVE-2022-27892</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Palantir Gotham versions prior to 3.22.11.2 included an unauthenticated endpoint that would have allowed an attacker to exhaust the memory of the Gotham dispatch service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27892">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cbd23ca61df3075451a82390bc8b5695</td>
+       <td>CVE-2022-27891</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Palantir Gotham included an unauthenticated endpoint that listed all active usernames on the stack with an active session. The affected services have been patched and automatically deployed to all Apollo-managed Gotham instances. It is highly recommended that customers upgrade all affected services to the latest version. This issue affects: Palantir Gotham versions prior to 103.30221005.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27891">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">29f72b26249f84f838ecf82e72578eeb</td>
+       <td>CVE-2022-27890</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>It was discovered that the sls-logging was not verifying hostnames in TLS certificates due to a misuse of the javax.net.ssl.SSLSocketFactory API. A malicious attacker in a privileged network position could abuse this to perform a man-in-the-middle attack. A successful man-in-the-middle attack would allow them to intercept, read, or modify network communications to and from the affected service. In the case of AtlasDB, the vulnerability was mitigated by other network controls such as two-way TLS when deployed as part of a Palantir platform. Palantir still recommends upgrading to a non-vulnerable version out of an abundance of caution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27890">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">65de444198f5e0756e93c5b0fd2c95f0</td>
+       <td>CVE-2021-40555</td>
+       <td>2023-02-16 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross site scripting (XSS) vulnerability in flatCore-CMS 2.2.15 allows attackers to execute arbitrary code via description field on the new page creation form.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-40555">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6a8d2972cbf526b98c79b7ed84e8436d</td>
        <td>CVE-2022-43969</td>
        <td>2023-02-16 14:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23850">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">848f423087d4376f5da96dda5c513bd4</td>
-       <td>CVE-2023-23848</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Missing permission checks in Synopsys Jenkins Coverity Plugin 3.0.2 and earlier allow attackers with Overall/Read permission to connect to an attacker-specified HTTP server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23848">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b2a4e389972d2e824b25be3f04d37b9</td>
-       <td>CVE-2023-23847</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Synopsys Jenkins Coverity Plugin 3.0.2 and earlier allows attackers to connect to an attacker-specified HTTP server using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23847">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23b773955d80e66a3b431c94ce345eaa</td>
-       <td>CVE-2023-23836</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>SolarWinds Platform version 2022.4.1 was found to be susceptible to the Deserialization of Untrusted Data. This vulnerability allows a remote adversary with Orion admin-level account access to the SolarWinds Web Console to execute arbitrary commands.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23836">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8bc6bb02d94d4f9a254e7c0d4291dd2</td>
-       <td>CVE-2023-23467</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Media CP Media Control Panel latest version. Reflected XSS possible through unspecified endpoint.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23467">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fd66e9c3aafd5229c9a1c62402c2df16</td>
-       <td>CVE-2023-23466</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Media CP Media Control Panel latest version. Insufficiently protected credential change.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23466">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7b620b0a3fa91cb7eef74ef9b0941317</td>
-       <td>CVE-2023-23465</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Media CP Media Control Panel latest version. CSRF possible through unspecified endpoint.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23465">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">42b97abb3170fcb994e4bd421a72c79c</td>
-       <td>CVE-2023-23464</td>
-       <td>2023-02-15 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Media CP Media Control Panel latest version. A Permissive Flash Cross-domain Policy may allow information disclosure.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23464">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">138969eba455d7c2650d578d8bc941f9</td>
-       <td>CVE-2023-22807</td>
-       <td>2023-02-15 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>LS ELECTRIC XBC-DN32U with operating system version 01.80 does not properly control access to the PLC over its internal XGT protocol. An attacker could control and tamper with the PLC by sending the packets to the PLC over its XGT protocol.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22807">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5f90ff9d9c6c169b7831a542aec0f073</td>
-       <td>CVE-2023-22806</td>
-       <td>2023-02-15 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>LS ELECTRIC XBC-DN32U with operating system version 01.80 transmits sensitive information in cleartext when communicating over its XGT protocol. This could allow an attacker to gain sensitive information such as user credentials.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22806">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0465092162bdfab825661d353f7079eb</td>
-       <td>CVE-2023-22805</td>
-       <td>2023-02-15 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>LS ELECTRIC XBC-DN32U with operating system version 01.80 has improper access control to its read prohibition feature. This could allow a remote attacker to remotely set the feature to lock users out of reading data from the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22805">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,60 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">6d85e760f27153ebb88bedbfada99d01</td>
+       <td>CVE-2023-0860</td>
+       <td>2023-02-16 18:41:53 <img src="imgs/new.gif" /></td>
+       <td>Improper Restriction of Excessive...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454972">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a38ae53ddc9e4af004a69f210b96e30</td>
+       <td>CVE-2023-0862</td>
+       <td>2023-02-16 18:41:53 <img src="imgs/new.gif" /></td>
+       <td>The NetModule NSRW web administration...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454974">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1f4added74eb09cede62d8206e1ca6e3</td>
+       <td>CVE-2023-0861</td>
+       <td>2023-02-16 18:41:53 <img src="imgs/new.gif" /></td>
+       <td>NetModule NSRW web administration interface...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454973">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2803a5c33ae386b83d5bf48c09c2a2fe</td>
+       <td>CVE-2023-0568</td>
+       <td>2023-02-16 18:41:53 <img src="imgs/new.gif" /></td>
+       <td>In PHP 8.0.X before 8.0.28, 8.1.X before 8.1.16......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-453387">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b04ffaf9616bf4ac6022a9ba264ae467</td>
+       <td>CVE-2023-0662</td>
+       <td>2023-02-16 18:41:53 <img src="imgs/new.gif" /></td>
+       <td>In PHP 8.0.X before 8.0.28, 8.1.X before 8.1.16......
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-454043">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3aa5ff2522905296b910fc8a5013f698</td>
+       <td>VHN-455087</td>
+       <td>2023-02-16 18:41:53 <img src="imgs/new.gif" /></td>
+       <td>Atrocore 1.5.25 Shell Upload...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455087">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">039e5a0a4a15f188314922355553d2a9</td>
        <td>CVE-2022-45586</td>
@@ -747,60 +801,6 @@
        <td>Double Free vulnerability in virtualsquare...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-393345">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bfefa013e55cc669b795900f8a858b76</td>
-       <td>CVE-2021-33396</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>Cross Site Request Forgery (CSRF)...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-393437">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">54e0ad98d6a4dc5c1328722981ef7f11</td>
-       <td>CVE-2021-33925</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in nitinparashar30...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-394093">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">64c97b46e6dd36d0755e273966c90364</td>
-       <td>CVE-2021-34117</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in SEO Panel 4.9.0 in......
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-394285">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">12027919870e5153899d2faf8bdc53d5</td>
-       <td>CVE-2021-38239</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in dataease before...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-399921">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cc114cb02e0f123f9e4b4bd543eea1a3</td>
-       <td>CVE-2022-38867</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in rttys versions...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-434639">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d1e27734781601ba015abf5b3d246873</td>
-       <td>CVE-2022-38868</td>
-       <td>2023-02-15 16:48:51 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in Ehoney version...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-434640">详情</a></td>
       </tr>
 
      </tbody>
@@ -2564,11 +2564,27 @@
       </tr>
 
       <tr>
+       <td scope="row">58f96ee7f43cab9e622c5b08d80ecc75</td>
+       <td>CVE-2023-25194</td>
+       <td>2023-02-07 20:15:09 </td>
+       <td>A possible security vulnerability has been identified in Apache Kafka Connect. This requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config and a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka 2.3.0. When configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config` property for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the `producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties. This will allow the server to connect to the attacker's LDAP server and deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server. Attacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath. Since Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box configurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector client override policy that permits them. Since Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage in SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka 3.4.0. We advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for vulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally, in addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector client config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25194">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">954131ff602ed617a2c9a374490ffa61</td>
        <td>CVE-2023-24813</td>
        <td>2023-02-07 19:15:09 </td>
        <td>Dompdf is an HTML to PDF converter written in php. Due to the difference in the attribute parser of Dompdf and php-svg-lib, an attacker can still call arbitrary URLs with arbitrary protocols. Dompdf parses the href attribute of `image` tags and respects `xlink:href` even if `href` is specified. However, php-svg-lib, which is later used to parse the svg file, parses the href attribute. Since `href` is respected if both `xlink:href` and `href` is specified, it's possible to bypass the protection on the Dompdf side by providing an empty `xlink:href` attribute. An attacker can exploit the vulnerability to call arbitrary URLs with arbitrary protocols if they provide an SVG file to the Dompdf. In PHP versions before 8.0.0, it leads to arbitrary unserialize, which will lead, at the very least, to arbitrary file deletion and might lead to remote code execution, depending on available classes. This vulnerability has been addressed in commit `95009ea98` which has been included in release version 2.0.3. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24813">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">399a5279db16c49b79d59a2826f698ea</td>
+       <td>CVE-2023-24814</td>
+       <td>2023-02-07 19:15:09 </td>
+       <td>TYPO3 is a free and open source Content Management Framework released under the GNU General Public License. In affected versions the TYPO3 core component `GeneralUtility::getIndpEnv()` uses the unfiltered server environment variable `PATH_INFO`, which allows attackers to inject malicious content. In combination with the TypoScript setting `config.absRefPrefix=auto`, attackers can inject malicious HTML code to pages that have not been rendered and cached, yet. As a result, injected values would be cached and delivered to other website visitors (persisted cross-site scripting). Individual code which relies on the resolved value of `GeneralUtility::getIndpEnv('SCRIPT_NAME')` and corresponding usages (as shown below) are vulnerable as well. Additional investigations confirmed that at least Apache web server deployments using CGI (FPM, FCGI/FastCGI, and similar) are affected. However, there still might be the risk that other scenarios like nginx, IIS, or Apache/mod_php are vulnerable. The usage of server environment variable `PATH_INFO` has been removed from corresponding processings in `GeneralUtility::getIndpEnv()`. Besides that, the public property `TypoScriptFrontendController::$absRefPrefix` is encoded for both being used as a URI component and for being used as a prefix in an HTML context. This mitigates the cross-site scripting vulnerability. Users are advised to update to TYPO3 versions 8.7.51 ELTS, 9.5.40 ELTS, 10.4.35 LTS, 11.5.23 LTS and 12.2.0 which fix this problem. For users who are unable to patch in a timely manner the TypoScript setting `config.absRefPrefix` should at least be set to a static path value, instead of using auto - e.g. `config.absRefPrefix=/`. This workaround **does not fix all aspects of the vulnerability**, and is just considered to be an intermediate mitigation to the most prominent manifestation.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24814">详情</a></td>
       </tr>
 
       <tr>
@@ -2657,22 +2673,6 @@
        <td>2023-02-06 15:15:11 </td>
        <td>TOTOlink A7100RU(V7.4cu.2313_B20191024) was discovered to contain a command injection vulnerability via the country parameter at setting/delStaticDhcpRules.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24276">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bbc58223aa6b0b317d4461ba8f742594</td>
-       <td>CVE-2023-24192</td>
-       <td>2023-02-06 15:15:10 </td>
-       <td>Online Food Ordering System v2 was discovered to contain a cross-site scripting (XSS) vulnerability via the redirect parameter in login.php.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24192">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6b9b2b1f7746cafeb641f8dfe6b42923</td>
-       <td>CVE-2023-24191</td>
-       <td>2023-02-06 15:15:10 </td>
-       <td>Online Food Ordering System v2 was discovered to contain a cross-site scripting (XSS) vulnerability via the redirect parameter in signup.php.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24191">详情</a></td>
       </tr>
 
      </tbody>
