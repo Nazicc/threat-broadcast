@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-17 17:37:59 -->
+<!-- RELEASE TIME : 2023-02-17 18:42:35 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1cbdd53a0a6a9855fa9dcbffa5fe5276</td>
+       <td>CVE-2023-23007</td>
+       <td>2023-02-17 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in ESPCMS P8.21120101 after logging in to the background, there is a SQL injection vulnerability in the function node where members are added.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23007">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ed700042c473dfdeac2ef24d490e5fa5</td>
+       <td>CVE-2022-47986</td>
+       <td>2023-02-17 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Aspera Faspex 4.4.1 could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47986">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0622316363c904b4051f8714022a8ace</td>
+       <td>CVE-2023-24388</td>
+       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-Site Request Forgery (CSRF) vulnerability in WpDevArt Booking calendar, Appointment Booking System plugin <= 3.2.3 versions affects plugin forms actions (create, duplicate, edit, delete).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24388">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb70e05272632c83363fb020ac9bf5c1</td>
+       <td>CVE-2023-24329</td>
+       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24329">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">45993d38a9d5834b2e80468c67f0ed73</td>
+       <td>CVE-2023-23899</td>
+       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-Site Request Forgery (CSRF) vulnerability in HasThemes Extensions For CF7 plugin <= 2.0.8 versions leads to arbitrary plugin activation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23899">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c97b788a036919ce1d8e3fc266b47c95</td>
+       <td>CVE-2022-45701</td>
+       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Arris TG2482A firmware through 9.1.103GEM9 allow Remote Code Execution (RCE) via the ping utility feature.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45701">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6625860fa49a02276e044dca690408fc</td>
+       <td>CVE-2020-29168</td>
+       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>SQL Injection vulnerability in Projectworlds Online Doctor Appointment Booking System, allows attackers to gain sensitive information via the q parameter to the getuser.php endpoint.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-29168">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9ec02cba6ed6b9911677eeab1f762738</td>
+       <td>CVE-2022-40032</td>
+       <td>2023-02-17 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>SQL Injection vulnerability in Simple Task Managing System version 1.0 in login.php in 'username' and 'password' parameters, allows attackers to execute arbitrary code and gain sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40032">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e79f8d1e1a8aba8d9a14003746ecabe9</td>
+       <td>CVE-2022-32972</td>
+       <td>2023-02-17 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Infoblox BloxOne Endpoint for Windows through 2.2.7 allows DLL injection that can result in local privilege escalation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32972">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cb0a91eb81850867b5f425f8a2780dd9</td>
+       <td>CVE-2023-23586</td>
+       <td>2023-02-17 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Due to a vulnerability in the io_uring subsystem, it is possible to leak kernel memory information to the user process. timens_install calls current_is_single_threaded to determine if the current process is single-threaded, but this call does not consider io_uring's io_worker threads, thus it is possible to insert a time namespace's vvar page to process's memory space via a page fault. When this time namespace is destroyed, the vvar page is also freed, but not removed from the process' memory, and a next page allocated by the kernel will be still available from the user-space process and can leak memory contents via this (read-only) use-after-free vulnerability. We recommend upgrading past version 5.10.161 or commit 788d0824269bef539fe31a785b1517882eafed93 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/io_uring</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23586">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">05d6a83e950cc55ded56284669050b69</td>
        <td>CVE-2023-0882</td>
        <td>2023-02-17 10:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-02-16 22:15:00 <img src="imgs/new.gif" /></td>
        <td>bleach.clean behavior parsing style attributes could result in a regular expression denial of service (ReDoS). Calls to bleach.clean with an allowed tag with an allowed style attribute are vulnerable to ReDoS. For example, bleach.clean(..., attributes={'a': ['style']}).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-6817">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8cfeec2945bf6659522bf5084432bf09</td>
-       <td>CVE-2020-12413</td>
-       <td>2023-02-16 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-12413">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c7afd988f3a3faf780faf279568d1c00</td>
-       <td>CVE-2019-17003</td>
-       <td>2023-02-16 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Scanning a QR code that contained a javascript: URL would have resulted in the Javascript being executed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2019-17003">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6fea722569d92e039a87b939e09f9f84</td>
-       <td>CVE-2023-22380</td>
-       <td>2023-02-16 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>A path traversal vulnerability was identified in GitHub Enterprise Server that allowed arbitrary file reading when building a GitHub Pages site. To exploit this vulnerability, an attacker would need permission to create and build a GitHub Pages site on the GitHub Enterprise Server instance. This vulnerability affected all versions of GitHub Enterprise Server since 3.7 and was fixed in version 3.7.6. This vulnerability was reported via the GitHub Bug Bounty program.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22380">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1177ee539c56bb81518eee0f43ded041</td>
-       <td>CVE-2023-0866</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Heap-based Buffer Overflow in GitHub repository gpac/gpac prior to 2.3.0-DEV.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0866">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e9b3f85db770b998707d1a86f825087a</td>
-       <td>CVE-2022-40080</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Stack overflow vulnerability in Aspire E5-475G 's BIOS firmware, in the FpGui module, a second call to GetVariable services allows local attackers to execute arbitrary code in the UEFI DXE phase and gain escalated privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40080">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ba5f8e7538ce766d335fa43f4cfb852d</td>
-       <td>CVE-2022-37329</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Uncontrolled search path in some Intel(R) Quartus(R) Prime Pro and Standard Edition software may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37329">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">94be9d04b4c249778e1d536a1651f301</td>
-       <td>CVE-2022-36794</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper condition check in some Intel(R) SPS firmware before version SPS_E3_06.00.03.300.0 may allow a privileged user to potentially enable denial of service via local access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36794">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b21ba10da181b421e2154bfcd739bb2a</td>
-       <td>CVE-2022-36398</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Uncontrolled search path in the Intel(R) Battery Life Diagnostic Tool software before version 2.2.0 may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36398">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7fb032e02db02ace1abefbb251b288ad</td>
-       <td>CVE-2022-36348</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Active debug code in some Intel (R) SPS firmware before version SPS_E5_04.04.04.300.0 may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36348">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5be42f2bc1f4ba285b865e8058276145</td>
-       <td>CVE-2022-36278</td>
-       <td>2023-02-16 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>Insufficient control flow management in the Intel(R) Battery Life Diagnostic Tool software before version 2.2.0 may allow an authenticated user to potentially enable escalation of privilege via local access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36278">详情</a></td>
       </tr>
 
      </tbody>
