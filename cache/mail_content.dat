@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48299</font><br/>[<b>披露时间</b>] 2023-02-09 17:15:14 <br/>[<b>漏洞描述</b>] The WMS module lacks the authentication mechanism in some APIs. Successful exploitation of this vulnerability may affect data confidentiality.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-48299'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-48299</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0913</font><br/>[<b>披露时间</b>] 2023-02-18 20:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was found in SourceCodester Auto Dealer Management System 1.0. This vulnerability affects unknown code of the file /adms/admin/?page=vehicles/sell_vehicle. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-221482 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0913'>https://www.tenable.com/cve/CVE-2023-0913</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0912</font><br/>[<b>披露时间</b>] 2023-02-18 20:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical has been found in SourceCodester Auto Dealer Management System 1.0. This affects an unknown part of the file /adms/admin/?page=vehicles/view_transaction. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-221481 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0912'>https://www.tenable.com/cve/CVE-2023-0912</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
