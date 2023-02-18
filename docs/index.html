@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-17 23:38:38 -->
+<!-- RELEASE TIME : 2023-02-18 02:04:36 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">dd5f8a8b0b616924d7653ed02b9d78af</td>
+       <td>CVE-2021-32846</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107, function `pci_vtsock_proc_tx` in `virtio-sock` can lead to to uninitialized memory use. In this situation, there is a check for the return value to be less or equal to `VTSOCK_MAXSEGS`, but that check is not sufficient because the function can return `-1` if it finds an error it cannot recover from. Moreover, the negative return value will be used by `iovec_pull` in a while condition that can further lead to more corruption because the function is not designed to handle a negative `iov_len`. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit af5eba2360a7351c08dfd9767d9be863a50ebaba.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32846">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5bfd6e15551362ace70fde412eb3dd0a</td>
+       <td>CVE-2021-32845</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, the implementation of `qnotify` at `pci_vtrnd_notify` fails to check the return value of `vq_getchain`. This leads to `struct iovec iov;` being uninitialized and used to read memory in `len = (int) read(sc->vrsc_fd, iov.iov_base, iov.iov_len);` when an attacker is able to make `vq_getchain` fail. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit 41272a980197917df8e58ff90642d14dec8fe948.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32845">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fd531955ec22d8000a6a2cd21bfc162b</td>
+       <td>CVE-2021-32844</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, ` vi_pci_write` has is a call to `vc_cfgwrite` that does not check for null which when called makes the host crash. This issue may lead to a guest crashing the host causing a denial of service. This issue is fixed in commit 451558fe8aaa8b24e02e34106e3bb9fe41d7ad13.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32844">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0cf4d795524c04bb70a1aa3d0a2ba846</td>
+       <td>CVE-2021-32843</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, `virtio.c` has is a call to `vc_cfgread` that does not check for null which when called makes the host crash. This issue may lead to a guest crashing the host causing a denial of service. This issue is fixed in commit df0e46c7dbfd81a957d85e449ba41b52f6f7beb4.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32843">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b27672ed618bc3368864c2019e0255f3</td>
+       <td>CVE-2023-24769</td>
+       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Changedetection.io before v0.40.1.1 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the main page. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the URL parameter under the "Add a new change detection watch" function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24769">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e718c1f71e06174bb432d06a8a68ea0a</td>
+       <td>CVE-2023-23064</td>
+       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TOTOLINK A720R V4.1.5cu.532_ B20210610 is vulnerable to Incorrect Access Control.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23064">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d251a198b91d9304914c911e2fe7907f</td>
+       <td>CVE-2023-22246</td>
+       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Adobe Animate versions 22.0.8 (and earlier) and 23.0.0 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22246">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">51498554a94771afdeda28628d4bd133</td>
+       <td>CVE-2023-22244</td>
+       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Adobe Premiere Rush version 2.6 (and earlier) is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22244">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0f2cb4e57caa3f1655a15379fb78a1a4</td>
+       <td>CVE-2023-22243</td>
+       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Adobe Animate versions 22.0.8 (and earlier) and 23.0.0 (and earlier) are affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22243">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7e59195bcf0a41c981984eefc423205b</td>
+       <td>CVE-2023-22239</td>
+       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>After Affects versions 23.1 (and earlier), 22.6.3 (and earlier) are affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22239">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">43a42cf563d9b33c37409644a410385c</td>
        <td>CVE-2023-24809</td>
        <td>2023-02-17 20:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-02-17 16:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue was discovered in ESPCMS P8.21120101 after logging in to the background, there is a SQL injection vulnerability in the function node where members are added.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23007">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ed700042c473dfdeac2ef24d490e5fa5</td>
-       <td>CVE-2022-47986</td>
-       <td>2023-02-17 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>IBM Aspera Faspex 4.4.1 could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47986">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0622316363c904b4051f8714022a8ace</td>
-       <td>CVE-2023-24388</td>
-       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in WpDevArt Booking calendar, Appointment Booking System plugin <= 3.2.3 versions affects plugin forms actions (create, duplicate, edit, delete).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24388">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eb70e05272632c83363fb020ac9bf5c1</td>
-       <td>CVE-2023-24329</td>
-       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24329">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">45993d38a9d5834b2e80468c67f0ed73</td>
-       <td>CVE-2023-23899</td>
-       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in HasThemes Extensions For CF7 plugin <= 2.0.8 versions leads to arbitrary plugin activation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23899">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c97b788a036919ce1d8e3fc266b47c95</td>
-       <td>CVE-2022-45701</td>
-       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Arris TG2482A firmware through 9.1.103GEM9 allow Remote Code Execution (RCE) via the ping utility feature.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45701">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6625860fa49a02276e044dca690408fc</td>
-       <td>CVE-2020-29168</td>
-       <td>2023-02-17 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in Projectworlds Online Doctor Appointment Booking System, allows attackers to gain sensitive information via the q parameter to the getuser.php endpoint.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-29168">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9ec02cba6ed6b9911677eeab1f762738</td>
-       <td>CVE-2022-40032</td>
-       <td>2023-02-17 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection vulnerability in Simple Task Managing System version 1.0 in login.php in 'username' and 'password' parameters, allows attackers to execute arbitrary code and gain sensitive information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40032">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e79f8d1e1a8aba8d9a14003746ecabe9</td>
-       <td>CVE-2022-32972</td>
-       <td>2023-02-17 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Infoblox BloxOne Endpoint for Windows through 2.2.7 allows DLL injection that can result in local privilege escalation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32972">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cb0a91eb81850867b5f425f8a2780dd9</td>
-       <td>CVE-2023-23586</td>
-       <td>2023-02-17 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Due to a vulnerability in the io_uring subsystem, it is possible to leak kernel memory information to the user process. timens_install calls current_is_single_threaded to determine if the current process is single-threaded, but this call does not consider io_uring's io_worker threads, thus it is possible to insert a time namespace's vvar page to process's memory space via a page fault. When this time namespace is destroyed, the vvar page is also freed, but not removed from the process' memory, and a next page allocated by the kernel will be still available from the user-space process and can leak memory contents via this (read-only) use-after-free vulnerability. We recommend upgrading past version 5.10.161 or commit 788d0824269bef539fe31a785b1517882eafed93 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/io_uring</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23586">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05d6a83e950cc55ded56284669050b69</td>
-       <td>CVE-2023-0882</td>
-       <td>2023-02-17 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Input Validation, Authorization Bypass Through User-Controlled Key vulnerability in Kron Tech Single Connect on Windows allows Privilege Abuse.This issue affects Single Connect: 2.16.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0882">详情</a></td>
       </tr>
 
      </tbody>
@@ -820,7 +820,7 @@
       <tr>
        <td scope="row">a5ae07c8f5c28a2dfd95d4c4a864c9dc</td>
        <td>CNVD-2023-09643 (CVE-2023-24555)</td>
-       <td>2023-02-16 07:37:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:27</td>
        <td>Siemens Solid Edge越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09643">详情</a></td>
       </tr>
@@ -828,7 +828,7 @@
       <tr>
        <td scope="row">8b98d17843fa838862d365f12c6c8f04</td>
        <td>CNVD-2023-09642 (CVE-2023-24556)</td>
-       <td>2023-02-16 07:37:25 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:25</td>
        <td>Siemens Solid Edge越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09642">详情</a></td>
       </tr>
@@ -836,7 +836,7 @@
       <tr>
        <td scope="row">a66790693f04abb7b0f6f8975aabdea3</td>
        <td>CNVD-2023-09641 (CVE-2023-24557)</td>
-       <td>2023-02-16 07:37:23 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:23</td>
        <td>Siemens Solid Edge越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09641">详情</a></td>
       </tr>
@@ -844,7 +844,7 @@
       <tr>
        <td scope="row">995ae212427a29f0b985d49e784a464f</td>
        <td>CNVD-2023-09640 (CVE-2023-24558)</td>
-       <td>2023-02-16 07:37:20 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:20</td>
        <td>Siemens Solid Edge越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09640">详情</a></td>
       </tr>
@@ -852,7 +852,7 @@
       <tr>
        <td scope="row">6bd3063fef440136936de1c4fa18c3c7</td>
        <td>CNVD-2023-09639 (CVE-2023-24559)</td>
-       <td>2023-02-16 07:37:18 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:18</td>
        <td>Siemens Solid Edge越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09639">详情</a></td>
       </tr>
@@ -860,7 +860,7 @@
       <tr>
        <td scope="row">e2db704c496129907f343fea8f4b6b6a</td>
        <td>CNVD-2023-09638 (CVE-2023-24560)</td>
-       <td>2023-02-16 07:37:16 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:16</td>
        <td>Siemens Solid Edge越界写入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09638">详情</a></td>
       </tr>
@@ -868,7 +868,7 @@
       <tr>
        <td scope="row">5da2581c99616ec652463986b778c509</td>
        <td>CNVD-2023-09637 (CVE-2023-24561)</td>
-       <td>2023-02-16 07:37:14 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 07:37:14</td>
        <td>Siemens Solid Edge未初始化指针访问漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09637">详情</a></td>
       </tr>
@@ -876,7 +876,7 @@
       <tr>
        <td scope="row">871106ad70b96d6fd01b8dc9687937ca</td>
        <td>CNVD-2023-09631 (CVE-2023-0788)</td>
-       <td>2023-02-16 04:42:20 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 04:42:20</td>
        <td>phpMyFAQ代码注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09631">详情</a></td>
       </tr>
@@ -884,7 +884,7 @@
       <tr>
        <td scope="row">b555611109c01e30f5fede6344b85f7a</td>
        <td>CNVD-2023-09630 (CVE-2023-0787)</td>
-       <td>2023-02-16 04:42:17 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 04:42:17</td>
        <td>phpMyFAQ跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09630">详情</a></td>
       </tr>
@@ -892,7 +892,7 @@
       <tr>
        <td scope="row">0d42db987805307c9866c14b8059bb70</td>
        <td>CNVD-2023-09629 (CVE-2022-4664)</td>
-       <td>2023-02-16 03:40:04 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 03:40:04</td>
        <td>WordPress plugin Logo Slider跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09629">详情</a></td>
       </tr>
@@ -900,7 +900,7 @@
       <tr>
        <td scope="row">3e95488ad77b32c007f3fe339910627d</td>
        <td>CNVD-2023-09628 (CVE-2023-0786)</td>
-       <td>2023-02-16 03:40:01 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 03:40:01</td>
        <td>phpMyFAQ跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09628">详情</a></td>
       </tr>
@@ -908,7 +908,7 @@
       <tr>
        <td scope="row">6976e9551d5fbed1aa89253f0f8e083f</td>
        <td>CNVD-2023-09627 (CVE-2022-41731)</td>
-       <td>2023-02-16 03:39:59 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 03:39:59</td>
        <td>IBM Watson Knowledge Catalog SQL注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09627">详情</a></td>
       </tr>
@@ -916,7 +916,7 @@
       <tr>
        <td scope="row">1e1fbe3d2db072b22a6817ffb459f8f9</td>
        <td>CNVD-2023-09626 (CVE-2023-23390)</td>
-       <td>2023-02-16 03:39:57 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 03:39:57</td>
        <td>Microsoft 3D Builder存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09626">详情</a></td>
       </tr>
@@ -924,7 +924,7 @@
       <tr>
        <td scope="row">8201890f5a51252b3d873da89f2e7b40</td>
        <td>CNVD-2023-09625 (CVE-2023-23379)</td>
-       <td>2023-02-16 03:39:54 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 03:39:54</td>
        <td>Microsoft Defender for IoT提升权限漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09625">详情</a></td>
       </tr>
@@ -932,7 +932,7 @@
       <tr>
        <td scope="row">548241eb1a11c453ffd8a97e57240ccf</td>
        <td>CNVD-2023-09624 (CVE-2023-23377)</td>
-       <td>2023-02-16 03:39:52 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 03:39:52</td>
        <td>Microsoft 3D Builder存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09624">详情</a></td>
       </tr>
@@ -1446,7 +1446,7 @@
       <tr>
        <td scope="row">4250aafdc8503aac42b9100095e0be48</td>
        <td>CVE-2023-22490,CVE-2023-23946</td>
-       <td>2023-02-16 11:43:19 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 11:43:19</td>
        <td>GitLab CE/EE 多个漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8008">详情</a></td>
       </tr>
@@ -1454,7 +1454,7 @@
       <tr>
        <td scope="row">68d22621908bd5552a496ea40e210569</td>
        <td>CVE-2023-24580</td>
-       <td>2023-02-16 09:57:31 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:57:31</td>
        <td>Django 拒绝服务漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8007">详情</a></td>
       </tr>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">a352340d195d3bca8581b7f03633bbc6</td>
        <td>CVE-2022-4838</td>
-       <td>2023-02-16 20:30:45 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 20:30:45</td>
        <td>CODECTION CLEAN_LOGIN Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0bd1bcfd530a4e3ab1eea03b41b8280d">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">205f80af32e526600a2e44d1252b0ceb</td>
        <td>CVE-2023-0678</td>
-       <td>2023-02-16 20:30:31 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 20:30:31</td>
        <td>PHPIPAM PHPIPAM Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=27c29fa182b14dc1bbd14aa7c2fc9624">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">438bb643b2f0da949a70fff3e30784c8</td>
        <td>CVE-2021-37317</td>
-       <td>2023-02-16 20:30:24 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 20:30:24</td>
        <td>ASUS RT-AC68U_FIRMWARE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3cacbfa1f38141708ea05876565cf2f7">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">adf0421e779d24b2218b42cca65d9587</td>
        <td>CVE-2023-22474</td>
-       <td>2023-02-16 20:30:11 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 20:30:11</td>
        <td>PARSEPLATFORM PARSE-SERVER Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=72e1f918b4ab45ec8bc9f0989cbc923b">详情</a></td>
       </tr>
@@ -2184,7 +2184,7 @@
       <tr>
        <td scope="row">ed59b33a8308dc06830b2ba039b4fe2a</td>
        <td>CVE-2022-20604</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Google Android Kernel越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75847">详情</a></td>
       </tr>
@@ -2192,7 +2192,7 @@
       <tr>
        <td scope="row">d95e196d2755e5c003da0bb73585b3d4</td>
        <td>CVE-2022-20592</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Google Android Kernel信息泄露漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75846">详情</a></td>
       </tr>
@@ -2200,7 +2200,7 @@
       <tr>
        <td scope="row">4cb4d65f41b2419b8f6f25652ed2bb9d</td>
        <td>CVE-2022-47581</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Isode M-Vault拒绝服务漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75845">详情</a></td>
       </tr>
@@ -2208,7 +2208,7 @@
       <tr>
        <td scope="row">bb319535ccd6ab7799075273f95a2015</td>
        <td>CVE-2022-46771</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>IBM UrbanCode Deploy跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75844">详情</a></td>
       </tr>
@@ -2216,7 +2216,7 @@
       <tr>
        <td scope="row">ed97e99e28f201593449c4138c5d3635</td>
        <td>CVE-2022-4619</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>WordPress Sidebar Widgets by CodeLights Plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75843">详情</a></td>
       </tr>
@@ -2224,7 +2224,7 @@
       <tr>
        <td scope="row">dfdc90e59e1d779de9bcaa49dc4ef6eb</td>
        <td>CVE-2022-25940</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>npm lite-server拒绝服务漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75842">详情</a></td>
       </tr>
@@ -2232,7 +2232,7 @@
       <tr>
        <td scope="row">d7cb8b5c5f9f26995ad7e577c35078d7</td>
        <td>CVE-2022-23536</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>cortex信息泄露漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75841">详情</a></td>
       </tr>
@@ -2240,7 +2240,7 @@
       <tr>
        <td scope="row">3b6cd72848491f06a2516bf30ea0bf0a</td>
        <td>CVE-2022-42349</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Adobe Experience Manager跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75840">详情</a></td>
       </tr>
@@ -2248,7 +2248,7 @@
       <tr>
        <td scope="row">1ef8eac980525253be9df4dd998d75e5</td>
        <td>CVE-2022-3775</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>grub2越界写入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75839">详情</a></td>
       </tr>
@@ -2256,7 +2256,7 @@
       <tr>
        <td scope="row">2b88b6f059bc5d33d14906923e47bad8</td>
        <td>CVE-2022-47512</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>SolarWinds Platform和Hybrid Cloud Observability信息泄露漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75838">详情</a></td>
       </tr>
@@ -2264,7 +2264,7 @@
       <tr>
        <td scope="row">4d8087fb0fa8acb6ccb207ba57551867</td>
        <td>CVE-2022-3985</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>WordPress Videojs HTML5 Player Plugin跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75837">详情</a></td>
       </tr>
@@ -2272,7 +2272,7 @@
       <tr>
        <td scope="row">c84dfea48e0ac4c2a87d6852c9b9ec5c</td>
        <td>CVE-2021-38241</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Ruoyi不受信数据反序列化漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75836">详情</a></td>
       </tr>
@@ -2280,7 +2280,7 @@
       <tr>
        <td scope="row">5254202daa3bcd6babfe8a5ca4bbb7aa</td>
        <td>CVE-2022-47208</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>NETGEAR Nighthawk WiFi6 Router输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75835">详情</a></td>
       </tr>
@@ -2288,7 +2288,7 @@
       <tr>
        <td scope="row">2ecef7605f62c2bc697df2614d8371b0</td>
        <td>CVE-2022-20598</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Google Android Kernel整数溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75834">详情</a></td>
       </tr>
@@ -2296,7 +2296,7 @@
       <tr>
        <td scope="row">8ba5e987bfae5f6a1e9c6f35f9f3f90f</td>
        <td>CVE-2022-42543</td>
-       <td>2023-02-16 09:38:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-16 09:38:07</td>
        <td>Google Android Kernel越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/75833">详情</a></td>
       </tr>
