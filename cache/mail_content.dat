@@ -1,27 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">7</font>条由 [<a href="http://cve.scap.org.cn">信息安全漏洞门户</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23849</font><br/>[<b>披露时间</b>] 2023-02-06 23:15:10 <br/>[<b>漏洞描述</b>] Versions of Coverity Connect prior to 2022.12.0 are vulnerable to an unauthenticated Cross-Site Scripting vulnerability. Any web service hosted on the same sub domain can set a cookie for the whole subdomain which can be used to bypass other mitigations in place for malicious purposes. CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O/RC:C<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23849'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23849</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23698</font><br/>[<b>披露时间</b>] 2023-02-10 13:15:11 <br/>[<b>漏洞描述</b>] Dell Command | Update, Dell Update, and Alienware Update versions before 4.6.0 and 4.7.1 contain Insecure Operation on Windows Junction in the installer component. A local malicious user may potentially exploit this vulnerability leading to arbitrary file delete.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23698'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23698</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0918</font><br/>[<b>披露时间</b>] 2023-02-19 17:37:40<br/>[<b>漏洞描述</b>] A vulnerability has been found in codeprojects...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455296'>http://cve.scap.org.cn/vuln/VHN-455296</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0917</font><br/>[<b>披露时间</b>] 2023-02-19 17:37:40<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455297'>http://cve.scap.org.cn/vuln/VHN-455297</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0916</font><br/>[<b>披露时间</b>] 2023-02-19 17:37:40<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455298'>http://cve.scap.org.cn/vuln/VHN-455298</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0915</font><br/>[<b>披露时间</b>] 2023-02-19 17:37:40<br/>[<b>漏洞描述</b>] A vulnerability classified as critical has...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455299'>http://cve.scap.org.cn/vuln/VHN-455299</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0914</font><br/>[<b>披露时间</b>] 2023-02-19 17:37:40<br/>[<b>漏洞描述</b>] Improper Authorization in GitHub repository...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455295'>http://cve.scap.org.cn/vuln/VHN-455295</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0913</font><br/>[<b>披露时间</b>] 2023-02-18 17:37:40<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455293'>http://cve.scap.org.cn/vuln/VHN-455293</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 信息安全漏洞门户<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0912</font><br/>[<b>披露时间</b>] 2023-02-18 17:37:40<br/>[<b>漏洞描述</b>] A vulnerability classified as critical has...
-                    <br/>[<b>相关链接</b>] <a href='http://cve.scap.org.cn/vuln/VHN-455294'>http://cve.scap.org.cn/vuln/VHN-455294</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2012-10007</font><br/>[<b>披露时间</b>] 2023-02-19 16:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in madgicweb BuddyStream Plugin up to 3.2.7. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file ShareBox.php. The manipulation of the argument content/link/shares leads to cross site scripting. The attack can be launched remotely. Upgrading to version 3.2.8 is able to address this issue. The name of the patch is 7d5b9a89a27711aad76fd55ab4cc4185b545a1d0. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-221479.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2012-10007'>https://www.tenable.com/cve/CVE-2012-10007</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0919</font><br/>[<b>披露时间</b>] 2023-02-19 15:15:00<br/>[<b>漏洞描述</b>] Missing Authentication for Critical Function in GitHub repository kareadita/kavita prior to 0.7.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0919'>https://www.tenable.com/cve/CVE-2023-0919</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
