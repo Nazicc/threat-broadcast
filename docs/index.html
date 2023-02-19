@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-18 22:38:09 -->
+<!-- RELEASE TIME : 2023-02-19 02:08:34 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">ab482fa4d4be6a2f06a3f918ef245b7f</td>
        <td>CVE-2023-25725</td>
-       <td>2023-02-17 07:03:52 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 07:03:52</td>
        <td>HAProxy请求走私漏洞通告</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=0f5188e569fe5a758aa130ad8ec7c5fb">详情</a></td>
       </tr>
@@ -386,7 +386,7 @@
       <tr>
        <td scope="row">dd5f8a8b0b616924d7653ed02b9d78af</td>
        <td>CVE-2021-32846</td>
-       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 23:15:00</td>
        <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107, function `pci_vtsock_proc_tx` in `virtio-sock` can lead to to uninitialized memory use. In this situation, there is a check for the return value to be less or equal to `VTSOCK_MAXSEGS`, but that check is not sufficient because the function can return `-1` if it finds an error it cannot recover from. Moreover, the negative return value will be used by `iovec_pull` in a while condition that can further lead to more corruption because the function is not designed to handle a negative `iov_len`. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit af5eba2360a7351c08dfd9767d9be863a50ebaba.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32846">详情</a></td>
       </tr>
@@ -394,7 +394,7 @@
       <tr>
        <td scope="row">5bfd6e15551362ace70fde412eb3dd0a</td>
        <td>CVE-2021-32845</td>
-       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 23:15:00</td>
        <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, the implementation of `qnotify` at `pci_vtrnd_notify` fails to check the return value of `vq_getchain`. This leads to `struct iovec iov;` being uninitialized and used to read memory in `len = (int) read(sc->vrsc_fd, iov.iov_base, iov.iov_len);` when an attacker is able to make `vq_getchain` fail. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit 41272a980197917df8e58ff90642d14dec8fe948.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32845">详情</a></td>
       </tr>
@@ -402,7 +402,7 @@
       <tr>
        <td scope="row">fd531955ec22d8000a6a2cd21bfc162b</td>
        <td>CVE-2021-32844</td>
-       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 23:15:00</td>
        <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, ` vi_pci_write` has is a call to `vc_cfgwrite` that does not check for null which when called makes the host crash. This issue may lead to a guest crashing the host causing a denial of service. This issue is fixed in commit 451558fe8aaa8b24e02e34106e3bb9fe41d7ad13.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32844">详情</a></td>
       </tr>
@@ -410,7 +410,7 @@
       <tr>
        <td scope="row">0cf4d795524c04bb70a1aa3d0a2ba846</td>
        <td>CVE-2021-32843</td>
-       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 23:15:00</td>
        <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, `virtio.c` has is a call to `vc_cfgread` that does not check for null which when called makes the host crash. This issue may lead to a guest crashing the host causing a denial of service. This issue is fixed in commit df0e46c7dbfd81a957d85e449ba41b52f6f7beb4.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32843">详情</a></td>
       </tr>
@@ -418,7 +418,7 @@
       <tr>
        <td scope="row">b27672ed618bc3368864c2019e0255f3</td>
        <td>CVE-2023-24769</td>
-       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 22:15:00</td>
        <td>Changedetection.io before v0.40.1.1 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the main page. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the URL parameter under the "Add a new change detection watch" function.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24769">详情</a></td>
       </tr>
@@ -426,7 +426,7 @@
       <tr>
        <td scope="row">e718c1f71e06174bb432d06a8a68ea0a</td>
        <td>CVE-2023-23064</td>
-       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 22:15:00</td>
        <td>TOTOLINK A720R V4.1.5cu.532_ B20210610 is vulnerable to Incorrect Access Control.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23064">详情</a></td>
       </tr>
@@ -434,7 +434,7 @@
       <tr>
        <td scope="row">d251a198b91d9304914c911e2fe7907f</td>
        <td>CVE-2023-22246</td>
-       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 22:15:00</td>
        <td>Adobe Animate versions 22.0.8 (and earlier) and 23.0.0 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22246">详情</a></td>
       </tr>
@@ -442,7 +442,7 @@
       <tr>
        <td scope="row">51498554a94771afdeda28628d4bd133</td>
        <td>CVE-2023-22244</td>
-       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 22:15:00</td>
        <td>Adobe Premiere Rush version 2.6 (and earlier) is affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22244">详情</a></td>
       </tr>
@@ -450,7 +450,7 @@
       <tr>
        <td scope="row">0f2cb4e57caa3f1655a15379fb78a1a4</td>
        <td>CVE-2023-22243</td>
-       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 22:15:00</td>
        <td>Adobe Animate versions 22.0.8 (and earlier) and 23.0.0 (and earlier) are affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22243">详情</a></td>
       </tr>
@@ -458,7 +458,7 @@
       <tr>
        <td scope="row">7e59195bcf0a41c981984eefc423205b</td>
        <td>CVE-2023-22239</td>
-       <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 22:15:00</td>
        <td>After Affects versions 23.1 (and earlier), 22.6.3 (and earlier) are affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22239">详情</a></td>
       </tr>
@@ -466,7 +466,7 @@
       <tr>
        <td scope="row">43a42cf563d9b33c37409644a410385c</td>
        <td>CVE-2023-24809</td>
-       <td>2023-02-17 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:15:00</td>
        <td>NetHack is a single player dungeon exploration game. Starting with version 3.6.2 and prior to version 3.6.7, illegal input to the "C" (call) command can cause a buffer overflow and crash the NetHack process. This vulnerability may be a security issue for systems that have NetHack installed suid/sgid and for shared systems. For all systems, it may result in a process crash. This issue is resolved in NetHack 3.6.7. There are no known workarounds.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24809">详情</a></td>
       </tr>
@@ -474,7 +474,7 @@
       <tr>
        <td scope="row">459fdce927f29e8803171a57210eb1c6</td>
        <td>CVE-2023-23923</td>
-       <td>2023-02-17 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:15:00</td>
        <td>The vulnerability was found Moodle which exists due to insufficient limitations on the "start page" preference. A remote attacker can set that preference for another user. The vulnerability allows a remote attacker to gain unauthorized access to otherwise restricted functionality.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23923">详情</a></td>
       </tr>
@@ -482,7 +482,7 @@
       <tr>
        <td scope="row">487e520a7e50c4a094d4544b060f9b71</td>
        <td>CVE-2023-23922</td>
-       <td>2023-02-17 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:15:00</td>
        <td>The vulnerability was found Moodle which exists due to insufficient sanitization of user-supplied data in blog search. A remote attacker can trick the victim to follow a specially crafted link and execute arbitrary HTML and script code in user's browser in context of vulnerable website. This flaw allows a remote attacker to perform cross-site scripting (XSS) attacks.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23922">详情</a></td>
       </tr>
@@ -490,7 +490,7 @@
       <tr>
        <td scope="row">bf5a8d2113f9ab147c5801f3b1793ea3</td>
        <td>CVE-2023-23921</td>
-       <td>2023-02-17 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:15:00</td>
        <td>The vulnerability was found Moodle which exists due to insufficient sanitization of user-supplied data in some returnurl parameters. A remote attacker can trick the victim to follow a specially crafted link and execute arbitrary HTML and script code in user's browser in context of vulnerable website. This flaw allows a remote attacker to perform cross-site scripting (XSS) attacks.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23921">详情</a></td>
       </tr>
@@ -498,7 +498,7 @@
       <tr>
        <td scope="row">5e1c8f3a3e8b94e54a40f00d5818b5f6</td>
        <td>CVE-2023-24960</td>
-       <td>2023-02-17 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 19:15:00</td>
        <td>IBM InfoSphere Information Server 11.7 could allow a remote attacker to traverse directories on the system. An attacker could send a specially crafted URL request containing "dot dot" sequences (/../) to view arbitrary files on the system. IBM X-Force ID: 246333</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24960">详情</a></td>
       </tr>
@@ -506,7 +506,7 @@
       <tr>
        <td scope="row">caf304b6518f4b637275bcb46bb8ad0b</td>
        <td>CVE-2023-23279</td>
-       <td>2023-02-17 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 19:15:00</td>
        <td>Canteen Management System 1.0 is vulnerable to SQL Injection via /php_action/getOrderReport.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23279">详情</a></td>
       </tr>
@@ -514,7 +514,7 @@
       <tr>
        <td scope="row">93befa7cefa6b0b65403399372258092</td>
        <td>CVE-2022-43579</td>
-       <td>2023-02-17 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 19:15:00</td>
        <td>IBM Sterling B2B Integrator Standard Edition 6.0.0.0 through 6.0.3.7 and 6.1.0.0 through 6.1.2.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 238684.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43579">详情</a></td>
       </tr>
@@ -723,9 +723,27 @@
       </tr>
 
       <tr>
+       <td scope="row">00e6863cc7641d7f515910344eec1efb</td>
+       <td>CVE-2023-0913</td>
+       <td>2023-02-18 02:08:21 <img src="imgs/new.gif" /></td>
+       <td>Untitled vulnerability
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455293">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fda4759a020dbb5c6f5d59a317aac2d6</td>
+       <td>CVE-2023-0912</td>
+       <td>2023-02-18 02:08:21 <img src="imgs/new.gif" /></td>
+       <td>Untitled vulnerability
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455294">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ade6a1fb97517fbbf5d797b4577d9a05</td>
        <td>CVE-2020-19824</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>该漏洞编号已预留给漏洞申报者
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-173241">详情</a></td>
@@ -734,7 +752,7 @@
       <tr>
        <td scope="row">475d9db9e330492287b74ed61bafac5c</td>
        <td>CVE-2021-3172</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-384063">详情</a></td>
@@ -743,7 +761,7 @@
       <tr>
        <td scope="row">62af61fa38be765213551981647dcd78</td>
        <td>CVE-2021-32142</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-392085">详情</a></td>
@@ -752,7 +770,7 @@
       <tr>
        <td scope="row">d807791bae98ab85e0f9897d6a27b090</td>
        <td>CVE-2021-32163</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-392106">详情</a></td>
@@ -761,7 +779,7 @@
       <tr>
        <td scope="row">56e00c4aac90987a8621e09cc052541c</td>
        <td>CVE-2021-32419</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-392362">详情</a></td>
@@ -770,7 +788,7 @@
       <tr>
        <td scope="row">9ebb632ec65db1c09d1952d4d31131e1</td>
        <td>CVE-2021-32441</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-392384">详情</a></td>
@@ -779,28 +797,10 @@
       <tr>
        <td scope="row">012ef5c3656c02f06abf5761c0e88eec</td>
        <td>CVE-2021-33226</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:38:27</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-393267">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9998961ee2ba94b0322fe49ca90accad</td>
-       <td>CVE-2021-33237</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-393278">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8928fb307e89eb9985991457f921541a</td>
-       <td>CVE-2021-33391</td>
-       <td>2023-02-17 20:38:27 <img src="imgs/new.gif" /></td>
-       <td>RESERVED CVE CANDIDATE NUMBER...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-393432">详情</a></td>
       </tr>
 
      </tbody>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">cea4613b1b4b76fed7633027fd520ae5</td>
        <td>CVE-2021-36224</td>
-       <td>2023-02-17 20:28:20 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:28:20</td>
        <td>Stormshield Network Security 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8b849fd9bff54d489be7fc5c1a33734e">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">ec2546e2e0a411b267ae33cb91b424f0</td>
        <td>CVE-2022-4717</td>
-       <td>2023-02-17 20:28:14 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:28:14</td>
        <td>MACHOTHEMES STRONG_TESTIMONIALS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7f2ff5af960c4b96a0db9f3d5e3915e7">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">476ef87b661b55af949edc31ff35a4d9</td>
        <td>CVE-2023-20604</td>
-       <td>2023-02-17 20:28:07 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:28:07</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7e096ca3a95a439783ec469cb445717f">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">b6368e587f11d097bbc04b781cc85dae</td>
        <td>CVE-2021-36226</td>
-       <td>2023-02-17 20:28:01 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:28:01</td>
        <td>Stormshield Network Security 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=eedded58f47540b39833b9bb5a7fea2a">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">af29f64070a3d2d341c8d45f4385dee4</td>
        <td>CVE-2023-20608</td>
-       <td>2023-02-17 20:27:55 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:27:55</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=da60e9e46d064e158c01826b3b3061b0">详情</a></td>
       </tr>
@@ -2050,7 +2050,7 @@
       <tr>
        <td scope="row">0f1e8b477aed8fa13667f53785296f3a</td>
        <td>CVE-2021-36225</td>
-       <td>2023-02-17 20:27:48 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:27:48</td>
        <td>Stormshield Network Security 安全漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=720451086bd04da3b9c77cc352e37447">详情</a></td>
       </tr>
@@ -2058,7 +2058,7 @@
       <tr>
        <td scope="row">786cab2cffd44a1fba6c01a4f9a67782</td>
        <td>CVE-2023-20602</td>
-       <td>2023-02-17 20:27:42 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:27:42</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5051983e436942b2a51d1dc0a2753d31">详情</a></td>
       </tr>
@@ -2066,7 +2066,7 @@
       <tr>
        <td scope="row">d1051892e5e7455040d5f251b3f5aea6</td>
        <td>CVE-2023-20612</td>
-       <td>2023-02-17 20:27:36 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:27:36</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1aa99e607b334e7e9e3514bea28c3d69">详情</a></td>
       </tr>
@@ -2074,7 +2074,7 @@
       <tr>
        <td scope="row">830523ed726106c74790571b8d5ec424</td>
        <td>CVE-2023-0236</td>
-       <td>2023-02-17 20:27:29 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:27:29</td>
        <td>THEMEUM TUTOR_LMS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=01585097105142d2802b2e53a0e5c6ed">详情</a></td>
       </tr>
@@ -2082,7 +2082,7 @@
       <tr>
        <td scope="row">a22570ff779521e39d3eb0de3238a314</td>
        <td>CVE-2023-20607</td>
-       <td>2023-02-17 20:27:23 <img src="imgs/new.gif" /></td>
+       <td>2023-02-17 20:27:23</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=484ca7f3910a417081a27c16ef6b593d">详情</a></td>
       </tr>
