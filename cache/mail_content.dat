@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2012-10007</font><br/>[<b>披露时间</b>] 2023-02-19 16:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in madgicweb BuddyStream Plugin up to 3.2.7. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file ShareBox.php. The manipulation of the argument content/link/shares leads to cross site scripting. The attack can be launched remotely. Upgrading to version 3.2.8 is able to address this issue. The name of the patch is 7d5b9a89a27711aad76fd55ab4cc4185b545a1d0. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-221479.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2012-10007'>https://www.tenable.com/cve/CVE-2012-10007</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0919</font><br/>[<b>披露时间</b>] 2023-02-19 15:15:00<br/>[<b>漏洞描述</b>] Missing Authentication for Critical Function in GitHub repository kareadita/kavita prior to 0.7.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0919'>https://www.tenable.com/cve/CVE-2023-0919</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23696</font><br/>[<b>披露时间</b>] 2023-02-07 10:15:52 <br/>[<b>漏洞描述</b>] Dell Command Intel vPro Out of Band, versions prior to 4.3.1, contain an Improper Authorization vulnerability. A locally authenticated malicious users could potentially exploit this vulnerability in order to write arbitrary files to the system.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23696'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23696</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23631</font><br/>[<b>披露时间</b>] 2023-02-09 21:15:11 <br/>[<b>漏洞描述</b>] github.com/ipfs/go-unixfsnode is an ADL IPLD prime node that wraps go-codec-dagpb's implementation of protobuf to enable pathing. In versions priot to 1.5.2 trying to read malformed HAMT sharded directories can cause panics and virtual memory leaks. If you are reading untrusted user input, an attacker can then trigger a panic. This is caused by bogus fanout parameter in the HAMT directory nodes. Users are advised to upgrade. There are no known workarounds for this vulnerability.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23631'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23631</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
