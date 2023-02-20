@@ -1,11 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2016-15026</font><br/>[<b>披露时间</b>] 2023-02-20 11:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in 3breadt dd-plist 1.17 and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to xml external entity reference. An attack has to be approached locally. Upgrading to version 1.18 is able to address this issue. The name of the patch is 8c954e8d9f6f6863729e50105a8abf3f87fff74c. It is recommended to upgrade the affected component. VDB-221486 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2016-15026'>https://www.tenable.com/cve/CVE-2016-15026</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0800</font><br/>[<b>披露时间</b>] 2023-02-20 20:28:08<br/>[<b>漏洞描述</b>] LIBTIFF LIBTIFF Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=1cde0cf61b3343908b3c426072f25056'>https://redqueen.tj-un.com/IntelDetails.html?id=1cde0cf61b3343908b3c426072f25056</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0803</font><br/>[<b>披露时间</b>] 2023-02-20 20:27:56<br/>[<b>漏洞描述</b>] LIBTIFF LIBTIFF Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b523a50f40644df6b8394875ce0a0a45'>https://redqueen.tj-un.com/IntelDetails.html?id=b523a50f40644df6b8394875ce0a0a45</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33934</font><br/>[<b>披露时间</b>] 2023-02-20 20:27:44<br/>[<b>漏洞描述</b>] DELL EMC_POWERSCALE_ONEFS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b459338eb4a946beae42fa650fb3747c'>https://redqueen.tj-un.com/IntelDetails.html?id=b459338eb4a946beae42fa650fb3747c</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22832</font><br/>[<b>披露时间</b>] 2023-02-20 20:27:31<br/>[<b>漏洞描述</b>] APACHE NIFI Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=5e12c8f6bf9f43998ad262aed3e18629'>https://redqueen.tj-un.com/IntelDetails.html?id=5e12c8f6bf9f43998ad262aed3e18629</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0814</font><br/>[<b>披露时间</b>] 2023-02-20 20:27:25<br/>[<b>漏洞描述</b>] COZMOSLABS PROFILE_BUILDER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=af7a716a18444dffa5c24a0728f0489f'>https://redqueen.tj-un.com/IntelDetails.html?id=af7a716a18444dffa5c24a0728f0489f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48295</font><br/>[<b>披露时间</b>] 2023-02-20 20:27:19<br/>[<b>漏洞描述</b>] HUAWEI Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d1137b40caba440bb19f2b16a1604b94'>https://redqueen.tj-un.com/IntelDetails.html?id=d1137b40caba440bb19f2b16a1604b94</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
