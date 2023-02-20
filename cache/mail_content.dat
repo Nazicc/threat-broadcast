@@ -1,12 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44216</font><br/>[<b>披露时间</b>] 2023-02-20 20:15:00<br/>[<b>漏洞描述</b>] Gnuboard 5.5.4 and 5.5.5 is vulnerable to Insecure Permissions. An attacker can change password of all users without knowing victim's original password.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-44216'>https://www.tenable.com/cve/CVE-2022-44216</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3901</font><br/>[<b>披露时间</b>] 2023-02-20 19:15:00<br/>[<b>漏洞描述</b>] Prototype Pollution in Visioweb.js 1.10.6 allows attackers to execute XSS on the client system.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-3901'>https://www.tenable.com/cve/CVE-2022-3901</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-32852</font><br/>[<b>披露时间</b>] 2023-02-20 22:15:00<br/>[<b>漏洞描述</b>] Countly, a product analytics solution, is vulnerable to cross-site scripting prior to version 21.11 of the community edition. The victim must follow a malicious link or be redirected there from malicious web site. The attacker must have an account or be able to create one. This issue is patched in version 21.11.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-32852'>https://www.tenable.com/cve/CVE-2021-32852</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-32851</font><br/>[<b>披露时间</b>] 2023-02-20 22:15:00<br/>[<b>漏洞描述</b>] Mind-elixir is a free, open source mind map core. Prior to version 0.18.1, mind-elixir is prone to cross-site scripting when handling untrusted menus. This issue is patched in version 0.18.1<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-32851'>https://www.tenable.com/cve/CVE-2021-32851</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-32850</font><br/>[<b>披露时间</b>] 2023-02-20 22:15:00<br/>[<b>漏洞描述</b>] jQuery MiniColors is a color picker built on jQuery. Prior to version 2.3.6, jQuery MiniColors is prone to cross-site scripting when handling untrusted color names. This issue is patched in version 2.3.6.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2021-32850'>https://www.tenable.com/cve/CVE-2021-32850</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
