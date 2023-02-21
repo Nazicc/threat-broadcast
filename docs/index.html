@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-20 23:38:34 -->
+<!-- RELEASE TIME : 2023-02-21 02:08:43 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">bb4866a4fd3533fca647efff3a6f0089</td>
+       <td>CVE-2023-26235</td>
+       <td>2023-02-21 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>JD-GUI 1.6.6 allows XSS via util/net/InterProcessCommunicationUtil.java.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26235">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a044e2dd77a29b850f00f189c26c9ee</td>
+       <td>CVE-2023-26234</td>
+       <td>2023-02-21 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>JD-GUI 1.6.6 allows deserialization via UIMainWindowPreferencesProvider.singleInstance.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26234">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c4c98858bf33f7eb2d7689465205755</td>
+       <td>CVE-2023-23453</td>
+       <td>2023-02-20 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Missing Authentication for Critical Function in SICK FX0-GENT v3 Firmware Version V3.04 and V3.05 allows an unprivileged remote attacker to achieve arbitrary remote code execution via maliciously crafted RK512 commands to the listener on TCP port 9000.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23453">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">411357026a64b9ec8267f603e0896300</td>
+       <td>CVE-2023-23452</td>
+       <td>2023-02-20 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Missing Authentication for Critical Function in SICK FX0-GPNT v3 Firmware Version V3.04 and V3.05 allows an unprivileged remote attacker to achieve arbitrary remote code execution via maliciously crafted RK512 commands to the listener on TCP port 9000.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23452">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">19b84b6b9edda2b2f2d25af7fbd51eb3</td>
+       <td>CVE-2022-48339</td>
+       <td>2023-02-20 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in GNU Emacs through 28.2. htmlfontify.el has a command injection vulnerability. In the hfy-istext-command function, the parameter file and parameter srcdir come from external input, and parameters are not escaped. If a file name or directory name contains shell metacharacters, code may be executed.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48339">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc0199d5201aa874c4fc7576533e6f87</td>
+       <td>CVE-2022-48338</td>
+       <td>2023-02-20 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in GNU Emacs through 28.2. In ruby-mode.el, the ruby-find-library-file function has a local command injection vulnerability. The ruby-find-library-file function is an interactive function, and bound to C-c C-f. Inside the function, the external command gem is called through shell-command-to-string, but the feature-name parameters are not escaped. Thus, malicious Ruby source files may cause commands to be executed.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48338">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e56353171d6f2b286a7d5c7c7b47e29</td>
+       <td>CVE-2022-48337</td>
+       <td>2023-02-20 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>GNU Emacs through 28.2 allows attackers to execute commands via shell metacharacters in the name of a source-code file, because lib-src/etags.c uses the system C library function in its implementation of the etags program. For example, a victim may use the "etags -u *" command (suggested in the etags documentation) in a situation where the current working directory has contents that depend on untrusted input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48337">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">17743b22d1a3bbf0acf06d59ca4d6d44</td>
+       <td>CVE-2021-32853</td>
+       <td>2023-02-20 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Erxes, an experience operating system (XOS) with a set of plugins, is vulnerable to cross-site scripting in versions 0.22.3 and prior. This results in client-side code execution. The victim must follow a malicious link or be redirected there from malicious web site. There are no known patches.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32853">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5b075404144be82d14dd9583871adfb2</td>
        <td>CVE-2021-32852</td>
        <td>2023-02-20 22:15:00 <img src="imgs/new.gif" /></td>
@@ -455,70 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-15026">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">b739f700d633e0b72b90f92fd69a13d1</td>
-       <td>CVE-2016-15025</td>
-       <td>2023-02-20 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as problematic, was found in generator-hottowel 0.0.11. Affected is an unknown function of the file app/templates/src/server/_app.js of the component 404 Error Handler. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. The name of the patch is c17092fd4103143a9ddab93c8983ace8bf174396. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-221484.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-15025">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0554ca4b8697308da14e7919adeadba1</td>
-       <td>CVE-2015-10080</td>
-       <td>2023-02-20 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in NREL api-umbrella-web 0.7.1. It has been classified as problematic. This affects an unknown part of the component Admin Data Table Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 0.8.0 is able to address this issue. The name of the patch is f53a9fb87e10c457f0f3dd4f2af24d3b2f21b3ca. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-221487.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2015-10080">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e43ccbb47438a1898144630704ca10c9</td>
-       <td>CVE-2014-125088</td>
-       <td>2023-02-20 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in qt-users-jp silk 0.0.1. It has been declared as problematic. This vulnerability affects unknown code of the file contents/root/examples/header.qml. The manipulation of the argument model.key/model.value leads to cross site scripting. The attack can be initiated remotely. The name of the patch is bbc5d6eeea800025ef29edda3fd3c57836239eae. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-221488.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2014-125088">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a72d15b7f2db17f15bd65f8cdfe30a73</td>
-       <td>CVE-2013-10019</td>
-       <td>2023-02-20 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in OCLC-Research OAICat 1.5.61. It has been rated as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The attack may be initiated remotely. Upgrading to version 1.5.62 is able to address this issue. The name of the patch is 6cc65501869fa663bcd24a70b63f41f5cfe6b3e1. It is recommended to upgrade the affected component. The identifier VDB-221489 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2013-10019">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9917d09850a081fdea0749172252e511</td>
-       <td>CVE-2012-10008</td>
-       <td>2023-02-20 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as critical, has been found in uakfdotb oneapp. This issue affects some unknown processing. The manipulation leads to sql injection. The attack may be initiated remotely. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The name of the patch is 5413ac804f1b09f9decc46a6c37b08352c49669c. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-221483.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2012-10008">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">edd497c50e949a70ed8e823fdc960e1b</td>
-       <td>CVE-2023-26093</td>
-       <td>2023-02-20 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Liima before 1.17.28 allows Hibernate query language (HQL) injection, related to colToSort in the deployment filter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26093">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4915f3338f932225e959a645c7319308</td>
-       <td>CVE-2023-26092</td>
-       <td>2023-02-20 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Liima before 1.17.28 allows server-side template injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26092">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5a41667d2d01acf84bb1dbdfbedaa3c5</td>
-       <td>CVE-2022-48329</td>
-       <td>2023-02-20 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>MISP before 2.4.166 unsafely allows users to use the order parameter, related to app/Model/Attribute.php, app/Model/GalaxyCluster.php, app/Model/Workflow.php, and app/Plugin/Assets/models/behaviors/LogableBehavior.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48329">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -581,7 +581,7 @@
       <tr>
        <td scope="row">d0759f57d728fa5633cc910d3fd4a05c</td>
        <td>CVE-2016-15024</td>
-       <td>2023-02-19 21:38:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 21:38:00</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455183">详情</a></td>
@@ -590,7 +590,7 @@
       <tr>
        <td scope="row">55de80cea46291a033955eaa68e55f31</td>
        <td>CVE-2014-125087</td>
-       <td>2023-02-19 21:38:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 21:38:00</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455182">详情</a></td>
@@ -599,7 +599,7 @@
       <tr>
        <td scope="row">199655b622cddfb9d320524d51d05a4f</td>
        <td>CVE-2012-10007</td>
-       <td>2023-02-19 21:38:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 21:38:00</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455181">详情</a></td>
@@ -608,7 +608,7 @@
       <tr>
        <td scope="row">0e933f1d6cb1bb6f46066ec7e8d3d65e</td>
        <td>CVE-2023-0919</td>
-       <td>2023-02-19 21:38:00 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 21:38:00</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455309">详情</a></td>
@@ -617,7 +617,7 @@
       <tr>
        <td scope="row">83b0154e52b547b1f88b83d7f6abeada</td>
        <td>CVE-2023-0918</td>
-       <td>2023-02-19 17:37:40 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 17:37:40</td>
        <td>A vulnerability has been found in codeprojects...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455296">详情</a></td>
@@ -626,7 +626,7 @@
       <tr>
        <td scope="row">cbd7e2e34dd53872680db01a1a94d3a2</td>
        <td>CVE-2023-0917</td>
-       <td>2023-02-19 17:37:40 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 17:37:40</td>
        <td>A vulnerability, which was classified as...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455297">详情</a></td>
@@ -635,7 +635,7 @@
       <tr>
        <td scope="row">7b14c254357ed88e6d830b6bc5cc76c3</td>
        <td>CVE-2023-0916</td>
-       <td>2023-02-19 17:37:40 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 17:37:40</td>
        <td>A vulnerability classified as critical was...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455298">详情</a></td>
@@ -644,7 +644,7 @@
       <tr>
        <td scope="row">eb2286d86806477aa83d65d24e0af419</td>
        <td>CVE-2023-0915</td>
-       <td>2023-02-19 17:37:40 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 17:37:40</td>
        <td>A vulnerability classified as critical has...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455299">详情</a></td>
@@ -653,7 +653,7 @@
       <tr>
        <td scope="row">e9ee423e2fb925fe28e6ef82d217780c</td>
        <td>CVE-2023-0914</td>
-       <td>2023-02-19 17:37:40 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 17:37:40</td>
        <td>Improper Authorization in GitHub repository...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455295">详情</a></td>
@@ -662,7 +662,7 @@
       <tr>
        <td scope="row">424ee0655941080ead25cec88a47f063</td>
        <td>CVE-2023-0918</td>
-       <td>2023-02-19 12:56:57 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 12:56:57</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455296">详情</a></td>
@@ -671,7 +671,7 @@
       <tr>
        <td scope="row">4c8e2bec4ee9cbcb2833a5e9e35a3f4f</td>
        <td>CVE-2023-0917</td>
-       <td>2023-02-19 12:56:57 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 12:56:57</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455297">详情</a></td>
@@ -680,7 +680,7 @@
       <tr>
        <td scope="row">72ecfb877830eb52e394fee68a788a67</td>
        <td>CVE-2023-0916</td>
-       <td>2023-02-19 12:56:57 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 12:56:57</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455298">详情</a></td>
@@ -689,7 +689,7 @@
       <tr>
        <td scope="row">14cf29bb46538384a91b82250657a689</td>
        <td>CVE-2023-0915</td>
-       <td>2023-02-19 12:56:57 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 12:56:57</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455299">详情</a></td>
@@ -698,7 +698,7 @@
       <tr>
        <td scope="row">e1a2c1a4a32b94d423ab6e6f9c4bc4cc</td>
        <td>CVE-2023-0914</td>
-       <td>2023-02-19 09:38:04 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 09:38:04</td>
        <td>Untitled vulnerability
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-455295">详情</a></td>
@@ -820,7 +820,7 @@
       <tr>
        <td scope="row">ea888d799ffeb025442206811fb0f478</td>
        <td>CNVD-2023-09648 (CVE-2023-0049)</td>
-       <td>2023-02-19 16:44:51 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 16:44:51</td>
        <td>vim存在二进制漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09648">详情</a></td>
       </tr>
@@ -828,7 +828,7 @@
       <tr>
        <td scope="row">7d15a37a0fda31687b7a482e3b63dbcb</td>
        <td>CNVD-2023-09647 (CVE-2023-0051)</td>
-       <td>2023-02-19 16:44:48 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 16:44:48</td>
        <td>Vim存在二进制漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09647">详情</a></td>
       </tr>
@@ -836,7 +836,7 @@
       <tr>
        <td scope="row">cf61a10c7e29609df37931118c7da3c4</td>
        <td>CNVD-2023-09166 (CVE-2023-0054)</td>
-       <td>2023-02-19 16:44:46 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 16:44:46</td>
        <td>vim存在二进制漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-09166">详情</a></td>
       </tr>
@@ -1978,7 +1978,7 @@
       <tr>
        <td scope="row">ea02006a41833e5cff8d5104f240a6d0</td>
        <td>CVE-2023-0771</td>
-       <td>2023-02-19 20:29:40 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:40</td>
        <td>AMPACHE AMPACHE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=64a64548daf141d7b696cbd38bf93c63">详情</a></td>
       </tr>
@@ -1986,7 +1986,7 @@
       <tr>
        <td scope="row">c91b5798806ae34e4260ff57d85de39d</td>
        <td>CVE-2023-0770</td>
-       <td>2023-02-19 20:29:34 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:34</td>
        <td>GPAC GPAC Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8efae556b8504abbaa799420e1556075">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">47c16964bb2891839e9759c9c35cad5f</td>
        <td>CVE-2022-46649</td>
-       <td>2023-02-19 20:29:28 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:28</td>
        <td>SIERRAWIRELESS ALEOS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=32f8f8e5a5ea448b8357af73b13c53c1">详情</a></td>
       </tr>
@@ -2002,7 +2002,7 @@
       <tr>
        <td scope="row">634fa8a5de58522ec4562e22d6c377c2</td>
        <td>CVE-2023-0759</td>
-       <td>2023-02-19 20:29:22 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:22</td>
        <td>AGENTEJO COCKPIT Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e35e2e95dd814388b50204e5ee591684">详情</a></td>
       </tr>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">e5e5a3e8f32f275f1d07fd5dc32ca1b4</td>
        <td>CVE-2023-0760</td>
-       <td>2023-02-19 20:29:15 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:15</td>
        <td>GPAC GPAC Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=65b3073a95f645969f6afabf7640d92c">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">3883aa7356eb73b1eded61d1def7df49</td>
        <td>CVE-2022-48286</td>
-       <td>2023-02-19 20:29:09 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:09</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e62e88cc3a334806b97e2b655944125f">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">9d9a19636200321b877839adffffeca6</td>
        <td>CVE-2022-48287</td>
-       <td>2023-02-19 20:29:03 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:29:03</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e698d9359d5746d697cc6faeceee91a3">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">5506df555cbd6cd415240838711f8f29</td>
        <td>CVE-2022-48297</td>
-       <td>2023-02-19 20:28:56 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:28:56</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=d03acde4d8984cc88b4ecb2d71fdebaa">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">bf8e5fd8f38fe1d5846eeaad06eb93d6</td>
        <td>CVE-2022-48299</td>
-       <td>2023-02-19 20:28:50 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:28:50</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=01e0a13ec69f43b29663ce01c2f34a07">详情</a></td>
       </tr>
@@ -2050,7 +2050,7 @@
       <tr>
        <td scope="row">2ea5ec0595e6f655ad800e9debcc2709</td>
        <td>CVE-2022-46650</td>
-       <td>2023-02-19 20:28:44 <img src="imgs/new.gif" /></td>
+       <td>2023-02-19 20:28:44</td>
        <td>SIERRAWIRELESS ALEOS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=9f904c21123345efbb56f5ccd6942112">详情</a></td>
       </tr>
@@ -2690,6 +2690,15 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7069358b6d3ce19f3df3eeb2db587f88</td>
+       <td>CVE-2023-23752</td>
+       <td>2023-02-17 02:07:58</td>
+       <td>Joomla Rest API 未授权访问漏洞（CVE-2023-23752）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2023-23752">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d287d6753b8e76d3d417b975704fc5cc</td>
        <td>CVE-2023-25194</td>
        <td>2023-02-08 11:37:33</td>
@@ -2948,15 +2957,6 @@
        <td>ff4j framework 远程代码执行漏洞（CVE-2022-44262）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-44262">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1e5268f714df805655e2bc11122f03a7</td>
-       <td>CVE-2022-45205</td>
-       <td>2022-11-29 03:24:58</td>
-       <td>JeecgBoot Jeecg-Boot SQL注入漏洞（CVE-2022-45205）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-45205">详情</a></td>
       </tr>
 
      </tbody>
