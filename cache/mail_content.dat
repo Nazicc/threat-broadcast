@@ -1,12 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-10619 (CVE-2023-24994)</font><br/>[<b>披露时间</b>] 2023-02-22 06:43:25<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-10619'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-10619</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-10620 (CVE-2023-24993)</font><br/>[<b>披露时间</b>] 2023-02-22 06:43:29<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-10620'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-10620</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24108</font><br/>[<b>披露时间</b>] 2023-02-22 04:15:00<br/>[<b>漏洞描述</b>] MvcTools 6d48cd6830fc1df1d8c9d61caa1805fd6a1b7737 was discovered to contain a code execution backdoor via the request package (requirements.txt). This vulnerability allows attackers to access sensitive user information and execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24108'>https://www.tenable.com/cve/CVE-2023-24108</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24107</font><br/>[<b>披露时间</b>] 2023-02-22 04:15:00<br/>[<b>漏洞描述</b>] hour_of_code_python_2015 commit 520929797b9ca43bb818b2e8f963fb2025459fa3 was discovered to contain a code execution backdoor via the request package (requirements.txt). This vulnerability allows attackers to access sensitive user information and execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24107'>https://www.tenable.com/cve/CVE-2023-24107</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0947</font><br/>[<b>披露时间</b>] 2023-02-22 01:15:00<br/>[<b>漏洞描述</b>] Path Traversal in GitHub repository flatpressblog/flatpress prior to 1.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0947'>https://www.tenable.com/cve/CVE-2023-0947</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2883</font><br/>[<b>披露时间</b>] 2023-02-22 01:15:00<br/>[<b>漏洞描述</b>] In affected versions of Octopus Deploy it is possible to upload a zipbomb file as a task which results in Denial of Service<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-2883'>https://www.tenable.com/cve/CVE-2022-2883</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
