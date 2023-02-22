@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25758</font><br/>[<b>披露时间</b>] 2023-02-14 07:15:11 <br/>[<b>漏洞描述</b>] Onekey Touch devices through 4.0.0 and Onekey Mini devices through 2.10.0 allow man-in-the-middle attackers to obtain the seed phase. The man-in-the-middle access can only be obtained after disassembling a device (i.e., here, &quot;man-in-the-middle&quot; does not refer to the attacker's position on an IP network). NOTE: the vendor states that &quot;our hardware team has updated the security patch without anyone being affected.&quot;<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25758'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25758</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23063</font><br/>[<b>披露时间</b>] 2023-02-22 15:15:00<br/>[<b>漏洞描述</b>] Cellinx NVT v1.0.6.002b is vulnerable to local file disclosure.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23063'>https://www.tenable.com/cve/CVE-2023-23063</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41217</font><br/>[<b>披露时间</b>] 2023-02-22 15:15:00<br/>[<b>漏洞描述</b>] Cloudflow contains a unauthenticated file upload vulnerability, which makes it possible for an attacker to upload malicious files to the CLOUDFLOW PROOFSCOPE built-in storage.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-41217'>https://www.tenable.com/cve/CVE-2022-41217</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41216</font><br/>[<b>披露时间</b>] 2023-02-22 15:15:00<br/>[<b>漏洞描述</b>] Local File Inclusion vulnerability within Cloudflow allows attackers to retrieve confidential information from the system.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-41216'>https://www.tenable.com/cve/CVE-2022-41216</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
