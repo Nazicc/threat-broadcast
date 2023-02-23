@@ -1,17 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11425 (CVE-2023-0918)</font><br/>[<b>披露时间</b>] 2023-02-23 07:37:31<br/>[<b>漏洞描述</b>] Pharmacy Management System任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11425'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11425</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11426 (CVE-2022-34948)</font><br/>[<b>披露时间</b>] 2023-02-23 07:37:38<br/>[<b>漏洞描述</b>] Pharmacy Management System editbrand.php SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11426'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11426</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11427 (CVE-2022-34947)</font><br/>[<b>披露时间</b>] 2023-02-23 07:37:40<br/>[<b>漏洞描述</b>] Pharmacy Management System editcategory.php SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11427'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11427</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11428 (CVE-2022-34950)</font><br/>[<b>披露时间</b>] 2023-02-23 07:37:42<br/>[<b>漏洞描述</b>] Pharmacy Management System editproduct.php SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11428'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11428</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11429 (CVE-2022-34952)</font><br/>[<b>披露时间</b>] 2023-02-23 07:37:44<br/>[<b>漏洞描述</b>] Pharmacy Management System edituser.php SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11429'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11429</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20858</font><br/>[<b>披露时间</b>] 2023-02-23 07:25:17<br/>[<b>漏洞描述</b>] CVE-2023-20858：VMware Carbon Black App Control 远程代码执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=5d605d0ca5461a96ccfd9507699362a0'>https://cert.360.cn/warning/detail?id=5d605d0ca5461a96ccfd9507699362a0</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23752</font><br/>[<b>披露时间</b>] 2023-02-21 14:03:03<br/>[<b>漏洞描述</b>] Joomla 存在未授权访问漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8014'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8014</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11436 (CVE-2022-43319)</font><br/>[<b>披露时间</b>] 2023-02-23 08:42:06<br/>[<b>漏洞描述</b>] Simple E-Learning System信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11436'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11436</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11437 (CVE-2022-2699)</font><br/>[<b>披露时间</b>] 2023-02-23 08:42:08<br/>[<b>漏洞描述</b>] Simple E-Learning System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11437'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11437</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11438 (CVE-2022-2697)</font><br/>[<b>披露时间</b>] 2023-02-23 08:42:10<br/>[<b>漏洞描述</b>] Simple E-Learning System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11438'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11438</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-11439 (CVE-2022-2698)</font><br/>[<b>披露时间</b>] 2023-02-23 08:42:12<br/>[<b>漏洞描述</b>] Simple E-Learning System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-11439'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-11439</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
