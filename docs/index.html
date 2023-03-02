@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-02 21:38:46 -->
+<!-- RELEASE TIME : 2023-03-02 22:39:09 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c3725b1562a7a45e0c36caf5cbbe67a2</td>
+       <td>CVE-2023-26476</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 3.2-m3, users can deduce the content of the password fields by repeated call to `LiveTableResults` and `WikisLiveTableResultsMacros`. The issue can be fixed by upgrading to versions 14.7-rc-1, 13.4.4, or 13.10.9 and higher, or in version >= 3.2M3 by applying the patch manually on `LiveTableResults` and `WikisLiveTableResultsMacros`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26476">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d149ff10a5e8e3b233ffffcd1a304118</td>
+       <td>CVE-2023-26475</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 2.3-milestone-1, the annotation displayer does not execute the content in a restricted context. This allows executing anything with the right of the author of any document by annotating the document. This has been patched in XWiki 13.10.11, 14.4.7 and 14.10. There is no easy workaround except to upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26475">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0c864335df74cf5ec6e39146f21e1934</td>
+       <td>CVE-2023-26474</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 13.10, it's possible to use the right of an existing document content author to execute a text area property. This has been patched in XWiki 14.10, 14.4.7, and 13.10.11. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26474">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b65a73d36b00ea369ce493d17f27a854</td>
+       <td>CVE-2023-26473</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 1.3-rc-1, any user with edit right can execute arbitrary database select and access data stored in the database. The problem has been patched in XWiki 13.10.11, 14.4.7, and 14.10. There is no workaround for this vulnerability other than upgrading.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26473">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b158198891da3f983cf5e028346b91a</td>
+       <td>CVE-2023-26472</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 6.2-milestone-1, one can execute any wiki content with the right of IconThemeSheet author by creating an icon theme with certain content. This can be done by creating a new page or even through the user profile for users not having edit right. The issue has been patched in XWiki 14.9, 14.4.6, and 13.10.10. An available workaround is to fix the bug in the page `IconThemesCode.IconThemeSheet` by applying a modification from commit 48caf7491595238af2b531026a614221d5d61f38.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26472">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1bc95c94d2539d09cbbaf97f78396739</td>
+       <td>CVE-2023-26471</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 11.6-rc-1, comments are supposed to be executed with the right of superadmin but in restricted mode (anything dangerous is disabled), but the async macro does not take into account the restricted mode. This means that any user with comment right can use the async macro to make it execute any wiki content with the right of superadmin. This has been patched in XWiki 14.9, 14.4.6, and 13.10.10. The only known workaround consists of applying a patch and rebuilding and redeploying `org.xwiki.platform:xwiki-platform-rendering-async-macro`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26471">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">925e5c26fe98dbdbfbf6657ec2a1b157</td>
+       <td>CVE-2023-26470</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. It's possible to make the farm unusable by adding an object to a page with a huge number (e.g. 67108863). Most of the time this will fill the memory allocated to XWiki and make it unusable every time this document is manipulated. This issue has been patched in XWiki 14.0-rc-1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26470">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">98321e94d3ad8f18e8da8630c1eca54f</td>
+       <td>CVE-2023-26056</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Starting in version 3.0-milestone-1, it's possible to execute a script with the right of another user, provided the target user does not have programming right. The problem has been patched in XWiki 14.8-rc-1, 14.4.5, and 13.10.10. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26056">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a550d0f2c25d15852fb6237baed6d801</td>
+       <td>CVE-2023-26055</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Commons are technical libraries common to several other top level XWiki projects. Starting in version 3.1-milestone-1, any user can edit their own profile and inject code, which is going to be executed with programming right. The same vulnerability can also be exploited in all other places where short text properties are displayed, e.g., in apps created using Apps Within Minutes that use a short text field. The problem has been patched on versions 13.10.9, 14.4.4, 14.7RC1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26055">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f2dbd95e9a77e4283b12e944e7d6dc41</td>
+       <td>CVE-2023-26052</td>
+       <td>2023-03-02 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Saleor is a headless, GraphQL commerce platform delivering personalized shopping experiences. Some internal Python exceptions are not handled properly and thus are returned in API as error messages. Some messages might contain sensitive information like infrastructure details in unauthenticated requests. This issue has been patched in versions 3.1.48, 3.7.59, 3.8.0, 3.9.27, 3.10.14 and 3.11.12.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26052">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">49745e5c7cc0f43adf3e2c34279e1b91</td>
        <td>CVE-2023-26480</td>
        <td>2023-03-02 18:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-03-02 03:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) - Stored in GitHub repository flatpressblog/flatpress prior to 1.3.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1148">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">349aaebc404d609722170be7dc20ff0b</td>
-       <td>CVE-2023-1147</td>
-       <td>2023-03-02 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository flatpressblog/flatpress prior to 1.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1147">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ff6b291e38dc0a2f38b27afcb429dab2</td>
-       <td>CVE-2023-1146</td>
-       <td>2023-03-02 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub repository flatpressblog/flatpress prior to 1.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1146">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e9f0e87bf78982fe4c5fc18372d97db</td>
-       <td>CVE-2023-1107</td>
-       <td>2023-03-02 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository flatpressblog/flatpress prior to 1.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1107">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">429062e04145aee7e149b0375f42cc41</td>
-       <td>CVE-2023-1106</td>
-       <td>2023-03-02 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Reflected in GitHub repository flatpressblog/flatpress prior to 1.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1106">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a6ac98d28ee5de4a2385033ad3db3f0d</td>
-       <td>CVE-2023-0228</td>
-       <td>2023-03-02 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Authentication vulnerability in ABB Symphony Plus S+ Operations allows Man in the Middle Attack.This issue affects Symphony Plus S+ Operations: from 2.X through 2.1 SP2, 2.2, from 3.X through 3.3 SP1, 3.3 SP2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0228">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">92227fade49051fda416ce0419476d0c</td>
-       <td>CVE-2023-0982</td>
-       <td>2023-02-23 12:15:00</td>
-       <td>A vulnerability was found in SourceCodester Yoga Class Registration System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the component Add Class Entry. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The identifier VDB-221677 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0982">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b04cfce5e7b48f6f3393969415c0b0e</td>
-       <td>CVE-2023-0981</td>
-       <td>2023-02-23 12:15:00</td>
-       <td>A vulnerability was found in SourceCodester Yoga Class Registration System 1.0. It has been classified as critical. Affected is an unknown function of the component Delete User. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-221676.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0981">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ad793b779ae67cb89e1d33529ac57770</td>
-       <td>CVE-2023-0980</td>
-       <td>2023-02-23 12:15:00</td>
-       <td>A vulnerability was found in SourceCodester Yoga Class Registration System 1.0 and classified as critical. This issue affects some unknown processing of the file admin/registrations/update_status.php of the component Status Update Handler. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The associated identifier of this vulnerability is VDB-221675.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0980">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">26f3b69a15c63a4ec6b0cee80d389c08</td>
-       <td>CVE-2022-2504</td>
-       <td>2023-02-23 12:15:00</td>
-       <td>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SDD Computer Software SDD-Baro allows SQL Injection.This issue affects SDD-Baro: before 2.8.432.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2504">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d61aa207eee331aef65f3f61753be0dc</td>
-       <td>CVE-2023-25621</td>
-       <td>2023-02-23 09:15:00</td>
-       <td>Privilege Escalation vulnerability in Apache Software Foundation Apache Sling. Any content author is able to create i18n dictionaries in the repository in a location the author has write access to. As these translations are used across the whole product, it allows an author to change any text or dialog in the product. For example an attacker might fool someone by changing the text on a delete button to "Info". This issue affects the i18n module of Apache Sling up to version 2.5.18. Version 2.6.2 and higher limit by default i18m dictionaries to certain paths in the repository (/libs and /apps). Users of the module are advised to update to version 2.6.2 or higher, check the configuration for resource loading and then adjust the access permissions for the configured path accordingly.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25621">详情</a></td>
       </tr>
 
      </tbody>
