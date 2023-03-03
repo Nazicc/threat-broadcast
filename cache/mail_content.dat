@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0050</font><br/>[<b>披露时间</b>] 2023-03-03 07:22:27<br/>[<b>漏洞描述</b>] CVE-2023-0050：GitLab跨站脚本漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=316b9c8cdd3c18911976bc3f9f0fbe52'>https://cert.360.cn/warning/detail?id=316b9c8cdd3c18911976bc3f9f0fbe52</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0457</font><br/>[<b>披露时间</b>] 2023-03-03 05:15:00<br/>[<b>漏洞描述</b>] Plaintext Storage of a Password vulnerability in Mitsubishi Electric Corporation MELSEC iQ-F Series FX5U(C) CPU modules all models all versions, FX5UJ CPU modules all models all versions, FX5S CPU modules all models all versions, FX5-ENET all versions and FX5-ENET/IP all versions allows a remote unauthenticated attacker to disclose plaintext credentials stored in project files and login into FTP server or Web server.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0457'>https://www.tenable.com/cve/CVE-2023-0457</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1160</font><br/>[<b>披露时间</b>] 2023-03-03 02:15:00<br/>[<b>漏洞描述</b>] Use of Platform-Dependent Third Party Components in GitHub repository cockpit-hq/cockpit prior to 2.4.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1160'>https://www.tenable.com/cve/CVE-2023-1160</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14253 (CVE-2022-20508)</font><br/>[<b>披露时间</b>] 2023-03-03 10:40:11<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14253'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14253</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
