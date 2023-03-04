@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1175</font><br/>[<b>披露时间</b>] 2023-03-04 16:15:00<br/>[<b>漏洞描述</b>] Incorrect Calculation of Buffer Size in GitHub repository vim/vim prior to 9.0.1378.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1175'>https://www.tenable.com/cve/CVE-2023-1175</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36664</font><br/>[<b>披露时间</b>] 2023-03-04 17:15:00<br/>[<b>漏洞描述</b>] A vulnerability has been found in Artesãos SEOTools up to 0.17.1 and classified as problematic. This vulnerability affects the function setTitle of the file SEOMeta.php. The manipulation of the argument title leads to open redirect. Upgrading to version 0.17.2 is able to address this issue. The name of the patch is ca27cd0edf917e0bc805227013859b8b5a1f01fb. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-222232.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-36664'>https://www.tenable.com/cve/CVE-2020-36664</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
