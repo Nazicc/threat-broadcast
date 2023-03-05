@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-05 22:38:26 -->
+<!-- RELEASE TIME : 2023-03-05 23:38:14 -->
 <html lang="zh-cn">
 
  <head>
@@ -2492,11 +2492,59 @@
       </tr>
 
       <tr>
+       <td scope="row">cfcc614d78ff6a647c574abf30fca2f8</td>
+       <td>CVE-2021-32855</td>
+       <td>2023-02-21 15:15:11 </td>
+       <td>Vditor is a browser-side Markdown editor. Versions prior to 3.8.7 are vulnerable to copy-paste cross-site scripting (XSS). For this particular type of XSS, the victim needs to be fooled into copying a malicious payload into the text editor. Version 3.8.7 contains a patch for this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32855">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1d5c21c1d25acbc9d0e8a8c7517ddf4a</td>
+       <td>CVE-2021-32854</td>
+       <td>2023-02-21 15:15:10 </td>
+       <td>textAngular is a text editor for Angular.js. Version 1.5.16 and prior are vulnerable to copy-paste cross-site scripting (XSS). For this particular type of XSS, the victim needs to be fooled into copying a malicious payload into the text editor. There are no known patches.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32854">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6e3c7ae8c8a696ae3ed42ce9754966a8</td>
        <td>CVE-2020-36656</td>
        <td>2023-02-21 09:15:10 </td>
        <td>The Spectra WordPress plugin before 1.15.0 does not sanitize user input as it reaches its style HTML attribute, allowing contributors to conduct stored XSS attacks via the plugin's Gutenberg blocks.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-36656">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">33e989688de5219aafc853b073a4aaeb</td>
+       <td>CVE-2021-32853</td>
+       <td>2023-02-20 23:15:12 </td>
+       <td>Erxes, an experience operating system (XOS) with a set of plugins, is vulnerable to cross-site scripting in versions 0.22.3 and prior. This results in client-side code execution. The victim must follow a malicious link or be redirected there from malicious web site. There are no known patches.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32853">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">84a9534b88e11c8ba5f80837e3d3f02f</td>
+       <td>CVE-2021-32852</td>
+       <td>2023-02-20 22:15:11 </td>
+       <td>Countly, a product analytics solution, is vulnerable to cross-site scripting prior to version 21.11 of the community edition. The victim must follow a malicious link or be redirected there from malicious web site. The attacker must have an account or be able to create one. This issue is patched in version 21.11.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32852">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">73c1c90c147c4761560b75143e3e27bf</td>
+       <td>CVE-2021-32851</td>
+       <td>2023-02-20 22:15:11 </td>
+       <td>Mind-elixir is a free, open source mind map core. Prior to version 0.18.1, mind-elixir is prone to cross-site scripting when handling untrusted menus. This issue is patched in version 0.18.1</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32851">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fd4f4a4a48dea78ad7778c2ed2fe9e32</td>
+       <td>CVE-2021-32850</td>
+       <td>2023-02-20 22:15:10 </td>
+       <td>jQuery MiniColors is a color picker built on jQuery. Prior to version 2.3.6, jQuery MiniColors is prone to cross-site scripting when handling untrusted color names. This issue is patched in version 2.3.6.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32850">详情</a></td>
       </tr>
 
       <tr>
@@ -2633,54 +2681,6 @@
        <td>2023-02-15 14:15:13 </td>
        <td>Jenkins Email Extension Plugin 2.93 and earlier does not escape, sanitize, or sandbox rendered email template output or log output generated during template rendering, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to create or change custom email templates.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25764">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">27a42ba4e93588467e05e05cc0fcf2c3</td>
-       <td>CVE-2023-25763</td>
-       <td>2023-02-15 14:15:13 </td>
-       <td>Jenkins Email Extension Plugin 2.93 and earlier does not escape various fields included in bundled email templates, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control affected fields.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25763">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ed5305661df15a36fba2ba5b71852bd2</td>
-       <td>CVE-2023-25762</td>
-       <td>2023-02-15 14:15:13 </td>
-       <td>Jenkins Pipeline: Build Step Plugin 2.18 and earlier does not escape job names in a JavaScript expression used in the Pipeline Snippet Generator, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control job names.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25762">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c4a7c50a76385bdc581c0dea72c54085</td>
-       <td>CVE-2023-25761</td>
-       <td>2023-02-15 14:15:13 </td>
-       <td>Jenkins JUnit Plugin 1166.va_436e268e972 and earlier does not escape test case class names in JavaScript expressions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control test case class names in the JUnit resources processed by the plugin.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25761">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dd4750ec31b96767c9c9fa8427a74cec</td>
-       <td>CVE-2023-25725</td>
-       <td>2023-02-14 19:15:11 </td>
-       <td>HAProxy before 2.7.3 may allow a bypass of access control because HTTP/1 headers are inadvertently lost in some situations, aka &quot;request smuggling.&quot; The HTTP header parsers in HAProxy may accept empty header field names, which could be used to truncate the list of HTTP headers and thus make some headers disappear after being parsed and processed for HTTP/1.0 and HTTP/1.1. For HTTP/2 and HTTP/3, the impact is limited because the headers disappear before being parsed and processed, as if they had not been sent by the client. The fixed versions are 2.7.3, 2.6.9, 2.5.12, 2.4.22, 2.2.29, and 2.0.31.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25725">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">824d702024849d17f16cafdaeb9fee2c</td>
-       <td>CVE-2023-25567</td>
-       <td>2023-02-14 18:15:13 </td>
-       <td>GSS-NTLMSSP, a mechglue plugin for the GSSAPI library that implements NTLM authentication, has an out-of-bounds read when decoding target information prior to version 1.2.0. The length of the `av_pair` is not checked properly for two of the elements which can trigger an out-of-bound read. The out-of-bounds read can be triggered via the main `gss_accept_sec_context` entry point and could cause a denial-of-service if the memory is unmapped. The issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25567">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6709f1f6932e9375cbeef32360e3af4c</td>
-       <td>CVE-2023-25566</td>
-       <td>2023-02-14 18:15:13 </td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, a memory leak can be triggered when parsing usernames which can trigger a denial-of-service. The domain portion of a username may be overridden causing an allocated memory area the size of the domain name to be leaked. An attacker can leak memory via the main `gss_accept_sec_context` entry point, potentially causing a denial-of-service. This issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25566">详情</a></td>
       </tr>
 
      </tbody>
