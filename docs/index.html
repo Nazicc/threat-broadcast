@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-05 14:37:52 -->
+<!-- RELEASE TIME : 2023-03-05 15:38:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -2460,6 +2460,14 @@
       </tr>
 
       <tr>
+       <td scope="row">1f88d7755da3af13f802178d003282af</td>
+       <td>CVE-2021-32859</td>
+       <td>2023-02-21 15:15:11 </td>
+       <td>The Baremetrics date range picker is a solution for selecting both date ranges and single dates from a single calender view. Versions 1.0.14 and prior are prone to cross-site scripting (XSS) when handling untrusted `placeholder` entries. An attacker who is able to influence the field `placeholder` when creating a `Calendar` instance is able to supply arbitrary `html` or `javascript` that will be rendered in the context of a user leading to XSS. There are no known patches for this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32859">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6e3c7ae8c8a696ae3ed42ce9754966a8</td>
        <td>CVE-2020-36656</td>
        <td>2023-02-21 09:15:10 </td>
@@ -2673,14 +2681,6 @@
        <td>2023-02-14 18:15:13 </td>
        <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, multiple out-of-bounds reads when decoding NTLM fields can trigger a denial of service. A 32-bit integer overflow condition can lead to incorrect checks of consistency of length of internal buffers. Although most applications will error out before accepting a singe input buffer of 4GB in length this could theoretically happen. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point if the application allows tokens greater than 4GB in length. This can lead to a large, up to 65KB, out-of-bounds read which could cause a denial-of-service if it reads from unmapped memory. Version 1.2.0 contains a patch for the out-of-bounds reads.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25563">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">368d76b60794e321c1a93d1d7059c351</td>
-       <td>CVE-2023-25576</td>
-       <td>2023-02-14 16:15:11 </td>
-       <td>@fastify/multipart is a Fastify plugin to parse the multipart content-type. Prior to versions 7.4.1 and 6.0.1, @fastify/multipart may experience denial of service due to a number of situations in which an unlimited number of parts are accepted. This includes the multipart body parser accepting an unlimited number of file parts, the multipart body parser accepting an unlimited number of field parts, and the multipart body parser accepting an unlimited number of empty parts as field parts. This is fixed in v7.4.1 (for Fastify v4.x) and v6.0.1 (for Fastify v3.x). There are no known workarounds.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25576">详情</a></td>
       </tr>
 
      </tbody>
