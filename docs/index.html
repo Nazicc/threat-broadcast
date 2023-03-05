@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-05 20:38:29 -->
+<!-- RELEASE TIME : 2023-03-05 22:38:26 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">e43ed4352725b52cdbc8dd687a68e655</td>
+       <td>CVE-2022-4927</td>
+       <td>2023-03-05 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in ualbertalib NEOSDiscovery 1.0.70 and classified as problematic. This issue affects some unknown processing of the file app/views/bookmarks/_refworks.html.erb. The manipulation leads to use of web link to untrusted target with window.opener access. The attack may be initiated remotely. Upgrading to version 1.0.71 is able to address this issue. The name of the patch is abe9f57123e0c278ae190cd7402a623d66c51375. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-222287.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4927">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fed34ded5def7fddb2745549daa7e788</td>
+       <td>CVE-2021-4329</td>
+       <td>2023-03-05 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as critical, has been found in json-logic-js 2.0.0. Affected by this issue is some unknown functionality of the file logic.js. The manipulation leads to command injection. Upgrading to version 2.0.1 is able to address this issue. The name of the patch is c1dd82f5b15d8a553bb7a0cfa841ab8a11a9c227. It is recommended to upgrade the affected component. VDB-222266 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4329">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">648650239ff437f1ed1e069588ae0af1</td>
        <td>CVE-2023-1181</td>
        <td>2023-03-05 17:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-03-03 19:15:00</td>
        <td>Judging Management System v1.0 was discovered to contain a SQL injection vulnerability via the sid parameter at /php-jms/updateBlankTxtview.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24643">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de25e9b42b9435a69a3ff6f595a6bae5</td>
-       <td>CVE-2023-24642</td>
-       <td>2023-03-03 19:15:00</td>
-       <td>Judging Management System v1.0 was discovered to contain a SQL injection vulnerability via the sid parameter at /php-jms/updateTxtview.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24642">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d51a6001a9b0f4c07d0aae3933add26e</td>
-       <td>CVE-2023-24641</td>
-       <td>2023-03-03 19:15:00</td>
-       <td>Judging Management System v1.0 was discovered to contain a SQL injection vulnerability via the sid parameter at /php-jms/updateview.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24641">详情</a></td>
       </tr>
 
      </tbody>
@@ -2476,6 +2476,22 @@
       </tr>
 
       <tr>
+       <td scope="row">24e99f747b220d498c38647a40a000cb</td>
+       <td>CVE-2021-32857</td>
+       <td>2023-02-21 15:15:11 </td>
+       <td>Cockpit is a content management system that allows addition of content management functionality to any site. In versions 0.12.2 and prior, bad HTML sanitization in `htmleditor.js` may lead to cross-site scripting (XSS) issues. There are no known patches for this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32857">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">138eaaf21128465ee2a3378f165ee6a4</td>
+       <td>CVE-2021-32856</td>
+       <td>2023-02-21 15:15:11 </td>
+       <td>Microweber is a drag and drop website builder and content management system. Versions 1.2.12 and prior are vulnerable to copy-paste cross-site scripting (XSS). For this particular type of XSS, the victim needs to be fooled into copying a malicious payload into the text editor. A fix was attempted in versions 1.2.9 and 1.2.12, but it is incomplete.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32856">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6e3c7ae8c8a696ae3ed42ce9754966a8</td>
        <td>CVE-2020-36656</td>
        <td>2023-02-21 09:15:10 </td>
@@ -2665,22 +2681,6 @@
        <td>2023-02-14 18:15:13 </td>
        <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, a memory leak can be triggered when parsing usernames which can trigger a denial-of-service. The domain portion of a username may be overridden causing an allocated memory area the size of the domain name to be leaked. An attacker can leak memory via the main `gss_accept_sec_context` entry point, potentially causing a denial-of-service. This issue is fixed in version 1.2.0.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25566">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b1bde781df8928678c844248a37dba21</td>
-       <td>CVE-2023-25565</td>
-       <td>2023-02-14 18:15:13 </td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, an incorrect free when decoding target information can trigger a denial of service. The error condition incorrectly assumes the `cb` and `sh` buffers contain a copy of the data that needs to be freed. However, that is not the case. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point. This will likely trigger an assertion failure in `free`, causing a denial-of-service. This issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25565">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">33818a491da780cdf8afe0827d886cd4</td>
-       <td>CVE-2023-25564</td>
-       <td>2023-02-14 18:15:13 </td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, memory corruption can be triggered when decoding UTF16 strings. The variable `outlen` was not initialized and could cause writing a zero to an arbitrary place in memory if `ntlm_str_convert()` were to fail, which would leave `outlen` uninitialized. This can lead to a denial of service if the write hits unmapped memory or randomly corrupts a byte in the application memory space. This vulnerability can trigger an out-of-bounds write, leading to memory corruption. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point. This issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25564">详情</a></td>
       </tr>
 
      </tbody>
