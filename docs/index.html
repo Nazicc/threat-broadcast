@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-05 16:45:07 -->
+<!-- RELEASE TIME : 2023-03-05 19:37:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -2468,6 +2468,14 @@
       </tr>
 
       <tr>
+       <td scope="row">974234522db54660854432eca3c76053</td>
+       <td>CVE-2021-32858</td>
+       <td>2023-02-21 15:15:11 </td>
+       <td>esdoc-publish-html-plugin is a plugin for the document maintenance software ESDoc. TheHTML sanitizer in esdoc-publish-html-plugin 1.1.2 and prior can be bypassed which may lead to cross-site scripting (XSS) issues. There are no known patches for this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-32858">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6e3c7ae8c8a696ae3ed42ce9754966a8</td>
        <td>CVE-2020-36656</td>
        <td>2023-02-21 09:15:10 </td>
@@ -2673,14 +2681,6 @@
        <td>2023-02-14 18:15:13 </td>
        <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, memory corruption can be triggered when decoding UTF16 strings. The variable `outlen` was not initialized and could cause writing a zero to an arbitrary place in memory if `ntlm_str_convert()` were to fail, which would leave `outlen` uninitialized. This can lead to a denial of service if the write hits unmapped memory or randomly corrupts a byte in the application memory space. This vulnerability can trigger an out-of-bounds write, leading to memory corruption. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point. This issue is fixed in version 1.2.0.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25564">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f7aa850fef973d2add9b3565ed71adbc</td>
-       <td>CVE-2023-25563</td>
-       <td>2023-02-14 18:15:13 </td>
-       <td>GSS-NTLMSSP is a mechglue plugin for the GSSAPI library that implements NTLM authentication. Prior to version 1.2.0, multiple out-of-bounds reads when decoding NTLM fields can trigger a denial of service. A 32-bit integer overflow condition can lead to incorrect checks of consistency of length of internal buffers. Although most applications will error out before accepting a singe input buffer of 4GB in length this could theoretically happen. This vulnerability can be triggered via the main `gss_accept_sec_context` entry point if the application allows tokens greater than 4GB in length. This can lead to a large, up to 65KB, out-of-bounds read which could cause a denial-of-service if it reads from unmapped memory. Version 1.2.0 contains a patch for the out-of-bounds reads.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25563">详情</a></td>
       </tr>
 
      </tbody>
