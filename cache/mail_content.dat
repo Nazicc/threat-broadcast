@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2014-125090</font><br/>[<b>披露时间</b>] 2023-03-04 20:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Media Downloader Plugin 0.1.992. It has been declared as problematic. This vulnerability affects the function dl_file_resumable of the file getfile.php. The manipulation of the argument file leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 0.1.993 is able to address this issue. The name of the patch is 77beb720c682b9300035ab5f96eee225181d8a92. It is recommended to upgrade the affected component. VDB-222262 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2014-125090'>https://www.tenable.com/cve/CVE-2014-125090</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-36665</font><br/>[<b>披露时间</b>] 2023-03-04 19:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Artesãos SEOTools up to 0.17.1 and classified as critical. This issue affects the function eachValue of the file TwitterCards.php. The manipulation of the argument value leads to open redirect. Upgrading to version 0.17.2 is able to address this issue. The name of the patch is ca27cd0edf917e0bc805227013859b8b5a1f01fb. It is recommended to upgrade the affected component. The identifier VDB-222233 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-36665'>https://www.tenable.com/cve/CVE-2020-36665</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2014-125091</font><br/>[<b>披露时间</b>] 2023-03-04 22:15:00<br/>[<b>漏洞描述</b>] A vulnerability has been found in codepeople cp-polls Plugin 1.0.1 and classified as critical. This vulnerability affects unknown code of the file cp-admin-int-message-list.inc.php. The manipulation of the argument lu leads to sql injection. The attack can be initiated remotely. Upgrading to version 1.0.2 is able to address this issue. The name of the patch is 6d7168cbf12d1c183bacc5cd5678f6f5b0d518d2. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-222268.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2014-125091'>https://www.tenable.com/cve/CVE-2014-125091</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++

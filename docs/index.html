@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-04 22:37:48 -->
+<!-- RELEASE TIME : 2023-03-05 02:20:53 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">98a5b68d96d5541e9781ff32ec966a13</td>
        <td>CVE-2023-0050</td>
-       <td>2023-03-03 07:22:27 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 07:22:27</td>
        <td>CVE-2023-0050：GitLab跨站脚本漏洞通告</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=316b9c8cdd3c18911976bc3f9f0fbe52">详情</a></td>
       </tr>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">59979216db1b94d7429eb98e2baa8be7</td>
+       <td>CVE-2014-125091</td>
+       <td>2023-03-04 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability has been found in codepeople cp-polls Plugin 1.0.1 and classified as critical. This vulnerability affects unknown code of the file cp-admin-int-message-list.inc.php. The manipulation of the argument lu leads to sql injection. The attack can be initiated remotely. Upgrading to version 1.0.2 is able to address this issue. The name of the patch is 6d7168cbf12d1c183bacc5cd5678f6f5b0d518d2. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-222268.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2014-125091">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">462291eae3d32996f318fa32c58e0f5b</td>
        <td>CVE-2014-125090</td>
        <td>2023-03-04 20:15:00 <img src="imgs/new.gif" /></td>
@@ -378,7 +386,7 @@
       <tr>
        <td scope="row">5bbebfa3d0a528f8d36cec6b018455b3</td>
        <td>CVE-2023-27290</td>
-       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 23:15:00</td>
        <td>Docker based datastores for IBM Instana (IBM Observability with Instana 239-0 through 239-2, 241-0 through 241-2, and 243-0) do not currently require authentication. Due to this, an attacker within the network could access the datastores with read/write access. IBM X-Force ID: 248737.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27290">详情</a></td>
       </tr>
@@ -386,7 +394,7 @@
       <tr>
        <td scope="row">dab5e3eaa841da9e55f1319daa411ede</td>
        <td>CVE-2023-26779</td>
-       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 23:15:00</td>
        <td>CleverStupidDog yf-exam v 1.8.0 is vulnerable to Deserialization which can lead to remote code execution (RCE).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26779">详情</a></td>
       </tr>
@@ -394,7 +402,7 @@
       <tr>
        <td scope="row">6f518f9c5ee2980b59ffd6265dec9c85</td>
        <td>CVE-2023-26491</td>
-       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 23:15:00</td>
        <td>RSSHub is an open source and extensible RSS feed generator. When the URL parameters contain certain special characters, it returns an error page that does not properly handle XSS vulnerabilities, allowing for the execution of arbitrary JavaScript code. Users who access the deliberately constructed URL are affected. This vulnerability was fixed in version c910c4d28717fb860fbe064736641f379fab2c91. Please upgrade to this or a later version, there are no known workarounds.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26491">详情</a></td>
       </tr>
@@ -402,7 +410,7 @@
       <tr>
        <td scope="row">7fcd20c9a311ca3f342fdf1ece4e9b6b</td>
        <td>CVE-2023-26483</td>
-       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 23:15:00</td>
        <td>gosaml2 is a Pure Go implementation of SAML 2.0. SAML Service Providers using this library for SAML authentication support are likely susceptible to Denial of Service attacks. A bug in this library enables attackers to craft a `deflate`-compressed request which will consume significantly more memory during processing than the size of the original request. This may eventually lead to memory exhaustion and the process being killed. The maximum compression ratio achievable with `deflate` is 1032:1, so by limiting the size of bodies passed to gosaml2, limiting the rate and concurrency of calls, and ensuring that lots of memory is available to the process it _may_ be possible to help Go's garbage collector "keep up". Implementors are encouraged not to rely on this. This issue is fixed in version 0.9.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26483">详情</a></td>
       </tr>
@@ -410,7 +418,7 @@
       <tr>
        <td scope="row">cfdc403b6ab02522da18345c3cf4d324</td>
        <td>CVE-2023-26047</td>
-       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 23:15:00</td>
        <td>teler-waf is a Go HTTP middleware that provides teler IDS functionality to protect against web-based attacks. In teler-waf prior to version v0.2.0 is vulnerable to a bypass attack when a specific case-sensitive hex entities payload with special characters such as CR/LF and horizontal tab is used. This vulnerability allows an attacker to execute arbitrary JavaScript code on the victim's browser and compromise the security of the web application. An attacker can exploit this vulnerability to bypass common web attack threat rules in teler-waf and launch cross-site scripting (XSS) attacks. The attacker can execute arbitrary JavaScript code on the victim's browser and steal sensitive information, such as login credentials and session tokens, or take control of the victim's browser and perform malicious actions. This issue has been patched in version 0.2.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26047">详情</a></td>
       </tr>
@@ -418,7 +426,7 @@
       <tr>
        <td scope="row">437cc45e233c3cf630689c564f328eca</td>
        <td>CVE-2023-27566</td>
-       <td>2023-03-03 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:15:00</td>
        <td>Cubism Core in Live2D Cubism Editor 4.2.03 allows out-of-bounds write via a crafted Section Offset Table or Count Info Table in an MOC3 file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27566">详情</a></td>
       </tr>
@@ -426,7 +434,7 @@
       <tr>
        <td scope="row">9f1639ec4f8b270f8d65d09b430e22e0</td>
        <td>CVE-2023-27561</td>
-       <td>2023-03-03 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 19:15:00</td>
        <td>runc through 1.1.4 has Incorrect Access Control leading to Escalation of Privileges, related to libcontainer/rootfs_linux.go. To exploit this, an attacker must be able to spawn two containers with custom volume-mount configurations, and be able to run custom images. NOTE: this issue exists because of a CVE-2019-19921 regression.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27561">详情</a></td>
       </tr>
@@ -434,7 +442,7 @@
       <tr>
        <td scope="row">10072280b4fb066fe80a420097a37b37</td>
        <td>CVE-2023-24643</td>
-       <td>2023-03-03 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 19:15:00</td>
        <td>Judging Management System v1.0 was discovered to contain a SQL injection vulnerability via the sid parameter at /php-jms/updateBlankTxtview.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24643">详情</a></td>
       </tr>
@@ -442,7 +450,7 @@
       <tr>
        <td scope="row">de25e9b42b9435a69a3ff6f595a6bae5</td>
        <td>CVE-2023-24642</td>
-       <td>2023-03-03 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 19:15:00</td>
        <td>Judging Management System v1.0 was discovered to contain a SQL injection vulnerability via the sid parameter at /php-jms/updateTxtview.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24642">详情</a></td>
       </tr>
@@ -450,7 +458,7 @@
       <tr>
        <td scope="row">d51a6001a9b0f4c07d0aae3933add26e</td>
        <td>CVE-2023-24641</td>
-       <td>2023-03-03 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 19:15:00</td>
        <td>Judging Management System v1.0 was discovered to contain a SQL injection vulnerability via the sid parameter at /php-jms/updateview.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24641">详情</a></td>
       </tr>
@@ -458,7 +466,7 @@
       <tr>
        <td scope="row">a66129243739c584eaec32da8a5cb13f</td>
        <td>CVE-2018-3709</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3709">详情</a></td>
       </tr>
@@ -466,7 +474,7 @@
       <tr>
        <td scope="row">f6e35b23288b1ee3e70c6b54dcbceadf</td>
        <td>CVE-2018-3708</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3708">详情</a></td>
       </tr>
@@ -474,7 +482,7 @@
       <tr>
        <td scope="row">1d13c971855499706e875a9529e11789</td>
        <td>CVE-2018-3707</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3707">详情</a></td>
       </tr>
@@ -482,7 +490,7 @@
       <tr>
        <td scope="row">5ccbc68eecc360df05be0edf97b82836</td>
        <td>CVE-2018-3706</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3706">详情</a></td>
       </tr>
@@ -490,7 +498,7 @@
       <tr>
        <td scope="row">7a4faa0303a8fe264af4f40a1c90a189</td>
        <td>CVE-2018-3695</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3695">详情</a></td>
       </tr>
@@ -498,7 +506,7 @@
       <tr>
        <td scope="row">746c89372023263bdeb76db0fbfdc6f5</td>
        <td>CVE-2018-3694</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3694">详情</a></td>
       </tr>
@@ -506,17 +514,9 @@
       <tr>
        <td scope="row">1f2a615fec53d9dc5c44e94161568548</td>
        <td>CVE-2018-3692</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 18:15:00</td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3692">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2b836d7612fd4014d26c2903a7788d26</td>
-       <td>CVE-2018-3685</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3685">详情</a></td>
       </tr>
 
      </tbody>
@@ -876,7 +876,7 @@
       <tr>
        <td scope="row">7de97f9f8810290dd9242883d6b218c4</td>
        <td>CNVD-2022-16180</td>
-       <td>2023-03-03 16:49:26 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 16:49:26</td>
        <td>NUUO NVRmini2命令执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-16180">详情</a></td>
       </tr>
@@ -884,7 +884,7 @@
       <tr>
        <td scope="row">2f333e4c46e5e7082e25175b7eadef38</td>
        <td>CNVD-2023-14291 (CVE-2022-20444)</td>
-       <td>2023-03-03 12:58:07 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 12:58:07</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-14291">详情</a></td>
       </tr>
@@ -892,7 +892,7 @@
       <tr>
        <td scope="row">383110c4fe96dbf2fc35ed144b448e29</td>
        <td>CNVD-2023-14290 (CVE-2022-20504)</td>
-       <td>2023-03-03 12:58:03 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 12:58:03</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-14290">详情</a></td>
       </tr>
@@ -900,7 +900,7 @@
       <tr>
        <td scope="row">cc8f23b31bf476c37e9bd0dfce2d903f</td>
        <td>CNVD-2023-14253 (CVE-2022-20508)</td>
-       <td>2023-03-03 10:40:11 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 10:40:11</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-14253">详情</a></td>
       </tr>
@@ -1454,7 +1454,7 @@
       <tr>
        <td scope="row">07b74bb100dbc862bba37e18fc51c6ff</td>
        <td>CVE-2023-0050</td>
-       <td>2023-03-03 14:09:39 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 14:09:39</td>
        <td>GitLab CE/EE跨站脚本漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8032">详情</a></td>
       </tr>
@@ -1986,7 +1986,7 @@
       <tr>
        <td scope="row">067a144a1277fd836f8acd7acc356f57</td>
        <td>CVE-2022-48328</td>
-       <td>2023-03-03 20:42:56 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:56</td>
        <td>MISP MISP Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=109bfe1f4fa44d9d9749ebbdc874670d">详情</a></td>
       </tr>
@@ -1994,7 +1994,7 @@
       <tr>
        <td scope="row">49fb3a5c72420f80435d66bcb01becda</td>
        <td>CVE-2023-1067</td>
-       <td>2023-03-03 20:42:50 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:50</td>
        <td>PIMCORE PIMCORE Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f80abb64b6e44f2f827fe37e94ef8312">详情</a></td>
       </tr>
@@ -2002,7 +2002,7 @@
       <tr>
        <td scope="row">856cc2501ae7a800aa151058fb1a6d61</td>
        <td>CVE-2022-43929</td>
-       <td>2023-03-03 20:42:44 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:44</td>
        <td>IBM DB2 Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f1b170fce64f468cb891f241ccd66751">详情</a></td>
       </tr>
@@ -2010,7 +2010,7 @@
       <tr>
        <td scope="row">b9cc0e6c945233db906ec4c11e909632</td>
        <td>CVE-2021-32441</td>
-       <td>2023-03-03 20:42:31 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:31</td>
        <td>EXPONENTCMS EXPONENT_CMS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=cd7934e98a6c44fdb462013df42c2829">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">e8462bfc53ab7f63c20e0c5758bf4333</td>
        <td>CVE-2021-33950</td>
-       <td>2023-03-03 20:42:18 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:18</td>
        <td>OPENKM OPENKM Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=39c6ab05a32247289d0544f27a7a362f">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">ac5bdd33811f69aa99cef8613f429f1d</td>
        <td>CVE-2020-19824</td>
-       <td>2023-03-03 20:42:11 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:11</td>
        <td>MPV MPV Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4cf46f2f0af3492f885b1bb6d6c54061">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">01ed1ebad6a429dec3dffffa656bb84d</td>
        <td>CVE-2022-20803</td>
-       <td>2023-03-03 20:42:05 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:42:05</td>
        <td>ClamAV 资源管理错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=cc4557c469d24dab85f472ce4bc4b4c4">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">a9a867061e7b571bbdead05f69b1edb6</td>
        <td>CVE-2021-33391</td>
-       <td>2023-03-03 20:41:59 <img src="imgs/new.gif" /></td>
+       <td>2023-03-03 20:41:59</td>
        <td>HTACG TIDY Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=818e0b4a495b4b508df18933fe780305">详情</a></td>
       </tr>
