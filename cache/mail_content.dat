@@ -1,11 +1,19 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
 <ul>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-03-06 07:39:25<br/>[<b>漏洞描述</b>] 安全事件周报 2023-02-27 第9周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6405967d74e1741ee171c929'>https://cert.360.cn/warning/detail?id=6405967d74e1741ee171c929</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14503 (CVE-2023-25540)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:35<br/>[<b>漏洞描述</b>] Dell PowerScale OneFS授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14503'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14503</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14504 (CVE-2023-23689)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:37<br/>[<b>漏洞描述</b>] Dell PowerScale OneFS资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14504'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14504</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14505 (CVE-2022-34446)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:40<br/>[<b>漏洞描述</b>] Dell PowerPath Management Appliance授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14505'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14505</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14506 (CVE-2022-34393)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:42<br/>[<b>漏洞描述</b>] Dell BIOS输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14506'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14506</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14507 (CVE-2022-34460)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:44<br/>[<b>漏洞描述</b>] Dell BIOS输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14507'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14507</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14508 (CVE-2022-22564)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:46<br/>[<b>漏洞描述</b>] Dell EMC Unity加密问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14508'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14508</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-14509 (CVE-2022-34377)</font><br/>[<b>披露时间</b>] 2023-03-03 09:38:49<br/>[<b>漏洞描述</b>] Dell PowerEdge Server BIOS缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-14509'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-14509</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-03-06 09:25:36<br/>[<b>漏洞描述</b>] Smartbi远程命令执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6405b13b7bb31e9ce600afae'>https://cert.360.cn/warning/detail?id=6405b13b7bb31e9ce600afae</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
