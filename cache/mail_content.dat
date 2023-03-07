@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23554</font><br/>[<b>披露时间</b>] 2023-03-07 01:15:00<br/>[<b>漏洞描述</b>] Uncontrolled search path element vulnerability exists in pg_ivm versions prior to 1.5.1. When refreshing an IMMV, pg_ivm executes functions without specifying schema names. Under certain conditions, pg_ivm may be tricked to execute unexpected functions from other schemas with the IMMV owner's privilege. If this vulnerability is exploited, an unexpected function provided by an attacker may be executed with the privilege of the materialized view owner.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23554'>https://www.tenable.com/cve/CVE-2023-23554</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22847</font><br/>[<b>披露时间</b>] 2023-03-07 01:15:00<br/>[<b>漏洞描述</b>] Information disclosure vulnerability exists in pg_ivm versions prior to 1.5.1. An Incrementally Maintainable Materialized View (IMMV) created by pg_ivm may reflect rows with Row-Level Security that the owner of the IMMV should not have access to. As a result, information in tables protected by Row-Level Security may be retrieved by a user who is not authorized to access it.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22847'>https://www.tenable.com/cve/CVE-2023-22847</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-03-01 16:29:26<br/>[<b>漏洞描述</b>] Smartbi商业智能BI软件 SyncServlet.stub 存在代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8028'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8028</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
