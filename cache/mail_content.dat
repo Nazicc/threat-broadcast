@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26510</font><br/>[<b>披露时间</b>] 2023-03-05 22:15:08 <br/>[<b>漏洞描述</b>] Ghost 5.35.0 allows authorization bypass: contributors can view draft posts of other users, which is arguably inconsistent with a security policy in which a contributor's draft can only be read by editors until published by an editor. NOTE: the vendor's position is that this behavior has no security impact.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-26510'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-26510</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1084</font><br/>[<b>披露时间</b>] 2023-03-09 20:15:00<br/>[<b>漏洞描述</b>] An issue has been discovered in GitLab CE/EE affecting all versions before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. A malicious project Maintainer may create a Project Access Token with Owner level privileges using a crafted request.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1084'>https://www.tenable.com/cve/CVE-2023-1084</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0483</font><br/>[<b>披露时间</b>] 2023-03-09 20:15:00<br/>[<b>漏洞描述</b>] An issue has been discovered in GitLab affecting all versions starting from 12.1 before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. It was possible for a project maintainer to extract a Datadog integration API key by modifying the site.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0483'>https://www.tenable.com/cve/CVE-2023-0483</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4462</font><br/>[<b>披露时间</b>] 2023-03-09 20:15:00<br/>[<b>漏洞描述</b>] An issue has been discovered in GitLab affecting all versions starting from 12.8 before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. This vulnerability could allow a user to unmask the Discord Webhook URL through viewing the raw API response.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4462'>https://www.tenable.com/cve/CVE-2022-4462</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4317</font><br/>[<b>披露时间</b>] 2023-03-09 20:15:00<br/>[<b>漏洞描述</b>] An issue has been discovered in GitLab DAST analyzer affecting all versions starting from 1.47 before 3.0.51, which sends custom request headers in redirects.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4317'>https://www.tenable.com/cve/CVE-2022-4317</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
