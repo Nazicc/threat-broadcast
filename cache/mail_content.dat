@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27898,CVE-2023-27905</font><br/>[<b>披露时间</b>] 2023-03-09 14:27:29<br/>[<b>漏洞描述</b>] Jenkins 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8039'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8039</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-15760 (CVE-2023-0795)</font><br/>[<b>披露时间</b>] 2023-03-09 06:43:29<br/>[<b>漏洞描述</b>] LibTIFF越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-15760'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-15760</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26110</font><br/>[<b>披露时间</b>] 2023-03-09 05:15:00<br/>[<b>漏洞描述</b>] All versions of the package node-bluetooth are vulnerable to Buffer Overflow via the findSerialPortChannel method due to improper user input length validation.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26110'>https://www.tenable.com/cve/CVE-2023-26110</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26109</font><br/>[<b>披露时间</b>] 2023-03-09 05:15:00<br/>[<b>漏洞描述</b>] All versions of the package node-bluetooth-serial-port are vulnerable to Buffer Overflow via the findSerialPortChannel method due to improper user input length validation.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26109'>https://www.tenable.com/cve/CVE-2023-26109</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26948</font><br/>[<b>披露时间</b>] 2023-03-09 01:15:00<br/>[<b>漏洞描述</b>] onekeyadmin v1.3.9 was discovered to contain an arbitrary file read vulnerability via the component /admin1/file/download.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26948'>https://www.tenable.com/cve/CVE-2023-26948</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27898</font><br/>[<b>披露时间</b>] 2023-03-09 08:43:39<br/>[<b>漏洞描述</b>] CVE-2023-27898/27905：Jenkins跨站脚本漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=640996d88bda0d54e3509064'>https://cert.360.cn/warning/detail?id=640996d88bda0d54e3509064</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
