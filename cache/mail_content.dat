@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27567</font><br/>[<b>披露时间</b>] 2023-03-03 22:15:10 <br/>[<b>漏洞描述</b>] In OpenBSD 7.2, a TCP packet with destination port 0 that matches a pf divert-to rule can crash the kernel.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27567'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27567</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27566</font><br/>[<b>披露时间</b>] 2023-03-03 20:15:09 <br/>[<b>漏洞描述</b>] Cubism Core in Live2D Cubism Editor 4.2.03 allows out-of-bounds write via a crafted Section Offset Table or Count Info Table in an MOC3 file.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27566'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27566</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27561</font><br/>[<b>披露时间</b>] 2023-03-03 19:15:11 <br/>[<b>漏洞描述</b>] runc through 1.1.4 has Incorrect Access Control leading to Escalation of Privileges, related to libcontainer/rootfs_linux.go. To exploit this, an attacker must be able to spawn two containers with custom volume-mount configurations, and be able to run custom images. NOTE: this issue exists because of a CVE-2019-19921 regression.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27561'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27561</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26464</font><br/>[<b>披露时间</b>] 2023-03-10 14:15:00<br/>[<b>漏洞描述</b>] ** UNSUPPORTED WHEN ASSIGNED ** When using the Chainsaw or SocketAppender components with Log4j 1.x on JRE less than 1.7, an attacker that manages to cause a logging entry involving a specially-crafted (ie, deeply nested) hashmap or hashtable (depending on which logging component is in use) to be processed could exhaust the available memory in the virtual machine and achieve Denial of Service when the object is deserialized. This issue affects Apache Log4j before 2. Affected users are recommended to update to Log4j 2.x. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26464'>https://www.tenable.com/cve/CVE-2023-26464</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24774</font><br/>[<b>披露时间</b>] 2023-03-10 13:15:00<br/>[<b>漏洞描述</b>] Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the selectFields parameter at \controller\auth\Auth.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24774'>https://www.tenable.com/cve/CVE-2023-24774</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
