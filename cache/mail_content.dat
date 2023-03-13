@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2016-15028</font><br/>[<b>披露时间</b>] 2023-03-12 15:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in ICEPAY REST-API-NET 0.9. It has been declared as problematic. Affected by this vulnerability is the function RestClient of the file Classes/RestClient.cs of the component Checksum Validation. The manipulation leads to improper validation of integrity check value. The attack can be launched remotely. Upgrading to version 1.0 is able to address this issue. The name of the patch is 61f6b8758e5c971abff5f901cfa9f231052b775f. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-222847.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2016-15028'>https://www.tenable.com/cve/CVE-2016-15028</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28154</font><br/>[<b>披露时间</b>] 2023-03-13 01:15:00<br/>[<b>漏洞描述</b>] Webpack 5 before 5.76.0 does not avoid cross-realm object access. ImportParserPlugin.js mishandles the magic comment feature. An attacker who controls a property of an untrusted object can obtain access to the real global object.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28154'>https://www.tenable.com/cve/CVE-2023-28154</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
