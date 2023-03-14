@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-14 17:44:50 -->
+<!-- RELEASE TIME : 2023-03-14 18:50:43 -->
 <html lang="zh-cn">
 
  <head>
@@ -2444,11 +2444,27 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8d117e99ca8a00bd5a823c62f7861777</td>
+       <td>CVE-2023-27485</td>
+       <td>2023-03-07 19:15:12 </td>
+       <td>thmmniii/fbs-core is an open source feedback system for students. In versions prior to 1.5.3 when querying `subresults`, it is possible to query `subresults` from other users due to insufficient authorisation. This is only possible for logged-in users and it is not possible to associate the subresults with a specific user. This bug was fixed in commit `f1ae67d8bb2`and released with version 1.5.3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27485">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">257983a0b1d22974d746cd30517a6a3e</td>
        <td>CVE-2023-27522</td>
        <td>2023-03-07 16:15:09 </td>
        <td>HTTP Response Smuggling vulnerability in Apache HTTP Server via mod_proxy_uwsgi. This issue affects Apache HTTP Server: from 2.4.30 through 2.4.55. Special characters in the origin response header can truncate/split the response forwarded to the client.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27522">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2a33f967834dd293ca6a3b9c2039554a</td>
+       <td>CVE-2023-27891</td>
+       <td>2023-03-06 23:15:11 </td>
+       <td>rami.io pretix before 4.17.1 allows OAuth application authorization from a logged-out session. The fixed versions are 4.15.1, 4.16.1, and 4.17.1.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27891">详情</a></td>
       </tr>
 
       <tr>
@@ -2665,22 +2681,6 @@
        <td>2023-03-01 20:15:16 </td>
        <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey4 parameter at /goform/WifiBasicSet.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24129">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3ef7a6722f1550a802bd2136dd927574</td>
-       <td>CVE-2023-24128</td>
-       <td>2023-03-01 20:15:15 </td>
-       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey2 parameter at /goform/WifiBasicSet.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24128">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1203b2768ed367dfb4d73a06590f43b6</td>
-       <td>CVE-2023-25931</td>
-       <td>2023-03-01 19:15:26 </td>
-       <td>Medtronic identified that the Pelvic Health clinician apps, which are installed on the Smart Programmer mobile device, have a password vulnerability that requires a security update to fix. Not updating could potentially result in unauthorized control of the clinician therapy application, which has greater control over therapy parameters than the patient app. Changes still cannot be made outside of the established therapy parameters of the programmer. For unauthorized access to occur, an individual would need physical access to the Smart Programmer.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25931">详情</a></td>
       </tr>
 
      </tbody>
