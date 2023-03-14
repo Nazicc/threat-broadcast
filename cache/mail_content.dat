@@ -1,17 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22856</font><br/>[<b>披露时间</b>] 2023-03-14 20:28:14<br/>[<b>漏洞描述</b>] BLOGENGINE BLOGENGINE.NET Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ccc8d843f4bd49e2803ee1984d4ff6bf'>https://redqueen.tj-un.com/IntelDetails.html?id=ccc8d843f4bd49e2803ee1984d4ff6bf</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-20251</font><br/>[<b>披露时间</b>] 2023-03-14 20:28:08<br/>[<b>漏洞描述</b>] Samba 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b296020e13304b8c89dc8dbb88750637'>https://redqueen.tj-un.com/IntelDetails.html?id=b296020e13304b8c89dc8dbb88750637</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1212</font><br/>[<b>披露时间</b>] 2023-03-14 20:27:55<br/>[<b>漏洞描述</b>] PHPIPAM PHPIPAM Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e90feb0fcbad453bb97506a10d033dc6'>https://redqueen.tj-un.com/IntelDetails.html?id=e90feb0fcbad453bb97506a10d033dc6</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1211</font><br/>[<b>披露时间</b>] 2023-03-14 20:27:49<br/>[<b>漏洞描述</b>] PHPIPAM PHPIPAM Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=231fda70763b47118c651bf8de1f8424'>https://redqueen.tj-un.com/IntelDetails.html?id=231fda70763b47118c651bf8de1f8424</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20078</font><br/>[<b>披露时间</b>] 2023-03-14 20:27:42<br/>[<b>漏洞描述</b>] CISCO Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2f540143d7df4fb4a7603a638bf0994f'>https://redqueen.tj-un.com/IntelDetails.html?id=2f540143d7df4fb4a7603a638bf0994f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22857</font><br/>[<b>披露时间</b>] 2023-03-14 20:27:29<br/>[<b>漏洞描述</b>] BLOGENGINE BLOGENGINE.NET Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=5a2aeb73ad894be8b42893c4d201b381'>https://redqueen.tj-un.com/IntelDetails.html?id=5a2aeb73ad894be8b42893c4d201b381</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23927</font><br/>[<b>披露时间</b>] 2023-03-14 20:27:23<br/>[<b>漏洞描述</b>] CRAFTCMS CRAFT_CMS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bfa1bfc8ad614a2f872c34c9a0819ae2'>https://redqueen.tj-un.com/IntelDetails.html?id=bfa1bfc8ad614a2f872c34c9a0819ae2</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-17046 (CVE-2023-21620)</font><br/>[<b>披露时间</b>] 2023-03-14 16:56:29<br/>[<b>漏洞描述</b>] Adobe FrameMaker越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-17046'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-17046</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-17045 (CVE-2023-21577)</font><br/>[<b>披露时间</b>] 2023-03-15 16:56:32<br/>[<b>漏洞描述</b>] Adobe Photoshop越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-17045'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-17045</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27522</font><br/>[<b>披露时间</b>] 2023-03-07 16:15:09 <br/>[<b>漏洞描述</b>] HTTP Response Smuggling vulnerability in Apache HTTP Server via mod_proxy_uwsgi. This issue affects Apache HTTP Server: from 2.4.30 through 2.4.55. Special characters in the origin response header can truncate/split the response forwarded to the client.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27522'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27522</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
