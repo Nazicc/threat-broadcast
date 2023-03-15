@@ -1,12 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28371</font><br/>[<b>披露时间</b>] 2023-03-15 04:15:00<br/>[<b>漏洞描述</b>] In Stellarium through 1.2, attackers can write to files that are typically unintended, such as ones with absolute pathnames or .. directory traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28371'>https://www.tenable.com/cve/CVE-2023-28371</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27757</font><br/>[<b>披露时间</b>] 2023-03-15 03:15:00<br/>[<b>漏洞描述</b>] An arbitrary file upload vulnerability in the /admin/user/uploadImg component of PerfreeBlog v3.1.1 allows attackers to execute arbitrary code via a crafted JPG file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27757'>https://www.tenable.com/cve/CVE-2023-27757</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23415,CVE-2023-23411,CVE-2023-1017,CVE-2023-23416,CVE-2023-23392,CVE-2023-1018,CVE-2023-23404,CVE-2023-23397,CVE-2023-21708,CVE-2023-24880,CVE-2023-24861,CVE-2023-23410,CVE-2023-23398</font><br/>[<b>披露时间</b>] 2023-03-15 16:33:38<br/>[<b>漏洞描述</b>] 微软2023年3月安全更新多个高危漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8046'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8046</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23415</font><br/>[<b>披露时间</b>] 2023-03-15 08:41:02<br/>[<b>漏洞描述</b>] Microsoft ICMP远程代码执行漏洞（CVE-2023-23415）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-23415'>https://avd.aliyun.com/detail?id=AVD-2023-23415</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-03-15 08:13:10<br/>[<b>漏洞描述</b>] 2023-03 补丁日: 微软多个漏洞安全更新通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=641179f512d0ac6890a92c6b'>https://cert.360.cn/warning/detail?id=641179f512d0ac6890a92c6b</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
