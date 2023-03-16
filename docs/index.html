@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-16 11:38:07 -->
+<!-- RELEASE TIME : 2023-03-16 13:43:28 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">501bc073b2c32172300d7d3519887b59</td>
+       <td>CVE-2023-24571</td>
+       <td>2023-03-16 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dell BIOS contains an Improper Input Validation vulnerability. A local authenticated malicious user with administrator privileges could potentially exploit this vulnerability to perform arbitrary code execution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24571">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4941f634f9dfe8f592e4cfa21a69a214</td>
+       <td>CVE-2022-41554</td>
+       <td>2023-03-16 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Stored Cross-Site Scripting (XSS) vulnerability in John West Slideshow SE plugin <= 2.5.5 versions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41554">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7091efe4da17451e8c5004121e7e6c2f</td>
        <td>CVE-2022-40699</td>
        <td>2023-03-16 09:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-03-15 21:15:00 <img src="imgs/new.gif" /></td>
        <td>OpenSIPS is a Session Initiation Protocol (SIP) server implementation. Prior to versions 3.1.8 and 3.2.5, OpenSIPS crashes when a malformed SDP body is sent multiple times to an OpenSIPS configuration that makes use of the `stream_process` function. This issue was discovered during coverage guided fuzzing of the function `codec_delete_except_re`. By abusing this vulnerability, an attacker is able to crash the server. It affects configurations containing functions that rely on the affected code, such as the function `codec_delete_except_re`. This issue has been fixed in version 3.1.8 and 3.2.5.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27596">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d0259286773503c3dba5627dac259ef2</td>
-       <td>CVE-2023-26484</td>
-       <td>2023-03-15 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>KubeVirt is a virtual machine management add-on for Kubernetes. In versions 0.59.0 and prior, if a malicious user has taken over a Kubernetes node where virt-handler (the KubeVirt node-daemon) is running, the virt-handler service account can be used to modify all node specs. This can be misused to lure-in system-level-privileged components which can, for instance, read all secrets on the cluster, or can exec into pods on other nodes. This way, a compromised node can be used to elevate privileges beyond the node until potentially having full privileged access to the whole cluster. The simplest way to exploit this, once a user could compromise a specific node, is to set with the virt-handler service account all other nodes to unschedulable and simply wait until system-critical components with high privileges appear on its node. No patches are available as of time of publication. As a workaround, gatekeeper users can add a webhook which will block the `virt-handler` service account to modify the spec of a node.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26484">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0f7abf39acfe38d52c7f7f6ddd744c21</td>
-       <td>CVE-2023-22591</td>
-       <td>2023-03-15 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>IBM Robotic Process Automation 21.0.1 through 21.0.7 and 23.0.0 through 23.0.1 could allow a user with physical access to the system due to session tokens for not being invalidated after a password reset. IBM X-Force ID: 243710.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22591">详情</a></td>
       </tr>
 
      </tbody>
