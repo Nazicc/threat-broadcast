@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28531</font><br/>[<b>披露时间</b>] 2023-03-17 04:15:00<br/>[<b>漏洞描述</b>] ssh-add in OpenSSH before 9.3 adds smartcard keys to ssh-agent without the intended per-hop destination constraints.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28531'>https://www.tenable.com/cve/CVE-2023-28531</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-17032 (CVE-2022-41001)</font><br/>[<b>披露时间</b>] 2023-03-14 07:39:30<br/>[<b>漏洞描述</b>] Siretta QUARTZ-GOLD缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-17032'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-17032</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-17033 (CVE-2022-41003)</font><br/>[<b>披露时间</b>] 2023-03-14 07:39:32<br/>[<b>漏洞描述</b>] Siretta QUARTZ-GOLD缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-17033'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-17033</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
