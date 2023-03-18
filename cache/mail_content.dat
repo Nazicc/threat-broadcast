@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26483</font><br/>[<b>披露时间</b>] 2023-03-03 23:15:12 <br/>[<b>漏洞描述</b>] gosaml2 is a Pure Go implementation of SAML 2.0. SAML Service Providers using this library for SAML authentication support are likely susceptible to Denial of Service attacks. A bug in this library enables attackers to craft a `deflate`-compressed request which will consume significantly more memory during processing than the size of the original request. This may eventually lead to memory exhaustion and the process being killed. The maximum compression ratio achievable with `deflate` is 1032:1, so by limiting the size of bodies passed to gosaml2, limiting the rate and concurrency of calls, and ensuring that lots of memory is available to the process it _may_ be possible to help Go's garbage collector &quot;keep up&quot;. Implementors are encouraged not to rely on this. This issue is fixed in version 0.9.0.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-26483'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-26483</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28607</font><br/>[<b>披露时间</b>] 2023-03-18 18:15:00<br/>[<b>漏洞描述</b>] js/event-graph.js in MISP before 2.4.169 allows XSS via the event-graph relationship tooltip.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28607'>https://www.tenable.com/cve/CVE-2023-28607</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28606</font><br/>[<b>披露时间</b>] 2023-03-18 18:15:00<br/>[<b>漏洞描述</b>] js/event-graph.js in MISP before 2.4.169 allows XSS via event-graph node tooltips.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28606'>https://www.tenable.com/cve/CVE-2023-28606</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
