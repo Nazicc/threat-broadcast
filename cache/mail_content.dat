@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1496</font><br/>[<b>披露时间</b>] 2023-03-19 17:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Reflected in GitHub repository imgproxy/imgproxy prior to 3.14.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1496'>https://www.tenable.com/cve/CVE-2023-1496</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1497</font><br/>[<b>披露时间</b>] 2023-03-19 19:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in SourceCodester Simple and Nice Shopping Cart Script 1.0. It has been rated as critical. This issue affects some unknown processing of the file uploaderm.php. The manipulation of the argument submit leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-223397 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1497'>https://www.tenable.com/cve/CVE-2023-1497</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
