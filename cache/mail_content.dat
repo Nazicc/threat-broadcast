@@ -1,17 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18918 (CVE-2022-45509)</font><br/>[<b>披露时间</b>] 2022-03-22 03:37:24<br/>[<b>漏洞描述</b>] Tenda W30E堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18918'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18918</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18917 (CVE-2022-45510)</font><br/>[<b>披露时间</b>] 2023-03-22 03:37:27<br/>[<b>漏洞描述</b>] Tenda W30E堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18917'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18917</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18919 (CVE-2022-45512)</font><br/>[<b>披露时间</b>] 2023-03-22 03:37:29<br/>[<b>漏洞描述</b>] Tenda W30E堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18919'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18919</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18920 (CVE-2022-45513)</font><br/>[<b>披露时间</b>] 2023-03-22 03:37:31<br/>[<b>漏洞描述</b>] Tenda W30E堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18920'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18920</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18921 (CVE-2022-45514)</font><br/>[<b>披露时间</b>] 2023-03-22 03:37:34<br/>[<b>漏洞描述</b>] Tenda W30E堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18921'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18921</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18923 (CVE-2022-45515)</font><br/>[<b>披露时间</b>] 2023-03-22 03:37:36<br/>[<b>漏洞描述</b>] Tenda W30E堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18923'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18923</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18925 (CVE-2022-45497)</font><br/>[<b>披露时间</b>] 2023-03-22 03:37:38<br/>[<b>漏洞描述</b>] Tenda W6-S命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18925'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18925</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18927 (CVE-2022-45499)</font><br/>[<b>披露时间</b>] 2023-03-22 04:39:08<br/>[<b>漏洞描述</b>] Tenda W6-S堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18927'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18927</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-18926 (CVE-2022-45498)</font><br/>[<b>披露时间</b>] 2023-03-22 04:39:10<br/>[<b>漏洞描述</b>] Tenda W6-S拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-18926'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-18926</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
