@@ -1,14 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27034</font><br/>[<b>披露时间</b>] 2023-03-23 22:15:00<br/>[<b>漏洞描述</b>] PrestaShop jmsblog 2.5.5 was discovered to contain a SQL injection vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27034'>https://www.tenable.com/cve/CVE-2023-27034</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24787</font><br/>[<b>披露时间</b>] 2023-03-23 22:15:00<br/>[<b>漏洞描述</b>] RESERVED churchcrm v4.5.3 was discovered to contain a SQL injection vulnerability via the Event parameter at /churchcrm/EventAttendance.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24787'>https://www.tenable.com/cve/CVE-2023-24787</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24295</font><br/>[<b>披露时间</b>] 2023-03-23 22:15:00<br/>[<b>漏洞描述</b>] A stack overfow in SoftMaker Software GmbH FlexiPDF v3.0.3.0 allows attackers to execute arbitrary code after opening a crafted PDF file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24295'>https://www.tenable.com/cve/CVE-2023-24295</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-24857</font><br/>[<b>披露时间</b>] 2023-03-23 22:15:00<br/>[<b>漏洞描述</b>] Cross Site Scripting vulnerabilty found in IXPManager v.5.6.0 allows attackers to excute arbitrary code via the looking glass component.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2020-24857'>https://www.tenable.com/cve/CVE-2020-24857</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-19775</font><br/>[<b>披露时间</b>] 2023-03-24 02:47:15<br/>[<b>漏洞描述</b>] phpstudy-linux SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-19775'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-19775</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-19774 (CVE-2023-27326)</font><br/>[<b>披露时间</b>] 2023-03-24 02:47:17<br/>[<b>漏洞描述</b>] Parallels Desktop for Mac产品中Toolgate组件路径穿越漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-19774'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-19774</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
