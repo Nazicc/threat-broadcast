@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1631</font><br/>[<b>披露时间</b>] 2023-03-25 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, was found in JiangMin Antivirus 16.2.2022.418. This affects the function 0x222010 in the library kvcore.sys of the component IOCTL Handler. The manipulation leads to null pointer dereference. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The identifier VDB-224013 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1631'>https://www.tenable.com/cve/CVE-2023-1631</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1630</font><br/>[<b>披露时间</b>] 2023-03-25 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, has been found in Jianming Antivirus 16.2.2022.418. Affected by this issue is the function 0x222000 in the library kvcore.sys of the component IoControlCode Handler. The manipulation leads to denial of service. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-224012.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1630'>https://www.tenable.com/cve/CVE-2023-1630</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1630</font><br/>[<b>披露时间</b>] 2023-03-25 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, has been found in JiangMin Antivirus 16.2.2022.418. Affected by this issue is the function 0x222000 in the library kvcore.sys of the component IOCTL Handler. The manipulation leads to denial of service. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-224012.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1630'>https://www.tenable.com/cve/CVE-2023-1630</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
