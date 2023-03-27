@@ -1,15 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-20078 (CVE-2023-25924)</font><br/>[<b>披露时间</b>] 2023-03-24 08:40:42<br/>[<b>漏洞描述</b>] IBM Security Guardium Key Lifecycle Manager未授权访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-20078'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-20078</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-20079 (CVE-2023-27871)</font><br/>[<b>披露时间</b>] 2023-03-24 08:40:45<br/>[<b>漏洞描述</b>] IBM Aspera Faspex SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-20079'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-20079</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-20080 (CVE-2023-27874)</font><br/>[<b>披露时间</b>] 2023-03-24 08:40:47<br/>[<b>漏洞描述</b>] IBM Aspera XML外部实体注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-20080'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-20080</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-20081 (CVE-2023-25684)</font><br/>[<b>披露时间</b>] 2023-03-24 08:40:49<br/>[<b>漏洞描述</b>] IBM Security Guardium SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-20081'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-20081</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-20082 (CVE-2023-25686)</font><br/>[<b>披露时间</b>] 2023-03-24 08:40:52<br/>[<b>漏洞描述</b>] IBM Security Guardium信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-20082'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-20082</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-03-27 08:47:34<br/>[<b>漏洞描述</b>] 安全事件周报 2023-03-20 第12周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=642158266407488f266e5a5c'>https://cert.360.cn/warning/detail?id=642158266407488f266e5a5c</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
