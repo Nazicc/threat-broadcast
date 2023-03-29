@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21649 (CVE-2023-25879)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:01<br/>[<b>漏洞描述</b>] Adobe Dimension输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21649'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21649</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21650 (CVE-2023-25880)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:03<br/>[<b>漏洞描述</b>] Adobe Dimension越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21650'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21650</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21651 (CVE-2023-25881)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:06<br/>[<b>漏洞描述</b>] Adobe Dimension输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21651'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21651</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21652 (CVE-2023-25882)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:08<br/>[<b>漏洞描述</b>] Adobe Dimension堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21652'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21652</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21653 (CVE-2023-25883)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:10<br/>[<b>漏洞描述</b>] Adobe Dimension堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21653'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21653</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21654 (CVE-2023-25884)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:13<br/>[<b>漏洞描述</b>] Adobe Dimension越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21654'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21654</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21655 (CVE-2023-25885)</font><br/>[<b>披露时间</b>] 2023-03-28 02:55:15<br/>[<b>漏洞描述</b>] Adobe Dimension堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21655'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21655</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-21659 (CVE-2022-46569)</font><br/>[<b>披露时间</b>] 2023-03-29 04:39:39<br/>[<b>漏洞描述</b>] D-Link DIR-882缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-21659'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-21659</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
