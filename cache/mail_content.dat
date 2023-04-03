@@ -1,15 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-23570 (CVE-2022-37391)</font><br/>[<b>披露时间</b>] 2023-04-04 22:37:19<br/>[<b>漏洞描述</b>] Foxit PDF Reader远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-23570'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-23570</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-23569 (CVE-2022-43639)</font><br/>[<b>披露时间</b>] 2023-04-03 22:37:21<br/>[<b>漏洞描述</b>] Foxit PDF Reader远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-23569'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-23569</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-23568 (CVE-2022-43638)</font><br/>[<b>披露时间</b>] 2023-04-03 22:37:23<br/>[<b>漏洞描述</b>] Foxit PDF Reader远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-23568'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-23568</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27821</font><br/>[<b>披露时间</b>] 2023-03-28 17:15:12 <br/>[<b>漏洞描述</b>] Databasir v1.0.7 was discovered to contain a remote code execution (RCE) vulnerability via the mockDataScript parameter.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27821'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27821</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29218</font><br/>[<b>披露时间</b>] 2023-04-03 21:15:00<br/>[<b>漏洞描述</b>] The Twitter Recommendation Algorithm through ec83d01 allows attackers to cause a denial of service (reduction of reputation score) by arranging for multiple Twitter accounts to coordinate negative signals regarding a target account, such as unfollowing, muting, blocking, and reporting, as exploited in the wild in March and April 2023.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29218'>https://www.tenable.com/cve/CVE-2023-29218</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
