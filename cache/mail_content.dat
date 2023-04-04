@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27584</font><br/>[<b>披露时间</b>] 2023-04-03 03:37:43<br/>[<b>漏洞描述</b>] SICK访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76740'>http://www.nsfocus.net/vulndb/76740</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42323</font><br/>[<b>披露时间</b>] 2023-04-03 03:37:43<br/>[<b>漏洞描述</b>] Xenstore拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76739'>http://www.nsfocus.net/vulndb/76739</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32892</font><br/>[<b>披露时间</b>] 2023-04-03 03:37:43<br/>[<b>漏洞描述</b>] Apple多款产品访问限制绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76738'>http://www.nsfocus.net/vulndb/76738</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26976</font><br/>[<b>披露时间</b>] 2023-04-04 02:15:00<br/>[<b>漏洞描述</b>] Tenda AC6 v15.03.05.09_multi was discovered to contain a stack overflow via the ssid parameter in the form_fast_setting_wifi_set function.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26976'>https://www.tenable.com/cve/CVE-2023-26976</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26855</font><br/>[<b>披露时间</b>] 2023-04-04 02:15:00<br/>[<b>漏洞描述</b>] The hashing algorithm of ChurchCRM v4.5.3 utilizes a non-random salt value which allows attackers to use precomputed hash tables or dictionary attacks to crack the hashed passwords.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26855'>https://www.tenable.com/cve/CVE-2023-26855</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
