@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25113 (CVE-2022-37386)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:24<br/>[<b>漏洞描述</b>] Foxit PDF Reader缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25113'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25113</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25114 (CVE-2022-37383)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:26<br/>[<b>漏洞描述</b>] Foxit PDF Reader缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25114'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25114</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25115 (CVE-2022-37380)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:28<br/>[<b>漏洞描述</b>] Foxit PDF Reader缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25115'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25115</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25116 (CVE-2022-43641)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:31<br/>[<b>漏洞描述</b>] Foxit PDF Reader资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25116'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25116</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25117 (CVE-2022-43637)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:33<br/>[<b>漏洞描述</b>] Foxit PDF Reader资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25117'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25117</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25118 (CVE-2022-37390)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:37<br/>[<b>漏洞描述</b>] Foxit PDF Reader资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25118'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25118</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-25119 (CVE-2022-37389)</font><br/>[<b>披露时间</b>] 2023-04-10 08:37:39<br/>[<b>漏洞描述</b>] Foxit PDF Reader资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-25119'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-25119</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29017</font><br/>[<b>披露时间</b>] 2023-04-10 08:59:38<br/>[<b>漏洞描述</b>] vm2沙箱逃逸漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6433cdc3b308eb75670ae727'>https://cert.360.cn/warning/detail?id=6433cdc3b308eb75670ae727</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
