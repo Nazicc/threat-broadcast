@@ -1,12 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29017</font><br/>[<b>披露时间</b>] 2023-04-07 02:42:56<br/>[<b>漏洞描述</b>] vm2 <3.9.15 沙箱逃逸漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-29017'>https://avd.aliyun.com/detail?id=AVD-2023-29017</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0125</font><br/>[<b>披露时间</b>] 2023-04-10 03:37:48<br/>[<b>漏洞描述</b>] Control iD Panel跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77000'>http://www.nsfocus.net/vulndb/77000</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38547</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] Zyxel ZyWALL/USG命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76999'>http://www.nsfocus.net/vulndb/76999</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-32776</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] WordPress Advanced Ads Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76998'>http://www.nsfocus.net/vulndb/76998</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42905</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] wolfSSL缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76997'>http://www.nsfocus.net/vulndb/76997</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-30545</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] WordPress 5 Anker Connect Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76996'>http://www.nsfocus.net/vulndb/76996</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43305</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] Democritus Project d8s-python任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76995'>http://www.nsfocus.net/vulndb/76995</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-43306</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] Democritus Project d8s-timer任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76994'>http://www.nsfocus.net/vulndb/76994</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39343</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] Azure RTOS FileX缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76993'>http://www.nsfocus.net/vulndb/76993</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3451</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] WordPress Product Stock Manage Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76992'>http://www.nsfocus.net/vulndb/76992</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3463</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] WordPress Contact Form Plugin CSV注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76991'>http://www.nsfocus.net/vulndb/76991</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-34055</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] jhead缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76990'>http://www.nsfocus.net/vulndb/76990</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40128</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] WordPress Advanced Order Export For WooCommerce Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76989'>http://www.nsfocus.net/vulndb/76989</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-37710</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] Eaglesoft信任管理错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76988'>http://www.nsfocus.net/vulndb/76988</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44048</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] Democritus Project d8s-urls任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76987'>http://www.nsfocus.net/vulndb/76987</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-39352</font><br/>[<b>披露时间</b>] 2023-04-07 03:37:48<br/>[<b>漏洞描述</b>] OpenFGA授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76986'>http://www.nsfocus.net/vulndb/76986</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
