@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30512</font><br/>[<b>披露时间</b>] 2023-04-12 06:15:00<br/>[<b>漏洞描述</b>] CubeFS through 3.2.1 allows Kubernetes cluster-level privilege escalation. This occurs because DaemonSet has cfs-csi-cluster-role and can thus list all secrets, including the admin secret.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30512'>https://www.tenable.com/cve/CVE-2023-30512</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48437</font><br/>[<b>披露时间</b>] 2023-04-12 05:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in x509/x509_verify.c in LibreSSL before 3.6.1, and in OpenBSD before 7.2 errata 001. x509_verify_ctx_add_chain does not store errors that occur during leaf certificate verification, and therefore an incorrect error is returned. This behavior occurs when there is an installed verification callback that instructs the verifier to continue upon detecting an invalid certificate.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-48437'>https://www.tenable.com/cve/CVE-2022-48437</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0922</font><br/>[<b>披露时间</b>] 2023-04-12 20:25:32<br/>[<b>漏洞描述</b>] SAMBA SAMBA Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e7174a1bfd7a438981e617bc35c9a28e'>https://redqueen.tj-un.com/IntelDetails.html?id=e7174a1bfd7a438981e617bc35c9a28e</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
