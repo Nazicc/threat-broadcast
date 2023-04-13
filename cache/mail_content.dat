@@ -1,13 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2021</font><br/>[<b>披露时间</b>] 2023-04-13 12:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.3.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2021'>https://www.tenable.com/cve/CVE-2023-2021</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45358</font><br/>[<b>披露时间</b>] 2023-04-13 12:15:00<br/>[<b>漏洞描述</b>] Auth. (subscriber+) Reflected Cross-Site Scripting (XSS) vulnerability in Silkalns Activello theme <= 1.4.4 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-45358'>https://www.tenable.com/cve/CVE-2022-45358</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44625</font><br/>[<b>披露时间</b>] 2023-04-13 12:15:00<br/>[<b>漏洞描述</b>] Auth. (admin+) Stored Cross-Site Scripting') vulnerability in Zephilou Cyklodev WP Notify plugin <= 1.2.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-44625'>https://www.tenable.com/cve/CVE-2022-44625</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-17316</font><br/>[<b>披露时间</b>] 2023-04-14 16:40:36<br/>[<b>漏洞描述</b>] Nacos存在登录绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-17316'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-17316</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29236</font><br/>[<b>披露时间</b>] 2023-04-07 12:15:07 <br/>[<b>漏洞描述</b>] Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Cththemes Outdoor theme &lt;= 3.9.6 versions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29236'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29236</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
