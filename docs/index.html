@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-14 23:38:03 -->
+<!-- RELEASE TIME : 2023-04-15 01:49:21 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b614193f679d4fafa5444a641e7d4b45</td>
+       <td>CVE-2023-29383</td>
+       <td>2023-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29383">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a1b797b15c1f55cd116a016e0485c6d7</td>
+       <td>CVE-2023-24934</td>
+       <td>2023-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Defender Security Feature Bypass Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24934">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3e219d50549e39d413e345cfd24a1832</td>
        <td>CVE-2023-29091</td>
        <td>2023-04-14 21:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-04-14 14:15:00 <img src="imgs/new.gif" /></td>
        <td>SENAYAN Library Management System (SLiMS) Bulian v9.5.2 does not strip exif data from uploaded images. This allows attackers to obtain information such as the user's geolocation and device information.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29850">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e677b33e642fb98d088c88626a0bf17</td>
-       <td>CVE-2023-29847</td>
-       <td>2023-04-14 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>AeroCMS v0.0.1 was discovered to contain multiple stored cross-site scripting (XSS) vulnerabilities via the comment_author and comment_content parameters at /post.php. These vulnerabilities allow attackers to execute arbitrary web scripts or HTML via a crafted payload.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29847">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a75a7361935c18fa10a6f8764f1012e9</td>
-       <td>CVE-2023-29805</td>
-       <td>2023-04-14 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>WFS-SR03 v1.0.3 was discovered to contain a command injection vulnerability via the pro_stor_canceltrans_handler_part_19 function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29805">详情</a></td>
       </tr>
 
      </tbody>
@@ -876,7 +876,7 @@
       <tr>
        <td scope="row">05e0e8ebc6ce70c0025c8cd170e9131b</td>
        <td>CNVD-2023-26070 (CVE-2023-20934)</td>
-       <td>2023-04-13 16:41:45 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:45</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26070">详情</a></td>
       </tr>
@@ -884,7 +884,7 @@
       <tr>
        <td scope="row">37a56b56cc5a35dfba72d8acc7970988</td>
        <td>CNVD-2023-26069 (CVE-2023-20945)</td>
-       <td>2023-04-13 16:41:43 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:43</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26069">详情</a></td>
       </tr>
@@ -892,7 +892,7 @@
       <tr>
        <td scope="row">b4515b159a12baf0254790e90eaf19a2</td>
        <td>CNVD-2023-26068 (CVE-2023-20932)</td>
-       <td>2023-04-13 16:41:41 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:41</td>
        <td>Google Android信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26068">详情</a></td>
       </tr>
@@ -900,7 +900,7 @@
       <tr>
        <td scope="row">b9dea1bedbb6fee7efe9defdc929cc53</td>
        <td>CNVD-2023-26067 (CVE-2023-20946)</td>
-       <td>2023-04-13 16:41:38 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:38</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26067">详情</a></td>
       </tr>
@@ -908,7 +908,7 @@
       <tr>
        <td scope="row">b2d56e85904488f6ef88c78508b23e38</td>
        <td>CNVD-2023-26066 (CVE-2023-20938)</td>
-       <td>2023-04-13 16:41:36 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:36</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26066">详情</a></td>
       </tr>
@@ -916,7 +916,7 @@
       <tr>
        <td scope="row">54258576457d36cc88e0bf067b77fcf2</td>
        <td>CNVD-2023-26065 (CVE-2023-20948)</td>
-       <td>2023-04-13 16:41:34 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:34</td>
        <td>Google Android越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26065">详情</a></td>
       </tr>
@@ -924,7 +924,7 @@
       <tr>
        <td scope="row">5e6e8dc6b13a6f92c082ccc9822ffda8</td>
        <td>CNVD-2023-26064 (CVE-2022-20550)</td>
-       <td>2023-04-13 16:41:32 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 16:41:32</td>
        <td>Google Android权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26064">详情</a></td>
       </tr>
@@ -932,7 +932,7 @@
       <tr>
        <td scope="row">81d22a2d2aeafe0226d2a05591ba858a</td>
        <td>CNVD-2023-26071 (CVE-2022-20481)</td>
-       <td>2023-04-13 01:46:41 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 01:46:41</td>
        <td>Google Android信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-26071">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">ae5d07c26a61cfb9984435bd5d1ecaf1</td>
        <td>CVE-2023-28999</td>
-       <td>2023-04-13 20:30:52 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:52</td>
        <td>NEXTCLOUD Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a7b08f34f8fd4b269b3aa91a752f9484">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">ae878501d3a8a786562ef78cc4890726</td>
        <td>CVE-2023-28997</td>
-       <td>2023-04-13 20:30:46 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:46</td>
        <td>NEXTCLOUD DESKTOP Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8ebe955b25e54032b91af66c3103c1ca">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">7f7167b4624e9a68165b869fba2cdd8d</td>
        <td>CVE-2023-28998</td>
-       <td>2023-04-13 20:30:41 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:41</td>
        <td>NEXTCLOUD DESKTOP Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=854f21444f814642ab8886e800913809">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">ee609c5b265a992897601ff8017fcd8b</td>
        <td>CVE-2020-23259</td>
-       <td>2023-04-13 20:30:34 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:34</td>
        <td>JSISH JSISH Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=426d7003352c4a54844c8c63ac525935">详情</a></td>
       </tr>
@@ -2050,7 +2050,7 @@
       <tr>
        <td scope="row">578a7e7ad7e7d6bb68354b06108b233a</td>
        <td>CVE-2020-19695</td>
-       <td>2023-04-13 20:30:27 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:27</td>
        <td>NGINX NJS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=4ccdf76f18aa4e9ca3c212d2049dbf02">详情</a></td>
       </tr>
@@ -2058,7 +2058,7 @@
       <tr>
        <td scope="row">3bc352fc0c03103f2ef23228e8160755</td>
        <td>CVE-2020-21487</td>
-       <td>2023-04-13 20:30:20 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:20</td>
        <td>NETGATE Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a4766784b9b44e93ac8da286790923f8">详情</a></td>
       </tr>
@@ -2066,7 +2066,7 @@
       <tr>
        <td scope="row">a186baeef098dba555145508706fd331</td>
        <td>CVE-2023-26750</td>
-       <td>2023-04-13 20:30:13 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:13</td>
        <td>YIIFRAMEWORK YII Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=318bc0c5fa0b435086f9a751892a9d33">详情</a></td>
       </tr>
@@ -2074,7 +2074,7 @@
       <tr>
        <td scope="row">5b562ead144f2a9b5c520b2f58a16bcd</td>
        <td>CVE-2020-23260</td>
-       <td>2023-04-13 20:30:05 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:30:05</td>
        <td>JSISH JSISH Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ef9ef8af51ba4300852b5ee0e26c211c">详情</a></td>
       </tr>
@@ -2082,7 +2082,7 @@
       <tr>
        <td scope="row">cf97194fac7bf34bdaf84d019021be30</td>
        <td>CVE-2023-26437</td>
-       <td>2023-04-13 20:29:57 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:29:57</td>
        <td>POWERDNS RECURSOR Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=13cfbce3c8944373bd442f27aedf1039">详情</a></td>
       </tr>
@@ -2090,7 +2090,7 @@
       <tr>
        <td scope="row">2064eea0d7a01a8300f5252a172ccd7c</td>
        <td>CVE-2023-0614</td>
-       <td>2023-04-13 20:29:51 <img src="imgs/new.gif" /></td>
+       <td>2023-04-13 20:29:51</td>
        <td>SAMBA SAMBA Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=a1128f82c9b34ae1bdc334d568855cf6">详情</a></td>
       </tr>
