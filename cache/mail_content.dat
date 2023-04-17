@@ -1,14 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27705</font><br/>[<b>披露时间</b>] 2023-04-17 15:15:00<br/>[<b>漏洞描述</b>] APNG_Optimizer v1.4 was discovered to contain a buffer overflow via the component /apngopt/ubuntu.png.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27705'>https://www.tenable.com/cve/CVE-2023-27705</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1831</font><br/>[<b>披露时间</b>] 2023-04-17 15:15:00<br/>[<b>漏洞描述</b>] Mattermost fails to redact from audit logs the user password during user creation and the user password hash in other operations if the experimental audit logging configuration was enabled (ExperimentalAuditSettings section in config).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1831'>https://www.tenable.com/cve/CVE-2023-1831</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27755</font><br/>[<b>披露时间</b>] 2023-04-17 14:15:00<br/>[<b>漏洞描述</b>] go-bbs v1 was discovered to contain an arbitrary file download vulnerability via the component /api/v1/download.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27755'>https://www.tenable.com/cve/CVE-2023-27755</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1873</font><br/>[<b>披露时间</b>] 2023-04-17 14:15:00<br/>[<b>漏洞描述</b>] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Faturamatik Bircard allows SQL Injection.This issue affects Bircard: before 23.04.05.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1873'>https://www.tenable.com/cve/CVE-2023-1873</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27525</font><br/>[<b>披露时间</b>] 2023-04-17 17:15:00<br/>[<b>漏洞描述</b>] An authenticated user with Gamma role authorization could have access to metadata information using non trivial methods in Apache Superset up to and including 2.0.1<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27525'>https://www.tenable.com/cve/CVE-2023-27525</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25504</font><br/>[<b>披露时间</b>] 2023-04-17 17:15:00<br/>[<b>漏洞描述</b>] A malicious actor who has been authenticated and granted specific permissions in Apache Superset may use the import dataset feature in order to conduct Server-Side Request Forgeryattacks and query internal resources on behalf of the server where Supersetis deployed. This vulnerability exists in Apache Superset versions up to and including 2.0.1.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25504'>https://www.tenable.com/cve/CVE-2023-25504</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29665</font><br/>[<b>披露时间</b>] 2023-04-17 16:15:00<br/>[<b>漏洞描述</b>] D-Link DIR823G_V1.0.2B05 was discovered to contain a stack overflow via the NewPassword parameters in SetPasswdSettings.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29665'>https://www.tenable.com/cve/CVE-2023-29665</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
