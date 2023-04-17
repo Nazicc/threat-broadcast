@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28102 (CVE-2023-24868)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:45<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28102'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28102</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28103 (CVE-2023-24867)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:47<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28103'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28103</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28104 (CVE-2023-24866)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:49<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28104'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28104</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28105 (CVE-2023-24865)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:52<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28105'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28105</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28106 (CVE-2023-24863)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:54<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28106'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28106</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28107 (CVE-2023-24858)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:56<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28107'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28107</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-28108 (CVE-2023-24857)</font><br/>[<b>披露时间</b>] 2023-04-17 01:48:59<br/>[<b>漏洞描述</b>] Microsoft PostScript and PCL6 Class Printer Driver信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-28108'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-28108</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2033</font><br/>[<b>披露时间</b>] 2023-04-17 00:43:33<br/>[<b>漏洞描述</b>] CVE-2023-2033：Google Chrome V8类型混淆漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=643c963522fb511ce8a14ac4'>https://cert.360.cn/warning/detail?id=643c963522fb511ce8a14ac4</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-04-17 11:32:11<br/>[<b>漏洞描述</b>] Apache Solr 代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8186'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8186</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
