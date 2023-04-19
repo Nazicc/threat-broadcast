@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28706,CVE-2023-28707,CVE-2023-28710</font><br/>[<b>披露时间</b>] 2023-04-19 14:40:30<br/>[<b>漏洞描述</b>] Apache Airflow多个漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8192'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8192</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48077</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Genymotion Desktop不受控制的搜索路径元素漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77986'>http://www.nsfocus.net/vulndb/77986</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-3089</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Echelon i.LON SmartServer敏感信息明文存储漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77985'>http://www.nsfocus.net/vulndb/77985</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-25937</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] nlpweb glance路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77984'>http://www.nsfocus.net/vulndb/77984</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4759</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] WordPress GigPress Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77983'>http://www.nsfocus.net/vulndb/77983</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23948</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] ownCloud Android app SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77982'>http://www.nsfocus.net/vulndb/77982</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46950</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Dynamic Transaction Queuing System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77981'>http://www.nsfocus.net/vulndb/77981</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46093</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Hospital Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77980'>http://www.nsfocus.net/vulndb/77980</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42136</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] MailEnable路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77979'>http://www.nsfocus.net/vulndb/77979</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0379</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] WordPress Spotlight Social Feeds Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77978'>http://www.nsfocus.net/vulndb/77978</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46955</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Dynamic Transaction Queuing System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77977'>http://www.nsfocus.net/vulndb/77977</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0360</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] WordPress Location Weather Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77976'>http://www.nsfocus.net/vulndb/77976</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46954</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Dynamic Transaction Queuing System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77975'>http://www.nsfocus.net/vulndb/77975</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22491</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] Gatsby跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77974'>http://www.nsfocus.net/vulndb/77974</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0080</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] WordPress Customer Reviews for WooCommerce Plugin路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77973'>http://www.nsfocus.net/vulndb/77973</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0362</font><br/>[<b>披露时间</b>] 2023-04-19 09:37:41<br/>[<b>漏洞描述</b>] WordPress Themify Portfolio Post Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77972'>http://www.nsfocus.net/vulndb/77972</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
