@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-19 15:37:51 -->
+<!-- RELEASE TIME : 2023-04-19 16:42:10 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">cb7e19c00869eed529c72e64c7ba5360</td>
+       <td>CVE-2023-29586</td>
+       <td>2023-04-19 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Code Sector TeraCopy 3.9.7 does not perform proper access validation on the source folder during a copy operation. This leads to Arbitrary File Read by allowing any user to copy any directory in the system to a directory they control.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29586">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b4f0b72489c8066e6695ae25cddfc3b8</td>
+       <td>CVE-2023-29923</td>
+       <td>2023-04-19 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>PowerJob V4.3.1 is vulnerable to Insecure Permissions. via the list job interface.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29923">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">09681a696675d1592ad7519d291aae76</td>
        <td>CVE-2023-27777</td>
        <td>2023-04-19 13:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-04-18 22:15:00 <img src="imgs/new.gif" /></td>
        <td>Discourse is an open source platform for community discussion. In affected versions a user logged as an administrator can call arbitrary methods on the `SiteSetting` class, notably `#clear_cache!` and `#notify_changed!`, which when done on a multisite instance, can affect the entire cluster resulting in a denial of service. Users not running in multisite environments are not affected. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30606">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c4fca56ffeda50904f58f06fd9b8b1a0</td>
-       <td>CVE-2023-30538</td>
-       <td>2023-04-18 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Discourse is an open source platform for community discussion. Due to the improper sanitization of SVG files, an attacker can execute arbitrary JavaScript on the users’ browsers by uploading a crafted SVG file. This issue is patched in the latest stable and tests-passed versions of Discourse. Users are advised to upgrade. For users unable to upgrade there are two possible workarounds: enable CDN handing of uploads (and ensure the CDN sanitizes SVG files) or disable SVG file uploads by ensuring that the `authorized extensions` site setting does not include `svg` (or reset that setting to the default, by default Discourse doesn't enable SVG uploads by users).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30538">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">972dbb9d2b4c41e282dd83ef131ad899</td>
-       <td>CVE-2023-29410</td>
-       <td>2023-04-18 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>A CWE-20: Improper Input Validation vulnerability exists that could allow an authenticatedattacker to gain the same privilege as the application on the server when a malicious payload isprovided over HTTP for the server to execute.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29410">详情</a></td>
       </tr>
 
      </tbody>
@@ -890,6 +890,22 @@
       </tr>
 
       <tr>
+       <td scope="row">8975aac22cb267e7cf20f7f9a6110fba</td>
+       <td>CNVD-2023-28118 (CVE-2023-29186)</td>
+       <td>2023-04-17 16:41:35</td>
+       <td>SAP NetWeaver目录遍历漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-28118">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38ead6e357c19f5816edf39ec4d9ef37</td>
+       <td>CNVD-2023-28117 (CVE-2023-26458)</td>
+       <td>2023-04-17 16:41:33</td>
+       <td>SAP Landscape Management信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-28117">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5191bdbcc4015cf97b9e9de6e207b0f4</td>
        <td>CNVD-2023-28119 (CVE-2023-27500)</td>
        <td>2023-04-17 16:37:26</td>
@@ -1039,22 +1055,6 @@
        <td>2023-04-14 16:40:36</td>
        <td>Nacos存在登录绕过漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-17316">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4137723752bdee252a17230ca237cbc5</td>
-       <td>CNVD-2023-27673 (CVE-2023-24099)</td>
-       <td>2023-04-14 10:38:21</td>
-       <td>TRENDnet TEW-820AP堆栈溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-27673">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6e30810e277c1e43d4ff1a60e11daf6b</td>
-       <td>CNVD-2023-27681 (CVE-2022-46552)</td>
-       <td>2023-04-14 10:38:16</td>
-       <td>D-Link DIR-846命令执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-27681">详情</a></td>
       </tr>
 
      </tbody>
