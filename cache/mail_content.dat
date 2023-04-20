@@ -1,11 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41721</font><br/>[<b>披露时间</b>] 2023-04-20 03:37:55<br/>[<b>漏洞描述</b>] Google Golang HTTP请求走私漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77987'>http://www.nsfocus.net/vulndb/77987</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-29361 (CVE-2020-36074)</font><br/>[<b>披露时间</b>] 2023-04-20 04:38:06<br/>[<b>漏洞描述</b>] Tailor Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-29361'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-29361</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-29362 (CVE-2023-28296)</font><br/>[<b>披露时间</b>] 2023-04-20 04:38:12<br/>[<b>漏洞描述</b>] Microsoft Visual Studio远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-29362'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-29362</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-29363 (CVE-2022-34452)</font><br/>[<b>披露时间</b>] 2023-04-20 04:38:15<br/>[<b>漏洞描述</b>] Dell PowerPath Management Appliance信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-29363'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-29363</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-29364 (CVE-2023-1984)</font><br/>[<b>披露时间</b>] 2023-04-20 04:38:17<br/>[<b>漏洞描述</b>] Complaint Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-29364'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-29364</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-29365 (CVE-2023-1983)</font><br/>[<b>披露时间</b>] 2023-04-20 04:38:19<br/>[<b>漏洞描述</b>] Sales Tracker Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-29365'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-29365</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
