@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-20 11:37:55 -->
+<!-- RELEASE TIME : 2023-04-20 12:53:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">26ce0d8860e5e9ee3f3c14a594a8b911</td>
+       <td>CVE-2023-1767</td>
+       <td>2023-04-20 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored XSS prior to 28th March 2023. A feature of Snyk Advisor is to display the contents of a scanned package's Readme on its package health page. An attacker could create a package in NPM with an associated markdown README file containing XSS-able HTML tags. Upon Snyk Advisor importing the package, the XSS would run each time an end user browsed to the package's page on Snyk Advisor.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1767">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">40210da64b58bfe8e7ee5bfd61705f4e</td>
        <td>CVE-2023-2193</td>
        <td>2023-04-20 09:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-04-19 16:15:00 <img src="imgs/new.gif" /></td>
        <td>Strapi through 4.5.5 allows attackers (with access to the admin panel) to discover sensitive user details by exploiting the query filter. The attacker can filter users by columns that contain sensitive information and infer a value from API responses. If the attacker has super admin access, then this can be exploited to discover the password hash and password reset token of all users. If the attacker has admin panel access to an account with permission to access the username and email of API users with a lower privileged role (e.g., Editor or Author), then this can be exploited to discover sensitive information for all API users but not other admin accounts.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22894">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f55056156d202429d8c79dde9851300b</td>
-       <td>CVE-2023-22893</td>
-       <td>2023-04-19 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Strapi through 4.5.5 does not verify the access or ID tokens issued during the OAuth flow when the AWS Cognito login provider is used for authentication. A remote attacker could forge an ID token that is signed using the 'None' type algorithm to bypass authentication and impersonate any user that use AWS Cognito for authentication.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22893">详情</a></td>
       </tr>
 
      </tbody>
