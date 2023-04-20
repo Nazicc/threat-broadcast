@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-29368 (CVE-2023-26847)</font><br/>[<b>披露时间</b>] 2023-04-20 16:41:32<br/>[<b>漏洞描述</b>] OpenCATS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-29368'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-29368</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29926</font><br/>[<b>披露时间</b>] 2023-04-20 15:15:00<br/>[<b>漏洞描述</b>] PowerJob V4.3.2 has unauthorized interface that causes remote code execution.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29926'>https://www.tenable.com/cve/CVE-2023-29926</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27652</font><br/>[<b>披露时间</b>] 2023-04-20 14:15:00<br/>[<b>漏洞描述</b>] An issue found in Ego Studio SuperClean v.1.1.9 and v.1.1.5 allows an attacker to gain privileges cause a denial of service via the update_info field of the _default_.xml file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27652'>https://www.tenable.com/cve/CVE-2023-27652</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22309</font><br/>[<b>披露时间</b>] 2023-04-20 14:15:00<br/>[<b>漏洞描述</b>] Reflective Cross-Site-Scripting in Webconf in Tribe29 Checkmk Appliance before 1.6.4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22309'>https://www.tenable.com/cve/CVE-2023-22309</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46302</font><br/>[<b>披露时间</b>] 2023-04-20 14:15:00<br/>[<b>漏洞描述</b>] Broad access controls could allow site users to directly interact with the system Apache installation when providing the reverse proxy configurations for Tribe29's Checkmk <= 2.1.0p6, Checkmk <= 2.0.0p27, and all versions of Checkmk 1.6.0 (EOL) allowing an attacker to perform remote code execution with root privileges on the underlying host.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-46302'>https://www.tenable.com/cve/CVE-2022-46302</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
