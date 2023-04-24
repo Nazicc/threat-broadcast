@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29583</font><br/>[<b>披露时间</b>] 2023-04-24 13:15:00<br/>[<b>漏洞描述</b>] yasm 1.3.0.55.g101bc was discovered to contain a stack overflow via the function parse_expr5 at /nasm/nasm-parse.c.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29583'>https://www.tenable.com/cve/CVE-2023-29583</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29582</font><br/>[<b>披露时间</b>] 2023-04-24 13:15:00<br/>[<b>漏洞描述</b>] yasm 1.3.0.55.g101bc was discovered to contain a stack overflow via the function parse_expr1 at /nasm/nasm-parse.c.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29582'>https://www.tenable.com/cve/CVE-2023-29582</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29579</font><br/>[<b>披露时间</b>] 2023-04-24 13:15:00<br/>[<b>漏洞描述</b>] yasm 1.3.0.55.g101bc was discovered to contain a stack overflow via the component yasm/yasm+0x43b466 in vsprintf.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29579'>https://www.tenable.com/cve/CVE-2023-29579</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29578</font><br/>[<b>披露时间</b>] 2023-04-24 13:15:00<br/>[<b>漏洞描述</b>] mp4v2 v2.0.0 was discovered to contain a heap buffer overflow via the mp4v2::impl::MP4StringProperty::~MP4StringProperty() function at src/mp4property.cpp.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29578'>https://www.tenable.com/cve/CVE-2023-29578</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48477</font><br/>[<b>披露时间</b>] 2023-04-24 13:15:00<br/>[<b>漏洞描述</b>] In JetBrains Hub before 2023.1.15725 SSRF protection in Auth Module integration was missing<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-48477'>https://www.tenable.com/cve/CVE-2022-48477</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48476</font><br/>[<b>披露时间</b>] 2023-04-24 13:15:00<br/>[<b>漏洞描述</b>] In JetBrains Ktor before 2.3.0 path traversal in the `resolveResource` method was possible<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-48476'>https://www.tenable.com/cve/CVE-2022-48476</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-30314</font><br/>[<b>披露时间</b>] 2023-04-25 16:41:15<br/>[<b>漏洞描述</b>] TOTOLINK X5000R存在弱口令漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-30314'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-30314</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
