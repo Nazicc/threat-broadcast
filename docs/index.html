@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-24 17:37:52 -->
+<!-- RELEASE TIME : 2023-04-24 18:38:36 -->
 <html lang="zh-cn">
 
  <head>
@@ -2452,6 +2452,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2819315607e7ca56c26181080be69253</td>
+       <td>CVE-2023-30535</td>
+       <td>2023-04-14 20:15:09 </td>
+       <td>Snowflake JDBC provides a JDBC type 4 driver that supports core functionality, allowing Java program to connect to Snowflake. Users of the Snowflake JDBC driver were vulnerable to a command injection vulnerability. An attacker could set up a malicious, publicly accessible server which responds to the SSO URL with an attack payload. If the attacker then tricked a user into visiting the maliciously crafted connection URL, the user&acirc;&euro;&trade;s local machine would render the malicious payload, leading to a remote code execution. The vulnerability was patched on March 17, 2023 as part of Snowflake JDBC driver Version 3.13.29. All users should immediately upgrade the Snowflake JDBC driver to the latest version: 3.13.29.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30535">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8f49ba50afcd116b9fe00d13de57f350</td>
        <td>CVE-2023-29067</td>
        <td>2023-04-14 19:15:09 </td>
@@ -2553,6 +2561,14 @@
        <td>2023-04-13 23:15:11 </td>
        <td>TiKV 6.1.2 allows remote attackers to cause a denial of service (fatal error) upon an attempt to get a timestamp from the Placement Driver.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30635">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1140ad3662ed36a24632eab7f1d51638</td>
+       <td>CVE-2023-30637</td>
+       <td>2023-04-13 23:15:11 </td>
+       <td>Baidu braft 1.1.2 has a memory leak related to use of the new operator in example/atomic/atomic_server. NOTE: installations with brpc-0.14.0 and later are unaffected.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30637">详情</a></td>
       </tr>
 
       <tr>
@@ -2673,22 +2689,6 @@
        <td>2023-04-12 18:15:11 </td>
        <td>Jenkins WSO2 Oauth Plugin 1.0 and earlier stores the WSO2 Oauth client secret unencrypted in the global config.xml file on the Jenkins controller where it can be viewed by users with access to the Jenkins controller file system.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30527">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bc1b22e54ccf3447e7075fc05b839c91</td>
-       <td>CVE-2023-30526</td>
-       <td>2023-04-12 18:15:11 </td>
-       <td>A missing permission check in Jenkins Report Portal Plugin 0.5 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL using attacker-specified bearer token authentication.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30526">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5888fbb49a8a1e91fb5304f81b4d99de</td>
-       <td>CVE-2023-30525</td>
-       <td>2023-04-12 18:15:10 </td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Report Portal Plugin 0.5 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified bearer token authentication.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30525">详情</a></td>
       </tr>
 
      </tbody>
