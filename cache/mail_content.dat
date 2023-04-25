@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28771</font><br/>[<b>披露时间</b>] 2023-04-25 02:15:00<br/>[<b>漏洞描述</b>] Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28771'>https://www.tenable.com/cve/CVE-2023-28771</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-30857 (CVE-2023-27987)</font><br/>[<b>披露时间</b>] 2023-04-19 07:37:32<br/>[<b>漏洞描述</b>] Apache Linkis弱算法漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-30857'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-30857</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-30856 (CVE-2023-27602)</font><br/>[<b>披露时间</b>] 2023-04-19 07:37:34<br/>[<b>漏洞描述</b>] Apache Linkis任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-30856'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-30856</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
