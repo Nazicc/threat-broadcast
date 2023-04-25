@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22665</font><br/>[<b>披露时间</b>] 2023-04-25 07:15:00<br/>[<b>漏洞描述</b>] There is insufficient checking of user queries in Apache Jena versions 4.7.0 and earlier, when invoking custom scripts. It allows a remote user to execute arbitrary javascript via a SPARQL query.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-22665'>https://www.tenable.com/cve/CVE-2023-22665</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21931</font><br/>[<b>披露时间</b>] 2023-04-25 20:36:14<br/>[<b>漏洞描述</b>] ORACLE WEBLOGIC_SERVER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c0372506e1a44d638983895a286151d7'>https://redqueen.tj-un.com/IntelDetails.html?id=c0372506e1a44d638983895a286151d7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21985</font><br/>[<b>披露时间</b>] 2023-04-25 20:36:00<br/>[<b>漏洞描述</b>] ORACLE SOLARIS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=451003b68265476b949190c190075039'>https://redqueen.tj-un.com/IntelDetails.html?id=451003b68265476b949190c190075039</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21990</font><br/>[<b>披露时间</b>] 2023-04-25 20:35:47<br/>[<b>漏洞描述</b>] ORACLE VM_VIRTUALBOX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7db624b901704959b0924fce6b8cd859'>https://redqueen.tj-un.com/IntelDetails.html?id=7db624b901704959b0924fce6b8cd859</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44734</font><br/>[<b>披露时间</b>] 2023-04-25 20:35:33<br/>[<b>漏洞描述</b>] BESTWEBSOFT CAR_RENTAL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a69238b498bf40a4a7c30184c2c09c48'>https://redqueen.tj-un.com/IntelDetails.html?id=a69238b498bf40a4a7c30184c2c09c48</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
