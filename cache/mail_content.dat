@@ -1,13 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32025 (CVE-2023-29847)</font><br/>[<b>披露时间</b>] 2023-04-26 10:37:19<br/>[<b>漏洞描述</b>] AeroCMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32025'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32025</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27524</font><br/>[<b>披露时间</b>] 2023-04-26 09:46:30<br/>[<b>漏洞描述</b>] CVE-2023-27524：Apache Superset身份认证绕过漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6448f2f622fb511ce8a14afe'>https://cert.360.cn/warning/detail?id=6448f2f622fb511ce8a14afe</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2273</font><br/>[<b>披露时间</b>] 2023-04-26 09:15:00<br/>[<b>漏洞描述</b>] Rapid7 Insight Agent token handler versions 3.2.6 and below, suffer from a Directory Traversal vulnerability whereby unsanitized input from a CLI argument flows into io.ioutil.WriteFile, where it is used as a path. This can result in a Path Traversal vulnerability and allow an attacker to write arbitrary files. This issue is remediated in version 3.3.0 via safe guards that reject inputs that attempt to do path traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2273'>https://www.tenable.com/cve/CVE-2023-2273</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2294</font><br/>[<b>披露时间</b>] 2023-04-26 06:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in UCMS 1.6.0. It has been classified as problematic. This affects an unknown part of the file saddpost.php of the component Column Configuration. The manipulation of the argument strorder leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227481 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2294'>https://www.tenable.com/cve/CVE-2023-2294</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
