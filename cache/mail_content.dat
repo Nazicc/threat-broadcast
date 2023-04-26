@@ -1,15 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31223</font><br/>[<b>披露时间</b>] 2023-04-25 23:15:00<br/>[<b>漏洞描述</b>] Dradis before 4.8.0 allows persistent XSS by authenticated author users, related to avatars.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-31223'>https://www.tenable.com/cve/CVE-2023-31223</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0045</font><br/>[<b>披露时间</b>] 2023-04-25 23:15:00<br/>[<b>漏洞描述</b>] The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set  function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.  The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.We recommend upgrading past commit a664ec9158eeddd75121d39c9a0758016097fa96<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-0045'>https://www.tenable.com/cve/CVE-2023-0045</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30842</font><br/>[<b>披露时间</b>] 2023-04-25 22:15:00<br/>[<b>漏洞描述</b>] AVideo is an open-source video platform. Prior to version 12.4, AVideo is vulnerable to remote code execution when an attacker embeds a malicious video link. This issue is fixed in version 12.4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30842'>https://www.tenable.com/cve/CVE-2023-30842</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20870</font><br/>[<b>披露时间</b>] 2023-04-25 22:15:00<br/>[<b>漏洞描述</b>] VMware Workstation and Fusion contain an out-of-bounds read vulnerability that exists in the functionality for sharing host Bluetooth devices with the virtual machine.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-20870'>https://www.tenable.com/cve/CVE-2023-20870</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20869</font><br/>[<b>披露时间</b>] 2023-04-25 22:15:00<br/>[<b>漏洞描述</b>] VMware Workstation (17.x) and VMware Fusion (13.x) contain a stack-based buffer-overflow vulnerability that exists in the functionality for sharing host Bluetooth devices with the virtual machine.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-20869'>https://www.tenable.com/cve/CVE-2023-20869</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27524</font><br/>[<b>披露时间</b>] 2023-04-25 04:37:40<br/>[<b>漏洞描述</b>] Apache Superset 默认SECRET_KEY 漏洞（CVE-2023-27524）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-27524'>https://avd.aliyun.com/detail?id=AVD-2023-27524</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
