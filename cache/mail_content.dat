@@ -1,13 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29257</font><br/>[<b>披露时间</b>] 2023-04-26 13:15:00<br/>[<b>漏洞描述</b>] IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to remote code execution as a database administrator of one database may execute code or read/write files from another database within the same instance.  IBM X-Force ID:  252011.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29257'>https://www.tenable.com/cve/CVE-2023-29257</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24796</font><br/>[<b>披露时间</b>] 2023-04-26 13:15:00<br/>[<b>漏洞描述</b>] Password vulnerability found in Vinga WR-AC1200 81.102.1.4370 and before allows a remote attacker to execute arbitrary code via the password parameter at the /goform/sysTools and /adm/systools.asp endpoints.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24796'>https://www.tenable.com/cve/CVE-2023-24796</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26286</font><br/>[<b>披露时间</b>] 2023-04-26 12:15:00<br/>[<b>漏洞描述</b>] IBM AIX 7.1, 7.2, 7.3, and VIOS 3.1 could allow a non-privileged local user to exploit a vulnerability in the AIX runtime services library to execute arbitrary commands.  IBM X-Force ID:  248421.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26286'>https://www.tenable.com/cve/CVE-2023-26286</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-30858 (CVE-2023-26464)</font><br/>[<b>披露时间</b>] 2023-04-19 16:41:27<br/>[<b>漏洞描述</b>] Apache Log4j资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-30858'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-30858</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-30849 (CVE-2022-29056)</font><br/>[<b>披露时间</b>] 2023-04-19 16:41:29<br/>[<b>漏洞描述</b>] Fortinet FortiMail访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-30849'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-30849</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-31169 (CVE-2023-25611)</font><br/>[<b>披露时间</b>] 2023-04-19 16:41:31<br/>[<b>漏洞描述</b>] Fortinet FortiAnalyzer命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-31169'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-31169</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-31170 (CVE-2022-41333)</font><br/>[<b>披露时间</b>] 2023-04-19 16:41:34<br/>[<b>漏洞描述</b>] Fortinet FortiRecorder资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-31170'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-31170</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-31171 (CVE-2023-25605)</font><br/>[<b>披露时间</b>] 2023-04-19 16:41:36<br/>[<b>漏洞描述</b>] Fortinet FortiSOAR访问控制错误漏洞（ CNVD-2023-31171）<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-31171'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-31171</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
