@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-27 05:38:20 -->
+<!-- RELEASE TIME : 2023-04-27 06:39:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">be04b0ce353e55ee5253556dc9568af8</td>
+       <td>CVE-2023-31287</td>
+       <td>2023-04-27 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. Password reset links are sent by email. A link contains a token that is used to reset the password. This token remains valid even after the password reset and can be used a second time to change the password of the corresponding user. The token expires only 3 hours after issuance and is sent as a query parameter when resetting. An attacker with access to the browser history can thus use the token again to change the password in order to take over the account.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31287">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">97dc449774e007465cc1d54964e77819</td>
+       <td>CVE-2023-31286</td>
+       <td>2023-04-27 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. When a password reset request occurs, the server response leaks the existence of users. If one tries to reset a password of a non-existent user, an error message indicates that this user does not exist.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31286">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">87827021bd0e66a7bfbb411d99c7c628</td>
+       <td>CVE-2023-31285</td>
+       <td>2023-04-27 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>An XSS issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. When users upload temporary files, some specific file endings are not allowed, but it is possible to upload .html or .htm files containing an XSS payload. The resulting link can be sent to an administrator user.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31285">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e442b47d22d8b324f70da66dd0a90d74</td>
+       <td>CVE-2023-28697</td>
+       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Moxa MiiNePort E1 has a vulnerability of insufficient access control. An unauthenticated remote user can exploit this vulnerability to perform arbitrary system operation or disrupt service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28697">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">025666f98465d1abc49a068c2019622e</td>
+       <td>CVE-2023-24836</td>
+       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>SUNNET CTMS has vulnerability of path traversal within its file uploading function. An authenticated remote attacker with general user privilege can exploit this vulnerability to upload and execute scripts onto arbitrary directories to perform arbitrary system operation or disrupt service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24836">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">538a65607fe12a0f55bf021efa3eab56</td>
+       <td>CVE-2023-22901</td>
+       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>ChangingTec MOTP system has a path traversal vulnerability. A remote attacker with administrator’s privilege can exploit this vulnerability to access arbitrary system files.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22901">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a55d6b8123e2756d2c12e8c47879e7dd</td>
+       <td>CVE-2023-20853</td>
+       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>aEnrich Technology a+HRD has a vulnerability of Deserialization of Untrusted Data within its MSMQ asynchronized message process. An unauthenticated remote attacker can exploit this vulnerability to execute arbitrary system commands to perform arbitrary system operation or disrupt service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20853">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3fe42f5d7f186b06ed29bc9c754e61ee</td>
+       <td>CVE-2023-20852</td>
+       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>aEnrich Technology a+HRD has a vulnerability of Deserialization of Untrusted Data within its MSMQ interpreter. An unauthenticated remote attacker can exploit this vulnerability to execute arbitrary system commands to perform arbitrary system operation or disrupt service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20852">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">13f47e8c4c42a005896be71a4c625d4c</td>
+       <td>CVE-2022-47758</td>
+       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nanoleaf firmware v7.1.1 and below is missing an SSL certificate, allowing attackers to execute arbitrary code via a DHCP hijacking attack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47758">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2619550020742db3f50d7770c7bc79c7</td>
+       <td>CVE-2023-26246</td>
+       <td>2023-04-27 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Hyundai Gen5W_L in-vehicle infotainment system AE_E_PE_EUR.S5W_L001.001.211214. The AppUpgrade binary file, which is used during the firmware installation process, can be modified by an attacker to bypass the digital signature check. This indirectly allows an attacker to install custom firmware in the IVI system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26246">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">00daa3bd58efd8677f72f832613c3d4d</td>
        <td>CVE-2023-1786</td>
        <td>2023-04-26 23:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-04-26 19:15:00 <img src="imgs/new.gif" /></td>
        <td>Buffer Overflow vulnerability found in XPDF v.4.04 allows an attacker to cause a Denial of Service via SharedFile::readBlock at /xpdf/Stream.cc.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26935">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6f642f62b189561eea0282c8cc33223d</td>
-       <td>CVE-2023-26934</td>
-       <td>2023-04-26 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue found in XPDF v.4.04 allows an attacker to cause a denial of service via a crafted pdf file in the object.cc parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26934">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d317262b75683d9260d6a5109ee134a3</td>
-       <td>CVE-2023-26931</td>
-       <td>2023-04-26 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Buffer Overflow vulnerability found in XPDF v.4.04 allows an attacker to cause a Denial of Service via the TextOutputDev.cc function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26931">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7cd184bfeeaf00f82f0eade3bec9f076</td>
-       <td>CVE-2023-26930</td>
-       <td>2023-04-26 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Buffer Overflow vulnerability found in XPDF v.4.04 allows an attacker to cause a Denial of Service via the PDFDoc malloc in the pdftotext.cc function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26930">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9c1fbb9a89efbc1f898ee701f3effafb</td>
-       <td>CVE-2023-30212</td>
-       <td>2023-04-26 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>OURPHP <= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30212">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bdc860c8ab094cf6383e7243c44f24d5</td>
-       <td>CVE-2023-2307</td>
-       <td>2023-04-26 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) in GitHub repository builderio/qwik prior to 0.104.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2307">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3d6a448e2fc8593f7b1706e4ceb3d498</td>
-       <td>CVE-2023-30211</td>
-       <td>2023-04-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>OURPHP <= 7.2.0 is vulnerable to SQL Injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30211">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">46facad571443e9aa0143ed5024eeaec</td>
-       <td>CVE-2023-30210</td>
-       <td>2023-04-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>OURPHP <= 7.2.0 is vulnerable to Cross Site Scripting (XSS) via ourphp_tz.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30210">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">432d2bd42afc83bf3cbbd9009dbe86b5</td>
-       <td>CVE-2022-27979</td>
-       <td>2023-04-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site scripting (XSS) vulnerability in ToolJet v1.6.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Comment Body component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27979">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">faba853e4d25587b05b519c849918dec</td>
-       <td>CVE-2022-27978</td>
-       <td>2023-04-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tooljet v1.6 does not properly handle missing values in the API, allowing attackers to arbitrarily reset passwords via a crafted HTTP request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27978">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7cfade091886bbcbde170fcb46745588</td>
-       <td>CVE-2023-22729</td>
-       <td>2023-04-26 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Silverstripe Framework is the Model-View-Controller framework that powers the Silverstripe content management system. Prior to version 4.12.15, an attacker can display a link to a third party website on a login screen by convincing a legitimate content author to follow a specially crafted link. Users should upgrade to Silverstripe Framework 4.12.15 or above to address the issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22729">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">34ef43a767ce5af2948660376c1e585d</td>
+       <td>CNVD-2023-32184 (CVE-2022-3748)</td>
+       <td>2023-04-27 06:39:40 <img src="imgs/new.gif" /></td>
+       <td>ForgeRock Access Management访问控制错误漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-32184">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">afd48f63adcfc7abf078552264f1e914</td>
+       <td>CNVD-2023-32183 (CVE-2020-24736)</td>
+       <td>2023-04-27 06:39:38 <img src="imgs/new.gif" /></td>
+       <td>SQLite缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-32183">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">611e2a44e375ab7b2361860c0d0bfee2</td>
+       <td>CNVD-2023-32182 (CVE-2023-26554)</td>
+       <td>2023-04-27 06:39:36 <img src="imgs/new.gif" /></td>
+       <td>NTP缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-32182">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">47dc8b4f96af65ef1c64d03c548ee387</td>
+       <td>CNVD-2023-32181 (CVE-2022-48437)</td>
+       <td>2023-04-27 06:39:33 <img src="imgs/new.gif" /></td>
+       <td>OpenBSD信任管理问题漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-32181">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6554dc0a900b2dd8b2e46ec15727a997</td>
+       <td>CNVD-2023-32180 (CVE-2023-2246)</td>
+       <td>2023-04-27 06:39:31 <img src="imgs/new.gif" /></td>
+       <td>Online Pizza Ordering System任意文件上传漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-32180">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0f4dbff6c7d81d99628db992d83e7a75</td>
        <td>CNVD-2023-32178 (CVE-2023-24819)</td>
        <td>2023-04-27 03:37:26 <img src="imgs/new.gif" /></td>
@@ -1015,46 +1055,6 @@
        <td>2023-04-23 10:37:33</td>
        <td>Adobe Dimension越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-29807">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">509a712fe5eec2338cf2140891f775ba</td>
-       <td>CNVD-2023-29808 (CVE-2023-26401)</td>
-       <td>2023-04-23 10:37:31</td>
-       <td>Adobe Dimension越界读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-29808">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ebfa49443baff5044300558910628fe8</td>
-       <td>CNVD-2023-29809 (CVE-2023-26382)</td>
-       <td>2023-04-23 10:37:26</td>
-       <td>Adobe Dimension越界读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-29809">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a88aa80ff9d641cfe64e15b2203a7d77</td>
-       <td>CNVD-2023-29368 (CVE-2023-26847)</td>
-       <td>2023-04-20 16:41:32</td>
-       <td>OpenCATS跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-29368">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">384e0c26907f72bbaa4a43835475b85f</td>
-       <td>CNVD-2023-31161 (CVE-2023-1538)</td>
-       <td>2023-04-20 16:41:08</td>
-       <td>answer用户枚举漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-31161">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3fb059c6635144fb99cd41ada8230486</td>
-       <td>CNVD-2023-31160 (CVE-2023-1543)</td>
-       <td>2023-04-20 16:41:06</td>
-       <td>answer访问控制错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-31160">详情</a></td>
       </tr>
 
      </tbody>
