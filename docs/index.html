@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-27 18:38:00 -->
+<!-- RELEASE TIME : 2023-04-27 19:37:40 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b52fe1ac3c177d45119e17b27d4e4d21</td>
+       <td>CVE-2023-30852</td>
+       <td>2023-04-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, the `/admin/misc/script-proxy` API endpoint that is accessible by an authenticated administrator user is vulnerable to arbitrary JavaScript and CSS file read via the `scriptPath` and `scripts` parameters. The `scriptPath` parameter is not sanitized properly and is vulnerable to path traversal attack. Any JavaScript/CSS file from the application server can be read by specifying sufficient number of `../` patterns to go out from the application webroot followed by path of the folder where the file is located in the "scriptPath" parameter and the file name in the "scripts" parameter. The JavaScript file is successfully read only if the web application has read access to it. Users should update to version 10.5.21 to receive a patch or, as a workaround, apply the patch manual.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30852">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d79c8da680517dce9b7431156feec76d</td>
+       <td>CVE-2023-30850</td>
+       <td>2023-04-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, a SQL Injection vulnerability exists in the admin translations API. Users should update to version 10.5.21 to receive a patch or, as a workaround, or apply the patch manually.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">396c24ca48ce33f462f92c5250b1ddb3</td>
+       <td>CVE-2023-30624</td>
+       <td>2023-04-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Wasmtime is a standalone runtime for WebAssembly. Prior to versions 6.0.2, 7.0.1, and 8.0.1, Wasmtime's implementation of managing per-instance state, such as tables and memories, contains LLVM-level undefined behavior. This undefined behavior was found to cause runtime-level issues when compiled with LLVM 16 which causes some writes, which are critical for correctness, to be optimized away. Vulnerable versions of Wasmtime compiled with Rust 1.70, which is currently in beta, or later are known to have incorrectly compiled functions. Versions of Wasmtime compiled with the current Rust stable release, 1.69, and prior are not known at this time to have any issues, but can theoretically exhibit potential issues.The underlying problem is that Wasmtime's runtime state for an instance involves a Rust-defined structure called `Instance` which has a trailing `VMContext` structure after it. This `VMContext` structure has a runtime-defined layout that is unique per-module. This representation cannot be expressed with safe code in Rust so `unsafe` code is required to maintain this state. The code doing this, however, has methods which take `&self` as an argument but modify data in the `VMContext` part of the allocation. This means that pointers derived from `&self` are mutated. This is typically not allowed, except in the presence of `UnsafeCell`, in Rust. When compiled to LLVM these functions have `noalias readonly` parameters which means it's UB to write through the pointers.Wasmtime's internal representation and management of `VMContext` has been updated to use `&mut self` methods where appropriate. Additionally verification tools for `unsafe` code in Rust, such as `cargo miri`, are planned to be executed on the `main` branch soon to fix any Rust-level issues that may be exploited in future compiler versions.Precomplied binaries available for Wasmtime from GitHub releases have been compiled with at most LLVM 15 so are not known to be vulnerable. As mentioned above, however, it's still recommended to update.Wasmtime version 6.0.2, 7.0.1, and 8.0.1 have been issued which contain the patch necessary to work correctly on LLVM 16 and have no known UB on LLVM 15 and earlier. If Wasmtime is compiled with Rust 1.69 and prior, which use LLVM 15, then there are no known issues. There is a theoretical possibility for undefined behavior to exploited, however, so it's recommended that users upgrade to a patched version of Wasmtime. Users using beta Rust (1.70 at this time) or nightly Rust (1.71 at this time) must update to a patched version to work correctly.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30624">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3966780023ed3a8a8095b663eab93e18</td>
+       <td>CVE-2023-30849</td>
+       <td>2023-04-27 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, A SQL injection vulnerability exists in the translation export API. Users should update to version 10.5.21 to receive a patch or, as a workaround, or apply the patch manually.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30849">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">589606da65a7e66952920f055b7b6a5a</td>
+       <td>CVE-2023-30848</td>
+       <td>2023-04-27 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, the admin search find API has a SQL injection vulnerability. Users should upgrade to version 10.5.21 to receive a patch or, as a workaround, apply the patch manually.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30848">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec18736d2af7dfbd7d1f0dadc7b7b103</td>
+       <td>CVE-2023-2350</td>
+       <td>2023-04-27 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic was found in SourceCodester Service Provider Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /classes/Users.php. The manipulation of the argument id leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227593 was assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2350">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32fae4fe5c6af8bdac42e988a81e2f21</td>
+       <td>CVE-2023-2349</td>
+       <td>2023-04-27 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic has been found in SourceCodester Service Provider Management System 1.0. Affected is an unknown function of the file /admin/index.php. The manipulation of the argument page leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227592.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2349">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">340563916d0be95917692e84c28f8e88</td>
        <td>CVE-2023-30847</td>
        <td>2023-04-27 15:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-04-27 09:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 10.5.21.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2323">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f9261eb7c36f508e60569699a740e9f4</td>
-       <td>CVE-2023-2322</td>
-       <td>2023-04-27 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 10.5.21.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2322">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">63825153eee6ad3b0ca0286a54ecb025</td>
-       <td>CVE-2023-31290</td>
-       <td>2023-04-27 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31290">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">be04b0ce353e55ee5253556dc9568af8</td>
-       <td>CVE-2023-31287</td>
-       <td>2023-04-27 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. Password reset links are sent by email. A link contains a token that is used to reset the password. This token remains valid even after the password reset and can be used a second time to change the password of the corresponding user. The token expires only 3 hours after issuance and is sent as a query parameter when resetting. An attacker with access to the browser history can thus use the token again to change the password in order to take over the account.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31287">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">97dc449774e007465cc1d54964e77819</td>
-       <td>CVE-2023-31286</td>
-       <td>2023-04-27 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. When a password reset request occurs, the server response leaks the existence of users. If one tries to reset a password of a non-existent user, an error message indicates that this user does not exist.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31286">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87827021bd0e66a7bfbb411d99c7c628</td>
-       <td>CVE-2023-31285</td>
-       <td>2023-04-27 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>An XSS issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. When users upload temporary files, some specific file endings are not allowed, but it is possible to upload .html or .htm files containing an XSS payload. The resulting link can be sent to an administrator user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31285">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e442b47d22d8b324f70da66dd0a90d74</td>
-       <td>CVE-2023-28697</td>
-       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Moxa MiiNePort E1 has a vulnerability of insufficient access control. An unauthenticated remote user can exploit this vulnerability to perform arbitrary system operation or disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28697">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">025666f98465d1abc49a068c2019622e</td>
-       <td>CVE-2023-24836</td>
-       <td>2023-04-27 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>SUNNET CTMS has vulnerability of path traversal within its file uploading function. An authenticated remote attacker with general user privilege can exploit this vulnerability to upload and execute scripts onto arbitrary directories to perform arbitrary system operation or disrupt service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24836">详情</a></td>
       </tr>
 
      </tbody>
