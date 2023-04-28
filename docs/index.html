@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-28 18:38:13 -->
+<!-- RELEASE TIME : 2023-04-28 20:38:00 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1543aeb4d72d4bb3543a437ba6ed853f</td>
+       <td>CVE-2023-30454</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in ebankIT before 7. Document Object Model based XSS exists within the /Security/Transactions/Transactions.aspx endpoint. Users can supply their own JavaScript within the ctl100$ctl00MainContent$TransactionMainContent$accControl$hdnAccountsArray POST parameter that will be passed to an eval() function and executed upon pressing the continue button.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30454">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3f7dae9c5674f80ddaf040c3c12abe9f</td>
+       <td>CVE-2023-26022</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server may crash when an Out of Memory occurs using the DBMS_OUTPUT module.  IBM X-Force ID:  247868.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26022">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7de76cee031770ce19d30d2cd81e50a6</td>
+       <td>CVE-2023-26021</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 11.1 and 11.5 is vulnerable to a denial of service as the server may crash when compiling a specially crafted SQL query using a LIMIT clause.  IBM X-Force ID:  247864.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26021">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">57571a12e922954f2350098b852e1a8c</td>
+       <td>CVE-2023-2387</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic was found in Netgear SRX5308 up to 4.3.5-3. Affected by this vulnerability is an unknown functionality of the file scgi-bin/platform.cgi?page=dmz_setup.htm of the component Web Management Interface. The manipulation of the argument winsServer1 leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227665 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2387">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">15ece651c61939859883099775a64fc6</td>
+       <td>CVE-2023-2386</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic has been found in Netgear SRX5308 up to 4.3.5-3. Affected is an unknown function of the file scgi-bin/platform.cgi?page=firewall_logs_email.htm of the component Web Management Interface. The manipulation of the argument smtpServer.toAddr leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227664. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2386">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9f9703ac494703b6e959e7ad93357e1</td>
+       <td>CVE-2023-1968</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Instruments with Illumina Universal Copy Service v2.x are vulnerable due to binding to an unrestricted IP address. An unauthenticated malicious actor could use UCS to listen on all IP addresses, including those capable of accepting remote communications.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1968">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">825f95a76b058578c92d6d7cf06374c5</td>
+       <td>CVE-2023-1966</td>
+       <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Instruments with Illumina Universal Copy Service v1.x andv2.x contain an unnecessary privileges vulnerability. An unauthenticatedmalicious actor could upload and execute code remotely at the operating systemlevel, which could allow an attacker to change settings, configurations,software, or access sensitive data on the affected product.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1966">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9c6f42adc06a2b804c7201044bd9f45</td>
+       <td>CVE-2023-30455</td>
+       <td>2023-04-28 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in ebankIT before 7. A Denial-of-Service attack is possible through the GET parameter EStatementsIds located on the /Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx endpoint. The GET parameter accepts over 100 comma-separated e-statement IDs without throwing an error. When this many IDs are supplied, the server takes around 60 seconds to respond and successfully generate the expected ZIP archive (during this time period, no other pages load). A threat actor could issue a request to this endpoint with 100+ statement IDs every 30 seconds, potentially resulting in an overload of the server for all users.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30455">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">748547f5798ad452d4540db6e89915df</td>
+       <td>CVE-2023-29334</td>
+       <td>2023-04-28 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Spoofing Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29334">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6c88352317778bcacd0f383d1b723afd</td>
+       <td>CVE-2023-27864</td>
+       <td>2023-04-28 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Maximo Asset Management 7.6.1.2 and 7.6.1.3 is vulnerable to HTML injection. A remote attacker could inject malicious HTML code, which when viewed, would be executed in the victim's Web browser within the security context of the hosting site.  IBM X-Force ID:  249327.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27864">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">576da45f8666df63693bab4659a8d41e</td>
        <td>CVE-2023-27973</td>
        <td>2023-04-28 17:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-04-28 14:15:00 <img src="imgs/new.gif" /></td>
        <td>Concrete CMS (previously concrete5) before 9.1 is vulnerable to stored XSS in RSS Displayer via the href attribute because the link element input was not sanitized.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28820">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">88d6812df395142bb98bf7833d02f419</td>
-       <td>CVE-2023-30024</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Insecure Permissions vulnerability found in MagicJack A921 USB Phone Jack Rev 3.0 v.1.4 allows a physically proximate attacker to escalate privileges and gain access to sensitive information via the NAND flash memory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30024">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">09732e349f62d56b3e72a4a81a754cbc</td>
-       <td>CVE-2023-2369</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester Faculty Evaluation System 1.0. It has been rated as critical. This issue affects some unknown processing of the file admin/manage_restriction.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227645 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2369">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e52ca78cf37f85c067a5fc41b41bb3a</td>
-       <td>CVE-2023-2368</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester Faculty Evaluation System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file index.php?page=manage_questionnaire. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227644.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2368">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a2ebaa44833b5fe7a72dc0dd0471275f</td>
-       <td>CVE-2023-2367</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester Faculty Evaluation System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/manage_academic.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227643.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2367">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f604ea5b4eaafd266f867e9ec17c167a</td>
-       <td>CVE-2022-41400</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Sage 300 through 2022 uses a hard-coded 40-byte blowfish key to encrypt and decrypt user passwords and SQL connection strings stored in ISAM database files in the shared data directory. This issue could allow attackers to decrypt user passwords and SQL connection strings.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41400">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6119d40dbb8949c4ac695de1f5ea72af</td>
-       <td>CVE-2022-41399</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The optional Web Screens feature for Sage 300 through version 2022 uses a hard-coded 40-byte blowfish key ("PASS_KEY") to encrypt and decrypt the database connection string for the PORTAL database found in the "dbconfig.xml". This issue could allow attackers to obtain access to the SQL database.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41399">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3aa02de8c2df7beb07a1c23bd263d242</td>
-       <td>CVE-2022-41398</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The optional Global Search feature for Sage 300 through version 2022 uses a set of hard-coded credentials for the accompanying Apache Solr instance. This issue could allow attackers to login to the Solr dashboard with admin privileges and access sensitive information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41398">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e130535db558ffb74ce1cbd867c9ed3</td>
-       <td>CVE-2022-41397</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>The optional Web Screens and Global Search features for Sage 300 through version 2022 use a hard-coded 40-byte blowfish key ("LandlordPassKey") to encrypt and decrypt secrets stored in configuration files and in database tables.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41397">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">52b54bfe15a4f1fd2247de3d9a89ab34</td>
-       <td>CVE-2022-38583</td>
-       <td>2023-04-28 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>On versions of Sage 300 2017 - 2022 (6.4.x - 6.9.x) which are setup in a "Windows Peer-to-Peer Network" or "Client Server Network" configuration, a low-privileged Sage 300 workstation user could abuse their access to the "SharedData" folder on the connected Sage 300 server to view and/or modify the credentials associated with Sage 300 users and SQL accounts to impersonate users and/or access the SQL database as a system administrator. With system administrator-level access to the Sage 300 MS SQL database it would be possible to create, update, and delete all records associated with the program and, depending on the configuration, execute code on the underlying database server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38583">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">275448697b924f20325740f7b97c107e</td>
-       <td>CVE-2023-2366</td>
-       <td>2023-04-28 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester Faculty Evaluation System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file ajax.php?action=delete_class. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-227642 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2366">详情</a></td>
       </tr>
 
      </tbody>
