@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-28 20:38:00 -->
+<!-- RELEASE TIME : 2023-04-28 23:38:22 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">40562df33c95a22fa9c3038978d276ba</td>
+       <td>CVE-2023-31470</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>SmartDNS through 41 before 56d0332 allows an out-of-bounds write because of a stack-based buffer overflow in the _dns_encode_domain function in the dns.c file, via a crafted DNS request.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31470">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb3d1dc77661c38ed70946005d5a8b15</td>
+       <td>CVE-2023-31444</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Talend Studio before 7.3.1-R2022-10 and 8.x before 8.0.1-R2022-09, microservices allow unauthenticated access to the Jolokia endpoint of the microservice. This allows for remote access to the JVM via the Jolokia JMX-HTTP bridge.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31444">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9e277409a6d21b6e1ab0a649b441f7f9</td>
+       <td>CVE-2023-30858</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Denosaurs emoji package provides emojis for dinosaurs. Starting in version 0.1.0 and prior to version 0.3.0, the reTrimSpace regex has 2nd degree polynomial inefficiency, leading to a delayed response given a big payload. The issue has been patched in 0.3.0. As a workaround, avoid using the `replace`, `unemojify`, or `strip` functions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30858">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e5bb182b0a4544c92ea2e52d8a33355</td>
+       <td>CVE-2023-30857</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>@aedart/support is the support package for Ion, a monorepo for JavaScript/TypeScript packages. Prior to version `0.6.1`, there is a possible prototype pollution issue for the `MetadataRecord`, when merged with a base class' metadata object, in `meta` decorator from the `@aedart/support` package. The likelihood of exploitation is questionable, given that a class's metadata can only be set or altered when the class is decorated via `meta()`. Furthermore, object(s) of sensitive nature would have to be stored as metadata, before this can lead to a security impact. The issue has been patched in version `0.6.1`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30857">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a8a2d1ecaa5221286a6103f8f17b376</td>
+       <td>CVE-2023-30405</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site scripting (XSS) vulnerability in Aigital Wireless-N Repeater Mini_Router v0.131229 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the wl_ssid parameter at /boafrm/formHomeWlanSetup.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30405">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32467edf4c48ea7abafa89315e436b49</td>
+       <td>CVE-2023-29058</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A valid, authenticated XCC user with read-only permissions can modify custom user roles on other user accounts and the user trespass message through the XCC CLI. There is no exposure if SSH is disabled or if there are no users assigned optional read-only permissions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29058">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6d9887b8ec8e0d7895bf49699e44950a</td>
+       <td>CVE-2023-29057</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A valid XCC user's local account permissions overrides their active directory permissions under specific configurations. This could lead to a privilege escalation. To be vulnerable, LDAP must be configured for authentication/authorization and logins configured as “Local First, then LDAP”.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29057">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">970bbaacb97f44ec2059927d881eccb5</td>
+       <td>CVE-2023-2394</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in Netgear SRX5308 up to 4.3.5-3. It has been rated as problematic. Affected by this issue is some unknown functionality of the component Web Management Interface. The manipulation of the argument wanName leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227672. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2394">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ea4939865db6cbf25580a0b82742ba18</td>
+       <td>CVE-2023-2393</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in Netgear SRX5308 up to 4.3.5-3. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file scgi-bin/platform.cgi?page=dmz_setup.htm of the component Web Management Interface. The manipulation of the argument ConfigPort.LogicalIfName leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227671. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2393">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3acfa7c209b6577d8e47a32d66d02e03</td>
+       <td>CVE-2023-2392</td>
+       <td>2023-04-28 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in Netgear SRX5308 up to 4.3.5-3. It has been classified as problematic. Affected is an unknown function of the file scgi-bin/platform.cgi?page=time_zone.htm of the component Web Management Interface. The manipulation of the argument ManualDate.minutes leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-227670 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2392">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1543aeb4d72d4bb3543a437ba6ed853f</td>
        <td>CVE-2023-30454</td>
        <td>2023-04-28 19:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-04-28 16:15:00 <img src="imgs/new.gif" /></td>
        <td>Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Remote Code Execution.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27972">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">54ff48c1d15ca0448906b552ad0d35d5</td>
-       <td>CVE-2023-29815</td>
-       <td>2023-04-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>mccms v2.6.3 is vulnerable to Cross Site Request Forgery (CSRF).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29815">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b64456f01492065414c863672d807c8</td>
-       <td>CVE-2023-2375</td>
-       <td>2023-04-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6 and classified as critical. This issue affects some unknown processing of the component Web Management Interface. The manipulation of the argument src leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227651.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2375">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">efa54588ecdfb058ab57caba54c0f537</td>
-       <td>CVE-2023-2374</td>
-       <td>2023-04-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6 and classified as critical. This vulnerability affects unknown code of the component Web Management Interface. The manipulation of the argument ecn-down leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-227650 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2374">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e719f9edef5a62bcac423e8dce9e256b</td>
-       <td>CVE-2023-1477</td>
-       <td>2023-04-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Authentication vulnerability in HYPR Keycloak Authenticator Extension allows Authentication Abuse.This issue affects HYPR Keycloak Authenticator Extension: before 7.10.2, before 8.0.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1477">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4338fa67303c23c47ea62a8b4b742f75</td>
-       <td>CVE-2023-0834</td>
-       <td>2023-04-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Incorrect Permission Assignment for Critical Resource vulnerability in HYPR Workforce Access on MacOS allows Privilege Escalation.This issue affects Workforce Access: from 6.12 before 8.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0834">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">92eb8cb1dbb24b32d08448179eff7280</td>
-       <td>CVE-2023-30183</td>
-       <td>2023-04-28 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Wangmarket CMS v4.10 was discovered to contain a SQL injection vulnerability via the component /plugin/dataDictionary/tableView.do?tableName=.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30183">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c7f1727c8414c42d90ea3a4ee2685afc</td>
-       <td>CVE-2023-30125</td>
-       <td>2023-04-28 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>EyouCms V1.6.1-UTF8-sp1 is vulnerable to Cross Site Scripting (XSS).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30125">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b14140dc9b405712970434f87af5df32</td>
-       <td>CVE-2023-30123</td>
-       <td>2023-04-28 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>wuzhicms v4.1.0 is vulnerable to Cross Site Scripting (XSS) in the Member Center, Account Settings.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30123">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">59cfe3941ae6ccac1e6f4e1bb76d1060</td>
-       <td>CVE-2023-28821</td>
-       <td>2023-04-28 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Concrete CMS (previously concrete5) before 9.1 did not have a rate limit for password resets.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28821">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">88f2171c033613a2f96951ba702599c6</td>
-       <td>CVE-2023-28820</td>
-       <td>2023-04-28 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Concrete CMS (previously concrete5) before 9.1 is vulnerable to stored XSS in RSS Displayer via the href attribute because the link element input was not sanitized.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28820">详情</a></td>
       </tr>
 
      </tbody>
