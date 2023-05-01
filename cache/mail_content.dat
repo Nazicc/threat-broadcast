@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30797</font><br/>[<b>披露时间</b>] 2023-04-19 20:15:12 <br/>[<b>漏洞描述</b>] Netflix Lemur before version 1.3.2 used insufficiently random values when generating default credentials. The insufficiently random values may allow an attacker to guess the credentials and gain access to resources managed by Lemur.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30797'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30797</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30616</font><br/>[<b>披露时间</b>] 2023-04-20 18:15:07 <br/>[<b>漏洞描述</b>] Form block is a wordpress plugin designed to make form creation easier. Versions prior to 1.0.2 are subject to a Cross-Site Request Forgery due to a missing nonce check. There is potential for a Cross Site Request Forgery for all form blocks, since it allows to send requests to the forms from any website without a user noticing. Users are advised to upgrade to version 1.0.2. There are no known workarounds for this vulnerability.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30616'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30616</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2197</font><br/>[<b>披露时间</b>] 2023-05-01 20:15:00<br/>[<b>漏洞描述</b>] HashiCorp Vault Enterprise 1.13.0 up to 1.13.1 is vulnerable to a padding oracle attack when using an HSM in conjunction with the CKM_AES_CBC_PAD or CKM_AES_CBC encryption mechanisms. An attacker with privileges to modify storage and restart Vault may be able to intercept or modify cipher text in order to derive Vault’s root key. Fixed in 1.13.2<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2197'>https://www.tenable.com/cve/CVE-2023-2197</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-35898</font><br/>[<b>披露时间</b>] 2023-05-01 20:15:00<br/>[<b>漏洞描述</b>] OpenText BizManager before 16.6.0.1 does not perform proper validation during the change-password operation. This allows any authenticated user to change the password of any other user, including the Administrator account.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-35898'>https://www.tenable.com/cve/CVE-2022-35898</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
