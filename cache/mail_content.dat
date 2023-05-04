@@ -1,12 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4259</font><br/>[<b>披露时间</b>] 2023-05-04 11:15:00<br/>[<b>漏洞描述</b>] Due to improper input validation in the Alerts controller, a SQL injection vulnerability in Nozomi Networks Guardian and CMC allows an authenticated attacker to execute arbitrary SQL queries on the DBMS used by the web application.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-4259'>https://www.tenable.com/cve/CVE-2022-4259</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2017-20184</font><br/>[<b>披露时间</b>] 2023-05-04 10:15:00<br/>[<b>漏洞描述</b>] Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Carlo Gavazzi Powersoft up to version 2.1.1.1 allows an unauthenticated, remote attacker to download any file from the affected device.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2017-20184'>https://www.tenable.com/cve/CVE-2017-20184</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26876</font><br/>[<b>披露时间</b>] 2023-05-04 20:30:31<br/>[<b>漏洞描述</b>] PIWIGO PIWIGO Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=98189a2484074dff84a16b4e229e417a'>https://redqueen.tj-un.com/IntelDetails.html?id=98189a2484074dff84a16b4e229e417a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20864</font><br/>[<b>披露时间</b>] 2023-05-04 20:30:23<br/>[<b>漏洞描述</b>] VMWARE Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2dddeaf41aba4c1695e96435fe0a4c96'>https://redqueen.tj-un.com/IntelDetails.html?id=2dddeaf41aba4c1695e96435fe0a4c96</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20865</font><br/>[<b>披露时间</b>] 2023-05-04 20:30:16<br/>[<b>漏洞描述</b>] VMWARE Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d809524669b445ceae62280164e1a52e'>https://redqueen.tj-un.com/IntelDetails.html?id=d809524669b445ceae62280164e1a52e</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
