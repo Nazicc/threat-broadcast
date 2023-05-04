@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32820 (CVE-2022-4022)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:25<br/>[<b>漏洞描述</b>] WordPress SVG Support跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32820'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32820</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32821 (CVE-2022-2450)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:27<br/>[<b>漏洞描述</b>] WordPress reSmush.it Image Optimizer授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32821'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32821</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32822 (CVE-2022-43481)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:30<br/>[<b>漏洞描述</b>] WordPress Coupons for WooCommerce Coupons跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32822'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32822</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32823 (CVE-2022-44741)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:32<br/>[<b>漏洞描述</b>] WordPress David Anderson Testimonial Slider跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32823'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32823</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32825 (CVE-2022-3246)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:34<br/>[<b>漏洞描述</b>] WordPress Blog2Social SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32825'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32825</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32826 (CVE-2022-3247)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:37<br/>[<b>漏洞描述</b>] WordPress Blog2Social服务端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32826'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32826</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32827 (CVE-2022-3393)</font><br/>[<b>披露时间</b>] 2023-05-04 04:37:39<br/>[<b>漏洞描述</b>] WordPress Post to CSV by BestWebSoft CSV注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32827'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32827</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32824 (CVE-2022-42494)</font><br/>[<b>披露时间</b>] 2023-05-04 05:37:27<br/>[<b>漏洞描述</b>] WordPress All in One SEO Pro服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32824'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32824</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
