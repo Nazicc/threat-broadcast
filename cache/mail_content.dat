@@ -1,12 +1,30 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32007</font><br/>[<b>披露时间</b>] 2023-05-02 02:43:08<br/>[<b>漏洞描述</b>] Apache Spark UI shell 命令注入漏洞（CVE-2023-32007）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-32007'>https://avd.aliyun.com/detail?id=AVD-2023-32007</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31414</font><br/>[<b>披露时间</b>] 2023-05-02 03:37:28<br/>[<b>漏洞描述</b>] Elastic Kibana 任意代码执行漏洞（CVE-2023-31414）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-31414'>https://avd.aliyun.com/detail?id=AVD-2023-31414</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31415</font><br/>[<b>披露时间</b>] 2023-05-02 03:37:28<br/>[<b>漏洞描述</b>] Elastic Kibana 任意代码执行漏洞（CVE-2023-31415）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-31415'>https://avd.aliyun.com/detail?id=AVD-2023-31415</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27224</font><br/>[<b>披露时间</b>] 2023-05-05 03:38:03<br/>[<b>漏洞描述</b>] NginxProxyManager命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78505'>http://www.nsfocus.net/vulndb/78505</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38452</font><br/>[<b>披露时间</b>] 2023-05-05 03:38:03<br/>[<b>漏洞描述</b>] NETGEAR Orbi Router RBR750任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/77041'>http://www.nsfocus.net/vulndb/77041</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4095</font><br/>[<b>披露时间</b>] 2023-05-05 03:38:03<br/>[<b>漏洞描述</b>] Linux Kernel内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76861'>http://www.nsfocus.net/vulndb/76861</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22254</font><br/>[<b>披露时间</b>] 2023-05-05 03:38:03<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76790'>http://www.nsfocus.net/vulndb/76790</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1556</font><br/>[<b>披露时间</b>] 2023-05-05 03:38:03<br/>[<b>漏洞描述</b>] Judging Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76784'>http://www.nsfocus.net/vulndb/76784</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25590</font><br/>[<b>披露时间</b>] 2023-05-05 03:38:03<br/>[<b>漏洞描述</b>] Aruba Networks ClearPass OnGuard Linux权限管理错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/76775'>http://www.nsfocus.net/vulndb/76775</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1121</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] WordPress Simple Giveaways Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78752'>http://www.nsfocus.net/vulndb/78752</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1122</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] WordPress Simple Giveaways Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78751'>http://www.nsfocus.net/vulndb/78751</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1942</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] Online Computer and Laptop Store任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78750'>http://www.nsfocus.net/vulndb/78750</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0862</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] NetModule NSRW路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78749'>http://www.nsfocus.net/vulndb/78749</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1941</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] Simple and Beautiful Shopping Cart System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78748'>http://www.nsfocus.net/vulndb/78748</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45546</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] ScreenCheck BadgeMaker敏感信息明文存储漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78747'>http://www.nsfocus.net/vulndb/78747</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1940</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] Simple and Beautiful Shopping Cart System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78746'>http://www.nsfocus.net/vulndb/78746</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45543</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] DiscuzX跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78745'>http://www.nsfocus.net/vulndb/78745</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1120</font><br/>[<b>披露时间</b>] 2023-05-04 03:38:03<br/>[<b>漏洞描述</b>] WordPress Simple Giveaways Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/78744'>http://www.nsfocus.net/vulndb/78744</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
