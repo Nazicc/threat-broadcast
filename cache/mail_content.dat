@@ -1,16 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32829 (CVE-2022-26375)</font><br/>[<b>披露时间</b>] 2023-05-04 01:43:53<br/>[<b>漏洞描述</b>] WordPress AB Press Optimizer跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32829'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32829</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-32828 (CVE-2022-3391)</font><br/>[<b>披露时间</b>] 2023-05-04 01:43:57<br/>[<b>漏洞描述</b>] WordPress Retain Live Chat跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-32828'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-32828</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1894</font><br/>[<b>披露时间</b>] 2023-05-04 23:15:00<br/>[<b>漏洞描述</b>] A Regular Expression Denial of Service (ReDoS) issue was discovered in Puppet Server 7.9.2 certificate validation. An issue related to specifically crafted certificate names significantly slowed down server operations.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1894'>https://www.tenable.com/cve/CVE-2023-1894</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30282</font><br/>[<b>披露时间</b>] 2023-05-04 22:15:00<br/>[<b>漏洞描述</b>] PrestaShop scexportcustomers <= 3.6.1 is vulnerable to Incorrect Access Control. Due to a lack of permissions' control, a guest can access exports from the module which can lead to leak of personal information from customer table.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30282'>https://www.tenable.com/cve/CVE-2023-30282</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30093</font><br/>[<b>披露时间</b>] 2023-05-04 22:15:00<br/>[<b>漏洞描述</b>] An arbitrary file upload vulnerability in Open Networking Foundation ONOS from version 1.9.0 until 2.7.0 allows attackers to execute arbitrary code via uploading a crafted YAML file.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30093'>https://www.tenable.com/cve/CVE-2023-30093</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32007</font><br/>[<b>披露时间</b>] 2023-05-02 02:43:08<br/>[<b>漏洞描述</b>] Apache Spark UI shell 命令注入漏洞（CVE-2023-32007）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-32007'>https://avd.aliyun.com/detail?id=AVD-2023-32007</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
