@@ -1,15 +1,16 @@
 
 <h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2554</font><br/>[<b>披露时间</b>] 2023-05-05 20:15:00<br/>[<b>漏洞描述</b>] External Control of File Name or Path in GitHub repository unilogies/bumsys prior to 2.2.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2554'>https://www.tenable.com/cve/CVE-2023-2554</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2553</font><br/>[<b>披露时间</b>] 2023-05-05 20:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository unilogies/bumsys prior to 2.2.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2553'>https://www.tenable.com/cve/CVE-2023-2553</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2552</font><br/>[<b>披露时间</b>] 2023-05-05 20:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) in GitHub repository unilogies/bumsys prior to 2.1.1.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2552'>https://www.tenable.com/cve/CVE-2023-2552</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2551</font><br/>[<b>披露时间</b>] 2023-05-05 20:15:00<br/>[<b>漏洞描述</b>] PHP Remote File Inclusion in GitHub repository unilogies/bumsys prior to 2.1.1.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2551'>https://www.tenable.com/cve/CVE-2023-2551</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2550</font><br/>[<b>披露时间</b>] 2023-05-05 20:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.13.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2550'>https://www.tenable.com/cve/CVE-2023-2550</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31414,CVE-2023-31415</font><br/>[<b>披露时间</b>] 2023-05-06 09:12:57<br/>[<b>漏洞描述</b>] Kibana 代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8248'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8248</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29963</font><br/>[<b>披露时间</b>] 2023-05-05 23:15:00<br/>[<b>漏洞描述</b>] S-CMS v5.0 was discovered to contain an authenticated remote code execution (RCE) vulnerability via the component /admin/ajax.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29963'>https://www.tenable.com/cve/CVE-2023-29963</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29354</font><br/>[<b>披露时间</b>] 2023-05-05 23:15:00<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29354'>https://www.tenable.com/cve/CVE-2023-29354</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29350</font><br/>[<b>披露时间</b>] 2023-05-05 23:15:00<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29350'>https://www.tenable.com/cve/CVE-2023-29350</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30065</font><br/>[<b>披露时间</b>] 2023-05-05 22:15:00<br/>[<b>漏洞描述</b>] MitraStar GPT-2741GNAC-N2 with firmware BR_g5.9_1.11(WVK.0)b32 was discovered to contain a remote code execution (RCE) vulnerability in the ping function.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30065'>https://www.tenable.com/cve/CVE-2023-30065</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
