@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25491</font><br/>[<b>披露时间</b>] 2023-05-06 23:15:00<br/>[<b>漏洞描述</b>] Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Samuel Marshall JCH Optimize plugin <= 3.2.2 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25491'>https://www.tenable.com/cve/CVE-2023-25491</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32290</font><br/>[<b>披露时间</b>] 2023-05-07 02:15:00<br/>[<b>漏洞描述</b>] The myMail app through 14.30 for iOS sends cleartext credentials in a situation where STARTTLS is expected by a server.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32290'>https://www.tenable.com/cve/CVE-2023-32290</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31047</font><br/>[<b>披露时间</b>] 2023-05-07 02:15:00<br/>[<b>漏洞描述</b>] In Django 3.2 before 3.2.19, 4.x before 4.1.9, and 4.2 before 4.2.1, it was possible to bypass validation when using one form field to upload multiple files. This multiple upload has never been supported by forms.FileField or forms.ImageField (only the last uploaded file was validated). However, Django's "Uploading multiple files" documentation suggested otherwise.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-31047'>https://www.tenable.com/cve/CVE-2023-31047</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24400</font><br/>[<b>披露时间</b>] 2023-05-07 00:15:00<br/>[<b>漏洞描述</b>] Auth. (contributor+) Cross-Site Scripting (XSS) vulnerability in Hu-manity.Co Cookie Notice & Compliance for GDPR / CCPA plugin <= 2.4.6 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24400'>https://www.tenable.com/cve/CVE-2023-24400</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
