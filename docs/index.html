@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-08 03:38:02 -->
+<!-- RELEASE TIME : 2023-05-08 05:37:53 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b727fd18c87667dbd4d1dd13e582db87</td>
+       <td>CVE-2023-30018</td>
+       <td>2023-05-08 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Judging Management System v1.0 is vulnerable to SQL Injection. via /php-jms/review_se_result.php?mainevent_id=.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30018">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">42cf0511171fe55164ae478380c87c9a</td>
+       <td>CVE-2023-30257</td>
+       <td>2023-05-08 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>A buffer overflow in the component /proc/ftxxxx-debug of FiiO M6 Build Number v1.0.4 allows attackers to escalate privileges to root.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30257">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e28fbf3966f91371e7a257dcd33ff14e</td>
+       <td>CVE-2023-30185</td>
+       <td>2023-05-08 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>CRMEB v4.4 to v4.6 was discovered to contain an arbitrary file upload vulnerability via the component \attachment\SystemAttachmentServices.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30185">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ce888cbd98cc328b6097911cbdfd6f9b</td>
+       <td>CVE-2023-29944</td>
+       <td>2023-05-08 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Metersphere v1.20.20-lts-79d354a6 is vulnerable to Remote Command Execution. The system command reverse-shell can be executed at the custom code snippet function of the metersphere system workbench</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29944">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ea6ab40a56a54488b6bf5607333c9937</td>
        <td>CVE-2023-2565</td>
        <td>2023-05-07 15:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-05-05 19:15:00</td>
        <td>IBM Cloud Pak System Suite 2.3.3.0 through 2.3.3.5 does not invalidate session after logout which could allow a local user to impersonate another user on the system.  IBM X-Force ID:  191290.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-4914">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dd16442804737f877f0c5afad7f36483</td>
-       <td>CVE-2023-32269</td>
-       <td>2023-05-05 17:15:00</td>
-       <td>An issue was discovered in the Linux kernel before 6.1.11. In net/netrom/af_netrom.c, there is a use-after-free because accept is also allowed for a successfully connected AF_NETROM socket. However, in order for an attacker to exploit this, the system must have netrom routing configured or the attacker must have the CAP_NET_ADMIN capability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32269">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">36981b4a14869e15ad2c48cb9fc8b052</td>
-       <td>CVE-2023-29659</td>
-       <td>2023-05-05 16:15:00</td>
-       <td>A Segmentation fault caused by a floating point exception exists in libheif 1.15.1 using crafted heif images via the heif::Fraction::round() function in box.cc, which causes a denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29659">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d39df07d4b8dfcb6b361b0e9d7516234</td>
-       <td>CVE-2023-26285</td>
-       <td>2023-05-05 16:15:00</td>
-       <td>IBM MQ 9.2 CD, 9.2 LTS, 9.3 CD, and 9.3 LTS could allow a remote attacker to cause a denial of service due to an error processing invalid data.  IBM X-Force ID:  248418.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26285">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c995f4593dfc79222a0e8815debdf626</td>
-       <td>CVE-2023-30434</td>
-       <td>2023-05-05 15:15:00</td>
-       <td>IBM Storage Scale (IBM Spectrum Scale 5.1.0.0 through 5.1.2.9, 5.1.3.0 through 5.1.6.1 and IBM Elastic Storage Systems 6.1.0.0 through 6.1.2.5, 6.1.3.0 through 6.1.6.0) could allow a local user to cause a kernel panic.  IBM X-Force  ID:  252187.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30434">详情</a></td>
       </tr>
 
      </tbody>
@@ -2460,6 +2460,22 @@
       </tr>
 
       <tr>
+       <td scope="row">c441f1415a087110576878040b86042f</td>
+       <td>CVE-2023-30849</td>
+       <td>2023-04-27 16:15:11 </td>
+       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, A SQL injection vulnerability exists in the translation export API. Users should update to version 10.5.21 to receive a patch or, as a workaround, or apply the patch manually.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30849">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1dea40651116aab43ce4329d5a4ad14f</td>
+       <td>CVE-2023-30848</td>
+       <td>2023-04-27 16:15:11 </td>
+       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, the admin search find API has a SQL injection vulnerability. Users should upgrade to version 10.5.21 to receive a patch or, as a workaround, apply the patch manually.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30848">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a5f2c7879d7eaec768d56839c66ad43f</td>
        <td>CVE-2023-31287</td>
        <td>2023-04-27 03:15:10 </td>
@@ -2481,6 +2497,22 @@
        <td>2023-04-27 03:15:10 </td>
        <td>An issue was discovered in Serenity Serene (and StartSharp) before 6.7.0. When a password reset request occurs, the server response leaks the existence of users. If one tries to reset a password of a non-existent user, an error message indicates that this user does not exist.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31286">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3c953334af202b60a0582f566e92862e</td>
+       <td>CVE-2023-30846</td>
+       <td>2023-04-26 21:15:09 </td>
+       <td>typed-rest-client is a library for Node Rest and Http Clients with typings for use with TypeScript. Users of the typed-rest-client library version 1.7.3 or lower are vulnerable to leak authentication data to 3rd parties. The flow of the vulnerability is as follows: First, send any request with `BasicCredentialHandler`, `BearerCredentialHandler` or `PersonalAccessTokenCredentialHandler`. Second, the target host may return a redirection (3xx), with a link to a second host. Third, the next request will use the credentials to authenticate with the second host, by setting the `Authorization` header. The expected behavior is that the next request will *NOT* set the `Authorization` header. The problem was fixed in version 1.8.0. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30846">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b0e1faec4b75317bfbb9e7a9ee07681</td>
+       <td>CVE-2023-30843</td>
+       <td>2023-04-26 21:15:09 </td>
+       <td>Payload is a free and open source headless content management system. In versions prior to 1.7.0, if a user has access to documents that contain hidden fields or fields they do not have access to, the user could reverse-engineer those values via brute force. Version 1.7.0 contains a patch. As a workaround, write a `beforeOperation` hook to remove `where` queries that attempt to access hidden field data.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30843">详情</a></td>
       </tr>
 
       <tr>
@@ -2657,38 +2689,6 @@
        <td>2023-04-19 18:15:07 </td>
        <td>Pay is a payments engine for Ruby on Rails 6.0 and higher. In versions prior to 6.3.2 a payments info page of Pay is susceptible to reflected Cross-site scripting. An attacker could create a working URL that renders a javascript link to a user on a Rails application that integrates Pay. This URL could be distributed via email to specifically target certain individuals. If the targeted application contains a functionality to submit user-generated content (such as comments) the attacker could even distribute the URL using that functionality. This has been patched in version 6.3.2 and above. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30614">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ecdd31c7fe0b589ec21d52455be58d34</td>
-       <td>CVE-2023-30612</td>
-       <td>2023-04-19 18:15:07 </td>
-       <td>Cloud hypervisor is a Virtual Machine Monitor for Cloud workloads. This vulnerability allows users to close arbitrary open file descriptors in the Cloud Hypervisor process via sending malicious HTTP request through the HTTP API socket. As a result, the Cloud Hypervisor process can be easily crashed, causing Deny-of-Service (DoS). This can also be a potential Use-After-Free (UAF) vulnerability. Users require to have the write access to the API socket file to trigger this vulnerability.  Impacted versions of Cloud Hypervisor include upstream main branch, v31.0, and v30.0. The vulnerability was initially detected by our `http_api_fuzzer` via oss-fuzz. This issue has been addressed in versions 30.1 and 31.1. Users unable to upgrade may mitigate this issue by ensuring the write access to the API socket file is granted to trusted users only.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30612">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">03f57e2bb9d5d1fbf8e1f7ed4b502dfe</td>
-       <td>CVE-2023-30611</td>
-       <td>2023-04-19 18:15:07 </td>
-       <td>Discourse-reactions is a plugin that allows user to add their reactions to the post in the Discourse messaging platform. In affected versions data about what reactions were performed on a post in a private topic could be leaked. This issue has been addressed in version 0.3. Users are advised to upgrade. Users unable to upgrade should disable the discourse-reactions plugin to fully mitigate the issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30611">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2f21fdebffe8979d30bc52676adcddc5</td>
-       <td>CVE-2023-30463</td>
-       <td>2023-04-19 12:15:08 </td>
-       <td>Altran picoTCP through 1.7.0 allows memory corruption (and subsequent denial of service) because of an integer overflow in pico_ipv6_alloc when processing large ICMPv6 packets. This affects installations with Ethernet support in which a packet size greater than 65495 may occur.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30463">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a76b37fd5a153d8a664b9f3a4b113172</td>
-       <td>CVE-2023-30608</td>
-       <td>2023-04-18 22:15:08 </td>
-       <td>sqlparse is a non-validating SQL parser module for Python. In affected versions the SQL parser contains a regular expression that is vulnerable to ReDoS (Regular Expression Denial of Service). This issue was introduced by commit `e75e358`. The vulnerability may lead to Denial of Service (DoS). This issues has been fixed in sqlparse 0.4.4 by commit `c457abd5f`. Users are advised to upgrade. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30608">详情</a></td>
       </tr>
 
      </tbody>
