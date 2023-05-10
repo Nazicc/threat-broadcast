@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-10 19:39:15 -->
+<!-- RELEASE TIME : 2023-05-10 20:42:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">856d38e2ce0e7a02394ccb72ca63c966</td>
+       <td>CVE-2022-36937</td>
+       <td>2023-05-10 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>HHVM 4.172.0 and all prior versions use TLS 1.0 for secure connections when handling tls:// URLs in the stream extension. TLS1.0 has numerous published vulnerabilities and is deprecated. HHVM 4.153.4, 4.168.2, 4.169.2, 4.170.2, 4.171.1, 4.172.1, 4.173.0 replaces TLS1.0 with TLS1.3.Applications that call stream_socket_server or stream_socket_client functions with a URL starting with tls:// are affected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36937">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0b7e745d864d2f1e53a7ce860ea58a0b</td>
+       <td>CVE-2023-32076</td>
+       <td>2023-05-10 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>in-toto is a framework to protect supply chain integrity. The in-toto configuration is read from various directories and allows users to configure the behavior of the framework. The files are from directories following the XDG base directory specification. In versions 1.4.0 and prior, among the files read is `.in_totorc` which is a hidden file in the directory in which in-toto is run. If an attacker controls the inputs to a supply chain step, they can mask their activities by also passing in an `.in_totorc` file that includes the necessary exclude patterns and settings. RC files are widely used in other systems and security issues have been discovered in their implementations as well. Maintainers found in their conversations with in-toto adopters that `in_totorc` is not their preferred way to configure in-toto. As none of the options supported in `in_totorc` is unique, and can be set elsewhere using API parameters or CLI arguments, the maintainers decided to drop support for `in_totorc`. in-toto's `user_settings` module has been dropped altogether in commit 3a21d84f40811b7d191fa7bd17265c1f99599afd. Users may also sandbox functionary code as a security measure.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32076">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4ebaed90228e438bfaf08306d5c996d6</td>
+       <td>CVE-2023-32070</td>
+       <td>2023-05-10 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform. Prior to version 14.6-rc-1, HTML rendering didn't check for dangerous attributes/attribute values. This allowed cross-site scripting (XSS) attacks via attributes and link URLs, e.g., supported in XWiki syntax. This has been patched in XWiki 14.6-rc-1. There are no known workarounds apart from upgrading to a fixed version.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32070">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1919805ac072dcc4c4624f1e34ff364e</td>
        <td>CVE-2023-0008</td>
        <td>2023-05-10 17:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-05-10 11:15:00 <img src="imgs/new.gif" /></td>
        <td>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Charitable Donations & Fundraising Team Donation Forms by Charitable plugin <= 1.7.0.10 versions.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47441">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">60ad7b25b98a8b42873c6e4c7f5e3645</td>
-       <td>CVE-2022-47436</td>
-       <td>2023-05-10 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in MantraBrain Yatra plugin <= 2.1.14 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47436">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ecbb383c13e56afe191f93680f313dd6</td>
-       <td>CVE-2022-47423</td>
-       <td>2023-05-10 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Ulf Benjaminsson WP-dTree plugin <= 4.4.5 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47423">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3cadb1f41294fdc31682d26e16c4da6f</td>
-       <td>CVE-2022-47137</td>
-       <td>2023-05-10 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in WPManageNinja LLC Ninja Tables plugin <= 4.3.4 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47137">详情</a></td>
       </tr>
 
      </tbody>
@@ -2468,11 +2468,27 @@
       </tr>
 
       <tr>
+       <td scope="row">b5225c3676d9faca052f9d9fc8084478</td>
+       <td>CVE-2023-24400</td>
+       <td>2023-05-07 00:15:09 </td>
+       <td>Auth. (contributor+) Cross-Site Scripting (XSS) vulnerability in Hu-manity.Co Cookie Notice &amp; Compliance for GDPR / CCPA plugin &lt;=&Acirc;&nbsp;2.4.6 versions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24400">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4ad7abdb46de381d35c1a638d65eb4c6</td>
        <td>CVE-2023-2516</td>
        <td>2023-05-05 19:15:15 </td>
        <td>Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.7.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2516">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">77372206bfc92f04e800e75dbf11c35f</td>
+       <td>CVE-2023-2427</td>
+       <td>2023-05-05 19:15:15 </td>
+       <td>Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.13.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2427">详情</a></td>
       </tr>
 
       <tr>
@@ -2545,6 +2561,14 @@
        <td>2023-05-03 16:15:10 </td>
        <td>Cross-Site Request Forgery (CSRF) vulnerability in PeepSo Community by PeepSo plugin &lt;=&Acirc;&nbsp;6.0.2.0 versions.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25967">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9701f83c265e33690ddefc6f4e00d5f7</td>
+       <td>CVE-2023-24461</td>
+       <td>2023-05-03 15:15:12 </td>
+       <td>An improper certificate validation&Acirc;&nbsp;vulnerability exists in the BIG-IP Edge Client for Windows and macOS and may allow an attacker to impersonate a BIG-IP APM system.&Acirc;&nbsp; Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24461">详情</a></td>
       </tr>
 
       <tr>
@@ -2628,6 +2652,14 @@
       </tr>
 
       <tr>
+       <td scope="row">793dc6710a4473b3ea0e0a13c5fc1340</td>
+       <td>CVE-2023-2445</td>
+       <td>2023-05-02 14:15:09 </td>
+       <td>Improper access control in Subscriptions Folder path filter in Devolutions Server 2023.1.1 and earlier allows attackers with administrator privileges to retrieve usage information on folders in user vaults via a specific folder name.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2445">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a4da1062bb55ed50c076f79c5a76b88a</td>
        <td>CVE-2023-27108</td>
        <td>2023-05-01 22:15:09 </td>
@@ -2652,43 +2684,11 @@
       </tr>
 
       <tr>
-       <td scope="row">705d30f83c42f7b2ae4d64c7855a39cc</td>
-       <td>CVE-2023-30859</td>
-       <td>2023-05-01 14:15:09 </td>
-       <td>Triton is a Minecraft plugin for Spigot and BungeeCord that helps you translate your Minecraft server. The CustomPayload packet allows you to execute commands on the spigot/bukkit console. When you enable bungee mode in the config it will enable the bungee bridge and the server will begin to broadcast the 'triton:main' plugin channel. Using this plugin channel you are able to send a payload packet containing a byte (2) and a string (any spigot command). This could be used to make yourself a server operator and be used to extract other user information through phishing (pretending to be an admin), many servers use essentials so the /geoip command could be available to them, etc. This could also be modified to allow you to set the servers language, set another players language, etc. This issue affects those who have bungee enabled in config. This issue has been fixed in version 3.8.4.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30859">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4c870dd94556389739984a74c272c73d</td>
-       <td>CVE-2023-30441</td>
-       <td>2023-04-29 15:15:18 </td>
-       <td>IBM Runtime Environment, Java Technology Edition IBMJCEPlus and JSSE 8.0.7.0 through 8.0.7.11 components could expose sensitive information using a combination of flaws and configurations.  IBM X-Force ID:  253188.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30441">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2f76029e3aa75b155acde7563a85e6a0</td>
-       <td>CVE-2023-30792</td>
-       <td>2023-04-29 03:15:08 </td>
-       <td>Anchor tag hrefs in Lexical prior to v0.10.0 would render javascript: URLs, allowing for cross-site scripting on link clicks in cases where input was being parsed from untrusted sources.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30792">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23668f244563a590958cd5996f7bd104</td>
-       <td>CVE-2023-31486</td>
-       <td>2023-04-29 00:15:09 </td>
-       <td>HTTP::Tiny 0.082, a Perl core module since 5.13.9 and available standalone on CPAN, has an insecure default TLS configuration where users must opt in to verify certificates.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31486">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">16a85bae9801ea9d6f241ff0520f701b</td>
-       <td>CVE-2023-31485</td>
-       <td>2023-04-29 00:15:09 </td>
-       <td>GitLab::API::v4 through 0.26 does not verify TLS certificates when connecting to a GitLab server, enabling machine-in-the-middle attacks.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31485">详情</a></td>
+       <td scope="row">6948a8417bf1c441f7c6ad577a0d4487</td>
+       <td>CVE-2023-2451</td>
+       <td>2023-05-01 16:15:11 </td>
+       <td>A vulnerability was found in SourceCodester Online DJ Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/bookings/view_details.php of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227795.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2451">详情</a></td>
       </tr>
 
      </tbody>
