@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-10 04:38:02 -->
+<!-- RELEASE TIME : 2023-05-10 05:38:06 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2155e8f07f95bd129d621af0b0fa1252</td>
+       <td>CVE-2023-25833</td>
+       <td>2023-05-10 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is an HTML injection vulnerability in Esri Portal for ArcGIS versions 11.0 and below that may allow a remote, authenticated attacker to create a crafted link which when clicked could render arbitrary HTML in the victim’s browser (no stateful change made or customer data rendered).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25833">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eea56467b4f8e0fb7874ae91ee0da880</td>
+       <td>CVE-2022-36330</td>
+       <td>2023-05-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A buffer overflow vulnerability was discovered on firmware version validation that could lead to an unauthenticated remote code execution in Western Digital My Cloud Home, My Cloud Home Duo and SanDisk ibi devices. An attacker would require exploitation of another vulnerability to raise their privileges in order to exploit this buffer overflow vulnerability.This issue affects My Cloud Home and My Cloud Home Duo: through 9.4.0-191; ibi: through 9.4.0-191.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36330">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4be52fdcda344741ac4d7b05853afa8c</td>
        <td>CVE-2023-31478</td>
        <td>2023-05-09 23:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-05-09 19:15:00 <img src="imgs/new.gif" /></td>
        <td>Insufficient input validation in the SMU mayallow an attacker to corrupt SMU SRAM potentially leading to a loss ofintegrity or denial of service.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46762">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f80dc150f2b18c767f1e2814c41001da</td>
-       <td>CVE-2021-46753</td>
-       <td>2023-05-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Failure to validate the length fields of the ASP(AMD Secure Processor) sensor fusion hub headers may allow an attacker with amalicious Uapp or ABL to map the ASP sensor fusion hub region and overwritedata structures leading to a potential loss of confidentiality and integrity.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46753">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6de727819b91c62751040b38a26aed50</td>
-       <td>CVE-2021-46749</td>
-       <td>2023-05-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Insufficient bounds checking in ASP (AMD SecureProcessor) may allow for an out of bounds read in SMI (System ManagementInterface) mailbox checksum calculation triggering a data abort, resulting in apotential denial of service.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46749">详情</a></td>
       </tr>
 
      </tbody>
@@ -2468,6 +2468,30 @@
       </tr>
 
       <tr>
+       <td scope="row">0ad109de5ae97875716a82a0017a7573</td>
+       <td>CVE-2023-31435</td>
+       <td>2023-05-02 20:15:11 </td>
+       <td>Multiple components (such as Onlinetemplate-Verwaltung, Liste aller Teilbereiche, Umfragen anzeigen, and questionnaire previews) in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allow authenticated attackers to read and write to unauthorized data by accessing functions directly.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31435">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e369d1f57dd6d96a1efaf8bc5c8b0562</td>
+       <td>CVE-2023-31434</td>
+       <td>2023-05-02 20:15:11 </td>
+       <td>The parameters nutzer_titel, nutzer_vn, and nutzer_nn in the user profile, and langID and ONLINEID in direct links, in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 do not validate input, which allows authenticated attackers to inject HTML Code and XSS payloads in multiple locations.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31434">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0469eb9929551e2012627c6a4829b63c</td>
+       <td>CVE-2023-31433</td>
+       <td>2023-05-02 20:15:11 </td>
+       <td>A SQL injection issue in Logbuch in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allows authenticated attackers to execute SQL statements via the welche parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31433">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a4da1062bb55ed50c076f79c5a76b88a</td>
        <td>CVE-2023-27108</td>
        <td>2023-05-01 22:15:09 </td>
@@ -2665,30 +2689,6 @@
        <td>2023-04-27 16:15:11 </td>
        <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, A SQL injection vulnerability exists in the translation export API. Users should update to version 10.5.21 to receive a patch or, as a workaround, or apply the patch manually.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30849">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1dea40651116aab43ce4329d5a4ad14f</td>
-       <td>CVE-2023-30848</td>
-       <td>2023-04-27 16:15:11 </td>
-       <td>Pimcore is an open source data and experience management platform. Prior to version 10.5.21, the admin search find API has a SQL injection vulnerability. Users should upgrade to version 10.5.21 to receive a patch or, as a workaround, apply the patch manually.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30848">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">48f32f1c2edd554b7aec4a423c189c3b</td>
-       <td>CVE-2023-30444</td>
-       <td>2023-04-27 13:15:09 </td>
-       <td>IBM Watson Machine Learning on Cloud Pak for Data 4.0 and 4.5 is vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks.  IBM X-Force ID:  253350.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30444">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7070b05d99f4b8d4be740fc6877ee21e</td>
-       <td>CVE-2023-28770</td>
-       <td>2023-04-27 09:15:09 </td>
-       <td>The sensitive information exposure vulnerability in the CGI &acirc;&euro;&oelig;Export_Log&acirc;&euro;&#65533; and the binary &acirc;&euro;&oelig;zcmd&acirc;&euro;&#65533; in Zyxel DX5401-B0 firmware versions prior to V5.17(ABYO.1)C0 could allow a remote unauthenticated attacker to read the system files and to retrieve the password of the supervisor from the encrypted file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-28770">详情</a></td>
       </tr>
 
      </tbody>
