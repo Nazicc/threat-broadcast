@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2699</font><br/>[<b>披露时间</b>] 2023-05-14 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, has been found in SourceCodester Lost and Found Information System 1.0. Affected by this issue is some unknown functionality of the file admin/?page=items/view_item of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-228980.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2699'>https://www.tenable.com/cve/CVE-2023-2699</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2698</font><br/>[<b>披露时间</b>] 2023-05-14 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was found in SourceCodester Lost and Found Information System 1.0. Affected by this vulnerability is an unknown functionality of the file admin/?page=items/manage_item of the component GET Parameter Handler. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-228979.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2698'>https://www.tenable.com/cve/CVE-2023-2698</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2697</font><br/>[<b>披露时间</b>] 2023-05-14 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical has been found in SourceCodester Online Exam System 1.0. Affected is an unknown function of the file /jurusan/data of the component POST Parameter Handler. The manipulation of the argument columns[1][data] leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-228978 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2697'>https://www.tenable.com/cve/CVE-2023-2697</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-37157 (CVE-2023-29665)</font><br/>[<b>披露时间</b>] 2023-05-12 03:37:14<br/>[<b>漏洞描述</b>] D-Link DIR-823G缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-37157'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-37157</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-37156 (CVE-2022-48284)</font><br/>[<b>披露时间</b>] 2023-05-12 03:37:21<br/>[<b>漏洞描述</b>] Huawei HiLink AI Life授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-37156'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-37156</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
