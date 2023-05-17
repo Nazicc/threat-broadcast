@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-17 02:45:51 -->
+<!-- RELEASE TIME : 2023-05-17 05:37:48 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6dda7043f781250dbf2e8cbd50f4e4f6</td>
+       <td>CVE-2023-2706</td>
+       <td>2023-05-17 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>The OTP Login Woocommerce & Gravity Forms plugin for WordPress is vulnerable to authentication bypass. This is due to the fact that when generating OTP codes for users to use in order to login via phone number, the plugin returns these codes in an AJAX response. This makes it possible for unauthenticated attackers to obtain login codes for administrators. This does require an attacker have access to the phone number configured for an account, which can be obtained via social engineering or reconnaissance.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2706">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16f41ec19a2fee49b11dc56e40105bff</td>
+       <td>CVE-2023-2608</td>
+       <td>2023-05-17 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Multiple Page Generator Plugin for WordPress is vulnerable to Cross-Site Request Forgery leading to time-based SQL Injection via the orderby and order parameters in versions up to, and including, 3.3.17 due to missing nonce verification on the projects_list function and insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries leading to resource exhaustion via a forged request granted they can trick an administrator into performing an action such as clicking on a link. Version 3.3.18 addresses the SQL Injection, which drastically reduced the severity.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2608">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">34d8a736f5db7932139dca18605c39f8</td>
+       <td>CVE-2023-31847</td>
+       <td>2023-05-17 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>In davinci 0.3.0-rc after logging in, the user can connect to the mysql malicious server by controlling the data source to read arbitrary files on the client side.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31847">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a8a5c8c541534f488847fe0c21a666fb</td>
+       <td>CVE-2023-1764</td>
+       <td>2023-05-17 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Canon IJ Network Tool/Ver.4.7.5 and earlier (supported OS: OS X 10.9.5-macOS 13),IJ Network Tool/Ver.4.7.3 and earlier (supported OS: OS X 10.7.5-OS X 10.8) allows an attacker to acquire sensitive information on the Wi-Fi connection setup of the printer from the communication of the software.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1764">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0bf8952f31e58d8fbc657f85a841f2e9</td>
+       <td>CVE-2023-1763</td>
+       <td>2023-05-17 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Canon IJ Network Tool/Ver.4.7.5 and earlier (supported OS: OS X 10.9.5-macOS 13),IJ Network Tool/Ver.4.7.3 and earlier (supported OS: OS X 10.7.5-OS X 10.8) allows an attacker to acquire sensitive information on the Wi-Fi connection setup of the printer from the software.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1763">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7a6732ebf1fae577e815c7d759a267b1</td>
+       <td>CVE-2022-45144</td>
+       <td>2023-05-17 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Algoo Tracim before 4.4.2 allows XSS via HTML file upload.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45144">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f7c967b570518a6b2eef5a6266bea375</td>
+       <td>CVE-2022-42336</td>
+       <td>2023-05-17 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Mishandling of guest SSBD selection on AMD hardware The current logic to set SSBD on AMD Family 17h and Hygon Family 18h processors requires that the setting of SSBD is coordinated at a core level, as the setting is shared between threads. Logic was introduced to keep track of how many threads require SSBD active in order to coordinate it, such logic relies on using a per-core counter of threads that have SSBD active. When running on the mentioned hardware, it's possible for a guest to under or overflow the thread counter, because each write to VIRT_SPEC_CTRL.SSBD by the guest gets propagated to the helper that does the per-core active accounting. Underflowing the counter causes the value to get saturated, and thus attempts for guests running on the same core to set SSBD won't have effect because the hypervisor assumes it's already active.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42336">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">37bbaf2e1d8b3b0156bc38d8908e8d26</td>
+       <td>CVE-2023-31848</td>
+       <td>2023-05-17 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>davinci 0.3.0-rc is vulnerable to Server-side request forgery (SSRF).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31848">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">98b2d11db36d96d294ff07ff61b6d9fd</td>
+       <td>CVE-2023-30452</td>
+       <td>2023-05-17 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>The MoroSystems EasyMind - Mind Maps plugin before 2.15.0 for Confluence allows persistent XSS when saving a Mind Map with the hyperlink parameter.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30452">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">47a85cc368cf72539c12937a619e4bc1</td>
+       <td>CVE-2023-25394</td>
+       <td>2023-05-17 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Videostream macOS app 0.5.0 and 0.4.3 has a Race Condition. The Updater privileged script attempts to update Videostream every 5 hours.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25394">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ffdd7145492b77baa2dfa23c737b8021</td>
        <td>CVE-2023-31679</td>
        <td>2023-05-16 22:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
        <td>Multiple authenticated path traversal vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface. Successful exploitation of these vulnerabilities result in the ability to read arbitrary files on the underlying operating system, including sensitive system files.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30507">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6e502f713051aed731b7242c3980378f</td>
-       <td>CVE-2023-30506</td>
-       <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface that allow remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30506">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">30df834bb7b1f943e2d703e853cdff5b</td>
-       <td>CVE-2023-30505</td>
-       <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface that allow remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30505">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">15f65e6483c8ee308f870dcb31abdbbe</td>
-       <td>CVE-2023-30504</td>
-       <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface that allow remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30504">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8bfae80bc40945c0cdbba937d614b233</td>
-       <td>CVE-2023-30503</td>
-       <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface that allow remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30503">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3cda2bbc25fc5c1150eee89ed4636437</td>
-       <td>CVE-2023-30502</td>
-       <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface that allow remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30502">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0aa1c845ebb4d362f55c985253454f95</td>
-       <td>CVE-2023-30501</td>
-       <td>2023-05-16 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface that allow remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30501">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3b1e10b62392c7782981dd3d243751a</td>
-       <td>CVE-2023-33007</td>
-       <td>2023-05-16 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins LoadComplete support Plugin 1.0 and earlier does not escape the LoadComplete test name, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33007">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b765f3a30c29df5e61ef169068543749</td>
-       <td>CVE-2023-33006</td>
-       <td>2023-05-16 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins WSO2 Oauth Plugin 1.0 and earlier allows attackers to trick users into logging in to the attacker's account.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33006">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ac2243e69a1ca92783a3afc9b54b5cc9</td>
-       <td>CVE-2023-33005</td>
-       <td>2023-05-16 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Jenkins WSO2 Oauth Plugin 1.0 and earlier does not invalidate the previous session on login.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33005">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2f0ec9581b56041d598a7a31167b4d33</td>
-       <td>CVE-2023-33004</td>
-       <td>2023-05-16 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A missing permission check in Jenkins Tag Profiler Plugin 0.2 and earlier allows attackers with Overall/Read permission to reset profiler statistics.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33004">详情</a></td>
       </tr>
 
      </tbody>
@@ -2636,6 +2636,38 @@
       </tr>
 
       <tr>
+       <td scope="row">68a56531e69d1aabd2f64d05f0478f14</td>
+       <td>CVE-2023-31144</td>
+       <td>2023-05-09 16:15:14 </td>
+       <td>Craft CMS is a content management system. Starting in version 3.0.0 and prior to versions 3.8.4 and 4.4.4, a malformed title in the feed widget can deliver a cross-site scripting payload. This issue is fixed in version 3.8.4 and 4.4.4.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31144">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c8a6ae0a35bee6d541e716fa9442f2b3</td>
+       <td>CVE-2023-31143</td>
+       <td>2023-05-09 15:15:10 </td>
+       <td>mage-ai is an open-source data pipeline tool for transforming and integrating data. Those who use Mage starting in version 0.8.34 and prior to 0.8.72 with user authentication enabled may be affected by a vulnerability. The terminal could be accessed by users who are not signed in or do not have editor permissions. Version 0.8.72 contains a fix for this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31143">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dfdf77f1ffd87a3d21ece8d5b9dd1c7d</td>
+       <td>CVE-2023-31139</td>
+       <td>2023-05-09 15:15:10 </td>
+       <td>DHIS2 Core contains the service layer and Web API for DHIS2, an information system for data capture. Starting in the 2.37 branch and prior to versions 2.37.9.1, 2.38.3.1, and 2.39.1.2, Personal Access Tokens (PATs) generate unrestricted session cookies. This may lead to a bypass of other access restrictions (for example, based on allowed IP addresses or HTTP methods). DHIS2 implementers should upgrade to a supported version of DHIS2: 2.37.9.1, 2.38.3.1, or 2.39.1.2. Implementers can work around this issue by adding extra access control validations on a reverse proxy.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31139">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3343e7d444645fbfe6ec267b55251610</td>
+       <td>CVE-2023-31138</td>
+       <td>2023-05-09 15:15:10 </td>
+       <td>DHIS2 Core contains the service layer and Web API for DHIS2, an information system for data capture. Starting in the 2.36 branch and prior to versions 2.37.9.1, 2.38.3.1, and 2.39.1.2, using object model traversal in the payload of a PATCH request, authenticated users with write access to an object may be able to modify related objects that they should not have access to. DHIS2 implementers should upgrade to a supported version of DHIS2 to receive a patch: 2.37.9.1, 2.38.3.1, or 2.39.1.2. It is possible to work around this issue by blocking all PATCH requests on a reverse proxy, but this may cause some issues with the functionality of built-in applications using legacy PATCH requests.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31138">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4e853fc99b8647ca361cf5b1e1cc65e4</td>
        <td>CVE-2023-31973</td>
        <td>2023-05-09 14:15:13 </td>
@@ -2644,51 +2676,19 @@
       </tr>
 
       <tr>
-       <td scope="row">5c7d0955ad8db9a20792661837612902</td>
-       <td>CVE-2023-31975</td>
-       <td>2023-05-09 13:15:18 </td>
-       <td>yasm v1.3.0 was discovered to contain a memory leak via the function yasm_intnum_copy at /libyasm/intnum.c.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31975">详情</a></td>
+       <td scope="row">ea0bc8f2e1b366cac699747662de5dae</td>
+       <td>CVE-2023-31137</td>
+       <td>2023-05-09 14:15:13 </td>
+       <td>MaraDNS is open-source software that implements the Domain Name System (DNS). In version 3.5.0024 and prior, a remotely exploitable integer underflow vulnerability in the DNS packet decompression function allows an attacker to cause a Denial of Service by triggering an abnormal program termination.The vulnerability exists in the `decomp_get_rddata` function within the `Decompress.c` file. When handling a DNS packet with an Answer RR of qtype 16 (TXT record) and any qclass, if the `rdlength` is smaller than `rdata`, the result of the line `Decompress.c:886` is a negative number `len = rdlength - total;`. This value is then passed to the `decomp_append_bytes` function without proper validation, causing the program to attempt to allocate a massive chunk of memory that is impossible to allocate. Consequently, the program exits with an error code of 64, causing a Denial of Service.One proposed fix for this vulnerability is to patch `Decompress.c:887` by breaking `if(len &lt;= 0)`, which has been incorporated in version 3.5.0036 via commit bab062bde40b2ae8a91eecd522e84d8b993bab58.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31137">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">1c4701cadc892a2ad4a1f7264ead75cc</td>
-       <td>CVE-2023-31974</td>
-       <td>2023-05-09 13:15:18 </td>
-       <td>yasm v1.3.0 was discovered to contain a use after free via the function error at /nasm/nasm-pp.c.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31974">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cdd4e4be625481b7682eb6461bc45727</td>
-       <td>CVE-2023-31972</td>
-       <td>2023-05-09 13:15:18 </td>
-       <td>yasm v1.3.0 was discovered to contain a use after free via the function pp_getline at /nasm/nasm-pp.c.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31972">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">711dea2d905d4af3bd7d1a1143baeec9</td>
-       <td>CVE-2023-2596</td>
-       <td>2023-05-09 13:15:18 </td>
-       <td>A vulnerability was found in SourceCodester Online Reviewer System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /reviewer/system/system/admins/manage/users/user-update.php of the component GET Parameter Handler. The manipulation of the argument user_id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228398 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2596">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3b9aba0b8996bfb051dcc51b6ea0bb75</td>
-       <td>CVE-2023-2595</td>
-       <td>2023-05-09 13:15:17 </td>
-       <td>A vulnerability has been found in SourceCodester Billing Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file ajax_service.php of the component POST Parameter Handler. The manipulation of the argument drop_services leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-228397 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2595">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2c5a5eeb7e040b1b85aa828e42624c5c</td>
-       <td>CVE-2023-2594</td>
-       <td>2023-05-09 13:15:17 </td>
-       <td>A vulnerability, which was classified as critical, was found in SourceCodester Food Ordering Management System 1.0. Affected is an unknown function of the component Registration. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-228396.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-2594">详情</a></td>
+       <td scope="row">409edea7c0b4b89c4c91030a945f1ba3</td>
+       <td>CVE-2023-31136</td>
+       <td>2023-05-09 14:15:13 </td>
+       <td>PostgresNIO is a Swift client for PostgreSQL. Any user of PostgresNIO prior to version 1.14.2 connecting to servers with TLS enabled is vulnerable to a man-in-the-middle attacker injecting false responses to the client's first few queries, despite the use of TLS certificate verification and encryption. The vulnerability is addressed in PostgresNIO versions starting from 1.14.2. There are no known workarounds for unpatched users.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31136">详情</a></td>
       </tr>
 
      </tbody>
