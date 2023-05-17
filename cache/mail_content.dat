@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30855</font><br/>[<b>披露时间</b>] 2023-05-08 18:15:14 <br/>[<b>漏洞描述</b>] Pimcore is an open source data and experience management platform. Versions of Pimcore prior to 10.5.18 are vulnerable to path traversal. The impact of this path traversal and arbitrary extension is limited to creation of arbitrary files and appending data to existing files. When combined with the SQL Injection, the exported data `RESTRICTED DIFFUSION 9 / 9` can be controlled and a webshell can be uploaded. Attackers can use that to execute arbitrary PHP code on the server with the permissions of the webserver. Users may upgrade to version 10.5.18 to receive a patch or, as a workaround, apply the patch manually.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30855'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30855</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2756</font><br/>[<b>披露时间</b>] 2023-05-17 11:15:00<br/>[<b>漏洞描述</b>] SQL Injection in GitHub repository pimcore/customer-data-framework prior to 3.3.10.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2756'>https://www.tenable.com/cve/CVE-2023-2756</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
