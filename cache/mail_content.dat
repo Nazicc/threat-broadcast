@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29274</font><br/>[<b>披露时间</b>] 2023-05-11 22:15:10 <br/>[<b>漏洞描述</b>] Adobe Substance 3D Painter versions 8.3.0 (and earlier) is affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29274'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29274</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2713</font><br/>[<b>披露时间</b>] 2023-05-20 10:15:00<br/>[<b>漏洞描述</b>] Authorization Bypass Through User-Controlled Key vulnerability  in "Rental Module" developed by third-party for Ideasoft's E-commerce Platform allows Authentication Abuse, Authentication Bypass.This issue affects Rental Module: before 23.05.15.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2713'>https://www.tenable.com/cve/CVE-2023-2713</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2712</font><br/>[<b>披露时间</b>] 2023-05-20 10:15:00<br/>[<b>漏洞描述</b>] Unrestricted Upload of File with Dangerous Type vulnerability  in "Rental Module" developed by third-party for Ideasoft's E-commerce Platform allows Command Injection, Using Malicious Files, Upload a Web Shell to a Web Server.This issue affects Rental Module: before 23.05.15.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2712'>https://www.tenable.com/cve/CVE-2023-2712</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
