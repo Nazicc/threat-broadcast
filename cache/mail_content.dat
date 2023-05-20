@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28623</font><br/>[<b>披露时间</b>] 2023-05-19 22:15:00<br/>[<b>漏洞描述</b>] Zulip is an open-source team collaboration tool with unique topic-based threading. In the event that 1: `ZulipLDAPAuthBackend` and an external authentication backend (any aside of `ZulipLDAPAuthBackend` and `EmailAuthBackend`) are the only ones enabled in `AUTHENTICATION_BACKENDS` in `/etc/zulip/settings.py` and 2: The organization permissions don't require invitations to join. An attacker can create a new account in the organization with an arbitrary email address in their control that's not in the organization's LDAP directory. The impact is limited to installations which have this specific combination of authentication backends as described above in addition to having `Invitations are required for joining this organization` organization permission disabled. This issue has been addressed in version 6.2. Users are advised to upgrade. Users unable to upgrade may enable the `Invitations are required for joining this organization` organization permission to prevent this issue.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28623'>https://www.tenable.com/cve/CVE-2023-28623</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-39429 (CVE-2023-28076)</font><br/>[<b>披露时间</b>] 2023-05-19 03:37:24<br/>[<b>漏洞描述</b>] Dell CloudLink加密问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-39429'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-39429</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-39430 (CVE-2023-31566)</font><br/>[<b>披露时间</b>] 2023-05-19 03:37:29<br/>[<b>漏洞描述</b>] PoDoFo资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-39430'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-39430</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-39431 (CVE-2023-31567)</font><br/>[<b>披露时间</b>] 2023-05-19 03:37:31<br/>[<b>漏洞描述</b>] PoDoFo缓冲区溢出漏洞（ CNVD-2023-39431）<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-39431'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-39431</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-39432 (CVE-2023-31568)</font><br/>[<b>披露时间</b>] 2023-05-19 03:37:34<br/>[<b>漏洞描述</b>] PoDoFo缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-39432'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-39432</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
