@@ -1,14 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1696</font><br/>[<b>披露时间</b>] 2023-05-20 15:15:00<br/>[<b>漏洞描述</b>] The multimedia video module has a vulnerability in data processing.Successful exploitation of this vulnerability may affect availability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1696'>https://www.tenable.com/cve/CVE-2023-1696</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1694</font><br/>[<b>披露时间</b>] 2023-05-20 15:15:00<br/>[<b>漏洞描述</b>] The Settings module has the file privilege escalation vulnerability.Successful exploitation of this vulnerability may affect confidentiality.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1694'>https://www.tenable.com/cve/CVE-2023-1694</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1693</font><br/>[<b>披露时间</b>] 2023-05-20 15:15:00<br/>[<b>漏洞描述</b>] The Settings module has the file privilege escalation vulnerability.Successful exploitation of this vulnerability may affect confidentiality.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1693'>https://www.tenable.com/cve/CVE-2023-1693</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1692</font><br/>[<b>披露时间</b>] 2023-05-20 15:15:00<br/>[<b>漏洞描述</b>] The window management module lacks permission verification.Successful exploitation of this vulnerability may affect confidentiality.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1692'>https://www.tenable.com/cve/CVE-2023-1692</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33244</font><br/>[<b>披露时间</b>] 2023-05-20 19:15:00<br/>[<b>漏洞描述</b>] Obsidian before 1.2.2 allows calls to unintended APIs (for microphone access, camera access, and desktop notification) via an embedded web page.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33244'>https://www.tenable.com/cve/CVE-2023-33244</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32700</font><br/>[<b>披露时间</b>] 2023-05-20 18:15:00<br/>[<b>漏洞描述</b>] LuaTeX before 1.17.0 allows execution of arbitrary shell commands when compiling a TeX file obtained from an untrusted source. This occurs because luatex-core.lua lets the original io.popen be accessed. This also affects TeX Live before 2023 r66984 and MiKTeX before 23.5.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32700'>https://www.tenable.com/cve/CVE-2023-32700</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
