@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-22 19:37:45 -->
+<!-- RELEASE TIME : 2023-05-22 20:37:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -2644,11 +2644,27 @@
       </tr>
 
       <tr>
+       <td scope="row">bfd35dc2ad056f9b03ffb207543ac758</td>
+       <td>CVE-2023-32058</td>
+       <td>2023-05-11 21:15:10 </td>
+       <td>Vyper is a Pythonic smart contract language for the Ethereum virtual machine. Prior to version 0.3.8, due to missing overflow check for loop variables, by assigning the iterator of a loop to a variable, it is possible to overflow the type of the latter. The issue seems to happen only in loops of type `for i in range(a, a + N)` as in loops of type `for i in range(start, stop)` and `for i in range(stop)`, the compiler is able to raise a `TypeMismatch` when trying to overflow the variable. The problem has been patched in version 0.3.8.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32058">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a83f09a6f74f0b28cdf292090221e1f4</td>
        <td>CVE-2023-29791</td>
        <td>2023-05-11 21:15:09 </td>
        <td>kodbox &lt;= 1.37 is vulnerable to Cross Site Scripting (XSS) via the debug information.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29791">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6b8c1aa91ef47ee6c15b51de601c4b4e</td>
+       <td>CVE-2023-32082</td>
+       <td>2023-05-11 20:15:09 </td>
+       <td>etcd is a distributed key-value store for the data of a distributed system. Prior to versions 3.4.26 and 3.5.9, the LeaseTimeToLive API allows access to key names (not value) associated to a lease when `Keys` parameter is true, even a user doesn't have read permission to the keys. The impact is limited to a cluster which enables auth (RBAC). Versions 3.4.26 and 3.5.9 fix this issue. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32082">详情</a></td>
       </tr>
 
       <tr>
@@ -2673,22 +2689,6 @@
        <td>2023-05-11 18:15:13 </td>
        <td>A cross site scripting vulnerability was discovered in Rockwell Automation's ArmorStart ST product that could potentially allow a malicious user to view and modify sensitive data or make the web page unavailable. User interaction, such as a phishing attack, is required for successful exploitation of this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29031">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c1a109d130eb3bd64d72a5ab6e9567d9</td>
-       <td>CVE-2023-29030</td>
-       <td>2023-05-11 18:15:13 </td>
-       <td>A cross site scripting vulnerability was discovered in Rockwell Automation's ArmorStart ST product that could potentially allow a malicious user to view and modify sensitive data or make the web page unavailable. User interaction, such as a phishing attack, is required for successful exploitation of this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29030">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ae134c4a51e04b46375578454c12312c</td>
-       <td>CVE-2023-29029</td>
-       <td>2023-05-11 18:15:13 </td>
-       <td>A cross site scripting vulnerability was discovered in Rockwell Automation's ArmorStart ST product that could potentially allow a malicious user with admin privileges and network access to view user data and modify the web interface. Additionally, a malicious user could potentially cause interruptions to the availability of the web page.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29029">详情</a></td>
       </tr>
 
      </tbody>
