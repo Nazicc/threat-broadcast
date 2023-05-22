@@ -1,25 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26343</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Adobe Dimension越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79529'>http://www.nsfocus.net/vulndb/79529</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26337</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Adobe Dimension堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79528'>http://www.nsfocus.net/vulndb/79528</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26331</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Adobe Dimension越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79527'>http://www.nsfocus.net/vulndb/79527</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25907</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Adobe Dimension越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79526'>http://www.nsfocus.net/vulndb/79526</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25901</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Adobe Dimension输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79525'>http://www.nsfocus.net/vulndb/79525</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25895</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Adobe Dimension堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79524'>http://www.nsfocus.net/vulndb/79524</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27598</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] QNAP Systems QTS和QuTS hero越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79523'>http://www.nsfocus.net/vulndb/79523</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1509</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] WordPress GMAce Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79522'>http://www.nsfocus.net/vulndb/79522</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48430</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] JetBrains IntelliJ IDEA信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79521'>http://www.nsfocus.net/vulndb/79521</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1663</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Synopsys Coverity Connect信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79520'>http://www.nsfocus.net/vulndb/79520</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27641</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] NETGEAR R6700整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79519'>http://www.nsfocus.net/vulndb/79519</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-27647</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] NETGEAR R6700操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79518'>http://www.nsfocus.net/vulndb/79518</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28304</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Bentley Systems MicroStation CONNECT堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79517'>http://www.nsfocus.net/vulndb/79517</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28310</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Bentley Systems MicroStation CONNECT内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79516'>http://www.nsfocus.net/vulndb/79516</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-28316</font><br/>[<b>披露时间</b>] 2023-05-22 07:37:48<br/>[<b>漏洞描述</b>] Bentley Systems MicroStation CONNECT越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79515'>http://www.nsfocus.net/vulndb/79515</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2021-84288</font><br/>[<b>披露时间</b>] 2023-05-22 09:37:25<br/>[<b>漏洞描述</b>] 北京网瑞达科技有限公司资源访问控制系统（WebVPN）存在弱口令漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2021-84288'>https://www.cnvd.org.cn/flaw/show/CNVD-2021-84288</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-05-22 08:52:33<br/>[<b>漏洞描述</b>] 安全事件周报 2023-05-15 第20周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=646b2d5101dc7167b394d422'>https://cert.360.cn/warning/detail?id=646b2d5101dc7167b394d422</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
