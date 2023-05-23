@@ -1,12 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1209</font><br/>[<b>披露时间</b>] 2023-05-23 17:15:00<br/>[<b>漏洞描述</b>] Cross-Site Scripting (XSS) vulnerabilities exist in ServiceNow records allowing an authenticated attacker to inject arbitrary scripts.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1209'>https://www.tenable.com/cve/CVE-2023-1209</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25474</font><br/>[<b>披露时间</b>] 2023-05-23 16:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in Csaba Kissi About Me 3000 widget plugin <= 2.2.6 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25474'>https://www.tenable.com/cve/CVE-2023-25474</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32700</font><br/>[<b>披露时间</b>] 2023-05-20 18:15:09 <br/>[<b>漏洞描述</b>] LuaTeX before 1.17.0 allows execution of arbitrary shell commands when compiling a TeX file obtained from an untrusted source. This occurs because luatex-core.lua lets the original io.popen be accessed. This also affects TeX Live before 2023 r66984 and MiKTeX before 23.5.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32700'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32700</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32059</font><br/>[<b>披露时间</b>] 2023-05-11 22:15:11 <br/>[<b>漏洞描述</b>] Vyper is a Pythonic smart contract language for the Ethereum virtual machine. Prior to version 0.3.8, internal calls with default arguments are compiled incorrectly. Depending on the number of arguments provided in the call, the defaults are added not right-to-left, but left-to-right. If the types are incompatible, typechecking is bypassed. The ability to pass kwargs to internal functions is an undocumented feature that is not well known about. The issue is patched in version 0.3.8.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32059'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32059</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31986</font><br/>[<b>披露时间</b>] 2023-05-15 12:15:09 <br/>[<b>漏洞描述</b>] A Command Injection vulnerability in Edimax Wireless Router N300 Firmware BR-6428NS_v4 allows attacker to execute arbitrary code via the setWAN function in /bin/webs without any limitations.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31986'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31986</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
