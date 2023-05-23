@@ -1,14 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-40192 (CVE-2023-20087)</font><br/>[<b>披露时间</b>] 2023-05-23 09:37:26<br/>[<b>漏洞描述</b>] Cisco Identity Services Engine输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-40192'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-40192</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-40191 (CVE-2023-20106)</font><br/>[<b>披露时间</b>] 2023-05-23 09:37:28<br/>[<b>漏洞描述</b>] Cisco Identity Services Engine授权绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-40191'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-40191</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-40190 (CVE-2023-20077)</font><br/>[<b>披露时间</b>] 2023-05-23 09:37:30<br/>[<b>漏洞描述</b>] Cisco Identity Services Engine任意文件下载漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-40190'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-40190</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-40189 (CVE-2023-20171)</font><br/>[<b>披露时间</b>] 2023-05-23 09:37:33<br/>[<b>漏洞描述</b>] Cisco Identity Services Engine任意文件删除漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-40189'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-40189</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23694</font><br/>[<b>披露时间</b>] 2023-05-23 07:15:00<br/>[<b>漏洞描述</b>] Dell VxRail versions earlier than 7.0.450, contain(s) an OS command injection vulnerability in VxRail Manager. A local authenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS, with the privileges of the vulnerable application. Exploitation may lead to a system take over by an attacker.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23694'>https://www.tenable.com/cve/CVE-2023-23694</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23693</font><br/>[<b>披露时间</b>] 2023-05-23 07:15:00<br/>[<b>漏洞描述</b>] Dell VxRail, versions prior to 7.0.450, contains an OS command injection Vulnerability in DCManager command-line utility. A local high privileged attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS, with the privileges of the vulnerable application. Exploitation may lead to a system take over by an attacker.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23693'>https://www.tenable.com/cve/CVE-2023-23693</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2845</font><br/>[<b>披露时间</b>] 2023-05-23 05:15:00<br/>[<b>漏洞描述</b>] Improper Access Control in GitHub repository cloudexplorer-dev/cloudexplorer-lite prior to v1.1.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2845'>https://www.tenable.com/cve/CVE-2023-2845</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
