@@ -1,13 +1,13 @@
 
 <h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23694</font><br/>[<b>披露时间</b>] 2023-05-23 07:15:00<br/>[<b>漏洞描述</b>] Dell VxRail versions earlier than 7.0.450, contain(s) an OS command injection vulnerability in VxRail Manager. A local authenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS, with the privileges of the vulnerable application. Exploitation may lead to a system take over by an attacker.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23694'>https://www.tenable.com/cve/CVE-2023-23694</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23693</font><br/>[<b>披露时间</b>] 2023-05-23 07:15:00<br/>[<b>漏洞描述</b>] Dell VxRail, versions prior to 7.0.450, contains an OS command injection Vulnerability in DCManager command-line utility. A local high privileged attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS, with the privileges of the vulnerable application. Exploitation may lead to a system take over by an attacker.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23693'>https://www.tenable.com/cve/CVE-2023-23693</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2845</font><br/>[<b>披露时间</b>] 2023-05-23 05:15:00<br/>[<b>漏洞描述</b>] Improper Access Control in GitHub repository cloudexplorer-dev/cloudexplorer-lite prior to v1.1.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2845'>https://www.tenable.com/cve/CVE-2023-2845</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21804</font><br/>[<b>披露时间</b>] 2023-05-23 20:31:49<br/>[<b>漏洞描述</b>] INTEL QUICKASSIST_TECHNOLOGY Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7c0d03018ada4d9aa54c00e849ab7068'>https://redqueen.tj-un.com/IntelDetails.html?id=7c0d03018ada4d9aa54c00e849ab7068</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-33963</font><br/>[<b>披露时间</b>] 2023-05-23 20:31:42<br/>[<b>漏洞描述</b>] INTEL UNITE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=1cfbf153031b431aad6212a7e489b26f'>https://redqueen.tj-un.com/IntelDetails.html?id=1cfbf153031b431aad6212a7e489b26f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40685</font><br/>[<b>披露时间</b>] 2023-05-23 20:31:08<br/>[<b>漏洞描述</b>] INTEL DATA_CENTER_MANAGER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=49a581f6a4e74335a0b8b246563c271e'>https://redqueen.tj-un.com/IntelDetails.html?id=49a581f6a4e74335a0b8b246563c271e</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
