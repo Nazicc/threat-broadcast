@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-40178 (CVE-2022-32516)</font><br/>[<b>披露时间</b>] 2023-05-18 17:37:42<br/>[<b>漏洞描述</b>] Schneider Electric Conext ComBox跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-40178'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-40178</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32306</font><br/>[<b>披露时间</b>] 2023-05-12 19:15:09 <br/>[<b>漏洞描述</b>] Time Tracker is an open source time tracking system. A time-based blind injection vulnerability existed in Time Tracker reports in versions prior to 1.22.13.5792. This was happening because the `reports.php` page was not validating all parameters in POST requests. Because some parameters were not checked, it was possible to craft POST requests with malicious SQL for Time Tracker database. This issue is fixed in version 1.22.13.5792. As a workaround, use the fixed code in `ttReportHelper.class.php` from version 1.22.13.5792.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32306'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32306</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32305</font><br/>[<b>披露时间</b>] 2023-05-12 19:15:08 <br/>[<b>漏洞描述</b>] aiven-extras is a PostgreSQL extension. Versions prior to 1.1.9 contain a privilege escalation vulnerability, allowing elevation to superuser inside PostgreSQL databases that use the aiven-extras package. The vulnerability leverages missing schema qualifiers on privileged functions called by the aiven-extras extension. A low privileged user can create objects that collide with existing function names, which will then be executed instead. Exploiting this vulnerability could allow a low privileged user to acquire `superuser` privileges, which would allow full, unrestricted access to all data and database functions. And could lead to arbitrary code execution or data access on the underlying host as the `postgres` user. The issue has been patched as of version 1.1.9.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32305'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32305</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
