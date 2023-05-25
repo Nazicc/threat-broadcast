@@ -1,14 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33356</font><br/>[<b>披露时间</b>] 2023-05-25 14:15:00<br/>[<b>漏洞描述</b>] IceCMS v1.0.0 is vulnerable to Cross Site Scripting (XSS).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33356'>https://www.tenable.com/cve/CVE-2023-33356</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33355</font><br/>[<b>披露时间</b>] 2023-05-25 14:15:00<br/>[<b>漏洞描述</b>] IceCMS v1.0.0 has Insecure Permissions. There is unauthorized access to the API, resulting in the disclosure of sensitive information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33355'>https://www.tenable.com/cve/CVE-2023-33355</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2798</font><br/>[<b>披露时间</b>] 2023-05-25 14:15:00<br/>[<b>漏洞描述</b>] Those using HtmlUnit to browse untrusted webpages may be vulnerable to Denial of service attacks (DoS). If HtmlUnit is running on user supplied web pages, an attacker may supply content that causes HtmlUnit to crash by a stack overflow. This effect may support a denial of service attack.This issue affects htmlunit before 2.70.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2798'>https://www.tenable.com/cve/CVE-2023-2798</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2480</font><br/>[<b>披露时间</b>] 2023-05-25 14:15:00<br/>[<b>漏洞描述</b>] Missing access permissions checks in M-Files Client before 23.5.12598.0 allows elevation of privilege via UI extension applications<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2480'>https://www.tenable.com/cve/CVE-2023-2480</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33751</font><br/>[<b>披露时间</b>] 2023-05-25 17:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in mipjz v5.0.5 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter at /app/tag/controller/ApiAdminTagCategory.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33751'>https://www.tenable.com/cve/CVE-2023-33751</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33750</font><br/>[<b>披露时间</b>] 2023-05-25 17:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in mipjz v5.0.5 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description parameter at /index.php?s=/article/ApiAdminArticle/itemAdd.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33750'>https://www.tenable.com/cve/CVE-2023-33750</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
