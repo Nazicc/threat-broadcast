@@ -1,12 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27821</font><br/>[<b>披露时间</b>] 2023-05-26 09:37:48<br/>[<b>漏洞描述</b>] Databasir远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79668'>http://www.nsfocus.net/vulndb/79668</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48361</font><br/>[<b>披露时间</b>] 2023-05-26 09:37:48<br/>[<b>漏洞描述</b>] Huawei HarmonyOS路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79667'>http://www.nsfocus.net/vulndb/79667</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41860 (CVE-2021-44465)</font><br/>[<b>披露时间</b>] 2023-05-26 10:37:17<br/>[<b>漏洞描述</b>] Odoo访问控制问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41860'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41860</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41861 (CVE-2023-32697)</font><br/>[<b>披露时间</b>] 2023-05-26 10:37:20<br/>[<b>漏洞描述</b>] SQLite代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41861'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41861</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41862 (CVE-2023-31843)</font><br/>[<b>披露时间</b>] 2023-05-26 10:37:25<br/>[<b>漏洞描述</b>] Faculty Evaluation System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41862'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41862</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41863 (CVE-2021-34076)</font><br/>[<b>披露时间</b>] 2023-05-26 10:37:27<br/>[<b>漏洞描述</b>] PHPOK代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41863'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41863</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
