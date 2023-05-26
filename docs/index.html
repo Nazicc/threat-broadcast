@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-26 17:37:57 -->
+<!-- RELEASE TIME : 2023-05-26 18:37:55 -->
 <html lang="zh-cn">
 
  <head>
@@ -2492,6 +2492,14 @@
       </tr>
 
       <tr>
+       <td scope="row">35bd6cafe731c64e0adce7ee6d12c0a9</td>
+       <td>CVE-2023-32589</td>
+       <td>2023-05-20 23:15:09 </td>
+       <td>Cross-Site Request Forgery (CSRF) vulnerability in PingOnline Dyslexiefont Free plugin &lt;=&Acirc;&nbsp;1.0.0 versions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32589">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8ca80ab73cca7fe8a3bb5089a823a950</td>
        <td>CVE-2023-33244</td>
        <td>2023-05-20 19:15:08 </td>
@@ -2508,6 +2516,30 @@
       </tr>
 
       <tr>
+       <td scope="row">4e7725b6bf7d0efe7ab7776a59a363ec</td>
+       <td>CVE-2023-32677</td>
+       <td>2023-05-19 21:15:08 </td>
+       <td>Zulip is an open-source team collaboration tool with unique topic-based threading. Zulip administrators can configure Zulip to limit who can add users to streams, and separately to limit who can invite users to the organization. In Zulip Server 6.1 and below, the UI which allows a user to invite a new user also allows them to set the streams that the new user is invited to -- even if the inviting user would not have permissions to add an existing user to streams. While such a configuration is likely rare in practice, the behavior does violate security-related controls. This does not let a user invite new users to streams they cannot see, or would not be able to add users to if they had that general permission. This issue has been addressed in version 6.2. Users are advised to upgrade. Users unable to upgrade may limit sending of invitations down to users who also have the permission to add users to streams.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32677">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">98d27becca0f8ac67f9ed6a3a2c19fb3</td>
+       <td>CVE-2023-32679</td>
+       <td>2023-05-19 20:15:09 </td>
+       <td>Craft CMS is an open source content management system. In affected versions of Craft CMS an unrestricted file extension may lead to Remote Code Execution. If the name parameter value is not empty string('') in the View.php's doesTemplateExist() -&gt; resolveTemplate() -&gt; _resolveTemplateInternal() -&gt; _resolveTemplate() function, it returns directly without extension verification, so that arbitrary extension files are rendered as twig templates. When attacker with admin privileges on a DEV or an improperly configured STG or PROD environment, they can exploit this vulnerability to remote code execution. Code execution may grant the attacker access to the host operating system. This issue has been addressed in version 4.4.6. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32679">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3933cefd8338fadd4dbd825b16144861</td>
+       <td>CVE-2023-32675</td>
+       <td>2023-05-19 20:15:09 </td>
+       <td>Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. In contracts with more than one regular nonpayable function, it is possible to send funds to the default function, even if the default function is marked `nonpayable`. This applies to contracts compiled with vyper versions prior to 0.3.8. This issue was fixed by the removal of the global `calldatasize` check in commit `02339dfda`. Users are advised to upgrade to version 0.3.8. Users unable to upgrade should avoid use of nonpayable default functions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32675">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1c2a7b33c57a03120e745829b6dea4df</td>
        <td>CVE-2023-33240</td>
        <td>2023-05-19 06:15:08 </td>
@@ -2516,11 +2548,35 @@
       </tr>
 
       <tr>
+       <td scope="row">7a9d87369e1b0769c0a0018a5f49fb3d</td>
+       <td>CVE-2023-32680</td>
+       <td>2023-05-18 23:15:09 </td>
+       <td>Metabase is an open source business analytics engine. To edit SQL Snippets, Metabase should have required people to be in at least one group with native query editing permissions to a database&acirc;&euro;&ldquo;but affected versions of Metabase didn't enforce that requirement. This lack of enforcement meant that: Anyone&acirc;&euro;&ldquo;including people in sandboxed groups&acirc;&euro;&ldquo;could edit SQL snippets. They could edit snippets via the API or, in the application UI, when editing the metadata for a model based on a SQL question, and people in sandboxed groups could edit a SQL snippet used in a query that creates their sandbox. If the snippet contained logic that restricted which data that person could see, they could potentially edit that snippet and change their level of data access. The permissions model for SQL snippets has been fixed in Metabase versions 0.46.3, 0.45.4, 0.44.7, 1.46.3, 1.45.4, and 1.44.7. Users are advised to upgrade. Users unable to upgrade should ensure that SQL queries used to create sandboxes exclude SQL snippets.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32680">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ca4fe9fdd2ba6495eef35a70e5e67579</td>
+       <td>CVE-2023-32515</td>
+       <td>2023-05-18 10:15:09 </td>
+       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Matt Gibbs Custom Field Suite plugin &lt;=&Acirc;&nbsp;2.6.2.1 versions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32515">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">81f602809d2c81804bb5ca1a8e30bad6</td>
        <td>CVE-2023-33204</td>
        <td>2023-05-18 08:15:08 </td>
        <td>sysstat through 12.7.2 allows a multiplication integer overflow in check_overflow in common.c. NOTE: this issue exists because of an incomplete fix for CVE-2022-39377.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33204">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e0127d48e3fc1c594b37d3bdbff5f9a5</td>
+       <td>CVE-2023-32767</td>
+       <td>2023-05-17 20:15:10 </td>
+       <td>The web interface of Symcon IP-Symcon before 6.3 (i.e., before 2023-05-12) allows a remote attacker to read sensitive files via .. directory-traversal sequences in the URL.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32767">详情</a></td>
       </tr>
 
       <tr>
@@ -2633,62 +2689,6 @@
        <td>2023-05-16 16:15:10 </td>
        <td>Jenkins Ansible Plugin 204.v8191fd551eb_f and earlier stores extra variables unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32982">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">51ce9eef67ac804ec833d0d1073f6270</td>
-       <td>CVE-2023-32981</td>
-       <td>2023-05-16 16:15:10 </td>
-       <td>An arbitrary file write vulnerability in Jenkins Pipeline Utility Steps Plugin 2.15.2 and earlier allows attackers able to provide crafted archives as parameters to create or replace arbitrary files on the agent file system with attacker-specified content.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32981">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f124f1fd7649771ed5ead07d1bea97d0</td>
-       <td>CVE-2023-32980</td>
-       <td>2023-05-16 16:15:10 </td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Email Extension Plugin allows attackers to make another user stop watching an attacker-specified job.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32980">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">57291922d8357fe81e6a90c163b05565</td>
-       <td>CVE-2023-32314</td>
-       <td>2023-05-15 20:15:09 </td>
-       <td>vm2 is a sandbox that can run untrusted code with Node's built-in modules. A sandbox escape vulnerability exists in vm2 for versions up to and including 3.9.17. It abuses an unexpected creation of a host object based on the specification of `Proxy`. As a result a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version `3.9.18` of `vm2`. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32314">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66bf06d989e3382c08618585d9b671cc</td>
-       <td>CVE-2023-32313</td>
-       <td>2023-05-15 20:15:09 </td>
-       <td>vm2 is a sandbox that can run untrusted code with Node's built-in modules. In versions 3.9.17 and lower of vm2 it was possible to get a read-write reference to the node `inspect` method and edit options for `console.log`. As a result a threat actor can edit options for the `console.log` command. This vulnerability was patched in the release of version `3.9.18` of `vm2`. Users are advised to upgrade. Users unable to upgrade may make the `inspect` method readonly with `vm.readonly(inspect)` after creating a vm.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32313">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">869fff0842bb53754117e0db01926c88</td>
-       <td>CVE-2023-32787</td>
-       <td>2023-05-15 15:15:12 </td>
-       <td>The OPC UA Legacy Java Stack before 6f176f2 enables an attacker to block OPC UA server applications via uncontrolled resource consumption so that they can no longer serve client applications.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32787">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0df1e7bcd84df1333f5e259ae3c76b27</td>
-       <td>CVE-2023-31986</td>
-       <td>2023-05-15 12:15:09 </td>
-       <td>A Command Injection vulnerability in Edimax Wireless Router N300 Firmware BR-6428NS_v4 allows attacker to execute arbitrary code via the setWAN function in /bin/webs without any limitations.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31986">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">82bc8d28d933d5e934dd5e2e3352abbd</td>
-       <td>CVE-2023-32306</td>
-       <td>2023-05-12 19:15:09 </td>
-       <td>Time Tracker is an open source time tracking system. A time-based blind injection vulnerability existed in Time Tracker reports in versions prior to 1.22.13.5792. This was happening because the `reports.php` page was not validating all parameters in POST requests. Because some parameters were not checked, it was possible to craft POST requests with malicious SQL for Time Tracker database. This issue is fixed in version 1.22.13.5792. As a workaround, use the fixed code in `ttReportHelper.class.php` from version 1.22.13.5792.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32306">详情</a></td>
       </tr>
 
      </tbody>
