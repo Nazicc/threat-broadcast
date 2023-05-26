@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41497 (CVE-2023-30199)</font><br/>[<b>披露时间</b>] 2023-05-26 08:37:27<br/>[<b>漏洞描述</b>] Prestashop路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41497'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41497</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41498 (CVE-2023-0007)</font><br/>[<b>披露时间</b>] 2023-05-26 08:37:29<br/>[<b>漏洞描述</b>] Palo Alto Networks PAN-OS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41498'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41498</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41499 (CVE-2023-2629)</font><br/>[<b>披露时间</b>] 2023-05-26 08:37:31<br/>[<b>漏洞描述</b>] Pimcore CSV注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41499'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41499</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27821</font><br/>[<b>披露时间</b>] 2023-05-26 09:37:48<br/>[<b>漏洞描述</b>] Databasir远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79668'>http://www.nsfocus.net/vulndb/79668</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48361</font><br/>[<b>披露时间</b>] 2023-05-26 09:37:48<br/>[<b>漏洞描述</b>] Huawei HarmonyOS路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79667'>http://www.nsfocus.net/vulndb/79667</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
