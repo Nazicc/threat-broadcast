@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-27 18:37:51 -->
+<!-- RELEASE TIME : 2023-05-27 19:38:04 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">af9fa3c45489895785d8a62f44ff78a9</td>
+       <td>CVE-2023-32695</td>
+       <td>2023-05-27 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>socket.io parser is a socket.io encoder and decoder written in JavaScript complying with version 5 of socket.io-protocol. A specially crafted Socket.IO packet can trigger an uncaught exception on the Socket.IO server, thus killing the Node.js process. A patch has been released in version 4.2.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32695">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f6991874dbb8bc07bfc69ece38c6a845</td>
        <td>CVE-2023-2928</td>
        <td>2023-05-27 10:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-05-26 21:15:00 <img src="imgs/new.gif" /></td>
        <td>Craft is a CMS for creating custom digital experiences on the web.The platform does not filter input and encode output in Quick Post validation error message, which can deliver an XSS payload. Old CVE fixed the XSS in label HTML but didn’t fix it when clicking save. This issue was patched in version 4.4.6.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">73f81e0278adbedefcea37ee8ea0ca19</td>
-       <td>CVE-2023-33187</td>
-       <td>2023-05-26 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Highlight is an open source, full-stack monitoring platform. Highlight may record passwords on customer deployments when a password html input is switched to `type="text"` via a javascript "Show Password" button. This differs from the expected behavior which always obfuscates `type="password"` inputs. A customer may assume that switching to `type="text"` would also not record this input; hence, they would not add additional `highlight-mask` css-class obfuscation to this part of the DOM, resulting in unintentional recording of a password value when a `Show Password` button is used. This issue was patched in version 6.0.0.This patch tracks changes to the `type` attribute of an input to ensure an input that used to be a `type="password"` continues to be obfuscated.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33187">详情</a></td>
       </tr>
 
      </tbody>
