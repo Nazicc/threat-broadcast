@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-05-27 12:49:39 -->
+<!-- RELEASE TIME : 2023-05-27 13:37:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f6991874dbb8bc07bfc69ece38c6a845</td>
+       <td>CVE-2023-2928</td>
+       <td>2023-05-27 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in DedeCMS up to 5.7.106. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file uploads/dede/article_allowurl_edit.php. The manipulation of the argument allurls leads to code injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-230083.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2928">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5a0fe42ecbd7b8ff59719abffccde66b</td>
        <td>CVE-2023-2927</td>
        <td>2023-05-27 09:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-05-26 21:15:00 <img src="imgs/new.gif" /></td>
        <td>Highlight is an open source, full-stack monitoring platform. Highlight may record passwords on customer deployments when a password html input is switched to `type="text"` via a javascript "Show Password" button. This differs from the expected behavior which always obfuscates `type="password"` inputs. A customer may assume that switching to `type="text"` would also not record this input; hence, they would not add additional `highlight-mask` css-class obfuscation to this part of the DOM, resulting in unintentional recording of a password value when a `Show Password` button is used. This issue was patched in version 6.0.0.This patch tracks changes to the `type` attribute of an input to ensure an input that used to be a `type="password"` continues to be obfuscated.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33187">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">224574d0288d701a691d5f3823fde411</td>
-       <td>CVE-2023-33185</td>
-       <td>2023-05-26 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Django-SES is a drop-in mail backend for Django. The django_ses library implements a mail backend for Django using AWS Simple Email Service. The library exports the `SESEventWebhookView class` intended to receive signed requests from AWS to handle email bounces, subscriptions, etc. These requests are signed by AWS and are verified by django_ses, however the verification of this signature was found to be flawed as it allowed users to specify arbitrary public certificates. This issue was patched in version 3.5.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33185">详情</a></td>
       </tr>
 
      </tbody>
