@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2955</font><br/>[<b>披露时间</b>] 2023-05-29 07:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, was found in SourceCodester Students Online Internship Timesheet System 1.0. Affected is an unknown function of the file rendered_report.php of the component GET Parameter Handler. The manipulation of the argument sid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-230142 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2955'>https://www.tenable.com/cve/CVE-2023-2955</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2954</font><br/>[<b>披露时间</b>] 2023-05-29 07:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository liangliangyy/djangoblog prior to master.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2954'>https://www.tenable.com/cve/CVE-2023-2954</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2808</font><br/>[<b>披露时间</b>] 2023-05-29 10:15:00<br/>[<b>漏洞描述</b>] Mattermost fails to normalize UTF confusable characters when determining if a preview should be generated for a hyperlink, allowing an attacker to trigger link preview on a disallowed domain using a specially crafted link.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2808'>https://www.tenable.com/cve/CVE-2023-2808</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
