@@ -1,14 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33246</font><br/>[<b>披露时间</b>] 2023-05-23 07:37:16<br/>[<b>漏洞描述</b>] Apache RocketMQ 远程代码执行漏洞（CVE-2023-33246）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-33246'>https://avd.aliyun.com/detail?id=AVD-2023-33246</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-41884 (CVE-2023-21103)</font><br/>[<b>披露时间</b>] 2023-05-30 07:37:54<br/>[<b>漏洞描述</b>] Google Android拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-41884'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-41884</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27904</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Jenkins和Jenkins LTS信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79837'>http://www.nsfocus.net/vulndb/79837</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27898</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Jenkins跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79836'>http://www.nsfocus.net/vulndb/79836</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-46</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] WordPress Widgets for WooCommerce Products on Elementor Plugin跨站脚本漏洞（CVE-2022-46<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79835'>http://www.nsfocus.net/vulndb/79835</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-45423</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Pev缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79834'>http://www.nsfocus.net/vulndb/79834</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0354</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Akuvox E11信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79833'>http://www.nsfocus.net/vulndb/79833</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25616</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] SAP Business Objects Business Intelligence Platform代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79832'>http://www.nsfocus.net/vulndb/79832</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26461</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] SAP NetWeaver信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79831'>http://www.nsfocus.net/vulndb/79831</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27399</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79830'>http://www.nsfocus.net/vulndb/79830</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-46875</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Ez Systems eZ Platform Ibexa Kernel跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79829'>http://www.nsfocus.net/vulndb/79829</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25144</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Trend Micro Apex One访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79828'>http://www.nsfocus.net/vulndb/79828</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-2259</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] Octopus Deploy信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79827'>http://www.nsfocus.net/vulndb/79827</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47481</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] UNISOC Chipsets授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79826'>http://www.nsfocus.net/vulndb/79826</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1372</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] WordPress WH Testimonials Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79825'>http://www.nsfocus.net/vulndb/79825</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47461</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] UNISOC Chipsets授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79824'>http://www.nsfocus.net/vulndb/79824</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-47455</font><br/>[<b>披露时间</b>] 2023-05-31 09:37:52<br/>[<b>漏洞描述</b>] UNISOC Chipsets越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/79823'>http://www.nsfocus.net/vulndb/79823</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
