@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3021</font><br/>[<b>披露时间</b>] 2023-05-31 17:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository mkucej/i-librarian-free prior to 5.10.4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3021'>https://www.tenable.com/cve/CVE-2023-3021</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3020</font><br/>[<b>披露时间</b>] 2023-05-31 17:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Reflected in GitHub repository mkucej/i-librarian-free prior to 5.10.4.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3020'>https://www.tenable.com/cve/CVE-2023-3020</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29747</font><br/>[<b>披露时间</b>] 2023-05-31 16:15:00<br/>[<b>漏洞描述</b>] Story Saver for Instragram - Video Downloader 1.0.6 for Android exists exposed component, the component provides the method to modify the SharedPreference file. The attacker can use the method to modify the data in any SharedPreference file, these data will be loaded into the memory when the application is opened. Depending on how the data is used, this can result in various attack consequences, such as ad display exceptions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-29747'>https://www.tenable.com/cve/CVE-2023-29747</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33941</font><br/>[<b>披露时间</b>] 2023-05-24 15:15:09 <br/>[<b>漏洞描述</b>] Multiple cross-site scripting (XSS) vulnerabilities in the Plugin for OAuth 2.0 module's OAuth2ProviderApplicationRedirect class in Liferay Portal 7.4.3.41 through 7.4.3.52, and Liferay DXP 7.4 update 41 through 52 allow remote attackers to inject arbitrary web script or HTML via the (1) code, or (2) error parameter.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33941'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33941</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33938</font><br/>[<b>披露时间</b>] 2023-05-24 14:15:09 <br/>[<b>漏洞描述</b>] Cross-site scripting (XSS) vulnerability in the App Builder module's custom object details page in Liferay Portal 7.3.0 through 7.4.0, and Liferay DXP 7.3 before update 14 allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into an App Builder custom object's `Name` field.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33938'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33938</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
