@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-04 16:38:55 -->
+<!-- RELEASE TIME : 2023-06-04 21:37:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">71f64c51905e22ec60e72cbfda5b09ab</td>
+       <td>CVE-2013-10028</td>
+       <td>2023-06-04 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in EELV Newsletter Plugin 2.x on WordPress. It has been rated as problematic. Affected by this issue is the function style_newsletter of the file lettreinfo.php. The manipulation of the argument email leads to cross site scripting. The attack may be launched remotely. The name of the patch is 3339b42316c5edf73e56eb209b6a3bb3e868d6ed. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230660.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2013-10028">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">924421c37fcc38b3e8c6394076d46112</td>
        <td>CVE-2013-10027</td>
        <td>2023-06-04 14:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-06-02 23:15:00</td>
        <td>Consul and Consul Enterprise allowed any user with service:write permissions to use Envoy extensions configured via service-defaults to patch remote proxy instances that target the configured service, regardless of whether the user has permission to modify the service(s) corresponding to those modified proxies.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2816">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">92d1daddd7f333cbe7efef0e9f86f3cb</td>
-       <td>CVE-2023-1297</td>
-       <td>2023-06-02 23:15:00</td>
-       <td>Consul and Consul Enterprise's cluster peering implementation contained a flaw whereby a peer cluster with service of the same name as a local service could corrupt Consul state, resulting in denial of service. This vulnerability was resolved in Consul 1.14.5, and 1.15.3</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1297">详情</a></td>
       </tr>
 
      </tbody>
@@ -2468,6 +2468,14 @@
       </tr>
 
       <tr>
+       <td scope="row">b1c6fc14bbbe8ebd114070bcd7b69a25</td>
+       <td>CVE-2023-33641</td>
+       <td>2023-05-31 21:15:10 </td>
+       <td>H3C Magic R300 version R300-2100MV100R004 was discovered to contain a stack overflow via the AddMacList interface at /goform/aspForm.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33641">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">60427cf395b6eddf3597e8170209b46e</td>
        <td>CVE-2023-34226</td>
        <td>2023-05-31 14:15:10 </td>
@@ -2681,14 +2689,6 @@
        <td>2023-05-26 14:15:10 </td>
        <td>Synapse is an open-source Matrix homeserver written and maintained by the Matrix.org Foundation. A malicious user on a Synapse homeserver X with permission to create certain state events can disable outbound federation from X to an arbitrary homeserver Y. Synapse instances with federation disabled are not affected. In versions of Synapse up to and including 1.73, Synapse did not limit the size of `invite_room_state`, meaning that it was possible to create an arbitrarily large invite event. Synapse 1.74 refuses to create oversized `invite_room_state` fields. Server operators should upgrade to Synapse 1.74 or newer urgently.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32323">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5baea3f68d1e276e53a6815f62a6ade3</td>
-       <td>CVE-2023-32074</td>
-       <td>2023-05-25 23:15:09 </td>
-       <td>user_oidc app is an OpenID Connect user backend for Nextcloud. Authentication can be broken/bypassed in user_oidc app. It is recommended that the Nextcloud user_oidc app is upgraded to 1.3.2</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32074">详情</a></td>
       </tr>
 
      </tbody>
