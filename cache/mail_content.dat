@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32582</font><br/>[<b>披露时间</b>] 2023-06-03 12:15:00<br/>[<b>漏洞描述</b>] Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Kyle Maurer Don8 plugin <= 0.4 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32582'>https://www.tenable.com/cve/CVE-2023-32582</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3086</font><br/>[<b>披露时间</b>] 2023-06-03 12:15:00<br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.9.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3086'>https://www.tenable.com/cve/CVE-2023-3086</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-43871 (CVE-2023-2955)</font><br/>[<b>披露时间</b>] 2023-06-02 02:28:00<br/>[<b>漏洞描述</b>] Students Online Internship Timesheet System sql注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-43871'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-43871</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-43872 (CVE-2023-2858)</font><br/>[<b>披露时间</b>] 2023-06-02 02:28:03<br/>[<b>漏洞描述</b>] Wireshark缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-43872'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-43872</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
