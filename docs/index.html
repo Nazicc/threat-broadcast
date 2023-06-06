@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-06 15:38:07 -->
+<!-- RELEASE TIME : 2023-06-06 16:40:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">0942dde853f1a94411c13d78ae39a632</td>
+       <td>CVE-2023-32545</td>
+       <td>2023-06-06 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>The affected application lacks proper validation of user-supplied data when parsing project files (e.g., CSP). This could lead to an out-of-bounds read in Cscape!CANPortMigration. An attacker could leverage this vulnerability to execute arbitrary code in the context of the current process.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32545">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e88a6374c6b1ae74fd3274ae74d04f8</td>
+       <td>CVE-2023-30948</td>
+       <td>2023-06-06 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A security defect in Foundry's Comments functionality resulted in the retrieval of attachments to comments not being gated by additional authorization checks. This could enable an authenticated user to inject a prior discovered attachment UUID into other arbitrary comments to discover it's content.This defect was fixed in Foundry Comments 2.249.0, and a patch was rolled out to affected Foundry environments. No further intervention is required at this time.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30948">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d07feef9a8fb0b7bf602957501df852f</td>
+       <td>CVE-2023-33533</td>
+       <td>2023-06-06 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>Netgear D6220 with Firmware Version 1.0.0.80, D8500 with Firmware Version 1.0.3.60, R6700 with Firmware Version 1.0.2.26, and R6900 with Firmware Version 1.0.2.26 are vulnerable to Command Injection. If an attacker gains web management privileges, they can inject commands into the post request parameters, gaining shell privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33533">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">800bbcab8140db391466b61b95d7cb22</td>
+       <td>CVE-2023-33532</td>
+       <td>2023-06-06 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is a command injection vulnerability in the Netgear R6250 router with Firmware Version 1.0.4.48. If an attacker gains web management privileges, they can inject commands into the post request parameters, thereby gaining shell privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33532">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c6f41c43d7692247a7754bffc7561b6</td>
+       <td>CVE-2023-33457</td>
+       <td>2023-06-06 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Sogou Workflow v0.10.6, memcpy a negtive size in URIParser::parse , may cause buffer-overflow and crash.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33457">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0ba8771eb474485951cf00a1d8368c58</td>
+       <td>CVE-2023-31569</td>
+       <td>2023-06-06 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>TOTOLINK X5000R V9.1.0cu.2350_B20230313 was discovered to contain a command injection via the setWanCfg function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31569">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1e638fd57c816c53a52fc312233cd59b</td>
+       <td>CVE-2023-3123</td>
+       <td>2023-06-06 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** Duplicate Assignment.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3123">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">629728ff0c212132d2f24df8ef67e93b</td>
        <td>CVE-2023-33530</td>
        <td>2023-06-06 13:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-06-06 08:15:00 <img src="imgs/new.gif" /></td>
        <td>Transient DOS in WLAN Firmware while processing the received beacon or probe response frame.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21658">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b1d56d313ce6a4b121e1a27ee7eecbf0</td>
-       <td>CVE-2023-21657</td>
-       <td>2023-06-06 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Memoru corruption in Audio when ADSP sends input during record use case.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21657">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec07b485cc5ef3dd075c34b60d07a605</td>
-       <td>CVE-2023-21656</td>
-       <td>2023-06-06 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Memory corruption in WLAN HOST while receiving an WMI event from firmware.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21656">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3f3c1cf56839f2b598fba47d26351cb</td>
-       <td>CVE-2023-21632</td>
-       <td>2023-06-06 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>Memory corruption in Automotive GPU while querying a gsl memory node.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8db5daf4fdfdc419fe39b0c30c7109a5</td>
-       <td>CVE-2018-25087</td>
-       <td>2023-06-06 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as problematic was found in Arborator Server. This vulnerability affects the function start of the file project.cgi. The manipulation of the argument project leads to denial of service. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The patch is identified as cdbdbcbd491db65e9d697ab4365605fdfab1a604. It is recommended to apply a patch to fix this issue. VDB-230662 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-25087">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">397ccfc1c2732b9ed7aff99133173cbf</td>
-       <td>CVE-2023-2546</td>
-       <td>2023-06-06 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>The WP User Switch plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 1.0.2. This is due to incorrect authentication checking in the 'wpus_allow_user_to_admin_bar_menu' function with the 'wpus_who_switch' cookie value. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2546">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">da15bac49da00705063a0c3fae46f215</td>
-       <td>CVE-2017-20185</td>
-       <td>2023-06-06 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>** UNSUPPPORTED WHEN ASSIGNED ** ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in Fuzzy SWMP. It has been rated as problematic. This issue affects some unknown processing of the file swmp.php of the component GET Parameter Handler. The manipulation of the argument theme leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. The identifier of the patch is 792bcab637cb8c3bd251d8fc8771512c5329a93e. It is recommended to apply a patch to fix this issue. The identifier VDB-230669 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20185">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b330e51d77bc18a2e205ed7ab421dbdc</td>
-       <td>CVE-2015-10117</td>
-       <td>2023-06-06 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as problematic, was found in Gravity Forms DPS PxPay Plugin up to 1.4.2 on WordPress. Affected is an unknown function. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.4.3 is able to address this issue. The name of the patch is 5966a5e6343e3d5610bdfa126a5cfbae95e629b6. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-230664.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2015-10117">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f6e4cbbdcd0b647713fbd54f99a4beec</td>
+       <td>CNVD-2023-43889 (CVE-2023-20992)</td>
+       <td>2023-06-07 16:40:05 <img src="imgs/new.gif" /></td>
+       <td>Google Pixel btm_iso_impl.h文件缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-43889">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b4b0eaf9579737cbf3fc5931561198ab</td>
        <td>CNVD-2023-43876 (CVE-2023-2721)</td>
        <td>2023-06-06 21:37:15 <img src="imgs/new.gif" /></td>
@@ -1047,14 +1055,6 @@
        <td>2023-06-02 16:41:46</td>
        <td>NETGEAR SRX5308跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-43027">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">392c3f9ea568735f02a45ee37c2b28f8</td>
-       <td>CNVD-2023-43028 (CVE-2023-2386)</td>
-       <td>2023-06-02 16:41:43</td>
-       <td>NETGEAR SRX5308跨站脚本漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-43028">详情</a></td>
       </tr>
 
      </tbody>
