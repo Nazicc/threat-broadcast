@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-08 10:37:57 -->
+<!-- RELEASE TIME : 2023-06-08 15:37:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">35d05b8258eb9572720f765826796f23</td>
+       <td>CVE-2023-33657</td>
+       <td>2023-06-08 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>A use-after-free vulnerability exists in NanoMQ 0.17.2. The vulnerability can be triggered by calling the function nni_mqtt_msg_get_publish_property() in the file mqtt_msg.c. This vulnerability is caused by improper data tracing, and an attacker could exploit it to cause a denial of service attack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33657">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dbeed094190bec8edbfc266a17fe2525</td>
+       <td>CVE-2023-33660</td>
+       <td>2023-06-08 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>A heap buffer overflow vulnerability exists in NanoMQ 0.17.2. The vulnerability can be triggered by calling the function copyn_str() in the file mqtt_parser.c. An attacker could exploit this vulnerability to cause a denial of service attack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33660">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">befe1050e75ab5034dee04bcfd0dc3f7</td>
+       <td>CVE-2023-33658</td>
+       <td>2023-06-08 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>A heap buffer overflow vulnerability exists in NanoMQ 0.17.2. The vulnerability can be triggered by calling the function nni_msg_get_pub_pid() in the file message.c. An attacker could exploit this vulnerability to cause a denial of service attack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33658">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2b3f65ab1c0113a6f016ed1bf59a2710</td>
        <td>CVE-2023-34969</td>
        <td>2023-06-08 03:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-06-07 21:15:00 <img src="imgs/new.gif" /></td>
        <td>FANUC ROBOGUIDE-HandlingPRO Versions 9 Rev.ZD and prior is vulnerable to a path traversal, which could allow an attacker to remotely read files on the system running the affected software.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1864">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c001c4fe7b7d015b1b569f1e53e276b9</td>
-       <td>CVE-2023-34234</td>
-       <td>2023-06-07 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>OpenZeppelin Contracts is a library for smart contract development. By frontrunning the creation of a proposal, an attacker can become the proposer and gain the ability to cancel it. The attacker can do this repeatedly to try to prevent a proposal from being proposed at all. This impacts the `Governor` contract in v4.9.0 only, and the `GovernorCompatibilityBravo` contract since v4.3.0. This problem has been patched in 4.9.1 by introducing opt-in frontrunning protection. Users are advised to upgrade. Users unable to upgrade may submit the proposal creation transaction to an endpoint with frontrunning protection as a workaround.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34234">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">631999281700f5c3afaa1df959772c46</td>
-       <td>CVE-2023-34109</td>
-       <td>2023-06-07 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>zxcvbn-ts is an open source password strength estimator written in typescript. This vulnerability affects users running on the nodeJS platform which are using the second argument of the zxcvbn function. It can result in an unbounded resource consumption as the user inputs array is extended with every function call. Browsers are impacted, too but a single user need to do a lot of input changes so that it affects the browser, while the node process gets the inputs of every user of a platform and can be killed that way. This problem has been patched in version 3.0.2. Users are advised to upgrade. Users unable to upgrade should stop using the second argument of the zxcvbn function and use the zxcvbnOptions.setOptions function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34109">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">25168b7838780c4aa6061d4cbf899f24</td>
-       <td>CVE-2023-34108</td>
-       <td>2023-06-07 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>mailcow is a mail server suite based on Dovecot, Postfix and other open source software, that provides a modern web UI for user/server administration. A vulnerability has been discovered in mailcow which allows an attacker to manipulate internal Dovecot variables by using specially crafted passwords during the authentication process. The issue arises from the behavior of the `passwd-verify.lua` script, which is responsible for verifying user passwords during login attempts. Upon a successful login, the script returns a response in the format of "password=<valid-password>", indicating the successful authentication. By crafting a password with additional key-value pairs appended to it, an attacker can manipulate the returned string and influence the internal behavior of Dovecot. For example, using the password "123 mail_crypt_save_version=0" would cause the `passwd-verify.lua` script to return the string "password=123 mail_crypt_save_version=0". Consequently, Dovecot will interpret this string and set the internal variables accordingly, leading to unintended consequences. This vulnerability can be exploited by an authenticated attacker who has the ability to set their own password. Successful exploitation of this vulnerability could result in unauthorized access to user accounts, bypassing security controls, or other malicious activities. This issue has been patched in version `2023-05a`. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34108">详情</a></td>
       </tr>
 
      </tbody>
@@ -1460,6 +1460,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">342a093b70db00a1afc119c41c976e43</td>
+       <td></td>
+       <td>2023-06-08 21:50:48 <img src="imgs/new.gif" /></td>
+       <td>畅捷通T+远程命令执行漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8339">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0ed26b8b1f14f413fe83ee1b5133a231</td>
        <td>CVE-2023-2442</td>
        <td>2023-06-06 18:20:16</td>
@@ -1689,14 +1697,6 @@
        <td>2023-04-19 13:58:04</td>
        <td>Oracle多个产品存在高危漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8190">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">25293e22018bd8e7949409daacb1d553</td>
-       <td></td>
-       <td>2023-04-17 11:32:11</td>
-       <td>Apache Solr 代码执行漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8186">详情</a></td>
       </tr>
 
      </tbody>
@@ -1944,6 +1944,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1d1223a6bf2abb58b57849e293aaad11</td>
+       <td>CVE-2023-2983</td>
+       <td>2023-06-08 20:31:15 <img src="imgs/new.gif" /></td>
+       <td>PIMCORE PIMCORE Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e0b70352c87a4e0dbc4fbac354b1f28a">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f0d53ee317be3e9c1746b58a70a3610b</td>
+       <td>CVE-2023-20884</td>
+       <td>2023-06-08 20:30:22 <img src="imgs/new.gif" /></td>
+       <td>VMWARE Multiple product Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ecd0ec3e715e4a44a07ca891a5f0dbae">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3bb60a947085288bca7e3874f06a5648</td>
+       <td>CVE-2023-2984</td>
+       <td>2023-06-08 20:30:08 <img src="imgs/new.gif" /></td>
+       <td>PIMCORE PIMCORE Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=edec4465003b422f91bb8b8111a47434">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">151dcc31642609b9d596d9e6db6bf9aa</td>
        <td>CVE-2023-2999</td>
        <td>2023-06-07 20:29:10 <img src="imgs/new.gif" /></td>
@@ -2157,30 +2181,6 @@
        <td>2023-06-03 20:32:47</td>
        <td>OPEN-EMR OPENEMR Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7f04391168d849c689105e959996bda3">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4bc8ebf63ecef32e2f57dcb0252c5351</td>
-       <td>CVE-2023-2950</td>
-       <td>2023-06-03 20:32:40</td>
-       <td>OPEN-EMR OPENEMR Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c25be19530c14c3d9e9d57a2a841e4ac">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b32596e86b8174d741ff78a081cb5b4f</td>
-       <td>CVE-2023-2942</td>
-       <td>2023-06-03 20:32:34</td>
-       <td>OPEN-EMR OPENEMR Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=71b449bf9a7b408d8f0248087d4165f5">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5ae236ac774e0fec9c94b3420be9a7fb</td>
-       <td>CVE-2022-45366</td>
-       <td>2023-06-03 20:32:27</td>
-       <td>WP-SLIMSTAT SLIMSTAT_ANALYTICS Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=cdece9a650934dc893cef970bddc9d7e">详情</a></td>
       </tr>
 
      </tbody>
@@ -2484,6 +2484,14 @@
       </tr>
 
       <tr>
+       <td scope="row">ee216222e232edc981e5fadd2c89f77d</td>
+       <td>CVE-2023-34257</td>
+       <td>2023-05-31 20:15:10 </td>
+       <td>** DISPUTED ** An issue was discovered in BMC Patrol through 23.1.00. The agent's configuration can be remotely modified (and, by default, authentication is not required). Some configuration fields related to SNMP (e.g., masterAgentName or masterAgentStartLine) result in code execution when the agent is restarted. NOTE: the vendor's perspective is &quot;These are not vulnerabilities for us as we have provided the option to implement the authentication.&quot;</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34257">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7a12adfcb75460590caf1e0ed245c6a9</td>
        <td>CVE-2023-34088</td>
        <td>2023-05-31 19:15:27 </td>
@@ -2681,14 +2689,6 @@
        <td>2023-05-28 19:15:09 </td>
        <td>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in One Rank Math SEO PRO plugin &lt;=&Acirc;&nbsp;3.0.35 versions.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32800">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1fc5913dac7e535deb84572fa0cf689c</td>
-       <td>CVE-2023-33931</td>
-       <td>2023-05-28 18:15:09 </td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in Ciprian Popescu YouTube Playlist Player plugin &lt;=&Acirc;&nbsp;4.6.4 versions.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33931">详情</a></td>
       </tr>
 
      </tbody>
