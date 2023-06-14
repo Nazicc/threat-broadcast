@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-14 15:37:47 -->
+<!-- RELEASE TIME : 2023-06-14 16:41:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6ca29a4b1a2b0edfb14608f299aa374e</td>
+       <td>CVE-2023-34540</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Langchain 0.0.171 is vulnerable to Arbitrary Code Execution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34540">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7316d134413f7f12517e62d8c6b05195</td>
+       <td>CVE-2023-34101</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Contiki-NG is an operating system for internet of things devices. In version 4.8 and prior, when processing ICMP DAO packets in the `dao_input_storing` function, the Contiki-NG OS does not verify that the packet buffer is big enough to contain the bytes it needs before accessing them. Up to 16 bytes can be read out of bounds in the `dao_input_storing` function. An attacker can truncate an ICMP packet so that it does not contain enough data, leading to an out-of-bounds read on these lines. The problem has been patched in the "develop" branch of Contiki-NG, and is expected to be included in release 4.9. As a workaround, one can apply the changes in Contiki-NG pull request #2435 to patch the system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34101">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5b65e002ffd4ca6429d960375c1d2ea4</td>
+       <td>CVE-2023-32031</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Exchange Server Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32031">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9ecdbd3a1809096f767c5e2e7a85adf</td>
+       <td>CVE-2023-32030</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>.NET and Visual Studio Denial of Service Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32030">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">17848afa750ca23a7e60e2cb2209ecbb</td>
+       <td>CVE-2023-32024</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Power Apps Spoofing Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32024">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4cdb5330b1293fd9d27ae81e0e2c3c46</td>
+       <td>CVE-2023-29337</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>NuGet Client Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29337">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">957bd43c68960d10daba545a574f6c4e</td>
+       <td>CVE-2023-29331</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>.NET, .NET Framework, and Visual Studio Denial of Service Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29331">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bf2163ebfc137d0fc6c5ec937a333176</td>
+       <td>CVE-2023-29326</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>.NET Framework Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29326">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7baa8bb05d00ef036ef828d5bad1d6da</td>
+       <td>CVE-2023-28310</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Exchange Server Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28310">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">567b5003b47143868d4f39da722318f9</td>
+       <td>CVE-2023-24936</td>
+       <td>2023-06-14 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>.NET, .NET Framework, and Visual Studio Elevation of Privilege Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24936">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">953a6c3e8ee0f13c13c51386547d9006</td>
        <td>CVE-2023-35149</td>
        <td>2023-06-14 13:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-06-14 08:15:00 <img src="imgs/new.gif" /></td>
        <td>Improper Input Validation vulnerability in Apache Software Foundation Apache Traffic Server.  The configuration option proxy.config.http.push_method_enabled didn't function.  However, by default the PUSH method is blocked in the ip_allow configuration file.This issue affects Apache Traffic Server: from 8.0.0 through 9.2.0.8.x users should upgrade to 8.1.7 or later versions9.x users should upgrade to 9.2.1 or later versions</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30631">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3fe8cc5bd017f20ef7f5d75d4742259a</td>
-       <td>CVE-2023-24937</td>
-       <td>2023-06-14 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>Windows CryptoAPI  Denial of Service Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24937">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">81503cf1491b9349f771ab17c992ce5b</td>
-       <td>CVE-2023-3203</td>
-       <td>2023-06-14 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>The MStore API plugin for WordPress is vulnerable to Cross-Site Request Forgery due to missing nonce validation on the mstore_update_limit_product function. This makes it possible for unauthenticated attackers to update limit the number of product per category to use cache data in home screen via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3203">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14f800bbf51fcac361f9b4777406f778</td>
-       <td>CVE-2023-3201</td>
-       <td>2023-06-14 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>The MStore API plugin for WordPress is vulnerable to Cross-Site Request Forgery due to missing nonce validation on the mstore_update_new_order_title function. This makes it possible for unauthenticated attackers to update new order title via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3201">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2d661ed92559f7049510cc6dacda6c12</td>
-       <td>CVE-2023-3200</td>
-       <td>2023-06-14 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>The MStore API plugin for WordPress is vulnerable to Cross-Site Request Forgery due to missing nonce validation on the mstore_update_new_order_message function. This makes it possible for unauthenticated attackers to update new order message via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3200">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2cd7f438ae0db482efa7bd91458d66ba</td>
-       <td>CVE-2023-3198</td>
-       <td>2023-06-14 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>The MStore API plugin for WordPress is vulnerable to Cross-Site Request Forgery due to missing nonce validation on the mstore_update_status_order_message function. This makes it possible for unauthenticated attackers to update status order message via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3198">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e83a8e119220906c570e7985828eb10</td>
-       <td>CVE-2023-33146</td>
-       <td>2023-06-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Office Remote Code Execution Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33146">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cae50100225988b8342f7f740c7f8eea</td>
-       <td>CVE-2023-33145</td>
-       <td>2023-06-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Edge (Chromium-based) Information Disclosure Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33145">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1af14ec4f9177d0b33e826119f6e2a92</td>
-       <td>CVE-2023-33144</td>
-       <td>2023-06-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Visual Studio Code Spoofing Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33144">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">605d35e0cae4134b81252c94c5ff5e8a</td>
-       <td>CVE-2023-33142</td>
-       <td>2023-06-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft SharePoint Server Elevation of Privilege Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33142">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1b266b60cd65e25f020790d523dcae70</td>
-       <td>CVE-2023-33140</td>
-       <td>2023-06-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft OneNote Spoofing Vulnerability</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33140">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f25da79c19affcfbbd77022dc567e46d</td>
+       <td>CNVD-2023-46125 (CVE-2023-2726)</td>
+       <td>2023-06-15 16:41:17 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46125">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9e42b179c6deea950d578f5c052f6b80</td>
+       <td>CNVD-2023-46124 (CVE-2022-47446)</td>
+       <td>2023-06-15 16:41:15 <img src="imgs/new.gif" /></td>
+       <td>WordPress Store Locator for WordPress with Google Maps &ndash; LotsOfLocales plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46124">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3346c10ca06b8cc0d6d6c02e9a84801c</td>
+       <td>CNVD-2023-46123 (CVE-2021-0877)</td>
+       <td>2023-06-15 16:41:12 <img src="imgs/new.gif" /></td>
+       <td>Google Android存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46123">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28a513a363b6f655d62bc816d1eaeae8</td>
+       <td>CNVD-2023-46122 (CVE-2023-22693)</td>
+       <td>2023-06-15 16:41:09 <img src="imgs/new.gif" /></td>
+       <td>WordPress WP Google Tag Manager plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46122">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dc0f5f0e1df6dbd9422a9013fa965852</td>
+       <td>CNVD-2023-46121 (CVE-2023-33926)</td>
+       <td>2023-06-15 16:41:07 <img src="imgs/new.gif" /></td>
+       <td>WordPress Easy Google Maps plugin跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46121">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6da6a893971480804acead9164bbdc0d</td>
+       <td>CNVD-2023-46120 (CVE-2023-2929)</td>
+       <td>2023-06-15 16:41:05 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome Swiftshader组件越界写入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46120">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6b0ca78f05b43149244a7232d028aa8f</td>
+       <td>CNVD-2023-46119 (CVE-2023-2934)</td>
+       <td>2023-06-15 16:41:02 <img src="imgs/new.gif" /></td>
+       <td>Google Chrome Mojo组件代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46119">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2a058d18b455d32dc1116fb5eea4fcc9</td>
        <td>CNVD-2023-46116 (CVE-2023-2935)</td>
        <td>2023-06-14 16:40:52 <img src="imgs/new.gif" /></td>
@@ -999,62 +1055,6 @@
        <td>2023-06-12 10:37:57</td>
        <td>Adobe Experience Manager URL重定向漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45910">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9c96dec34d884e3841e54353f18e2535</td>
-       <td>CNVD-2023-45909 (CVE-2023-22258)</td>
-       <td>2023-06-12 10:37:54</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45909">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">309e5365b9d4a15d8ffed16307b620fb</td>
-       <td>CNVD-2023-45908 (CVE-2023-22259)</td>
-       <td>2023-06-12 10:37:52</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45908">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9081163736c0182c5982ac9c6a4c95bc</td>
-       <td>CNVD-2023-45906 (CVE-2023-22261)</td>
-       <td>2023-06-12 10:37:50</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45906">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d1ad4db6eb6f0ed2529cebb08ac4712</td>
-       <td>CNVD-2023-45905 (CVE-2023-22262)</td>
-       <td>2023-06-12 09:37:28</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45905">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9dc87aaa87654f68bc93f855f1f009d2</td>
-       <td>CNVD-2023-45904 (CVE-2023-22263)</td>
-       <td>2023-06-12 09:37:26</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45904">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">171b0bf25fba00c4217c63fd9d7df0ee</td>
-       <td>CNVD-2023-45903 (CVE-2023-22264)</td>
-       <td>2023-06-12 09:37:24</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45903">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">86d806410b0b02db6624ac5ffdee8759</td>
-       <td>CNVD-2023-45902 (CVE-2023-22265)</td>
-       <td>2023-06-12 09:37:21</td>
-       <td>Adobe Experience Manager URL重定向漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-45902">详情</a></td>
       </tr>
 
      </tbody>
@@ -2452,6 +2452,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f6c2e07c4f1a42e89dd2a837c54c28f5</td>
+       <td>CVE-2023-34566</td>
+       <td>2023-06-08 15:15:09 </td>
+       <td>Tenda AC10 v4 US_AC10V4.0si_V16.03.10.13_cn was discovered to contain a stack overflow via parameter time at /goform/saveParentControlInfo.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34566">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6ef509688c957c88178285043d9b53bc</td>
        <td>CVE-2023-34104</td>
        <td>2023-06-06 18:15:11 </td>
@@ -2681,14 +2689,6 @@
        <td>2023-06-02 17:15:13 </td>
        <td>A type checking bug would have led to invalid code being compiled. This vulnerability affects Firefox &lt; 113, Firefox ESR &lt; 102.11, and Thunderbird &lt; 102.11.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32211">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a210c67feb73386b873b1500b36a1986</td>
-       <td>CVE-2023-32207</td>
-       <td>2023-06-02 17:15:13 </td>
-       <td>A missing delay in popup notifications could have made it possible for an attacker to trick a user into granting permissions. This vulnerability affects Firefox &lt; 113, Firefox ESR &lt; 102.11, and Thunderbird &lt; 102.11.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32207">详情</a></td>
       </tr>
 
      </tbody>
