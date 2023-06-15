@@ -1,20 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29802</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] TOTOLINK X18命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80302'>http://www.nsfocus.net/vulndb/80302</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26559</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Syncro Soft Oxygen XML Web Author和Oxygen Content Fusion目录遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80301'>http://www.nsfocus.net/vulndb/80301</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27193</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] DUALSPACE权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80300'>http://www.nsfocus.net/vulndb/80300</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26123</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] raylib跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80299'>http://www.nsfocus.net/vulndb/80299</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1326</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Canonical Apport权限管理错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80298'>http://www.nsfocus.net/vulndb/80298</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26411</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Adobe Substance 3D Designer越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80297'>http://www.nsfocus.net/vulndb/80297</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20866</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Spring Session信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80296'>http://www.nsfocus.net/vulndb/80296</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-45064</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Apache Sling Engine跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80295'>http://www.nsfocus.net/vulndb/80295</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26394</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Adobe Substance 3D Stager堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80294'>http://www.nsfocus.net/vulndb/80294</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1992</font><br/>[<b>披露时间</b>] 2023-06-15 07:37:43<br/>[<b>漏洞描述</b>] Wireshark不受控制的资源消耗漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80293'>http://www.nsfocus.net/vulndb/80293</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-37817</font><br/>[<b>披露时间</b>] 2023-06-15 09:37:29<br/>[<b>漏洞描述</b>] 飞转电子书阅读器Windows客户端存在xss漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-37817'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-37817</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
