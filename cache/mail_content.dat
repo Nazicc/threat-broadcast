@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27634</font><br/>[<b>披露时间</b>] 2023-06-15 14:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability allows arbitrary file upload in Shingo Intrepidity plugin <= 1.5.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-27634'>https://www.tenable.com/cve/CVE-2023-27634</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25055</font><br/>[<b>披露时间</b>] 2023-06-15 14:15:00<br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in Amit Agarwal Google XML Sitemap for Videos plugin <= 2.6.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-25055'>https://www.tenable.com/cve/CVE-2023-25055</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24420</font><br/>[<b>披露时间</b>] 2023-06-15 14:15:00<br/>[<b>漏洞描述</b>] Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Zestard Technologies Admin side data storage for Contact Form 7 plugin <= 1.1.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24420'>https://www.tenable.com/cve/CVE-2023-24420</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34958</font><br/>[<b>披露时间</b>] 2023-06-08 19:15:09 <br/>[<b>漏洞描述</b>] Incorrect access control in Chamilo 1.11.* up to 1.11.18 allows a student subscribed to a given course to download documents belonging to another student if they know the document's ID.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34958'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34958</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
