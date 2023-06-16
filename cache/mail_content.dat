@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2080</font><br/>[<b>披露时间</b>] 2023-06-15 23:15:00<br/>[<b>漏洞描述</b>] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Forcepoint Cloud Security Gateway (CSG) Portal on Web Cloud Security Gateway, Email Security Cloud allows Blind SQL Injection.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2080'>https://www.tenable.com/cve/CVE-2023-2080</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28810</font><br/>[<b>披露时间</b>] 2023-06-15 22:15:00<br/>[<b>漏洞描述</b>] Some access control/intercom products have unauthorized modification of device network configuration vulnerabilities. Attackers can modify device network configuration by sending specific data packets to the vulnerable interface within the same local network.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-28810'>https://www.tenable.com/cve/CVE-2023-28810</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23841</font><br/>[<b>披露时间</b>] 2023-06-15 22:15:00<br/>[<b>漏洞描述</b>] SolarWinds Serv-U is submitting an HTTP request when changing or updating the attributes for File Share or File request.? Part of the URL of the request discloses sensitive data.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23841'>https://www.tenable.com/cve/CVE-2023-23841</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25157</font><br/>[<b>披露时间</b>] 2023-06-09 18:29:32<br/>[<b>漏洞描述</b>] GeoServer /geoserver/ows 存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8341'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8341</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
