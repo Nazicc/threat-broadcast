@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24819</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] RIOT-OS越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80352'>http://www.nsfocus.net/vulndb/80352</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21977</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle MySQL拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80351'>http://www.nsfocus.net/vulndb/80351</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21963</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle MySQL拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80350'>http://www.nsfocus.net/vulndb/80350</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21954</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80349'>http://www.nsfocus.net/vulndb/80349</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21945</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle MySQL拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80348'>http://www.nsfocus.net/vulndb/80348</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21939</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle Java SE和GraalVM Enterprise Edition信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80347'>http://www.nsfocus.net/vulndb/80347</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21933</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle MySQL拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80346'>http://www.nsfocus.net/vulndb/80346</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21927</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle JD Edwards信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80345'>http://www.nsfocus.net/vulndb/80345</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21915</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle Financial Services Applications信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80344'>http://www.nsfocus.net/vulndb/80344</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21908</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle Financial Services Applications信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80343'>http://www.nsfocus.net/vulndb/80343</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21902</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Oracle Financial Services Applications信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80342'>http://www.nsfocus.net/vulndb/80342</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22294</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Checkmk权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80341'>http://www.nsfocus.net/vulndb/80341</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27092</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] JbootFly跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80340'>http://www.nsfocus.net/vulndb/80340</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28965</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS异常情况处理错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80339'>http://www.nsfocus.net/vulndb/80339</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28959</font><br/>[<b>披露时间</b>] 2023-06-16 07:38:00<br/>[<b>漏洞描述</b>] Juniper Networks Junos OS异常情况处理错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80338'>http://www.nsfocus.net/vulndb/80338</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-49482 (CVE-2023-31756)</font><br/>[<b>披露时间</b>] 2023-06-16 08:37:43<br/>[<b>漏洞描述</b>] TP-Link Archer VR1600V命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-49482'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-49482</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
