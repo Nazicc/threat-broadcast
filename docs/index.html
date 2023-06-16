@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-16 19:37:48 -->
+<!-- RELEASE TIME : 2023-06-16 20:38:00 -->
 <html lang="zh-cn">
 
  <head>
@@ -2484,6 +2484,38 @@
       </tr>
 
       <tr>
+       <td scope="row">8b507dd3bb343888d73bbc533d22558f</td>
+       <td>CVE-2023-32732</td>
+       <td>2023-06-09 11:15:09 </td>
+       <td>gRPC contains a vulnerability whereby a client can cause a termination of connection between a HTTP2 proxy and a gRPC server: a base64 encoding error for `-bin` suffixed headers will result in a disconnection by the gRPC server, but is typically allowed by HTTP2 proxies. We recommend upgrading beyond the commit in&Acirc;&nbsp; https://github.com/grpc/grpc/pull/32309 https://www.google.com/url</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32732">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c75b67706800288d6dff58dbae8491a8</td>
+       <td>CVE-2023-32731</td>
+       <td>2023-06-09 11:15:09 </td>
+       <td>When gRPC HTTP2 stack raised a header size exceeded error, it skipped parsing the rest of the HPACK frame. This caused any HPACK table mutations to also be skipped, resulting in a desynchronization of HPACK tables between sender and receiver. If leveraged, say, between a proxy and a backend, this could lead to requests from the proxy being interpreted as containing headers from different proxy clients - leading to an information leak that can be used for privilege escalation or data exfiltration. We recommend upgrading beyond the commit contained in&Acirc;&nbsp; https://github.com/grpc/grpc/pull/33005 https://github.com/grpc/grpc/pull/33005</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32731">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4139f4c0fdb621cb8a1b650d8f38c5ee</td>
+       <td>CVE-2023-32750</td>
+       <td>2023-06-08 21:15:17 </td>
+       <td>Pydio Cells through 4.1.2 allows SSRF. For longer running processes, Pydio Cells allows for the creation of jobs, which are run in the background. The job &quot;remote-download&quot; can be used to cause the backend to send a HTTP GET request to a specified URL and save the response to a new file. The response file is then available in a user-specified folder in Pydio Cells.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32750">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">17268e778d16608460c51f083966c6ea</td>
+       <td>CVE-2023-32749</td>
+       <td>2023-06-08 20:15:09 </td>
+       <td>Pydio Cells allows users by default to create so-called external users in order to share files with them. By modifying the HTTP request sent when creating such an external user, it is possible to assign the new user arbitrary roles. By assigning all roles to a newly created user, access to all cells and non-personal workspaces is granted.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32749">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">63152e178a49d181b06c52df8190e080</td>
        <td>CVE-2023-34962</td>
        <td>2023-06-08 19:15:10 </td>
@@ -2657,38 +2689,6 @@
        <td>2023-06-07 01:15:39 </td>
        <td>D-Link DIR-842V2 v1.0.3 was discovered to contain a command injection vulnerability via the iperf3 diagnostics function.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33782">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6d72e78feb6bf6f9030a33f590929bce</td>
-       <td>CVE-2023-33569</td>
-       <td>2023-06-06 20:15:14 </td>
-       <td>Sourcecodester Faculty Evaluation System v1.0 is vulnerable to arbitrary code execution via ip/eval/ajax.php?action=update_user.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33569">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bcfd50107b7a3a6d0060c9fcde130406</td>
-       <td>CVE-2023-33977</td>
-       <td>2023-06-06 19:15:12 </td>
-       <td>Kiwi TCMS is an open source test management system for both manual and automated testing. Kiwi TCMS allows users to upload attachments to test plans, test cases, etc. Earlier versions of Kiwi TCMS had introduced upload validators in order to prevent potentially dangerous files from being uploaded and Content-Security-Policy definition to prevent cross-site-scripting attacks. The upload validation checks were not 100% robust which left the possibility to circumvent them and upload a potentially dangerous file which allows execution of arbitrary JavaScript in the browser. Additionally we've discovered that Nginx's `proxy_pass` directive will strip some headers negating protections built into Kiwi TCMS when served behind a reverse proxy. This issue has been addressed in version 12.4. Users are advised to upgrade. Users unable to upgrade who are serving Kiwi TCMS behind a reverse proxy should make sure that additional header values are still passed to the client browser. If they aren't redefining them inside the proxy configuration.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33977">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e28faf9f4eab0eddddccfd22d2fa2df</td>
-       <td>CVE-2023-33651</td>
-       <td>2023-06-06 19:15:12 </td>
-       <td>An issue in the MVC Device Simulator of Sitecore Experience Platform (XP), Experience Manager (XM), and Experience Commerce (XC) v9.0 Initial Release to v13.0 Initial Release allows attackers to bypass authorization rules.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ef509688c957c88178285043d9b53bc</td>
-       <td>CVE-2023-34104</td>
-       <td>2023-06-06 18:15:11 </td>
-       <td>fast-xml-parser is an open source, pure javascript xml parser. fast-xml-parser allows special characters in entity names, which are not escaped or sanitized. Since the entity name is used for creating a regex for searching and replacing entities in the XML body, an attacker can abuse it for denial of service (DoS) attacks. By crafting an entity name that results in an intentionally bad performing regex and utilizing it in the entity replacement step of the parser, this can cause the parser to stall for an indefinite amount of time. This problem has been resolved in v4.2.4. Users are advised to upgrade. Users unable to upgrade should avoid using DOCTYPE parsing by setting the `processEntities: false` option.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34104">详情</a></td>
       </tr>
 
      </tbody>
