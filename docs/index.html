@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-16 23:37:44 -->
+<!-- RELEASE TIME : 2023-06-17 01:55:18 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">96ad31cb5510fd5fba478bc8490b4b65</td>
+       <td>CVE-2023-34459</td>
+       <td>2023-06-16 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenZeppelin Contracts is a library for smart contract development. Starting in version 4.7.0 and prior to version 4.9.2, when the `verifyMultiProof`, `verifyMultiProofCalldata`, `procesprocessMultiProof`, or `processMultiProofCalldat` functions are in use, it is possible to construct merkle trees that allow forging a valid multiproof for an arbitrary set of leaves.A contract may be vulnerable if it uses multiproofs for verification and the merkle tree that is processed includes a node with value 0 at depth 1 (just under the root). This could happen inadvertedly for balanced trees with 3 leaves or less, if the leaves are not hashed. This could happen deliberately if a malicious tree builder includes such a node in the tree.A contract is not vulnerable if it uses single-leaf proving (`verify`, `verifyCalldata`, `processProof`, or `processProofCalldata`), or if it uses multiproofs with a known tree that has hashed leaves. Standard merkle trees produced or validated with the @openzeppelin/merkle-tree library are safe.The problem has been patched in version 4.9.2.Some workarounds are available. For those using multiproofs: When constructing merkle trees hash the leaves and do not insert empty nodes in your trees. Using the @openzeppelin/merkle-tree package eliminates this issue. Do not accept user-provided merkle roots without reconstructing at least the first level of the tree. Verify the merkle tree structure by reconstructing it from the leaves.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34459">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">320a7a60af697cdc35b612be522cee68</td>
        <td>CVE-2023-35790</td>
        <td>2023-06-16 21:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-06-16 15:15:00 <img src="imgs/new.gif" /></td>
        <td>The ke_search (aka Faceted Search) extension before 4.0.3, 4.1.x through 4.6.x before 4.6.6, and 5.x before 5.0.2 for TYPO3 allows XSS via indexed data.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35783">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3676f337d62a8dd8e69a5d8fe8445647</td>
-       <td>CVE-2023-35782</td>
-       <td>2023-06-16 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The ipandlanguageredirect extension before 5.1.2 for TYPO3 allows SQL Injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35782">详情</a></td>
       </tr>
 
      </tbody>
@@ -828,7 +828,7 @@
       <tr>
        <td scope="row">f25da79c19affcfbbd77022dc567e46d</td>
        <td>CNVD-2023-46125 (CVE-2023-2726)</td>
-       <td>2023-06-15 16:41:17 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:17</td>
        <td>Google Chrome代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46125">详情</a></td>
       </tr>
@@ -836,7 +836,7 @@
       <tr>
        <td scope="row">9e42b179c6deea950d578f5c052f6b80</td>
        <td>CNVD-2023-46124 (CVE-2022-47446)</td>
-       <td>2023-06-15 16:41:15 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:15</td>
        <td>WordPress Store Locator for WordPress with Google Maps &ndash; LotsOfLocales plugin跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46124">详情</a></td>
       </tr>
@@ -844,7 +844,7 @@
       <tr>
        <td scope="row">3346c10ca06b8cc0d6d6c02e9a84801c</td>
        <td>CNVD-2023-46123 (CVE-2021-0877)</td>
-       <td>2023-06-15 16:41:12 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:12</td>
        <td>Google Android存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46123">详情</a></td>
       </tr>
@@ -852,7 +852,7 @@
       <tr>
        <td scope="row">28a513a363b6f655d62bc816d1eaeae8</td>
        <td>CNVD-2023-46122 (CVE-2023-22693)</td>
-       <td>2023-06-15 16:41:09 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:09</td>
        <td>WordPress WP Google Tag Manager plugin跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46122">详情</a></td>
       </tr>
@@ -860,7 +860,7 @@
       <tr>
        <td scope="row">dc0f5f0e1df6dbd9422a9013fa965852</td>
        <td>CNVD-2023-46121 (CVE-2023-33926)</td>
-       <td>2023-06-15 16:41:07 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:07</td>
        <td>WordPress Easy Google Maps plugin跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46121">详情</a></td>
       </tr>
@@ -868,7 +868,7 @@
       <tr>
        <td scope="row">6da6a893971480804acead9164bbdc0d</td>
        <td>CNVD-2023-46120 (CVE-2023-2929)</td>
-       <td>2023-06-15 16:41:05 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:05</td>
        <td>Google Chrome Swiftshader组件越界写入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46120">详情</a></td>
       </tr>
@@ -876,7 +876,7 @@
       <tr>
        <td scope="row">6b0ca78f05b43149244a7232d028aa8f</td>
        <td>CNVD-2023-46119 (CVE-2023-2934)</td>
-       <td>2023-06-15 16:41:02 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 16:41:02</td>
        <td>Google Chrome Mojo组件代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-46119">详情</a></td>
       </tr>
@@ -884,7 +884,7 @@
       <tr>
        <td scope="row">b192e0e0cea13dbaed799f91b03be5e9</td>
        <td>CNVD-2023-37817</td>
-       <td>2023-06-15 09:37:29 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 09:37:29</td>
        <td>飞转电子书阅读器Windows客户端存在xss漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-37817">详情</a></td>
       </tr>
@@ -1462,7 +1462,7 @@
       <tr>
        <td scope="row">87ff7d7af2e7eab3e2bb4e376773dee6</td>
        <td></td>
-       <td>2023-06-15 17:55:26 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 17:55:26</td>
        <td>金蝶云星空软件曝远程代码执行漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8389">详情</a></td>
       </tr>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">466f80eafa7bb840113eb9558d1cf371</td>
        <td>CVE-2023-0921</td>
-       <td>2023-06-15 20:29:23 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:29:23</td>
        <td>GITLAB GITLAB Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=01be70b19a6d47a289026d7b62cd1fbc">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">1d893021cc2a1fca23a00b1f84422897</td>
        <td>CVE-2023-33613</td>
-       <td>2023-06-15 20:29:09 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:29:09</td>
        <td>AXTLS_PROJECT AXTLS Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=14ca3f53bd5e4099944df2d584afdd54">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">abfc3135c652836e9a901e33b5644da1</td>
        <td>CVE-2023-33956</td>
-       <td>2023-06-15 20:29:01 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:29:01</td>
        <td>KANBOARD KANBOARD Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2f8250c91db9477aac7fc05c61f65a4f">详情</a></td>
       </tr>
@@ -2050,7 +2050,7 @@
       <tr>
        <td scope="row">ae529fff383ae3def4a1b56fdab8b0b8</td>
        <td>CVE-2020-36703</td>
-       <td>2023-06-15 20:28:54 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:28:54</td>
        <td>ELEMENTOR WEBSITE_BUILDER Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=f511a1e12e194e2b9d17c0e826c1e38e">详情</a></td>
       </tr>
@@ -2058,7 +2058,7 @@
       <tr>
        <td scope="row">2eaf4678c399ee3839bc6e10d46ea83d</td>
        <td>CVE-2023-33968</td>
-       <td>2023-06-15 20:28:47 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:28:47</td>
        <td>KANBOARD KANBOARD Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fbcb4fb56116449793acb5f8122f97ab">详情</a></td>
       </tr>
@@ -2066,7 +2066,7 @@
       <tr>
        <td scope="row">711b84978df464e8752e0cc532df90f7</td>
        <td>CVE-2023-33970</td>
-       <td>2023-06-15 20:28:40 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:28:40</td>
        <td>KANBOARD KANBOARD Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=bc3f2c4cea7f4901aa03bcb785c6bfbb">详情</a></td>
       </tr>
@@ -2074,7 +2074,7 @@
       <tr>
        <td scope="row">45a601ed16f0a7013fd5cb3ecbdbd58d</td>
        <td>CVE-2023-33969</td>
-       <td>2023-06-15 20:28:33 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:28:33</td>
        <td>KANBOARD KANBOARD Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=eba41138cad94c0385d7c10c3b336d3d">详情</a></td>
       </tr>
@@ -2082,7 +2082,7 @@
       <tr>
        <td scope="row">e9aef0b161ef506dc80c224377b233e2</td>
        <td>CVE-2023-22450</td>
-       <td>2023-06-15 20:28:25 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 20:28:25</td>
        <td>ADVANTECH WEBACCESS\/SCADA Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=baf9a529afa64e8ab91d96e4abcb950e">详情</a></td>
       </tr>
@@ -2320,7 +2320,7 @@
       <tr>
        <td scope="row">571279520d2c51cd4d0b0fe46ee0ccac</td>
        <td>CVE-2023-29802</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>TOTOLINK X18命令注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80302">详情</a></td>
       </tr>
@@ -2328,7 +2328,7 @@
       <tr>
        <td scope="row">9332a938444c3b703c289cc13abf90c5</td>
        <td>CVE-2023-26559</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Syncro Soft Oxygen XML Web Author和Oxygen Content Fusion目录遍历漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80301">详情</a></td>
       </tr>
@@ -2336,7 +2336,7 @@
       <tr>
        <td scope="row">93713541d94817f6a688cd172c3de4b5</td>
        <td>CVE-2023-27193</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>DUALSPACE权限提升漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80300">详情</a></td>
       </tr>
@@ -2344,7 +2344,7 @@
       <tr>
        <td scope="row">19ca8187e1e8c5d8ac63f7397d2a4039</td>
        <td>CVE-2023-26123</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>raylib跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80299">详情</a></td>
       </tr>
@@ -2352,7 +2352,7 @@
       <tr>
        <td scope="row">dcc57dc4744279c8e251ece27805b478</td>
        <td>CVE-2023-1326</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Canonical Apport权限管理错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80298">详情</a></td>
       </tr>
@@ -2360,7 +2360,7 @@
       <tr>
        <td scope="row">fb059dc4449c91771112b81aeaacb9e6</td>
        <td>CVE-2023-26411</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Adobe Substance 3D Designer越界读取漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80297">详情</a></td>
       </tr>
@@ -2368,7 +2368,7 @@
       <tr>
        <td scope="row">db17f8f4d56bb25a6f9d4ab910418201</td>
        <td>CVE-2023-20866</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Spring Session信息泄露漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80296">详情</a></td>
       </tr>
@@ -2376,7 +2376,7 @@
       <tr>
        <td scope="row">d77365c5e2f58b8bbd0ca4590b9c903a</td>
        <td>CVE-2022-45064</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Apache Sling Engine跨站脚本漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80295">详情</a></td>
       </tr>
@@ -2384,7 +2384,7 @@
       <tr>
        <td scope="row">afcac9fc5bbd6041e5a407fd95fa9d01</td>
        <td>CVE-2023-26394</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Adobe Substance 3D Stager堆缓冲区溢出漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80294">详情</a></td>
       </tr>
@@ -2392,7 +2392,7 @@
       <tr>
        <td scope="row">5ebad1b6e40abf5d78d1463a35dd5629</td>
        <td>CVE-2023-1992</td>
-       <td>2023-06-15 07:37:43 <img src="imgs/new.gif" /></td>
+       <td>2023-06-15 07:37:43</td>
        <td>Wireshark不受控制的资源消耗漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/80293">详情</a></td>
       </tr>
