@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3310</font><br/>[<b>披露时间</b>] 2023-06-18 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, has been found in code-projects Agro-School Management System 1.0. Affected by this issue is some unknown functionality of the file loaddata.php. The manipulation of the argument subject/course leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-231806 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3310'>https://www.tenable.com/cve/CVE-2023-3310</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3309</font><br/>[<b>披露时间</b>] 2023-06-18 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic was found in SourceCodester Resort Reservation System 1.0. Affected by this vulnerability is an unknown functionality of the file ?page=rooms of the component Manage Room Page. The manipulation of the argument Cottage Number leads to cross site scripting. The attack can be launched remotely. The identifier VDB-231805 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3309'>https://www.tenable.com/cve/CVE-2023-3309</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3311</font><br/>[<b>披露时间</b>] 2023-06-18 15:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, was found in SourceCodester Advance Charity Management System 1.0. This affects an unknown part of the file addsuppliers.php. The manipulation of the argument First name leads to cross site scripting. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-231807.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3311'>https://www.tenable.com/cve/CVE-2023-3311</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
