@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-19 20:37:53 -->
+<!-- RELEASE TIME : 2023-06-19 22:38:19 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9fd055a2680db7a018fa12492d72625e</td>
+       <td>CVE-2023-35843</td>
+       <td>2023-06-19 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>NocoDB through 0.106.0 (or 0.109.1) has a path traversal vulnerability that allows an unauthenticated attacker to access arbitrary files on the server by manipulating the path parameter of the /download route. This vulnerability could allow an attacker to access sensitive files and data on the server, including configuration files, source code, and other sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35843">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9439fc77b4a24743bc141b1a561d3b39</td>
+       <td>CVE-2023-34461</td>
+       <td>2023-06-19 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>PyBB is an open source bulletin board. A manual code review of the PyBB bulletin board server has revealed that a vulnerability could have been exploited in which users could submit any type of HTML tag, and have said tag run. For example, a malicious `<a>` that looks like ```<a href=javascript:alert (1)>xss</a>``` could have been used to run code through JavaScript on the client side. The problem has been patched as of commit `5defd92`, and users are advised to upgrade. Attackers do need posting privilege in order to exploit this vulnerability. This vulnerability is present within the 0.1.0 release, and users are advised to upgrade to 0.1.1. Users unable to upgrade may be able to work around the attack by either; Removing the ability to create posts, removing the `|safe` tag from the Jinja2 template titled "post.html" in templates or by adding manual validation of links in the post creation section.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34461">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ecdd8af288ef983f708ef4cc99ccd157</td>
+       <td>CVE-2023-3312</td>
+       <td>2023-06-19 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in drivers/cpufreq/qcom-cpufreq-hw.c in cpufreq subsystem in the Linux Kernel. This flaw, during device unbind will lead to double release problem leading to denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3312">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c3725a35f2bace0caee93ad4d7228c38</td>
+       <td>CVE-2023-3022</td>
+       <td>2023-06-19 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw was found in the IPv6 module of the Linux kernel. The arg.result was not used consistently in fib6_rule_lookup, sometimes holding rt6_info and other times fib6_info. This was not accounted for in other parts of the code where rt6_info was expected unconditionally, potentially leading to a kernel panic in fib6_rule_suppress.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3022">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c8b1f96212e2ed9f031fe11654bf2d55</td>
        <td>CVE-2023-34167</td>
        <td>2023-06-19 17:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-06-19 05:15:00 <img src="imgs/new.gif" /></td>
        <td>KioWare for Windows through v8.33 was discovered to contain an incomplete blacklist filter for blocked dialog boxes on Windows 10. This issue can allow attackers to open a file dialog box via the function showDirectoryPicker() which can then be used to open an unprivileged command prompt.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34642">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eac40446d24e78d8783ea69b41402e42</td>
-       <td>CVE-2023-34641</td>
-       <td>2023-06-19 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>KioWare for Windows through v8.33 was discovered to contain an incomplete blacklist filter for blocked dialog boxes on Windows 10. This issue can allow attackers to open a file dialog box via the function window.print() which can then be used to open an unprivileged command prompt.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34641">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">979805dc564011ec9fefac19126a834c</td>
-       <td>CVE-2023-32542</td>
-       <td>2023-06-19 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds read vulnerability exists in TELLUS v4.0.15.0 and TELLUS Lite v4.0.15.0. Opening a specially crafted V8 file may lead to information disclosure and/or arbitrary code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32542">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7acf3111549255cd1265c4f68307a90a</td>
-       <td>CVE-2023-32538</td>
-       <td>2023-06-19 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Stack-based buffer overflow vulnerability exists in TELLUS v4.0.15.0 and TELLUS Lite v4.0.15.0. Opening a specially crafted SIM2 file may lead to information disclosure and/or arbitrary code execution. This vulnerability is different from CVE-2023-32273 and CVE-2023-32201.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32538">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1dc2641d416eccc1ed20359c22de3e82</td>
-       <td>CVE-2023-32288</td>
-       <td>2023-06-19 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Out-of-bounds read vulnerability exists in TELLUS v4.0.15.0 and TELLUS Lite v4.0.15.0. Opening a specially crafted SIM file may lead to information disclosure and/or arbitrary code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32288">详情</a></td>
       </tr>
 
      </tbody>
