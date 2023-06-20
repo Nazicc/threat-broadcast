@@ -1,15 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34563</font><br/>[<b>披露时间</b>] 2023-06-20 21:15:00<br/>[<b>漏洞描述</b>] netgear R6250 Firmware Version 1.0.4.48 is vulnerable to Buffer Overflow after authentication.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-34563'>https://www.tenable.com/cve/CVE-2023-34563</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35885</font><br/>[<b>披露时间</b>] 2023-06-20 20:15:00<br/>[<b>漏洞描述</b>] CloudPanel 2 before 2.3.1 has insecure file-manager cookie authentication.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-35885'>https://www.tenable.com/cve/CVE-2023-35885</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33869</font><br/>[<b>披露时间</b>] 2023-06-20 20:15:00<br/>[<b>漏洞描述</b>] Enphase Envoy versions D7.0.88 is vulnerable to a command injection exploit that may allow an attacker to execute root commands.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33869'>https://www.tenable.com/cve/CVE-2023-33869</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32274</font><br/>[<b>披露时间</b>] 2023-06-20 20:15:00<br/>[<b>漏洞描述</b>] Enphase Installer Toolkit versions 3.27.0 has hard coded credentials embedded in binary code in the Android application. An attacker can exploit this and gain access to sensitive information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32274'>https://www.tenable.com/cve/CVE-2023-32274</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3220</font><br/>[<b>披露时间</b>] 2023-06-20 20:15:00<br/>[<b>漏洞描述</b>] An issue was discovered in the Linux kernel through 6.1-rc8. dpu_crtc_atomic_check in drivers/gpu/drm/msm/disp/dpu1/dpu_crtc.c lacks check of the return value of kzalloc() and will cause the NULL Pointer Dereference.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3220'>https://www.tenable.com/cve/CVE-2023-3220</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35166</font><br/>[<b>披露时间</b>] 2023-06-20 20:15:00<br/>[<b>漏洞描述</b>] XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. It's possible to execute any wiki content with the right of the TipsPanel author by creating a tip UI extension. This has been patched in XWiki 15.1-rc-1 and 14.10.5.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-35166'>https://www.tenable.com/cve/CVE-2023-35166</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
