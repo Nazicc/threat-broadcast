@@ -1,12 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3224</font><br/>[<b>披露时间</b>] 2023-06-14 02:48:44<br/>[<b>漏洞描述</b>] Nuxt.js <3.4.3 dev模式下代码执行漏洞（CVE-2023-3224）	
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-3224'>https://avd.aliyun.com/detail?id=AVD-2023-3224</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202306-1451 (CVE-2023-3315)</font><br/>[<b>披露时间</b>] 2023-06-19 05:37:59<br/>[<b>漏洞描述</b>] Jenkins Plugin Team Concert 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1451'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1451</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202306-1448 (CVE-2023-3022)</font><br/>[<b>披露时间</b>] 2023-06-19 05:40:08<br/>[<b>漏洞描述</b>] Linux kernel 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1448'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1448</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202306-1445 (CVE-2022-48506)</font><br/>[<b>披露时间</b>] 2023-06-19 05:41:17<br/>[<b>漏洞描述</b>] Dominion Voting Systems ImageCast X 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1445'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1445</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
