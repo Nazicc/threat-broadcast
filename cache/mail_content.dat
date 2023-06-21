@@ -1,17 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50309 (CVE-2021-0883)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:13<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50309'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50309</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50310 (CVE-2021-0881)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:15<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50310'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50310</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50311 (CVE-2021-0882)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:17<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50311'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50311</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50312 (CVE-2023-2468)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:19<br/>[<b>漏洞描述</b>] Google Chrome PictureInPicture安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50312'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50312</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50313 (CVE-2023-2467)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:22<br/>[<b>漏洞描述</b>] Google Chrome Prompts安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50313'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50313</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50377 (CVE-2023-2466)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:24<br/>[<b>漏洞描述</b>] Google Chrome Prompts安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50377'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50377</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50378 (CVE-2023-2465)</font><br/>[<b>披露时间</b>] 2023-06-21 01:55:26<br/>[<b>漏洞描述</b>] Google Chrome CORS安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50378'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50378</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3224</font><br/>[<b>披露时间</b>] 2023-06-14 02:48:44<br/>[<b>漏洞描述</b>] Nuxt.js <3.4.3 dev模式下代码执行漏洞（CVE-2023-3224）	
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-3224'>https://avd.aliyun.com/detail?id=AVD-2023-3224</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
