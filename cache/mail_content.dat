@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2269</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Linux Kernel拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80502'>http://www.nsfocus.net/vulndb/80502</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-44775</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Odoo Community和Odoo Enterprise跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80501'>http://www.nsfocus.net/vulndb/80501</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-26947</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Odoo Community和Odoo Enterprise跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80500'>http://www.nsfocus.net/vulndb/80500</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-23166</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Odoo Community和Odoo Enterprise信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80499'>http://www.nsfocus.net/vulndb/80499</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25313</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] WWBN AVideo操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80498'>http://www.nsfocus.net/vulndb/80498</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26843</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] ChurchCRM跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80497'>http://www.nsfocus.net/vulndb/80497</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25348</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] ChurchCRM CSV注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80496'>http://www.nsfocus.net/vulndb/80496</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1435</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] WordPress Ajax Search Pro Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80495'>http://www.nsfocus.net/vulndb/80495</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0276</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] WordPress Weaver Xtreme Theme Support Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80494'>http://www.nsfocus.net/vulndb/80494</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26865</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] PrestaShop SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80493'>http://www.nsfocus.net/vulndb/80493</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24820</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] RIOT-OS整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80492'>http://www.nsfocus.net/vulndb/80492</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20967</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80491'>http://www.nsfocus.net/vulndb/80491</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2513</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Cyber Power Systems CyberPower PowerPanel Business Edition任意代码执行漏洞（CVE-2023-2513<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80490'>http://www.nsfocus.net/vulndb/80490</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27353</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] Sonos One Speaker越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80489'>http://www.nsfocus.net/vulndb/80489</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25511</font><br/>[<b>披露时间</b>] 2023-06-21 07:37:46<br/>[<b>漏洞描述</b>] NVIDIA CUDA Toolkit除零漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80488'>http://www.nsfocus.net/vulndb/80488</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27992</font><br/>[<b>披露时间</b>] 2023-06-21 16:33:59<br/>[<b>漏洞描述</b>] Zyxel NAS设备命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8403'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8403</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
