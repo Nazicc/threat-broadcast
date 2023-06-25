@@ -1,11 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36612</font><br/>[<b>披露时间</b>] 2023-06-25 03:15:00<br/>[<b>漏洞描述</b>] Directory traversal can occur in the Basecamp com.basecamp.bc3 application before 4.2.1 for Android, which may allow an attacker to write arbitrary files in the application's private directory. Additionally, by using a malicious intent, the attacker may redirect the server's responses (containing sensitive information) to third-party applications by using a custom-crafted deeplink scheme.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-36612'>https://www.tenable.com/cve/CVE-2023-36612</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50813 (CVE-2023-33625)</font><br/>[<b>披露时间</b>] 2023-06-25 07:37:23<br/>[<b>漏洞描述</b>] D-Link DIR-600命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50813'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50813</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50814 (CVE-2023-22244)</font><br/>[<b>披露时间</b>] 2023-06-25 07:37:26<br/>[<b>漏洞描述</b>] Adobe Premiere Rush内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50814'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50814</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50810 (CVE-2022-42169)</font><br/>[<b>披露时间</b>] 2023-06-25 07:37:28<br/>[<b>漏洞描述</b>] Tenda AC10堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50810'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50810</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50811 (CVE-2022-42164)</font><br/>[<b>披露时间</b>] 2023-06-25 07:37:30<br/>[<b>漏洞描述</b>] Tenda AC10堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50811'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50811</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-50812 (CVE-2022-40469)</font><br/>[<b>披露时间</b>] 2023-06-25 07:37:33<br/>[<b>漏洞描述</b>] iKuai8命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-50812'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-50812</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
