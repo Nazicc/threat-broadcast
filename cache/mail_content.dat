@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3396</font><br/>[<b>披露时间</b>] 2023-06-25 19:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in Campcodes Retro Cellphone Online Store 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/index.php. The manipulation of the argument username/password leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-232351.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3396'>https://www.tenable.com/cve/CVE-2023-3396</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36632</font><br/>[<b>披露时间</b>] 2023-06-25 18:15:00<br/>[<b>漏洞描述</b>] The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application's input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-36632'>https://www.tenable.com/cve/CVE-2023-36632</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36663</font><br/>[<b>披露时间</b>] 2023-06-25 21:15:00<br/>[<b>漏洞描述</b>] it-novum openITCOCKPIT (aka open IT COCKPIT) 4.6.4 before 4.6.5 allows SQL Injection (by authenticated users) via the sort parameter of the API interface.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-36663'>https://www.tenable.com/cve/CVE-2023-36663</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
