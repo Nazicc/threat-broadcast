@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-26 03:22:16 -->
+<!-- RELEASE TIME : 2023-06-26 06:44:18 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">46b1b3dd809364817e0bddddc8497cf2</td>
+       <td>CVE-2023-36675</td>
+       <td>2023-06-26 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in MediaWiki before 1.35.11, 1.36.x through 1.38.x before 1.38.7, 1.39.x before 1.39.4, and 1.40.x before 1.40.1. BlockLogFormatter.php in BlockLogFormatter allows XSS in the partial blocks feature.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36675">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb923977bb9319cdd1adf17819dae9ef</td>
+       <td>CVE-2023-36662</td>
+       <td>2023-06-26 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>The TechTime User Management components for Atlassian products allow stored XSS on the Bulk User Actions page. This affects User Management for Jira 2.0.0 through 2.17.1, User Management for Confluence 2.0.0 through 2.15.24, and User Management for Bitbucket 2.2.2 through 2.15.24.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36662">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">cf668c6a4cb08cc1cb58dcdec7a5de85</td>
        <td>CVE-2023-36666</td>
        <td>2023-06-25 22:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-06-23 21:15:00</td>
        <td>The GLPI Agent is a generic management agent. Prior to version 1.5, if glpi-agent is running remoteinventory task against an Unix platform with ssh command, an administrator user on the remote can manage to inject a command in a specific workflow the agent would run with the privileges it uses. In the case, the agent is running with administration privileges, a malicious user could gain high privileges on the computer glpi-agent is running on. A malicious user could also disclose all remote accesses the agent is configured with for remoteinventory task. This vulnerability has been patched in glpi-agent 1.5.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34254">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c18e6a36061b31052b6f4c60c441c46f</td>
-       <td>CVE-2023-35162</td>
-       <td>2023-06-23 19:15:00</td>
-       <td>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Users are able to forge an URL with a payload allowing to inject Javascript in the page (XSS). It's possible to exploit the previewactions template to perform a XSS, e.g. by using URL such as: > <hostname>/xwiki/bin/get/FlamingoThemes/Cerulean xpage=xpart&vm=previewactions.vm&xcontinue=javascript:alert(document.domain). This vulnerability exists since XWiki 6.1-rc-1. The vulnerability has been patched in XWiki 14.10.5 and 15.1-rc-1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35162">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">73b8801f39346f56e49edfa79cf9dc0d</td>
-       <td>CVE-2023-35161</td>
-       <td>2023-06-23 19:15:00</td>
-       <td>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Users are able to forge an URL with a payload allowing to inject Javascript in the page (XSS). It's possible to exploit the DeleteApplication page to perform a XSS, e.g. by using URL such as: > xwiki/bin/view/AppWithinMinutes/DeleteApplication?appName=Menu&resolve=true&xredirect=javascript:alert(document.domain). This vulnerability exists since XWiki 6.2-milestone-1. The vulnerability has been patched in XWiki 14.10.5 and 15.1-rc-1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35161">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c6f25a35eb7ec9f2831b4b3a9a97f02b</td>
+       <td>CNVD-2023-51370 (CVE-2023-21707)</td>
+       <td>2023-06-26 06:43:47 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Exchange Server远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-51370">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38c355bfb458f669a441381f6f489e89</td>
+       <td>CNVD-2023-51368 (CVE-2023-32031)</td>
+       <td>2023-06-26 06:43:45 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Exchange Server远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-51368">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d05a1436405e38ed1e41cd901f23bd54</td>
+       <td>CNVD-2023-51369 (CVE-2023-28310)</td>
+       <td>2023-06-26 06:43:42 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Exchange Server远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-51369">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0d6f089a944a4c5d8dfd00a540a5c9db</td>
+       <td>CNVD-2023-51367 (CVE-2023-33142)</td>
+       <td>2023-06-26 06:43:39 <img src="imgs/new.gif" /></td>
+       <td>Microsoft SharePoint Server权限提升漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-51367">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1850fb96d9108fe4c674695b882d9a36</td>
        <td>CNVD-2023-50831 (CVE-2023-21137)</td>
        <td>2023-06-25 08:40:07 <img src="imgs/new.gif" /></td>
@@ -1023,38 +1055,6 @@
        <td>2023-06-20 07:37:22</td>
        <td>Adobe Commerce安全绕过漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-50126">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea7b8c191afe279264907b785ba47732</td>
-       <td>CNVD-2023-50125 (CVE-2023-29295)</td>
-       <td>2023-06-20 07:37:19</td>
-       <td>Adobe Commerce安全绕过漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-50125">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">29ef61db042bde98c2ae1bcc3079b156</td>
-       <td>CNVD-2023-50124 (CVE-2023-29297)</td>
-       <td>2023-06-20 07:37:17</td>
-       <td>Adobe Commerce任意代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-50124">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8a498b50d8cd1060416e3d0a23a2d328</td>
-       <td>CNVD-2023-49826 (CVE-2023-27855)</td>
-       <td>2023-06-19 13:37:44</td>
-       <td>Rockwell Automation ThinManager ThinServer路径遍历漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-49826">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6fe0067af7b2fab9b4f5789cbd255507</td>
-       <td>CNVD-2023-49825 (CVE-2023-27857)</td>
-       <td>2023-06-19 08:37:58</td>
-       <td>Rockwell Automation ThinManager ThinServer缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-49825">详情</a></td>
       </tr>
 
      </tbody>
@@ -1484,6 +1484,14 @@
       </tr>
 
       <tr>
+       <td scope="row">6a26a93d254b7ed86fa44d27e516ee18</td>
+       <td></td>
+       <td>2023-06-15 17:55:26</td>
+       <td>金蝶 云星空 /Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc 存在代码执行漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8389">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3796703409590d0ca3c19dd9dfce0c32</td>
        <td>CVE-2023-29357,CVE-2023-29363,CVE-2023-32014,CVE-2023-32015,CVE-2023-24897,CVE-2023-32013,CVE-2023-32031,CVE-2023-28310,CVE-2023-29360,CVE-2023-29359,CVE-2023-29371,CVE-2023-29358,CVE-2023-29361</td>
        <td>2023-06-14 17:45:31</td>
@@ -1688,14 +1696,6 @@
        <td>CVE-2023-25157</td>
        <td>2023-06-09 18:29:32</td>
        <td>GeoServer SQL 注入漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8341">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d10fa24b3ff0adb4f0e88bdc1f8cbb7</td>
-       <td>CVE-2023-25157</td>
-       <td>2023-06-09 18:29:32</td>
-       <td>GeoServer /geoserver/ows 存在SQL注入漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8341">详情</a></td>
       </tr>
 
