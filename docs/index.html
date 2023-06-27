@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-27 17:39:34 -->
+<!-- RELEASE TIME : 2023-06-27 18:42:32 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9aa5d7c104901bd3dfb5c50d4a78cc21</td>
+       <td>CVE-2023-35800</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Stormshield Endpoint Security Evolution 2.0.0 through 2.4.2 has Insecure Permissions. An ACL entry on the SES Evolution agent directory that contains the agent logs displayed in the GUI allows interactive users to read data, which could allow access to information reserved to administrators.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35800">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">10a102b2d11c43241ac096e24d14d28b</td>
+       <td>CVE-2023-35799</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Stormshield Endpoint Security Evolution 2.0.0 through 2.3.2 has Insecure Permissions. An interactive user can use the SES Evolution agent to create arbitrary files with local system privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35799">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">137ae0b93bcd487411aab9e1a6d1f864</td>
+       <td>CVE-2023-34830</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>i-doit Open v24 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the timeout parameter on the login page.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34830">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">11d6219458b1684196797e6e3290a95a</td>
+       <td>CVE-2023-34240</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cloudexplorer-lite is an open source cloud software stack. Weak passwords can be easily guessed and are an easy target for brute force attacks. This can lead to an authentication system failure and compromise system security. Versions of cloudexplorer-lite prior to 1.2.0 did not enforce strong passwords. This vulnerability has been fixed in version 1.2.0. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34240">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">10e76a73de98abf729b3a7e617d4b6db</td>
+       <td>CVE-2023-34099</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Shopware is an open source e-commerce software. The mail validation in the registration process had some flaws, so it was possible to construct different mail addresses, that in the end result in the same address, which is shared by multiple accounts. This issue has been addressed in version 5.7.18 and users are advised to update. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34099">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dd6184ff3c4fc16f42f78869f42cff2d</td>
+       <td>CVE-2023-34098</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Shopware is an open source e-commerce software. Due to an incorrect configuration in the `.htaccess` file, the configuration file of the Javascript could be read in production environments (`themes/package-lock.json`). With this information, the specific Shopware version in a deployment might be determined by an attacker, which could be used for further attacks. Users are advised to update to version 5.7.18. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34098">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb6409a6dff979d2f2c39ad72a6547d5</td>
+       <td>CVE-2023-32339</td>
+       <td>2023-06-27 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Business Automation Workflow is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.  IBM X-Force ID:  255587.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32339">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2d1372b2f15b56aa3eec5b2d510afc57</td>
        <td>CVE-2023-36002</td>
        <td>2023-06-27 15:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-06-26 22:15:00 <img src="imgs/new.gif" /></td>
        <td>An exposed dangerous function vulnerability in the Trend Micro Apex One and Apex One as a Service security agent could allow a local attacker to escalate privileges and write an arbitrary value to specific Trend Micro agent subkeys on affected installations.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.This is a similar, but not identical vulnerability as CVE-2023-34146 and CVE-2023-34148.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34147">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a7955eb42e1f57bbf95fdf26ee45cf6c</td>
-       <td>CVE-2023-34146</td>
-       <td>2023-06-26 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>An exposed dangerous function vulnerability in the Trend Micro Apex One and Apex One as a Service security agent could allow a local attacker to escalate privileges and write an arbitrary value to specific Trend Micro agent subkeys on affected installations.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.This is a similar, but not identical vulnerability as CVE-2023-34147 and CVE-2023-34148.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34146">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5150f5fdaf17abd315356dedb5690e17</td>
-       <td>CVE-2023-34145</td>
-       <td>2023-06-26 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>An untrusted search path vulnerability in the Trend Micro Apex One and Apex One as a Service security agent could allow a local attacker to escalate their privileges on affected installations.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.This is a similar, but not identical vulnerability as CVE-2023-34144.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34145">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4d860eb735941d72e2559bf1a2ef55f</td>
-       <td>CVE-2023-34144</td>
-       <td>2023-06-26 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>An untrusted search path vulnerability in the Trend Micro Apex One and Apex One as a Service security agent could allow a local attacker to escalate their privileges on affected installations.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.This is a similar, but not identical vulnerability as CVE-2023-34145.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34144">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5da6b13f31f736f7973865f02bab9701</td>
-       <td>CVE-2023-32605</td>
-       <td>2023-06-26 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Affected versions Trend Micro Apex Central (on-premise) are vulnerable to potential authenticated reflected cross-site scripting (XSS) attacks due to user input validation and sanitization issues. Please note: an attacker must first obtain authentication to Apex Central on the target system in order to exploit this vulnerability.This is similar to, but not identical to CVE-2023-32604.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32605">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">278bee1480d6bea1b6990261a33623f5</td>
-       <td>CVE-2023-32604</td>
-       <td>2023-06-26 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Affected versions Trend Micro Apex Central (on-premise) are vulnerable to potential authenticated reflected cross-site scripting (XSS) attacks due to user input validation and sanitization issues. Please note: an attacker must first obtain authentication to Apex Central on the target system in order to exploit this vulnerability.This is similar to, but not identical to CVE-2023-32605.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32604">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">177ffe50cd6b2c0ccbeca92e1b81cb07</td>
-       <td>CVE-2023-35168</td>
-       <td>2023-06-26 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>DataEase is an open source data visualization analysis tool to analyze data and gain insight into business trends. Affected versions of DataEase has a privilege bypass vulnerability where ordinary users can gain access to the user database. Exposed information includes md5 hashes of passwords, username, email, and phone number. The vulnerability has been fixed in v1.18.8. Users are advised to upgrade. There are no known workarounds for the vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35168">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea8bb13a57c8a14f4b764a9df78e23f2</td>
-       <td>CVE-2023-34924</td>
-       <td>2023-06-26 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>H3C Magic B1STW B1STV100R012 was discovered to contain a stack overflow via the function SetAPInfoById. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34924">详情</a></td>
       </tr>
 
      </tbody>
@@ -2468,6 +2468,54 @@
       </tr>
 
       <tr>
+       <td scope="row">889bc3cd19075b39976311307b642431</td>
+       <td>CVE-2023-29546</td>
+       <td>2023-06-19 11:15:09 </td>
+       <td>When recording the screen while in Private Browsing on Firefox for Android the address bar and keyboard were not hidden, potentially leaking sensitive information. *This bug only affects Firefox for Android. Other operating systems are unaffected.* This vulnerability affects Firefox for Android &lt; 112 and Focus for Android &lt; 112.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29546">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b1b6bb300e35929d31166b79fa35d3ad</td>
+       <td>CVE-2023-29545</td>
+       <td>2023-06-19 11:15:09 </td>
+       <td>Similar to CVE-2023-28163, this time when choosing 'Save Link As', suggested filenames containing environment variable names would have resolved those in the context of the current user. *This bug only affects Firefox and&Acirc;&nbsp;Thunderbird on Windows. Other versions of Firefox and&Acirc;&nbsp;Thunderbird are unaffected.* This vulnerability affects Firefox &lt; 112, Firefox ESR &lt; 102.10, and Thunderbird &lt; 102.10.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29545">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d1ba93a29fd9bcae348765e8f627e92e</td>
+       <td>CVE-2023-29542</td>
+       <td>2023-06-19 11:15:09 </td>
+       <td>A newline in a filename could have been used to bypass the file extension security mechanisms that replace malicious file extensions such as .lnk  with .download. This could have led to accidental execution of malicious code.*This bug only affects Firefox and Thunderbird on Windows. Other versions of Firefox&Acirc;&nbsp;and Thunderbird are unaffected.* This vulnerability affects Firefox &lt; 112, Firefox ESR &lt; 102.10, and Thunderbird &lt; 102.10.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29542">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">96bce571278ba280538e723627cb963a</td>
+       <td>CVE-2023-29534</td>
+       <td>2023-06-19 11:15:09 </td>
+       <td>Different techniques existed to obscure the fullscreen notification in Firefox and Focus for Android.  These could have led to potential user confusion and spoofing attacks.*This bug only affects Firefox and Focus for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox for Android &lt; 112 and Focus for Android &lt; 112.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29534">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">117dc99cbf835cc7889b7bf8e68110a7</td>
+       <td>CVE-2023-29532</td>
+       <td>2023-06-19 10:15:09 </td>
+       <td>A local attacker can trick the Mozilla Maintenance Service into applying an unsigned update file by pointing the service at an update file on a malicious SMB server. The update file can be replaced after the signature check, before the use, because the write-lock requested by the service does not work on a SMB server.*Note: This attack requires local system access and only affects Windows. Other operating systems are not affected.* This vulnerability affects Firefox &lt; 112, Firefox ESR &lt; 102.10, and Thunderbird &lt; 102.10.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29532">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0061e409e0e6f6d451953ac3ec0cc631</td>
+       <td>CVE-2023-29531</td>
+       <td>2023-06-19 10:15:09 </td>
+       <td>An attacker could have caused an out of bounds memory access using WebGL APIs, leading to memory corruption and a potentially exploitable crash.*This bug only affects Firefox and&Acirc;&nbsp;Thunderbird for macOS. Other operating systems are unaffected.* This vulnerability affects Firefox &lt; 112, Firefox ESR &lt; 102.10, and Thunderbird &lt; 102.10.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-29531">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4d467820b65645e37267586a3b12eb57</td>
        <td>CVE-2023-34657</td>
        <td>2023-06-19 04:15:10 </td>
@@ -2641,54 +2689,6 @@
        <td>2023-06-16 21:15:09 </td>
        <td>An issue was discovered in the C AMQP client library (aka rabbitmq-c) through 0.13.0 for RabbitMQ. Credentials can only be entered on the command line (e.g., for amqp-publish or amqp-consume) and are thus visible to local attackers by listing a process and its arguments.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-35789">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">85bf95bc4fc4a1a0ff91a1c46ccba544</td>
-       <td>CVE-2023-35784</td>
-       <td>2023-06-16 20:15:09 </td>
-       <td>A double free or use after free could occur after SSL_clear in OpenBSD 7.2 before errata 026 and 7.3 before errata 004, and in LibreSSL before 3.6.3 and 3.7.x before 3.7.3. NOTE: OpenSSL is not affected.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-35784">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de902815ac1170ca8539a4e1a1f56596</td>
-       <td>CVE-2023-3268</td>
-       <td>2023-06-16 19:15:14 </td>
-       <td>An out of bounds (OOB) memory access flaw was found in the Linux kernel in relay_file_read_start_pos in kernel/relay.c in the relayfs. This flaw could allow a local attacker to crash the system or leak kernel internal information.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3268">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">22cc61e149987b0f0e5fd69a1fc97c55</td>
-       <td>CVE-2023-34660</td>
-       <td>2023-06-16 18:15:09 </td>
-       <td>jjeecg-boot V3.5.0 has an unauthorized arbitrary file upload in /jeecg-boot/jmreport/upload interface.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34660">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7daa06526334bd76895fd40f1b879ef4</td>
-       <td>CVE-2023-34659</td>
-       <td>2023-06-16 18:15:09 </td>
-       <td>jeecg-boot 3.5.0 and 3.5.1 have a SQL injection vulnerability the id parameter of the /jeecg-boot/jmreport/show interface.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34659">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b941cc20954a4eaf82136a0e78ece6b9</td>
-       <td>CVE-2023-34645</td>
-       <td>2023-06-16 18:15:09 </td>
-       <td>jfinal CMS 5.1.0 has an arbitrary file read vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34645">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec3e09ba2f473a2a0d108f26e7203aea</td>
-       <td>CVE-2023-34733</td>
-       <td>2023-06-16 17:15:12 </td>
-       <td>A lack of exception handling in the Volkswagen Discover Media Infotainment System Software Version 0876 allows attackers to cause a Denial of Service (DoS) via supplying crafted media files when connecting a device to the vehicle's USB plug and play feature.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34733">详情</a></td>
       </tr>
 
      </tbody>
