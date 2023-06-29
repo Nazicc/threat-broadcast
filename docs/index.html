@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-28 23:38:22 -->
+<!-- RELEASE TIME : 2023-06-29 02:13:56 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">0dff8f198e46f590364c914fdfc180ff</td>
+       <td>CVE-2023-36475</td>
+       <td>2023-06-28 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to versions 5.5.2 and 6.2.1, an attacker can use a prototype pollution sink to trigger a remote code execution through the MongoDB BSON parser. A patch is available in versions 5.5.2 and 6.2.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36475">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c0d26b4b0b2dd86d0c270667e18abccf</td>
+       <td>CVE-2023-36474</td>
+       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Interactsh is an open-source tool for detecting out-of-band interactions. Domains configured with interactsh server prior to version 1.0.0 were vulnerable to subdomain takeover for a specific subdomain, i.e `app.` Interactsh server used to create cname entries for `app` pointing to `projectdiscovery.github.io` as default, which intended to used for hosting interactsh web client using GitHub pages. This is a security issue with a self-hosted interactsh server in which the user may not have configured a web client but still have a CNAME entry pointing to GitHub pages, making them vulnerable to subdomain takeover. This allows a threat actor to host / run arbitrary client side code (cross-site scripting) in a user's browser when browsing the vulnerable subdomain. Version 1.0.0 fixes this issue by making CNAME optional, rather than default.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36474">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">24ab01c414de4d51e9069307b6d01255</td>
+       <td>CVE-2023-34736</td>
+       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Guantang Equipment Management System version 4.12 is vulnerable to Arbitrary File Upload.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34736">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">87e739819497ff19e5bcdd1c339e8899</td>
+       <td>CVE-2023-34647</td>
+       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>PHPgurukl Hostel Management System v.1.0 is vulnerable to Cross Site Scripting (XSS).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34647">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">78590ff7fc5c71658dd758671014bc16</td>
+       <td>CVE-2023-3359</td>
+       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel brcm_nvram_parse in drivers/nvmem/brcm_nvram.c. Lacks for the check of the return value of kzalloc() can cause the NULL Pointer Dereference.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3359">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">06982ab5913243a8d5a43ffbbf663f3b</td>
+       <td>CVE-2023-3358</td>
+       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A null pointer dereference was found in the Linux kernel's Integrated Sensor Hub (ISH) driver. This issue could allow a local user to crash the system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3358">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d72ba4069947533cabaea0e10edd0a42</td>
+       <td>CVE-2023-3357</td>
+       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A NULL pointer dereference flaw was found in the Linux kernel AMD Sensor Fusion Hub driver. This flaw allows a local user to crash the system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3357">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">293fd9c21d20d8fd91a6ad587dbd348f</td>
        <td>CVE-2023-34652</td>
        <td>2023-06-28 21:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
        <td>A stack overflow in the UpdateSnat function of H3C Magic B1STV100R012 allows attackers to cause a Denial of Service (DoS) via a crafted POST request.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34937">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4872604266547eae7d5e2a3cee9fab3b</td>
-       <td>CVE-2023-34936</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stack overflow in the UpdateMacClone function of H3C Magic B1STV100R012 allows attackers to cause a Denial of Service (DoS) via a crafted POST request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34936">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">36bc1ae0323c41225adfbc2048ce5873</td>
-       <td>CVE-2023-34935</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stack overflow in the AddWlanMacList function of H3C Magic B1STV100R012 allows attackers to cause a Denial of Service (DoS) via a crafted POST request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34935">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fdd1d79764e9fce7a653653788f272d3</td>
-       <td>CVE-2023-34934</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stack overflow in the Edit_BasicSSID_5G function of H3C Magic B1STV100R012 allows attackers to cause a Denial of Service (DoS) via a crafted POST request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34934">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">85945241f3749077041341d2108d2b2d</td>
-       <td>CVE-2023-34933</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stack overflow in the UpdateWanParams function of H3C Magic B1STV100R012 allows attackers to cause a Denial of Service (DoS) via a crafted POST request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34933">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e985809fa83d1103b93f381823c86283</td>
-       <td>CVE-2023-26615</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>D-Link DIR-823G firmware version 1.02B05 has a password reset vulnerability, which originates from the SetMultipleActions API, allowing unauthorized attackers to reset the WEB page management password.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26615">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">09c8046cf724831ef005b4b2c8d60e6f</td>
-       <td>CVE-2023-20199</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in Cisco Duo Two-Factor Authentication for macOS could allow an authenticated, physical attacker to bypass secondary authentication and access an affected macOS device. This vulnerability is due to the incorrect handling of responses from Cisco Duo when the application is configured to fail open. An attacker with primary user credentials could exploit this vulnerability by attempting to authenticate to an affected device. A successful exploit could allow the attacker to access the affected device without valid permission.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20199">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bccd65b9983e7a28f5278f6250def67f</td>
-       <td>CVE-2023-20192</td>
-       <td>2023-06-28 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple vulnerabilities in Cisco Expressway Series and Cisco TelePresence Video Communication Server (VCS) could allow an authenticated attacker with Administrator-level read-only credentials to elevate their privileges to Administrator with read-write credentials on an affected system. Note: "Cisco Expressway Series" refers to Cisco Expressway Control (Expressway-C) devices and Cisco Expressway Edge (Expressway-E) devices. For more information about these vulnerabilities, see the Details section of this advisory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20192">详情</a></td>
       </tr>
 
      </tbody>
@@ -868,7 +868,7 @@
       <tr>
        <td scope="row">6307706e582a87ce110f7411b7168b91</td>
        <td>CNVD-2023-51685 (CVE-2023-21604)</td>
-       <td>2023-06-27 16:44:28 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 16:44:28</td>
        <td>Adobe Acrobat and Reader缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-51685">详情</a></td>
       </tr>
@@ -1074,7 +1074,7 @@
       <tr>
        <td scope="row">753f4885e5c9b342a5c1a5a1b1a085c9</td>
        <td>CNNVD-202306-1978 (CVE-2020-18413)</td>
-       <td>2023-06-27 17:40:03 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 17:40:03</td>
        <td>Chaojicms 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1978">详情</a></td>
       </tr>
@@ -1082,7 +1082,7 @@
       <tr>
        <td scope="row">9b6db91c8b007f5030ac6b6b5de1cbf2</td>
        <td>CNNVD-202306-1977 (CVE-2023-30993)</td>
-       <td>2023-06-27 16:47:02 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 16:47:02</td>
        <td>IBM Cloud Pak for Security 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1977">详情</a></td>
       </tr>
@@ -1090,7 +1090,7 @@
       <tr>
        <td scope="row">90d9f0b0bc18850a0a05e786064e0152</td>
        <td>CNNVD-202306-1980 (CVE-2020-18410)</td>
-       <td>2023-06-27 16:45:54 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 16:45:54</td>
        <td>Chaojicms 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1980">详情</a></td>
       </tr>
@@ -1098,7 +1098,7 @@
       <tr>
        <td scope="row">469894366f11329e7f83035684b695a1</td>
        <td>CNNVD-202306-1982 (CVE-2020-19902)</td>
-       <td>2023-06-27 16:45:50 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 16:45:50</td>
        <td>WCMS 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1982">详情</a></td>
       </tr>
@@ -1106,7 +1106,7 @@
       <tr>
        <td scope="row">03f79f077df31d40e0856c01de3b76b0</td>
        <td>CNNVD-202306-1985 (CVE-2023-25001)</td>
-       <td>2023-06-27 16:44:42 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 16:44:42</td>
        <td>Autodesk 多款产品安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1985">详情</a></td>
       </tr>
@@ -1114,7 +1114,7 @@
       <tr>
        <td scope="row">470a7cdf46276fafe55df2ea81452b78</td>
        <td>CNNVD-202306-1979 (CVE-2020-18406)</td>
-       <td>2023-06-27 14:40:56 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:40:56</td>
        <td>CmsEasy 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1979">详情</a></td>
       </tr>
@@ -1122,7 +1122,7 @@
       <tr>
        <td scope="row">b762745a53751624acb732cc416b98aa</td>
        <td>CNNVD-202306-1981 (CVE-2023-32623)</td>
-       <td>2023-06-27 14:40:51 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:40:51</td>
        <td>WordPress Plugin Snow Monkey Forms 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1981">详情</a></td>
       </tr>
@@ -1130,7 +1130,7 @@
       <tr>
        <td scope="row">2e6f7d2a7395ad5064df79394369fe2c</td>
        <td>CNNVD-202306-1983 (CVE-2020-18416)</td>
-       <td>2023-06-27 14:39:46 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:39:46</td>
        <td>Jymusic 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1983">详情</a></td>
       </tr>
@@ -1138,7 +1138,7 @@
       <tr>
        <td scope="row">6c950134312253136880079ded8266b8</td>
        <td>CNNVD-202306-1984 (CVE-2023-36464)</td>
-       <td>2023-06-27 14:39:44 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:39:44</td>
        <td>PyPDF2 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1984">详情</a></td>
       </tr>
@@ -1146,7 +1146,7 @@
       <tr>
        <td scope="row">319752de420c3b3cc838dca1cf09afa5</td>
        <td>CNNVD-202306-1987 (CVE-2023-25002)</td>
-       <td>2023-06-27 14:38:39 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:38:39</td>
        <td>Autodesk 多款产品安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-1987">详情</a></td>
       </tr>
@@ -1462,7 +1462,7 @@
       <tr>
        <td scope="row">3295f67f254e86198bd767d0e44ffd6a</td>
        <td>CVE-2023-3128</td>
-       <td>2023-06-27 14:26:50 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:26:50</td>
        <td>Grafana 身份认证绕过漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8421">详情</a></td>
       </tr>
@@ -1470,7 +1470,7 @@
       <tr>
        <td scope="row">1a4628406c656e6d6f6e6c7e249992a0</td>
        <td>CVE-2023-33299</td>
-       <td>2023-06-27 14:16:35 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 14:16:35</td>
        <td>Fortinet FortiNAC 远程代码执行漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8420">详情</a></td>
       </tr>
@@ -2018,7 +2018,7 @@
       <tr>
        <td scope="row">04f2377bf45ddafdf5cb5b8af4b3b13d</td>
        <td>CVE-2023-21120</td>
-       <td>2023-06-27 20:25:55 <img src="imgs/new.gif" /></td>
+       <td>2023-06-27 20:25:55</td>
        <td>GOOGLE ANDROID Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c34535864b86468ea79373a1d3f9d8d8">详情</a></td>
       </tr>
