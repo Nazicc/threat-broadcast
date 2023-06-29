@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-06-29 18:45:06 -->
+<!-- RELEASE TIME : 2023-06-29 20:40:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">aaa7555a0b480dd1a89f6086e36e4c27</td>
+       <td>CVE-2023-36484</td>
+       <td>2023-06-29 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>ILIAS 7.21 and 8.0_beta1 through 8.2 is vulnerable to reflected Cross-Site Scripting (XSS).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36484">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">39b0d15b306b19700bc7cf7454dc1da2</td>
+       <td>CVE-2023-33190</td>
+       <td>2023-06-29 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sealos is an open source cloud operating system distribution based on the Kubernetes kernel. In versions of Sealos prior to 4.2.0 an improper configuration of role based access control (RBAC) permissions resulted in an attacker being able to obtain cluster control permissions, which could control the entire cluster deployed with Sealos, as well as hundreds of pods and other resources within the cluster. This issue has been addressed in version 4.2.0. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33190">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b419c251ae259ba22929c909dead1385</td>
+       <td>CVE-2023-30955</td>
+       <td>2023-06-29 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A security defect was identified in Foundry workspace-server that enabled a user to bypass an authorization check and view settings related to 'Developer Mode'. This enabled users with insufficient privilege the ability to view and interact with Developer Mode settings in a limited capacity. A fix was deployed with workspace-server 7.7.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30955">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">65ddd76b3f79f0f742bc2292cc2be171</td>
+       <td>CVE-2023-30946</td>
+       <td>2023-06-29 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A security defect was identified in Foundry Issues. If a user was added to an issue on a resource that they did not have access to and consequently could not see, they could query Foundry's Notification API and receive metadata about the issue including the RID of the issue, severity, internal UUID of the author, and the user-defined title of the issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30946">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c7cebecacaa3981571aff96f9bfc9cbf</td>
        <td>CVE-2023-36488</td>
        <td>2023-06-29 17:15:00 <img src="imgs/new.gif" /></td>
@@ -309,6 +341,14 @@
        <td>2023-06-29 17:15:00 <img src="imgs/new.gif" /></td>
        <td>A possible out-of-bounds read and write (due to an improper length check of shared memory) was discovered in Arm NN Android-NN-Driver before 23.02.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26085">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">069976221585729241a3f1abb6298e6f</td>
+       <td>CVE-2023-36488</td>
+       <td>2023-06-29 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>ILIAS 7.21 and 8.0_beta1 through 8.2 is vulnerable to stored Cross Site Scripting (XSS).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36488">详情</a></td>
       </tr>
 
       <tr>
@@ -477,46 +517,6 @@
        <td>2023-06-28 23:15:00 <img src="imgs/new.gif" /></td>
        <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to versions 5.5.2 and 6.2.1, an attacker can use a prototype pollution sink to trigger a remote code execution through the MongoDB BSON parser. A patch is available in versions 5.5.2 and 6.2.1.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36475">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0d26b4b0b2dd86d0c270667e18abccf</td>
-       <td>CVE-2023-36474</td>
-       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Interactsh is an open-source tool for detecting out-of-band interactions. Domains configured with interactsh server prior to version 1.0.0 were vulnerable to subdomain takeover for a specific subdomain, i.e `app.` Interactsh server used to create cname entries for `app` pointing to `projectdiscovery.github.io` as default, which intended to used for hosting interactsh web client using GitHub pages. This is a security issue with a self-hosted interactsh server in which the user may not have configured a web client but still have a CNAME entry pointing to GitHub pages, making them vulnerable to subdomain takeover. This allows a threat actor to host / run arbitrary client side code (cross-site scripting) in a user's browser when browsing the vulnerable subdomain. Version 1.0.0 fixes this issue by making CNAME optional, rather than default.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36474">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">24ab01c414de4d51e9069307b6d01255</td>
-       <td>CVE-2023-34736</td>
-       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Guantang Equipment Management System version 4.12 is vulnerable to Arbitrary File Upload.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34736">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87e739819497ff19e5bcdd1c339e8899</td>
-       <td>CVE-2023-34647</td>
-       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>PHPgurukl Hostel Management System v.1.0 is vulnerable to Cross Site Scripting (XSS).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34647">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">78590ff7fc5c71658dd758671014bc16</td>
-       <td>CVE-2023-3359</td>
-       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in the Linux kernel brcm_nvram_parse in drivers/nvmem/brcm_nvram.c. Lacks for the check of the return value of kzalloc() can cause the NULL Pointer Dereference.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3359">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">06982ab5913243a8d5a43ffbbf663f3b</td>
-       <td>CVE-2023-3358</td>
-       <td>2023-06-28 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>A null pointer dereference was found in the Linux kernel's Integrated Sensor Hub (ISH) driver. This issue could allow a local user to crash the system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3358">详情</a></td>
       </tr>
 
      </tbody>
