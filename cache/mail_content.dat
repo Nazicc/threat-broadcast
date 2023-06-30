@@ -1,11 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-52851 (CVE-2023-3307)</font><br/>[<b>披露时间</b>] 2023-06-30 06:41:14<br/>[<b>漏洞描述</b>] miniCal SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-52851'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-52851</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34843</font><br/>[<b>披露时间</b>] 2023-06-29 09:37:37<br/>[<b>漏洞描述</b>] Traggo Server 任意文件读取漏洞（CVE-2023-34843）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-34843'>https://avd.aliyun.com/detail?id=AVD-2023-34843</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34939</font><br/>[<b>披露时间</b>] 2023-06-22 09:37:37<br/>[<b>漏洞描述</b>] OnlyOffice CommunityServer UploadProgress.ashx 文件上传漏洞（CVE-2023-34939）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-34939'>https://avd.aliyun.com/detail?id=AVD-2023-34939</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2304</font><br/>[<b>披露时间</b>] 2023-07-03 09:38:12<br/>[<b>漏洞描述</b>] WordPress Favorites plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/80856'>http://www.nsfocus.net/vulndb/80856</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
