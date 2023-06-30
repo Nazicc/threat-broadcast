@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-52809 (CVE-2023-34843)</font><br/>[<b>披露时间</b>] 2023-06-30 02:09:02<br/>[<b>漏洞描述</b>] Traggo server目录遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-52809'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-52809</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-52816 (CVE-2023-21127)</font><br/>[<b>披露时间</b>] 2023-06-30 02:09:05<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-52816'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-52816</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-52817 (CVE-2023-21130)</font><br/>[<b>披露时间</b>] 2023-06-30 02:09:16<br/>[<b>漏洞描述</b>] Google Android缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-52817'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-52817</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36475</font><br/>[<b>披露时间</b>] 2023-06-29 03:03:59<br/>[<b>漏洞描述</b>] Parse Server MongoDB BSON 远程命令执行漏洞（CVE-2023-36475）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-36475'>https://avd.aliyun.com/detail?id=AVD-2023-36475</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
