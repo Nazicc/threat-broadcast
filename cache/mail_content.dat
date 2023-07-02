@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28029</font><br/>[<b>披露时间</b>] 2023-07-02 20:54:39<br/>[<b>漏洞描述</b>] DELL Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=153e204d843b4e40aa46cf34612e52fa'>https://redqueen.tj-un.com/IntelDetails.html?id=153e204d843b4e40aa46cf34612e52fa</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28033</font><br/>[<b>披露时间</b>] 2023-07-02 20:54:23<br/>[<b>漏洞描述</b>] DELL Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e4e7063e12fd48d3956efbb4b7261d46'>https://redqueen.tj-un.com/IntelDetails.html?id=e4e7063e12fd48d3956efbb4b7261d46</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25938</font><br/>[<b>披露时间</b>] 2023-07-02 20:53:59<br/>[<b>漏洞描述</b>] DELL Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8388e48b373245ebba4d4877f180c0f8'>https://redqueen.tj-un.com/IntelDetails.html?id=8388e48b373245ebba4d4877f180c0f8</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-53133</font><br/>[<b>披露时间</b>] 2023-07-03 16:41:16<br/>[<b>漏洞描述</b>] 杭州海康威视数字技术股份有限公司iVMS-8700综合安防管理平台存在文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-53133'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-53133</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
