@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-03 20:38:14 -->
+<!-- RELEASE TIME : 2023-07-03 21:38:27 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2c9e0132f9194d0d0a05d3ff490a34e5</td>
+       <td>CVE-2023-36819</td>
+       <td>2023-07-03 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Knowage is the professional open source suite for modern business analytics over traditional sources and big data systems. The endpoint `_/knowage/restful-services/dossier/importTemplateFile_` allows authenticated users to download template hosted on the server. However, starting in the 6.x.x branch and prior to version 8.1.8, the application does not sanitize the `_templateName_ `parameter allowing an attacker to use `*../*` in it, and escaping the directory the template are normally placed and download any file from the system. This vulnerability allows a low privileged attacker to exfiltrate sensitive configuration file. This issue has been patched in Knowage version 8.1.8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36819">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">12a6eff618a11efe795b289151c711e7</td>
+       <td>CVE-2023-36817</td>
+       <td>2023-07-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>`tktchurch/website` contains the codebase for The King's Temple Church website. In version 0.1.0, a Stripe API key was found in the public code repository of the church's project. This sensitive information was unintentionally committed and subsequently exposed in the codebase. If an unauthorized party gains access to this key, they could potentially carry out transactions on behalf of the organization, leading to financial losses. Additionally, they could access sensitive customer information, leading to privacy violations and potential legal implications. The affected component is the codebase of our project, specifically the file(s) where the Stripe API key is embedded. The key should have been stored securely, and not committed to the codebase. The maintainers plan to revoke the leaked Stripe API key immediately, generate a new one, and not commit the key to the codebase.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36817">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7252c67c21504f17efa763c13a324fe5</td>
+       <td>CVE-2023-36815</td>
+       <td>2023-07-03 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sealos is a Cloud Operating System designed for managing cloud-native applications. In version 4.2.0 and prior, there is a permission flaw in the Sealos billing system, which allows users to control the recharge resource account `sealos[.] io/v1/Payment`, resulting in the ability to recharge any amount of 1 renminbi (RMB). The charging interface may expose resource information. The namespace of this custom resource would be user's control and may have permission to correct it. It is not clear whether a fix exists.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36815">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c1aac24018506fde434617efb9d47fc3</td>
        <td>CVE-2023-36816</td>
        <td>2023-07-03 17:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-07-01 06:15:00</td>
        <td>The Multiple Roles plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.3.1. This is due to missing or incorrect nonce validation on the mu_add_roles_in_signup_meta() and mu_add_roles_in_signup_meta_recently() functions. This makes it possible for unauthenticated attackers to add additional roles to users via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4402">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">09ddf3ddf7b64bbe6e0fd76c26bfecda</td>
-       <td>CVE-2021-4401</td>
-       <td>2023-07-01 06:15:00</td>
-       <td>The Style Kits plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.8.0. This is due to missing or incorrect nonce validation on the update_posts_stylekit() function. This makes it possible for unauthenticated attackers to update style kits for posts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4401">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d6672f7e69ae633c4a2d06083f69b74</td>
-       <td>CVE-2021-4400</td>
-       <td>2023-07-01 06:15:00</td>
-       <td>The Better Search plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.5.2. This is due to missing or incorrect nonce validation on the bsearch_process_settings_import() and bsearch_process_settings_export() functions. This makes it possible for unauthenticated attackers to import and export settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4400">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a939cedec1f870eebf45d775d598c9b1</td>
-       <td>CVE-2021-4399</td>
-       <td>2023-07-01 06:15:00</td>
-       <td>The Edwiser Bridge plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including,2.0.6. This is due to missing or incorrect nonce validation on the user_data_synchronization_initiater(), course_synchronization_initiater(), users_link_to_moodle_synchronization(), connection_test_initiater(), admin_menus(), and subscribe_handler() function. This makes it possible for unauthenticated attackers to perform unauthorized actions via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4399">详情</a></td>
       </tr>
 
      </tbody>
