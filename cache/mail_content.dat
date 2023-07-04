@@ -1,18 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-100 (CVE-2023-25516)</font><br/>[<b>披露时间</b>] 2023-07-03 14:40:20<br/>[<b>漏洞描述</b>] NVIDIA GPU Display Driver for Linux 输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-100'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-100</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-099 (CVE-2023-30990)</font><br/>[<b>披露时间</b>] 2023-07-03 14:40:23<br/>[<b>漏洞描述</b>] IBM i 代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-099'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-099</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-096 (CVE-2023-25517)</font><br/>[<b>披露时间</b>] 2023-07-03 14:42:32<br/>[<b>漏洞描述</b>] NVIDIA vGPU Software 授权问题漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-096'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-096</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-094 (CVE-2023-36608)</font><br/>[<b>披露时间</b>] 2023-07-03 14:42:38<br/>[<b>漏洞描述</b>] Ovarro TBox RTUs 加密问题漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-094'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-094</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-092 (CVE-2020-22152)</font><br/>[<b>披露时间</b>] 2023-07-03 14:43:44<br/>[<b>漏洞描述</b>] FUEL CMS 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-092'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-092</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28040</font><br/>[<b>披露时间</b>] 2023-07-04 20:53:58<br/>[<b>漏洞描述</b>] DELL Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6187e4274390495283f86a9d153195b2'>https://redqueen.tj-un.com/IntelDetails.html?id=6187e4274390495283f86a9d153195b2</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28034</font><br/>[<b>披露时间</b>] 2023-07-04 20:53:50<br/>[<b>漏洞描述</b>] DELL Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ac3c864530704ff1856287de40a22575'>https://redqueen.tj-un.com/IntelDetails.html?id=ac3c864530704ff1856287de40a22575</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-101 (CVE-2023-36609)</font><br/>[<b>披露时间</b>] 2023-07-03 15:38:46<br/>[<b>漏洞描述</b>] Ovarro TBox RTUs 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-101'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-101</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-098 (CVE-2023-25523)</font><br/>[<b>披露时间</b>] 2023-07-03 15:38:53<br/>[<b>漏洞描述</b>] NVIDIA CUDA toolkit 代码问题漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-098'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-098</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-097 (CVE-2023-25521)</font><br/>[<b>披露时间</b>] 2023-07-03 15:38:56<br/>[<b>漏洞描述</b>] NVIDIA DGX 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-097'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-097</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
