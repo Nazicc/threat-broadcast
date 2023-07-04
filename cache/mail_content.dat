@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-042 (CVE-2021-4393)</font><br/>[<b>披露时间</b>] 2023-07-01 04:43:00<br/>[<b>漏洞描述</b>] WordPress Plugin eCommerce Product Catalog 跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-042'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-042</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36362</font><br/>[<b>披露时间</b>] 2023-06-22 14:15:09 <br/>[<b>漏洞描述</b>] An issue in the rel_sequences component of MonetDB Server v11.45.17 and v11.46.0 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-36362'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-36362</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
