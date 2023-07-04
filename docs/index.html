@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-04 16:49:44 -->
+<!-- RELEASE TIME : 2023-07-04 18:45:54 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a627fa04d3f56e2f021fc8aa027c0e64</td>
+       <td>CVE-2023-31999</td>
+       <td>2023-07-04 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of @fastify/oauth2 used a statically generated state parameter at startup time and were used across all requests for all users. The purpose of the Oauth2 state parameter is to prevent Cross-Site-Request-Forgery attacks. As such, it should be unique per user and should be connected to the user's session in some way that will allow the server to validate it.v7.2.0 changes the default behavior to store the state in a cookie with the http-only and same-site=lax attributes set. The state is now by default generated for every user. Note that this contains a breaking change in the checkStateFunction function, which now accepts the full Request object.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31999">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1716eb8eeab68cf37f9c44e8dc4ae556</td>
+       <td>CVE-2023-3506</td>
+       <td>2023-07-04 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in Active It Zone Active eCommerce CMS 6.5.0. It has been declared as problematic. This vulnerability affects unknown code of the file /ecommerce/support_ticket of the component Create Ticket Page. The manipulation of the argument details with the input <script>alert(1)</script> leads to cross site scripting. The attack can be initiated remotely. VDB-232954 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3506">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f6e24b05a3005be9d04af851a65f85c5</td>
+       <td>CVE-2023-3505</td>
+       <td>2023-07-04 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in Onest CRM 1.0. It has been classified as problematic. This affects an unknown part of the file /admin/project/update/2 of the component Project List Handler. The manipulation of the argument name with the input <script>alert(1)</script> leads to cross site scripting. It is possible to initiate the attack remotely. The identifier VDB-232953 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3505">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f8f159e3ee7ff26317c09662143bde61</td>
        <td>CVE-2023-3504</td>
        <td>2023-07-04 15:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-07-03 21:15:00 <img src="imgs/new.gif" /></td>
        <td>Buffer Overflow vulnerability in mtrojnar osslsigncode v.2.3 and before allows a local attacker to execute arbitrary code via a crafted .exe, .sys, and .dll files.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36377">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c77ad90e318cdab096804f39c25da625</td>
-       <td>CVE-2023-36291</td>
-       <td>2023-07-03 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross Site Scripting vulnerability in Maxsite CMS v.108.7 allows a remote attacker to execute arbitrary code via the f_content parameter in the admin/page_new file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36291">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b568c72be4e29d856805f01a76792057</td>
-       <td>CVE-2023-36262</td>
-       <td>2023-07-03 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue in OBS Studio OBS-Studio v.29.1.2 allows a local attack to obtain sensitive information via the password parameter in locale/ca-ini.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36262">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3fbd367522c5df45a57e7ba2881fe741</td>
-       <td>CVE-2023-36258</td>
-       <td>2023-07-03 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue in langchain v.0.0.199 allows an attacker to execute arbitrary code via the PALChain in the python exec method.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36258">详情</a></td>
       </tr>
 
      </tbody>
@@ -1072,6 +1072,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">912c8b1830bb10d09c000d758bc0225f</td>
+       <td>CNNVD-202307-093 (CVE-2020-22151)</td>
+       <td>2023-07-03 18:45:24 <img src="imgs/new.gif" /></td>
+       <td>FUEL CMS 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-093">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">17a55f0ba75e60034925fc40d5d5534a</td>
        <td>CNNVD-202307-097 (CVE-2023-25521)</td>
        <td>2023-07-03 15:38:56 <img src="imgs/new.gif" /></td>
@@ -1301,14 +1309,6 @@
        <td>2023-06-29 15:37:58</td>
        <td>LibTIFF 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-2189">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4cf20abdde89e360c53ce0529830a89a</td>
-       <td>CNNVD-202306-2190 (CVE-2022-44719)</td>
-       <td>2023-06-29 15:37:56</td>
-       <td>Ucopia 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202306-2190">详情</a></td>
       </tr>
 
      </tbody>
