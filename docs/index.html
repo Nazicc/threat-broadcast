@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-05 05:40:17 -->
+<!-- RELEASE TIME : 2023-07-05 06:47:29 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ad24804788465fd9fbc6c81adb22d1a8</td>
+       <td>CVE-2023-33201</td>
+       <td>2023-07-05 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Bouncy Castle For Java before 1.74 is affected by an LDAP injection vulnerability. The vulnerability only affects applications that use an LDAP CertStore from Bouncy Castle to validate X.509 certificates. During the certificate validation process, Bouncy Castle inserts the certificate's Subject Name into an LDAP search filter without any escaping, which leads to an LDAP injection vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33201">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">94860f7df1fe2ae3e8d32e610216b3c8</td>
+       <td>CVE-2022-42175</td>
+       <td>2023-07-05 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Insecure Direct Object Reference vulnerability in WHMCS module SolusVM 1 4.1.2 allows an attacker to change the password and hostname of other customer servers without authorization.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42175">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a627fa04d3f56e2f021fc8aa027c0e64</td>
        <td>CVE-2023-31999</td>
        <td>2023-07-04 17:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-07-03 21:15:00</td>
        <td>The affected TBox RTUs allow low privilege users to access software security tokens of higher privilege. This could allow an attacker with “user” privileges to access files requiring higher privileges by establishing an SSH session and providing the other tokens.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36611">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c5c135cebee86e8639de47f6f205c936</td>
-       <td>CVE-2023-36610</td>
-       <td>2023-07-03 21:15:00</td>
-       <td>?The affected TBox RTUs generate software security tokens using insufficient entropy. The random seed used to generate the software tokens is not initialized correctly, and other parts of the token are generated using predictable time-based values. An attacker with this knowledge could successfully brute force the token and authenticate themselves.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36610">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">45e868a56ca7d64a03b38d3bbdbe1520</td>
-       <td>CVE-2023-36377</td>
-       <td>2023-07-03 21:15:00</td>
-       <td>Buffer Overflow vulnerability in mtrojnar osslsigncode v.2.3 and before allows a local attacker to execute arbitrary code via a crafted .exe, .sys, and .dll files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36377">详情</a></td>
       </tr>
 
      </tbody>
@@ -834,6 +834,54 @@
       </tr>
 
       <tr>
+       <td scope="row">81c4485141de8601115877e2d2013ede</td>
+       <td>CNVD-2023-53906 (CVE-2022-41063)</td>
+       <td>2023-07-05 06:43:30 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Excel远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-53906">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2d5f2dc4af97b9687b7ed29de513c265</td>
+       <td>CNVD-2023-53904 (CVE-2022-41106)</td>
+       <td>2023-07-05 06:43:28 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Excel远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-53904">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">84ef695918732e0d22cedb2720681142</td>
+       <td>CNVD-2023-53903 (CVE-2022-41105)</td>
+       <td>2023-07-05 06:43:25 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Excel信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-53903">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ed605f5db707cd35f957bbdac6dd85bc</td>
+       <td>CNVD-2023-53911 (CVE-2023-23399)</td>
+       <td>2023-07-05 06:43:23 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Excel代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-53911">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">70131214e653ebb2780500800dc9679d</td>
+       <td>CNVD-2023-53910 (CVE-2023-23398)</td>
+       <td>2023-07-05 06:43:21 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Excel欺骗漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-53910">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc25e263b5d860f3f9d54c30c8efe91f</td>
+       <td>CNVD-2023-53909 (CVE-2023-33137)</td>
+       <td>2023-07-05 06:43:16 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Excel代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-53909">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">25933b725fc52591d1379cb17ec864af</td>
        <td>CNVD-2023-53454 (CVE-2022-39429)</td>
        <td>2023-07-04 17:37:26 <img src="imgs/new.gif" /></td>
@@ -1007,54 +1055,6 @@
        <td>2023-06-30 18:41:05</td>
        <td>H3C Magic R300堆栈溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52054">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9b71df5c4782f03ef473c3e23b14aaeb</td>
-       <td>CNVD-2023-52851 (CVE-2023-3307)</td>
-       <td>2023-06-30 06:41:14</td>
-       <td>miniCal SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52851">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eaf27e140f9dcb06e57a70bbfda33554</td>
-       <td>CNVD-2023-52835 (CVE-2023-21105)</td>
-       <td>2023-06-30 03:39:01</td>
-       <td>Google Android存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52835">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">adc7167cce96523b5359c5a72118466b</td>
-       <td>CNVD-2023-52834 (CVE-2023-21120)</td>
-       <td>2023-06-30 03:38:59</td>
-       <td>Google Android存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52834">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">535697145837b3bd79a8a3d56899cfd2</td>
-       <td>CNVD-2023-52833 (CVE-2023-21123)</td>
-       <td>2023-06-30 03:38:56</td>
-       <td>Google Android存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52833">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fd3753f380fc26327e69b6a0ce6020bd</td>
-       <td>CNVD-2023-52832 (CVE-2023-21129)</td>
-       <td>2023-06-30 03:38:54</td>
-       <td>Google Android存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52832">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">01959b5381be0c4cab327d24edae3526</td>
-       <td>CNVD-2023-52817 (CVE-2023-21130)</td>
-       <td>2023-06-30 02:09:16</td>
-       <td>Google Android缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-52817">详情</a></td>
       </tr>
 
      </tbody>
