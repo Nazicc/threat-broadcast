@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26138</font><br/>[<b>披露时间</b>] 2023-07-06 05:15:00<br/>[<b>漏洞描述</b>] All versions of the package drogonframework/drogon are vulnerable to CRLF Injection when untrusted user input is used to set request headers in the addHeader function. An attacker can add the \r\n (carriage return line feeds) characters and inject additional headers in the request sent.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26138'>https://www.tenable.com/cve/CVE-2023-26138</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26137</font><br/>[<b>披露时间</b>] 2023-07-06 05:15:00<br/>[<b>漏洞描述</b>] All versions of the package drogonframework/drogon are vulnerable to HTTP Response Splitting when untrusted user input is used to build header values in the addHeader and addCookie functions. An attacker can add the \r\n (carriage return line feeds) characters to end the HTTP response headers and inject malicious content.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26137'>https://www.tenable.com/cve/CVE-2023-26137</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3523</font><br/>[<b>披露时间</b>] 2023-07-06 10:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds Read in GitHub repository gpac/gpac prior to 2.2.2.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3523'>https://www.tenable.com/cve/CVE-2023-3523</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
