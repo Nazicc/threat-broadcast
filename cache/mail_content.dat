@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32183</font><br/>[<b>披露时间</b>] 2023-07-07 09:15:00<br/>[<b>漏洞描述</b>] Incorrect Default Permissions vulnerability in the openSUSE Tumbleweed hawk2 package allows users with access to the hacluster to escalate to rootThis issue affects openSUSE Tumbleweed.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32183'>https://www.tenable.com/cve/CVE-2023-32183</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33008</font><br/>[<b>披露时间</b>] 2023-07-07 10:15:00<br/>[<b>漏洞描述</b>] Deserialization of Untrusted Data vulnerability in Apache Software Foundation Apache Johnzon.A malicious attacker can craft up some JSON input that uses large numbers (numbers such as 1e20000000) that Apache Johnzon will deserialize into BigDecimal and maybe use numbers too large which may result in a slow conversion (Denial of service risk). Apache Johnzon 1.2.21 mitigates this by setting a scale limit of 1000 (by default) to the BigDecimal. This issue affects Apache Johnzon: through 1.2.20.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33008'>https://www.tenable.com/cve/CVE-2023-33008</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
