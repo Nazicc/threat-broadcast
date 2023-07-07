@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-54439 (CVE-2020-21252)</font><br/>[<b>披露时间</b>] 2023-06-30 09:37:52<br/>[<b>漏洞描述</b>] HongCMS跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-54439'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-54439</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-54440 (CVE-2020-20067)</font><br/>[<b>披露时间</b>] 2023-06-30 09:37:55<br/>[<b>漏洞描述</b>] EBCMS代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-54440'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-54440</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-54441 (CVE-2020-20697)</font><br/>[<b>披露时间</b>] 2023-06-30 09:37:57<br/>[<b>漏洞描述</b>] NodCMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-54441'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-54441</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29636</font><br/>[<b>披露时间</b>] 2023-07-07 09:39:13<br/>[<b>漏洞描述</b>] ZHENFENG13 My-Blog跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81253'>http://www.nsfocus.net/vulndb/81253</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22924</font><br/>[<b>披露时间</b>] 2023-07-07 09:39:13<br/>[<b>漏洞描述</b>] Zyxel NBG-418N v2缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81252'>http://www.nsfocus.net/vulndb/81252</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32183</font><br/>[<b>披露时间</b>] 2023-07-07 09:15:00<br/>[<b>漏洞描述</b>] Incorrect Default Permissions vulnerability in the openSUSE Tumbleweed hawk2 package allows users with access to the hacluster to escalate to rootThis issue affects openSUSE Tumbleweed.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32183'>https://www.tenable.com/cve/CVE-2023-32183</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
