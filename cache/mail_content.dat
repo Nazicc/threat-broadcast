@@ -1,18 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">8</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-31937</font><br/>[<b>披露时间</b>] 2023-07-08 20:30:34<br/>[<b>漏洞描述</b>] Microsoft Edge 安全特征问题漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2117584154514017b31edc4d83ed053c'>https://redqueen.tj-un.com/IntelDetails.html?id=2117584154514017b31edc4d83ed053c</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3445</font><br/>[<b>披露时间</b>] 2023-07-08 20:30:27<br/>[<b>漏洞描述</b>] DENKGROOT SPINA Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8f1468fd42fa44ddb9b0ba20dbeac79d'>https://redqueen.tj-un.com/IntelDetails.html?id=8f1468fd42fa44ddb9b0ba20dbeac79d</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21160</font><br/>[<b>披露时间</b>] 2023-07-08 20:30:19<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=41f7ed298c644d7896daca3b37f64d7b'>https://redqueen.tj-un.com/IntelDetails.html?id=41f7ed298c644d7896daca3b37f64d7b</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-44276</font><br/>[<b>披露时间</b>] 2023-07-08 20:30:12<br/>[<b>漏洞描述</b>] TECRAIL RESPONSIVE_FILEMANAGER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=175139d15eb84d2e82ea968619cebd55'>https://redqueen.tj-un.com/IntelDetails.html?id=175139d15eb84d2e82ea968619cebd55</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21158</font><br/>[<b>披露时间</b>] 2023-07-08 20:30:04<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=38037bf1830e4a60ab94bb6ff8e017f0'>https://redqueen.tj-un.com/IntelDetails.html?id=38037bf1830e4a60ab94bb6ff8e017f0</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21159</font><br/>[<b>披露时间</b>] 2023-07-08 20:29:49<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=71bd27cc29b24b918a33ee809b162baa'>https://redqueen.tj-un.com/IntelDetails.html?id=71bd27cc29b24b918a33ee809b162baa</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21161</font><br/>[<b>披露时间</b>] 2023-07-08 20:29:41<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2744a033d7234dccb309571098d2f914'>https://redqueen.tj-un.com/IntelDetails.html?id=2744a033d7234dccb309571098d2f914</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34098</font><br/>[<b>披露时间</b>] 2023-07-08 20:29:34<br/>[<b>漏洞描述</b>] SHOPWARE SHOPWARE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d595722920724579ac4ee11cfbb6d4b1'>https://redqueen.tj-un.com/IntelDetails.html?id=d595722920724579ac4ee11cfbb6d4b1</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37360</font><br/>[<b>披露时间</b>] 2023-06-30 18:15:10 <br/>[<b>漏洞描述</b>] pacparser_find_proxy in Pacparser before 1.4.2 allows JavaScript injection, and possibly privilege escalation, when the attacker controls the URL (which may be realistic within enterprise security products).<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-37360'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-37360</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
