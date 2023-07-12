@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-12 14:39:25 -->
+<!-- RELEASE TIME : 2023-07-12 16:44:52 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">27d7fb69e7b1e40d4bbff23d10e115be</td>
+       <td>CVE-2023-37627</td>
+       <td>2023-07-12 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Code-projects Online Restaurant Management System 1.0 is vulnerable to SQL Injection. Through SQL injection, an attacker can bypass the admin panel and view order records, add items, delete items etc.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37627">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3838553d01071d48c9c1ed5610f45950</td>
+       <td>CVE-2023-3618</td>
+       <td>2023-07-12 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A flaw was found in libtiff. A specially crafted tiff file can lead to a segmentation fault due to a buffer overflow in the Fax3Encode function in libtiff/tif_fax3.c, resulting in a denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3618">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4df8c95d518c6cf39f6bcf76e979b827</td>
+       <td>CVE-2023-37456</td>
+       <td>2023-07-12 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>The session restore helper crashed whenever there was no parameter sent to the message handler. This vulnerability affects Firefox for iOS < 115.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37456">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3ce1023300146eea4169341df55e6208</td>
+       <td>CVE-2023-37455</td>
+       <td>2023-07-12 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>The permission request prompt from the site in the background tab was overlaid on top of the site in the foreground tab. This vulnerability affects Firefox for iOS < 115.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37455">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4db996d1b9fa447c16e67d867a4a9bf</td>
+       <td>CVE-2023-3600</td>
+       <td>2023-07-12 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>During the worker lifecycle, a use-after-free condition could have occured, which could have led to a potentially exploitable crash. This vulnerability affects Firefox < 115.0.2 and Firefox ESR < 115.0.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3600">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">58b02415828114aa69414afb9f9fb4d8</td>
+       <td>CVE-2023-20210</td>
+       <td>2023-07-12 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in Cisco BroadWorks could allow an authenticated, local attacker to elevate privileges to the root user on an affected device. The vulnerability is due to insufficient input validation by the operating system CLI. An attacker could exploit this vulnerability by issuing a crafted command to the affected system. A successful exploit could allow the attacker to execute commands as the root user. To exploit this vulnerability, an attacker must have valid BroadWorks administrative privileges on the affected device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20210">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">144660ecd8f4bcb7af5651722d9c3881</td>
+       <td>CVE-2023-20207</td>
+       <td>2023-07-12 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the logging component of Cisco Duo Authentication Proxy could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system. This vulnerability exists because certain unencrypted credentials are stored. An attacker could exploit this vulnerability by accessing the logs on an affected system and obtaining credentials that they may not normally have access to. A successful exploit could allow the attacker to view sensitive information in clear text.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20207">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d48e35cdd808c3f9485f5d5e3b89b1c4</td>
+       <td>CVE-2023-20185</td>
+       <td>2023-07-12 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in the Cisco ACI Multi-Site CloudSec encryption feature of Cisco Nexus 9000 Series Fabric Switches in ACI mode could allow an unauthenticated, remote attacker to read or modify intersite encrypted traffic. This vulnerability is due to an issue with the implementation of the ciphers that are used by the CloudSec encryption feature on affected switches. An attacker with an on-path position between the ACI sites could exploit this vulnerability by intercepting intersite encrypted traffic and using cryptanalytic techniques to break the encryption. A successful exploit could allow the attacker to read or modify the traffic that is transmitted between the sites. Cisco has not released and will not release software updates that address this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20185">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">27c8b5dc205fc81ddd9855beba7ba516</td>
        <td>CVE-2023-38069</td>
        <td>2023-07-12 13:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
        <td>In hci_server, there is a possible out of bounds read due to a missing bounds check.  This could lead to local denial of service with System execution privileges needed.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33904">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">10f1ef6c1263baecb1a0025f219abc8b</td>
-       <td>CVE-2023-33903</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In FM service, there is a possible missing params check.  This could lead to local denial of service with System execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33903">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d5079f1475fde5905ede305dc5a8e1e2</td>
-       <td>CVE-2023-33902</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In bluetooth service, there is a missing permission check. This could lead to local information disclosure with no additional execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33902">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">77f3d8c7486cabe096771a2ca796a9ff</td>
-       <td>CVE-2023-33901</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In bluetooth service, there is a missing permission check. This could lead to local information disclosure with no additional execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33901">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">48e38abb34f8e614ed20ce080e823f3c</td>
-       <td>CVE-2023-33900</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In telephony service, there is a missing permission check. This could lead to local information disclosure with no additional execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33900">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">58939f4d825728a9f358239800625e8c</td>
-       <td>CVE-2023-33899</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In telephony service, there is a missing permission check. This could lead to local information disclosure with no additional execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33899">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3cc5f7f2cefbc1a89eb0e679f44f9ea6</td>
-       <td>CVE-2023-33898</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In telephony service, there is a missing permission check. This could lead to local information disclosure with no additional execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33898">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d66d54c2e1e8835d24f429da72909a8c</td>
-       <td>CVE-2023-33897</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In libimpl-ril, there is a possible out of bounds write due to a missing bounds check. This could lead to local denial of service with System execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33897">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0ba20753fefdd1dce8019013c154ff44</td>
-       <td>CVE-2023-33896</td>
-       <td>2023-07-12 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>In libimpl-ril, there is a possible out of bounds write due to a missing bounds check. This could lead to local denial of service with System execution privileges needed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33896">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">196bdadb0e4f75e48ade651d9ea3340a</td>
+       <td>CNVD-2023-55372 (CVE-2023-21085)</td>
+       <td>2023-07-13 16:43:23 <img src="imgs/new.gif" /></td>
+       <td>Google Android代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55372">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">46b5fa1f0b190725c16830c3ecb97620</td>
+       <td>CNVD-2023-55371 (CVE-2023-20935)</td>
+       <td>2023-07-13 16:43:20 <img src="imgs/new.gif" /></td>
+       <td>Google Android信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55371">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c4ebc35348a0426bd764f562170ebc32</td>
+       <td>CNVD-2023-55370 (CVE-2023-21088)</td>
+       <td>2023-07-13 16:43:18 <img src="imgs/new.gif" /></td>
+       <td>Google Android权限提升漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55370">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8c0410ca03a65219a34ba4f3e09b6e76</td>
+       <td>CNVD-2023-55369 (CVE-2023-21094)</td>
+       <td>2023-07-13 16:43:16 <img src="imgs/new.gif" /></td>
+       <td>Google Android权限提升漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55369">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">edbc01fc4d426d84d98ed52a8c1ee2cf</td>
+       <td>CNVD-2023-55368 (CVE-2023-21097)</td>
+       <td>2023-07-13 16:43:13 <img src="imgs/new.gif" /></td>
+       <td>Google Android权限提升漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55368">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c4228ff7e26fcee0dc44925cec91be7b</td>
+       <td>CNVD-2023-55395 (CVE-2023-35798)</td>
+       <td>2023-07-13 16:43:11 <img src="imgs/new.gif" /></td>
+       <td>Apache Airflow ODBC Provider和MSSQL Provider任意文件读取漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55395">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">852d3a6e7db79712ec8416f9de6118d2</td>
+       <td>CNVD-2023-55391 (CVE-2023-34150)</td>
+       <td>2023-07-13 16:43:09 <img src="imgs/new.gif" /></td>
+       <td>Apache Any23拒绝服务漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55391">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d179f1fe44c060869624322bbea1612f</td>
        <td>CNVD-2023-55393 (CVE-2023-22886)</td>
        <td>2023-07-12 16:44:37 <img src="imgs/new.gif" /></td>
@@ -999,62 +1055,6 @@
        <td>2023-07-10 07:37:31</td>
        <td>Mattermost代码注入漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55042">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">93129ddd5ab1ef4d0fa5a3c0982848d1</td>
-       <td>CNVD-2023-55041 (CVE-2023-2783)</td>
-       <td>2023-07-10 07:37:29</td>
-       <td>Mattermost存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55041">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e9bf86bf3bfeb3ae2fe593eae6a1af81</td>
-       <td>CNVD-2023-55040 (CVE-2023-2784)</td>
-       <td>2023-07-10 07:37:27</td>
-       <td>Mattermost存在未明漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55040">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">63b5bb7ba6b12442f43e84956a56d4b5</td>
-       <td>CNVD-2023-55039 (CVE-2023-2788)</td>
-       <td>2023-07-10 07:37:25</td>
-       <td>Mattermost代码问题漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55039">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">279b1f6a369c5d61097f22fee38efc33</td>
-       <td>CNVD-2023-55036 (CVE-2023-26420)</td>
-       <td>2023-07-10 06:42:36</td>
-       <td>Adobe Acrobat Reader资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55036">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d6bd2aa5ebdcb2d202793ef57559058</td>
-       <td>CNVD-2023-55035 (CVE-2023-26419)</td>
-       <td>2023-07-10 06:42:34</td>
-       <td>Adobe Acrobat Reader资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55035">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40f72b5203547d250db52bbc0ae6ca80</td>
-       <td>CNVD-2023-55034 (CVE-2023-26422)</td>
-       <td>2023-07-10 06:42:32</td>
-       <td>Adobe Acrobat Reader资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55034">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1bb742ecf94a302131ee5790355f296c</td>
-       <td>CNVD-2023-55033 (CVE-2023-26424)</td>
-       <td>2023-07-10 06:42:29</td>
-       <td>Adobe Acrobat Reader资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-55033">详情</a></td>
       </tr>
 
      </tbody>
@@ -2452,6 +2452,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">0ebd3458a1163722104613ceaa433f1f</td>
+       <td>CVE-2023-30323</td>
+       <td>2023-07-06 15:15:15 </td>
+       <td>SQL Injection vulnerability in username field in /src/chatbotapp/chatWindow.java in Payatu ChatEngine v.1.0, allows attackers to gain sensitive information.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30323">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2019705b00e9498c754b9a64737c5d41</td>
+       <td>CVE-2023-30322</td>
+       <td>2023-07-06 15:15:15 </td>
+       <td>Cross Site Scripting (XSS) vulnerability in username field in /src/chatbotapp/chatWindow.java in Payatu ChatEngine v.1.0, allows attackers to execute arbitrary code.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30322">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f05213652ac68084458a3f1971ab545c</td>
        <td>CVE-2023-25114</td>
        <td>2023-07-06 15:15:14 </td>
@@ -2636,6 +2652,14 @@
       </tr>
 
       <tr>
+       <td scope="row">83781b47812aee2fa7a5a50120859b2c</td>
+       <td>CVE-2023-30207</td>
+       <td>2023-07-05 21:15:09 </td>
+       <td>A divide by zero issue discovered in Kodi Home Theater Software 19.5 and earlier allows attackers to cause a denial of service via use of crafted mp3 file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-30207">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b23258ded6e3756459c7d14c040749fd</td>
        <td>CVE-2023-34654</td>
        <td>2023-07-05 20:15:10 </td>
@@ -2665,30 +2689,6 @@
        <td>2023-07-05 19:15:09 </td>
        <td>Linux Kernel nftables Use-After-Free Local Privilege Escalation Vulnerability; `nft_chain_lookup_byid()` failed to check whether a chain was active and CAP_NET_ADMIN is in any user or network namespace</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-31248">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">890368443efd0ec4754331c4136ee594</td>
-       <td>CVE-2023-34106</td>
-       <td>2023-07-05 18:15:10 </td>
-       <td>GLPI is a free asset and IT management software package. Versions of the software starting with 0.68 and prior to 10.0.8 have an incorrect rights check on a on a file accessible by an authenticated user. This allows access to the list of all users and their personal information. Users should upgrade to version 10.0.8 to receive a patch.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34106">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3780e4a91c8b55ae68a91b0e9264b7b4</td>
-       <td>CVE-2023-37212</td>
-       <td>2023-07-05 10:15:10 </td>
-       <td>Memory safety bugs present in Firefox 114. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox &lt; 115.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-37212">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2ac485db3b23cb170cbc178204380d85</td>
-       <td>CVE-2023-3482</td>
-       <td>2023-07-05 10:15:10 </td>
-       <td>When Firefox is configured to block storage of all cookies, it was still possible to store data in localstorage by using an iframe with a source of 'about:blank'. This could have led to malicious websites storing tracking data without permission. This vulnerability affects Firefox &lt; 115.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3482">详情</a></td>
       </tr>
 
      </tbody>
