@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-13 21:38:24 -->
+<!-- RELEASE TIME : 2023-07-13 22:38:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9f6a856186f46d0393c33cf532c630b6</td>
+       <td>CVE-2023-37598</td>
+       <td>2023-07-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via the delete new virtual fax function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37598">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">da967eb2928de030e82ca4d17bc88733</td>
+       <td>CVE-2023-37468</td>
+       <td>2023-07-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Feedbacksystem is a personalized feedback system for students using artificial intelligence. Passwords of users using LDAP login are stored in clear text in the database. The LDAP users password is passed unencrypted in the LoginController.scala and stored in the database when logging in for the first time. Users using only local login or the cas login are not affected. This issue has been patched in version 1.19.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37468">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4338b52a7b4bc02d250fc5d1beb09fb6</td>
+       <td>CVE-2023-36473</td>
+       <td>2023-07-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source discussion platform. A CSP (Content Security Policy) nonce reuse vulnerability could allow XSS attacks to bypass CSP protection. There are no known XSS vectors at the moment, but should one be discovered, this vulnerability would allow the XSS attack to completely bypass CSP. The vulnerability is patched in the latest tests-passed, beta and stable branches.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36473">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ede13911f69d93a2aca3e84feba4d91b</td>
+       <td>CVE-2023-35945</td>
+       <td>2023-07-13 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Envoy is a cloud-native high-performance edge/middle/service proxy. Envoy’s HTTP/2 codec may leak a header map and bookkeeping structures upon receiving `RST_STREAM` immediately followed by the `GOAWAY` frames from an upstream server. In nghttp2, cleanup of pending requests due to receipt of the `GOAWAY` frame skips de-allocation of the bookkeeping structure and pending compressed header. The error return [code path] is taken if connection is already marked for not sending more requests due to `GOAWAY` frame. The clean-up code is right after the return statement, causing memory leak. Denial of service through memory exhaustion. This vulnerability was patched in versions(s) 1.26.3, 1.25.8, 1.24.9, 1.23.11.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35945">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">301db4718ad11c8e212b95472cf4bc8d</td>
+       <td>CVE-2023-37463</td>
+       <td>2023-07-13 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>cmark-gfm is an extended version of the C reference implementation of CommonMark, a rationalized version of Markdown syntax with a spec. Three polynomial time complexity issues in cmark-gfm may lead to unbounded resource exhaustion and subsequent denial of service. These vulnerabilities have been patched in 0.29.0.gfm.12.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37463">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2b300dcd5f0f7689cf996e622f49203d</td>
+       <td>CVE-2023-30565</td>
+       <td>2023-07-13 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>An insecure connection between Systems Manager and CQI Reporter application could expose infusion data to an attacker.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30565">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0c95a8b42305028338bc5dbc3889c881</td>
+       <td>CVE-2023-30564</td>
+       <td>2023-07-13 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Alaris Systems Manager does not perform input validation during the Device Import Function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30564">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0305662f83a0f0da118417d18cf66618</td>
+       <td>CVE-2023-30563</td>
+       <td>2023-07-13 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>A malicious file could be uploaded into a System Manager User Import Function resulting in a hijacked session.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30563">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2c0741d3c16db04f91b1e7b8ad088c32</td>
+       <td>CVE-2023-30562</td>
+       <td>2023-07-13 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>A GRE dataset file within Systems Manager can be tampered with and distributed to PCUs.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30562">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16903db29ca380c91904f9508ff63eb5</td>
+       <td>CVE-2023-30561</td>
+       <td>2023-07-13 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>The data flowing between the PCU and its modules is insecure. A threat actor with physical access could potentially read or modify data by attaching a specially crafted device while an infusion is running.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30561">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">918c2e93815ef14a807bc6599eee1623</td>
        <td>CVE-2023-34458</td>
        <td>2023-07-13 19:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-07-13 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Redis is an in-memory database that persists on disk. A specially crafted Lua script executing in Redis can trigger a heap overflow in the cjson library, and result with heap corruption and potentially remote code execution. The problem exists in all versions of Redis with Lua scripting support, starting from 2.6, and affects only authenticated and authorized users. The problem is fixed in versions 7.0.12, 6.2.13, and 6.0.20.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24834">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">362c2446d98f5eb48ae383fef60d0028</td>
-       <td>CVE-2023-37267</td>
-       <td>2023-07-13 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Umbraco is a ASP.NET CMS. Under rare conditions a restart of Umbraco can allow unauthorized users access to admin-level permissions. This vulnerability was patched in versions 10.6.1, 11.4.2 and 12.0.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37267">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1c595f825f354ffde8e988b6077f74a4</td>
-       <td>CVE-2023-35070</td>
-       <td>2023-07-13 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in VegaGroup Web Collection allows SQL Injection.This issue affects Web Collection: before 31197.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35070">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">867bdffb16acc2c608633a52a69669b4</td>
-       <td>CVE-2023-31825</td>
-       <td>2023-07-13 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue found in Inageya v.13.4.1 allows a remote attacker to gain access to sensitive information via the channel access token in the miniapp Inageya function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31825">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">27bf106f9de3797150847a7e86110e47</td>
-       <td>CVE-2023-31822</td>
-       <td>2023-07-13 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue found in Entetsu Store v.13.4.1 allows a remote attacker to gain access to sensitive information via the channel access token in the miniapp Entetsu Store function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31822">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d7e49f339c828652ad632c073511df22</td>
-       <td>CVE-2023-3661</td>
-       <td>2023-07-13 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in SourceCodester AC Repair and Services System 1.0. It has been classified as critical. This affects an unknown part of the file /classes/Master.php?f=save_inquiry. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-234015.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3661">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a339bf5d3967b22c6a5f3cf3fbb28986</td>
-       <td>CVE-2023-3660</td>
-       <td>2023-07-13 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Campcodes Retro Cellphone Online Store 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /admin/add_user_modal.php. The manipulation of the argument un leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-234014 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3660">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d69058ded91d40003fffb2a685e318d6</td>
-       <td>CVE-2023-26597</td>
-       <td>2023-07-13 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Controller DoS due to buffer overflow in the handling of a specially crafted message received by the controller.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26597">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a9eb6452aa458e2b1035b6fe0b72e755</td>
-       <td>CVE-2023-25948</td>
-       <td>2023-07-13 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Server information leak of configuration data when an error is generated in response to a specially crafted message.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25948">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">333db6684c34a18bdd91f89f7197d2f3</td>
-       <td>CVE-2023-2003</td>
-       <td>2023-07-13 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Embedded malicious code vulnerability in Vision1210, in the build 5 of operating system version 4.3, which could allow a remote attacker to store base64-encoded malicious code in the device's data tables via the PCOM protocol, which can then be retrieved by a client and executed on the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2003">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dcdb88ba6e61995595be494e66dd790c</td>
-       <td>CVE-2023-3659</td>
-       <td>2023-07-13 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been found in SourceCodester AC Repair and Services System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file admin/?page=user/manage_user. The manipulation of the argument firstname/middlename leads to cross site scripting. The attack can be launched remotely. The identifier VDB-234013 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3659">详情</a></td>
       </tr>
 
      </tbody>
@@ -2460,6 +2460,14 @@
       </tr>
 
       <tr>
+       <td scope="row">27e686a50187a9a1b0db385a0e12391a</td>
+       <td>CVE-2023-23704</td>
+       <td>2023-07-11 08:15:10 </td>
+       <td>Cross-Site Request Forgery (CSRF) vulnerability in Pixelgrade Comments Ratings plugin &lt;=&Acirc;&nbsp;1.1.6 versions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23704">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">26290ec057d9b897f018058b767c2e20</td>
        <td>CVE-2023-23803</td>
        <td>2023-07-11 07:15:09 </td>
@@ -2513,6 +2521,14 @@
        <td>2023-07-10 16:15:49 </td>
        <td>Cross-Site Request Forgery (CSRF) vulnerability in Premmerce Premmerce Redirect Manager plugin &lt;=&Acirc;&nbsp;1.0.9 versions.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23787">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cab11dabbeae4f199a3786c4f71c755e</td>
+       <td>CVE-2023-23487</td>
+       <td>2023-07-10 16:15:49 </td>
+       <td>IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 11.1 and 11.5 is vulnerable to insufficient audit logging.  IBM X-Force ID:  245918.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-23487">详情</a></td>
       </tr>
 
       <tr>
@@ -2673,22 +2689,6 @@
        <td>2023-07-06 15:15:14 </td>
        <td>Multiple buffer overflow vulnerabilities exist in the vtysh_ubus binary of Milesight UR32L v32.3.0.5 due to the use of an unsafe sprintf pattern. A specially crafted HTTP request can lead to a buffer overflow. An attacker can send HTTP requests to trigger these vulnerabilities.This buffer overflow occurs in the set_l2tp function with the remote_subnet and the remote_mask variables.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25112">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c95eb5f141bb999dca1ada224cb3490f</td>
-       <td>CVE-2023-25111</td>
-       <td>2023-07-06 15:15:14 </td>
-       <td>Multiple buffer overflow vulnerabilities exist in the vtysh_ubus binary of Milesight UR32L v32.3.0.5 due to the use of an unsafe sprintf pattern. A specially crafted HTTP request can lead to a buffer overflow. An attacker can send HTTP requests to trigger these vulnerabilities.This buffer overflow occurs in the set_gre function with the key variable.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25111">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f845961593415ac3346109ae1aeba4a6</td>
-       <td>CVE-2023-25110</td>
-       <td>2023-07-06 15:15:14 </td>
-       <td>Multiple buffer overflow vulnerabilities exist in the vtysh_ubus binary of Milesight UR32L v32.3.0.5 due to the use of an unsafe sprintf pattern. A specially crafted HTTP request can lead to a buffer overflow. An attacker can send HTTP requests to trigger these vulnerabilities.This buffer overflow occurs in the set_gre function with the remote_virtual_ip variable.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25110">详情</a></td>
       </tr>
 
      </tbody>
