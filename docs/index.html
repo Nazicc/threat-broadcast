@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-13 20:38:11 -->
+<!-- RELEASE TIME : 2023-07-13 21:38:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">918c2e93815ef14a807bc6599eee1623</td>
+       <td>CVE-2023-34458</td>
+       <td>2023-07-13 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>mx-chain-go is the official implementation of the MultiversX blockchain protocol, written in golang. When executing a relayed transaction, if the inner transaction failed, it would have increased the inner transaction's sender account nonce. This could have contributed to a limited DoS attack on a targeted account. The fix is a breaking change so a new flag `RelayedNonceFixEnableEpoch` was needed. This was a strict processing issue while validating blocks on a chain. This vulnerability has been patched in version 1.4.17.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34458">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79cb59b433c1cde2a139caffbe55300e</td>
+       <td>CVE-2023-30560</td>
+       <td>2023-07-13 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>The configuration from the PCU can be modified without authentication using physical connection to the PCU.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30560">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c7124919a7481bb2055cf8eebd7f0d5a</td>
+       <td>CVE-2022-42045</td>
+       <td>2023-07-13 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Certain Zemana products are vulnerable to Arbitrary code injection. This affects Watchdog Anti-Malware 4.1.422 and Zemana AntiMalware 3.2.28.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42045">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc28a969f6a24f39cceb327f6531a149</td>
+       <td>CVE-2023-30559</td>
+       <td>2023-07-13 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>The configuration from the PCU can be modified without authentication using physical connection to the PCU.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30559">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">efd4d3a517e658e5c1e90bfe29adcd00</td>
        <td>CVE-2023-37787</td>
        <td>2023-07-13 17:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-07-13 11:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability has been found in SourceCodester AC Repair and Services System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file admin/?page=user/manage_user. The manipulation of the argument firstname/middlename leads to cross site scripting. The attack can be launched remotely. The identifier VDB-234013 was assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3659">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0c8309d8b09c8f7f50a75496acb0758d</td>
-       <td>CVE-2023-3658</td>
-       <td>2023-07-13 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as critical, was found in SourceCodester AC Repair and Services System 1.0. Affected is an unknown function of the file Master.php?f=delete_book of the component HTTP POST Request Handler. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-234012.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3658">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cab62b26369bfb99a31d3865ed3b7a31</td>
-       <td>CVE-2023-25770</td>
-       <td>2023-07-13 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>Controller DoS may occur due to buffer overflow when an error is generated in response to a specially crafted message.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25770">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea97bbec5c8eca4d654ee64a578e416f</td>
-       <td>CVE-2023-25178</td>
-       <td>2023-07-13 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>Controller may be loaded with malicious firmware which could enable remote code execution</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25178">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">818a9e307346c485686c8a71dccbec1e</td>
-       <td>CVE-2023-25078</td>
-       <td>2023-07-13 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>Server or Console Station DoS due to heap overflow occurring during the handling of a specially crafted message for a specific configuration operation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25078">详情</a></td>
       </tr>
 
      </tbody>
