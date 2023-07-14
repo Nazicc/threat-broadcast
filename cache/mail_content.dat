@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36144</font><br/>[<b>披露时间</b>] 2023-07-14 15:46:32<br/>[<b>漏洞描述</b>] Intelbras Switch SG 2404存在信息泄露漏洞(CVE-2023-36144)<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8502'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8502</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-20067</font><br/>[<b>披露时间</b>] 2023-07-14 16:02:30<br/>[<b>漏洞描述</b>] Racom MIDGE /admin/login.php 存在信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8501'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8501</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40150</font><br/>[<b>披露时间</b>] 2023-07-14 16:37:54<br/>[<b>漏洞描述</b>] Reolink E1 Zoom Camera /conf/nginx.conf 存在信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8499'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8499</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-07-14 16:46:27<br/>[<b>漏洞描述</b>] TamronOS IPTV系统 /download/backup 存在任意文件下载漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8500'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8500</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-40150</font><br/>[<b>披露时间</b>] 2023-07-14 16:37:54<br/>[<b>漏洞描述</b>] Reolink E1 Zoom Camera /conf/ 存在信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8499'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8499</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
