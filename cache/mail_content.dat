@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-40181</font><br/>[<b>披露时间</b>] 2022-10-11 11:15:10 <br/>[<b>漏洞描述</b>] A vulnerability has been identified in Desigo PXM30-1 (All versions &lt; V02.20.126.11-41), Desigo PXM30.E (All versions &lt; V02.20.126.11-41), Desigo PXM40-1 (All versions &lt; V02.20.126.11-41), Desigo PXM40.E (All versions &lt; V02.20.126.11-41), Desigo PXM50-1 (All versions &lt; V02.20.126.11-41), Desigo PXM50.E (All versions &lt; V02.20.126.11-41), PXG3.W100-1 (All versions &lt; V02.20.126.11-37), PXG3.W100-2 (All versions &lt; V02.20.126.11-41), PXG3.W200-1 (All versions &lt; V02.20.126.11-37), PXG3.W200-2 (All versions &lt; V02.20.126.11-41). The device embedded browser does not prevent interaction with alternative URI schemes when redirected to corresponding resources by web application code. By setting the homepage URI, the favorite URIs, or redirecting embedded browser users via JavaScript code to alternative scheme resources, a remote low privileged attacker can perform a range of attacks against the device, such as read arbitrary files on the filesystem, execute arbitrary JavaScript code in order to steal or manipulate the information on the screen, or trigger denial of service conditions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40181'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40181</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3682</font><br/>[<b>披露时间</b>] 2023-07-15 17:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, was found in Nesote Inout Blockchain EasyPayments 1.0. Affected is an unknown function of the file /index.php/payment/getcoinaddress of the component POST Parameter Handler. The manipulation of the argument coinid leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-234228. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3682'>https://www.tenable.com/cve/CVE-2023-3682</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
