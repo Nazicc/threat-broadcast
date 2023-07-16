@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3683</font><br/>[<b>披露时间</b>] 2023-07-16 08:15:00<br/>[<b>漏洞描述</b>] A vulnerability has been found in LivelyWorks Articart 2.0.1 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /items/search. The manipulation of the argument search_term leads to cross site scripting. The attack can be launched remotely. The identifier VDB-234229 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3683'>https://www.tenable.com/cve/CVE-2023-3683</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28989</font><br/>[<b>披露时间</b>] 2023-07-10 16:15:50 <br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in weDevs Happy Addons for Elementor plugin &lt;=&Acirc;&nbsp;3.8.2 versions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-28989'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-28989</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28986</font><br/>[<b>披露时间</b>] 2023-07-10 16:15:50 <br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in wp.Insider, wpaffiliatemgr Affiliates Manager plugin &lt;=&Acirc;&nbsp;2.9.20 versions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-28986'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-28986</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
