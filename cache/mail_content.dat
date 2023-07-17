@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-07-17 08:26:35<br/>[<b>漏洞描述</b>] 安全事件周报 2023-07-10 第28周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=64b4f65041dbcfd3932b4769'>https://cert.360.cn/warning/detail?id=64b4f65041dbcfd3932b4769</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34232</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] Snowflake snowflake-connector-nodejs命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81725'>http://www.nsfocus.net/vulndb/81725</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-38156</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] Kratos SpectralNet Narrowband命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81724'>http://www.nsfocus.net/vulndb/81724</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33846</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] IBM TXSeries和CICS TX跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81723'>http://www.nsfocus.net/vulndb/81723</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29756</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] Urbandroid Twilight拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81722'>http://www.nsfocus.net/vulndb/81722</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2891</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] WordPress WP EasyCart Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81721'>http://www.nsfocus.net/vulndb/81721</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34969</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] D-Bus不受控制的资源消耗漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81720'>http://www.nsfocus.net/vulndb/81720</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33556</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] TOTOLink A7100RU命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81719'>http://www.nsfocus.net/vulndb/81719</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2286</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] WordPress WP Activity Log Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81718'>http://www.nsfocus.net/vulndb/81718</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0694</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] WordPress Metform Elementor Contact Form Builder Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81717'>http://www.nsfocus.net/vulndb/81717</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0291</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] WordPress Quiz And Survey Master Plugin授权绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81716'>http://www.nsfocus.net/vulndb/81716</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2526</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] WordPress Easy Google Maps Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81715'>http://www.nsfocus.net/vulndb/81715</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1917</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] WordPress PowerPress Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81714'>http://www.nsfocus.net/vulndb/81714</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3206</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] Adslr VEC40G命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81713'>http://www.nsfocus.net/vulndb/81713</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30262</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] MIM Software任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81712'>http://www.nsfocus.net/vulndb/81712</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25911</font><br/>[<b>披露时间</b>] 2023-07-17 09:41:55<br/>[<b>漏洞描述</b>] Danfoss AK-EM100 Web Applications操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/81711'>http://www.nsfocus.net/vulndb/81711</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
