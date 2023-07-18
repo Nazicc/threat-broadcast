@@ -1,14 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31248</font><br/>[<b>披露时间</b>] 2023-07-18 09:47:28<br/>[<b>漏洞描述</b>] CVE-2023-31248：Linux Kernel 本地权限提升漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=64b65f6041dbcfd3932b477e'>https://cert.360.cn/warning/detail?id=64b65f6041dbcfd3932b477e</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2433</font><br/>[<b>披露时间</b>] 2023-07-18 09:15:00<br/>[<b>漏洞描述</b>] The YARPP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'className' parameter in versions up to, and including, 5.30.3 due to insufficient input sanitization and output escaping. This makes it possible for contributor-level attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-2433'>https://www.tenable.com/cve/CVE-2023-2433</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2015-10122</font><br/>[<b>披露时间</b>] 2023-07-18 05:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in wp-donate Plugin up to 1.4 on WordPress. It has been classified as critical. This affects an unknown part of the file includes/donate-display.php. The manipulation leads to sql injection. It is possible to initiate the attack remotely. Upgrading to version 1.5 is able to address this issue. The identifier of the patch is 019114cb788d954c5d1b36d6c62418619e93a757. It is recommended to upgrade the affected component. The identifier VDB-234249 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2015-10122'>https://www.tenable.com/cve/CVE-2015-10122</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21526</font><br/>[<b>披露时间</b>] 2023-07-18 20:32:50<br/>[<b>漏洞描述</b>] MICROSOFT Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=64c5728a12a14e028e81d2825d293718'>https://redqueen.tj-un.com/IntelDetails.html?id=64c5728a12a14e028e81d2825d293718</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32033</font><br/>[<b>披露时间</b>] 2023-07-18 20:32:42<br/>[<b>漏洞描述</b>] MICROSOFT Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=761931f7f97f4da8bef7fa20ce259138'>https://redqueen.tj-un.com/IntelDetails.html?id=761931f7f97f4da8bef7fa20ce259138</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32037</font><br/>[<b>披露时间</b>] 2023-07-18 20:32:05<br/>[<b>漏洞描述</b>] MICROSOFT Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a4c4e9c9ddd94f5d9bc4509d24963495'>https://redqueen.tj-un.com/IntelDetails.html?id=a4c4e9c9ddd94f5d9bc4509d24963495</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32040</font><br/>[<b>披露时间</b>] 2023-07-18 20:31:49<br/>[<b>漏洞描述</b>] MICROSOFT Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e465a1a7d57b4f908680a8f43c4da092'>https://redqueen.tj-un.com/IntelDetails.html?id=e465a1a7d57b4f908680a8f43c4da092</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
