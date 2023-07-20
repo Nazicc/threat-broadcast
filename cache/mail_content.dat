@@ -1,17 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57659 (CVE-2023-32529)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:16<br/>[<b>漏洞描述</b>] Trend Micro Apex Central SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57659'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57659</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57660 (CVE-2023-32535)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:18<br/>[<b>漏洞描述</b>] Trend Micro Apex Central跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57660'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57660</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57661 (CVE-2023-32534)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:21<br/>[<b>漏洞描述</b>] Trend Micro Apex Central跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57661'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57661</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57662 (CVE-2023-32533)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:23<br/>[<b>漏洞描述</b>] Trend Micro Apex Central跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57662'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57662</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57663 (CVE-2023-32532)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:25<br/>[<b>漏洞描述</b>] Trend Micro Apex Central跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57663'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57663</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57664 (CVE-2023-32531)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:28<br/>[<b>漏洞描述</b>] Trend Micro Apex Central跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57664'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57664</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-57665 (CVE-2023-32605)</font><br/>[<b>披露时间</b>] 2023-07-20 07:37:30<br/>[<b>漏洞描述</b>] Trend Micro Apex Central跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-57665'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-57665</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22508</font><br/>[<b>披露时间</b>] 2023-07-19 08:37:43<br/>[<b>漏洞描述</b>] Atlassian Confluence Data Center & Server 远程代码执行漏洞（CVE-2023-22508）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-22508'>https://avd.aliyun.com/detail?id=AVD-2023-22508</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
