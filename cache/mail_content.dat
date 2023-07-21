@@ -1,16 +1,15 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3696</font><br/>[<b>披露时间</b>] 2023-07-17 08:37:24<br/>[<b>漏洞描述</b>] Mongoose 原型链污染致代码执行漏洞（CVE-2023-3696）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-3696'>https://avd.aliyun.com/detail?id=AVD-2023-3696</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-58096 (CVE-2023-37133)</font><br/>[<b>披露时间</b>] 2023-07-21 08:37:32<br/>[<b>漏洞描述</b>] EyouCms跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-58096'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-58096</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38408</font><br/>[<b>披露时间</b>] 2023-07-21 08:19:40<br/>[<b>漏洞描述</b>] CVE-2023-38408：OpenSSH ssh-agent 远程代码执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=64ba3eb141dbcfd3932b47ab'>https://cert.360.cn/warning/detail?id=64ba3eb141dbcfd3932b47ab</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23597</font><br/>[<b>披露时间</b>] 2023-07-21 09:39:00<br/>[<b>漏洞描述</b>] Mozilla Firefox信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82065'>http://www.nsfocus.net/vulndb/82065</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25738</font><br/>[<b>披露时间</b>] 2023-07-21 09:39:00<br/>[<b>漏洞描述</b>] Mozilla多款产品越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82064'>http://www.nsfocus.net/vulndb/82064</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29145</font><br/>[<b>披露时间</b>] 2023-07-21 09:39:00<br/>[<b>漏洞描述</b>] Malwarebytes EDR任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82063'>http://www.nsfocus.net/vulndb/82063</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32324</font><br/>[<b>披露时间</b>] 2023-07-21 09:39:00<br/>[<b>漏洞描述</b>] OpenPrinting CUPS堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82062'>http://www.nsfocus.net/vulndb/82062</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35176</font><br/>[<b>披露时间</b>] 2023-07-21 09:39:00<br/>[<b>漏洞描述</b>] HP LaserJet Pro Printer缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82061'>http://www.nsfocus.net/vulndb/82061</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
