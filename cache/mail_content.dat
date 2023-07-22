@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3836</font><br/>[<b>披露时间</b>] 2023-07-22 18:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as critical was found in Dahua Smart Park Management up to 20230713. This vulnerability affects unknown code of the file /emap/devicePoint_addImgIco?hasSubsystem=true. The manipulation of the argument upload leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-235162 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3836'>https://www.tenable.com/cve/CVE-2023-3836</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3835</font><br/>[<b>披露时间</b>] 2023-07-22 18:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic has been found in Bug Finder MineStack 1.0. This affects an unknown part of the file /user/ticket/create of the component Ticket Handler. The manipulation of the argument message leads to cross site scripting. It is possible to initiate the attack remotely. The identifier VDB-235161 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3835'>https://www.tenable.com/cve/CVE-2023-3835</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3837</font><br/>[<b>披露时间</b>] 2023-07-22 21:15:00<br/>[<b>漏洞描述</b>] A vulnerability classified as problematic has been found in DedeBIZ 6.2.10. Affected is an unknown function of the file /admin/sys_sql_query.php. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-235188. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3837'>https://www.tenable.com/cve/CVE-2023-3837</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
