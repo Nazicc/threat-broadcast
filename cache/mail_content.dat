@@ -1,15 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">5</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1878 (CVE-2023-3855)</font><br/>[<b>披露时间</b>] 2023-07-23 15:40:02<br/>[<b>漏洞描述</b>] JobSeeker 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1878'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1878</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1876 (CVE-2023-3850)</font><br/>[<b>披露时间</b>] 2023-07-23 15:40:07<br/>[<b>漏洞描述</b>] Lost and Found Information System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1876'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1876</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1875 (CVE-2023-28133)</font><br/>[<b>披露时间</b>] 2023-07-23 15:40:09<br/>[<b>漏洞描述</b>] Check Point Endpoint Security Client 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1875'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1875</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1872 (CVE-2023-3846)</font><br/>[<b>披露时间</b>] 2023-07-23 15:41:17<br/>[<b>漏洞描述</b>] mooSocial mooDating 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1872'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1872</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1871 (CVE-2023-3845)</font><br/>[<b>披露时间</b>] 2023-07-23 15:41:19<br/>[<b>漏洞描述</b>] mooSocial mooDating 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1871'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1871</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22505</font><br/>[<b>披露时间</b>] 2023-07-25 00:01:27<br/>[<b>漏洞描述</b>] Confluence Data Center & Server 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8790'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8790</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38646</font><br/>[<b>披露时间</b>] 2023-07-25 00:01:27<br/>[<b>漏洞描述</b>] Metabase 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8789'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8789</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34478</font><br/>[<b>披露时间</b>] 2023-07-25 00:01:27<br/>[<b>漏洞描述</b>] Apache Shiro身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8788'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8788</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
