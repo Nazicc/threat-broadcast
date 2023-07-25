@@ -1,11 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="http://www.cnnvd.org.cn/">国家信息安全漏洞库（CNNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3897</font><br/>[<b>披露时间</b>] 2023-07-25 09:15:00<br/>[<b>漏洞描述</b>] User enumeration in On-premise SureMDM Solution on Windows deployment allows attacker to enumerate local user information via error message.This issue affects SureMDM On-premise: 6.31 and below versions<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3897'>https://www.tenable.com/cve/CVE-2023-3897</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1973 (CVE-2023-3873)</font><br/>[<b>披露时间</b>] 2023-07-24 14:39:22<br/>[<b>漏洞描述</b>] Campcodes Beauty Salon Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1973'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1973</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1969 (CVE-2023-3871)</font><br/>[<b>披露时间</b>] 2023-07-24 14:40:33<br/>[<b>漏洞描述</b>] Campcodes Beauty Salon Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1969'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1969</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1968 (CVE-2021-39421)</font><br/>[<b>披露时间</b>] 2023-07-24 14:40:35<br/>[<b>漏洞描述</b>] SeedDMS 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1968'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1968</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1967 (CVE-2023-26045)</font><br/>[<b>披露时间</b>] 2023-07-24 14:40:37<br/>[<b>漏洞描述</b>] NodeBB 路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1967'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1967</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞库（CNNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNNVD-202307-1965 (CVE-2023-38595)</font><br/>[<b>披露时间</b>] 2023-07-24 14:40:42<br/>[<b>漏洞描述</b>] Apple Safari 安全漏洞<br/>[<b>相关链接</b>] <a href='http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1965'>http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1965</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37579</font><br/>[<b>披露时间</b>] 2023-07-25 20:34:48<br/>[<b>漏洞描述</b>] APACHE PULSAR Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8ccdea5cd3a744488e0305b788f749ba'>https://redqueen.tj-un.com/IntelDetails.html?id=8ccdea5cd3a744488e0305b788f749ba</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38065</font><br/>[<b>披露时间</b>] 2023-07-25 20:34:26<br/>[<b>漏洞描述</b>] JETBRAINS TEAMCITY Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ae286486cb024d8ab02fc9e11fb02cec'>https://redqueen.tj-un.com/IntelDetails.html?id=ae286486cb024d8ab02fc9e11fb02cec</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
