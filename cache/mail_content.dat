@@ -1,11 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3519</font><br/>[<b>披露时间</b>] 2023-07-19 16:46:06<br/>[<b>漏洞描述</b>] Citrix ADC/Gateway 存在远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8595'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8595</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28127</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Ivanti Avalanche路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82250'>http://www.nsfocus.net/vulndb/82250</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25831</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Esri Portal For ArcGIS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82249'>http://www.nsfocus.net/vulndb/82249</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20098</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Cisco SD-WAN vManage Software路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82248'>http://www.nsfocus.net/vulndb/82248</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32066</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Time Tracker跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82247'>http://www.nsfocus.net/vulndb/82247</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31802</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Chamilo Lms跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82246'>http://www.nsfocus.net/vulndb/82246</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32069</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] XWiki Platform身份验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82245'>http://www.nsfocus.net/vulndb/82245</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-25832</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Esri Portal For ArcGIS跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82244'>http://www.nsfocus.net/vulndb/82244</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28128</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Ivanti Avalanche任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82243'>http://www.nsfocus.net/vulndb/82243</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32569</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Veritas InfoScale Operations Manager SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82242'>http://www.nsfocus.net/vulndb/82242</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Seiko Solutions SkyBridge MB-A200 firmware和SkyBridge BASIC MB-A130 firmware证书验证错<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82241'>http://www.nsfocus.net/vulndb/82241</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27385</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Omron CX-Drive堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82240'>http://www.nsfocus.net/vulndb/82240</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27919</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] NEXT ENGINE Integration Plugin身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82239'>http://www.nsfocus.net/vulndb/82239</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-21239</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Intel QAT Driver for Windows越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82238'>http://www.nsfocus.net/vulndb/82238</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4774</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] WordPress Bit Form plugin任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82237'>http://www.nsfocus.net/vulndb/82237</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2699</font><br/>[<b>披露时间</b>] 2023-07-25 03:38:57<br/>[<b>漏洞描述</b>] Lost and Found Information System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82236'>http://www.nsfocus.net/vulndb/82236</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
