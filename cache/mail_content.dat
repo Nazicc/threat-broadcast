@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38067</font><br/>[<b>披露时间</b>] 2023-07-27 20:40:21<br/>[<b>漏洞描述</b>] JETBRAINS TEAMCITY Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=129caa2dab614891b50e2d6a15caee55'>https://redqueen.tj-un.com/IntelDetails.html?id=129caa2dab614891b50e2d6a15caee55</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37455</font><br/>[<b>披露时间</b>] 2023-07-27 20:39:58<br/>[<b>漏洞描述</b>] MOZILLA FIREFOX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=dd83e8bc0a634277ba546b91ab14341f'>https://redqueen.tj-un.com/IntelDetails.html?id=dd83e8bc0a634277ba546b91ab14341f</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31007</font><br/>[<b>披露时间</b>] 2023-07-27 20:39:51<br/>[<b>漏洞描述</b>] APACHE PULSAR Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=5a7963aeec784271ab83b7323055889a'>https://redqueen.tj-un.com/IntelDetails.html?id=5a7963aeec784271ab83b7323055889a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3970</font><br/>[<b>披露时间</b>] 2023-07-27 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, was found in GZ Scripts Availability Booking Calendar PHP 1.0. This affects an unknown part of the file /index.php?controller=GzUser&action=edit&id=1 of the component Image Handler. The manipulation of the argument img leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-235569 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3970'>https://www.tenable.com/cve/CVE-2023-3970</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3969</font><br/>[<b>披露时间</b>] 2023-07-27 12:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as problematic, has been found in GZ Scripts Availability Booking Calendar PHP 1.0. Affected by this issue is some unknown functionality of the file index.php of the component HTTP POST Request Handler. The manipulation of the argument promo_code leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-235568.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3969'>https://www.tenable.com/cve/CVE-2023-3969</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
