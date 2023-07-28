@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-28 18:38:55 -->
+<!-- RELEASE TIME : 2023-07-28 19:38:08 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ca0c1b9559382529828ba572ca96a032</td>
+       <td>CVE-2023-38685</td>
+       <td>2023-07-28 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, information about restricted-visibility topic tags could be obtained by unauthorized users. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38685">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">657d26676663bda3f6a6762beeaf3d08</td>
+       <td>CVE-2023-38684</td>
+       <td>2023-07-28 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, in multiple controller actions, Discourse accepts limit params but does not impose any upper bound on the values being accepted. Without an upper bound, the software may allow arbitrary users to generate DB queries which may end up exhausting the resources on the server. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38684">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d1d91ee1c54004016d9bbd3fb225cd80</td>
+       <td>CVE-2023-38498</td>
+       <td>2023-07-28 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, a malicious user can prevent the defer queue from proceeding promptly on sites hosted in the same multisite installation. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches. There are no known workarounds for this vulnerability. Users of multisite configurations should upgrade.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38498">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fe182d643f257971d60e44c1770877b4</td>
+       <td>CVE-2023-37906</td>
+       <td>2023-07-28 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, a malicious user can edit a post in a topic and cause a DoS with a carefully crafted edit reason. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37906">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6751484a21ab9ae60930be9f34a11033</td>
+       <td>CVE-2023-37904</td>
+       <td>2023-07-28 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, more users than permitted could be created from invite links. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches. As a workaround, use restrict to email address invites.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37904">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c31aafae26d3ded6aebf33ef45282955</td>
+       <td>CVE-2023-3488</td>
+       <td>2023-07-28 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Uninitialized buffer in GBL parser in Silicon Labs GSDK v4.3.0 and earlier allows attacker to leak data from Secure stack via malformed GBL file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3488">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">864970470423f15c7a1a6dc86ff1dd71</td>
        <td>CVE-2023-39023</td>
        <td>2023-07-28 15:15:00 <img src="imgs/new.gif" /></td>
@@ -469,54 +517,6 @@
        <td>2023-07-28 02:15:00 <img src="imgs/new.gif" /></td>
        <td>Yii 2 v2.0.45 was discovered to contain a cross-site scripting (XSS) vulnerability via the endpoint /books.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31454">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">50c27362744afcee42853d212e7079d2</td>
-       <td>CVE-2023-3774</td>
-       <td>2023-07-28 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>An unhandled error in Vault Enterprise's namespace creation may cause the Vault process to crash, potentially resulting in denial of service. Fixed in 1.14.1, 1.13.5, and 1.12.9.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3774">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d27662b5222128660015f001a76599eb</td>
-       <td>CVE-2022-43703</td>
-       <td>2023-07-27 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>An installer that loads or executes files using an unconstrained search path may be vulnerable to substitute files under control of an attacker being loaded or executed instead of the intended files.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43703">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dd598c3af4f3e0823f0e6355ee384dcf</td>
-       <td>CVE-2022-43702</td>
-       <td>2023-07-27 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>When the directory containing the installer does not have sufficiently restrictive file permissions, an attacker can modify (or replace) the installer to execute malicious code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43702">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">427a06b2ef9e62cd3b2bd0ef76b2cf66</td>
-       <td>CVE-2022-43701</td>
-       <td>2023-07-27 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>When the installation directory does not have sufficiently restrictive file permissions, an attacker can modify files in the installation directory to cause execution of malicious code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43701">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">014dae80f1adca47cc7406bc4a177926</td>
-       <td>CVE-2023-33745</td>
-       <td>2023-07-27 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>TeleAdapt RoomCast TA-2400 1.0 through 3.1 is vulnerable to Improper Privilege Management: from the shell available after an adb connection, simply entering the su command provides root access (without requiring a password).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33745">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">db9f0f497bcdaaa981ba1a6e74eee9fb</td>
-       <td>CVE-2023-33744</td>
-       <td>2023-07-27 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>TeleAdapt RoomCast TA-2400 1.0 through 3.1 suffers from Use of a Hard-coded Password (PIN): 385521, 843646, and 592671.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33744">详情</a></td>
       </tr>
 
      </tbody>
