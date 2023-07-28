@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3984</font><br/>[<b>披露时间</b>] 2023-07-28 03:15:00<br/>[<b>漏洞描述</b>] A vulnerability, which was classified as critical, was found in phpscriptpoint RecipePoint 1.9. This affects an unknown part of the file /recipe-result. The manipulation of the argument text/category/type/difficulty/cuisine/cooking_method leads to sql injection. It is possible to initiate the attack remotely. The identifier VDB-235605 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3984'>https://www.tenable.com/cve/CVE-2023-3984</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38331</font><br/>[<b>披露时间</b>] 2023-07-28 02:15:00<br/>[<b>漏洞描述</b>] Zoho ManageEngine Support Center Plus 14001 and below is vulnerable to stored XSS in the products module.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-38331'>https://www.tenable.com/cve/CVE-2023-38331</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-31454</font><br/>[<b>披露时间</b>] 2023-07-28 02:15:00<br/>[<b>漏洞描述</b>] Yii 2 v2.0.45 was discovered to contain a cross-site scripting (XSS) vulnerability via the endpoint /books.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-31454'>https://www.tenable.com/cve/CVE-2022-31454</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3774</font><br/>[<b>披露时间</b>] 2023-07-28 01:15:00<br/>[<b>漏洞描述</b>] An unhandled error in Vault Enterprise's namespace creation may cause the Vault process to crash, potentially resulting in denial of service. Fixed in 1.14.1, 1.13.5, and 1.12.9.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3774'>https://www.tenable.com/cve/CVE-2023-3774</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-19475</font><br/>[<b>披露时间</b>] 2023-07-28 09:37:25<br/>[<b>漏洞描述</b>] 贵阳语玩科技有限公司语玩APP存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-19475'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-19475</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
