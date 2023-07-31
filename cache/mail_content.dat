@@ -1,12 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-59032 (CVE-2022-31747)</font><br/>[<b>披露时间</b>] 2023-07-17 02:44:47<br/>[<b>漏洞描述</b>] Mozilla Thunderbird缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-59032'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-59032</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-59031 (CVE-2022-22760)</font><br/>[<b>披露时间</b>] 2023-07-27 02:44:51<br/>[<b>漏洞描述</b>] Mozilla Firefox信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-59031'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-59031</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2734</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] WordPress MStore API Plugin身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82382'>http://www.nsfocus.net/vulndb/82382</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2804</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] libjpeg-turbo堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82381'>http://www.nsfocus.net/vulndb/82381</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2002</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] Linux kernel授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82380'>http://www.nsfocus.net/vulndb/82380</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2283</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] libssh身份验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82379'>http://www.nsfocus.net/vulndb/82379</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33187</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] highlight.io敏感信息明文传输漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82378'>http://www.nsfocus.net/vulndb/82378</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27311</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] NetApp Blue XP Connector路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82377'>http://www.nsfocus.net/vulndb/82377</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32316</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] CloudExplorer Lite授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82376'>http://www.nsfocus.net/vulndb/82376</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2015-20108</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] OneLogin ruby-saml命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82375'>http://www.nsfocus.net/vulndb/82375</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2924</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] Supcon SimField任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82374'>http://www.nsfocus.net/vulndb/82374</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2970</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] MindSpore内存破坏漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82373'>http://www.nsfocus.net/vulndb/82373</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26130</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] cpp-httplib CRLF注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82372'>http://www.nsfocus.net/vulndb/82372</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27988</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] Zyxel NAS326操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82371'>http://www.nsfocus.net/vulndb/82371</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30571</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] libarchive竞争条件漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82370'>http://www.nsfocus.net/vulndb/82370</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24599</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] Open-Xchange OX App Suite信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82369'>http://www.nsfocus.net/vulndb/82369</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2518</font><br/>[<b>披露时间</b>] 2023-07-31 03:38:55<br/>[<b>漏洞描述</b>] WordPress Easy Forms for Mailchimp plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/82368'>http://www.nsfocus.net/vulndb/82368</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
