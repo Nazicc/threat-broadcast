@@ -5,8 +5,8 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3983</font><br/>[<b>披露时间</b>] 2023-07-31 19:15:00<br/>[<b>漏洞描述</b>] An authenticated SQL injection vulnerability exists in Advantech iView versions prior to v5.7.4 build 6752. An authenticated remote attacker can bypass checks in com.imc.iview.utils.CUtils.checkSQLInjection() to perform blind SQL injection.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3983'>https://www.tenable.com/cve/CVE-2023-3983</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38989</font><br/>[<b>披露时间</b>] 2023-07-31 18:15:00<br/>[<b>漏洞描述</b>] An issue in the delete function in the UserController class of jeesite v1.2.6 allows authenticated attackers to arbitrarily delete the Administrator's role information.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-38989'>https://www.tenable.com/cve/CVE-2023-38989</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42183</font><br/>[<b>披露时间</b>] 2023-07-31 20:15:00<br/>[<b>漏洞描述</b>] Precisely Spectrum Spatial Analyst 20.01 is vulnerable to Server-Side Request Forgery (SSRF).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-42183'>https://www.tenable.com/cve/CVE-2022-42183</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42182</font><br/>[<b>披露时间</b>] 2023-07-31 20:15:00<br/>[<b>漏洞描述</b>] Precisely Spectrum Spatial Analyst 20.01 is vulnerable to Directory Traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-42182'>https://www.tenable.com/cve/CVE-2022-42182</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
