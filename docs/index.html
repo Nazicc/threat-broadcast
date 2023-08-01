@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-01 10:44:24 -->
+<!-- RELEASE TIME : 2023-08-01 12:59:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8e561c92362b4d70eadbc7a6e4c6d03c</td>
+       <td>CVE-2023-32302</td>
+       <td>2023-08-01 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Silverstripe Framework is the MVC framework that powers Silverstripe CMS. When a new member record is created and a password is not set, an empty encrypted password is generated. As a result, if someone is aware of the existence of a member record associated with a specific email address, they can potentially attempt to log in using that empty password. Although the default member authenticator and login form require a non-empty password, alternative authentication methods might still permit a successful login with the empty password. This issue has been patched in versions 4.13.4 and 5.0.13.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32302">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f48d3def8c962fbbb8655a79f7e644ab</td>
+       <td>CVE-2023-23548</td>
+       <td>2023-08-01 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Reflected XSS in business intelligence in Checkmk <2.2.0p8, <2.1.0p32, <2.0.0p38, <=1.6.0p30.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23548">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8971bff29177b388d77a775a582fd100</td>
+       <td>CVE-2023-26139</td>
+       <td>2023-08-01 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>Versions of the package underscore-keypath from 0.0.11 are vulnerable to Prototype Pollution via the name argument of the setProperty() function. Exploiting this vulnerability is possible due to improper input sanitization which allows the usage of arguments like “__proto__”.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26139">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5398be1265267e53c19c417064a7737d</td>
        <td>CVE-2023-36984</td>
        <td>2023-08-01 02:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-07-31 15:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue was discovered in Webmin 2.021. A Reflected Cross-Site Scripting (XSS) vulnerability was discovered in the package search functionality. The vulnerability allows an attacker to inject a malicious payload in the "Search for Package" field, which gets reflected back in the application's response, leading to the execution of arbitrary JavaScript code within the context of the victim's browser.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38309">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f1f781f724b4e66f7d46a14558649473</td>
-       <td>CVE-2023-38308</td>
-       <td>2023-07-31 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Webmin 2.021. A Cross-Site Scripting (XSS) vulnerability was discovered in the HTTP Tunnel functionality when handling third-party domain URLs. By providing a crafted URL from a third-party domain, an attacker can inject malicious code. leading to the execution of arbitrary JavaScript code within the context of the victim's browser.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38308">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d15f1e6aad9a808dd2478301351aa537</td>
-       <td>CVE-2023-38307</td>
-       <td>2023-07-31 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Webmin 2.021. A Stored Cross-Site Scripting (XSS) vulnerability was discovered in the Users and Groups functionality. The vulnerability occurs when an authenticated user adds a new user and inserts an XSS payload into the user's real name.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38307">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9cb81d5521d2ab0e6977edca8b149ed5</td>
-       <td>CVE-2023-38306</td>
-       <td>2023-07-31 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Webmin 2.021. A Cross-site Scripting (XSS) Bypass vulnerability was discovered in the file upload functionality. Normally, the application restricts the upload of certain file types such as .svg, .php, etc., and displays an error message if a prohibited file type is detected. However, by following certain steps, an attacker can bypass these restrictions and inject malicious code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38306">详情</a></td>
       </tr>
 
      </tbody>
@@ -1072,6 +1072,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">73ffd9540daad0a04d3d54041ba9df14</td>
+       <td>CNNVD-202307-2321 (CVE-2023-37772)</td>
+       <td>2023-07-31 12:59:24 <img src="imgs/new.gif" /></td>
+       <td>Online Shopping Portal 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2321">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">10f462bbd81ee431ab32c6a160fc068d</td>
+       <td>CNNVD-202307-2322 (CVE-2023-3983)</td>
+       <td>2023-07-31 12:58:22 <img src="imgs/new.gif" /></td>
+       <td>Advantech iView 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2322">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">91dcd4420b85064dbae045bceabb71b9</td>
+       <td>CNNVD-202307-2323 (CVE-2023-37496)</td>
+       <td>2023-07-31 12:58:20 <img src="imgs/new.gif" /></td>
+       <td>HCL Technologies HCL Verse 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2323">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c81e50233ec479272b638b8dbddedeea</td>
+       <td>CNNVD-202307-2324 (CVE-2023-38989)</td>
+       <td>2023-07-31 12:57:18 <img src="imgs/new.gif" /></td>
+       <td>jeesite 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2324">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">775849c6f8c5fe41588806137e12cfa8</td>
+       <td>CNNVD-202307-2326 (CVE-2023-3462)</td>
+       <td>2023-07-31 12:56:16 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Vault 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2326">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f995ebc4f6961ed50c6d18ec0f7efcf4</td>
+       <td>CNNVD-202307-2327 (CVE-2022-42183)</td>
+       <td>2023-07-31 12:55:14 <img src="imgs/new.gif" /></td>
+       <td>Precisely Spectrum Spatial Analyst 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2327">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">67539644d8b06577c03aeab1ac018450</td>
+       <td>CNNVD-202307-2328 (CVE-2022-42182)</td>
+       <td>2023-07-31 12:55:12 <img src="imgs/new.gif" /></td>
+       <td>Precisely Spectrum Spatial Analyst 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2328">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b61f0e730dfb90bb1c6f8f6e83508ae7</td>
+       <td>CNNVD-202307-2329 (CVE-2023-39122)</td>
+       <td>2023-07-31 12:55:10 <img src="imgs/new.gif" /></td>
+       <td>BMC Control-M 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2329">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a09d1da1d10d2b5f823d7b8b41490660</td>
+       <td>CNNVD-202307-2330 (CVE-2023-3825)</td>
+       <td>2023-07-31 12:55:08 <img src="imgs/new.gif" /></td>
+       <td>PTC Kepware KEPServerEX 资源管理错误漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2330">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">05caf2e95b7a0f72e0c071c443e1d82b</td>
+       <td>CNNVD-202307-2331 (CVE-2023-4033)</td>
+       <td>2023-07-31 12:55:06 <img src="imgs/new.gif" /></td>
+       <td>Mlflow 操作系统命令注入漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2331">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4724b1e3be34aca22a9d40182a5d2368</td>
        <td>CNNVD-202307-2168 (CVE-2023-33745)</td>
        <td>2023-07-27 22:42:47</td>
@@ -1229,86 +1309,6 @@
        <td>2023-07-26 17:37:43</td>
        <td>GX Software XperienCentral 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2131">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">930676105ef77b2e989b0f0f1d7c17f0</td>
-       <td>CNNVD-202307-2065 (CVE-2022-31457)</td>
-       <td>2023-07-25 23:40:43</td>
-       <td>RTX 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2065">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">30c0f11d72c06050d3aacadae3f3a5e6</td>
-       <td>CNNVD-202307-2063 (CVE-2022-46901)</td>
-       <td>2023-07-25 21:41:48</td>
-       <td>Vocera Report Server 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2063">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d7e5a8b90f2466ba16429cb3ab3bb0f</td>
-       <td>CNNVD-202307-2064 (CVE-2023-38496)</td>
-       <td>2023-07-25 21:40:46</td>
-       <td>Apptainer 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2064">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">41fa39dfb4660ce39aca6d2d0ebc3446</td>
-       <td>CNNVD-202307-2060 (CVE-2022-46902)</td>
-       <td>2023-07-25 19:42:52</td>
-       <td>Vocera Report Server 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2060">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8047fe8af033ca09cb642325859eb0a8</td>
-       <td>CNNVD-202307-2061 (CVE-2022-46899)</td>
-       <td>2023-07-25 19:42:50</td>
-       <td>Vocera Report Server 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2061">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eeaf58846784e996175ee5c98cdf5ffc</td>
-       <td>CNNVD-202307-2062 (CVE-2022-46900)</td>
-       <td>2023-07-25 19:42:48</td>
-       <td>Vocera Report Server 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2062">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">36802272b0abafedd95f638a9370af00</td>
-       <td>CNNVD-202307-2067 (CVE-2023-38502)</td>
-       <td>2023-07-25 19:39:39</td>
-       <td>TDengine 输入验证错误漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2067">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b2c4c26b4a2d923091f3244bfa413aa9</td>
-       <td>CNNVD-202307-2068 (CVE-2023-3945)</td>
-       <td>2023-07-25 19:38:37</td>
-       <td>Lawyer 跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2068">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8ff71edad26a51071a7cba327f3834d0</td>
-       <td>CNNVD-202307-2069 (CVE-2023-38503)</td>
-       <td>2023-07-25 19:38:35</td>
-       <td>Directus 信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2069">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2bb995703f5e40ef53d7650a779223aa</td>
-       <td>CNNVD-202307-2066 (CVE-2023-38501)</td>
-       <td>2023-07-25 15:39:44</td>
-       <td>Copyparty 跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2066">详情</a></td>
       </tr>
 
      </tbody>
