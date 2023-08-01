@@ -1,12 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21983</font><br/>[<b>披露时间</b>] 2023-08-01 20:47:58<br/>[<b>漏洞描述</b>] Oracle Application Express 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=123d84dc99d8480eb23dc13a0644e9ae'>https://redqueen.tj-un.com/IntelDetails.html?id=123d84dc99d8480eb23dc13a0644e9ae</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22004</font><br/>[<b>披露时间</b>] 2023-08-01 20:47:43<br/>[<b>漏洞描述</b>] Oracle E-Business Suite 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8b3ab444e30b46cabaad7804a8d46b2b'>https://redqueen.tj-un.com/IntelDetails.html?id=8b3ab444e30b46cabaad7804a8d46b2b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35081</font><br/>[<b>披露时间</b>] 2023-08-02 00:01:27<br/>[<b>漏洞描述</b>] Ivanti Endpoint Manager Mobile 路径遍历漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8867'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8867</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-08-02 00:01:27<br/>[<b>漏洞描述</b>] 致远OA saveExcel 文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8866'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=8866</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37478</font><br/>[<b>披露时间</b>] 2023-08-01 12:15:00<br/>[<b>漏洞描述</b>] pnpm is a package manager. It is possible to construct a tarball that, when installed via npm or parsed by the registry is safe, but when installed via pnpm is malicious, due to how pnpm parses tar archives. This can result in a package that appears safe on the npm registry or when installed via npm being replaced with a compromised or malicious version when installed via pnpm. This issue has been patched in version(s) 7.33.4 and 8.6.8.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-37478'>https://www.tenable.com/cve/CVE-2023-37478</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
