@@ -1,12 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42183</font><br/>[<b>披露时间</b>] 2023-07-31 20:15:00<br/>[<b>漏洞描述</b>] Precisely Spectrum Spatial Analyst 20.01 is vulnerable to Server-Side Request Forgery (SSRF).<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-42183'>https://www.tenable.com/cve/CVE-2022-42183</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-42182</font><br/>[<b>披露时间</b>] 2023-07-31 20:15:00<br/>[<b>漏洞描述</b>] Precisely Spectrum Spatial Analyst 20.01 is vulnerable to Directory Traversal.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2022-42182'>https://www.tenable.com/cve/CVE-2022-42182</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39122</font><br/>[<b>披露时间</b>] 2023-07-31 23:15:00<br/>[<b>漏洞描述</b>] BMC Control-M Software v9.0.20.200 was discovered to contain a SQL injection vulnerability via the report-id parameter at /report/deleteReport.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-39122'>https://www.tenable.com/cve/CVE-2023-39122</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3825</font><br/>[<b>披露时间</b>] 2023-07-31 23:15:00<br/>[<b>漏洞描述</b>] PTC’s KEPServerEX Versions 6.0 to 6.14.263 are vulnerable to being made to read a recursively defined object that leads to uncontrolled resource consumption. KEPServerEX uses OPC UA, a protocol which defines various object types that can be nested to create complex arrays. It does not implement a check to see if such an object is recursively defined, so an attack could send a maliciously created message that the decoder would try to decode until the stack overflowed and the device crashed.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3825'>https://www.tenable.com/cve/CVE-2023-3825</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3462</font><br/>[<b>披露时间</b>] 2023-07-31 23:15:00<br/>[<b>漏洞描述</b>] HashiCorp's Vault and Vault Enterprise are vulnerable to user enumeration when using the LDAP auth method. An attacker may submit requests of existent and non-existent LDAP users and observe the response from Vault to check if the account is valid on the LDAP server. This vulnerability is fixed in Vault 1.14.1 and 1.13.5.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3462'>https://www.tenable.com/cve/CVE-2023-3462</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
