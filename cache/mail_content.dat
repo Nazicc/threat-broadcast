@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60468 (CVE-2022-2127)</font><br/>[<b>披露时间</b>] 2023-07-27 09:37:15<br/>[<b>漏洞描述</b>] Samba代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60468'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60468</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60469 (CVE-2023-3668)</font><br/>[<b>披露时间</b>] 2023-07-27 09:37:17<br/>[<b>漏洞描述</b>] Froxlor命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60469'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60469</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60604 (CVE-2023-29131)</font><br/>[<b>披露时间</b>] 2023-08-02 09:37:19<br/>[<b>漏洞描述</b>] Siemens SIMATIC CN 4100默认权限不正确漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60604'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60604</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60605 (CVE-2023-29130)</font><br/>[<b>披露时间</b>] 2023-08-02 09:37:21<br/>[<b>漏洞描述</b>] Siemens SIMATIC CN 4100访问控制不当漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60605'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60605</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60606 (CVE-2023-36755)</font><br/>[<b>披露时间</b>] 2023-08-02 09:37:24<br/>[<b>漏洞描述</b>] Siemens RUGGEDCOM ROX命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60606'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60606</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60607 (CVE-2023-36754)</font><br/>[<b>披露时间</b>] 2023-08-02 09:37:26<br/>[<b>漏洞描述</b>] Siemens RUGGEDCOM ROX命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60607'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60607</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-60608 (CVE-2023-36753)</font><br/>[<b>披露时间</b>] 2023-08-02 09:37:28<br/>[<b>漏洞描述</b>] Siemens RUGGEDCOM ROX命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-60608'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-60608</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-52220</font><br/>[<b>披露时间</b>] 2023-08-02 10:37:41<br/>[<b>漏洞描述</b>] 深圳市电速科技有限公司RushCRM系统存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-52220'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-52220</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
