@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3426</font><br/>[<b>披露时间</b>] 2023-08-02 10:15:00<br/>[<b>漏洞描述</b>] The organization selector in Liferay Portal 7.4.3.81 through 7.4.3.85, and Liferay DXP 7.4 update 81 through 85 does not check user permission, which allows remote authenticated users to obtain a list of all organizations.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3426'>https://www.tenable.com/cve/CVE-2023-3426</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32447</font><br/>[<b>披露时间</b>] 2023-08-02 20:36:42<br/>[<b>漏洞描述</b>] DELL WYSE_THINOS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6a7ce729443041e7971264803243fa6f'>https://redqueen.tj-un.com/IntelDetails.html?id=6a7ce729443041e7971264803243fa6f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30799</font><br/>[<b>披露时间</b>] 2023-08-02 20:36:34<br/>[<b>漏洞描述</b>] MIKROTIK ROUTEROS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2d4c2bce810541c093a039ee6c5c6e69'>https://redqueen.tj-un.com/IntelDetails.html?id=2d4c2bce810541c093a039ee6c5c6e69</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
