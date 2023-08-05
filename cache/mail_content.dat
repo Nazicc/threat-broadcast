@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39508</font><br/>[<b>披露时间</b>] 2023-08-05 07:15:00<br/>[<b>漏洞描述</b>] Execution with Unnecessary Privileges, : Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Software Foundation Apache Airflow.The "Run Task" feature enables authenticated user to bypass some of the restrictions put in place. It allows to execute code in the webserver context as well as allows to bypas limitation of access the user has to certain DAGs. The "Run Task" feature is considered dangerous and it has been removed entirely in Airflow 2.6.0This issue affects Apache Airflow: before 2.6.0.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-39508'>https://www.tenable.com/cve/CVE-2023-39508</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4909</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:57<br/>[<b>漏洞描述</b>] GOOGLE CHROME Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=3f7ac3e41a6a410683bac465652fe84f'>https://redqueen.tj-un.com/IntelDetails.html?id=3f7ac3e41a6a410683bac465652fe84f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38593</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:49<br/>[<b>漏洞描述</b>] Apple macOS Ventura 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b0c2753dde3343828d2c1c8c786cf780'>https://redqueen.tj-un.com/IntelDetails.html?id=b0c2753dde3343828d2c1c8c786cf780</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38602</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:35<br/>[<b>漏洞描述</b>] Apple macOS Ventura 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e1429716ad864b3e821cd17d0b32aab8'>https://redqueen.tj-un.com/IntelDetails.html?id=e1429716ad864b3e821cd17d0b32aab8</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38600</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:27<br/>[<b>漏洞描述</b>] Apple Safari 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=adebd175912e46dc8c5e34eb9f0d6cd1'>https://redqueen.tj-un.com/IntelDetails.html?id=adebd175912e46dc8c5e34eb9f0d6cd1</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38611</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:19<br/>[<b>漏洞描述</b>] Apple Safari 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=844875fd829b498d9f6bdac071caa15e'>https://redqueen.tj-un.com/IntelDetails.html?id=844875fd829b498d9f6bdac071caa15e</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38608</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:12<br/>[<b>漏洞描述</b>] Apple macOS Ventura 安全漏洞<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=9664685e77504f2aa03befd08bf1a233'>https://redqueen.tj-un.com/IntelDetails.html?id=9664685e77504f2aa03befd08bf1a233</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39261</font><br/>[<b>披露时间</b>] 2023-08-05 20:55:05<br/>[<b>漏洞描述</b>] JETBRAINS INTELLIJ_IDEA Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=281612e7440d442cb016323d84505a23'>https://redqueen.tj-un.com/IntelDetails.html?id=281612e7440d442cb016323d84505a23</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
