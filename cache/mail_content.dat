@@ -1,12 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24015</font><br/>[<b>披露时间</b>] 2023-08-09 10:15:00<br/>[<b>漏洞描述</b>] A partial DoS vulnerability has been detected in the Reports section, exploitable by a malicious authenticated user forcing a report to be saved with its name set as null.The reports section will be partially unavailable for all later attempts to use it, with the report list seemingly stuck on loading.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24015'>https://www.tenable.com/cve/CVE-2023-24015</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-23903</font><br/>[<b>披露时间</b>] 2023-08-09 10:15:00<br/>[<b>漏洞描述</b>] An authenticated administrator can upload a SAML configuration file with the wrong format, with the application not checking the correct file format. Every subsequent application request will return an error.The whole application in rendered unusable until a console intervention.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-23903'>https://www.tenable.com/cve/CVE-2023-23903</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4159</font><br/>[<b>披露时间</b>] 2023-08-04 18:15:18 <br/>[<b>漏洞描述</b>] Unrestricted Upload of File with Dangerous Type in GitHub repository omeka/omeka-s prior to 4.0.3.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4159'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4159</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4157</font><br/>[<b>披露时间</b>] 2023-08-04 18:15:17 <br/>[<b>漏洞描述</b>] Improper Input Validation in GitHub repository omeka/omeka-s prior to 4.0.3.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4157'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4157</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4075</font><br/>[<b>披露时间</b>] 2023-08-09 20:37:43<br/>[<b>漏洞描述</b>] GOOGLE CHROME Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=1707c5219eb847b0bdf15a74acd27676'>https://redqueen.tj-un.com/IntelDetails.html?id=1707c5219eb847b0bdf15a74acd27676</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-20808</font><br/>[<b>披露时间</b>] 2023-08-09 20:37:36<br/>[<b>漏洞描述</b>] QIBOSOFT QIBOSOFT Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0ec07f82788449c799e71f62f3cbbdd1'>https://redqueen.tj-un.com/IntelDetails.html?id=0ec07f82788449c799e71f62f3cbbdd1</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4052</font><br/>[<b>披露时间</b>] 2023-08-09 20:37:20<br/>[<b>漏洞描述</b>] MOZILLA Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=d72345943ed0462494167bfb6c4d6323'>https://redqueen.tj-un.com/IntelDetails.html?id=d72345943ed0462494167bfb6c4d6323</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39109</font><br/>[<b>披露时间</b>] 2023-08-09 20:37:13<br/>[<b>漏洞描述</b>] RCONFIG RCONFIG Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0473a9f2256f4cf888f19d758761e6a9'>https://redqueen.tj-un.com/IntelDetails.html?id=0473a9f2256f4cf888f19d758761e6a9</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
