@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-09 01:48:44 -->
+<!-- RELEASE TIME : 2023-08-09 06:42:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5774f171f339f14d742dfac9967715a8</td>
+       <td>CVE-2023-4243</td>
+       <td>2023-08-09 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>The FULL - Customer plugin for WordPress is vulnerable to Arbitrary File Upload via the /install-plugin REST route in versions up to, and including, 2.2.3 due to improper authorization. This allows authenticated attackers with subscriber-level permissions and above to execute code by installing plugins from arbitrary remote locations including non-repository sources onto the site, granted they are packaged as a valid WordPress plugin.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4243">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">adc1f7b0e6d687860f0b99117aef1ea1</td>
+       <td>CVE-2023-4242</td>
+       <td>2023-08-09 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>The FULL - Customer plugin for WordPress is vulnerable to Information Disclosure via the /health REST route in versions up to, and including, 2.2.3 due to improper authorization. This allows authenticated attackers with subscriber-level permissions and above to obtain sensitive information about the site configuration as disclosed by the WordPress health check.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4242">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4cfabc97cb7799416229d6a1518b9842</td>
+       <td>CVE-2023-38752</td>
+       <td>2023-08-09 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authorization vulnerability in Special Interest Group Network for Analysis and Liaison versions 4.4.0 to 4.7.7 allows the authorized API users to view the attribute information of the poster that is set as"non-disclosure" in the system settings.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38752">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4650e3056f1ac64f9952bc7ae977580b</td>
+       <td>CVE-2023-38751</td>
+       <td>2023-08-09 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authorization vulnerability in Special Interest Group Network for Analysis and Liaison versions 4.4.0 to 4.7.7 allows the authorized API users to view the organization information of the information receiver that is set as "non-disclosure" in the information provision operation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38751">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c6bf596f284391f19ce17741a7dc78ba</td>
+       <td>CVE-2023-4239</td>
+       <td>2023-08-09 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Real Estate Manager plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 6.7.1 due to insufficient restriction on the 'rem_save_profile_front' function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the 'wp_capabilities' parameter during a profile update.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4239">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d79820a96b37398102d7090a5ac6c4d8</td>
+       <td>CVE-2023-39910</td>
+       <td>2023-08-09 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>The cryptocurrency wallet entropy seeding mechanism used in Libbitcoin Explorer 3.0.0 through 3.6.0 is weak, aka the Milk Sad issue. The use of an mt19937 Mersenne Twister PRNG restricts the internal entropy to 32 bits regardless of settings. This allows remote attackers to recover any wallet private keys generated from "bx seed" entropy output and steal funds. (Affected users need to move funds to a secure new cryptocurrency wallet.) NOTE: the vendor's position is that there was sufficient documentation advising against "bx seed" but others disagree. NOTE: this was exploited in the wild in June and July 2023.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39910">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8fcc793bf93bf05021b392563340c822</td>
+       <td>CVE-2023-39341</td>
+       <td>2023-08-09 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>"FFRI yarai", "FFRI yarai Home and Business Edition" and their OEM products handle exceptional conditions improperly, which may lead to denial-of-service (DoS) condition. Affected products and versions are as follows: FFRI yarai versions 3.4.0 to 3.4.6 and 3.5.0, FFRI yarai Home and Business Edition version 1.4.0, InfoTrace Mark II Malware Protection (Mark II Zerona) versions 3.0.1 to 3.2.2, Zerona / Zerona PLUS versions 3.2.32 to 3.2.36, ActSecure ? versions 3.4.0 to 3.4.6 and 3.5.0, Dual Safe Powered by FFRI yarai version 1.4.1, EDR Plus Pack (Bundled FFRI yarai versions 3.4.0 to 3.4.6 and 3.5.0), and EDR Plus Pack Cloud (Bundled FFRI yarai versions 3.4.0 to 3.4.6 and 3.5.0).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39341">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">41a82e86f559233dc366df4e1eef329d</td>
        <td>CVE-2023-39951</td>
        <td>2023-08-08 22:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-08-08 17:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue in the CAB file extraction function of Bitberry File Opener v23.0 allows attackers to execute a directory traversal.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37646">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">081f85cf49dabe04d0a328fbcd2e2dda</td>
-       <td>CVE-2023-38773</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to obtain sensitive information via the volopp1 and volopp2 parameters within the /QueryView.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38773">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d51135f6784b2b8615a5879c7142932</td>
-       <td>CVE-2023-38771</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to obtain sensitive information via the volopp parameter within the /QueryView.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38771">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1162be8e9048fb54ed7ba5e449a8af93</td>
-       <td>CVE-2023-38770</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to obtain sensitive information via the group parameter within the /QueryView.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38770">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d1bb455d5f5e7bfcfed542302f41c92e</td>
-       <td>CVE-2023-38769</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to obtain sensitive information via the searchstring and searchwhat parameters within the /QueryView.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38769">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bbd1bcb3fc134040d1c1f74eae435ba0</td>
-       <td>CVE-2023-38768</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to obtain sensitive information via the PropertyID parameter within the /QueryView.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38768">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2ff3bb85382ebe591012432e8cdf6215</td>
-       <td>CVE-2023-38767</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to obtain sensitive information via the 'value' and 'custom' parameters within the /QueryView.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38767">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b9fa8e28423c0b78c644528f263ac5cc</td>
-       <td>CVE-2023-38766</td>
-       <td>2023-08-08 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross Site Scripting (XSS) vulnerability in ChurchCRM v.5.0.0 allows a remote attacker to execute arbitrary code via a crafted payload to the PersonView.php component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38766">详情</a></td>
       </tr>
 
      </tbody>
@@ -2452,11 +2452,67 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7bd903c59fb1b535fd719e061159bad5</td>
+       <td>CVE-2023-4158</td>
+       <td>2023-08-04 18:15:17 </td>
+       <td>Cross-site Scripting (XSS) - Stored in GitHub repository omeka/omeka-s prior to 4.0.3.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4158">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">900c8b32c2f96cbc2218a49ca413e738</td>
        <td>CVE-2023-38494</td>
        <td>2023-08-04 16:15:10 </td>
        <td>MeterSphere is an open-source continuous testing platform. Prior to version 2.10.4 LTS, some interfaces of the Cloud version of MeterSphere do not have configuration permissions, and are sensitively leaked by attackers. Version 2.10.4 LTS contains a patch for this issue.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-38494">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ee76b569fbf73142646ad76dc6d676ce</td>
+       <td>CVE-2023-4142</td>
+       <td>2023-08-04 03:15:14 </td>
+       <td>The WP Ultimate CSV Importer plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 7.9.8 via the '-&gt;cus1' parameter. This allows authenticated attackers with author-level permissions or above, if the administrator previously grants access in the plugin settings, to execute code on the server. The author resolved this vulnerability by removing the ability for authors and editors to import files, please note that this means remote code execution is still possible for site administrators, use the plugin with caution.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4142">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d3cdf616b98ac596f1b22934ccd65b22</td>
+       <td>CVE-2023-4141</td>
+       <td>2023-08-04 03:15:14 </td>
+       <td>The WP Ultimate CSV Importer plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 7.9.8 via the '-&gt;cus2' parameter. This allows authenticated attackers with author-level permissions or above, if the administrator previously grants access in the plugin settings, to create a PHP file and execute code on the server. The author resolved this vulnerability by removing the ability for authors and editors to import files, please note that this means php file creation is still allowed for site administrators, use the plugin with caution.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4141">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">88d49ae63b699debbd556f6a5151afa2</td>
+       <td>CVE-2023-4140</td>
+       <td>2023-08-04 03:15:14 </td>
+       <td>The WP Ultimate CSV Importer plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 7.9.8 due to insufficient restriction on the 'get_header_values' function. This makes it possible for authenticated attackers, with minimal permissions such as an author, if the administrator previously grants access in the plugin settings, to modify their user role by supplying the 'wp_capabilities-&gt;cus1' parameter.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4140">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e35e8ada9436e3d1454267b028d82b83</td>
+       <td>CVE-2023-4139</td>
+       <td>2023-08-04 03:15:13 </td>
+       <td>The WP Ultimate CSV Importer plugin for WordPress is vulnerable to Sensitive Information Exposure  via Directory Listing due to missing restriction in export folder indexing in versions up to, and including, 7.9.8. This makes it possible for unauthenticated attackers to list and view exported files.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4139">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e66c6490103fe955975e17b6d4b98235</td>
+       <td>CVE-2023-4145</td>
+       <td>2023-08-03 17:15:12 </td>
+       <td>Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/customer-data-framework prior to 3.4.2.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4145">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d4c26b5bffbdf2a505bc6510ee418df</td>
+       <td>CVE-2023-4138</td>
+       <td>2023-08-03 15:15:36 </td>
+       <td>Allocation of Resources Without Limits or Throttling in GitHub repository ikus060/rdiffweb prior to 2.8.0.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4138">详情</a></td>
       </tr>
 
       <tr>
@@ -2633,62 +2689,6 @@
        <td>2023-08-03 01:15:12 </td>
        <td>Use after free in WebRTC in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to potentially exploit heap corruption via a crafted WebRTC session. (Chromium security severity: High)</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4076">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f3fc3cebbf357085f6f4396af7dde1c6</td>
-       <td>CVE-2023-4075</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Use after free in Cast in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4075">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8b4e34a012a636d0572ec9ec590adf3</td>
-       <td>CVE-2023-4073</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Out of bounds memory access in ANGLE in Google Chrome on Mac prior to 115.0.5790.170 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4073">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ba64f4c5dacac8cd1ed05b1df2753a67</td>
-       <td>CVE-2023-4072</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Out of bounds read and write in WebGL in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4072">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d060ad2fea34edf6fba5cce98828436</td>
-       <td>CVE-2023-4071</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Heap buffer overflow in Visuals in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4071">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">33727cbdb14348d005a3b171c0cf0ddf</td>
-       <td>CVE-2023-4070</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Type Confusion in V8 in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4070">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6db6d2a747bbf592f4820b575dc05351</td>
-       <td>CVE-2023-4069</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Type Confusion in V8 in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4069">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea5e27f6b60bdfcdf8560e79dbf1c09c</td>
-       <td>CVE-2023-4068</td>
-       <td>2023-08-03 01:15:11 </td>
-       <td>Type Confusion in V8 in Google Chrome prior to 115.0.5790.170 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4068">详情</a></td>
       </tr>
 
      </tbody>
