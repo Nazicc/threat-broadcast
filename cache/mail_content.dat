@@ -1,17 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62288 (CVE-2023-2952)</font><br/>[<b>披露时间</b>] 2023-07-27 02:02:19<br/>[<b>漏洞描述</b>] Wireshark拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62288'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62288</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62289 (CVE-2023-2856)</font><br/>[<b>披露时间</b>] 2023-08-02 02:02:21<br/>[<b>漏洞描述</b>] Wireshark缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62289'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62289</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62290 (CVE-2023-2855)</font><br/>[<b>披露时间</b>] 2023-08-02 02:02:23<br/>[<b>漏洞描述</b>] Wireshark缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62290'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62290</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62291 (CVE-2023-2879)</font><br/>[<b>披露时间</b>] 2023-08-02 02:02:25<br/>[<b>漏洞描述</b>] Wireshark无限循环漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62291'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62291</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62292 (CVE-2023-1994)</font><br/>[<b>披露时间</b>] 2023-08-03 02:02:28<br/>[<b>漏洞描述</b>] Wireshark资源管理错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62292'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62292</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62348 (CVE-2023-1544)</font><br/>[<b>披露时间</b>] 2023-08-03 02:02:30<br/>[<b>漏洞描述</b>] QEMU拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62348'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62348</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62293 (CVE-2023-0416)</font><br/>[<b>披露时间</b>] 2023-08-03 02:02:32<br/>[<b>漏洞描述</b>] Wireshark GNW dissector拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62293'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62293</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-62294 (CVE-2022-3725)</font><br/>[<b>披露时间</b>] 2023-08-03 02:37:44<br/>[<b>漏洞描述</b>] Wireshark拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-62294'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-62294</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
