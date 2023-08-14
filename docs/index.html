@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-14 10:41:02 -->
+<!-- RELEASE TIME : 2023-08-14 11:40:57 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">33e9fd97ff855565f49337c8f7f8c2ec</td>
+       <td>CVE-2023-40305</td>
+       <td>2023-08-14 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>GNU indent 2.2.13 has a heap-based buffer overflow in search_brace in indent.c via a crafted file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40305">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">637223743869841792493ddc71dc55ab</td>
+       <td>CVE-2023-40303</td>
+       <td>2023-08-14 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>GNU inetutils through 2.4 may allow privilege escalation because of unchecked return values of set*id() family functions in ftpd, rcp, rlogin, rsh, rshd, and uucpd. This is, for example, relevant if the setuid system call fails when a process is trying to drop privileges before letting an ordinary user control the activities of the process.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40303">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">382480d07a6b242b8861afa0fa7cbb2a</td>
+       <td>CVE-2023-3267</td>
+       <td>2023-08-14 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>When adding a remote backup location, an authenticated user can pass arbitrary OS commands through the username field. The username is passed without sanitization into CMD running as NT/Authority System. An authenticated attacker can leverage this vulnerability to execute arbitrary code with system-level access to the CyberPower PowerPanel Enterprise server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3267">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">decf08643d595a50cb7f581ff37398eb</td>
+       <td>CVE-2023-3266</td>
+       <td>2023-08-14 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>A non-feature complete authentication mechanism exists in the production application allowing an attacker to bypass all authentication checks if LDAP authentication is selected.An unauthenticated attacker can leverage this vulnerability to log in to the CypberPower PowerPanel Enterprise as an administrator by selecting LDAP authentication from a hidden HTML combo box. Successful exploitation of this vulnerability also requires the attacker to know at least one username on the device, but any password will authenticate successfully.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3266">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6983b92bf60e20d6d2448b8235233022</td>
+       <td>CVE-2023-3265</td>
+       <td>2023-08-14 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>An authentication bypass exists on CyberPower PowerPanel Enterprise by failing to sanitize meta-characters from the username, allowing an attacker to login into the application with the default user "cyberpower" by appending a non-printable character.An unauthenticated attacker can leverage this vulnerability to log in to the CypberPower PowerPanel Enterprise as an administrator with hardcoded default credentials.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3265">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">84a04990e156e2e3ccd3462909d712a5</td>
+       <td>CVE-2023-3264</td>
+       <td>2023-08-14 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Dataprobe iBoot PDU running firmware version 1.43.03312023 or earlier is vulnerable to authentication bypass in the REST API due to the mishandling of special characters when parsing credentials.Successful exploitation allows the malicious agent to obtain a valid authorization token and read information relating to the state of the relays and power distribution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3264">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7fc3c2cc1d448b5c649da18638b14e18</td>
+       <td>CVE-2023-3263</td>
+       <td>2023-08-14 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Dataprobe iBoot PDU running firmware version 1.43.03312023 or earlier is vulnerable to authentication bypass in the REST API due to the mishandling of special characters when parsing credentials.Successful exploitation allows the malicious agent to obtain a valid authorization token and read information relating to the state of the relays and power distribution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3263">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dde9481b959253c914d1dcd9787f6265</td>
        <td>CVE-2023-40296</td>
        <td>2023-08-14 04:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-08-10 21:15:00</td>
        <td>HAProxy through 2.0.32, 2.1.x and 2.2.x through 2.2.30, 2.3.x and 2.4.x through 2.4.23, 2.5.x and 2.6.x before 2.6.15, 2.7.x before 2.7.10, and 2.8.x before 2.8.2 forwards empty Content-Length headers, violating RFC 9110 section 8.6. In uncommon cases, an HTTP/1 server behind HAProxy may interpret the payload as an extra request.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40225">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">718bd7057d057ebe96da473f913e04f1</td>
-       <td>CVE-2023-38333</td>
-       <td>2023-08-10 21:15:00</td>
-       <td>Zoho ManageEngine Applications Manager through 16530 allows reflected XSS while logged in.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38333">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e127e4773c8ca8eaa8707f1a1f1f544d</td>
-       <td>CVE-2023-40224</td>
-       <td>2023-08-10 20:15:00</td>
-       <td>MISP 2.4174 allows XSS in app/View/Events/index.ctp.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40224">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">74ffdfcce8cbe604af49eb86d136116b</td>
-       <td>CVE-2023-40014</td>
-       <td>2023-08-10 20:15:00</td>
-       <td>OpenZeppelin Contracts is a library for secure smart contract development. Starting in version 4.0.0 and prior to version 4.9.3, contracts using `ERC2771Context` along with a custom trusted forwarder may see `_msgSender` return `address(0)` in calls that originate from the forwarder with calldata shorter than 20 bytes. This combination of circumstances does not appear to be common, in particular it is not the case for `MinimalForwarder` from OpenZeppelin Contracts, or any deployed forwarder the team is aware of, given that the signer address is appended to all calls that originate from these forwarders. The problem has been patched in v4.9.3.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40014">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">05aaaedef3e0b09e7b9bc05d28624bcd</td>
-       <td>CVE-2023-39806</td>
-       <td>2023-08-10 20:15:00</td>
-       <td>iCMS v7.0.16 was discovered to contain a SQL injection vulnerability via the bakupdata function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39806">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">daccd790a53b723afada5c460fd2dfc2</td>
-       <td>CVE-2023-39805</td>
-       <td>2023-08-10 20:15:00</td>
-       <td>iCMS v7.0.16 was discovered to contain a SQL injection vulnerability via the where parameter at admincp.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39805">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">961d40392dc9b2e8575b564defbfe454</td>
-       <td>CVE-2023-37625</td>
-       <td>2023-08-10 20:15:00</td>
-       <td>A stored cross-site scripting (XSS) vulnerability in Netbox v3.4.7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Custom Link templates.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37625">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87867dc8319bb903ed995fe34849bdbf</td>
-       <td>CVE-2023-32565</td>
-       <td>2023-08-10 20:15:00</td>
-       <td>An attacker can send a specially crafted request which could lead to leakage of sensitive data or potentially a resource-based DoS attack. Fixed in version 6.4.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32565">详情</a></td>
       </tr>
 
      </tbody>
