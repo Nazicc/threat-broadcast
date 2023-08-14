@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-14 22:40:55 -->
+<!-- RELEASE TIME : 2023-08-14 23:40:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ebacea67889627f8ccbf69456a741196</td>
+       <td>CVE-2023-40020</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>PrivateUploader is an open source image hosting server written in Vue and TypeScript. In affected versions `app/routes/v3/admin.controller.ts` did not correctly verify whether the user was an administrator (High Level) or moderator (Low Level) causing the request to continue processing. The response would be a 403 with ADMIN_ONLY, however, next() would call leading to any updates/changes in the route to process. This issue has been addressed in version 3.2.49. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40020">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e881dbbdee98f1658af2ffb88f2a3147</td>
+       <td>CVE-2023-40013</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>SVG Loader is a javascript library that fetches SVGs using XMLHttpRequests and injects the SVG code in the tag's place. According to the docs, svg-loader will strip all JS code before injecting the SVG file for security reasons but the input sanitization logic is not sufficient and can be trivially bypassed. This allows an attacker to craft a malicious SVG which can result in Cross-site Scripting (XSS). When trying to sanitize the svg the lib removes event attributes such as `onmouseover`, `onclick` but the list of events is not exhaustive.  Any website which uses external-svg-loader and allows its users to provide svg src, upload svg files would be susceptible to stored XSS attack. This issue has been addressed in commit `d3562fc08` which is included in releases from 1.6.9. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40013">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7ae06c99e58d4548834f04b6f2047c31</td>
+       <td>CVE-2023-39950</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>efibootguard is a simple UEFI boot loader with support for safely switching between current and updated partition sets. Insufficient or missing validation and sanitization of input from untrustworthy bootloader environment files can cause crashes and probably also code injections into `bg_setenv`) or programs using `libebgenv`. This is triggered when the affected components try to modify a manipulated environment, in particular its user variables. Furthermore, `bg_printenv` may crash over invalid read accesses or report invalid results. Not affected by this issue is EFI Boot Guard's bootloader EFI binary. EFI Boot Guard release v0.15 contains required patches to sanitize and validate the bootloader environment prior to processing it in userspace. Its library and tools should be updated, so should programs statically linked against it. An update of the bootloader EFI executable is not required. The only way to prevent the issue with an unpatched EFI Boot Guard version is to avoid accesses to user variables, specifically modifications to them.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39950">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4114c4e949d50a728fa64c9f3c94bff</td>
+       <td>CVE-2023-39829</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Tenda A18 V15.13.07.09 was discovered to contain a stack overflow via the wpapsk_crypto2_4g parameter in the fromSetWirelessRepeat function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39829">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">58f9695560e4b42593198543ce8577ed</td>
+       <td>CVE-2023-39828</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Tenda A18 V15.13.07.09 was discovered to contain a stack overflow via the security parameter in the formWifiBasicSet function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39828">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">788940d5d17e8c9f0f4e2214353ffd6c</td>
+       <td>CVE-2023-39827</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Tenda A18 V15.13.07.09 was discovered to contain a stack overflow via the rule_info parameter in the formAddMacfilterRule function.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39827">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">634b63dd3c6ec0c7699091517e46d885</td>
+       <td>CVE-2023-38687</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Svelecte is a flexible autocomplete/select component written in Svelte. Svelecte item names are rendered as raw HTML with no escaping. This allows the injection of arbitrary HTML into the Svelecte dropdown. This can be exploited to execute arbitrary JavaScript whenever a Svelecte dropdown is opened. Item names given to Svelecte appear to be directly rendered as HTML by the default item renderer. This means that any HTML tags in the name are rendered as HTML elements not as text. Note that the custom item renderer shown in https://mskocik.github.io/svelecte/#item-rendering is also vulnerable to the same exploit. Any site that uses Svelecte with dynamically created items either from an external source or from user-created content could be vulnerable to an XSS attack (execution of untrusted JavaScript), clickjacking or any other attack that can be performed with arbitrary HTML injection. The actual impact of this vulnerability for a specific application depends on how trustworthy the sources that provide Svelecte items are and the steps that the application has taken to mitigate XSS attacks. XSS attacks using this vulnerability are mostly mitigated by a Content Security Policy that blocks inline JavaScript. This issue has been addressed in version 3.16.3. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38687">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8f5d231be8584b9aaa2b95d236f03c0b</td>
+       <td>CVE-2023-21269</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>In startActivityInner of ActivityStarter.java, there is a possible way to launch an activity into PiP mode from the background due to BAL bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21269">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">025432d415dc93b710562d40aa542549</td>
+       <td>CVE-2023-21268</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>In update of MmsProvider.java, there is a possible way to change directory permissions due to a path traversal error. This could lead to local denial of service of SIM recognition with no additional execution privileges needed. User interaction is not needed for exploitation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21268">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">52fd300a9e9165235f7792de46056995</td>
+       <td>CVE-2023-21267</td>
+       <td>2023-08-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>In doKeyguardLocked of KeyguardViewMediator.java, there is a possible way to bypass lockdown mode with screen pinning due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-21267">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">39e67281e3bb2ad023c85efe171828a6</td>
        <td>CVE-2023-39908</td>
        <td>2023-08-14 19:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-08-14 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in ihomefinder Optima Express + MarketBoost IDX Plugin plugin <= 7.3.0 versions.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30749">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ecafeceb97f68380b4195646bad9cc11</td>
-       <td>CVE-2023-30489</td>
-       <td>2023-08-14 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in I Thirteen Web Solution Email Subscription Popup plugin <= 1.2.16 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30489">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1d7cb8bcdde1e2fb241a36ad9a893434</td>
-       <td>CVE-2023-28535</td>
-       <td>2023-08-14 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Paytm Paytm Payment Donation plugin <= 2.2.0 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28535">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2cd0391eafa7c6773220f22dc85f6e72</td>
-       <td>CVE-2023-30483</td>
-       <td>2023-08-14 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Kiboko Labs Watu Quiz plugin <= 3.3.9.2 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30483">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1c0a6fb27b987643314d710c077ff46d</td>
-       <td>CVE-2023-30477</td>
-       <td>2023-08-14 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Essitco AFFILIATE Solution plugin <= 1.0 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30477">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ef6c9fbbdb192380d9664243d83866e</td>
-       <td>CVE-2023-30475</td>
-       <td>2023-08-14 14:15:00 <img src="imgs/new.gif" /></td>
-       <td>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Elliot Sowersby, RelyWP WooCommerce Affiliate Plugin – Coupon Affiliates plugin <= 5.4.5 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30475">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c008f6d1ac5e706a0be4c42c1645cd92</td>
-       <td>CVE-2023-37070</td>
-       <td>2023-08-14 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Code Projects Hospital Information System 1.0 is vulnerable to Cross Site Scripting (XSS)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37070">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f4f865da77878e7583254fe59169903</td>
-       <td>CVE-2023-30188</td>
-       <td>2023-08-14 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>Memory Exhaustion vulnerability in ONLYOFFICE Document Server 4.0.3 through 7.3.2 allows remote attackers to cause a denial of service via crafted JavaScript file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30188">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a147d6c1a411b269d0d3b19509d2ad18</td>
-       <td>CVE-2023-30187</td>
-       <td>2023-08-14 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>An out of bounds memory access vulnerability in ONLYOFFICE DocumentServer 4.0.3 through 7.3.2 allows remote attackers to run arbitrary code via crafted JavaScript file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30187">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">881f150c477d875d5182f23e0510fea3</td>
-       <td>CVE-2023-30186</td>
-       <td>2023-08-14 13:15:00 <img src="imgs/new.gif" /></td>
-       <td>A use after free issue discovered in ONLYOFFICE DocumentServer 4.0.3 through 7.3.2 allows remote attackers to run arbitrary code via crafted JavaScript file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-30186">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40fd79147009ffa5c8403a592bc40004</td>
-       <td>CVE-2023-37847</td>
-       <td>2023-08-14 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>novel-plus v3.6.2 was discovered to contain a SQL injection vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37847">详情</a></td>
       </tr>
 
      </tbody>
