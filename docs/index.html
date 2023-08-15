@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-15 06:41:04 -->
+<!-- RELEASE TIME : 2023-08-15 11:40:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">84998a84fe5350b9b2e8435c3a3c0148</td>
+       <td>CVE-2023-2916</td>
+       <td>2023-08-15 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The InfiniteWP Client plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.11.1 via the 'admin_notice' function. This can allow authenticated attackers with subscriber-level permissions or above to extract sensitive data including configuration. It can only be exploited if the plugin has not been configured yet. If combined with another arbitrary plugin installation and activation vulnerability, it may be possible to connect a site to InfiniteWP which would make remote management possible and allow for elevation of privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2916">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">237ed80e2b3ff03efc55f63b2656d7ac</td>
+       <td>CVE-2023-4308</td>
+       <td>2023-08-15 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>The User Submitted Posts plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘user-submitted-content’ parameter in versions up to, and including, 20230809 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4308">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">59ec68d78bf184e49f4679ee873168f8</td>
        <td>CVE-2023-4347</td>
        <td>2023-08-15 02:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-08-14 19:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue was discovered in Tigergraph Enterprise 3.7.0. There is unsecured write access to SSH authorized keys file. Any code running as the tigergraph user is able to add their SSH public key into the authorised keys file. This allows an attacker to obtain password-less SSH key access by using their own SSH key.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28481">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e3407e1fbc9964e9005b7f488660cdb8</td>
-       <td>CVE-2023-28480</td>
-       <td>2023-08-14 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in Tigergraph Enterprise 3.7.0. The TigerGraph platform allows users to define new User Defined Functions (UDFs) from C/C++ code. To support this functionality TigerGraph allows users to upload custom C/C++ code which is then compiled and installed into the platform. An attacker who has filesystem access on a remote TigerGraph system can alter the behavior of the database against the will of the database administrator; thus effectively bypassing the built in RBAC controls.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28480">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6e98767de0898d6e630ebc5ed23d68cf</td>
-       <td>CVE-2023-40360</td>
-       <td>2023-08-14 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>QEMU through 8.0.4 accesses a NULL pointer in nvme_directive_receive in hw/nvme/ctrl.c because there is no check for whether an endurance group is configured before checking whether Flexible Data Placement is enabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40360">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1f0d3f177013d21e013191f742d9695c</td>
+       <td>CNVD-2023-63443 (CVE-2022-35401)</td>
+       <td>2023-08-15 11:37:26 <img src="imgs/new.gif" /></td>
+       <td>ASUS RT-AX82U身份验证错误漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63443">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b0695738edf8fc8a871fcb7fc99a73a1</td>
+       <td>CNVD-2023-63442 (CVE-2023-29772)</td>
+       <td>2023-08-15 11:37:24 <img src="imgs/new.gif" /></td>
+       <td>ASUS RT-AC51U跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63442">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">22ecf6eeacea2617d4e200700a0eacd5</td>
+       <td>CNVD-2023-63441 (CVE-2023-34360)</td>
+       <td>2023-08-15 11:37:22 <img src="imgs/new.gif" /></td>
+       <td>ASUS RT-AX88U跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63441">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fb0dd2b1b924ef1fedca60e8b3f504a0</td>
+       <td>CNVD-2023-63440 (CVE-2023-34358)</td>
+       <td>2023-08-15 11:37:19 <img src="imgs/new.gif" /></td>
+       <td>ASUS RT-AX88U web.c缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63440">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c9cad35d2837b97fbc2db93a0d46be53</td>
+       <td>CNVD-2023-63439 (CVE-2023-34359)</td>
+       <td>2023-08-15 11:37:17 <img src="imgs/new.gif" /></td>
+       <td>ASUS RT-AX88U ej.c缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63439">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c5cda37adb80fa3730b7be669afc1274</td>
+       <td>CNVD-2023-63437 (CVE-2023-4170)</td>
+       <td>2023-08-15 11:37:15 <img src="imgs/new.gif" /></td>
+       <td>DedeBIZ跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63437">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f2c8d693a2d53d87c97eb2873beeec3</td>
+       <td>CNVD-2023-63436 (CVE-2023-39086)</td>
+       <td>2023-08-15 11:37:13 <img src="imgs/new.gif" /></td>
+       <td>ASUS RT-AC66U信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-63436">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dd6346e9978a255ee0b725349457293f</td>
        <td>CNVD-2023-62949 (CVE-2023-38241)</td>
        <td>2023-08-14 10:37:34 <img src="imgs/new.gif" /></td>
@@ -999,62 +1055,6 @@
        <td>2023-08-09 07:37:36</td>
        <td>Siemens SICAM TOOLBOX II关键资源的权限分配错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-62030">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e5c007b574fa2d63cbe27a212e77de31</td>
-       <td>CNVD-2023-62029 (CVE-2023-38641)</td>
-       <td>2023-08-09 07:37:34</td>
-       <td>Siemens SICAM TOOLBOX II使用不必要的特权执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-62029">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6655859faf13cbd883905237bc2e66fc</td>
-       <td>CNVD-2023-62028 (CVE-2023-24845)</td>
-       <td>2023-08-09 07:37:31</td>
-       <td>Siemens RUGGEDCOM ROS设备镜像端口隔离漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-62028">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c860a7504bd85c218349114f861704ca</td>
-       <td>CNVD-2023-62027</td>
-       <td>2023-08-09 01:45:11</td>
-       <td>Arris VAP2500远程代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-62027">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f4f7d30379a5930139ef0990d62fb19d</td>
-       <td>CNVD-2023-61749 (CVE-2023-37245)</td>
-       <td>2023-08-08 16:42:28</td>
-       <td>Huawei HarmonyOS和EMUI缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-61749">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6f35794d5ae11402e2824373fbfb964b</td>
-       <td>CNVD-2023-61767 (CVE-2023-38608)</td>
-       <td>2023-08-08 16:42:25</td>
-       <td>Apple macOS Ventura信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-61767">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1785996d2fe9ca4174f60e956be53966</td>
-       <td>CNVD-2023-61766 (CVE-2023-32429)</td>
-       <td>2023-08-08 16:42:23</td>
-       <td>Apple macOS Ventura安全绕过漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-61766">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aa1dbfb4743840d6af093823b1a478ce</td>
-       <td>CNVD-2023-61765 (CVE-2023-38564)</td>
-       <td>2023-08-08 16:42:21</td>
-       <td>Apple macOS Ventura安全绕过漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-61765">详情</a></td>
       </tr>
 
      </tbody>
