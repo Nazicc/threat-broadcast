@@ -1,14 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30778</font><br/>[<b>披露时间</b>] 2023-08-15 13:15:00<br/>[<b>漏洞描述</b>] Auth. (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Blubrry PowerPress Podcasting plugin by Blubrry plugin <= 10.0.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30778'>https://www.tenable.com/cve/CVE-2023-30778</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30747</font><br/>[<b>披露时间</b>] 2023-08-15 13:15:00<br/>[<b>漏洞描述</b>] Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in WPGem WooCommerce Easy Duplicate Product plugin <= 0.3.0.0 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30747'>https://www.tenable.com/cve/CVE-2023-30747</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30498</font><br/>[<b>披露时间</b>] 2023-08-15 13:15:00<br/>[<b>漏洞描述</b>] Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in CodeFlavors Vimeotheque: Vimeo WordPress Plugin <= 2.2.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-30498'>https://www.tenable.com/cve/CVE-2023-30498</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-24478</font><br/>[<b>披露时间</b>] 2023-08-15 13:15:00<br/>[<b>漏洞描述</b>] Use of insufficiently random values for some Intel Agilex(R) software included as part of Intel(R) Quartus(R) Prime Pro Edition for linux before version 22.4 may allow an authenticated user to potentially enable information disclosure via local access.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-24478'>https://www.tenable.com/cve/CVE-2023-24478</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-08-16 00:11:29<br/>[<b>漏洞描述</b>] 契约锁 upload 文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9082'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9082</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-08-16 00:11:29<br/>[<b>漏洞描述</b>] 金蝶云星空 CommonFileServer 任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9081'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9081</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-08-16 00:11:29<br/>[<b>漏洞描述</b>] 明源云ERP系统 ApiUpdate.ashx 任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9080'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9080</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
