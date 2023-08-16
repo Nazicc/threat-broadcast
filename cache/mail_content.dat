@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-08-16 10:11:51<br/>[<b>漏洞描述</b>] 银狐木马技术分析<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=64dca0de22adc884abcd7e0d'>https://cert.360.cn/warning/detail?id=64dca0de22adc884abcd7e0d</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39507</font><br/>[<b>披露时间</b>] 2023-08-16 09:15:00<br/>[<b>漏洞描述</b>] Improper authorization in the custom URL scheme handler in "Rikunabi NEXT" App for Android prior to ver. 11.5.0 allows a malicious intent to lead the vulnerable App to access an arbitrary website.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-39507'>https://www.tenable.com/cve/CVE-2023-39507</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4374</font><br/>[<b>披露时间</b>] 2023-08-16 05:15:00<br/>[<b>漏洞描述</b>] The WP Remote Users Sync plugin for WordPress is vulnerable to unauthorized access of data and addition of data due to a missing capability check on the 'refresh_logs_async' functions in versions up to, and including, 1.2.11. This makes it possible for authenticated attackers with subscriber privileges or above, to view logs.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4374'>https://www.tenable.com/cve/CVE-2023-4374</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3958</font><br/>[<b>披露时间</b>] 2023-08-16 05:15:00<br/>[<b>漏洞描述</b>] The WP Remote Users Sync plugin for WordPress is vulnerable to Server Side Request Forgery via the 'notify_ping_remote' AJAX function in versions up to, and including, 1.2.12. This can allow authenticated attackers with subscriber-level permissions or above to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services. This was partially patched in version 1.2.12 and fully patched in version 1.2.13.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3958'>https://www.tenable.com/cve/CVE-2023-3958</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26140</font><br/>[<b>披露时间</b>] 2023-08-16 05:15:00<br/>[<b>漏洞描述</b>] Versions of the package @excalidraw/excalidraw from 0.0.0 are vulnerable to Cross-site Scripting (XSS) via embedded links in whiteboard objects due to improper input sanitization.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-26140'>https://www.tenable.com/cve/CVE-2023-26140</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
