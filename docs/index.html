@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-17 02:41:01 -->
+<!-- RELEASE TIME : 2023-08-17 05:41:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -2500,6 +2500,14 @@
       </tr>
 
       <tr>
+       <td scope="row">1ff1ae3656c63ca9baeb55cc21d2c6b9</td>
+       <td>CVE-2023-4273</td>
+       <td>2023-08-09 15:15:09 </td>
+       <td>A flaw was found in the exFAT driver of the Linux kernel. The vulnerability exists in the implementation of the file name reconstruction function, which is responsible for reading file name entries from a directory index and merging file name parts belonging to one file into a single long file name. Since the file name characters are copied into a stack variable, a local privileged attacker could use this flaw to overflow the kernel stack.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4273">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">44217fb1ce74ed6b648677f5a6631be0</td>
        <td>CVE-2023-4243</td>
        <td>2023-08-09 04:15:10 </td>
@@ -2681,14 +2689,6 @@
        <td>2023-08-08 12:15:12 </td>
        <td>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Oduyo Online Collection Software allows SQL Injection.This issue affects Online Collection Software: before 1.0.1.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3716">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a2b69d6b6f1896fd2512de6c23b859c8</td>
-       <td>CVE-2023-4203</td>
-       <td>2023-08-08 11:15:12 </td>
-       <td>Advantech EKI-1524, EKI-1522, EKI-1521 devices through 1.21 are affected by a Stored Cross-Site Scripting vulnerability, which can be triggered by authenticated users in the ping tool of the web-interface.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4203">详情</a></td>
       </tr>
 
      </tbody>
