@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4435</font><br/>[<b>披露时间</b>] 2023-08-20 01:15:00<br/>[<b>漏洞描述</b>] Improper Input Validation in GitHub repository hamza417/inure prior to build88.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4435'>https://www.tenable.com/cve/CVE-2023-4435</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4434</font><br/>[<b>披露时间</b>] 2023-08-20 01:15:00<br/>[<b>漏洞描述</b>] Missing Authorization in GitHub repository hamza417/inure prior to build88.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4434'>https://www.tenable.com/cve/CVE-2023-4434</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40711</font><br/>[<b>披露时间</b>] 2023-08-20 01:15:00<br/>[<b>漏洞描述</b>] Veilid before 0.1.9 does not check the size of uncompressed data during decompression upon an envelope receipt, which allows remote attackers to cause a denial of service (out-of-memory abort) via crafted packet data, as exploited in the wild in August 2023.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-40711'>https://www.tenable.com/cve/CVE-2023-40711</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37250</font><br/>[<b>披露时间</b>] 2023-08-20 08:15:00<br/>[<b>漏洞描述</b>] Unity Parsec before 8 has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in "Per User" mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-37250'>https://www.tenable.com/cve/CVE-2023-37250</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37369</font><br/>[<b>披露时间</b>] 2023-08-20 07:15:00<br/>[<b>漏洞描述</b>] In Qt before 5.15.15, 6.x before 6.2.9, and 6.3.x through 6.5.x before 6.5.2, there can be an application crash in QXmlStreamReader via a crafted XML string that triggers a situation in which a prefix is greater than a length.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-37369'>https://www.tenable.com/cve/CVE-2023-37369</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
