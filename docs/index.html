@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-21 21:40:47 -->
+<!-- RELEASE TIME : 2023-08-21 23:40:57 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b657e06e1b09ff7b8e56036733deb581</td>
+       <td>CVE-2023-25915</td>
+       <td>2023-08-21 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Due to improper input validation, a remote attacker could execute arbitrary commands on the target system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25915">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">55a9b2b44a1e993765ad40b066867057</td>
+       <td>CVE-2023-25914</td>
+       <td>2023-08-21 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Due to improper restriction, attackers could retrieve and read system files of the underlying server through the XML interface.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25914">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">000d5f2e0c9648db39c349f5a0b4a142</td>
+       <td>CVE-2023-25913</td>
+       <td>2023-08-21 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Because of an authentication flaw an attacker would be capable of generating a web report that discloses sensitive information such as internal IP addresses, usernames, store names and other sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25913">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ad4c91a67a702c15984d7514d5f716b7</td>
+       <td>CVE-2023-38158</td>
+       <td>2023-08-21 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Information Disclosure Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38158">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bb4931a35de0e7acb60ae0b7392a694c</td>
+       <td>CVE-2023-36787</td>
+       <td>2023-08-21 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36787">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4cb964b5de42d4f3410fdbfe79d35cbf</td>
        <td>CVE-2023-4459</td>
        <td>2023-08-21 19:15:00 <img src="imgs/new.gif" /></td>
@@ -477,46 +517,6 @@
        <td>2023-08-21 07:15:00 <img src="imgs/new.gif" /></td>
        <td>Improper Restriction of XML External Entity Reference, XML Injection (aka Blind XPath Injection) vulnerability in Apache Software Foundation Apache Ivy.This issue affects any version of Apache Ivy prior to 2.5.2.When Apache Ivy prior to 2.5.2 parses XML files - either its own configuration, Ivy files or Apache Maven POMs - it will allow downloading external document type definitions and expand any entity references contained therein when used.This can be used to exfiltrate data, access resources only the machine running Ivy has access to or disturb the execution of Ivy in different ways.Starting with Ivy 2.5.2 DTD processing is disabled by default except when parsing Maven POMs where the default is to allow DTD processing but only to include a DTD snippet shipping with Ivy that is needed to deal with existing Maven POMs that are not valid XML files but are nevertheless accepted by Maven. Access can be be made more lenient via newly introduced system properties where needed.Users of Ivy prior to version 2.5.2 can use Java system properties to restrict processing of external DTDs, see the section about "JAXP Properties for External Access restrictions" inside Oracle's "Java API for XML Processing (JAXP) Security Guide".</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46751">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">20a0978343b8530f1f7ce28f4293500e</td>
-       <td>CVE-2023-4450</td>
-       <td>2023-08-21 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in jeecgboot JimuReport up to 1.6.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the component Template Handler. The manipulation leads to injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.6.1 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-237571.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4450">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">db2aab82ed963bc5f4259e39b4cc44cb</td>
-       <td>CVE-2023-39751</td>
-       <td>2023-08-21 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>TP-Link TL-WR941ND V6 were discovered to contain a buffer overflow via the pSize parameter at /userRpm/PingIframeRpm.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39751">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a7978074438c67552ae7b7848d7492eb</td>
-       <td>CVE-2023-39750</td>
-       <td>2023-08-21 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>D-Link DAP-2660 v1.13 was discovered to contain a buffer overflow via the f_ipv6_enable parameter at /bsc_ipv6. This vulnerability is exploited via a crafted POST request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39750">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d33ba7bba970b0d5012b0b46db71e098</td>
-       <td>CVE-2023-39749</td>
-       <td>2023-08-21 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>D-Link DAP-2660 v1.13 was discovered to contain a buffer overflow via the component /adv_resource. This vulnerability is exploited via a crafted GET request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39749">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1516f82e6d019304150ee2616eb5c707</td>
-       <td>CVE-2023-39748</td>
-       <td>2023-08-21 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue in the component /userRpm/NetworkCfgRpm of TP-Link TL-WR1041N V2 allows attackers to cause a Denial of Service (DoS) via a crafted GET request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39748">详情</a></td>
       </tr>
 
      </tbody>
