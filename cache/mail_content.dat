@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4303</font><br/>[<b>披露时间</b>] 2023-08-21 23:15:00<br/>[<b>漏洞描述</b>] Jenkins Fortify Plugin 22.1.38 and earlier does not escape the error message for a form validation method, resulting in an HTML injection vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4303'>https://www.tenable.com/cve/CVE-2023-4303</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4302</font><br/>[<b>披露时间</b>] 2023-08-21 23:15:00<br/>[<b>漏洞描述</b>] A missing permission check in Jenkins Fortify Plugin 22.1.38 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4302'>https://www.tenable.com/cve/CVE-2023-4302</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4301</font><br/>[<b>披露时间</b>] 2023-08-21 23:15:00<br/>[<b>漏洞描述</b>] A cross-site request forgery (CSRF) vulnerability in Jenkins Fortify Plugin 22.1.38 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4301'>https://www.tenable.com/cve/CVE-2023-4301</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4422</font><br/>[<b>披露时间</b>] 2023-08-18 19:15:13 <br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository cockpit-hq/cockpit prior to 2.6.3.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4422'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4422</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4395</font><br/>[<b>披露时间</b>] 2023-08-17 04:15:10 <br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository cockpit-hq/cockpit prior to 2.6.4.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4395'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4395</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
