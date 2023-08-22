@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-21 23:40:57 -->
+<!-- RELEASE TIME : 2023-08-22 01:34:57 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f8d85d608eb1f6acd147256b75dfae31</td>
+       <td>CVE-2023-4303</td>
+       <td>2023-08-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Jenkins Fortify Plugin 22.1.38 and earlier does not escape the error message for a form validation method, resulting in an HTML injection vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4303">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">582db4918043f6351147b395b561761e</td>
+       <td>CVE-2023-4302</td>
+       <td>2023-08-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>A missing permission check in Jenkins Fortify Plugin 22.1.38 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4302">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b60d158fc37489d4df653f5a9a30541d</td>
+       <td>CVE-2023-4301</td>
+       <td>2023-08-21 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Fortify Plugin 22.1.38 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4301">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b657e06e1b09ff7b8e56036733deb581</td>
        <td>CVE-2023-25915</td>
        <td>2023-08-21 21:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-08-21 09:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site scripting vulnerability in Advanced Custom Fields versions 6.1.0 to 6.1.7 and Advanced Custom Fields Pro versions 6.1.0 to 6.1.7 allows a remote authenticated attacker to execute an arbitrary script on the web browser of the user who is logging in to the product with the administrative privilege.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40068">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4084c491bdffda04d118b44a0dd704ac</td>
-       <td>CVE-2023-39939</td>
-       <td>2023-08-21 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL injection vulnerability in LuxCal Web Calendar prior to 5.2.3M (MySQL version) and LuxCal Web Calendar prior to 5.2.3L (SQLite version) allows a remote unauthenticated attacker to execute arbitrary queries against the database and obtain or alter the information in it.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39939">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4358a4f23829699cde55e9956e78c349</td>
-       <td>CVE-2023-39543</td>
-       <td>2023-08-21 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site scripting vulnerability in LuxCal Web Calendar prior to 5.2.3M (MySQL version) and LuxCal Web Calendar prior to 5.2.3L (SQLite version) allows a remote unauthenticated attacker to execute an arbitrary script on the web browser of the user who is using the product.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39543">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a40cd6034ddf798c5cf125999210ffda</td>
-       <td>CVE-2022-46751</td>
-       <td>2023-08-21 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Restriction of XML External Entity Reference, XML Injection (aka Blind XPath Injection) vulnerability in Apache Software Foundation Apache Ivy.This issue affects any version of Apache Ivy prior to 2.5.2.When Apache Ivy prior to 2.5.2 parses XML files - either its own configuration, Ivy files or Apache Maven POMs - it will allow downloading external document type definitions and expand any entity references contained therein when used.This can be used to exfiltrate data, access resources only the machine running Ivy has access to or disturb the execution of Ivy in different ways.Starting with Ivy 2.5.2 DTD processing is disabled by default except when parsing Maven POMs where the default is to allow DTD processing but only to include a DTD snippet shipping with Ivy that is needed to deal with existing Maven POMs that are not valid XML files but are nevertheless accepted by Maven. Access can be be made more lenient via newly introduced system properties where needed.Users of Ivy prior to version 2.5.2 can use Java system properties to restrict processing of external DTDs, see the section about "JAXP Properties for External Access restrictions" inside Oracle's "Java API for XML Processing (JAXP) Security Guide".</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46751">详情</a></td>
       </tr>
 
      </tbody>
@@ -2026,7 +2026,7 @@
       <tr>
        <td scope="row">ab5aa459e0249768fa2a576da0d3c7e0</td>
        <td>CVE-2023-39405</td>
-       <td>2023-08-20 20:09:34 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:34</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=fb5d827de55b4e2e82fefb1848f570ff">详情</a></td>
       </tr>
@@ -2034,7 +2034,7 @@
       <tr>
        <td scope="row">c4816f80ab1666db826063609499d4d2</td>
        <td>CVE-2023-39395</td>
-       <td>2023-08-20 20:09:34 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:34</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=d303657cef6546f8a0d9be54c5e474ba">详情</a></td>
       </tr>
@@ -2042,7 +2042,7 @@
       <tr>
        <td scope="row">b6339b7648984de3d67105ea9501d244</td>
        <td>CVE-2023-39401</td>
-       <td>2023-08-20 20:09:33 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:33</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=934471a83dd048238b7608264795bc2d">详情</a></td>
       </tr>
@@ -2050,7 +2050,7 @@
       <tr>
        <td scope="row">3a695ff5bdd72aa4a5778fbb2da20411</td>
        <td>CVE-2023-39388</td>
-       <td>2023-08-20 20:09:12 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:12</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=6fd75cd7291f46bb81d5803ff41fc05c">详情</a></td>
       </tr>
@@ -2058,7 +2058,7 @@
       <tr>
        <td scope="row">bf6da8fb7cdb6f2db875187f9889b229</td>
        <td>CVE-2023-39387</td>
-       <td>2023-08-20 20:09:12 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:12</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=66fb85c699c24f7b9b06e91726e528b3">详情</a></td>
       </tr>
@@ -2066,7 +2066,7 @@
       <tr>
        <td scope="row">9b94497a93f7f2350ae69e0290aec27d</td>
        <td>CVE-2023-39398</td>
-       <td>2023-08-20 20:09:11 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:11</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ab18386ebc4c48289e5adeebcf8ca89c">详情</a></td>
       </tr>
@@ -2074,7 +2074,7 @@
       <tr>
        <td scope="row">492cbc84d7d43701126eeb58ae89c22a</td>
        <td>CVE-2023-39399</td>
-       <td>2023-08-20 20:09:11 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:11</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8daf0d1b88424f9d9d1d578e0c3fe05c">详情</a></td>
       </tr>
@@ -2082,7 +2082,7 @@
       <tr>
        <td scope="row">8a2f4aa211e5e02757d72d23691c90fe</td>
        <td>CVE-2023-39403</td>
-       <td>2023-08-20 20:09:11 <img src="imgs/new.gif" /></td>
+       <td>2023-08-20 20:09:11</td>
        <td>HUAWEI Multiple product Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=857790492fb34f1b8715ca09de722a5f">详情</a></td>
       </tr>
