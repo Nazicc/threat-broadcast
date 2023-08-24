@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-24 03:40:00 -->
+<!-- RELEASE TIME : 2023-08-24 07:39:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">38482170eee4079cd60ce0362e4ac3d7</td>
+       <td>CVE-2023-40573</td>
+       <td>2023-08-24 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. XWiki supports scheduled jobs that contain Groovy scripts. Currently, the job checks the content author of the job for programming right. However, modifying or adding a job script to a document doesn't modify the content author. Together with a CSRF vulnerability in the job scheduler, this can be exploited for remote code execution by an attacker with edit right on the wiki. If the attack is successful, an error log entry with "Job content executed" will be produced. This vulnerability has been patched in XWiki 14.10.9 and 15.4RC1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40573">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9dc1af8cfbb45dbf8a00c4421c36f53</td>
+       <td>CVE-2023-40572</td>
+       <td>2023-08-24 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. The create action is vulnerable to a CSRF attack, allowing script and thus remote code execution when targeting a user with script/programming right, thus compromising the confidentiality, integrity and availability of the whole XWiki installation. When a user with script right views this image and a log message `ERROR foo - Script executed!` appears in the log, the XWiki installation is vulnerable. This has been patched in XWiki 14.10.9 and 15.4RC1 by requiring a CSRF token for the actual page creation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40572">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">56da05b6db63527752c65719d71f3332</td>
+       <td>CVE-2023-32559</td>
+       <td>2023-08-24 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding('spawn_sync')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32559">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">11beeee0648ade58261516d6462ce99b</td>
        <td>CVE-2023-41028</td>
        <td>2023-08-23 22:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-08-23 16:15:00 <img src="imgs/new.gif" /></td>
        <td>Apache Airflow SMTP Provider before 1.3.0, Apache Airflow IMAP Provider before 3.3.0, and Apache Airflow before 2.7.0 are affected by the Validation of OpenSSL Certificate vulnerability.The default SSL context with SSL library did not check a server's X.509 certificate.  Instead, the code accepted any certificate, which could result in the disclosure of mail server credentials or mail contents when the client connects to an attacker in a MITM position.Users are strongly advised to upgrade to Apache Airflow version 2.7.0 or newer, Apache Airflow IMAP Provider version 3.3.0 or newer, and Apache Airflow SMTP Provider version 1.3.0 or newer to mitigate the risk associated with this vulnerability</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39441">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3fcb54d7c5b61731fd0cfaa0b3f8200</td>
-       <td>CVE-2023-37379</td>
-       <td>2023-08-23 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Apache Airflow, in versions prior to 2.7.0, contains a security vulnerability that can be exploited by an authenticated user possessing Connection edit privileges. This vulnerability allows the user to access connection information and exploit the test connection feature by sending many requests, leading to a denial of service (DoS) condition on the server. Furthermore, malicious actors can leverage this vulnerability to establish harmful connections with the server.Users of Apache Airflow are strongly advised to upgrade to version 2.7.0 or newer to mitigate the risk associated with this vulnerability. Additionally, administrators are encouraged to review and adjust user permissions to restrict access to sensitive functionalities, reducing the attack surface.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37379">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">39e7fe9a399ea5bae3d0eed209607765</td>
-       <td>CVE-2023-1409</td>
-       <td>2023-08-23 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>If the MongoDB Server running on Windows or macOS is configured to use TLS with a specific set of configuration options that are already known to work securely in other platforms (e.g. Linux), it is possible that client certificate validation may not be in effect, potentially allowing client to establish a TLS connection with the server that supplies any certificate.This issue affect all MongoDB Server v6.3 versions, MongoDB Server v5.0 versions v5.0.0 to v5.0.14 and all MongoDB Server v4.4 versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1409">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">01fd2e443c7172c3e6919ce458021d03</td>
-       <td>CVE-2023-41126</td>
-       <td>2023-08-23 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate is unused by its CNA. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-41126">详情</a></td>
       </tr>
 
      </tbody>
@@ -2198,6 +2198,126 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8999f3278f88f530198bc0b60a11d6d9</td>
+       <td>CVE-2023-28030</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Dell BIOS输入验证错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83282">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">92a4afd4f36f6700271f43ab89cd66d6</td>
+       <td>CVE-2023-32384</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Apple多款产品缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83281">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d95b2c866f3c40bc44a7d4bfc25ea401</td>
+       <td>CVE-2023-36371</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>MonetDB Server拒绝服务漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83280">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ff7b3cbc6a4e73659633d86adf4f36a1</td>
+       <td>CVE-2023-34927</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Casdoor跨站请求伪造漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83279">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">371a2c30935035fbc99cdfd1ae4c82a4</td>
+       <td>CVE-2023-3256</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Advantech R-SeeNet信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83278">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3661e6f31e79ab4cd44cd411931494d4</td>
+       <td>CVE-2023-36359</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>TP-LINK多款产品缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83277">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3dbdb1799fb609f57533cbd380a967cd</td>
+       <td>CVE-2023-28016</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>HCL Technologies BigFix OSD主机标头注入漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83276">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cfc249d2834c2d5e59a6f63ffdb4eb99</td>
+       <td>CVE-2023-27083</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Pluck CMS危险类型文件上传漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83275">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9fd22629f49b79d412275c178882e418</td>
+       <td>CVE-2023-32571</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Dynamic Linq比较错误漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83274">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c9f7d450499a1f64580ab3aa1f4434ab</td>
+       <td>CVE-2023-36365</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>MonetDB Server拒绝服务漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83273">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f01519a45a3564cbcbe0719c4bfbd441</td>
+       <td>CVE-2023-32398</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Apple多款产品内存错误引用漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83272">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8c42efa1e5a5cf50c865befa4702860d</td>
+       <td>CVE-2023-32412</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Apple多款产品内存错误引用漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83271">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">041c73b2182ff3f5fb4ebd10fcae9b2b</td>
+       <td>CVE-2023-32405</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>Apple多款产品权限提升漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83270">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">be8a185dfe3b206af5a6522ed21bdb79</td>
+       <td>CVE-2023-2600</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>WordPress Custom Base Terms Plugin跨站脚本漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83269">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">110284aba7e1770f799752a767c03eac</td>
+       <td>CVE-2023-30222</td>
+       <td>2023-08-24 07:39:40 <img src="imgs/new.gif" /></td>
+       <td>4D SAS 4D Server信息泄露漏洞</td>
+       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83268">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1dd5b59d4f07494dafdee92bab8ae06f</td>
        <td>CVE-2023-20887</td>
        <td>2023-08-14 02:05:26</td>
@@ -2315,126 +2435,6 @@
        <td>2023-08-14 02:05:26</td>
        <td>WordPress SiteGround Security plugin授权错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/83107">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">203ae708432c6e5b9e52c51e772688d2</td>
-       <td>CVE-2023-29459</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>laola.redbull任意代码执行漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82711">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d0759c2122bcd1128afac5e3f30c7c7f</td>
-       <td>CVE-2023-35931</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Shescape信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82710">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2008dc4348e6b6265de5d07676430568</td>
-       <td>CVE-2023-35154</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Knowage身份认证错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82709">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">76278e23b806b3c68c950d5f413d703b</td>
-       <td>CVE-2023-30902</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Trend Micro Apex One和Apex One as a Service权限提升漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82708">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">90848a598933b002fe585f5160ac188b</td>
-       <td>CVE-2023-2993</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Lenovo多款产品权限管理错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82707">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5ab64d4490767e4ca9997848a42f3fbb</td>
-       <td>CVE-2023-36475</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Parse Server原型污染漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82706">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e225693a28259b1495205b65acc845a</td>
-       <td>CVE-2023-1724</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Faveo Helpdesk Enterprise跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82705">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">07c2e34b830233de4a7c87eefb3f954e</td>
-       <td>CVE-2023-1891</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>WordPress Accordion &amp; FAQ Plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82704">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cc6ca967d6cce7cc229ea609bdbe0501</td>
-       <td>CVE-2023-2580</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>WordPress AI Engine Plugin跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82703">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e91c3ae027249ef1bdb6bd1457c6c39</td>
-       <td>CVE-2023-2627</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>WordPress KiviCare Plugin跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82702">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">065694707e87190e092b411cd7be6a18</td>
-       <td>CVE-2023-2842</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>WordPress WP Inventory Manager Plugin跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82701">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5272b98ae13eeeb3e15b60ee3e667795</td>
-       <td>CVE-2023-26273</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>IBM QRadar SIEM输入验证错误漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82700">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">45d6a30d44a3ea8b709f2232aa1f4f10</td>
-       <td>CVE-2023-3132</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>WordPress MainWP Child Plugin信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82699">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f3a8c392ab4f21e22d589a7ce5612c28</td>
-       <td>CVE-2021-30203</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>DzzOffice跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82698">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">15ab60809a4e5c785bb061e5233efca1</td>
-       <td>CVE-2023-32604</td>
-       <td>2023-08-07 07:39:48</td>
-       <td>Trend Micro Apex Central跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.nsfocus.net/vulndb/82697">详情</a></td>
       </tr>
 
      </tbody>
