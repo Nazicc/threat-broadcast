@@ -1,11 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36741</font><br/>[<b>披露时间</b>] 2023-08-26 01:15:00<br/>[<b>漏洞描述</b>] Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-36741'>https://www.tenable.com/cve/CVE-2023-36741</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40292</font><br/>[<b>披露时间</b>] 2023-08-14 04:15:11 <br/>[<b>漏洞描述</b>] Harman Infotainment 20190525031613 and later discloses the IP address via CarPlay CTRL packets.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-40292'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-40292</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40291</font><br/>[<b>披露时间</b>] 2023-08-14 04:15:11 <br/>[<b>漏洞描述</b>] Harman Infotainment 20190525031613 allows root access via SSH over a USB-to-Ethernet dongle with a password that is an internal project name.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-40291'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-40291</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4029</font><br/>[<b>披露时间</b>] 2023-08-17 17:15:10 <br/>[<b>漏洞描述</b>] A buffer overflow has been identified in the BoardUpdateAcpiDxe driver in some Lenovo ThinkPad products which may allow an attacker with local access and elevated privileges to execute arbitrary code.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4029'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4029</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40283</font><br/>[<b>披露时间</b>] 2023-08-14 03:15:09 <br/>[<b>漏洞描述</b>] An issue was discovered in l2cap_sock_release in net/bluetooth/l2cap_sock.c in the Linux kernel before 6.4.10. There is a use-after-free because the children of an sk are mishandled.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-40283'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-40283</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
