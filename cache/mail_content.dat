@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4456</font><br/>[<b>披露时间</b>] 2023-08-21 17:15:50 <br/>[<b>漏洞描述</b>] A flaw was found in openshift-logging LokiStack. The key used for caching is just the token, which is too broad. This issue allows a user with a token valid for one action to execute other actions as long as the authorization allowing the original action is still cached.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4456'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4456</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4556</font><br/>[<b>披露时间</b>] 2023-08-27 07:15:00<br/>[<b>漏洞描述</b>] A vulnerability was found in SourceCodester Online Graduate Tracer System 1.0 and classified as critical. Affected by this issue is the function mysqli_query of the file sexit.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-238154 is the identifier assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4556'>https://www.tenable.com/cve/CVE-2023-4556</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4555</font><br/>[<b>披露时间</b>] 2023-08-27 07:15:00<br/>[<b>漏洞描述</b>] A vulnerability has been found in SourceCodester Inventory Management System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file suppliar_data.php. The manipulation of the argument name/company leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-238153 was assigned to this vulnerability.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4555'>https://www.tenable.com/cve/CVE-2023-4555</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
