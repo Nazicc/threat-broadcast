@@ -1,18 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">8</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65152 (CVE-2023-4366)</font><br/>[<b>披露时间</b>] 2023-08-23 16:39:21<br/>[<b>漏洞描述</b>] Google Chrome Extensions内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65152'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65152</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65153 (CVE-2023-4354)</font><br/>[<b>披露时间</b>] 2023-08-23 16:39:23<br/>[<b>漏洞描述</b>] Google Chrome Skia缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65153'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65153</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65154 (CVE-2023-4352)</font><br/>[<b>披露时间</b>] 2023-08-22 16:39:25<br/>[<b>漏洞描述</b>] Google Chrome类型混淆漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65154'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65154</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65155 (CVE-2023-4357)</font><br/>[<b>披露时间</b>] 2023-08-29 16:39:37<br/>[<b>漏洞描述</b>] Google Chrome输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65155'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65155</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65156 (CVE-2023-4369)</font><br/>[<b>披露时间</b>] 2023-08-23 16:39:39<br/>[<b>漏洞描述</b>] Google Chrome数据伪造问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65156'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65156</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65158 (CVE-2023-3739)</font><br/>[<b>披露时间</b>] 2023-08-24 16:39:42<br/>[<b>漏洞描述</b>] Google Chrome输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65158'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65158</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65167 (CVE-2023-36092)</font><br/>[<b>披露时间</b>] 2023-08-25 16:39:44<br/>[<b>漏洞描述</b>] D-Link DIR-859身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65167'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65167</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65168 (CVE-2023-36090)</font><br/>[<b>披露时间</b>] 2023-08-25 16:39:46<br/>[<b>漏洞描述</b>] D-Link DIR-885L身份验证绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65168'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65168</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40846</font><br/>[<b>披露时间</b>] 2023-08-28 14:15:00<br/>[<b>漏洞描述</b>] Tenda AC6 US_AC6V1.0BR_V15.03.05.16_multi_TD01.bin is vulnerable to Buffer Overflow via function sub_90998.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-40846'>https://www.tenable.com/cve/CVE-2023-40846</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39708</font><br/>[<b>披露时间</b>] 2023-08-28 14:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Add New parameter under the New Buy section.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-39708'>https://www.tenable.com/cve/CVE-2023-39708</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
