@@ -5,8 +5,8 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40846</font><br/>[<b>披露时间</b>] 2023-08-28 14:15:00<br/>[<b>漏洞描述</b>] Tenda AC6 US_AC6V1.0BR_V15.03.05.16_multi_TD01.bin is vulnerable to Buffer Overflow via function sub_90998.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-40846'>https://www.tenable.com/cve/CVE-2023-40846</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39708</font><br/>[<b>披露时间</b>] 2023-08-28 14:15:00<br/>[<b>漏洞描述</b>] A stored cross-site scripting (XSS) vulnerability in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Add New parameter under the New Buy section.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-39708'>https://www.tenable.com/cve/CVE-2023-39708</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39560</font><br/>[<b>披露时间</b>] 2023-08-28 17:15:00<br/>[<b>漏洞描述</b>] ECTouch v2 was discovered to contain a SQL injection vulnerability via the $arr['id'] parameter at \default\helpers\insert.php.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-39560'>https://www.tenable.com/cve/CVE-2023-39560</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1997</font><br/>[<b>披露时间</b>] 2023-08-28 16:15:00<br/>[<b>漏洞描述</b>] An OS Command Injection vulnerability exists in SIMULIA 3DOrchestrate from Release 3DEXPERIENCE R2021x through Release 3DEXPERIENCE R2023x. A specially crafted HTTP request can lead to arbitrary command execution.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-1997'>https://www.tenable.com/cve/CVE-2023-1997</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
