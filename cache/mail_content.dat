@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40787</font><br/>[<b>披露时间</b>] 2023-08-29 13:15:00<br/>[<b>漏洞描述</b>] In SpringBlade V3.6.0 when executing SQL query, the parameters submitted by the user are not wrapped in quotation marks, which leads to SQL injection.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-40787'>https://www.tenable.com/cve/CVE-2023-40787</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65480 (CVE-2023-24019)</font><br/>[<b>披露时间</b>] 2023-08-30 16:39:54<br/>[<b>漏洞描述</b>] Milesight UR32L urvpn_client http_connection_readcb功能缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65480'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65480</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65481 (CVE-2023-25124)</font><br/>[<b>披露时间</b>] 2023-08-30 16:39:57<br/>[<b>漏洞描述</b>] Milesight UR32L set_openvpn_client函数缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65481'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65481</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65482 (CVE-2023-25096)</font><br/>[<b>披露时间</b>] 2023-08-30 16:39:59<br/>[<b>漏洞描述</b>] Milesight UR32L set_qos函数缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65482'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65482</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65483 (CVE-2023-25089)</font><br/>[<b>披露时间</b>] 2023-08-30 16:40:01<br/>[<b>漏洞描述</b>] Milesight UR32L handle_interface_acl函数缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65483'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65483</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65484 (CVE-2023-23571)</font><br/>[<b>披露时间</b>] 2023-08-30 16:40:04<br/>[<b>漏洞描述</b>] Milesight UR32L eventcore功能访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65484'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65484</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65486 (CVE-2023-24583)</font><br/>[<b>披露时间</b>] 2023-08-30 16:40:06<br/>[<b>漏洞描述</b>] Milesight UR32L urvpn_client cmd_name_action功能命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65486'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65486</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65487 (CVE-2023-22653)</font><br/>[<b>披露时间</b>] 2023-08-30 16:40:08<br/>[<b>漏洞描述</b>] Milesight UR32L vtysh_ubus tcpdump_start_cb功能命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65487'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65487</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
