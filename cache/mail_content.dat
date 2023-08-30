@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3136</font><br/>[<b>披露时间</b>] 2023-08-30 09:15:00<br/>[<b>漏洞描述</b>] The MailArchiver plugin for WordPress is vulnerable to Stored Cross-Site Scripting via an email subject in versions up to, and including, 2.10.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-3136'>https://www.tenable.com/cve/CVE-2023-3136</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4522</font><br/>[<b>披露时间</b>] 2023-08-30 08:15:00<br/>[<b>漏洞描述</b>] An issue has been discovered in GitLab affecting all versions starting from 16.2.0. Committing directories containing LF character results in 500 errors when viewing the commit<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4522'>https://www.tenable.com/cve/CVE-2023-4522</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32740</font><br/>[<b>披露时间</b>] 2023-08-30 11:15:00<br/>[<b>漏洞描述</b>] Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Kunal Nagar Custom 404 Pro plugin <= 3.8.1 versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-32740'>https://www.tenable.com/cve/CVE-2023-32740</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
