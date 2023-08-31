@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33833</font><br/>[<b>披露时间</b>] 2023-08-31 13:15:00<br/>[<b>漏洞描述</b>] IBM Security Verify Information Queue 10.0.4 and 10.0.5 stores sensitive information in plain clear text which can be read by a local user. IBM X-Force ID: 256013.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-33833'>https://www.tenable.com/cve/CVE-2023-33833</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20900</font><br/>[<b>披露时间</b>] 2023-08-31 10:15:00<br/>[<b>漏洞描述</b>] VMware Tools contains a SAML token signature bypass vulnerability. A malicious actor with man-in-the-middle (MITM) network positioning between vCenter server and the virtual machine may be able to bypass SAML token signature verification, to perform VMware Tools Guest Operations.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-20900'>https://www.tenable.com/cve/CVE-2023-20900</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4600</font><br/>[<b>披露时间</b>] 2023-08-30 12:15:09 <br/>[<b>漏洞描述</b>] The AffiliateWP for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'affwp_activate_addons_page_plugin' function called via an AJAX action in versions up to, and including, 2.14.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to activate arbitrary plugins.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4600'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4600</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4572</font><br/>[<b>披露时间</b>] 2023-08-29 20:15:10 <br/>[<b>漏洞描述</b>] Use after free in MediaStream in Google Chrome prior to 116.0.5845.140 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4572'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4572</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
