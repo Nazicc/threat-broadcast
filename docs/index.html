@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-08-31 16:43:00 -->
+<!-- RELEASE TIME : 2023-08-31 17:40:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -288,6 +288,14 @@
       </tr>
 
       <tr>
+       <td scope="row">23eee808f7075f97a0f1742b6a038eec</td>
+       <td>CVE-2023-33833</td>
+       <td>2023-08-31 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Security Verify Information Queue 10.0.4 and 10.0.5 stores sensitive information in plain clear text which can be read by a local user. IBM X-Force ID: 256013.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-33833">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f35f4fb722cef8d5f440417b3e1925de</td>
        <td>CVE-2023-41741</td>
        <td>2023-08-31 10:15:00 <img src="imgs/new.gif" /></td>
@@ -324,6 +332,14 @@
        <td>CVE-2023-20900</td>
        <td>2023-08-31 10:15:00 <img src="imgs/new.gif" /></td>
        <td>VMware Tools contains a SAML token signature bypass vulnerability. A malicious actor with man-in-the-middle (MITM) network positioning between vCenter server and the virtual machine may be able to bypass SAML token signature verification, to perform VMware Tools Guest Operations.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20900">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">275403b83a6715e39e44f59a643f2717</td>
+       <td>CVE-2023-20900</td>
+       <td>2023-08-31 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>VMware Tools contains a SAML token signature bypass vulnerability. A malicious actor with man-in-the-middle (MITM) network positioning between vCenter server and the virtual machine may be able to bypass SAML token signature verification, to perform VMware Tools Guest Operations.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20900">详情</a></td>
       </tr>
 
@@ -501,22 +517,6 @@
        <td>2023-08-30 22:15:00 <img src="imgs/new.gif" /></td>
        <td>A Reflected Cross-site scripting (XSS) vulnerability in the file manager tab in Usermin 2.000 allows remote attackers to inject arbitrary web script or HTML via the replace in results field while replacing the results under the tools drop down.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-41163">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">91369c9f2ed8284f3b81aae5ea00f570</td>
-       <td>CVE-2023-41041</td>
-       <td>2023-08-30 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Graylog is a free and open log management platform. In a multi-node Graylog cluster, after a user has explicitly logged out, a user session may still be used for API requests until it has reached its original expiry time. Each node maintains an in-memory cache of user sessions. Upon a cache-miss, the session is loaded from the database. After that, the node operates solely on the cached session. Modifications to sessions will update the cached version as well as the session persisted in the database. However, each node maintains their isolated version of the session. When the user logs out, the session is removed from the node-local cache and deleted from the database. The other nodes will however still use the cached session. These nodes will only fail to accept the session id if they intent to update the session in the database. They will then notice that the session is gone. This is true for most API requests originating from user interaction with the Graylog UI because these will lead to an update of the session's "last access" timestamp. If the session update is however prevented by setting the `X-Graylog-No-Session-Extension:true` header in the request, the node will consider the (cached) session valid until the session is expired according to its timeout setting. No session identifiers are leaked. After a user has logged out, the UI shows the login screen again, which gives the user the impression that their session is not valid anymore. However, if the session becomes compromised later, it can still be used to perform API requests against the Graylog cluster. The time frame for this is limited to the configured session lifetime, starting from the time when the user logged out. This issue has been addressed in versions 5.0.9 and 5.1.3. Users are advised to upgrade.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-41041">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">18dc88f3fa31e398b8f9b1de6b88b31b</td>
-       <td>CVE-2023-41040</td>
-       <td>2023-08-30 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>GitPython is a python library used to interact with Git repositories. In order to resolve some git references, GitPython reads files from the `.git` directory, in some places the name of the file being read is provided by the user, GitPython doesn't check if this file is located outside the `.git` directory. This allows an attacker to make GitPython read any file from the system. This vulnerability is present in https://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/refs/symbolic.py#L174-L175. That code joins the base directory with a user given string without checking if the final path is located outside the base directory. This vulnerability cannot be used to read the contents of files but could in theory be used to trigger a denial of service for the program. This issue has not yet been addressed.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-41040">详情</a></td>
       </tr>
 
      </tbody>
