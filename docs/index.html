@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-09-01 04:40:03 -->
+<!-- RELEASE TIME : 2023-09-01 06:40:42 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c1557a1dd78465428acd6141e8ccf4b8</td>
+       <td>CVE-2023-39912</td>
+       <td>2023-08-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Zoho ManageEngine ADManager Plus through 7202 allows admin users to download any file from the server machine via directory traversal.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-39912">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">810eff2d436198e09da057b864dd6fe0</td>
+       <td>CVE-2023-40576</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Out-Of-Bounds Read in the `RleDecompress` function. This Out-Of-Bounds Read occurs because FreeRDP processes the `pbSrcBuffer` variable without checking if it contains data of sufficient length. Insufficient data in the `pbSrcBuffer` variable may cause errors or crashes. This issue has been addressed in version 3.0.0-beta3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40576">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4d7bcc9af71fb1a1e4cd86e5d2fc3b01</td>
+       <td>CVE-2023-40575</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Out-Of-Bounds Read in the `general_YUV444ToRGB_8u_P3AC4R_BGRX` function. This issue is likely down to insufficient data for the `pSrc` variable and results in crashes. This issue has been addressed in version 3.0.0-beta3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40575">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b1dcfa967a05c8ea0f82cfde127fc509</td>
+       <td>CVE-2023-40574</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Out-Of-Bounds Write in the `writePixelBGRX` function. This issue is likely down to incorrect calculations of the `nHeight` and `srcStep` variables. This issue has been addressed in version 3.0.0-beta3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40574">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dd9fca2182b893afac5b1f01fe2f09d5</td>
+       <td>CVE-2023-40569</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Out-Of-Bounds Write in the `progressive_decompress` function. This issue is likely down to incorrect calculations of the `nXSrc` and `nYSrc` variables. This issue has been addressed in versions 2.11.0 and 3.0.0-beta3. Users are advised to upgrade. there are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40569">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e71edaef8cf88a447c9990000f576c3c</td>
+       <td>CVE-2023-40567</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Out-Of-Bounds Write in the `clear_decompress_bands_data` function in which there is no offset validation. Abuse of this vulnerability may lead to an out of bounds write. This issue has been addressed in versions 2.11.0 and 3.0.0-beta3. Users are advised to upgrade. there are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40567">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3fd669cd0833adc74f2b004b990ed8a0</td>
+       <td>CVE-2023-40188</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Out-Of-Bounds Read in the `general_LumaToYUV444` function. This Out-Of-Bounds Read occurs because processing is done on the `in` variable without checking if it contains data of sufficient length. Insufficient data for the `in` variable may cause errors or crashes. This issue has been addressed in versions 2.11.0 and 3.0.0-beta3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40188">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b74a02a905d6a9cbf7f26f47d24b2dc9</td>
+       <td>CVE-2023-40187</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions of the 3.x beta branch are subject to a Use-After-Free issue in the `avc420_ensure_buffer` and `avc444_ensure_buffer` functions. If the value of `piDstSize[x]` is 0, `ppYUVDstData[x]` will be freed. However, in this case `ppYUVDstData[x]` will not have been updated which leads to a Use-After-Free vulnerability. This issue has been addressed in version 3.0.0-beta3. Users of the 3.x beta releases are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40187">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">64309658569ec5abb07a60bae1508876</td>
+       <td>CVE-2023-40186</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an IntegerOverflow leading to Out-Of-Bound Write Vulnerability in the `gdi_CreateSurface` function. This issue affects FreeRDP based clients only. FreeRDP proxies are not affected as image decoding is not done by a proxy. This issue has been addressed in versions 2.11.0 and 3.0.0-beta3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40186">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec546a8e89602901fcb958c307d164e0</td>
+       <td>CVE-2023-40181</td>
+       <td>2023-08-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Affected versions are subject to an Integer-Underflow leading to Out-Of-Bound Read in the `zgfx_decompress_segment` function. In the context of `CopyMemory`, it's possible to read data beyond the transmitted packet range and likely cause a crash. This issue has been addressed in versions 2.11.0 and 3.0.0-beta3. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-40181">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4b1aa3256d3325e863d58d90be9d8e77</td>
        <td>CVE-2023-33833</td>
        <td>2023-08-31 13:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
        <td>Sensitive Cookie in HTTPS Session Without 'Secure' Attribute in GitHub repository instantsoft/icms2 prior to 2.16.1.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4654">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">efd9131d3b3e73dc1015ba59e0fb1651</td>
-       <td>CVE-2023-4653</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository instantsoft/icms2 prior to 2.16.1-git.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4653">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">192204e189796ab901466f6ffdaa0373</td>
-       <td>CVE-2023-4652</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository instantsoft/icms2 prior to 2.16.1-git.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4652">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2c394697d2eb5ebdaeef32f755f90534</td>
-       <td>CVE-2023-4651</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Server-Side Request Forgery (SSRF) in GitHub repository instantsoft/icms2 prior to 2.16.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">430e2475136dd284272a9487947f0ed0</td>
-       <td>CVE-2023-4650</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Access Control in GitHub repository instantsoft/icms2 prior to 2.16.1-git.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4650">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">24d26ade65fd5d8c0b864459ea96eeb8</td>
-       <td>CVE-2023-4649</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Session Fixation in GitHub repository instantsoft/icms2 prior to 2.16.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4649">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">247762d2171973867804d5c80b61f4dd</td>
-       <td>CVE-2023-4163</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Brocade Fabric OS before v9.2.0a, a local authenticated privileged user can trigger a buffer overflow condition, leading to a kernel panic with large input to buffers in the portcfgfportbuffers command.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4163">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd5fc0107e18cd226b170721f90ce9f3</td>
-       <td>CVE-2023-4162</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>A segmentation fault can occur in Brocade Fabric OS after Brocade Fabric OS v9.0 and before Brocade Fabric OS v9.2.0a through the passwdcfg command. This could allow an authenticated privileged user local user to crash a Brocade Fabric OS swith using the cli “passwdcfg --set -expire -minDiff“.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4162">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f159e4f10bdf35c8c4156d718bd70ede</td>
-       <td>CVE-2023-31925</td>
-       <td>2023-08-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Brocade SANnav before v2.3.0 and v2.2.2a stores SNMPv3 Authentication passwords in plaintext. A privileged user could retrieve these credentials with knowledge and access to these log files. SNMP credentials could be seen in SANnav SupportSave if the capture is performed after an SNMP configuration failure causes an SNMP communication log dump.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-31925">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b5b137a9b53f3c9fedcd6e1051e43d72</td>
-       <td>CVE-2023-23765</td>
-       <td>2023-08-30 23:15:00</td>
-       <td>An incorrect comparison vulnerability was identified in GitHub Enterprise Server that allowed commit smuggling by displaying an incorrect diff in a re-opened Pull Request. To exploit this vulnerability, an attacker would need write access to the repository. This vulnerability was reported via the  GitHub Bug Bounty Program https://bounty.github.com/ .</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23765">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a49bd776841ecca0387fc14c687a6a64</td>
-       <td>CVE-2023-41163</td>
-       <td>2023-08-30 22:15:00</td>
-       <td>A Reflected Cross-site scripting (XSS) vulnerability in the file manager tab in Usermin 2.000 allows remote attackers to inject arbitrary web script or HTML via the replace in results field while replacing the results under the tools drop down.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-41163">详情</a></td>
       </tr>
 
      </tbody>
