@@ -1,22 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40598</font><br/>[<b>披露时间</b>] 2023-08-31 08:37:19<br/>[<b>漏洞描述</b>] Splunk External Lookups 远程代码执行漏洞（CVE-2023-40598）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-40598'>https://avd.aliyun.com/detail?id=AVD-2023-40598</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40595</font><br/>[<b>披露时间</b>] 2023-08-31 08:37:19<br/>[<b>漏洞描述</b>] Splunk Serialized 反序列化代码执行漏洞（CVE-2023-40595）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-40595'>https://avd.aliyun.com/detail?id=AVD-2023-40595</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66408 (CVE-2022-48585)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:20<br/>[<b>漏洞描述</b>] ScienceLogic SL1 SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66408'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66408</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66409 (CVE-2022-48590)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:23<br/>[<b>漏洞描述</b>] ScienceLogic SL1 SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66409'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66409</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66410 (CVE-2022-48580)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:25<br/>[<b>漏洞描述</b>] ScienceLogic SL1命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66410'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66410</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66411 (CVE-2022-48581)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:27<br/>[<b>漏洞描述</b>] ScienceLogic SL1命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66411'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66411</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66412 (CVE-2022-48586)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:30<br/>[<b>漏洞描述</b>] ScienceLogic SL1 SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66412'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66412</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66413 (CVE-2022-48603)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:33<br/>[<b>漏洞描述</b>] ScienceLogic SL1 SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66413'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66413</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-66414 (CVE-2022-48602)</font><br/>[<b>披露时间</b>] 2023-09-01 08:37:35<br/>[<b>漏洞描述</b>] ScienceLogic SL1 SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-66414'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-66414</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-28387</font><br/>[<b>披露时间</b>] 2023-09-01 09:39:58<br/>[<b>漏洞描述</b>] NewsPicks硬编码凭据使用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84062'>http://www.nsfocus.net/vulndb/84062</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
