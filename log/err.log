@@ -26039,3 +26039,369 @@ Traceback (most recent call last):
   File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
     for obj in json_obj.get('data').get('items'):
 AttributeError: 'bool' object has no attribute 'get'
+2023-09-03 11:39:54 [ERROR] : 获取 [国家信息安全漏洞库（CNNVD）] 威胁情报异常
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+2023-09-03 11:39:54 [ERROR] : Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4e9e681190>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+2023-09-03 11:40:56 [ERROR] : 获取 [360 网络安全响应中心] 威胁情报异常
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1114: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cert360.py", line 48, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+2023-09-03 11:40:56 [ERROR] : Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1114: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cert360.py", line 48, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1114: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cert360.py", line 48, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.17/x64/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+2023-09-03 11:41:06 [ERROR] : 获取 [斗象] 威胁情报异常
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
+    for obj in json_obj.get('data').get('items'):
+AttributeError: 'bool' object has no attribute 'get'
+2023-09-03 11:41:06 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
+    for obj in json_obj.get('data').get('items'):
+AttributeError: 'bool' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
+    for obj in json_obj.get('data').get('items'):
+AttributeError: 'bool' object has no attribute 'get'
