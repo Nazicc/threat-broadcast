@@ -1,14 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4738</font><br/>[<b>披露时间</b>] 2023-09-02 20:15:00<br/>[<b>漏洞描述</b>] Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1848.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4738'>https://www.tenable.com/cve/CVE-2023-4738</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4736</font><br/>[<b>披露时间</b>] 2023-09-02 19:15:00<br/>[<b>漏洞描述</b>] Untrusted Search Path in GitHub repository vim/vim prior to 9.0.1833.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4736'>https://www.tenable.com/cve/CVE-2023-4736</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4735</font><br/>[<b>披露时间</b>] 2023-09-02 18:15:00<br/>[<b>漏洞描述</b>] Out-of-bounds Write in GitHub repository vim/vim prior to 9.0.1847.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4735'>https://www.tenable.com/cve/CVE-2023-4735</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4734</font><br/>[<b>披露时间</b>] 2023-09-02 18:15:00<br/>[<b>漏洞描述</b>] Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.1846.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-4734'>https://www.tenable.com/cve/CVE-2023-4734</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40781</font><br/>[<b>披露时间</b>] 2023-09-03 20:06:02<br/>[<b>漏洞描述</b>] LIBMING LIBMING Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=c52c71567de1461b96beadefac13fc37'>https://redqueen.tj-un.com/IntelDetails.html?id=c52c71567de1461b96beadefac13fc37</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41358</font><br/>[<b>披露时间</b>] 2023-09-03 20:06:02<br/>[<b>漏洞描述</b>] FRROUTING FRROUTING Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=65463d66824940cb80c9b26ba29b4dd2'>https://redqueen.tj-un.com/IntelDetails.html?id=65463d66824940cb80c9b26ba29b4dd2</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39663</font><br/>[<b>披露时间</b>] 2023-09-03 20:06:02<br/>[<b>漏洞描述</b>] MATHJAX MATHJAX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0b6176707f494413b53232117c49267a'>https://redqueen.tj-un.com/IntelDetails.html?id=0b6176707f494413b53232117c49267a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4572</font><br/>[<b>披露时间</b>] 2023-09-03 20:05:53<br/>[<b>漏洞描述</b>] GOOGLE CHROME Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=63ae441481214e0e8b94ce825b4b6241'>https://redqueen.tj-un.com/IntelDetails.html?id=63ae441481214e0e8b94ce825b4b6241</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22877</font><br/>[<b>披露时间</b>] 2023-09-03 20:05:53<br/>[<b>漏洞描述</b>] IBM INFOSPHERE_INFORMATION_SERVER Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=30c0f5b6f562435b802ec3b1f4704f4d'>https://redqueen.tj-un.com/IntelDetails.html?id=30c0f5b6f562435b802ec3b1f4704f4d</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41362</font><br/>[<b>披露时间</b>] 2023-09-03 20:05:32<br/>[<b>漏洞描述</b>] MYBB MYBB Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7cdd190446534136bc0c8978739424dd'>https://redqueen.tj-un.com/IntelDetails.html?id=7cdd190446534136bc0c8978739424dd</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
