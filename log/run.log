@@ -49424,3 +49424,326 @@ AttributeError: 'bool' object has no attribute 'get'
 2023-09-05 21:39:50 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2023-09-05 21:39:50 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2023-09-05 21:39:50 [INFO] : --------------------------------------------
+2023-09-05 22:37:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:37:01 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2023-09-05 22:37:02 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2023-09-05 22:37:02 [INFO] : --------------------------------------------
+2023-09-05 22:37:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:37:02 [INFO] : 正在获取 [阿里云] 威胁情报...
+2023-09-05 22:37:04 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2023-09-05 22:37:04 [INFO] : --------------------------------------------
+2023-09-05 22:37:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:37:04 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2023-09-05 22:37:28 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2023-09-05 22:37:28 [INFO] : --------------------------------------------
+2023-09-05 22:37:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:37:28 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2023-09-05 22:39:28 [ERROR] : 获取 [国家信息安全漏洞库（CNNVD）] 威胁情报异常
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+2023-09-05 22:39:28 [ERROR] : Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0419091970>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+2023-09-05 22:39:28 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2023-09-05 22:39:28 [INFO] : --------------------------------------------
+2023-09-05 22:39:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:28 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2023-09-05 22:39:35 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2023-09-05 22:39:35 [INFO] : --------------------------------------------
+2023-09-05 22:39:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:35 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2023-09-05 22:39:35 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2023-09-05 22:39:35 [INFO] : --------------------------------------------
+2023-09-05 22:39:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:35 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2023-09-05 22:39:38 [WARNING] : 获取 [信息安全漏洞门户] 威胁情报失败： [HTTP Error 404]
+2023-09-05 22:39:38 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2023-09-05 22:39:38 [INFO] : --------------------------------------------
+2023-09-05 22:39:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:38 [INFO] : 正在获取 [绿盟] 威胁情报...
+2023-09-05 22:39:39 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2023-09-05 22:39:39 [INFO] : --------------------------------------------
+2023-09-05 22:39:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:39 [INFO] : 正在获取 [奇安信] 威胁情报...
+2023-09-05 22:39:41 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2023-09-05 22:39:41 [INFO] : --------------------------------------------
+2023-09-05 22:39:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:41 [INFO] : 正在获取 [红后] 威胁情报...
+2023-09-05 22:39:43 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2023-09-05 22:39:43 [INFO] : --------------------------------------------
+2023-09-05 22:39:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:43 [INFO] : 正在获取 [斗象] 威胁情报...
+2023-09-05 22:39:48 [ERROR] : 获取 [斗象] 威胁情报异常
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
+    for obj in json_obj.get('data').get('items'):
+AttributeError: 'bool' object has no attribute 'get'
+2023-09-05 22:39:48 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
+    for obj in json_obj.get('data').get('items'):
+AttributeError: 'bool' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/home/runner/work/threat-broadcast/threat-broadcast/src/crawler/vas.py", line 67, in get_cves
+    for obj in json_obj.get('data').get('items'):
+AttributeError: 'bool' object has no attribute 'get'
+2023-09-05 22:39:48 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2023-09-05 22:39:48 [INFO] : --------------------------------------------
+2023-09-05 22:39:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2023-09-05 22:39:48 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2023-09-05 22:39:48 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2023-09-05 22:39:48 [INFO] : --------------------------------------------
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1873.
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2023-4781
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-4781
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mestav Software E-commerce Software allows SQL Injection.This issue affects E-commerce Software: before 20230901 .
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2023-4531
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-4531
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Authentication Bypass by Spoofing vulnerability in Neutron Neutron Smart VMS allows Authentication Bypass.This issue affects Neutron Smart VMS: before b1130.1.0.1.
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2023-4178
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-4178
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] The Apollo Router is a configurable, high-performance graph router written in Rust to run a federated supergraph that uses Apollo Federation 2. Affected versions are subject to a Denial-of-Service (DoS) type vulnerability which causes the Router to panic and terminate when GraphQL Subscriptions are enabled. It can be triggered when **all of the following conditions are met**: 1. Running Apollo Router v1.28.0, v1.28.1 or v1.29.0 ("impacted versions"); **and** 2. The Supergraph schema provided to the Router (either via Apollo Uplink or explicitly via other configuration) **has a `subscription` type** with root-fields defined; **and** 3. The YAML configuration provided to the Router **has subscriptions enabled** (they are _disabled_ by default), either by setting `enabled: true` _or_ by setting a valid `mode` within the `subscriptions` object (as seen in [subscriptions' documentation](https://www.apollographql.com/docs/router/executing-operations/subscription-support/#router-setup)); **and** 4. An [anonymous](https://spec.graphql.org/draft/#sec-Anonymous-Operation-Definitions) (i.e., un-named) `subscription` operation (e.g., `subscription { ... }`) is received by the Router If **all four** of these criteria are met, the impacted versions will panic and terminate. There is no data-privacy risk or sensitive-information exposure aspect to this vulnerability. This is fixed in Apollo Router v1.29.1. Users are advised to upgrade. Updating to v1.29.1 should be a clear and simple upgrade path for those running impacted versions. However, if Subscriptions are **not** necessary for your Graph – but are enabled via configuration — then disabling subscriptions is another option to mitigate the risk.
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2023-41317
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-41317
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Digita Information Technology Smartrise Document Management System allows SQL Injection.This issue affects Smartrise Document Management System: before Hvl-2.0.
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2023-4034
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-4034
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Tenda AC6 US_AC6V4.0RTL_V02.03.01.26_cn.bin allows attackers (who have the administrator password) to cause a denial of service (device crash) via a long string in the wifiPwd_5G parameter to /goform/setWifi.
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2021-40546
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-40546
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] BMC PATROL Agent through 20.08.00 allows local privilege escalation via vectors involving pconfig +RESTART -host.
+[ TIME  ] 2023-09-05 19:15:00
+[ CVE   ] CVE-2020-35593
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2020-35593
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] KnowStreaming 3.3.0 is vulnerable to Escalation of Privileges. Unauthorized users can create a new user with an admin role.
+[ TIME  ] 2023-09-05 18:15:00
+[ CVE   ] CVE-2023-40918
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-40918
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Cuppa CMS v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the email_outgoing parameter at /Configuration.php. This vulnerability is triggered via a crafted payload.
+[ TIME  ] 2023-09-05 18:15:00
+[ CVE   ] CVE-2023-39681
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-39681
+2023-09-05 22:39:48 [INFO] : 
+==============================================
+[ TITLE ] Cross Site Scripting vulnerability in IceWarp Corporation WebClient v.10.2.1 allows a remote attacker to execute arbitrary code via a crafted payload to the mid parameter.
+[ TIME  ] 2023-09-05 18:15:00
+[ CVE   ] CVE-2023-39598
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2023-39598
+2023-09-05 22:39:49 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
