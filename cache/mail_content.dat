@@ -1,11 +1,22 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">11</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40762</font><br/>[<b>披露时间</b>] 2023-09-07 20:04:39<br/>[<b>漏洞描述</b>] PHPJABBERS FUNDRAISING_SCRIPT Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7a314a2b515c48efa121c28f74edaf37'>https://redqueen.tj-un.com/IntelDetails.html?id=7a314a2b515c48efa121c28f74edaf37</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38035</font><br/>[<b>披露时间</b>] 2023-09-08 00:01:42<br/>[<b>漏洞描述</b>] Ivanti Sentry 命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9302'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9302</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3452</font><br/>[<b>披露时间</b>] 2023-09-08 00:01:41<br/>[<b>漏洞描述</b>] Wordpress Canto 插件远程文件包含漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9301'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9301</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4446</font><br/>[<b>披露时间</b>] 2023-09-08 00:01:40<br/>[<b>漏洞描述</b>] RapidCMS SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9300'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9300</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-09-08 00:01:38<br/>[<b>漏洞描述</b>] 致远OA前台密码重置漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9299'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9299</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-65430</font><br/>[<b>披露时间</b>] 2023-09-08 16:38:58<br/>[<b>漏洞描述</b>] 绿盟运维安全管理系统存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-65430'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-65430</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-67083 (CVE-2023-2134)</font><br/>[<b>披露时间</b>] 2023-09-08 16:39:00<br/>[<b>漏洞描述</b>] Google Chrome代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-67083'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-67083</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-67084 (CVE-2023-1823)</font><br/>[<b>披露时间</b>] 2023-09-08 16:39:03<br/>[<b>漏洞描述</b>] Google Chrome FedCM安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-67084'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-67084</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-67085 (CVE-2023-1822)</font><br/>[<b>披露时间</b>] 2023-09-08 16:39:05<br/>[<b>漏洞描述</b>] Google Chrome navigation安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-67085'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-67085</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-67086 (CVE-2023-1821)</font><br/>[<b>披露时间</b>] 2023-09-08 16:39:07<br/>[<b>漏洞描述</b>] Google Chrome WebShare安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-67086'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-67086</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-67087 (CVE-2023-1819)</font><br/>[<b>披露时间</b>] 2023-09-08 16:39:09<br/>[<b>漏洞描述</b>] Google Chrome Accessibility信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-67087'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-67087</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-67088 (CVE-2023-1820)</font><br/>[<b>披露时间</b>] 2023-09-08 16:39:12<br/>[<b>漏洞描述</b>] Google Chrome Browser History缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-67088'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-67088</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
