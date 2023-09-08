@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-09-08 05:35:44<br/>[<b>漏洞描述</b>] 国内首家！如此渗透网络360也能拦截！<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=64fab2b022adc884abcd7ef1'>https://cert.360.cn/warning/detail?id=64fab2b022adc884abcd7ef1</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38035</font><br/>[<b>披露时间</b>] 2023-09-08 00:01:42<br/>[<b>漏洞描述</b>] MobileIron Sentry /mics/services/MICSLogService 存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9302'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9302</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4446</font><br/>[<b>披露时间</b>] 2023-09-08 00:01:40<br/>[<b>漏洞描述</b>] OpenRapid RapidCMS /category/ 存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9300'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9300</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68209 (CVE-2022-46884)</font><br/>[<b>披露时间</b>] 2023-09-08 06:37:41<br/>[<b>漏洞描述</b>] Mozilla Firefox内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68209'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68209</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68210 (CVE-2023-4050)</font><br/>[<b>披露时间</b>] 2023-09-08 06:37:44<br/>[<b>漏洞描述</b>] Mozilla Firefox and Firefox ESR缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68210'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68210</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68211 (CVE-2023-4049)</font><br/>[<b>披露时间</b>] 2023-09-08 06:37:46<br/>[<b>漏洞描述</b>] Mozilla Firefox and Firefox ESR竞争条件问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68211'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68211</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68212 (CVE-2023-4046)</font><br/>[<b>披露时间</b>] 2023-09-08 06:37:49<br/>[<b>漏洞描述</b>] Mozilla Firefox and Firefox ESR拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68212'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68212</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
