@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37258</font><br/>[<b>披露时间</b>] 2023-09-01 11:49:51<br/>[<b>漏洞描述</b>] DataEase /app/log/logGrid 存在SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9260'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9260</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0525</font><br/>[<b>披露时间</b>] 2023-09-11 11:39:45<br/>[<b>漏洞描述</b>] Mitsubishi Electric GOT2000 Series弱编码密码漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84419'>http://www.nsfocus.net/vulndb/84419</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
