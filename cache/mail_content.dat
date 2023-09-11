@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30322</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] ChatEngine跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84481'>http://www.nsfocus.net/vulndb/84481</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36189</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] LangChain SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84480'>http://www.nsfocus.net/vulndb/84480</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36813</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] Kanboard SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84479'>http://www.nsfocus.net/vulndb/84479</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3504</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] SmartWeb Infotech Job Board任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84478'>http://www.nsfocus.net/vulndb/84478</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3133</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] WordPress Tutor LMS plugin授权绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84477'>http://www.nsfocus.net/vulndb/84477</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1273</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] WordPress ND Shortcodes plugin路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84476'>http://www.nsfocus.net/vulndb/84476</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4401</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] WordPress Style Kits Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84475'>http://www.nsfocus.net/vulndb/84475</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3535</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] SimplePHPscripts FAQ Script PHP跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84474'>http://www.nsfocus.net/vulndb/84474</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3129</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] WordPress URL Shortify plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84473'>http://www.nsfocus.net/vulndb/84473</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37153</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] KodExplorer跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84472'>http://www.nsfocus.net/vulndb/84472</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36376</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] Hostel Management System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84471'>http://www.nsfocus.net/vulndb/84471</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1902</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] Zephyr Project Zephyr拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84470'>http://www.nsfocus.net/vulndb/84470</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37270</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] Piwigo SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84469'>http://www.nsfocus.net/vulndb/84469</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-33798</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] libpano13空指针解引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84468'>http://www.nsfocus.net/vulndb/84468</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36940</font><br/>[<b>披露时间</b>] 2023-09-11 03:40:03<br/>[<b>漏洞描述</b>] Online Fire Reporting System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84467'>http://www.nsfocus.net/vulndb/84467</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-09-11 08:15:07<br/>[<b>漏洞描述</b>] 安全事件周报 2023-09-04 第36周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=64fecc8b22adc884abcd7eff'>https://cert.360.cn/warning/detail?id=64fecc8b22adc884abcd7eff</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
