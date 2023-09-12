@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-09-12 14:41:12 -->
+<!-- RELEASE TIME : 2023-09-12 16:42:33 -->
 <html lang="zh-cn">
 
  <head>
@@ -1460,6 +1460,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">458478f1e3cf0a2e3b16458b1644ea78</td>
+       <td>CVE-2023-34192</td>
+       <td>2023-09-13 00:01:38 <img src="imgs/new.gif" /></td>
+       <td>Zimbra Collaboration Suite 跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9336">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0a69820cef5ab047a63713669abd8637</td>
+       <td></td>
+       <td>2023-09-13 00:01:37 <img src="imgs/new.gif" /></td>
+       <td>致远OA前台密码重置漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9335">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">09a06fb4b3eab610461c6fa721932af2</td>
+       <td>CVE-2023-27523</td>
+       <td>2023-09-13 00:01:36 <img src="imgs/new.gif" /></td>
+       <td>Apache Superset 权限控制不当漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9334">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e1f40026549c356b4d9d2af068f105b3</td>
        <td>CVE-2023-38035</td>
        <td>2023-09-08 00:01:42</td>
@@ -1673,30 +1697,6 @@
        <td>2023-08-16 00:11:29</td>
        <td>金蝶云星空 CommonFileServer 任意文件读取漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9081">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ce02c4e0a50045ad62fb3ab775c3362c</td>
-       <td></td>
-       <td>2023-08-16 00:11:29</td>
-       <td>明源云ERP系统 ApiUpdate.ashx 任意文件上传漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9080">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d2f5fae0798dea53b66a173f9f78f318</td>
-       <td></td>
-       <td>2023-08-15 00:01:22</td>
-       <td>企望制造 ERP comboxstore.action 远程命令执行漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9065">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8dc1e1ac7ae2d2184efc157506f1d433</td>
-       <td></td>
-       <td>2023-08-15 00:01:22</td>
-       <td>OfficeWeb365 远程代码执行漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9064">详情</a></td>
       </tr>
 
      </tbody>
@@ -2484,6 +2484,14 @@
       </tr>
 
       <tr>
+       <td scope="row">cee15ef09fbc90793abddb86879816fd</td>
+       <td>CVE-2023-4809</td>
+       <td>2023-09-06 20:15:08 </td>
+       <td>In pf packet processing with a 'scrub fragment reassemble' rule, a packet containing multiple IPv6 fragment headers would be reassembled, and then immediately processed.  That is, a packet with multiple fragment extension headers would not be recognized as the correct ultimate payload. Instead a packet with multiple IPv6 fragment headers would unexpectedly be interpreted as a fragmented packet, rather than as whatever the real payload is.As a result, IPv6 fragments may bypass pf firewall rules written on the assumption all fragments have been reassembled and, as a result, be forwarded or processed by the host.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4809">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">314c2a621137efea0191d93bf63fe9e3</td>
        <td>CVE-2023-41150</td>
        <td>2023-09-06 13:15:09 </td>
@@ -2681,14 +2689,6 @@
        <td>2023-09-04 12:15:10 </td>
        <td>The Post Timeline WordPress plugin before 2.2.6 does not sanitise and escape an invalid nonce before outputting it back in an AJAX response, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4284">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">09c0b597c0a20282f87f6033f4410b6b</td>
-       <td>CVE-2023-4269</td>
-       <td>2023-09-04 12:15:10 </td>
-       <td>The User Activity Log WordPress plugin before 1.6.6 lacks proper authorisation when exporting its activity logs, allowing any authenticated users, such as subscriber to perform such action and retrieve PII such as email addresses.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4269">详情</a></td>
       </tr>
 
      </tbody>
