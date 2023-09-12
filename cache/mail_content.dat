@@ -1,15 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34192</font><br/>[<b>披露时间</b>] 2023-09-13 00:01:38<br/>[<b>漏洞描述</b>] Zimbra Collaboration Suite 跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9336'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9336</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-09-13 00:01:37<br/>[<b>漏洞描述</b>] 致远OA前台密码重置漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9335'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9335</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27523</font><br/>[<b>披露时间</b>] 2023-09-13 00:01:36<br/>[<b>漏洞描述</b>] Apache Superset 权限控制不当漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9334'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9334</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4809</font><br/>[<b>披露时间</b>] 2023-09-06 20:15:08 <br/>[<b>漏洞描述</b>] In pf packet processing with a 'scrub fragment reassemble' rule, a packet containing multiple IPv6 fragment headers would be reassembled, and then immediately processed.  That is, a packet with multiple fragment extension headers would not be recognized as the correct ultimate payload. Instead a packet with multiple IPv6 fragment headers would unexpectedly be interpreted as a fragmented packet, rather than as whatever the real payload is.As a result, IPv6 fragments may bypass pf firewall rules written on the assumption all fragments have been reassembled and, as a result, be forwarded or processed by the host.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4809'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4809</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4843</font><br/>[<b>披露时间</b>] 2023-09-08 17:15:30 <br/>[<b>漏洞描述</b>] Pega Platform versions 7.1 to 8.8.3 are affected by an HTML Injection issue with a name field utilized in Visual Business Director, however this field can only be modified by an authenticated administrative user.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4843'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4843</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
