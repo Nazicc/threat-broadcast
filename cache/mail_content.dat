@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4843</font><br/>[<b>披露时间</b>] 2023-09-08 17:15:30 <br/>[<b>漏洞描述</b>] Pega Platform versions 7.1 to 8.8.3 are affected by an HTML Injection issue with a name field utilized in Visual Business Director, however this field can only be modified by an authenticated administrative user.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4843'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4843</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4782</font><br/>[<b>披露时间</b>] 2023-09-08 18:15:07 <br/>[<b>漏洞描述</b>] Terraform version 1.0.8 through 1.5.6 allows arbitrary file write during the `init` operation if run on maliciously crafted Terraform configuration. This vulnerability is fixed in Terraform 1.5.7.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4782'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4782</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
