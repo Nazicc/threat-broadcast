@@ -1,13 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">8</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68438 (CVE-2023-25745)</font><br/>[<b>披露时间</b>] 2023-09-11 10:40:11<br/>[<b>漏洞描述</b>] Mozilla Firefox代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68438'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68438</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68439 (CVE-2023-25741)</font><br/>[<b>披露时间</b>] 2023-09-11 10:40:23<br/>[<b>漏洞描述</b>] Mozilla Firefox信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68439'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68439</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-68440 (CVE-2023-25733)</font><br/>[<b>披露时间</b>] 2023-09-11 10:40:28<br/>[<b>漏洞描述</b>] Mozilla Firefox拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-68440'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-68440</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2016-15034</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] Dynacase Webdesk SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84577'>http://www.nsfocus.net/vulndb/84577</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2333</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] WordPress Ninja Forms Google Sheet Connector plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84576'>http://www.nsfocus.net/vulndb/84576</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3561</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] GZScripts PHP GZ Hotel Booking Script跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84575'>http://www.nsfocus.net/vulndb/84575</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36162</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] ZZCMS跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84574'>http://www.nsfocus.net/vulndb/84574</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37132</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] eyoucms跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84573'>http://www.nsfocus.net/vulndb/84573</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36815</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] Sealos授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84572'>http://www.nsfocus.net/vulndb/84572</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4914</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] Google Chrome堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84571'>http://www.nsfocus.net/vulndb/84571</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-4393</font><br/>[<b>披露时间</b>] 2023-09-12 11:40:00<br/>[<b>漏洞描述</b>] WordPress eCommerce Product Catalog Plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84570'>http://www.nsfocus.net/vulndb/84570</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
