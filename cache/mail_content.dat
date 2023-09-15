@@ -1,12 +1,20 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69723 (CVE-2022-43229)</font><br/>[<b>披露时间</b>] 2023-09-14 06:38:04<br/>[<b>漏洞描述</b>] Simple Cold Storage Management System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69723'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69723</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69724 (CVE-2022-42993)</font><br/>[<b>披露时间</b>] 2023-09-14 06:38:06<br/>[<b>漏洞描述</b>] Password Storage Application跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69724'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69724</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1683021</font><br/>[<b>披露时间</b>] 2023-09-15 08:37:30<br/>[<b>漏洞描述</b>] JumpServer未授权访问session replay漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1683021'>https://avd.aliyun.com/detail?id=AVD-2023-1683021</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69802 (CVE-2022-24351)</font><br/>[<b>披露时间</b>] 2023-09-15 08:37:31<br/>[<b>漏洞描述</b>] Siemens RUGGEDCOM APE1808产品系列Inside BIOS漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69802'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69802</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69803 (CVE-2023-28831)</font><br/>[<b>披露时间</b>] 2023-09-14 08:37:33<br/>[<b>漏洞描述</b>] Siemens SIMATIC产品ANSI C OPC UA SDK拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69803'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69803</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69804 (CVE-2023-38076)</font><br/>[<b>披露时间</b>] 2023-09-15 08:37:36<br/>[<b>漏洞描述</b>] Siemens Teamcenter Visualization和JT2Go堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69804'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69804</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69805 (CVE-2023-38075)</font><br/>[<b>披露时间</b>] 2023-09-14 08:37:39<br/>[<b>漏洞描述</b>] Siemens Teamcenter Visualization和JT2Go内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69805'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69805</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69806 (CVE-2023-38074)</font><br/>[<b>披露时间</b>] 2023-09-15 08:37:41<br/>[<b>漏洞描述</b>] Siemens Teamcenter Visualization和JT2Go类型混淆漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69806'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69806</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69807 (CVE-2023-38073)</font><br/>[<b>披露时间</b>] 2023-09-15 08:37:43<br/>[<b>漏洞描述</b>] Siemens Teamcenter Visualization和JT2Go类型混淆漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69807'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69807</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69812 (CVE-2023-41033)</font><br/>[<b>披露时间</b>] 2023-09-15 08:37:45<br/>[<b>漏洞描述</b>] Siemens Parasolid越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69812'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69812</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
