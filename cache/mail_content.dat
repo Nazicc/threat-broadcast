@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69971 (CVE-2023-38558)</font><br/>[<b>披露时间</b>] 2023-09-15 10:37:16<br/>[<b>漏洞描述</b>] Siemens SIMATIC PCS neo（Administration Console）信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69971'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69971</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69972 (CVE-2023-38557)</font><br/>[<b>披露时间</b>] 2023-09-15 10:37:19<br/>[<b>漏洞描述</b>] Siemens Spectrum Power 7本地权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69972'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69972</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20898</font><br/>[<b>披露时间</b>] 2023-09-15 20:09:45<br/>[<b>漏洞描述</b>] SALTSTACK SALT Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fec6a7f1f25d4ee8ab85540c6e47b1b7'>https://redqueen.tj-un.com/IntelDetails.html?id=fec6a7f1f25d4ee8ab85540c6e47b1b7</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-35593</font><br/>[<b>披露时间</b>] 2023-09-15 20:09:45<br/>[<b>漏洞描述</b>] BMC PATROL_AGENT Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=75a3c70edcb443a58d4da8d1c906afa9'>https://redqueen.tj-un.com/IntelDetails.html?id=75a3c70edcb443a58d4da8d1c906afa9</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
