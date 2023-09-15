@@ -1,12 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69721 (CVE-2023-41717)</font><br/>[<b>披露时间</b>] 2023-09-14 04:37:28<br/>[<b>漏洞描述</b>] Zscaler Proxy安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69721'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69721</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69722 (CVE-2023-40801)</font><br/>[<b>披露时间</b>] 2023-09-14 04:37:32<br/>[<b>漏洞描述</b>] Tenda AC23 sub_451784函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69722'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69722</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39094</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] studentmanager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84897'>http://www.nsfocus.net/vulndb/84897</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39618</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] TOTOLINK X5000R命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84896'>http://www.nsfocus.net/vulndb/84896</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39748</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] TP-LINK TL-WR1041N拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84895'>http://www.nsfocus.net/vulndb/84895</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3936</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] WordPress Blog2Social Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84894'>http://www.nsfocus.net/vulndb/84894</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39543</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] LuxSoft LuxCal Web Calendar跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84893'>http://www.nsfocus.net/vulndb/84893</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40173</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] social-media-skeleton凭据保护错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84892'>http://www.nsfocus.net/vulndb/84892</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2915</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] Rockwell Automation ThinManager Thinserver输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84891'>http://www.nsfocus.net/vulndb/84891</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38911</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] CSZ CMS跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84890'>http://www.nsfocus.net/vulndb/84890</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39741</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] lrzip堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84889'>http://www.nsfocus.net/vulndb/84889</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39455</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] ELECOM Wireless LAN Routers操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84888'>http://www.nsfocus.net/vulndb/84888</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36106</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] powerjob访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84887'>http://www.nsfocus.net/vulndb/84887</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38132</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] ELECOM LAN-W451NGR访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84886'>http://www.nsfocus.net/vulndb/84886</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-31941</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] Online Travel Agency System文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84885'>http://www.nsfocus.net/vulndb/84885</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2316</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] Typora路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84884'>http://www.nsfocus.net/vulndb/84884</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39809</font><br/>[<b>披露时间</b>] 2023-09-15 05:39:47<br/>[<b>漏洞描述</b>] N.V.K.INTER iBSG命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/84883'>http://www.nsfocus.net/vulndb/84883</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
