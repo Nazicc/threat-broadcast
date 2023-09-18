@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-09-18 04:42:18 -->
+<!-- RELEASE TIME : 2023-09-18 05:39:52 -->
 <html lang="zh-cn">
 
  <head>
@@ -2452,6 +2452,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d4b3d6114a20ff6ba8c50b281a8651f7</td>
+       <td>CVE-2023-3301</td>
+       <td>2023-09-13 17:15:10 </td>
+       <td>A flaw was found in QEMU. The async nature of hot-unplug enables a race scenario where the net device backend is cleared before the virtio-net pci frontend has been unplugged. A malicious guest could use this time window to trigger an assertion and cause a denial of service.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3301">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5e24d726519cb9e77e0fd845029e7f16</td>
+       <td>CVE-2023-3255</td>
+       <td>2023-09-13 17:15:09 </td>
+       <td>A flaw was found in the QEMU built-in VNC server while processing ClientCutText messages. A wrong exit condition may lead to an infinite loop when inflating an attacker controlled zlib buffer in the `inflate_buffer` function. This could allow a remote authenticated client who is able to send a clipboard to the VNC server to trigger a denial of service.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3255">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">52111c8632e4ec561c38e328a922251e</td>
+       <td>CVE-2023-33136</td>
+       <td>2023-09-12 17:15:09 </td>
+       <td>Azure DevOps Server Remote Code Execution Vulnerability</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33136">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ed65bc8594926fc00870198104820a56</td>
+       <td>CVE-2023-34470</td>
+       <td>2023-09-12 16:15:09 </td>
+       <td>AMI AptioV contains a vulnerability in BIOS where an Attacker may use an improper access control via the local network. A successful exploit of this vulnerability may lead to a loss of confidentiality, integrity and availability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34470">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2306c301d8d58c27b7ea696df5821621</td>
+       <td>CVE-2023-34469</td>
+       <td>2023-09-12 16:15:09 </td>
+       <td>AMI AptioV contains a vulnerability in BIOS where an Attacker may use an improper access control via the physical network. A successful exploit of this vulnerability may lead to a loss of confidentiality.&Acirc;&nbsp;</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-34469">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">fc52900b5b2a1a05f20633c8b0c97e14</td>
        <td>CVE-2023-4914</td>
        <td>2023-09-12 15:15:24 </td>
@@ -2481,6 +2521,14 @@
        <td>2023-09-12 02:15:13 </td>
        <td>The JQuery Accordion Menu Widget for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'dcwp-jquery-accordion' shortcode in versions up to, and including, 3.1.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4890">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8676cfffb784cb267e33e0f1f14ad984</td>
+       <td>CVE-2023-32558</td>
+       <td>2023-09-12 02:15:12 </td>
+       <td>The use of the deprecated API `process.binding()` can bypass the permission model through path traversal. This vulnerability affects all users using the experimental permission model in Node.js 20.x.Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32558">详情</a></td>
       </tr>
 
       <tr>
@@ -2636,59 +2684,11 @@
       </tr>
 
       <tr>
-       <td scope="row">e387fa388fd40e8a7c804d4b3e8ae6b2</td>
-       <td>CVE-2023-4782</td>
-       <td>2023-09-08 18:15:07 </td>
-       <td>Terraform version 1.0.8 through 1.5.6 allows arbitrary file write during the `init` operation if run on maliciously crafted Terraform configuration. This vulnerability is fixed in Terraform 1.5.7.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4782">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">58dbdcfe7cc0d60cf84438cdf2e78ff0</td>
-       <td>CVE-2023-4843</td>
-       <td>2023-09-08 17:15:30 </td>
-       <td>Pega Platform versions 7.1 to 8.8.3 are affected by an HTML Injection issue with a name field utilized in Visual Business Director, however this field can only be modified by an authenticated administrative user.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4843">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9569aa977db9d5c6c5151be59b3a4ef0</td>
-       <td>CVE-2014-5329</td>
-       <td>2023-09-08 03:15:07 </td>
-       <td>GIGAPOD file servers (Appliance model and Software model) provide two web interfaces, 80/tcp and 443/tcp for user operation, and 8001/tcp for administrative operation.8001/tcp is served by a version of Apache HTTP server containing a flaw in handling HTTP requests (CVE-2011-3192), which may lead to a denial-of-service (DoS) condition.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-5329">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">783d43ff42c42388e1bf5c5c7dabcda5</td>
-       <td>CVE-2023-4685</td>
-       <td>2023-09-07 18:15:07 </td>
-       <td>Delta Electronics' CNCSoft-B version 1.0.0.4 and DOPSoft versions 4.0.0.82 and prior are vulnerable to stack-based buffer overflow, which could allow an attacker to execute arbitrary code.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4685">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">989c507fc0d35249c74d04dee335b88d</td>
-       <td>CVE-2023-4815</td>
-       <td>2023-09-07 07:15:08 </td>
-       <td>Missing Authentication for Critical Function in GitHub repository answerdev/answer prior to v1.1.3.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4815">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f778b9d3b305d352762ca37eef3b3d94</td>
-       <td>CVE-2023-4792</td>
-       <td>2023-09-07 02:15:08 </td>
-       <td>The Duplicate Post Page Menu &amp; Custom Post Type plugin for WordPress is vulnerable to unauthorized page and post duplication due to a missing capability check on the duplicate_ppmc_post_as_draft function in versions up to, and including, 2.3.1. This makes it possible for authenticated attackers with subscriber access or higher to duplicate posts and pages.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4792">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c8af0979e890c285b74fdb6e2b50a6ab</td>
-       <td>CVE-2023-4772</td>
-       <td>2023-09-07 02:15:08 </td>
-       <td>The Newsletter plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'newsletter_form' shortcode in versions up to, and including, 7.8.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4772">详情</a></td>
+       <td scope="row">447e34497695f62525b42260ed653ddc</td>
+       <td>CVE-2023-32332</td>
+       <td>2023-09-08 20:15:14 </td>
+       <td>IBM Maximo Application Suite 8.9, 8.10 and IBM Maximo Asset Management 7.6.1.2, 7.6.1.3 are vulnerable to HTML injection. A remote attacker could inject malicious HTML code, which when viewed, would be executed in the victim's Web browser within the security context of the hosting site.  IBM X-Force ID:  255072.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-32332">详情</a></td>
       </tr>
 
      </tbody>
