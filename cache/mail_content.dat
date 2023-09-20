@@ -1,14 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22513</font><br/>[<b>披露时间</b>] 2023-09-20 02:37:20<br/>[<b>漏洞描述</b>] Bitbucket Server and Data Center 远程代码执行漏洞（CVE-2023-22513）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-22513'>https://avd.aliyun.com/detail?id=AVD-2023-22513</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4998</font><br/>[<b>披露时间</b>] 2023-09-19 02:37:20<br/>[<b>漏洞描述</b>] GitLab 越权调用pipelines 漏洞（CVE-2023-4998）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-4998'>https://avd.aliyun.com/detail?id=AVD-2023-4998</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36923</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] SAP PowerDesigner代码注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85078'>http://www.nsfocus.net/vulndb/85078</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3365</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] WordPress MultiParcels Shipping For WooCommerce plugin授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85077'>http://www.nsfocus.net/vulndb/85077</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3522</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] a2 License Portal System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85076'>http://www.nsfocus.net/vulndb/85076</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38762</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] ChurchCRM SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85075'>http://www.nsfocus.net/vulndb/85075</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27411</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] Siemens RUGGEDCOM CROSSBOW SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85074'>http://www.nsfocus.net/vulndb/85074</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48580</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] ScienceLogic SL1命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85073'>http://www.nsfocus.net/vulndb/85073</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38213</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] Adobe Dimension越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85072'>http://www.nsfocus.net/vulndb/85072</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3857</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] phpscriptpoint Ecommerce跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85071'>http://www.nsfocus.net/vulndb/85071</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3850</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] Lost and Found Information System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85070'>http://www.nsfocus.net/vulndb/85070</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3845</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] mooSocial mooDating跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85069'>http://www.nsfocus.net/vulndb/85069</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3839</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] DedeBIZ SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85068'>http://www.nsfocus.net/vulndb/85068</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3834</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] Bug Finder EX-RATE跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85067'>http://www.nsfocus.net/vulndb/85067</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3830</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] Bug Finder SASS BILLER跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85066'>http://www.nsfocus.net/vulndb/85066</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26961</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] Alteryx Server跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85065'>http://www.nsfocus.net/vulndb/85065</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3970</font><br/>[<b>披露时间</b>] 2023-09-19 03:39:52<br/>[<b>漏洞描述</b>] GZ Scripts Availability Booking Calendar PHP跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85064'>http://www.nsfocus.net/vulndb/85064</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
