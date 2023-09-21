@@ -1,12 +1,27 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">16</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5009</font><br/>[<b>披露时间</b>] 2023-09-15 04:37:18<br/>[<b>漏洞描述</b>] GitLab 越权调用pipelines 漏洞（CVE-2023-5009）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-5009'>https://avd.aliyun.com/detail?id=AVD-2023-5009</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4998</font><br/>[<b>披露时间</b>] 2023-09-21 08:28:11<br/>[<b>漏洞描述</b>] CVE-2023-4998：GitLab 身份认证绕过漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=650bfe9b22adc884abcd7f87'>https://cert.360.cn/warning/detail?id=650bfe9b22adc884abcd7f87</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4282</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] WordPress EmbedPress Plugin授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85216'>http://www.nsfocus.net/vulndb/85216</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] JPCERT Coordination Center Special Interest Group Network for Analysis and Liais<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85215'>http://www.nsfocus.net/vulndb/85215</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38231</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Adobe Acrobat多款产品越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85214'>http://www.nsfocus.net/vulndb/85214</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38225</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Adobe Acrobat多款产品内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85213'>http://www.nsfocus.net/vulndb/85213</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39214</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Zoom Client SDK拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85212'>http://www.nsfocus.net/vulndb/85212</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4128</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Linux Kernel内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85211'>http://www.nsfocus.net/vulndb/85211</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30693</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] SAMSUNG Mobile越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85210'>http://www.nsfocus.net/vulndb/85210</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35085</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Ubiquiti UniFi整数溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85209'>http://www.nsfocus.net/vulndb/85209</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30705</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] SAMSUNG Galaxy Store授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85208'>http://www.nsfocus.net/vulndb/85208</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38243</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Adobe Acrobat多款产品内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85207'>http://www.nsfocus.net/vulndb/85207</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26311</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] OPPO Store app远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85206'>http://www.nsfocus.net/vulndb/85206</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32563</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Ivanti Avalanche路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85205'>http://www.nsfocus.net/vulndb/85205</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39954</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Nextcloud user_oidc加密错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85204'>http://www.nsfocus.net/vulndb/85204</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38237</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Adobe Acrobat多款产品越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85203'>http://www.nsfocus.net/vulndb/85203</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-36351</font><br/>[<b>披露时间</b>] 2023-09-21 08:40:39<br/>[<b>漏洞描述</b>] Intel PROSet/Wireless WiFi Software输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85202'>http://www.nsfocus.net/vulndb/85202</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
