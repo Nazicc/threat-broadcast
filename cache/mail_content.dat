@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4139</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] WordPress WP Ultimate CSV Importer plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85263'>http://www.nsfocus.net/vulndb/85263</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4511</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] Wireshark无限循环漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85262'>http://www.nsfocus.net/vulndb/85262</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36317</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] Student Study Center Desk Management System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85261'>http://www.nsfocus.net/vulndb/85261</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3671</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] WordPress MultiParcels Shipping For WooCommerce plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85260'>http://www.nsfocus.net/vulndb/85260</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2843</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] WordPress MultiParcels Shipping For WooCommerce plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85259'>http://www.nsfocus.net/vulndb/85259</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4180</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] Free Hospital Management System for Small Practices SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85258'>http://www.nsfocus.net/vulndb/85258</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39707</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] Inventory Management System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85257'>http://www.nsfocus.net/vulndb/85257</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40890</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] ZBar堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85256'>http://www.nsfocus.net/vulndb/85256</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39437</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] SAP Business One跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85255'>http://www.nsfocus.net/vulndb/85255</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37569</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] ESDS Emagic Data Center Management Suit操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85254'>http://www.nsfocus.net/vulndb/85254</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-37683</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] PHPGurukul Online Nurse Hiring System跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85253'>http://www.nsfocus.net/vulndb/85253</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4556</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] Online Graduate Tracer System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85252'>http://www.nsfocus.net/vulndb/85252</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-2174</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] WordPress BadgeOS plugin授权错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85251'>http://www.nsfocus.net/vulndb/85251</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40582</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] find-exec命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85250'>http://www.nsfocus.net/vulndb/85250</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4209</font><br/>[<b>披露时间</b>] 2023-09-21 03:39:49<br/>[<b>漏洞描述</b>] WordPress POEditor plugin跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85249'>http://www.nsfocus.net/vulndb/85249</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-71317 (CVE-2023-41599)</font><br/>[<b>披露时间</b>] 2023-09-22 04:37:29<br/>[<b>漏洞描述</b>] JFinalCMS目录遍历漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-71317'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-71317</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
