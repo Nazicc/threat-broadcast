@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43650</font><br/>[<b>披露时间</b>] 2023-09-27 02:37:06<br/>[<b>漏洞描述</b>] JumpServer 重置密码验证码可爆破致账号劫持漏洞（CVE-2023-43650）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-43650'>https://avd.aliyun.com/detail?id=AVD-2023-43650</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42820</font><br/>[<b>披露时间</b>] 2023-09-26 02:37:06<br/>[<b>漏洞描述</b>] JumpServer 重置密码验证码被预测致账号劫持漏洞（CVE-2023-42820）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-42820'>https://avd.aliyun.com/detail?id=AVD-2023-42820</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42820</font><br/>[<b>披露时间</b>] 2023-09-27 08:43:36<br/>[<b>漏洞描述</b>] CVE-2023-42820：JumpServer密码重置漏洞<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6513eb3822adc884abcd7fc9'>https://cert.360.cn/warning/detail?id=6513eb3822adc884abcd7fc9</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
