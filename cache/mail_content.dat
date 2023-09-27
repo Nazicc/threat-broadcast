@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42819</font><br/>[<b>披露时间</b>] 2023-09-28 00:01:35<br/>[<b>漏洞描述</b>] Jumpserver 目录遍历漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9412'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9412</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72224 (CVE-2023-36745)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:21<br/>[<b>漏洞描述</b>] Microsoft Exchange Server远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72224'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72224</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72225 (CVE-2023-36756)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:23<br/>[<b>漏洞描述</b>] Microsoft Exchange Server远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72225'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72225</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72226 (CVE-2023-36757)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:26<br/>[<b>漏洞描述</b>] Microsoft Exchange Server欺骗漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72226'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72226</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72227 (CVE-2023-36744)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:29<br/>[<b>漏洞描述</b>] Microsoft Exchange Server远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72227'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72227</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72223 (CVE-2023-36742)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:31<br/>[<b>漏洞描述</b>] Microsoft Visual Studio Code远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72223'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72223</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72229 (CVE-2023-36777)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:33<br/>[<b>漏洞描述</b>] Microsoft Exchange Server信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72229'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72229</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72228 (CVE-2023-38182)</font><br/>[<b>披露时间</b>] 2023-09-28 16:40:36<br/>[<b>漏洞描述</b>] Microsoft Exchange Server远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72228'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72228</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-72232 (CVE-2022-24516)</font><br/>[<b>披露时间</b>] 2023-09-28 20:37:35<br/>[<b>漏洞描述</b>] Microsoft Exchange Server权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-72232'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-72232</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
