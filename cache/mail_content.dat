@@ -1,12 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22515</font><br/>[<b>披露时间</b>] 2023-10-05 15:37:51<br/>[<b>漏洞描述</b>] Atlassian Confluence Data Center & Server 权限提升漏洞（CVE-2023-22515）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-22515'>https://avd.aliyun.com/detail?id=AVD-2023-22515</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-69478</font><br/>[<b>披露时间</b>] 2023-10-06 16:41:38<br/>[<b>漏洞描述</b>] 杭州迪普科技股份有限公司DPtech SSL VPN存在任意文件读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-69478'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-69478</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
