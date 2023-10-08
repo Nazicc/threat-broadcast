@@ -1,17 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74533 (CVE-2023-32792)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:16<br/>[<b>漏洞描述</b>] NXLog Manager跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74533'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74533</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74534 (CVE-2023-35905)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:18<br/>[<b>漏洞描述</b>] IBM FileNet Content Manager  Web UI跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74534'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74534</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74535 (CVE-2023-44974)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:20<br/>[<b>漏洞描述</b>] emlog pro /admin/plugin.php任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74535'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74535</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74536 (CVE-2023-44973)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:23<br/>[<b>漏洞描述</b>] emlog pro /content/templates/任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74536'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74536</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74537 (CVE-2023-44009)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:25<br/>[<b>漏洞描述</b>] mojoPortal存在文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74537'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74537</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74538 (CVE-2023-44008)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:27<br/>[<b>漏洞描述</b>] mojoPortal文件上传漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74538'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74538</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-74539 (CVE-2023-39191)</font><br/>[<b>披露时间</b>] 2023-10-07 03:37:29<br/>[<b>漏洞描述</b>] Linux Kernel eBPF本地权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-74539'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-74539</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-10-08 06:08:55<br/>[<b>漏洞描述</b>] 安全事件周报 2023-09-25 第39周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6522477522adc884abcd7ff4'>https://cert.360.cn/warning/detail?id=6522477522adc884abcd7ff4</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5346</font><br/>[<b>披露时间</b>] 2023-10-05 18:15:13 <br/>[<b>漏洞描述</b>] Type confusion in V8 in Google Chrome prior to 117.0.5938.149 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5346'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5346</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
