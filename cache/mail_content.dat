@@ -1,16 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-44011</font><br/>[<b>披露时间</b>] 2023-10-09 20:10:27<br/>[<b>漏洞描述</b>] MOJOPORTAL MOJOPORTAL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8ec30a520ff84c0b8947bf33fe7767e5'>https://redqueen.tj-un.com/IntelDetails.html?id=8ec30a520ff84c0b8947bf33fe7767e5</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41580</font><br/>[<b>披露时间</b>] 2023-10-09 20:10:27<br/>[<b>漏洞描述</b>] PHPIPAM PHPIPAM Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7fea616675ca4b1c9ed7e9bf7993fbe4'>https://redqueen.tj-un.com/IntelDetails.html?id=7fea616675ca4b1c9ed7e9bf7993fbe4</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38703</font><br/>[<b>披露时间</b>] 2023-10-09 20:10:27<br/>[<b>漏洞描述</b>] TELUU PJSIP Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=78a4fe8dc7e54ebdac1676b7cd0c760e'>https://redqueen.tj-un.com/IntelDetails.html?id=78a4fe8dc7e54ebdac1676b7cd0c760e</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5344</font><br/>[<b>披露时间</b>] 2023-10-09 20:10:27<br/>[<b>漏洞描述</b>] VIM VIM Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=289b9378d0244549a652032726f17fc5'>https://redqueen.tj-un.com/IntelDetails.html?id=289b9378d0244549a652032726f17fc5</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21673</font><br/>[<b>披露时间</b>] 2023-10-09 20:10:26<br/>[<b>漏洞描述</b>] QUALCOMM Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7d9826ce05cd4f02bfd3cf8a64aa29f6'>https://redqueen.tj-un.com/IntelDetails.html?id=7d9826ce05cd4f02bfd3cf8a64aa29f6</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42824</font><br/>[<b>披露时间</b>] 2023-10-09 20:10:14<br/>[<b>漏洞描述</b>] APPLE Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=898cc113fa934e9f9305d9721a50bf45'>https://redqueen.tj-un.com/IntelDetails.html?id=898cc113fa934e9f9305d9721a50bf45</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42115</font><br/>[<b>披露时间</b>] 2023-10-10 00:01:34<br/>[<b>漏洞描述</b>] Exim 越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9486'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9486</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-71385</font><br/>[<b>披露时间</b>] 2023-10-10 17:37:26<br/>[<b>漏洞描述</b>] 任子行下一代防火墙存在信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-71385'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-71385</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
