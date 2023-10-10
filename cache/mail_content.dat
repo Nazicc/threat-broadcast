@@ -1,12 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75321 (CVE-2023-4904)</font><br/>[<b>披露时间</b>] 2023-10-09 02:37:17<br/>[<b>漏洞描述</b>] Google Chrome安全绕绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75321'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75321</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75320 (CVE-2023-4908)</font><br/>[<b>披露时间</b>] 2023-10-09 02:37:20<br/>[<b>漏洞描述</b>] Google Chrome安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75320'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75320</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75343 (CVE-2023-5172)</font><br/>[<b>披露时间</b>] 2023-10-10 04:37:18<br/>[<b>漏洞描述</b>] Mozilla Firefox内存错误引用漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75343'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75343</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75344 (CVE-2023-4573)</font><br/>[<b>披露时间</b>] 2023-10-10 04:37:20<br/>[<b>漏洞描述</b>] Mozilla Firefox代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75344'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75344</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75345 (CVE-2023-4584)</font><br/>[<b>披露时间</b>] 2023-10-10 04:37:23<br/>[<b>漏洞描述</b>] Mozilla Firefox ESR内存破坏代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75345'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75345</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75346 (CVE-2023-29548)</font><br/>[<b>披露时间</b>] 2023-10-10 04:37:27<br/>[<b>漏洞描述</b>] Mozilla Firefox ESR代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75346'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75346</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75347 (CVE-2022-46881)</font><br/>[<b>披露时间</b>] 2023-10-10 04:37:30<br/>[<b>漏洞描述</b>] Mozilla Thunderbird和Firefox拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75347'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75347</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75348 (CVE-2022-22755)</font><br/>[<b>披露时间</b>] 2023-10-10 04:37:32<br/>[<b>漏洞描述</b>] Mozilla Firefox资源操作不当漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75348'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75348</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
