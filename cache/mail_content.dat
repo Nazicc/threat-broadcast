@@ -1,11 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5452</font><br/>[<b>披露时间</b>] 2023-10-06 20:15:11 <br/>[<b>漏洞描述</b>] Cross-site Scripting (XSS) - Stored in GitHub repository snipe/snipe-it prior to v6.2.2.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5452'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5452</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75579 (CVE-2023-45601)</font><br/>[<b>披露时间</b>] 2023-10-11 06:39:17<br/>[<b>漏洞描述</b>] Siemens Parasolid堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75579'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75579</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75580 (CVE-2023-45204)</font><br/>[<b>披露时间</b>] 2023-10-11 06:39:20<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation文件分析漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75580'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75580</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
