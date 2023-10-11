@@ -5,7 +5,7 @@
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5402</font><br/>[<b>披露时间</b>] 2023-10-04 18:15:12 <br/>[<b>漏洞描述</b>] A CWE-269: Improper Privilege Management vulnerability exists that could cause a remotecode execution when the transfer command is used over the network.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5402'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5402</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5467</font><br/>[<b>披露时间</b>] 2023-10-10 05:15:09 <br/>[<b>漏洞描述</b>] The GEO my WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 4.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5467'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5467</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
