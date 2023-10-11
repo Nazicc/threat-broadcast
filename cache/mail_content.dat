@@ -1,12 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75579 (CVE-2023-45601)</font><br/>[<b>披露时间</b>] 2023-10-11 06:39:17<br/>[<b>漏洞描述</b>] Siemens Parasolid堆栈缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75579'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75579</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75580 (CVE-2023-45204)</font><br/>[<b>披露时间</b>] 2023-10-11 06:39:20<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation文件分析漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75580'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75580</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75595 (CVE-2023-43485)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:19<br/>[<b>漏洞描述</b>] F5 BIG-IP信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75595'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75595</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75596 (CVE-2023-41253)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:21<br/>[<b>漏洞描述</b>] F5 BIG-IP信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75596'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75596</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75597 (CVE-2023-44487)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:23<br/>[<b>漏洞描述</b>] F5 BIG-IP拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75597'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75597</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75598 (CVE-2023-45219)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:26<br/>[<b>漏洞描述</b>] F5 BIG-IP信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75598'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75598</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75599 (CVE-2023-39447)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:29<br/>[<b>漏洞描述</b>] F5 BIG-IP APM信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75599'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75599</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75600 (CVE-2023-41964)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:31<br/>[<b>漏洞描述</b>] F5 BIG-IP敏感信息明文存储漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75600'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75600</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75601 (CVE-2023-43746)</font><br/>[<b>披露时间</b>] 2023-10-11 08:38:33<br/>[<b>漏洞描述</b>] F5 BIG-IP访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75601'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75601</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
