@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">2</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-76374 (CVE-2023-5423)</font><br/>[<b>披露时间</b>] 2023-10-13 08:40:11<br/>[<b>漏洞描述</b>] Online Pizza Ordering System SQL注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-76374'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-76374</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-76459 (CVE-2023-44766)</font><br/>[<b>披露时间</b>] 2023-10-13 08:40:16<br/>[<b>漏洞描述</b>] PortlandLabs Concrete CMS SEO-Extra功能跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-76459'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-76459</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-75583 (CVE-2023-44085)</font><br/>[<b>披露时间</b>] 2023-10-13 08:41:17<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-75583'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-75583</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36802</font><br/>[<b>披露时间</b>] 2023-10-13 08:37:05<br/>[<b>漏洞描述</b>] CVE-2023-36802：Microsoft 流式处理代理权限提升漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=652901afea0822e915605dcb'>https://cert.360.cn/warning/detail?id=652901afea0822e915605dcb</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-10-13 08:39:35<br/>[<b>漏洞描述</b>] 新一波“银狐”木马攻势来袭，功能更新目标不变<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6528fd63ea0822e915605dc6'>https://cert.360.cn/warning/detail?id=6528fd63ea0822e915605dc6</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-76460 (CVE-2023-4884)</font><br/>[<b>披露时间</b>] 2023-10-13 09:38:15<br/>[<b>漏洞描述</b>] Open5GS访问控制错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-76460'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-76460</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
