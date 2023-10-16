@@ -1,12 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">4</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43785</font><br/>[<b>披露时间</b>] 2023-10-10 13:15:21 <br/>[<b>漏洞描述</b>] A vulnerability was found in libX11 due to a boundary condition within the _XkbReadKeySyms() function. This flaw allows a local user to trigger an out-of-bounds read error and read the contents of memory on the system.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43785'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43785</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43700</font><br/>[<b>披露时间</b>] 2023-10-09 12:15:10 <br/>[<b>漏洞描述</b>] Missing Authorization in RDT400 in SICK APU allows an unprivileged remote attacker to modify data via HTTP requests that no not require authentication.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43700'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43700</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43699</font><br/>[<b>披露时间</b>] 2023-10-09 12:15:10 <br/>[<b>漏洞描述</b>] Improper Restriction of Excessive Authentication Attempts in RDT400 in SICK APUallows an unprivileged remote attacker to guess the password via trial-and-error as the login attemptsare not limited.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43699'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43699</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43698</font><br/>[<b>披露时间</b>] 2023-10-09 13:15:10 <br/>[<b>漏洞描述</b>] Improper Neutralization of Input During Web Page Generation (&acirc;&euro;&trade;Cross-site Scripting&acirc;&euro;&trade;) in RDT400 in SICK APU allows an unprivileged remote attacker to run arbitrary code in the clientsbrowser via injecting code into the website.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43698'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43698</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43697</font><br/>[<b>披露时间</b>] 2023-10-09 13:15:10 <br/>[<b>漏洞描述</b>] Modification of Assumed-Immutable Data (MAID) in RDT400 in SICK APU allows anunprivileged remote attacker to make the site unable to load necessary strings via changing file pathsusing HTTP requests.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43697'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43697</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43696</font><br/>[<b>披露时间</b>] 2023-10-09 12:15:10 <br/>[<b>漏洞描述</b>] Improper Access Control in SICK APU allows an unprivileged remote attacker todownload as well as upload arbitrary files via anonymous access to the FTP server.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43696'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43696</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
