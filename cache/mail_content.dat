@@ -1,13 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5562</font><br/>[<b>披露时间</b>] 2023-10-12 20:15:12 <br/>[<b>漏洞描述</b>] An unsafe default configuration in KNIME Analytics Platform before 5.2.0 allows for a cross-site scripting attack. When KNIME Analytics Platform is used as an executor for either KNIME Server or KNIME Business Hub several JavaScript-based view nodes do not sanitize the data that is displayed by default. If the data to be displayed contains JavaScript this code is executed in the browser and can perform any operations that the current user is allowed to perform silently.KNIME Analytics Platform already has configuration options with which sanitization of data can be actived, see  https://docs.knime.com/latest/webportal_admin_guide/index.html#html-sanitization-webportal https://docs.knime.com/latest/webportal_admin_guide/index.html#html-sanitization-webportal . However, these are off by default which allows for cross-site scripting attacks.KNIME Analytics Platform 5.2.0 will enable sanitization by default. For all previous releases we recommend users to add the corresponding settings to the executor's knime.ini.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5562'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5562</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35654</font><br/>[<b>披露时间</b>] 2023-10-18 20:17:24<br/>[<b>漏洞描述</b>] GOOGLE ANDROID Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bbee65651f8b409aa4497ddc561132b4'>https://redqueen.tj-un.com/IntelDetails.html?id=bbee65651f8b409aa4497ddc561132b4</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22072</font><br/>[<b>披露时间</b>] 2023-10-19 00:11:31<br/>[<b>漏洞描述</b>] Oracle WebLogic Server 远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9601'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9601</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
