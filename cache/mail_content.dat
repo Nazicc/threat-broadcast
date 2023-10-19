@@ -1,12 +1,16 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">6</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5591</font><br/>[<b>披露时间</b>] 2023-10-16 01:15:09 <br/>[<b>漏洞描述</b>] SQL Injection in GitHub repository librenms/librenms prior to 23.10.0.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5591'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5591</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5590</font><br/>[<b>披露时间</b>] 2023-10-15 23:15:44 <br/>[<b>漏洞描述</b>] NULL Pointer Dereference in GitHub repository seleniumhq/selenium prior to 4.14.0.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5590'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5590</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41681</font><br/>[<b>披露时间</b>] 2023-10-19 20:17:58<br/>[<b>漏洞描述</b>] FORTINET FORTISANDBOX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ff0a096422df456aad5ce27add170c16'>https://redqueen.tj-un.com/IntelDetails.html?id=ff0a096422df456aad5ce27add170c16</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38000</font><br/>[<b>披露时间</b>] 2023-10-19 20:17:58<br/>[<b>漏洞描述</b>] WORDPRESS Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f5bbb62afaf646d0a95ef595cb8c1a59'>https://redqueen.tj-un.com/IntelDetails.html?id=f5bbb62afaf646d0a95ef595cb8c1a59</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41836</font><br/>[<b>披露时间</b>] 2023-10-19 20:17:57<br/>[<b>漏洞描述</b>] FORTINET FORTISANDBOX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e752f802062f443ca04c892c2a031d40'>https://redqueen.tj-un.com/IntelDetails.html?id=e752f802062f443ca04c892c2a031d40</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41680</font><br/>[<b>披露时间</b>] 2023-10-19 20:17:57<br/>[<b>漏洞描述</b>] FORTINET FORTISANDBOX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bcdf5245aed34891a5d1f7b5a442f8b0'>https://redqueen.tj-un.com/IntelDetails.html?id=bcdf5245aed34891a5d1f7b5a442f8b0</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41843</font><br/>[<b>披露时间</b>] 2023-10-19 20:17:57<br/>[<b>漏洞描述</b>] FORTINET FORTISANDBOX Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7201a7a4145942289e58abc717399f4f'>https://redqueen.tj-un.com/IntelDetails.html?id=7201a7a4145942289e58abc717399f4f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36839</font><br/>[<b>披露时间</b>] 2023-10-19 20:17:57<br/>[<b>漏洞描述</b>] JUNIPER Multiple product Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=115eb8aac01c4880826bfb167d86c2f9'>https://redqueen.tj-un.com/IntelDetails.html?id=115eb8aac01c4880826bfb167d86c2f9</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
