@@ -1,17 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78238 (CVE-2023-45984)</font><br/>[<b>披露时间</b>] 2023-10-19 10:37:50<br/>[<b>漏洞描述</b>] TOTOLINK X5000R和A7000R setLanguageCfg函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78238'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78238</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78237 (CVE-2023-45985)</font><br/>[<b>披露时间</b>] 2023-10-19 10:37:52<br/>[<b>漏洞描述</b>] TOTOLINK X5000R和A7000R setParentalRules函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78237'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78237</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78236 (CVE-2023-36947)</font><br/>[<b>披露时间</b>] 2023-10-19 10:37:54<br/>[<b>漏洞描述</b>] TOTOLINK X5000R和A7000R UploadCustomModule函数堆栈溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78236'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78236</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78232 (CVE-2023-43071)</font><br/>[<b>披露时间</b>] 2023-10-19 10:37:57<br/>[<b>漏洞描述</b>] Dell SmartFabric Storage Software HTML注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78232'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78232</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78231 (CVE-2023-43069)</font><br/>[<b>披露时间</b>] 2023-10-19 10:37:59<br/>[<b>漏洞描述</b>] Dell SmartFabric Storage Software操作系统命令注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78231'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78231</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78233 (CVE-2023-32483)</font><br/>[<b>披露时间</b>] 2023-10-19 10:38:01<br/>[<b>漏洞描述</b>] Dell Wyse Management Suite信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78233'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78233</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78234 (CVE-2023-32481)</font><br/>[<b>披露时间</b>] 2023-10-19 10:38:03<br/>[<b>漏洞描述</b>] Dell Wyse Management Suite拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78234'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78234</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78239 (CVE-2023-44116)</font><br/>[<b>披露时间</b>] 2023-10-19 11:37:29<br/>[<b>漏洞描述</b>] Huawei HarmonyOS和EMUI APPWidget模块授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78239'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78239</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78240 (CVE-2023-44108)</font><br/>[<b>披露时间</b>] 2023-10-19 11:37:31<br/>[<b>漏洞描述</b>] Huawei HarmonyOS和EMUI类型混肴漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78240'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78240</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
