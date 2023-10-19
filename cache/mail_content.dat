@@ -1,12 +1,12 @@
 
 <h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78239 (CVE-2023-44116)</font><br/>[<b>披露时间</b>] 2023-10-19 11:37:29<br/>[<b>漏洞描述</b>] Huawei HarmonyOS和EMUI APPWidget模块授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78239'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78239</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-78240 (CVE-2023-44108)</font><br/>[<b>披露时间</b>] 2023-10-19 11:37:31<br/>[<b>漏洞描述</b>] Huawei HarmonyOS和EMUI类型混肴漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-78240'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-78240</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5591</font><br/>[<b>披露时间</b>] 2023-10-16 01:15:09 <br/>[<b>漏洞描述</b>] SQL Injection in GitHub repository librenms/librenms prior to 23.10.0.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5591'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5591</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5590</font><br/>[<b>披露时间</b>] 2023-10-15 23:15:44 <br/>[<b>漏洞描述</b>] NULL Pointer Dereference in GitHub repository seleniumhq/selenium prior to 4.14.0.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5590'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5590</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
