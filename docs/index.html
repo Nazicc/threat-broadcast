@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-10-22 16:40:21 -->
+<!-- RELEASE TIME : 2023-10-22 18:39:52 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">917c5389e8122c32bd70dc4828296af9</td>
+       <td>CVE-2023-46301</td>
+       <td>2023-10-22 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>iTerm2 before 3.4.20 allow (potentially remote) code execution because of mishandling of certain escape sequences related to upload.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-46301">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">591d5bb3b6fa5bac01cf3b9bda1f8165</td>
+       <td>CVE-2023-46300</td>
+       <td>2023-10-22 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>iTerm2 before 3.4.20 allow (potentially remote) code execution because of mishandling of certain escape sequences related to tmux integration.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-46300">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9102aa9f1d41c2f0961ec752e8dc09c2</td>
+       <td>CVE-2023-46298</td>
+       <td>2023-10-22 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>Next.js before 13.4.20-canary.13 lacks a cache-control header and thus empty prefetch responses may sometimes be cached by a CDN, causing a denial of service to all users requesting the same URL via that CDN.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-46298">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">011819c0fc180c5b471b1aea23f81b79</td>
+       <td>CVE-2023-38735</td>
+       <td>2023-10-22 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Cognos Dashboards on Cloud Pak for Data 4.7.0 could allow a remote attacker to bypass security restrictions, caused by a reverse tabnabbing flaw. An attacker could exploit this vulnerability and redirect a victim to a phishing site. IBM X-Force ID: 262482.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38735">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1803c5bdb441c0c9c1c6e5c07cb226b7</td>
+       <td>CVE-2023-38276</td>
+       <td>2023-10-22 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Cognos Dashboards on Cloud Pak for Data 4.7.0 exposes sensitive information in environment variables which could aid in further attacks against the system. IBM X-Force ID: 260736.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38276">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">142326c8cdca4dc90f5bbf232962bf93</td>
+       <td>CVE-2023-38275</td>
+       <td>2023-10-22 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Cognos Dashboards on Cloud Pak for Data 4.7.0 exposes sensitive information in container images which could lead to further attacks against the system. IBM X-Force ID: 260730.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-38275">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">29a2d626b1786cc056e1077b594cd997</td>
+       <td>CVE-2023-46078</td>
+       <td>2023-10-21 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-Site Request Forgery (CSRF) vulnerability in PluginEver WC Serial Numbers plugin <= 1.6.3 versions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-46078">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">98062a523200a79a158853a75e3818b5</td>
        <td>CVE-2023-46067</td>
        <td>2023-10-21 21:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2023-10-19 02:15:00</td>
        <td>The Booster for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'wcj_image' shortcode in versions up to, and including, 7.1.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-5638">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f7b7c6386d64fffe0fd2e986a9a97b3</td>
-       <td>CVE-2023-5336</td>
-       <td>2023-10-19 02:15:00</td>
-       <td>The iPanorama 360 – WordPress Virtual Tour Builder plugin for WordPress is vulnerable to SQL Injection via the plugin's shortcode in versions up to, and including, 1.8.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers with contributor-level and above permissions to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-5336">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0818df337bca83e1d26b566ee30b5538</td>
-       <td>CVE-2023-4645</td>
-       <td>2023-10-19 02:15:00</td>
-       <td>The Ad Inserter for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 2.7.30 via the ai_ajax function. This can allow unauthenticated attackers to extract sensitive data such as post titles and slugs (including those of protected posts along with their passwords), usernames, available roles, the plugin license key provided the remote debugging option is enabled. In the default state it is disabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-4645">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e0730b3a3719b7f10c8085e4fe3b70f3</td>
-       <td>CVE-2023-37504</td>
-       <td>2023-10-19 01:15:00</td>
-       <td>HCL Compass is vulnerable to failure to invalidate sessions. The application does not invalidate authenticated sessions when the log out functionality is called. If the session identifier can be discovered, it could be replayed to the application and used to impersonate the user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-37504">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f8c9039503194e5b19b69e5b121fd85a</td>
-       <td>CVE-2023-36857</td>
-       <td>2023-10-19 00:15:00</td>
-       <td>Baker Hughes – Bently Nevada 3500 System TDI Firmware version 5.05 contains a replay vulnerability which could allow an attacker to replay older captured packets of traffic to the device to gain access.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36857">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d5694a5b3a719605b5591f7f4c635fbc</td>
-       <td>CVE-2023-34441</td>
-       <td>2023-10-19 00:15:00</td>
-       <td>Baker Hughes – Bently Nevada 3500 System TDI Firmware version 5.05 contains a cleartext transmission vulnerability which could allow an attacker to steal the authentication secret from communication traffic to the device and reuse it for arbitrary requests.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34441">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">795f55560a8ef25882d586928779774c</td>
-       <td>CVE-2023-34437</td>
-       <td>2023-10-19 00:15:00</td>
-       <td>Baker Hughes – Bently Nevada 3500 System TDI Firmware version 5.05 contains a vulnerability in their password retrieval functionality which could allow an attacker to access passwords stored on the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-34437">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b3d424dfb3301cac64d0d55d0e0c73fd</td>
-       <td>CVE-2023-45909</td>
-       <td>2023-10-18 23:15:00</td>
-       <td>zzzcms v2.2.0 was discovered to contain an open redirect vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-45909">详情</a></td>
       </tr>
 
      </tbody>
