@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
+    <li><font color="red">5</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-10-23 07:15:02<br/>[<b>漏洞描述</b>] 安全事件周报 2023-10-16 第42周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=65361d0eea0822e915605e37'>https://cert.360.cn/warning/detail?id=65361d0eea0822e915605e37</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20198</font><br/>[<b>披露时间</b>] 2023-10-18 00:01:35<br/>[<b>漏洞描述</b>] Cisco IOS XE Web UI 存在权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9578'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9578</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-79711 (CVE-2023-40682)</font><br/>[<b>披露时间</b>] 2023-10-23 09:37:18<br/>[<b>漏洞描述</b>] IBM App Connect Enterprise信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-79711'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-79711</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-79712 (CVE-2023-45176)</font><br/>[<b>披露时间</b>] 2023-10-23 09:37:20<br/>[<b>漏洞描述</b>] IBM App Connect Enterprise and IBM Integration Bus拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-79712'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-79712</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-79713 (CVE-2023-35900)</font><br/>[<b>披露时间</b>] 2023-10-23 09:37:27<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-79713'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-79713</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-79714 (CVE-2023-35901)</font><br/>[<b>披露时间</b>] 2023-10-23 09:37:29<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-79714'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-79714</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-79715 (CVE-2022-46773)</font><br/>[<b>披露时间</b>] 2023-10-23 09:37:31<br/>[<b>漏洞描述</b>] IBM Robotic Process Automation授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-79715'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-79715</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
