@@ -1,11 +1,13 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5621</font><br/>[<b>披露时间</b>] 2023-10-18 08:15:08 <br/>[<b>漏洞描述</b>] The Thumbnail Slider With Lightbox plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Image Title field in versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5621'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5621</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22079</font><br/>[<b>披露时间</b>] 2023-10-25 20:18:56<br/>[<b>漏洞描述</b>] ORACLE MYSQL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=50811ece98674c6ea840abcae3708dfa'>https://redqueen.tj-un.com/IntelDetails.html?id=50811ece98674c6ea840abcae3708dfa</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22068</font><br/>[<b>披露时间</b>] 2023-10-25 20:18:56<br/>[<b>漏洞描述</b>] ORACLE MYSQL Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=115748aa6d794c1398bdcb7697af143f'>https://redqueen.tj-un.com/IntelDetails.html?id=115748aa6d794c1398bdcb7697af143f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39276</font><br/>[<b>披露时间</b>] 2023-10-25 20:18:55<br/>[<b>漏洞描述</b>] SONICWALL SONICOS Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=81504a61b00c4a0cb9a99eb219ad291d'>https://redqueen.tj-un.com/IntelDetails.html?id=81504a61b00c4a0cb9a99eb219ad291d</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
