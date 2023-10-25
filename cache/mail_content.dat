@@ -1,18 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">6</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">5</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1687513</font><br/>[<b>披露时间</b>] 2023-10-25 05:37:16<br/>[<b>漏洞描述</b>] Apache ActiveMQ远程代码执行漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1687513'>https://avd.aliyun.com/detail?id=AVD-2023-1687513</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5642</font><br/>[<b>披露时间</b>] 2023-10-18 16:15:08 <br/>[<b>漏洞描述</b>] Advantech R-SeeNet v2.4.23 allows an unauthenticated remote attacker to read from and write to the snmpmon.ini file, which contains sensitive information.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5642'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5642</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5631</font><br/>[<b>披露时间</b>] 2023-10-18 15:15:08 <br/>[<b>漏洞描述</b>] Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attackerto load arbitrary JavaScript code.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5631'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5631</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5626</font><br/>[<b>披露时间</b>] 2023-10-18 00:15:10 <br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) in GitHub repository pkp/ojs prior to 3.3.0-16.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5626'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5626</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5552</font><br/>[<b>披露时间</b>] 2023-10-18 00:15:10 <br/>[<b>漏洞描述</b>] A password disclosure vulnerability in the Secure PDF eXchange (SPX) feature allows attackers with full email access to decrypt PDFs in Sophos Firewall version 19.5 MR3 (19.5.3) and older, if the password type is set to &acirc;&euro;&oelig;Specified by sender&acirc;&euro;&#65533;.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5552'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5552</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5538</font><br/>[<b>披露时间</b>] 2023-10-18 05:15:08 <br/>[<b>漏洞描述</b>] The MpOperationLogs plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the IP Request Headers in versions up to, and including, 1.0.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5538'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5538</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1686894</font><br/>[<b>披露时间</b>] 2023-10-18 06:38:31<br/>[<b>漏洞描述</b>] Yongyou U8cloud FileManageServlet 反序列化代码执行漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1686894'>https://avd.aliyun.com/detail?id=AVD-2023-1686894</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1686873</font><br/>[<b>披露时间</b>] 2023-10-18 06:38:31<br/>[<b>漏洞描述</b>] Yongyou U8cloud LoginVideoServlet 反序列化代码执行漏洞
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1686873'>https://avd.aliyun.com/detail?id=AVD-2023-1686873</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
