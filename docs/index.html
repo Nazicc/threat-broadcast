@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-10-25 11:40:03 -->
+<!-- RELEASE TIME : 2023-10-25 12:55:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -2468,6 +2468,14 @@
       </tr>
 
       <tr>
+       <td scope="row">8705433becdcbc9e18ef1a391d29c003</td>
+       <td>CVE-2023-5621</td>
+       <td>2023-10-18 08:15:08 </td>
+       <td>The Thumbnail Slider With Lightbox plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Image Title field in versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5621">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">633de505e53bbe56ebd316eaf0b24def</td>
        <td>CVE-2023-5538</td>
        <td>2023-10-18 05:15:08 </td>
@@ -2681,14 +2689,6 @@
        <td>2023-10-16 22:15:12 </td>
        <td>Discourse is an open source platform for community discussion. A malicious request can cause production log files to quickly fill up and thus result in the server running out of disk space. This problem has been patched in the 3.1.1 stable and 3.2.0.beta2 versions of Discourse. It is possible to temporarily work around this problem by reducing the `client_max_body_size nginx directive`. `client_max_body_size` will limit the size of uploads that can be uploaded directly to the server.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-44388">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0c7e21ea13136ff16f59c78cc6692970</td>
-       <td>CVE-2023-45807</td>
-       <td>2023-10-16 22:15:12 </td>
-       <td>OpenSearch is a community-driven, open source fork of Elasticsearch and Kibana following the license change in early 2021. There is an issue with the implementation of tenant permissions in OpenSearch Dashboards where authenticated users with read-only access to a tenant can perform create, edit and delete operations on index metadata of dashboards and visualizations in that tenant, potentially rendering them unavailable. This issue does not affect index data, only metadata. Dashboards correctly enforces read-only permissions when indexing and updating documents. This issue does not provide additional read access to data users don&acirc;&euro;&trade;t already have. This issue can be mitigated by disabling the tenants functionality for the cluster. Versions 1.3.14 and 2.11.0 contain a fix for this issue.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-45807">详情</a></td>
       </tr>
 
      </tbody>
