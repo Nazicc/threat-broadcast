@@ -1,16 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">5</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
     <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-80558 (CVE-2006-20001)</font><br/>[<b>披露时间</b>] 2023-10-25 08:38:34<br/>[<b>漏洞描述</b>] Apache HTTP Server缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-80558'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-80558</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-80559 (CVE-2023-43668)</font><br/>[<b>披露时间</b>] 2023-10-25 08:38:37<br/>[<b>漏洞描述</b>] Apache InLong代码问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-80559'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-80559</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-80560 (CVE-2023-43666)</font><br/>[<b>披露时间</b>] 2023-10-25 08:38:39<br/>[<b>漏洞描述</b>] Apache InLong数据伪造问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-80560'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-80560</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-80561 (CVE-2023-42792)</font><br/>[<b>披露时间</b>] 2023-10-25 08:38:41<br/>[<b>漏洞描述</b>] Apache Airflow授权问题漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-80561'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-80561</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-10-25 08:36:45<br/>[<b>漏洞描述</b>] Apache ActiveMQ远程代码执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6538d303ea0822e915605e5d'>https://cert.360.cn/warning/detail?id=6538d303ea0822e915605e5d</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-34051</font><br/>[<b>披露时间</b>] 2023-10-25 09:06:59<br/>[<b>漏洞描述</b>] CVE-2023-34051：VMware Aria Operations for Logs身份验证绕过漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6538da73ea0822e915605e63'>https://cert.360.cn/warning/detail?id=6538da73ea0822e915605e63</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
