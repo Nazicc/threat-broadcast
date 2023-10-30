@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-10-30 03:40:10 -->
+<!-- RELEASE TIME : 2023-10-30 05:40:52 -->
 <html lang="zh-cn">
 
  <head>
@@ -1476,6 +1476,14 @@
       </tr>
 
       <tr>
+       <td scope="row">ddb6d17e57bc355e6c0c8d9bdfcf10ae</td>
+       <td>CVE-2023-46747</td>
+       <td>2023-10-28 00:11:25</td>
+       <td>F5 BIG-IP 存在远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9699">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">29c5f156457bb451ca569413d6c45dab</td>
        <td>CVE-2023-42793</td>
        <td>2023-10-24 00:11:25</td>
@@ -1689,14 +1697,6 @@
        <td>2023-09-08 00:01:42</td>
        <td>MobileIron Sentry /mics/services/MICSLogService 存在命令执行漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9302">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8dd71db15c0538096de5bd069e8f947e</td>
-       <td>CVE-2023-3452</td>
-       <td>2023-09-08 00:01:41</td>
-       <td>Wordpress Canto 插件远程文件包含漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9301">详情</a></td>
       </tr>
 
      </tbody>
@@ -2524,6 +2524,38 @@
       </tr>
 
       <tr>
+       <td scope="row">261ca09f230baedddf4a0f6589e97037</td>
+       <td>CVE-2023-46319</td>
+       <td>2023-10-23 00:15:08 </td>
+       <td>WALLIX Bastion 9.x before 9.0.9 and 10.x before 10.0.5 allows unauthenticated access to sensitive information by bypassing access control on a network access administration web interface.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46319">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fdbb295990e2d6b80ad813bffd456f21</td>
+       <td>CVE-2023-46303</td>
+       <td>2023-10-22 18:15:08 </td>
+       <td>link_to_local_path in ebooks/conversion/plugins/html_input.py in calibre before 6.19.0 can, by default, add resources outside of the document root.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46303">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8f050fd509bedf004f0c6fbc60280c4c</td>
+       <td>CVE-2023-46298</td>
+       <td>2023-10-22 03:15:07 </td>
+       <td>Next.js before 13.4.20-canary.13 lacks a cache-control header and thus empty prefetch responses may sometimes be cached by a CDN, causing a denial of service to all users requesting the same URL via that CDN.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46298">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4ddb38114acfc5f2ae37d0e2ea6a5093</td>
+       <td>CVE-2023-4635</td>
+       <td>2023-10-21 08:15:08 </td>
+       <td>The EventON plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'tab' parameter in versions up to, and including, 2.2.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4635">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">902856d78a83174b74280d9c146db5bb</td>
        <td>CVE-2023-45682</td>
        <td>2023-10-21 00:15:09 </td>
@@ -2657,38 +2689,6 @@
        <td>2023-10-20 08:15:12 </td>
        <td>The BEAR for WordPress is vulnerable to Missing Authorization in versions up to, and including, 1.1.3.3. This is due to missing capability checks on the woobe_bulkoperations_delete function. This makes it possible for authenticated attackers, with subscriber access or higher, to delete products.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4924">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a46eeaa19e8118cf26f80d6104b2e071</td>
-       <td>CVE-2023-4923</td>
-       <td>2023-10-20 08:15:12 </td>
-       <td>The BEAR for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.1.3.3. This is due to missing or incorrect nonce validation on the woobe_bulkoperations_delete function. This makes it possible for unauthenticated attackers to delete products via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4923">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">456660dcd602d84c4af4bfd785da173c</td>
-       <td>CVE-2023-4021</td>
-       <td>2023-10-20 08:15:12 </td>
-       <td>The Modern Events Calendar lite plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Google API key and Calendar ID in versions up to, but not including, 7.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-4021">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d408a0277aa3b28a8b865f57b0f4f976</td>
-       <td>CVE-2023-3998</td>
-       <td>2023-10-20 08:15:12 </td>
-       <td>The wpDiscuz plugin for WordPress is vulnerable to unauthorized modification of data due to a missing authorization check on the userRate function in versions up to, and including, 7.6.3. This makes it possible for unauthenticated attackers to increase or decrease the rating of a post.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3998">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3237028aa824a64c58e9acef30a40bcf</td>
-       <td>CVE-2023-3996</td>
-       <td>2023-10-20 08:15:12 </td>
-       <td>The ARMember Lite - Membership Plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in versions up to, and including, 4.0.14 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-3996">详情</a></td>
       </tr>
 
      </tbody>
