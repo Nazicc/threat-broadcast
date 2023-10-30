@@ -1,11 +1,22 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">12</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">12</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43066</font><br/>[<b>披露时间</b>] 2023-10-23 16:15:09 <br/>[<b>漏洞描述</b>] Dell Unity prior to 5.3 contains a Restricted Shell Bypass vulnerability. This could allow an authenticated, local attacker to exploit this vulnerability by authenticating to the device CLI and issuing certain commands.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43066'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-43066</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4661</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Saphira Connect SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85736'>http://www.nsfocus.net/vulndb/85736</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4673</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Sanalogy Turasistan SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85735'>http://www.nsfocus.net/vulndb/85735</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38912</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Super Store Finder SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85734'>http://www.nsfocus.net/vulndb/85734</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29499</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] GNOME glib2拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85733'>http://www.nsfocus.net/vulndb/85733</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42180</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Lenosp任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85732'>http://www.nsfocus.net/vulndb/85732</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4944</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] WordPress Awesome Weather Widget Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85731'>http://www.nsfocus.net/vulndb/85731</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-41155</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Webmin Usermin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85730'>http://www.nsfocus.net/vulndb/85730</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-38215</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Adobe Experience Manager跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85729'>http://www.nsfocus.net/vulndb/85729</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4153</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] WordPress BAN Users plugin权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85728'>http://www.nsfocus.net/vulndb/85728</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-39208</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] Zoom Client输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85727'>http://www.nsfocus.net/vulndb/85727</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-21522</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] BlackBerry AtHoc跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85726'>http://www.nsfocus.net/vulndb/85726</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-19318</font><br/>[<b>披露时间</b>] 2023-10-27 03:39:57<br/>[<b>漏洞描述</b>] D-Link DIR-605L越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/85725'>http://www.nsfocus.net/vulndb/85725</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
