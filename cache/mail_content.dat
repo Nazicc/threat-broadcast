@@ -1,14 +1,14 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82069 (CVE-2023-21285)</font><br/>[<b>披露时间</b>] 2023-10-31 08:37:51<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82069'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82069</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82068 (CVE-2023-21273)</font><br/>[<b>披露时间</b>] 2023-10-31 08:37:53<br/>[<b>漏洞描述</b>] Google Android代码执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82068'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82068</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82067 (CVE-2023-21272)</font><br/>[<b>披露时间</b>] 2023-10-31 08:37:56<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82067'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82067</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82066 (CVE-2023-20965)</font><br/>[<b>披露时间</b>] 2023-10-31 08:37:58<br/>[<b>漏洞描述</b>] Google Android权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82066'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82066</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22518</font><br/>[<b>披露时间</b>] 2023-10-31 09:37:20<br/>[<b>漏洞描述</b>] Atlassian Confluence 权限绕过致代码执行漏洞（CVE-2023-22518）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-22518'>https://avd.aliyun.com/detail?id=AVD-2023-22518</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82065 (CVE-2023-21271)</font><br/>[<b>披露时间</b>] 2023-10-31 09:37:57<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82065'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82065</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
