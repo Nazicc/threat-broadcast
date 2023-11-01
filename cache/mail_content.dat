@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://nvd.nist.gov/">美国国家漏洞数据库（NVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46074</font><br/>[<b>披露时间</b>] 2023-10-26 12:15:08 <br/>[<b>漏洞描述</b>] Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Borbis Media FreshMail For WordPress plugin &lt;=&Acirc;&nbsp;2.3.2 versions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46074'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46074</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46067</font><br/>[<b>披露时间</b>] 2023-10-21 21:15:08 <br/>[<b>漏洞描述</b>] Cross-Site Request Forgery (CSRF) vulnerability in Qwerty23 Rocket Font plugin &lt;=&Acirc;&nbsp;1.2.3 versions.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46067'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46067</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46059</font><br/>[<b>披露时间</b>] 2023-10-24 00:15:08 <br/>[<b>漏洞描述</b>] Cross Site Scripting (XSS) vulnerability in Geeklog-Core geeklog v.2.2.2 allows a remote attacker to execute arbitrary code via a crafted payload to the Service, and website URL to Ping parameters of the admin/trackback.php component.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46059'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46059</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46058</font><br/>[<b>披露时间</b>] 2023-10-24 00:15:08 <br/>[<b>漏洞描述</b>] Cross Site Scripting (XSS) vulnerability in Geeklog-Core geeklog v.2.2.2 allows a remote attacker to execute arbitrary code via a crafted payload to the grp_desc parameter of the admin/group.php component.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46058'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-46058</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 美国国家漏洞数据库（NVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5718</font><br/>[<b>披露时间</b>] 2023-10-23 15:15:09 <br/>[<b>漏洞描述</b>] The Vue.js Devtools extension was found to leak screenshot data back to a malicious web page via the standard `postMessage()` API. By creating a malicious web page with an iFrame targeting a sensitive resource (i.e. a locally accessible file or sensitive website), and registering a listener on the web page, the extension sent messages back to the listener, containing the base64 encoded screenshot data of the sensitive resource.<br/>[<b>相关链接</b>] <a href='https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5718'>https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5718</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
