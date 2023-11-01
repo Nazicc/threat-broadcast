@@ -1,13 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46303</font><br/>[<b>披露时间</b>] 2023-11-01 20:19:04<br/>[<b>漏洞描述</b>] CALIBRE-EBOOK CALIBRE Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e8d0a5ebf2fa47a79f654a042f34864e'>https://redqueen.tj-un.com/IntelDetails.html?id=e8d0a5ebf2fa47a79f654a042f34864e</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-44483</font><br/>[<b>披露时间</b>] 2023-11-01 20:19:04<br/>[<b>漏洞描述</b>] APACHE SANTUARIO_XML_SECURITY_FOR_JAVA Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=8f67c34e94c0465593933ff9250a399a'>https://redqueen.tj-un.com/IntelDetails.html?id=8f67c34e94c0465593933ff9250a399a</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5686</font><br/>[<b>披露时间</b>] 2023-11-01 20:19:03<br/>[<b>漏洞描述</b>] RADARE RADARE2 Vulnerability<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=654cc35db2d24cf79d3c0829ffd27df8'>https://redqueen.tj-un.com/IntelDetails.html?id=654cc35db2d24cf79d3c0829ffd27df8</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-81306</font><br/>[<b>披露时间</b>] 2023-11-02 16:40:26<br/>[<b>漏洞描述</b>] 福建省海峡信息技术有限公司Reporter系统存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-81306'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-81306</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-81307</font><br/>[<b>披露时间</b>] 2023-11-02 16:40:28<br/>[<b>漏洞描述</b>] 福建省海峡信息技术有限公司黑盾网络安全审计系统存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-81307'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-81307</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-81308</font><br/>[<b>披露时间</b>] 2023-11-02 16:40:30<br/>[<b>漏洞描述</b>] 福建省海峡信息技术有限公司黑盾网络安全审计系统存在命令执行漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-81308'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-81308</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82301 (CVE-2023-38423)</font><br/>[<b>披露时间</b>] 2023-11-01 16:40:33<br/>[<b>漏洞描述</b>] F5 BIG-IP跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82301'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82301</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82302 (CVE-2023-38418)</font><br/>[<b>披露时间</b>] 2023-11-01 16:40:35<br/>[<b>漏洞描述</b>] F5 BIG-IP (APM)权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82302'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82302</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82303 (CVE-2023-38419)</font><br/>[<b>披露时间</b>] 2023-11-01 16:40:37<br/>[<b>漏洞描述</b>] F5 BIG-IP和BIG-IQ Centralized Management拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82303'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82303</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-82304 (CVE-2023-3470)</font><br/>[<b>披露时间</b>] 2023-11-01 16:40:40<br/>[<b>漏洞描述</b>] F5 BIG-IP信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-82304'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-82304</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
