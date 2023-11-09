@@ -1,12 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1695055</font><br/>[<b>披露时间</b>] 2023-11-08 02:38:32<br/>[<b>漏洞描述</b>] IP-guard WebServer 远程命令执行漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1695055'>https://avd.aliyun.com/detail?id=AVD-2023-1695055</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-22518</font><br/>[<b>披露时间</b>] 2023-11-01 00:11:25<br/>[<b>漏洞描述</b>] Atlassian Confluence Data Center 与 Server 存在权限绕过漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9717'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9717</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
