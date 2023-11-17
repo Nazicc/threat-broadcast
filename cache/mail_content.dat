@@ -1,12 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5408</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Redhat Openshift_container_platform存在特权管理不恰当漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=54342f5b-0ce0-420d-9332-7fe56ab5d174'>https://redqueen.tj-un.com/IntelDetails.html?id=54342f5b-0ce0-420d-9332-7fe56ab5d174</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-36014</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Microsoft Edge_chromium存在安全漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e411ed48-d8ff-4e8a-9fea-d2b113a76832'>https://redqueen.tj-un.com/IntelDetails.html?id=e411ed48-d8ff-4e8a-9fea-d2b113a76832</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-87997 (CVE-2022-46096)</font><br/>[<b>披露时间</b>] 2023-11-18 16:43:19<br/>[<b>漏洞描述</b>] Covid-19 Directory on Vaccination System存在XSS漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-87997'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-87997</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
