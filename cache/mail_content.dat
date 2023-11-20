@@ -1,22 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">9</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
     <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43177</font><br/>[<b>披露时间</b>] 2023-11-18 07:37:18<br/>[<b>漏洞描述</b>] CrushFTP 远程代码执行漏洞（CVE-2023-43177）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-43177'>https://avd.aliyun.com/detail?id=AVD-2023-43177</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88037 (CVE-2023-35908)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:20<br/>[<b>漏洞描述</b>] Apache Airflow安全绕过漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88037'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88037</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88038 (CVE-2023-25754)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:22<br/>[<b>漏洞描述</b>] Apache Airflow权限提升漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88038'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88038</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88039 (CVE-2023-28706)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:24<br/>[<b>漏洞描述</b>] Apache Airflow Hive Provider代码注入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88039'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88039</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88040 (CVE-2023-25692)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:27<br/>[<b>漏洞描述</b>] Apache Airflow Google Provider输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88040'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88040</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88041 (CVE-2023-25691)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:29<br/>[<b>漏洞描述</b>] Apache Airflow Google Provider输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88041'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88041</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88042 (CVE-2023-25696)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:32<br/>[<b>漏洞描述</b>] Apache Airflow Hive Provider输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88042'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88042</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-88043 (CVE-2023-25693)</font><br/>[<b>披露时间</b>] 2023-11-20 07:37:34<br/>[<b>漏洞描述</b>] Apache Airflow Sqoop Provider输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-88043'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-88043</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-11-20 07:20:33<br/>[<b>漏洞描述</b>] 安全事件周报 2023-11-13 第46周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=655b08baea0822e915605f91'>https://cert.360.cn/warning/detail?id=655b08baea0822e915605f91</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46214</font><br/>[<b>披露时间</b>] 2023-11-17 08:39:19<br/>[<b>漏洞描述</b>] Splunk Enterprise XML Parsing 远程代码执行漏洞（CVE-2023-46214）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-46214'>https://avd.aliyun.com/detail?id=AVD-2023-46214</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
