@@ -1,19 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
-    <li><font color="red">6</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>AVD-2023-1697088</font><br/>[<b>披露时间</b>] 2023-11-21 03:37:37<br/>[<b>漏洞描述</b>] I Doc View 任意文件上传漏洞
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-1697088'>https://avd.aliyun.com/detail?id=AVD-2023-1697088</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-20005</font><br/>[<b>披露时间</b>] 2023-11-21 03:40:05<br/>[<b>漏洞描述</b>] Cisco Firepower Management Center跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86831'>http://www.nsfocus.net/vulndb/86831</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-3972</font><br/>[<b>披露时间</b>] 2023-11-21 03:40:05<br/>[<b>漏洞描述</b>] Red Hat Insights权限提升漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86830'>http://www.nsfocus.net/vulndb/86830</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33227</font><br/>[<b>披露时间</b>] 2023-11-21 03:40:05<br/>[<b>漏洞描述</b>] SolarWinds Network Configuration Manager路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86829'>http://www.nsfocus.net/vulndb/86829</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5606</font><br/>[<b>披露时间</b>] 2023-11-21 03:40:05<br/>[<b>漏洞描述</b>] WordPress ChatBot Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86828'>http://www.nsfocus.net/vulndb/86828</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-26452</font><br/>[<b>披露时间</b>] 2023-11-21 03:40:05<br/>[<b>漏洞描述</b>] Open-Xchange App SuiteSQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86827'>http://www.nsfocus.net/vulndb/86827</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-35896</font><br/>[<b>披露时间</b>] 2023-11-21 03:40:05<br/>[<b>漏洞描述</b>] IBM Content Navigator服务器端请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86826'>http://www.nsfocus.net/vulndb/86826</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-42362</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Wordpress_popular_posts_project Wordpress_popular_posts存在危险类型文件的不加限制上传漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=943aa6fd-c974-482d-a35b-0979177f72ac'>https://redqueen.tj-un.com/IntelDetails.html?id=943aa6fd-c974-482d-a35b-0979177f72ac</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
