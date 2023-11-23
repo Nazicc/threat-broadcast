@@ -1,12 +1,25 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-49103</font><br/>[<b>披露时间</b>] 2023-11-22 08:37:58<br/>[<b>漏洞描述</b>] OwnCloud 敏感信息泄漏漏洞（CVE-2023-49103）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2023-49103'>https://avd.aliyun.com/detail?id=AVD-2023-49103</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-44763</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] PortlandLabs Concrete CMS任意文件上传漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86971'>http://www.nsfocus.net/vulndb/86971</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30801</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] qBittorrent硬编码凭据使用漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86970'>http://www.nsfocus.net/vulndb/86970</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5499</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Reachfar GPS信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86969'>http://www.nsfocus.net/vulndb/86969</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4966</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Citrix Systems Citrix NetScaler ADC和NetScaler Gateway信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86968'>http://www.nsfocus.net/vulndb/86968</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-44487</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Apache HTTP/2不受控制的资源消耗漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86967'>http://www.nsfocus.net/vulndb/86967</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5450</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] F5 BIG-IP数据验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86966'>http://www.nsfocus.net/vulndb/86966</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45219</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] F5 BIG-IP信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86965'>http://www.nsfocus.net/vulndb/86965</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43787</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] X.Org libX11无限循环漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86964'>http://www.nsfocus.net/vulndb/86964</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43788</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] X.Org libX11越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86963'>http://www.nsfocus.net/vulndb/86963</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-44827</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Nature Easy Soft Network Technology ZenTao命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86962'>http://www.nsfocus.net/vulndb/86962</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-44959</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] D-Link DSL-3782命令注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86961'>http://www.nsfocus.net/vulndb/86961</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30802</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Sangfor Next-Gen Application Firewall信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86960'>http://www.nsfocus.net/vulndb/86960</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30803</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Sangfor Next-Gen Application Firewall身份认证绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86959'>http://www.nsfocus.net/vulndb/86959</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45204</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] Siemens Tecnomatix Plant Simulation类型混淆漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86958'>http://www.nsfocus.net/vulndb/86958</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-40537</font><br/>[<b>披露时间</b>] 2023-11-23 11:39:49<br/>[<b>漏洞描述</b>] F5 BIG-IP多款产品会话过期错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/86957'>http://www.nsfocus.net/vulndb/86957</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
