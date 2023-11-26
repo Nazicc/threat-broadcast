@@ -1,12 +1,18 @@
 
-<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">8</font>条：</h3>
 <ul>
-    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">8</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-21428</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Freeimage_project Freeimage存在经典缓冲区溢出漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f0716903-3ba4-4942-8812-1bf15360c192'>https://redqueen.tj-un.com/IntelDetails.html?id=f0716903-3ba4-4942-8812-1bf15360c192</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-21427</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Freeimage_project Freeimage存在经典缓冲区溢出漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=1e41a18a-9dd6-49db-bab3-ec9134e57453'>https://redqueen.tj-un.com/IntelDetails.html?id=1e41a18a-9dd6-49db-bab3-ec9134e57453</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-0813</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Phpmyadmin存在信息暴露漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=4b6de9df-f7bf-4d0b-a90b-bcce10446cd3'>https://redqueen.tj-un.com/IntelDetails.html?id=4b6de9df-f7bf-4d0b-a90b-bcce10446cd3</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1668</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Cloudbase等厂商的多款产品存在控制流实现总是不正确漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7ed14c8e-ac5e-462d-a093-ad45d1045d34'>https://redqueen.tj-un.com/IntelDetails.html?id=7ed14c8e-ac5e-462d-a093-ad45d1045d34</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4338</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Openvswitch等厂商的多款产品存在越界读取漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6305d88e-519e-403b-9240-6db49e8d42f5'>https://redqueen.tj-un.com/IntelDetails.html?id=6305d88e-519e-403b-9240-6db49e8d42f5</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-4337</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Openvswitch等厂商的多款产品存在越界读取漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=fc02467c-82d5-4eb7-95f5-4a457bd289b1'>https://redqueen.tj-un.com/IntelDetails.html?id=fc02467c-82d5-4eb7-95f5-4a457bd289b1</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-3905</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Openvswitch等厂商的多款产品存在内存泄露漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bf9dc9a6-f52a-43ce-a553-7e8cb332e44f'>https://redqueen.tj-un.com/IntelDetails.html?id=bf9dc9a6-f52a-43ce-a553-7e8cb332e44f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-35498</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Openvswitch等厂商的多款产品存在资源穷尽漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=0b25fde4-8f3c-4bda-84c0-0b3d586dcd2f'>https://redqueen.tj-un.com/IntelDetails.html?id=0b25fde4-8f3c-4bda-84c0-0b3d586dcd2f</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-27827</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Lldpd_project等厂商的多款产品存在资源穷尽漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=7e15f8a8-4e5c-46a2-96b9-d26f9e8c0d0a'>https://redqueen.tj-un.com/IntelDetails.html?id=7e15f8a8-4e5c-46a2-96b9-d26f9e8c0d0a</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-0950</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Libreoffice等厂商的多款产品存在数组索引验证不恰当漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=52ec84a3-6e1e-4231-bf6b-6f5c5adda4cf'>https://redqueen.tj-un.com/IntelDetails.html?id=52ec84a3-6e1e-4231-bf6b-6f5c5adda4cf</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
