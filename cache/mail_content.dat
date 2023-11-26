@@ -1,13 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">3</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">2</font>条：</h3>
 <ul>
-    <li><font color="red">3</font>条由 [<a href="https://www.tenable.com/">Tenable (Nessus)</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6293</font><br/>[<b>披露时间</b>] 2023-11-24 20:15:00<br/>[<b>漏洞描述</b>] Prototype Pollution in GitHub repository robinbuschmann/sequelize-typescript prior to 2.1.6.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-6293'>https://www.tenable.com/cve/CVE-2023-6293</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6277</font><br/>[<b>披露时间</b>] 2023-11-24 19:15:00<br/>[<b>漏洞描述</b>] An out-of-memory flaw was found in libtiff. Passing a crafted tiff file to TIFFOpen() API may allow a remote attacker to cause a denial of service via a craft input with size smaller than 379 KB.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-6277'>https://www.tenable.com/cve/CVE-2023-6277</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] Tenable (Nessus)<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-49298</font><br/>[<b>披露时间</b>] 2023-11-24 19:15:00<br/>[<b>漏洞描述</b>] OpenZFS through 2.1.13 and 2.2.x through 2.2.1, in certain scenarios involving applications that try to rely on efficient copying of file data, can replace file contents with zero-valued bytes and thus potentially disable security mechanisms. NOTE: this issue is not always security related, but can be security related in realistic situations. A possible example is cp, from a recent GNU Core Utilities (coreutils) version, when attempting to preserve a rule set for denying unauthorized access. (One might use cp when configuring access control, such as with the /etc/hosts.deny file specified in the IBM Support reference.) NOTE: this issue occurs less often in version 2.2.1, and in versions before 2.1.4, because of the default configuration in those versions.<br/>[<b>相关链接</b>] <a href='https://www.tenable.com/cve/CVE-2023-49298'>https://www.tenable.com/cve/CVE-2023-49298</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-21428</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Freeimage_project Freeimage存在经典缓冲区溢出漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=f0716903-3ba4-4942-8812-1bf15360c192'>https://redqueen.tj-un.com/IntelDetails.html?id=f0716903-3ba4-4942-8812-1bf15360c192</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2020-21427</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Freeimage_project Freeimage存在经典缓冲区溢出漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=1e41a18a-9dd6-49db-bab3-ec9134e57453'>https://redqueen.tj-un.com/IntelDetails.html?id=1e41a18a-9dd6-49db-bab3-ec9134e57453</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
