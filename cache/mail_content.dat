@@ -1,25 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">15</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27315</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] NetApp SnapGathers信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87161'>http://www.nsfocus.net/vulndb/87161</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5046</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] Biltay Technology Scienta SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87160'>http://www.nsfocus.net/vulndb/87160</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5045</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] Biltay Technology Scienta SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87159'>http://www.nsfocus.net/vulndb/87159</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43789</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] libXpm越界读取漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87158'>http://www.nsfocus.net/vulndb/87158</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5072</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] JSON-Java拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87157'>http://www.nsfocus.net/vulndb/87157</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45143</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] undici信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87156'>http://www.nsfocus.net/vulndb/87156</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45142</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] OpenTelemetry-Go Contrib拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87155'>http://www.nsfocus.net/vulndb/87155</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45138</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] Change Request跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87154'>http://www.nsfocus.net/vulndb/87154</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45133</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] Babel任意代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87153'>http://www.nsfocus.net/vulndb/87153</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43147</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] Limo Booking Software跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87152'>http://www.nsfocus.net/vulndb/87152</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-32634</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] SoftEther VPN身份认证绕过漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87151'>http://www.nsfocus.net/vulndb/87151</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-43149</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] SPA-Cart跨站请求伪造漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87150'>http://www.nsfocus.net/vulndb/87150</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27312</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] NetApp SnapCenter不必要权限执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87149'>http://www.nsfocus.net/vulndb/87149</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-27313</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] NetApp SnapCenter不必要权限执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87148'>http://www.nsfocus.net/vulndb/87148</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5562</font><br/>[<b>披露时间</b>] 2023-11-27 03:40:04<br/>[<b>漏洞描述</b>] Knime Analytics Platform跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87147'>http://www.nsfocus.net/vulndb/87147</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-11-27 07:37:27<br/>[<b>漏洞描述</b>] 安全事件周报 2023-11-20 第47周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=65644730ea0822e915605fe8'>https://cert.360.cn/warning/detail?id=65644730ea0822e915605fe8</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
