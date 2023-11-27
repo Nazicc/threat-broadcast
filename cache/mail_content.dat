@@ -1,14 +1,11 @@
 
-<h3>发现最新漏洞情报<font color="red">4</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">4</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://poc.shuziguanxing.com/">数字观星POC++</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5766</font><br/>[<b>披露时间</b>] 2023-11-27 11:39:42<br/>[<b>漏洞描述</b>] Devolutions Remote Desktop Manager远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87217'>http://www.nsfocus.net/vulndb/87217</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-33226</font><br/>[<b>披露时间</b>] 2023-11-27 11:39:42<br/>[<b>漏洞描述</b>] SolarWinds Network Configuration Manager路径遍历漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87216'>http://www.nsfocus.net/vulndb/87216</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48461</font><br/>[<b>披露时间</b>] 2023-11-27 11:39:42<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87215'>http://www.nsfocus.net/vulndb/87215</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48455</font><br/>[<b>披露时间</b>] 2023-11-27 11:39:42<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87214'>http://www.nsfocus.net/vulndb/87214</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 数字观星POC++<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-48796</font><br/>[<b>披露时间</b>] 2023-11-28 00:01:43<br/>[<b>漏洞描述</b>] Apache DolphinScheduler 信息泄漏漏洞<br/>[<b>相关链接</b>] <a href='https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9923'>https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=9923</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
