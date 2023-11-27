@@ -1,11 +1,17 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">7</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">7</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'></font><br/>[<b>披露时间</b>] 2023-11-27 07:37:27<br/>[<b>漏洞描述</b>] 安全事件周报 2023-11-20 第47周<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=65644730ea0822e915605fe8'>https://cert.360.cn/warning/detail?id=65644730ea0822e915605fe8</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91787 (CVE-2023-47070)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:11<br/>[<b>漏洞描述</b>] Adobe After Effects越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91787'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91787</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91788 (CVE-2023-47068)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:14<br/>[<b>漏洞描述</b>] Adobe After Effects越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91788'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91788</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91789 (CVE-2023-47072)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:16<br/>[<b>漏洞描述</b>] Adobe After Effects未初始化指针访问漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91789'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91789</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91790 (CVE-2023-47073)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:18<br/>[<b>漏洞描述</b>] Adobe After Effects越界写入漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91790'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91790</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91791 (CVE-2023-47069)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:21<br/>[<b>漏洞描述</b>] Adobe After Effects越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91791'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91791</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91792 (CVE-2023-47071)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:23<br/>[<b>漏洞描述</b>] Adobe After Effects越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91792'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91792</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91793 (CVE-2023-47066)</font><br/>[<b>披露时间</b>] 2023-11-27 08:39:25<br/>[<b>漏洞描述</b>] Adobe After Effects越界读取漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91793'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91793</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
