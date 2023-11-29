@@ -1,20 +1,12 @@
 
-<h3>发现最新漏洞情报<font color="red">10</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">10</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6207</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Mozilla等厂商的多款产品存在释放后使用漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6ead2b39-e631-4090-ba0e-9c83cc2cef4c'>https://redqueen.tj-un.com/IntelDetails.html?id=6ead2b39-e631-4090-ba0e-9c83cc2cef4c</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6208</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Mozilla等厂商的多款产品存在漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=bc6692eb-ffa9-4124-8cd6-f57a80f0c915'>https://redqueen.tj-un.com/IntelDetails.html?id=bc6692eb-ffa9-4124-8cd6-f57a80f0c915</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6212</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Mozilla等厂商的多款产品存在跨界内存写漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b0562ea8-a38e-4390-a970-4ce48c2bdf21'>https://redqueen.tj-un.com/IntelDetails.html?id=b0562ea8-a38e-4390-a970-4ce48c2bdf21</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6213</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Mozilla Firefox存在跨界内存写漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=2e10e5d7-f907-4c1f-a090-e95ceda39520'>https://redqueen.tj-un.com/IntelDetails.html?id=2e10e5d7-f907-4c1f-a090-e95ceda39520</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5465</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Gopiplus Popup_with_fancybox存在SQL注入漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=e8f2d92a-4599-49a7-9689-49dec94e5cab'>https://redqueen.tj-un.com/IntelDetails.html?id=e8f2d92a-4599-49a7-9689-49dec94e5cab</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5466</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Gopiplus Wp_anything_slider存在SQL注入漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=a87a63b2-e435-48c0-8e6d-e6dfbf7a1c33'>https://redqueen.tj-un.com/IntelDetails.html?id=a87a63b2-e435-48c0-8e6d-e6dfbf7a1c33</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6023</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Vertaai Modeldb存在路径遍历漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b67d562d-4ea9-441a-8022-dfd367fc1809'>https://redqueen.tj-un.com/IntelDetails.html?id=b67d562d-4ea9-441a-8022-dfd367fc1809</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5178</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Linux等厂商的多款产品存在释放后使用漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=21843f42-757c-48d7-8147-3cc1fe12a6ca'>https://redqueen.tj-un.com/IntelDetails.html?id=21843f42-757c-48d7-8147-3cc1fe12a6ca</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46402</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Git-urls_project Git-urls存在低效的正则表达式复杂性漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=223185b4-7313-463a-9b7e-ee2a1b90229d'>https://redqueen.tj-un.com/IntelDetails.html?id=223185b4-7313-463a-9b7e-ee2a1b90229d</a>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42753</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Debian等厂商的多款产品存在跨界内存写漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=ad9cfd27-c11e-4a2d-8861-ac1036b32385'>https://redqueen.tj-un.com/IntelDetails.html?id=ad9cfd27-c11e-4a2d-8861-ac1036b32385</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41678</font><br/>[<b>披露时间</b>] 2023-11-29 02:41:26<br/>[<b>漏洞描述</b>] Apache ActiveMQ jolokia 反序列化漏洞（CVE-2022-41678）
+                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-41678'>https://avd.aliyun.com/detail?id=AVD-2022-41678</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
