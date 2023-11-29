@@ -1,12 +1,27 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">16</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://avd.aliyun.com/">阿里云</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 阿里云<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41678</font><br/>[<b>披露时间</b>] 2023-11-29 08:38:30<br/>[<b>漏洞描述</b>] Apache ActiveMQ jolokia 代码执行漏洞（CVE-2022-41678）
-                        <br/>[<b>相关链接</b>] <a href='https://avd.aliyun.com/detail?id=AVD-2022-41678'>https://avd.aliyun.com/detail?id=AVD-2022-41678</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-6345</font><br/>[<b>披露时间</b>] 2023-11-29 08:48:43<br/>[<b>漏洞描述</b>] CVE-2023-6345：Google Chrome skia整数溢出漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6566faebea0822e915606008'>https://cert.360.cn/warning/detail?id=6566faebea0822e915606008</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4798</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Testimonial Slider Shortcode Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87344'>http://www.nsfocus.net/vulndb/87344</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4795</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Testimonial Slider Shortcode Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87343'>http://www.nsfocus.net/vulndb/87343</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4783</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Magee Shortcodes Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87342'>http://www.nsfocus.net/vulndb/87342</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4776</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress School Management System Plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87341'>http://www.nsfocus.net/vulndb/87341</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4725</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Simple Posts Ticker Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87340'>http://www.nsfocus.net/vulndb/87340</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4691</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Online Booking and Scheduling Plugin SQL注入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87339'>http://www.nsfocus.net/vulndb/87339</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4666</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Form Maker by 10Web Plugin远程代码执行漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87338'>http://www.nsfocus.net/vulndb/87338</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4646</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Simple Posts Ticker Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87337'>http://www.nsfocus.net/vulndb/87337</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4643</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress EventON Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87336'>http://www.nsfocus.net/vulndb/87336</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5089</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Defender Security Plugin信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87335'>http://www.nsfocus.net/vulndb/87335</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5087</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Page Builder: Pagelayer Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87334'>http://www.nsfocus.net/vulndb/87334</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5057</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress ActivityPub Plugin跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87333'>http://www.nsfocus.net/vulndb/87333</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5003</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Active Directory Integration / LDAP Integration信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87332'>http://www.nsfocus.net/vulndb/87332</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-4971</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] WordPress Weaver Xtreme Theme Support Plugin不受信数据反序列化漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87331'>http://www.nsfocus.net/vulndb/87331</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-45542</font><br/>[<b>披露时间</b>] 2023-11-29 09:39:55<br/>[<b>漏洞描述</b>] mooSocial跨站脚本漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87330'>http://www.nsfocus.net/vulndb/87330</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
