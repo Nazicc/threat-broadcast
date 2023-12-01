@@ -1,11 +1,11 @@
 
 <h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://cert.360.cn/warning">360 网络安全响应中心</a>] 提供</li>
+    <li><font color="red">1</font>条由 [<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台（CNVD）</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 360 网络安全响应中心<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-41678</font><br/>[<b>披露时间</b>] 2023-12-01 09:30:27<br/>[<b>漏洞描述</b>] CVE-2022-41678：Apache ActiveMQ Jolokia 远程代码执行漏洞通告<br/>[<b>相关链接</b>] <a href='https://cert.360.cn/warning/detail?id=6569a79cea0822e91560602d'>https://cert.360.cn/warning/detail?id=6569a79cea0822e91560602d</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 国家信息安全漏洞共享平台（CNVD）<br/>[<b>漏洞编号</b>] <font color='blue'>CNVD-2023-91706</font><br/>[<b>披露时间</b>] 2023-12-02 16:41:01<br/>[<b>漏洞描述</b>] 用友UAP系统存在信息泄露漏洞<br/>[<b>相关链接</b>] <a href='https://www.cnvd.org.cn/flaw/show/CNVD-2023-91706'>https://www.cnvd.org.cn/flaw/show/CNVD-2023-91706</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
