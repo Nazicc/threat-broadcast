@@ -1,11 +1,28 @@
 
-<h3>发现最新漏洞情报<font color="red">1</font>条：</h3>
+<h3>发现最新漏洞情报<font color="red">17</font>条：</h3>
 <ul>
-    <li><font color="red">1</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
+    <li><font color="red">15</font>条由 [<a href="http://www.nsfocus.net/index.php">绿盟</a>] 提供</li>
+    <li><font color="red">2</font>条由 [<a href="https://redqueen.tj-un.com/IntelHome.html">红后</a>] 提供</li>
 </ul>
 <h3>详细漏洞清单如下：</h3>
 <br/>
-<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-30577</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Zmanda Amanda存在参数注入漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=98239acd-1fb6-4fbd-bf99-693f1b97565b'>https://redqueen.tj-un.com/IntelDetails.html?id=98239acd-1fb6-4fbd-bf99-693f1b97565b</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46848</font><br/>[<b>披露时间</b>] 2023-12-04 03:39:50<br/>[<b>漏洞描述</b>] Squid拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87437'>http://www.nsfocus.net/vulndb/87437</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-5824</font><br/>[<b>披露时间</b>] 2023-12-04 03:39:50<br/>[<b>漏洞描述</b>] Squid拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87436'>http://www.nsfocus.net/vulndb/87436</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42750</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87435'>http://www.nsfocus.net/vulndb/87435</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46931</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] GPAC堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87434'>http://www.nsfocus.net/vulndb/87434</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-46927</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] GPAC堆缓冲区溢出漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87433'>http://www.nsfocus.net/vulndb/87433</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42653</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87432'>http://www.nsfocus.net/vulndb/87432</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42654</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87431'>http://www.nsfocus.net/vulndb/87431</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42633</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87430'>http://www.nsfocus.net/vulndb/87430</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42632</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87429'>http://www.nsfocus.net/vulndb/87429</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1718</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Bitrix24拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87428'>http://www.nsfocus.net/vulndb/87428</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-1717</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Bitrix24原型污染漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87427'>http://www.nsfocus.net/vulndb/87427</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-42647</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android信息泄露漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87426'>http://www.nsfocus.net/vulndb/87426</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48456</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android越界写入漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87425'>http://www.nsfocus.net/vulndb/87425</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48457</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android输入验证错误漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87424'>http://www.nsfocus.net/vulndb/87424</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 绿盟<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2022-48460</font><br/>[<b>披露时间</b>] 2023-11-30 03:39:50<br/>[<b>漏洞描述</b>] Google Android拒绝服务漏洞<br/>[<b>相关链接</b>] <a href='http://www.nsfocus.net/vulndb/87423'>http://www.nsfocus.net/vulndb/87423</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2021-39537</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Gnu等厂商的多款产品存在跨界内存写漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=6c431bbc-19c5-4610-8b3d-027f343ee0d4'>https://redqueen.tj-un.com/IntelDetails.html?id=6c431bbc-19c5-4610-8b3d-027f343ee0d4</a>
+<br/>==============================================<br/>[<b>漏洞来源</b>] 红后<br/>[<b>漏洞编号</b>] <font color='blue'>CVE-2023-29491</font><br/>[<b>披露时间</b>] None<br/>[<b>漏洞描述</b>] Gnu Ncurses存在跨界内存写漏洞()<br/>[<b>相关链接</b>] <a href='https://redqueen.tj-un.com/IntelDetails.html?id=b8647572-1f9a-40a9-90c7-86828dcfd6f2'>https://redqueen.tj-un.com/IntelDetails.html?id=b8647572-1f9a-40a9-90c7-86828dcfd6f2</a>
 
 <br/><br/>
 ++++++++++++++++++++++++++++++++++++++++++++++
